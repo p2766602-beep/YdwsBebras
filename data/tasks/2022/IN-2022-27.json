@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-27",
+  "title_en": "Mysteria",
+  "title_zh": "神祕堡Mysteria",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-27.png",
+    "path": "assets/images/india/2022/IN-2022-27.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In a castle called Mysteria there lives a single wizard. This wizard can turn into a fairy, or create a fairy beside them (to the right). A fairy can turn into a potion (on the left) and a dragon (on the right), or turn into a potion (on the left), a wizard (in the centre), and a dragon (on the right). These magical transformations can happen any number of times, in any order.",
+    "question": "Starting with the single wizard, which state of Mysteria is NOT possible to obtain?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Numbering the four transformation rules 1-4: option A can be obtained by applying transformations 1, 4, 2, and 3 in that order. Option C can be obtained via 2, 2, 3, 4, 1. Option D can be obtained via 2, 1, 3, 3. One quick way to see that option B is impossible: the transformation rules always create a potion and a dragon at the same time, so the number of potions in Mysteria will always equal the number of dragons — which is not the case in option B.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The magical transformations can be thought of as a set of rules used to generate patterns of objects in Mysteria. In computer science, a context-free grammar is one tool used to describe rules that generate patterns — such grammars can describe languages, and by repeatedly applying the grammar's rules you can generate words (or strings) that make up the language. In this task, you had to determine which of the given 'words' was not part of the Mysteria language."
+  },
+  "content_zh": {
+    "prompt": "在一座叫做Mysteria的城堡裡，住著一位孤獨的巫師。這位巫師可以把自己變成一個精靈，或是在自己身旁（右側）憑空創造出一個精靈。精靈可以變成一瓶藥水（在左側）和一條龍（在右側），或是變成一瓶藥水（在左側）、一位巫師（在中間）和一條龍（在右側）。這些魔法變化可以依照任意順序，發生任意次數。",
+    "question": "從單獨一位巫師開始，下面哪一種Mysteria的狀態是不可能出現的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "假設把這四種魔法變化依序編號為1到4：選項A可以透過依序套用變化1、4、2、3得到。選項C可以依序套用2、2、3、4、1得到。選項D可以依序套用2、1、3、3得到。要快速看出選項B不可能發生，有一個訣竅：這些變化規則，永遠會同時產生一瓶藥水和一條龍，所以Mysteria裡藥水的數量永遠會等於龍的數量——但選項B並不符合這個條件。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這些魔法變化，可以看成是一組用來產生Mysteria裡物件樣式的規則。在電腦科學裡，「上下文無關文法」（context-free grammar）是一種可以用來描述「產生樣式規則」的工具。這類文法可以用來描述語言，透過反覆套用文法的規則，就能產生組成這個語言的單字（或字串）。在這一題裡，你需要判斷哪一個給定的「單字」不屬於Mysteria這個語言。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

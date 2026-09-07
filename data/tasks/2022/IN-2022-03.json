@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-03",
+  "title_en": "Making a Necklace",
+  "title_zh": "串珠項鍊",
+  "source_country": "South Korea",
+  "source_country_flag": "🇰🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：South Korea",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-03.png",
+    "path": "assets/images/india/2022/IN-2022-03.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beaver Leela likes to make necklaces with beads. A necklace can be extended by adding or removing beads from the left or right end.",
+    "question": "Leela wants to insert a star-shaped bead where the arrow points. She wants to remove the fewest beads possible. How many beads must Leela remove?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 beads"
+      },
+      {
+        "key": "B",
+        "text": "4 beads"
+      },
+      {
+        "key": "C",
+        "text": "5 beads"
+      },
+      {
+        "key": "D",
+        "text": "6 beads"
+      }
+    ],
+    "answer": "B",
+    "explanation": "This necklace has no knots, so beads can be removed or inserted from either end. Removing beads from the left requires taking out 4 beads to place a star bead where she wants; removing from the right requires taking out 6 beads.",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "An untied necklace string lets beads be removed or added from either end — the last bead added from either end must be removed first. In computer science, this structure is called a double-ended queue (deque), since elements can be added or removed from both ends. If one end is tied, beads can only be removed/added from the other end — this structure is called a stack. Structures like deques and stacks are used in computer science to sequentially input, store, and remove data."
+  },
+  "content_zh": {
+    "prompt": "海狸Leela喜歡用珠子做項鍊。項鍊可以從左邊或右邊加入或移除珠子來變化。",
+    "question": "Leela想在箭頭指的地方插入一顆星形珠子。她想移除最少數量的珠子。Leela最少要移除幾顆珠子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3顆"
+      },
+      {
+        "key": "B",
+        "text": "4顆"
+      },
+      {
+        "key": "C",
+        "text": "5顆"
+      },
+      {
+        "key": "D",
+        "text": "6顆"
+      }
+    ],
+    "answer": "B",
+    "explanation": "這條項鍊沒有打結，所以Leela可以從任一端移除或插入珠子。如果從左邊移除珠子，Leela要拿掉4顆珠子才能把星形珠放到她想要的位置；如果從右邊移除，則要拿掉6顆珠子。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "一條沒打結的項鍊繩，可以從任一端移除或加入珠子——而且不論從哪一端，最後加上去的珠子一定要最先被移除。在資訊科學裡，這種結構叫做「雙向佇列」（deque），因為元素可以從兩端加入或移除。如果其中一端被綁住了，珠子就只能從另一端移除或加入——這種結構叫做「堆疊」（stack）。像雙向佇列和堆疊這樣的結構，在資訊科學裡常被用來依序輸入、儲存和移除資料。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

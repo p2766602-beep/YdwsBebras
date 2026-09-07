@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-08",
+  "title_en": "Burger Recipe",
+  "title_zh": "漢堡食譜",
+  "source_country": "South Korea",
+  "source_country_flag": "🇰🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：South Korea",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-08.png",
+    "path": "assets/images/india/2022/IN-2022-08.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beaver Janhavi is making burgers according to rules: (1) the sauce should be right above the patty; (2) the patty and cheese should be below the pickles, lettuce, and onions; (3) onions should not be in contact with the buns; (4) all ingredients must be between the buns.",
+    "question": "Which burger is correctly made according to the rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) burger A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) burger B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) burger C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) burger D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "(A) follows rules 1 and 2, but the onion touches the top bun, breaking rule 3. (B) follows rule 1, but the lettuce is below the meat and cheese, breaking rule 2. (C) has the cheese between the meat and the sauce, breaking rule 1. (D) satisfies all the rules, so it is correct. (Every option follows rule 4.)",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In computer science, checking whether a solution obeys a set of given rules is called constraint checking. For example, a self-driving car deciding whether it can turn right might use two rules: the light must be green, and there must be no pedestrians crossing. Checking whether a given solution satisfies constraints is one thing; finding such a solution is another — this is called the constraint satisfaction problem. Finding a solution is usually much harder than checking constraints, even for a computer."
+  },
+  "content_zh": {
+    "prompt": "海狸Janhavi正依照下面的規則做漢堡：1.醬料要在肉排的正上方。2.肉排和起司要在酸黃瓜、生菜和洋蔥的下方。3.洋蔥不可以碰到麵包。4.所有食材都必須夾在兩片麵包之間。",
+    "question": "哪一個漢堡是依照規則正確做出來的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）漢堡A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）漢堡B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）漢堡C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）漢堡D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "(A)符合規則1和2，但洋蔥碰到了上面那片麵包，違反了規則3。(B)符合規則1，但生菜在肉和起司的下面，違反了規則2。(C)起司夾在肉和醬料之間，違反了規則1。(D)符合所有規則，所以是正確答案！（順帶一提，每個選項都符合規則4。）",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在電腦科學裡，檢查一個解答是否符合所有給定的規則，叫做「限制條件檢查」（constraint checking）。舉例來說，一輛自駕車要決定能不能右轉，它會用到兩條規則：號誌燈必須是綠燈；而且不能有行人正在穿越馬路。檢查一個給定的解答是否符合限制條件是一回事，找出這樣的解答又是另一回事（這叫做「限制滿足問題」）。大多數時候，即使對電腦來說，找出一個解答都比單純檢查限制條件困難得多。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

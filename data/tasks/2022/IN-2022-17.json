@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2022-17",
+  "title_en": "Ancient Runes",
+  "title_zh": "古代符文",
+  "source_country": "New Zealand",
+  "source_country_flag": "🇳🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：New Zealand",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-17.png",
+    "path": "assets/images/india/2022/IN-2022-17.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The ancient runes were partially decoded by Professor Challenger before his mysterious disappearance. You have found a page from his notebook.",
+    "question": "Which of the following can be decoded as 'BAT'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) E"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The number of spines on the left represents the row number and the number of spines on the right represents the column number; the decoded letter lies at the intersection of the row and column ('I' has 2 on the left and 4 on the right; 'V' has 5 on the left and 2 on the right). Choice D spells 'BAT'. Choice A spells DOG, B spells HOG, C spells CAT, E spells RAT.",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This is an example of a coded (single-word) message. Cracking codes was arguably the birth of modern computing, as featured in movies about Alan Turing, who was at the forefront of cracking the Enigma code used by Germany in World War II. This code is simple but relies on being given 2 clues ('I' and 'V') to work out the pattern. The alphabet is given to you in what, in computing terms, is called a two-dimensional ('2D') array — accessing items in a 2D array is done using 'indexes' that take different values for the row index and the column index."
+  },
+  "content_zh": {
+    "prompt": "這些古代符文，在Challenger教授神祕失蹤之前，已經被他部分解讀出來了。你在他的筆記本裡找到了下面這一頁。",
+    "question": "下面哪一個可以被解讀成「BAT」？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）E"
+      }
+    ],
+    "answer": "D",
+    "explanation": "左邊的刺的數量代表列號，右邊的刺的數量代表欄號，解讀出來的字母就位在該列與該欄的交會處（「I」的左邊有2根刺、右邊有4根刺；「V」的左邊有5根刺、右邊有2根刺）。選項D拼出來的是「BAT」。選項A拼出DOG，選項B拼出HOG，選項C拼出CAT，選項E拼出RAT。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這個問題是一個編碼（單字）訊息的例子。破解密碼可以說是現代電腦誕生的起點，就像關於艾倫・圖靈的電影所描述的那樣——他當年站在破解德國二戰時使用的「恩尼格瑪密碼」（Enigma code）的最前線。這個密碼雖然簡單，但需要靠題目提供的2個線索（「I」和「V」）才能推導出解碼規則。題目給你的字母表，用電腦科學的說法，叫做一個「二維（2D）陣列」；要在程式裡存取二維陣列中的項目，需要用「索引」，列索引和欄索引可以各自取不同的值。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

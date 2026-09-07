@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-28",
+  "title_en": "Favourite Gem",
+  "title_zh": "最愛的寶石",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-28.png",
+    "path": "assets/images/india/2022/IN-2022-28.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ram has a collection of gems, ranked from his overall favourite to his least favourite. Sunita knows what gems are in Ram's collection but not how he has ranked them. Sunita's plan: she chooses four of Ram's gems and asks, 'Out of this group of four, which is your favourite?' — she does this up to three times total, with a new set of four gems each time (though later sets may reuse gems chosen before).",
+    "question": "If Sunita is to reliably find Ram's overall favourite gem this way, what is the largest possible number of gems in Ram's collection?",
+    "options": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answer": "B",
+    "explanation": "With 10 gems, Sunita can ask about eight different gems in her first two requests; each answer is a candidate for the overall favourite, and for her third request she can include these two candidates plus the two gems not yet covered — the answer to this final request must be Ram's overall favourite. If there are at least 11 gems: if the first two requests share a gem, at least four gems remain uncovered, and Sunita has no room to include them AND re-check the earlier candidates in her last request; if the first two requests don't overlap, there are 5 total candidates for the favourite, with no way to narrow to one in a single further request. So 10 is the largest possible number.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task asks us to find the best strategy that always works — a strategy is an algorithm, a sequence of steps that solves a problem, and here we evaluate it to find the maximum collection size for which it still works given its constraints (asking about only four items, only three times). Many algorithms work well in some situations but not others — a good solution quickly is better than no solution! Algorithms are evaluated by things like running time and space usage. Constraints on algorithms can come from many sources, e.g. real-time systems needing a fixed completion time; it isn't inherently a problem that an algorithm fails past a certain threshold, but engineers are responsible for making sure those conditions never actually occur."
+  },
+  "content_zh": {
+    "prompt": "Ram收藏了一些寶石，並依照自己的喜好，把它們從最喜歡排到最不喜歡。Sunita知道Ram收藏裡有哪些寶石，但不知道他是怎麼排序的。Sunita想出了一個找出Ram最愛寶石的計畫：她從Ram的收藏中挑出四顆寶石，問Ram：「在這四顆裡面，你最喜歡哪一顆？」接著她再挑出一組新的四顆寶石，重複問一次；然後她第三次挑出四顆寶石，再問最後一次。（附註：Sunita挑選第二組、第三組寶石時，有時候可以包含之前已經挑過的寶石。）",
+    "question": "如果Sunita想靠這個方法找出Ram整體最喜歡的寶石，Ram的收藏裡最多可以有幾顆寶石？",
+    "options": [
+      {
+        "key": "A",
+        "text": "8顆"
+      },
+      {
+        "key": "B",
+        "text": "10顆"
+      },
+      {
+        "key": "C",
+        "text": "11顆"
+      },
+      {
+        "key": "D",
+        "text": "12顆"
+      }
+    ],
+    "answer": "B",
+    "explanation": "如果有10顆寶石，Sunita在前兩次提問時，可以問到8顆不同的寶石，每次的回答都是「整體最愛」的候選者；第三次提問時，她可以把這兩個候選者，加上另外還沒被問過的兩顆寶石一起問，答案就一定是Ram整體最喜歡的寶石。如果寶石至少有11顆：如果前兩次提問之間有重複的寶石，會剩下至少4顆完全沒被問過，Sunita沒辦法同時把它們問完又重新確認前面的候選者；如果前兩次提問完全不重複，候選者就會有5種可能，沒辦法在最後一次提問中確定答案。因此，10顆就是可行的最大數量。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "要回答這一題，我們需要找出一個永遠有效的最佳策略——這個策略就是一個演算法，一連串能解決問題的步驟，而我們要評估它在哪個寶石數量之內仍然有效（限制是每次只能問4件物品、總共只能問3次）。很多演算法在某些情況下很好用，換了情境卻不管用——能快速得到一個不錯的解答，總比完全沒有解答來得好！評估演算法的方式包括執行時間和使用的記憶體空間。演算法之所以受到限制，可能有很多不同的原因，例如即時系統要求操作必須在固定時間內完成；演算法在超過某個門檻後失效，這本身不是問題，重要的是工程師有責任確保這些條件永遠不會真正發生。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

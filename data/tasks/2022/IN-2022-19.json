@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2022-19",
+  "title_en": "Colourful Tower",
+  "title_zh": "彩色塔",
+  "source_country": "Vietnam",
+  "source_country_flag": "🇻🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Vietnam",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-19.png",
+    "path": "assets/images/india/2022/IN-2022-19.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sameer has hexagon puzzle pieces in three colors. When he places three pieces as shown, the three pieces must all be the same color or all different colors.",
+    "question": "Sameer places pieces in a tower shape as shown below. What must the top piece be?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "there is more than one possibility"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When we know the colors of two pieces beside each other, we know what the color of the piece above them must be. For example, considering the bottom-left unknown piece: since the two pieces below it are green, it must also be green; the piece to its right must be blue, because the two pieces below it are green and yellow. Using this idea to work from the bottom to the top of the tower, the result is uniquely determined (note that we can work in any order on each row of the tower).",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "We found it important to identify which of two cases applies (i.e. two pieces are the same color or a different color), then repeat this until all the colors of the tower are known. This sequence of steps forms an algorithm that can be used to solve the problem. If we wrote a computer program to implement it, identifying the case and taking the right action would correspond to a conditional statement, and the repetition would correspond to a loop. Designing and implementing algorithms is one of the most central and important tasks performed by computer scientists — critical skills include identifying patterns and making careful use of logic."
+  },
+  "content_zh": {
+    "prompt": "Sameer有三種顏色的六邊形拼圖片。當他把三片拼圖片像圖中那樣放在一起時，這三片必須要嘛全部同色，要嘛三片顏色都不一樣。",
+    "question": "Sameer把拼圖片排成下圖這樣的塔狀。最上面那一片必須是什麼顏色？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "有不只一種可能"
+      }
+    ],
+    "answer": "A",
+    "explanation": "當我們知道相鄰兩片拼圖的顏色時，就能推算出它們上方那一片的顏色。舉例來說，考慮左下角那片未知顏色的拼圖：因為它下方的兩片都是綠色，所以它也必須是綠色；而它右邊那一片必須是藍色，因為它下方的兩片分別是綠色和黃色。運用這個方法，從塔的底部往上推算，就能得到唯一的結果（不論你依照哪個順序去推算每一列，最後的結果都會一樣）。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "我們發現，判斷「兩種情況中的哪一種成立」（也就是兩片相鄰拼圖顏色相同，還是不同）是很重要的一步，然後不斷重複這個判斷，直到塔上所有拼圖的顏色都確定為止。這一連串的步驟就構成了一個可以用來解題的演算法。如果我們把這個演算法寫成電腦程式，判斷情況並採取對應動作，會對應到「條件敘述」；而不斷重複這個過程，則會對應到「迴圈」。設計並實作演算法，是電腦科學家最核心也最重要的工作之一；關鍵能力包括辨識樣式，以及謹慎運用邏輯。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

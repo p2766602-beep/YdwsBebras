@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-21",
+  "title_en": "Wheat Storage",
+  "title_zh": "小麥倉庫",
+  "source_country": "Serbia",
+  "source_country_flag": "🇷🇸",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Serbia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-21.png",
+    "path": "assets/images/india/2022/IN-2022-21.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The picture shows several mills and the roads connecting them to a storage building. Every evening, the mills produce sacks of flour and place them in front of the mills. Vivek the beaver must pick up all the sacks and bring them to the storage before sunset. Vivek can carry several sacks at once, but the total weight cannot exceed 15 kg. The picture shows the travel times between mills and the storage.",
+    "question": "Starting from the storage, Vivek wants to bring in all the sacks as fast as possible. How many minutes does it take him to complete this task?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50 minutes"
+      },
+      {
+        "key": "B",
+        "text": "31 minutes"
+      },
+      {
+        "key": "C",
+        "text": "44 minutes"
+      },
+      {
+        "key": "D",
+        "text": "54 minutes"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The total weight of flour is 35 kg. Since Vivek can carry at most 15 kg per trip, he needs at least 3 trips, and to minimise time he should pick up sacks from neighbouring mills together. For example, picking up a 9 kg sack from the upper-left mill, he can also pick up a neighbouring 3 kg sack (total 12 kg). This first trip takes 20 minutes. A second trip picking up the three farthest sacks (6 kg + two 4 kg sacks, totalling 14 kg) takes 24 minutes. A third trip picks up the remaining 9 kg sack closest to storage, taking 6 minutes. Total: 20+24+6 = 50 minutes. Option B isn't enough time even for the first trip and part of the second. Option C is just enough for the first two trips, leaving the nearest 9 kg sack unpicked. Option D takes longer than the optimal answer A.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In computer science, optimisation problems ask us to find the best solution among all possible ones. Solving a problem with a computer is also often about optimisation — e.g. wanting a computer to finish tasks quickly using minimal resources. Here, one could find the best solution by trying every possible route and picking the one with the smallest total time — this is known as the brute-force technique, suitable only for small problems, since it slows down enormously as the problem grows. Other more efficient techniques exist, such as greedy algorithms and dynamic programming."
+  },
+  "content_zh": {
+    "prompt": "圖中顯示了幾座磨坊，以及連接磨坊和倉庫的道路。每天傍晚，磨坊都會生產一袋袋麵粉，並放在磨坊前面。海狸Vivek必須在日落前把所有袋子都收集起來、送到倉庫。Vivek一次可以搬運好幾袋，但總重量不能超過15公斤。圖中標示了Vivek在各磨坊之間、以及到倉庫所需要花費的時間。",
+    "question": "Vivek從倉庫出發，想要盡快把所有袋子都送回倉庫，最少需要花幾分鐘才能完成這項工作？",
+    "options": [
+      {
+        "key": "A",
+        "text": "50分鐘"
+      },
+      {
+        "key": "B",
+        "text": "31分鐘"
+      },
+      {
+        "key": "C",
+        "text": "44分鐘"
+      },
+      {
+        "key": "D",
+        "text": "54分鐘"
+      }
+    ],
+    "answer": "A",
+    "explanation": "麵粉總重是35公斤。因為Vivek每趟最多只能搬15公斤，所以他至少需要跑3趟；為了縮短時間，他應該一次收集相鄰磨坊的袋子。舉例來說，收集左上方磨坊的9公斤袋子時，可以順路收集鄰近磨坊的3公斤袋子（總重12公斤）。這第一趟需要花20分鐘。第二趟收集最遠的三個袋子（6公斤加上兩個4公斤，總重14公斤），需要花24分鐘。第三趟收集離倉庫最近的那個9公斤袋子，只需要6分鐘。總共20+24+6＝50分鐘。選項B(31分鐘)連跑完第一趟加上第二趟的一部分都不夠。選項C(44分鐘)剛好夠跑完前兩趟，但離倉庫最近的那個9公斤袋子還沒收集到。選項D(54分鐘)則比最佳解答A花費更多時間。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在電腦科學裡，最佳化問題是要在所有可能的解答中，找出最好的那一個。用電腦解決問題，也常常牽涉到最佳化，例如我們希望電腦能用最少的資源，在最短的時間內完成工作。在這一題裡，我們可以透過嘗試所有可能的路線，再選出總時間最短的那條路線，來找出最佳解——這種方法叫做「窮舉法」（brute force），適合用在規模較小的問題上。如果問題的規模很大，窮舉法就會執行得很慢。因此，還有其他能更有效率找到解答的技術，例如貪婪演算法和動態規劃。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

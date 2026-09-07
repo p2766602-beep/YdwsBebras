@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-06",
+  "title_en": "Beaver World Cup Ball",
+  "title_zh": "海狸世界盃足球",
+  "source_country": "Australia",
+  "source_country_flag": "🇦🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Australia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-06.png",
+    "path": "assets/images/india/2022/IN-2022-06.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beavers want to make a football like the one in the picture. They have four different options of material to use.",
+    "question": "Which material can they use to make the football?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) material A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) material B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) material C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) material D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Looking at the ball image, all white shapes are 6-sided hexagons and all black shapes are 5-sided pentagons, so options B (uses black hexagons instead of pentagons) and C (uses white triangles instead of hexagons) can be eliminated immediately. There is also only one hexagon edge between any two black pentagons on the ball — this eliminates D, where the black pentagons are separated by at least two hexagon edges. That leaves A, which after verifying does follow both rules, confirming it is correct. (Note: the patterns on A and D don't fit together perfectly because they are a 3D-surface design flattened onto a 2D sheet.)",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Pattern recognition is one of the cornerstones of computational thinking — recognising patterns within or between problems can make them easier to solve. It is also its own field within informatics: with pattern recognition, computers can recognise or distinguish between objects, in principle the same way humans do. Pattern recognition helps in many fields — e.g. diagnosing disease or predicting disease risk in healthcare, or detecting plant disease and weeds from leaf images in agriculture."
+  },
+  "content_zh": {
+    "prompt": "海狸們想做一顆像圖中這樣的足球。牠們有四種不同的材料可以選擇。",
+    "question": "牠們該用哪一種材料來做這顆足球？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）材料A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）材料B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）材料C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）材料D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "觀察足球的圖案，可以馬上看出所有白色圖形都是6邊形，所有黑色圖形都是5邊形。因此可以立刻排除其他選項：選項(B)錯誤，因為它用黑色的6邊形取代了5邊形；選項(C)錯誤，因為它用白色三角形取代了6邊形。我們還可以觀察到，足球上任兩個黑色5邊形之間只隔著一條6邊形的邊——這排除了選項(D)，因為它的黑色5邊形之間隔了至少兩條6邊形的邊。這樣就只剩下選項(A)，驗證它確實同時符合這兩條規則之後，就能確認這是正確答案。（附註：選項(A)和(D)的圖案看起來對不太齊，是因為這是把立體球面上的設計，攤平畫在2D的紙上。）",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "樣式辨識是運算思維的基石之一——能辨認出一個問題內部或多個問題之間的樣式，能幫助我們更輕鬆地解決問題。除了是運算思維的基石，樣式辨識本身也是資訊科學裡的一個領域。透過樣式辨識，電腦可以辨認或區分不同的物件，原則上跟人類辨認物體的方式是一樣的。樣式辨識在許多領域都幫助了人類：例如在醫療領域，樣式辨識可以用來輔助診斷疾病、預測患病風險；在農業領域，樣式辨識可以透過葉片影像偵測植物病害和雜草。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

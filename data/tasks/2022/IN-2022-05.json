@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-05",
+  "title_en": "Put Your Shirts Away!",
+  "title_zh": "把襯衫收好！",
+  "source_country": "Pakistan",
+  "source_country_flag": "🇵🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Pakistan",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-05.png",
+    "path": "assets/images/india/2022/IN-2022-05.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Preeti has a pile of six clean shirts on her bed. She has to put them into her four drawers. She takes one shirt at a time from the top of the pile and puts it into a drawer — starting with the top drawer, then the second from top, and so on. When she has put a shirt into the bottom drawer, she starts again from the top.",
+    "question": "Into which drawer will she put the last shirt?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) drawer A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) drawer B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) drawer C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) drawer D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Preeti puts the 1st shirt in the top drawer, the 2nd in the second drawer, the 3rd and 4th in the third and bottom drawers respectively. Since the 4th drawer is the bottom drawer, the 5th shirt goes into the top drawer again, and finally the 6th shirt goes into the second drawer.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task is about repeatedly cycling through a fixed sequence of positions — the same idea used in a circular queue or modulo arithmetic in programming, where a counter wraps back to the start after reaching the end. Recognising such repeating cycles, as also seen in the classic tortoise-and-hare cycle-detection algorithm, is a common pattern in computer science."
+  },
+  "content_zh": {
+    "prompt": "Preeti的床上有一疊6件乾淨的襯衫，她要把它們放進4個抽屜裡。她每次從疊好的襯衫最上面拿一件，放進一個抽屜——先放最上面的抽屜，接著是由上往下數第二個抽屜，依此類推。當她把一件襯衫放進最底層的抽屜之後，就會重新從最上面的抽屜開始。",
+    "question": "她會把最後一件襯衫放進哪一個抽屜？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）抽屜A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）抽屜B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）抽屜C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）抽屜D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Preeti把第1件襯衫放進最上面的抽屜，第2件放進第二個抽屜，第3、4件分別放進第三個和最底層的抽屜。因為第4個抽屜是最底層，所以第5件襯衫又重新放進最上面的抽屜，最後第6件襯衫放進第二個抽屜。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題是關於反覆循環走過一組固定位置——這正是程式設計裡「環狀佇列」（circular queue）或「取餘數」（modulo）運算的概念：計數器走到最後一個位置後，會自動繞回到起點重新開始。能夠辨認出這種重複循環的規律，就像經典的龜兔賽跑環偵測演算法一樣，是電腦科學裡常見的思維模式。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

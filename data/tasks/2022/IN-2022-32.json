@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-32",
+  "title_en": "Favorite Movie",
+  "title_zh": "最喜歡的電影",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-32.png",
+    "path": "assets/images/india/2022/IN-2022-32.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A group of friends needs to choose one of seven movies to watch. Each friend rates every movie, from best to worst. A movie is called a 'favourite movie' if all friends give it their best rating. (For example, movie 1 is not a favourite movie because Niklaus gave his best rating to movie 4.)",
+    "question": "What is the smallest possible number of ratings that need to be changed so that there will be a favourite movie?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "There's no way to make a favourite movie by changing only 1 rating: for every movie, at least two friends rate some other movie better. Movie 6 is only rated worse-than-best by two friends (Niklaus and Rozsa) — the fewest of any movie. So Ada needs Niklaus and Rozsa each to change one rating (either directly improving movie 6, or downgrading whichever movie they rate above it) to make movie 6 everyone's favourite — a minimum of 2 changes.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "One way to solve this: for each movie and each person, check whether any other movie has a better rating from that person, building a full table, then reading off which movie needs the fewest changes. Is this efficient? With M movies and F friends, this requires M*(M-1)*F comparisons. But you only need each person's single best rating to spot a 'problem' rating, so you can pre-compute best ratings (M*F lookups) then check every rating against it (M*F lookups): 2*M*F total. With M=7, F=6, that's 84 lookups versus 252 — both solve the problem, but the second is far more efficient. Solving a problem both effectively and efficiently is one of the core activities for computer scientists."
+  },
+  "content_zh": {
+    "prompt": "一群朋友要從七部電影中選一部一起看。每個人都對每部電影評分（如圖所示，從最好到最差排序）。如果所有朋友都把某部電影評為自己心中的最佳，這部電影就叫做「最愛電影」。舉例來說，電影1不是最愛電影，因為Niklaus把他的最佳評價給了電影4。",
+    "question": "最少需要改變幾個評分，才能出現一部「最愛電影」？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1個"
+      },
+      {
+        "key": "B",
+        "text": "2個"
+      },
+      {
+        "key": "C",
+        "text": "3個"
+      },
+      {
+        "key": "D",
+        "text": "4個"
+      }
+    ],
+    "answer": "B",
+    "explanation": "沒有辦法只改變1個評分就產生一部最愛電影：在調查中，每一部電影都至少有兩位朋友把另一部電影評得更好。舉例來說，電影6是所有電影中，被評得比它更好的次數最少的（只有Niklaus和Rozsa兩人）。因此，Ada必須說服Niklaus和Rozsa，讓他們各自改變一個評分，讓電影6成為每個人的最愛——他們可以直接調高自己對電影6的評分，或是調低自己原本評得比電影6更高的那部電影的評分。因此，最少需要改變2個評分。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "解決這一題的一種方式，是針對每一部電影、每一個人，逐一檢查是否有其他電影得到這個人更高的評價，整理成一張表，就能知道該改變哪些評分。但這樣做有效率嗎？假設有M部電影、F位朋友，這個做法需要檢查M×(M–1)×F次。但其實只要先找出每個人給過的最高評分（M×F次），再檢查所有評分是否低於該人的最高評分（再M×F次），總共2×M×F次就夠了。以M=7、F=6來說，這樣只需要84次，前一種做法則需要252次——第二種演算法一樣能解決問題，但效率明顯更高。對電腦科學家來說，核心工作之一，就是不僅要有效地解決問題，還要盡可能有效率地解決問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

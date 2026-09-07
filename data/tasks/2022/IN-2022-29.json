@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2022-29",
+  "title_en": "Listen and Walk",
+  "title_zh": "邊聽邊走",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-29.png",
+    "path": "assets/images/india/2022/IN-2022-29.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Tina, who is blind, walks through a city along roads using her talking glasses, which have cameras and an intelligent object-recognition system. They can recognise four types of squares on the map: a house, a tree, a road, and a lawn. When Tina enters a new road square, the glasses tell her — in this order — what is on her left, what is in front of her, and what is on her right, e.g. 'tree, road, house.' Tina starts (facing the right side of the map) at the triangle and listens to her glasses. Here is what they tell her: tree-road-house, road-road-lawn, tree-road-tree, road-road-road, tree-road-tree, tree-house-road, road-road-tree, house-road-tree. At the end, Tina has arrived at one of the squares labelled with a letter.",
+    "question": "At which one?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "C"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      },
+      {
+        "key": "E",
+        "text": "E"
+      }
+    ],
+    "answer": "B",
+    "explanation": "There are different strategies. One is to follow the path from the start, matching each new observation to the map, backtracking whenever the current path's next observation doesn't match what the glasses report (since the glasses never announce turns) — trying every branch until routes are exhausted or a target is reached. Alternatively, check the six target squares directly: only B and D match 'house-road-tree', but both squares adjacent to D fail to match the next-to-last description 'road-road-tree' — so B must be Tina's destination.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task shows how just knowing a log of the glasses' messages is enough to recover Tina's final square among several possibilities, given additional knowledge of the environment (it's worth considering how sensitive such personal, especially spatial/geographic, data can be). Object recognition is an important topic in computer science — an AI system can be trained to recognise houses, trees, and road surfaces; a self-driving car must recognise people, other cars, and traffic signs to decide where to go. To help blind and visually-impaired people, modern web media includes Automatic Alt Text (AAT), which uses object recognition to automatically generate verbal descriptions of images. 'Talking glasses' are still largely science fiction, but real projects exist trying to implement the idea."
+  },
+  "content_zh": {
+    "prompt": "看不見的Tina，戴著會說話的眼鏡，沿著道路在城市裡走動。這副眼鏡裝有攝影機和智慧型的物體辨識系統，可以辨認出下方地圖上的四種方格：房子、樹、道路和草坪。每當Tina走進一個新的道路方格，會說話的眼鏡就會依序告訴她：她左邊是什麼、正前方是什麼、右邊是什麼，例如：「樹、道路、房子」。Tina從三角形的位置出發（面朝地圖右側），一路聽著眼鏡的提示，內容如下（從起始方格開始）：樹道路房子、道路道路草坪、樹道路樹、道路道路道路、樹道路樹、樹房子道路、道路道路樹、房子道路樹。走完之後，Tina抵達了其中一個標示著字母的方格。",
+    "question": "她抵達的是哪一個？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "C"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      },
+      {
+        "key": "E",
+        "text": "E"
+      }
+    ],
+    "answer": "B",
+    "explanation": "有不同的策略可以找到答案。你可以直接從起點沿著路走，把每個新聽到的提示跟地圖比對；因為眼鏡不會告訴我們Tina什麼時候轉彎，所以如果某個路口的下一組提示同時符合好幾條路，就要每條路都各自嘗試，不斷嘗試直到所有可能的路都試過，或是抵達了其中一個目標為止。另一種方法，是直接檢查六個目標方格：只有B和D符合「房子道路樹」這個描述，但D旁邊相鄰的方格都對不上倒數第二組提示「道路道路樹」，因此B一定就是Tina的目標方格。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題告訴我們，光是知道會說話的眼鏡告訴Tina的一連串訊息紀錄，配合對環境的額外知識，就足以從好幾個可能性中反推出她最後抵達的方格（值得思考的是，這類個人資訊——尤其是空間或地理位置資料——其實相當敏感）。物體辨識是電腦科學裡重要的一個主題：人工智慧系統可以被訓練來辨識房子、樹木、路面這類物體；自駕車必須辨識行人、其他車輛和交通號誌，才能決定該往哪裡走。為了幫助視障或視力不佳的人，現代的網頁媒體也導入了「自動替代文字」（Automatic Alt Text，AAT）技術，運用物體辨識自動為圖片產生口語化的描述文字。「會說話的眼鏡」目前還算是科幻情節，但確實已經有真實的計畫在嘗試實現這個構想。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

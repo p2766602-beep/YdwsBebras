@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2022-33",
+  "title_en": "Seashells and Pebbles",
+  "title_zh": "貝殼與鵝卵石",
+  "source_country": "Italy",
+  "source_country_flag": "🇮🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Italy",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-33.png",
+    "path": "assets/images/india/2022/IN-2022-33.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ann and Bob are playing on the beach. Ann has collected many light-coloured shells; Bob has collected many dark pebbles. They dig holes in the sand and connect them with furrows, then take turns placing one of their pieces into an empty hole — Ann starts. The loser is the first player to place two of their own pieces into two holes connected by a furrow.",
+    "question": "They have reached the position shown in the figure. It is Ann's turn — in which empty hole (between 1 and 7) must she place a shell to guarantee her own victory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "7"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Holes 1, 3, 4, and 6 are 'closed' to Ann; holes 1, 4, 5, and 6 are closed to Bob. After Ann places a shell in 7, Bob can only play 2 or 3 — either way, Ann then plays 5, forcing Bob to lose. (If Ann had instead played 2 or 5 first, Bob would have a path to force Ann to lose instead.) Interestingly, from this same position, if it were Bob's turn instead, Bob would also lose — and going back to the very start of the game, Bob (playing second) actually had a winning strategy, but made at least one mistake along the way.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is an instance of COL, a two-person perfect-information positional game introduced by Colin Vout, discussed by the mathematician John Horton Conway in his book 'On Numbers and Games', alongside a related game, SNORT. Games like COL and SNORT can be modelled with a simple, undirected graph, where the board's holes are vertices and the furrows are edges, and can be 'solved' by a computer program: building the complete game tree (root = empty board, children = states reachable by one move), then working backwards from the final states, assigning each node the negated minimum value of its children — a recursive algorithm called negamax, a simplified version of the well-known minimax algorithm. Zermelo's 1912 theorem applies to all finite games of this class: when both players play perfectly, the game either ends in a draw, or one player has a winning strategy."
+  },
+  "content_zh": {
+    "prompt": "Ann和Bob在海灘上玩耍。Ann收集了很多淺色的貝殼，Bob收集了很多深色的鵝卵石。他們在沙灘上挖了幾個洞，並用溝渠把這些洞連起來，然後輪流把自己的一顆棋子放進一個空洞裡，Ann先開始。誰先把自己的兩顆棋子，放進被同一條溝渠連起來的兩個洞裡，誰就輸了。",
+    "question": "他們已經走到上圖顯示的局面，現在輪到Ann下。她該在哪一個空洞（編號1到7之間）放入貝殼，才能確保自己獲勝？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "7"
+      }
+    ],
+    "answer": "E",
+    "explanation": "對Ann來說，洞1、3、4、6都是「禁區」；對Bob來說，洞1、4、5、6是禁區。當Ann把貝殼放進7號洞之後，Bob只能選擇2號或3號洞——不論哪一種，Ann接下來只要放進5號洞，就能逼Bob輸掉遊戲。（如果Ann一開始改放進2號或5號洞，反而會換成Bob有辦法逼Ann輸。）有趣的是，從圖中這個局面來看，如果換成是Bob先下，Bob其實也會輸；而如果從一開始的空棋盤算起，身為後手的Bob，其實原本擁有必勝的策略……但他至少犯了一次錯誤！",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "我們剛才示範的其實是COL遊戲的一個實例——這是一種雙人、資訊完全公開的位置型遊戲，由Colin Vout發明，數學家John Horton Conway在他的著作《On Numbers and Games》裡討論過這個遊戲，同時還介紹了另一個相關的遊戲SNORT。像COL和SNORT這樣的遊戲，可以用一個簡單、無向的圖來建模，棋盤上的洞是頂點，溝渠是邊，並且可以透過電腦程式來「求解」：建立完整的賽局樹（樹根是空棋盤，子節點是下一步可能到達的所有局面），再從最終局面開始反向推算，把每個節點的值設為它所有子節點值中「最小值再取負號」——這種遞迴演算法叫做「negamax」，是知名的「minimax」演算法的簡化版本。1912年由Ernst Zermelo提出的定理，適用於這一整類的有限遊戲：當雙方都採取最佳策略時，遊戲要嘛會以平局收場，要嘛其中一位玩家必定擁有必勝策略。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

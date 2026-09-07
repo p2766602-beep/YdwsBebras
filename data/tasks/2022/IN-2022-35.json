@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-35",
+  "title_en": "Maze",
+  "title_zh": "兩層迷宮",
+  "source_country": "Uzbekistan",
+  "source_country_flag": "🇺🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Uzbekistan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-35.png",
+    "path": "assets/images/india/2022/IN-2022-35.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The Little Beaver is in a maze made up of two floors, each with its own grid of obstacles. The Little Beaver can move between two adjacent cells within one floor if there is no obstacle between them, taking one second; she can also use her magic wand to move to the corresponding cell on the other floor, taking five seconds. The Little Beaver starts at cell A and wants to reach cell B as soon as possible.",
+    "question": "What is the shortest time needed for the Little Beaver to reach cell B, starting from cell A?",
+    "options": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "17"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This is a shortest-path problem, solvable for example with Dijkstra's algorithm. Working out the optimal path lengths to all cells from A shows the shortest path to B has length 18. (Option D, 20, is the optimal path staying within a single floor. Option A, 16, is merely a lower bound that ignores the actual obstacles in the maze.)",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The shortest-path problem is a well-studied graph theory problem, with applications including finding an optimal path in a computer network or on a city map. The version of this problem on a grid graph also has applications such as wire routing in VLSI chip design (the so-called 'maze runner' problem), where moving between layers of a circuit is typically more expensive than moving within one layer — just as moving between floors costs more than moving within a floor in this task. Real VLSI circuits can have around 10 layers of silicon, requiring routing of millions or billions of wires."
+  },
+  "content_zh": {
+    "prompt": "小海狸身處一座迷宮，這座迷宮由兩層樓組成，每一層都有自己的一套障礙物格子網。小海狸可以在同一層樓內，於兩個相鄰的格子之間移動，只要兩格之間沒有障礙物，這樣移動要花1秒；小海狸也可以使用魔杖，移動到另一層樓對應的格子，這樣要花5秒。小海狸從格子A出發，想要盡快抵達格子B。",
+    "question": "小海狸從格子A出發，最少需要多少秒才能抵達格子B？",
+    "options": [
+      {
+        "key": "A",
+        "text": "16秒"
+      },
+      {
+        "key": "B",
+        "text": "17秒"
+      },
+      {
+        "key": "C",
+        "text": "18秒"
+      },
+      {
+        "key": "D",
+        "text": "20秒"
+      }
+    ],
+    "answer": "C",
+    "explanation": "這是一個最短路徑問題，可以用戴克斯特拉演算法（Dijkstra's algorithm）之類的方法求解。從A出發，計算到所有格子的最佳路徑長度後可以看出，抵達B的最短路徑長度是18。（選項D的20，對應只在同一層樓內移動時的最佳路徑；選項A的16，只是一個下界，並沒有考慮到迷宮裡實際存在的障礙物。）",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "最短路徑問題是圖論裡一個被深入研究的經典問題，應用範圍包括在電腦網路中找出最佳路徑，或是在城市地圖上規劃路線。這一題所呈現的網格圖上的最短路徑問題，也有許多實際應用，例如超大型積體電路（VLSI）設計中的佈線問題（也就是所謂的「迷宮繞線」）——在這種情境下，跨層佈線的成本通常比同一層內佈線更高，就像這一題裡跨樓層移動比同層內移動更花時間一樣。實際的VLSI電路可能建構在約10層的矽晶層上，需要規劃數百萬甚至數十億條佈線。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

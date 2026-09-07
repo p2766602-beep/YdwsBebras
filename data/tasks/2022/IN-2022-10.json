@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-10",
+  "title_en": "Building Instruction",
+  "title_zh": "蓋房子的指示",
+  "source_country": "Vietnam",
+  "source_country_flag": "🇻🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Vietnam",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-10.png",
+    "path": "assets/images/india/2022/IN-2022-10.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In Beaverland, block houses are built out of different blocks. A crane takes blocks one by one in a given order and puts each block anywhere on the base or on top of another block. The house shown is built using a given sequence of blocks.",
+    "question": "Which house cannot be built out of this block sequence?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) house A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) house B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) house C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) house D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In the 'C' house, a block is placed on another block that, in the given sequence, must come after it — which is impossible since the crane places blocks in order.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task deals with a list of objects (the blocks) and a set of possible actions on them — the crane operator chooses what action to perform (where to put each block). To program a crane to construct a house, we would need to specify, for each block, which action to take. This task emphasizes tracing a program — tracing all possible paths of decisions depending on where a block is placed. After each placement, many possible states can result, and each must be tracked to figure out all possible next states — a process similar to how programs are debugged and verified."
+  },
+  "content_zh": {
+    "prompt": "在海狸樂園裡，房子是用不同的積木蓋成的。吊車會依照給定的順序，一次拿一塊積木，並把每塊積木放在地基上或另一塊積木的上面。下方顯示的房子，就是用這個順序的積木蓋出來的。",
+    "question": "哪一棟房子不可能用這個積木順序蓋出來？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）房子A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）房子B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）房子C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）房子D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "在「C」這棟房子裡，有一塊積木被放在另一塊積木上面，但依照給定的順序，那一塊積木必須要排在後面才會出現——這是不可能發生的，因為吊車是依照順序放置積木的。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題處理的是一份物件清單（這裡是積木）以及能對它們執行的一組可能動作。吊車操作員可以選擇要執行哪個動作（也就是要把積木放在哪裡）。如果要寫程式操控吊車蓋房子，我們就需要為每一塊積木指定該採取的動作。這一題強調的是「追蹤程式執行過程」的概念，而且是追蹤所有可能的決策路徑——也就是每放置一塊積木之後，可能會產生許多不同的狀態，每一個狀態都必須被記錄下來，才能推算出所有可能的下一步狀態。這跟程式除錯與驗證的過程非常類似。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

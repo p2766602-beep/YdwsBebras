@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-12",
+  "title_en": "Sticker Collection",
+  "title_zh": "貼紙收藏",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-12.png",
+    "path": "assets/images/india/2022/IN-2022-12.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ajay, Divya, Ram and Seema collect stickers of things they like — each likes only one thing. They want to share four new stickers so each gets one that fits their collection. Ajay does not like cars but loves snacks. Divya does not like flowers. Ram exchanged his car sticker with Divya. Seema is an animal lover.",
+    "question": "Which stickers will Ajay, Divya, Ram and Seema finally get?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ajay-Car, Divya-Flower, Ram-Burger, Seema-Dog"
+      },
+      {
+        "key": "B",
+        "text": "Ajay-Burger, Divya-Car, Ram-Flower, Seema-Dog"
+      },
+      {
+        "key": "C",
+        "text": "Ajay-Burger, Divya-Flower, Ram-Car, Seema-Dog"
+      },
+      {
+        "key": "D",
+        "text": "Ajay-Burger, Divya-Car, Ram-Dog, Seema-Flower"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Option A is wrong because Ajay does not like cars. Option C is wrong because Ram exchanged his car sticker with Divya, so Ram cannot have the car sticker. Option D is wrong because Seema has the flower sticker, but the clue says she loves animals. Option B satisfies all the conditions.",
+    "ct_skills": "Logical thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task requires logical thinking to satisfy everyone's interests — each person has a particular preference, and there is only one way to distribute the four stickers so everyone is satisfied. Logical thinking matters in programming: a programmer must use logical operators (such as 'and', 'or', 'not') to write a program that satisfies certain conditions. As a programmer solving this kind of question, you must carefully: identify the result you want to achieve; note what facts are available; break the problem into smaller parts and filter out irrelevant data; keep the rules/conditions in mind; track the execution of actions; and test the result by working backwards, staying open to revision."
+  },
+  "content_zh": {
+    "prompt": "Ajay、Divya、Ram和Seema收集他們喜歡的東西的貼紙，每個人都只喜歡一種東西。他們想分配四張新貼紙，讓每個人都拿到符合自己收藏主題的貼紙。已知：Ajay不喜歡車子，但很愛零食；Divya不喜歡花；Ram把他的車子貼紙跟Divya交換了；Seema是個愛動物的人。",
+    "question": "Ajay、Divya、Ram和Seema最後各自會拿到哪一張貼紙？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ajay-車子，Divya-花，Ram-漢堡，Seema-狗"
+      },
+      {
+        "key": "B",
+        "text": "Ajay-漢堡，Divya-車子，Ram-花，Seema-狗"
+      },
+      {
+        "key": "C",
+        "text": "Ajay-漢堡，Divya-花，Ram-車子，Seema-狗"
+      },
+      {
+        "key": "D",
+        "text": "Ajay-漢堡，Divya-車子，Ram-狗，Seema-花"
+      }
+    ],
+    "answer": "B",
+    "explanation": "選項A錯誤，因為題目明確說Ajay不喜歡車子，所以選項A不會是正確答案。選項C錯誤，因為題目提到Ram已經把他的車子貼紙跟Divya交換了，所以Ram不可能還拿著車子貼紙。選項D裡，Seema拿到花貼紙，但題目說她喜愛動物，也不符合。選項B滿足了所有條件。",
+    "ct_skills": "邏輯思維（Logical thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在這一題裡，我們必須運用邏輯思維，同時滿足Ajay、Divya、Ram和Seema各自的喜好——每個人都有特定的喜好，而分配四張貼紙讓每個人都滿意的方法只有一種。邏輯思維在程式設計裡非常重要：程式設計師必須運用邏輯運算子（例如「且」、「或」、「非」）來寫出能滿足特定條件的程式。在解這一題時，身為一位程式設計師，你必須仔細地：確認你想要達成的結果；掌握有哪些已知的事實；把問題拆解成更小的部分，並過濾掉不相關的資料；隨時記住題目中的規則或條件；追蹤動作的執行過程；並透過反向推導來驗證結果是否正確，同時保持開放的心態去修正。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

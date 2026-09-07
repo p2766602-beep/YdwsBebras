@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-18",
+  "title_en": "Pool Party Lockers",
+  "title_zh": "泳池派對置物櫃",
+  "source_country": "Pakistan",
+  "source_country_flag": "🇵🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Pakistan",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-18.png",
+    "path": "assets/images/india/2022/IN-2022-18.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The Beavers are going to a pool party! At the pool party, the beavers handed over their locker keys along with the locker number to the Old Beaver for safekeeping. The Old Beaver has devised a system to keep track of the locker number for each key — for example, for locker number 243 the Old Beaver draws the digits 2, 4, and 3 one by one on paper and connects the digits to the purple key. Later, water got onto the paper and smudged some of the written digits.",
+    "question": "Knowing that the keys for locker numbers 73X, 24XX, and 7X1X are arranged in order, which of the following sets of keys is the correct set for these lockers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) set A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) set B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) set C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) set D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The third locker number has 4 digits and starts with 7, so it can only be the key matching that pattern. Similarly, the second key must start with 2 and have 4 digits. The first key can be either 733 or 732, since both start with 73. So the correct answer is A. (An alternative valid answer could exist but is not offered as a choice.)",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "The diagram drawn by the Old Beaver represents what's called a trie (from 'reTRIEval') — a tree data structure used to store key-value pairs, similar to a hash table. A trie is built as a directed tree graph where each edge is labelled with a digit or letter; a value is obtained by following the graph one symbol at a time. Unlike a hash table, where a value can only be found by an exact match, a trie allows searching by prefix and finding all possible matches — very useful for auto-completion. Tries are used to store dictionaries, for indexing in search engines, for sorting (their structure resembles Radix Sort), and for pattern-recognition tasks close to automata theory."
+  },
+  "content_zh": {
+    "prompt": "海狸們要去泳池派對啦！在泳池派對上，海狸們把置物櫃鑰匙連同櫃號一起交給老海狸保管。老海狸想出了一套系統，用圖中的方式記錄每把鑰匙對應的櫃號——舉例來說，如果櫃號是243，老海狸就會依序把數字2、4、3畫在紙上，再把這些數字連到那把紫色鑰匙上（如圖最下方）。到了傍晚，海狸們發現紙上不小心沾到水，弄糊了一些寫上去的數字。",
+    "question": "已知櫃號73X、24XX、7X1X的鑰匙是依序排列的，下面哪一組鑰匙才是這幾個置物櫃正確的鑰匙？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）鑰匙組A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）鑰匙組B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）鑰匙組C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）鑰匙組D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "第三個櫃號有4位數，而且是7開頭，所以它只可能對應到那把鑰匙。同樣地，第二把鑰匙必須是2開頭、4位數的那一把。第一把鑰匙則可能是733或732，因為兩者都是73開頭。因此正確答案是A。（雖然理論上還有另一種答案也成立，但選項裡沒有提供這個選項。）",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "老海狸畫出來的圖，其實就是一種叫做「字典樹」（Trie，來自英文retrieval「檢索」一詞）的樹狀資料結構，用來儲存鍵值對，功能類似雜湊表（hash table）。字典樹是以有向樹狀圖的方式建構的，每一條邊都標示著一個數字或字母；只要沿著圖一個符號一個符號地走，就能得到對應的值。相較於雜湊表只能透過完全符合的鍵來查值，字典樹的優點是可以用「前綴」來搜尋，並找出所有可能符合的結果，這在自動完成的功能裡非常實用。字典樹常被用來儲存字典，也應用在搜尋引擎的索引功能上；它也可以用在排序，因為它的內部結構跟基數排序法（Radix Sort）類似；其他用途還包括樣式辨識相關的工作，跟自動機理論也有關聯。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

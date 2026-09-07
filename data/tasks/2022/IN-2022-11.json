@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-11",
+  "title_en": "Pick Up Sticks",
+  "title_zh": "挑棒子遊戲",
+  "source_country": "Brazil",
+  "source_country_flag": "🇧🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Brazil",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-11.png",
+    "path": "assets/images/india/2022/IN-2022-11.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Anu is playing the pick-up-sticks game. She drops some sticks on a table, then picks them all up according to these rules: pick up one stick at a time; only pick up a stick if no other stick is covering it.",
+    "question": "Anu dropped 6 sticks as shown. In which order should she pick them up?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) order A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) order B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) order C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) order D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Since Anu must pick up one stick at a time without moving the others, she must always pick up whichever stick currently lies on top of the others. The stick on top is first the dotted grey one; once picked up, the white one is on top; then the dotted black one. The full order is: dotted grey → white → dotted black → dotted white → black → grey.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Students must think step by step about which sticks are already taken and which one is currently on top, following the rules ('one at a time', 'without moving the others') — algorithmic thinking. They also must associate the order sticks are taken with the colour sequence in the diagram — data structures and representation. Removing a stick can be seen as an operation on an abstract structure (such as a stack) that is only allowed when certain requirements are met; after a sequence of valid removals, the result is a simplified version of the original structure."
+  },
+  "content_zh": {
+    "prompt": "Anu正在玩挑棒子遊戲。她把一些棒子丟在桌上，然後依照下面的規則把它們一根根撿起來：一次只能撿一根棒子；只有在沒有其他棒子壓著它的時候，才能撿起這根棒子。",
+    "question": "Anu丟出了6根棒子，如圖所示。她應該依照什麼順序把它們撿起來？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）順序A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）順序B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）順序C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）順序D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "因為Anu一次只能撿一根棒子，而且不能移動其他棒子，所以她每次都必須撿起「目前壓在最上面」的那根棒子。一開始壓在最上面的是灰色點狀的棒子；撿起灰色點狀棒子後，壓在最上面的變成白色棒子；撿起白色棒子後，壓在最上面的變成黑色點狀棒子。Anu撿棒子的完整順序是：灰色點狀→白色→黑色點狀→白色點狀→黑色→灰色。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "學生必須一步步思考哪些棒子已經被撿走、哪一根目前在最上面，因為他們必須遵守一些規則：「一次只能撿一根棒子」、「撿棒子時不能移動其他棒子」（這就是演算法思維）。此外，他們還必須把撿棒子的順序，跟圖中的顏色順序對應起來（這是資料結構與表示法）。再者，撿走一根棒子這個動作，可以看成是對某種抽象結構（例如堆疊）進行的一項操作，而且只有在滿足特定條件時才能進行；經過一連串有效的轉換之後，最後的結果可以看成是原始結構被簡化後的版本。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

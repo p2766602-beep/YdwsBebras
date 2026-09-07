@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-01",
+  "title_en": "Coloring Page",
+  "title_zh": "塗色頁",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-01.png",
+    "path": "assets/images/india/2022/IN-2022-01.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Pankaj wants to paint a coloring page. He sets up one rule: two touching areas must not have the same color.",
+    "question": "What is the least number of colors he needs to fulfil the rule?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "It is not possible to fulfil the rule with just 2 colors, as can easily be seen by looking at any three mutually touching areas — to satisfy the rule, all three must be colored differently. A coloring using just 3 colors is possible, as shown in the picture.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "In computer science, problems like this are known as the graph colouring problem — a well-known problem with many practical applications, such as splitting participants into groups for a sports tournament, scheduling, or traffic management. When a picture has many regions, this problem can become very complex to solve."
+  },
+  "content_zh": {
+    "prompt": "Pankaj想要塗一張著色頁。他訂了一個規則：兩個相鄰的區域不能塗同一個顏色。",
+    "question": "他最少需要幾種顏色才能符合這個規則？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2種"
+      },
+      {
+        "key": "B",
+        "text": "3種"
+      },
+      {
+        "key": "C",
+        "text": "4種"
+      },
+      {
+        "key": "D",
+        "text": "5種"
+      }
+    ],
+    "answer": "B",
+    "explanation": "光用2種顏色不可能符合規則，只要看任何三個互相相鄰的區域就能明白——要符合規則，這三個區域必須塗成三種不同的顏色。用3種顏色著色是可行的，如圖所示。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "在電腦科學裡，這類問題被稱為「圖著色問題」——這是一個知名的問題，有許多實際應用，例如把運動賽事的參賽者分組、排課，或交通管理。當一張圖有很多區域時，要解決這個問題會變得非常複雜。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-30",
+  "title_en": "Rug Weaving",
+  "title_zh": "織地毯",
+  "source_country": "Turkey",
+  "source_country_flag": "🇹🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Turkey",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-30.png",
+    "path": "assets/images/india/2022/IN-2022-30.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Hale is a Turkish weaving artist making a square rug with 6 rows and 6 columns. Hale determines the colour of each square in her 6x6 rug grid by asking a sequence of questions about each square's row and column numbers, as shown.",
+    "question": "Using this method, what would the resulting rug look like?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The first question marks all squares in row 1, row 6, column 1, or column 6 with a purple shape. The second question marks every square on the diagonal (row number = column number) with a red shape. Next, every square to the left of the diagonal (row number greater than column number) gets a blue shape. Finally, every remaining square to the right of the diagonal gets a yellow shape — giving the rug shown in option B.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In mathematics and computer science, an algorithm is a finite sequence of well-defined instructions typically used to solve a class of problems. A decision tree is one way of clearly displaying the structure of an algorithm made up of conditional (IF/ELSE) statements: each layer is a question — if true, the algorithm follows one branch, otherwise the other — continuing until reaching an outcome. With artificial intelligence, algorithms can perform automated deductions and use mathematical/logical tests to route the program down different paths."
+  },
+  "content_zh": {
+    "prompt": "Hale是一位土耳其編織藝術家，她正在織一張6列6欄的方形地毯。Hale依照如圖所示的一連串問題，決定地毯格子網上每個方格該畫上什麼符號。",
+    "question": "用這個方法，最後織出來的地毯會長什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Hale問的第一個問題，指出第1列、第6列，以及第1欄、第6欄的方格都應該畫上紫色圖形。第二個問題，讓對角線上（列號跟欄號相同）的所有方格，都畫上紅色圖形。再往下一層問題，對角線左側（列號大於欄號）的方格畫上藍色圖形。最後，剩下對角線右側的方格全部畫上黃色圖形，得到選項B所示的結果。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在數學和電腦科學裡，「演算法」是指一連串定義清楚、有限步驟的指令，通常用來解決某一類特定問題。「決策樹」是把由條件敘述（例如IF/ELSE敘述）構成的演算法結構，清楚呈現出來的一種方式：決策樹的每一層都是一個問題——如果這個問題成立，演算法就走向樹的其中一個分支，否則就走向另一個分支，這樣一路走過不同的分支，直到得出演算法的最終結果為止。透過運用人工智慧，演算法可以進行自動化的推論，並運用數學和邏輯測試，把程式導向不同的執行路徑。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

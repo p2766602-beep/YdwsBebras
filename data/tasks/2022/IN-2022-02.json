@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-02",
+  "title_en": "Kids and Books",
+  "title_zh": "小朋友借書",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-02.png",
+    "path": "assets/images/india/2022/IN-2022-02.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Kids borrow books from the library. The library made a borrowing table to find out which book was most popular.",
+    "question": "Based on the borrowing table below, which book are the kids borrowing most often?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) Book A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) Book B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) Book C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) Book D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Two kids ask for the book with the butterfly, three kids ask for the book with the caterpillar, one kid asks for the book with the ladybug, and one kid asks for the book with the snail. So the book with the caterpillar is borrowed most often.",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "It's good to see the kids in this Bebras task wish to read books! But do we really need a table with identifiers for kids and books to show their wishes? What about just drawing lines? True, that would be easy for people — but not for computers. Computers are not very good at detecting lines, but much better at working with tables. If we want computers to process data like which kid asks for which books, or which person owns which bank accounts, it usually is a good idea to organize such data into tables. Tables show how things (or kids) relate to other things; how to organize data into tables depends on what those relations look like. For instance, if every kid could ask for only one book, ever, we could add that wish to a kids table, one row per kid. But since kids can ask for many books, and the same books as other kids, an extra table is needed that links kids to books — with many entries possible for each kid and each book."
+  },
+  "content_zh": {
+    "prompt": "小朋友到圖書館借書。圖書館做了一張借閱紀錄表，想知道哪一本書最受歡迎。",
+    "question": "根據下面的借閱紀錄表，小朋友最常借的是哪一本書？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）書A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）書B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）書C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）書D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "有兩位小朋友借了畫著蝴蝶的書，三位小朋友借了畫著毛毛蟲的書，一位小朋友借了畫著瓢蟲的書，還有一位借了畫著蝸牛的書。也就是說，畫著毛毛蟲的書被借最多次。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題裡的小朋友都很想看書，真好！但我們真的需要用一張標示著身分的表格，來呈現小朋友和書之間的關係嗎？畫線連起來不行嗎？的確，畫線對人來說很容易，但對電腦來說卻不簡單。電腦不太擅長辨識線條，但很擅長處理表格資料。如果我們想讓電腦處理「哪個小朋友借了哪些書」，或「哪個人擁有哪些銀行帳戶」這類資料，通常把資料整理成表格會是個好方法。表格能呈現事物（或人）之間的關係，至於該怎麼設計表格，要看這些關係長什麼樣子。舉例來說，如果規定每個小朋友永遠只能借一本書，我們就可以把這項借閱紀錄直接加進「小朋友資料表」裡，一人一列。但幸好，小朋友可以借很多本書，也可以跟別人借同一本書——這時候就需要另外一張表，把小朋友和書連結起來，而且每個小朋友、每本書都可能對應到表格裡的好幾筆紀錄。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

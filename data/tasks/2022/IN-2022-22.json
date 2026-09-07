@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-22",
+  "title_en": "Flower Garden",
+  "title_zh": "花園踩地雷",
+  "source_country": "Hungary",
+  "source_country_flag": "🇭🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Hungary",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-22.png",
+    "path": "assets/images/india/2022/IN-2022-22.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The Flower Garden is a simple logic game. If you click a square, you see either a flower or a number; the number shows how many neighbouring squares contain flowers. The goal is to uncover all the squares on a grid that do NOT contain a flower. In the situation shown, we can see some numbers and assume there is a flower in one particular square.",
+    "question": "In which square, marked A, B, C or D, is there another flower?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "C"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The square below the one marked 'A' shows a '1', and we assume there's a flower below that — so that '1' already accounts for its one flower, meaning square A cannot contain a flower. Similarly, the '1's next to 'C' and 'D' are already accounted for by the assumed flower next to them, so C and D cannot contain a flower either. The square marked 'B' has two neighbouring '1's that could refer to it, but only the '2' to its lower-left has just two number-free neighbours — meaning that, given the assumed flower, another flower must be in the square marked B.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "To solve puzzles like this, you mostly just need to think logically — but sometimes you need to start with an assumption and follow the logic through. If you find a contradiction, you 'go back' and correct the assumption. This very popular algorithm is called backtracking. Its disadvantage is that sometimes you need to 'go back' a lot, wasting time and resources — and you need a clear way to decide when a solution doesn't exist at all. (Interestingly, infinite versions of Minesweeper-like games are Turing complete.)"
+  },
+  "content_zh": {
+    "prompt": "花園遊戲是一個簡單的邏輯遊戲。如果你點擊一個方格，你會看到一朵花或一個數字；數字代表這個方格周圍相鄰的方格中，有幾格裡藏著花。遊戲的目標，是找出格子網中所有「沒有」花的方格並全部翻開。在下圖顯示的情況中，我們可以看到一些數字，並假設其中一格藏著一朵花。",
+    "question": "標示A、B、C、D的方格中，哪一格也藏著一朵花？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "C"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在標示「A」下方的方格顯示著「1」，而我們假設它下方藏著一朵花——這個「1」已經被那朵假設的花計算在內了，所以標示「A」的方格不可能藏著花。在「C」、「D」旁邊的「1」也已經被那朵假設的花計算在內，代表「C」和「D」都不可能藏著花。標示「B」的方格有兩個相鄰的「1」都有可能是在指它，但只有它左下方那個「2」的兩個相鄰方格都沒有數字——如果加上那朵假設的花，就必須還要有另一朵花在標示「B」的方格裡，這個「2」才能成立。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "要解開像這樣的謎題，大部分時候只需要邏輯思考就夠了。但有時候你需要先做一個假設，再依循邏輯推導下去；如果發現矛盾，你就要「退回去」修正剛才的假設。這個非常受歡迎的演算法叫做「回溯法」（Backtrack）。回溯法的缺點是：有時候你需要「退回去」很多次，浪費不少時間和資源；你也需要清楚定義什麼時候該「結束」——也就是判斷解答根本不存在的時機。（有趣的是，無限版本的踩地雷遊戲已經被證明具有「圖靈完備性」。）"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

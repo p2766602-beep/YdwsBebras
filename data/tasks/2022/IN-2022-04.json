@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2022-04",
+  "title_en": "Tortoise and Hare",
+  "title_zh": "龜兔賽跑",
+  "source_country": "Philippines",
+  "source_country_flag": "🇵🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Philippines",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-04.png",
+    "path": "assets/images/india/2022/IN-2022-04.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A tortoise and a hare race on the track shown below. They both start at the same time on the field with a heart, following the direction of the arrows. The tortoise moves one field per minute; the hare moves two fields per minute.",
+    "question": "What is in the field where the tortoise and the hare first meet after the start?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) field A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) field B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) field C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) field D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) field E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The figures show the tortoise's and hare's positions after each minute; tracking them minute by minute shows they first meet in the field marked C.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task is about traversing a data structure with one-way traffic — a directed graph with a loop or cycle. A linked list stores items connected in sequence (nodes), each knowing the 'address' of the next item — a pointer. Normally a linked list is linear: starting at the first node and following pointers reaches the end without revisiting any node. If a node is revisited, we're caught in a cycle. One clever way computers detect cycles is the tortoise-and-hare algorithm (attributed to Robert W. Floyd, named after the Aesop fable): two 'pointers' move through the list at different speeds — one twice as fast as the other. If they meet, there is a cycle; otherwise the list is linear. Cycle detection matters in computing — e.g. to check whether code is stuck in an infinite loop, or to analyse the quality of random-number generators used in encryption, where a longer cycle length makes a security algorithm harder to crack."
+  },
+  "content_zh": {
+    "prompt": "烏龜和兔子在下面的賽道上比賽。牠們同時從畫著愛心的格子出發，沿著箭頭指示的方向前進。烏龜每分鐘移動1格，兔子每分鐘移動2格。",
+    "question": "烏龜和兔子出發後第一次相遇的格子裡是什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）格子A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）格子B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）格子C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）格子D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）格子E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "圖中顯示了烏龜和兔子每分鐘之後所在的位置；照著每分鐘逐格追蹤，可以看出牠們第一次相遇的格子就是標示C的那一格。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題是關於在單向的資料結構中移動——也就是一張帶有迴圈或環的有向圖。「鏈結串列」（linked list）是一種用來依序儲存項目的資料結構，這些項目也叫做元素或節點；例如食譜裡的步驟、從一個地點到另一個地點沿路的地標，或是演算法裡的一連串運算，都是例子。為了維持彼此的連結，每個項目都知道「下一個」項目的位址，正式來說，每個節點都保存著指向下一個節點的「指標」。一般來說，鏈結串列是線性的——如果我們從第一個節點開始，沿著指標走，最後會走到結尾，而不會重複經過任何節點。如果剛好重複經過了某個節點，就代表我們陷入了一個「環」（cycle）。電腦要怎麼偵測環的存在呢？美國電腦科學家Robert W. Floyd想出了一個巧妙的做法，叫做「龜兔演算法」（引用自伊索寓言），正如這一題所示範的：用兩個「指標」以不同速度在鏈結串列裡移動，其中一個的速度是另一個的兩倍。如果牠們相遇了，就代表串列裡有環；否則串列就是線性的。偵測環在資訊科學裡是很重要的工作，例如可以用來檢查程式碼是不是在無限重複執行一連串工作（無窮迴圈），導致程式無法停止；更進階的應用則跟分析亂數產生器的品質有關，尤其是用在加密或保護敏感資料的亂數產生器——它們通常會有一段不重複的「前段」，然後才進入「環」；環的長度越長，就是讓加密演算法更強、更難被破解的關鍵特性。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

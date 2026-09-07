@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-14",
+  "title_en": "Sailor Necklace",
+  "title_zh": "水手項鍊",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-14.png",
+    "path": "assets/images/india/2022/IN-2022-14.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Here are instructions for making a sailor necklace using wavy white beads and solid blue beads. Every sailor necklace starts by placing one wavy bead and one blue bead on a string in a given order. It can then be made longer by either: adding a blue bead to both ends of the string (action B), or adding two wavy beads to the rightmost end of the string (action W). These actions can be done multiple times in any order.",
+    "question": "Which necklace below is NOT a sailor necklace?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) necklace A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) necklace B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) necklace C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) necklace D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "There are several ways to check this. One is to locate each necklace's two starting beads and see if a series of B/W actions builds it: necklace A can be built from the 2nd/3rd beads with B-W-W; necklace B from the 3rd/4th beads with B-B-W; necklace C from the 2nd/3rd beads with W-B-W. But for necklace D, the starting beads must be the 2nd/3rd beads; you can perform action B once, but then no action can construct the rest. Another approach: a sailor necklace always has an odd number of solid blue beads and an odd number of wavy white beads — necklace D has an even number of both, so it cannot be a sailor necklace.",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "In this task you could only add beads to the ends of the necklace string, not insert into the middle; likewise, to take the necklace apart you'd have to remove beads from the ends, not the middle. This kind of structure — easy to add/remove from the ends but not the middle — is used in computer science and is called a double-ended queue, or deque. Deques can be used to store a browser's history, to schedule print jobs, and to verify the validity of math expressions; checking for matching parentheses can be done in a way quite similar to how you verified the validity of the sailor necklaces."
+  },
+  "content_zh": {
+    "prompt": "這裡有一份說明，教你如何用波浪形的白珠子和實心的藍珠子，做出一條水手項鍊。每一條水手項鍊，都是先在繩子上依照固定順序放上一顆波浪珠和一顆藍珠開始的。接著可以用以下兩種方式讓項鍊變長：在繩子的兩端各加一顆藍珠（動作B）；或是在繩子最右邊加上兩顆波浪珠（動作W）。這些動作可以依任意順序重複執行任意次數。",
+    "question": "下面哪一條項鍊不是水手項鍊？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）項鍊A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）項鍊B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）項鍊C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）項鍊D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "有很多種方法可以解出這一題，這裡舉三種可能：你可以先找出每條項鍊的兩顆起始珠子，再看能不能用一連串B和W動作組成它。項鍊A可以從第2、3顆珠子開始，執行B-W-W動作組成；項鍊B可以從第3、4顆珠子開始，執行B-B-W組成；項鍊C可以從第2、3顆珠子開始，執行W-B-W組成。但如果看項鍊D，它的起始珠子必須是第2、3顆，你可以執行一次動作B，但接下來就沒有任何動作能組成項鍊剩下的部分了。另一種方法，是留意珠子數量的「奇偶性」：水手項鍊的實心藍珠數量永遠是奇數，波浪白珠數量也永遠是奇數。項鍊D的兩種珠子數量都是偶數，所以不可能是水手項鍊。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "在這一題裡，你只能把珠子加到項鍊繩的兩端，不能插入到中間；同樣地，如果要拆開項鍊，也只能從兩端移除珠子，沒辦法輕易從中間拿掉一顆。這種「容易從兩端加入或移除，但不容易從中間操作」的結構，在電腦科學裡也有應用，並且有個名字——雙向佇列（deque）。雙向佇列可以用來儲存瀏覽器的瀏覽紀錄、排列印表機的工作佇列，也可以用來驗證數學算式是否合法；檢查括號是否成對出現的方法，跟你剛才驗證水手項鍊是否合法的方式其實相當類似。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-25",
+  "title_en": "String Function",
+  "title_zh": "字串函式機器",
+  "source_country": "Netherlands",
+  "source_country_flag": "🇳🇱",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Netherlands",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-25.png",
+    "path": "assets/images/india/2022/IN-2022-25.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "There are two kinds of machines in the stone factory. When you put an arrangement of stones into these machines from the left, they remove some stones and put out a specific new arrangement on the right. The blue machine is called an 'odd machine' — it keeps only the stones in odd positions, removing every second stone. The brown machine labelled with a number 'n' is called a 'trim machine' — it removes the first and last n stones and outputs whatever is left. These two machines can be combined: the output of the first machine becomes the input of the second.",
+    "question": "If the stones are arranged and put into the machines as shown, what will the output be?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The stones first go through the odd machine, which removes every second stone. This output then goes through the trim machine labelled '2', which removes the first and last 2 stones from that result, giving the final output shown in option B.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Functions that manipulate and transform data are among the most important tools for a programmer. Just as in arithmetic, functions are applied starting from the innermost parentheses outward — a function definition is like a recipe. There are two common views of computer programs: as a set of instructions executed in order, or as a machine that processes input to produce output. In this example we see a function within a function — the result of the first machine is passed to a second one, just as is common in mathematics."
+  },
+  "content_zh": {
+    "prompt": "在石頭工廠裡有兩種機器。當你把一排石頭從左邊放進這些機器，它們會移除一些石頭，並從右邊產生出特定排列的石頭。藍色機器叫做「奇數機」，它只會保留奇數位置上的石頭，移除每隔一個的石頭。標示著數字「n」的棕色機器叫做「修剪機」，它會移除最前面和最後面各n個石頭，輸出剩下的部分。這兩種機器可以組合使用：第一台機器的輸出，會變成第二台機器的輸入。",
+    "question": "如果照圖中方式排列石頭並放進機器，輸出結果會是什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "石頭先經過奇數機，移除每隔一個的石頭。這個結果接著經過標示「2」的修剪機，移除結果最前面和最後面各2個石頭，得到選項B所示的最終輸出。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在電腦程式裡，用來操縱和轉換資料的函式，是程式設計師最重要的工具之一。就像算術一樣，這些函式的執行順序，是從最內層的括號開始往外算；函式的定義就像一份食譜。對於電腦程式，有兩種主要的觀點：一種是把程式看成一連串依照正確順序執行的指令；另一種則是把程式看成一台能處理輸入、產生輸出的機器。在這個例子裡，我們看到函式中還嵌套著另一個函式——第一台機器的結果，被傳遞給第二台機器，這在數學裡也是非常常見的作法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

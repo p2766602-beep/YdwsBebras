@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-20",
+  "title_en": "Nuts and Bolts",
+  "title_zh": "螺帽與螺栓",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-20.png",
+    "path": "assets/images/india/2022/IN-2022-20.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "At the Beaver Construction factory, Benoit works at the nuts-and-bolts assembly line. His job: stand at one end of a long conveyor belt containing a line of nuts and bolts, and take each element off one at a time. If he takes a nut, he puts it in the bucket beside him. If he takes a bolt, he grabs a nut from the bucket, attaches the nut and bolt together, and places the assembled part into a large box. Things go wrong if: (1) he takes a bolt but there is no nut in the bucket to attach; or (2) there are no more nuts/bolts on the belt but there are still nuts left in the bucket.",
+    "question": "Which sequence of nuts and bolts, processed left-to-right, will NOT cause things to go wrong for Benoit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tracking the state of the bucket as each element is processed left-to-right for option C works out fine at every step. Checking the others: A goes wrong after nut-bolt-bolt, since there's no nut in the bucket when the second bolt is encountered. B goes wrong when a fifth bolt is encountered with only 4 nuts having come before it. D goes wrong at the very end, since it has 6 nuts and only 4 bolts, leaving 2 nuts stranded in the bucket.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task highlights the use of a push-down automaton (PDA) — a way of describing an algorithm that relies on a current state but also has an unlimited amount of memory in the form of a stack. Here, the state is either 'having a nut' or 'having a bolt' on the belt, and the stack is the bucket holding the nuts. A PDA can be used to recognise or parse context-free languages. Here, we can think of nuts and bolts as representing balanced parentheses, where a nut = '(' and a bolt = ')'. Detecting balanced parentheses matters in compilers, since many programming languages rely on parentheses to indicate nested scopes as well as arithmetic expressions."
+  },
+  "content_zh": {
+    "prompt": "在海狸建築工廠裡，Benoit在螺帽螺栓的裝配線上工作。他的工作內容是：站在一條長長輸送帶的一端，帶上放著一排螺帽和螺栓。Benoit的工作是把輸送帶上的每個元件（不論是螺帽還是螺栓）一個個取下來。如果Benoit取到的是螺帽，他就把它放進身邊的桶子裡；如果他取到的是螺栓，他就從桶子裡拿出一顆螺帽，把螺帽和螺栓組裝在一起，再把組裝好的零件放進一個大箱子裡。不過，Benoit的工作可能會在兩種情況下出錯：1.如果他從輸送帶上取到螺栓，但桶子裡沒有螺帽可以組裝。2.如果輸送帶上已經沒有螺帽或螺栓了，但桶子裡卻還剩下螺帽。",
+    "question": "下面哪一組螺帽與螺栓的排列，從左到右處理時，不會讓Benoit的工作出錯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "我們可以從左到右追蹤桶子與輸送帶的狀態變化，選項C每一步都沒有問題。逐一檢視其他選項：選項A在「螺帽-螺栓-螺栓」之後就會出錯，因為遇到第二個螺栓時桶子裡沒有螺帽。選項B會在遇到第五個螺栓時出錯，因為在那之前只出現了4個螺帽。選項D會在整個序列處理完之後出錯，因為總共有6個螺帽和4個螺栓，處理完後桶子裡還會剩下2個螺帽。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題凸顯了「下推自動機」（push-down automaton，PDA）的應用。PDA是一種描述演算法的方式，它依賴「目前的狀態」，同時還擁有一種堆疊形式、容量不受限的記憶體。在這一題裡，狀態就是輸送帶上「目前是螺帽還是螺栓」，而堆疊就是裝著螺帽的那個桶子。PDA可以用來辨識或剖析「上下文無關語言」。在這裡，我們可以把螺帽和螺栓想成是成對的括號，螺帽代表「(」，螺栓代表「)」。偵測括號是否成對平衡，在編譯器裡是很重要的工作，因為許多程式語言都依賴括號來標示巢狀範圍，以及算術運算式的結構。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

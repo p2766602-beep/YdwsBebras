@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-07",
+  "title_en": "Traditional Art",
+  "title_zh": "傳統繪畫",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-07.png",
+    "path": "assets/images/india/2022/IN-2022-07.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Deepa is learning Warli painting. With the help of some cards, she wants to create a picture. She has to follow the step-by-step instructions shown on the cards, but she dropped them and now they are all mixed up!",
+    "question": "Select the correct order to put the cards back.",
+    "options": [
+      {
+        "key": "A",
+        "text": "D-F-B-A-E-C"
+      },
+      {
+        "key": "B",
+        "text": "C-E-B-A-F-D"
+      },
+      {
+        "key": "C",
+        "text": "C-E-A-B-D-F"
+      },
+      {
+        "key": "D",
+        "text": "E-C-B-A-D-F"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The correct order is C-E-B-A-F-D. Each card adds one more feature to the final picture.",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task illustrates the computational thinking skill of pattern recognition — specifically finding similar or common elements. To order the cards, you compare pairs of cards to find the ones closest in pattern similarity, then, understanding the rule for how one image transforms into the next (adding new white geometric shapes), you can order each pair."
+  },
+  "content_zh": {
+    "prompt": "Deepa正在學習瓦力畫（Warli painting）。她想借助一些卡片畫出下面這幅畫，必須依照卡片上一步步的指示進行，但她不小心把卡片弄掉了，現在全部混在一起！",
+    "question": "請把這些卡片排回正確的順序。",
+    "options": [
+      {
+        "key": "A",
+        "text": "D-F-B-A-E-C"
+      },
+      {
+        "key": "B",
+        "text": "C-E-B-A-F-D"
+      },
+      {
+        "key": "C",
+        "text": "C-E-A-B-D-F"
+      },
+      {
+        "key": "D",
+        "text": "E-C-B-A-D-F"
+      }
+    ],
+    "answer": "B",
+    "explanation": "正確的順序是C-E-B-A-F-D。每張卡片都在最終畫面上多加了一個特徵。",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題很適合用來說明「樣式辨識」這項運算思維技能，特別是找出相似或共同的元素。要把卡片排序，你必須兩兩比較卡片，找出樣式最接近的一對；接著理解一張圖是如何變成下一張的規則（也就是不斷加上新的白色幾何圖形），就能依序排出每一對卡片的順序。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

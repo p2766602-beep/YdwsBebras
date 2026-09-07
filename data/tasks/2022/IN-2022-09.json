@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-09",
+  "title_en": "Trail to Grandma",
+  "title_zh": "通往奶奶家的小路",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-09.png",
+    "path": "assets/images/india/2022/IN-2022-09.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "As shown, a beaver is going to visit her grandma. There are several different trails to grandma's house.",
+    "question": "Which one of the trails below can lead the beaver to grandma's house?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) trail A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) trail B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) trail C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) trail D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "There are several trails, but only one of the presented options is correct: A. (B) this tree cannot be the first tree passed by the beaver. (C) this tree can be the first tree on the trip, but then it is not possible for the beaver to pass the following tree. (D) this trail leads to a lake, not to grandma's house.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Motion planning, also called path planning (or the navigation problem), is a computational problem of finding a sequence of valid configurations that moves an object from a source to a destination. The term is used in computational geometry, computer animation, robotics, and computer games."
+  },
+  "content_zh": {
+    "prompt": "如圖所示，一隻海狸要去拜訪奶奶。有好幾條不同的小路可以通往奶奶家。",
+    "question": "下面哪一條小路可以讓海狸走到奶奶家？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）小路A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）小路B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）小路C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）小路D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "有好幾條小路，但在圖中列出的選項裡，只有一個正確答案：A。B：這棵樹不可能是海狸經過的第一棵樹。C：這棵樹可以是海狸旅程中經過的第一棵樹，但接下來海狸就不可能經過緊接著的下一棵樹。D：這條小路通往一座湖，而不是奶奶家。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "運動規劃（motion planning），也叫路徑規劃（path planning，或稱導航問題），是一個運算問題，目標是找出一連串有效的狀態組合，讓物體從起點移動到終點。這個名詞廣泛用在計算幾何學、電腦動畫、機器人學和電腦遊戲中。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

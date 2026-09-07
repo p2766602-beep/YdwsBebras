@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2022-26",
+  "title_en": "Four Tiles",
+  "title_zh": "四片拼磚",
+  "source_country": "Belgium",
+  "source_country_flag": "🇧🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Belgium",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-26.png",
+    "path": "assets/images/india/2022/IN-2022-26.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "You are asked to arrange four tiles into a 2x2 square, following the rule: tiles may only touch each other on sides carrying exactly the same symbol. You are given the following 5 tiles; you must arrange four of these five tiles into a valid 2x2 square (in this case there is only one possible choice of four tiles that allows this).",
+    "question": "Which tile will you NOT use?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tile A"
+      },
+      {
+        "key": "B",
+        "text": "Tile B"
+      },
+      {
+        "key": "C",
+        "text": "Tile C"
+      },
+      {
+        "key": "D",
+        "text": "Tile D"
+      },
+      {
+        "key": "E",
+        "text": "Tile E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "It's possible to build a valid 2x2 square using tiles A, B, D, and E. One way to find this without brute-force trial: draw a diagram connecting any two tiles that share at least one symbol — this simplified diagram is called a graph. In this graph, there are exactly three 4-cycles (a path that returns to its start after 4 steps): A-B-D-E-A (the actual solution), A-B-C-E-A, and B-C-E-D-B. Checking whether the latter two can actually be arranged into a valid square shows that neither A nor D can complete such a square using B-C-E in that order — so A-B-D-E-A is the only valid solution, meaning tile C is left unused.",
+    "ct_skills": "Abstraction, Decomposition",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "To solve a computational problem it is often useful to (temporarily) ignore some of its details — this is called abstraction. In the first step here, we ignored the shape/colour of the symbols and their positions on the tiles, and only cared whether two tiles shared a symbol. The resulting diagram (a graph) already narrows the search down to just a few possible solutions. Graphs are often used in computer science as an abstraction of the data to be processed. Splitting a difficult problem into separate steps that can each be solved more easily is called decomposition — another important computational thinking skill."
+  },
+  "content_zh": {
+    "prompt": "你被要求把四片拼磚排成一個2×2的正方形，規則是：拼磚之間只能在邊上帶有完全相同符號的地方互相接觸。現在給你以下這5片拼磚，你必須從中選出4片，排成一個符合規則的2×2正方形（在這個情況下，只有一種選法能滿足規則）。",
+    "question": "哪一片拼磚不會被用到？",
+    "options": [
+      {
+        "key": "A",
+        "text": "拼磚A"
+      },
+      {
+        "key": "B",
+        "text": "拼磚B"
+      },
+      {
+        "key": "C",
+        "text": "拼磚C"
+      },
+      {
+        "key": "D",
+        "text": "拼磚D"
+      },
+      {
+        "key": "E",
+        "text": "拼磚E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "確實可以用拼磚A、B、D、E排出一個符合規則的2×2正方形。逐一嘗試各種排法直到找到符合的組合是一種做法，但也有辦法可以減少需要檢查的可能性數量：第一步，畫出這5片拼磚的關係圖，只要兩片拼磚至少共用一個符號，就在它們之間畫一條線連起來（這種簡化後的圖，就叫做「圖」）。在這張圖裡，剛好有三個「4迴圈」（沿著線走、經過4步後又回到起點的路徑）：A-B-D-E-A（對應到實際的解答）、A-B-C-E-A，以及B-C-E-D-B。檢查後兩個4迴圈能不能真的排成合法的正方形，會發現不論是A還是D，都沒辦法用B-C-E這個順序完成一個正方形。因此，第一個4迴圈A-B-D-E-A，就是唯一合法的解答——也就是說，拼磚C不會被用到。",
+    "ct_skills": "抽象化、分解（Abstraction, Decomposition）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "要解決一個運算問題，通常需要先（暫時）忽略一些細節——這叫做「抽象化」。在這一題的第一步裡，我們忽略了符號的形狀、顏色，以及它們在拼磚上的位置，只在意兩片拼磚是否共用一個符號。這樣得到的圖，已經足以把搜尋範圍縮小到只剩幾種可能的解答。圖在電腦科學裡經常被用來當作待處理資料的抽象表示。把一個困難的問題拆解成幾個能個別更容易解決的步驟，叫做「分解」（decomposition）——這也是另一項重要的運算思維能力。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-31",
+  "title_en": "Collecting Stones",
+  "title_zh": "撿石頭",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-31.png",
+    "path": "assets/images/india/2022/IN-2022-31.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A beaver family's lodge consists of 21 canals; 31 stones need to be removed. The beavers swim out to collect the stones and bring them to a deposit. The stones are heavy — a beaver can carry only one or two at a time, no more. Swimming between any two adjacent intersections always takes exactly one hour. Starting simultaneously, the beavers must collect all the stones within four hours.",
+    "question": "How many beavers do we need at least?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14 beavers"
+      },
+      {
+        "key": "B",
+        "text": "18 beavers"
+      },
+      {
+        "key": "C",
+        "text": "20 beavers"
+      },
+      {
+        "key": "D",
+        "text": "24 beavers"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Considering intersections with at least three stones first: 8 beavers can each collect two stones there (16 stones, 8 beavers). One of these beavers only needed 2 of its 4 hours, so it can make a second trip collecting 2 more stones; a fresh beaver can also be reused this way — bringing the total to 9 beavers used (2 reusable) and 13 stones left. Reusing those 2 beavers once more collects 4 more stones (9 beavers used, 9 stones left). Considering intersections with at least two stones remaining needs 2 more beavers (11 total, 5 stones left). Finally, 2 beavers collect two stones each and a third beaver collects the last single stone — a total of 11+3=14 beavers, matching option A. Since only a couple of beavers can realistically make more than one round trip within the time limit, this is also the minimum possible.",
+    "ct_skills": "Decomposition, Abstraction",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "To a reader, the story is rich with appealing detail — but a computer scientist's first step is identifying only the information actually needed to solve the problem and removing the rest. The meaningful information here is: the canals and intersections; the numerical constraints (1 hour between adjacent intersections; a 4-hour deadline; 31 stones; carrying at most 2 stones); and the goal (collect all stones with as few beavers as possible). Computer scientists call such a formal representation a graph: nodes and edges, where distance is measured by counting edges traversed. Graphs are one of the core problem-solving tools in a computer scientist's life — navigation systems are a well-known example. Problems that look for the best possible solution are called optimisation problems. Solving this task requires decomposing the problem into smaller, manageable pieces, solving each (possibly by trial and error), and checking whether the combined solution satisfies all the constraints."
+  },
+  "content_zh": {
+    "prompt": "海狸家族的巢穴由21條運河組成，需要移除31顆石頭。海狸們要游出去把石頭撿起來，送到指定的堆放處。這些石頭很重，一隻海狸一次最多只能搬一或兩顆，不能再多了。從一個交叉口游到下一個交叉口，海狸每次都恰好要花一小時。所有海狸同時出發，必須在4小時內把所有石頭都撿完。",
+    "question": "我們最少需要幾隻海狸？",
+    "options": [
+      {
+        "key": "A",
+        "text": "14隻"
+      },
+      {
+        "key": "B",
+        "text": "18隻"
+      },
+      {
+        "key": "C",
+        "text": "20隻"
+      },
+      {
+        "key": "D",
+        "text": "24隻"
+      }
+    ],
+    "answer": "A",
+    "explanation": "先考慮石頭數至少有3顆的交叉口：8隻海狸可以各自在這些地方撿2顆石頭送到堆放處（共16顆，用了8隻海狸）。其中有一隻海狸只花了4小時中的2小時，因此可以「重複利用」牠再跑一趟，撿2顆石頭；另外再派一隻新的海狸，同樣可以被重複利用——這樣一來共用了9隻海狸（其中2隻可重複利用），剩下13顆石頭。讓這2隻可重複利用的海狸各自再跑一趟，各撿2顆（仍是9隻海狸，剩下9顆石頭）。接著考慮石頭數至少有2顆的交叉口，需要再派2隻海狸（共11隻，撿4顆，剩下5顆石頭）。最後，2隻海狸各撿2顆，第三隻撿最後剩下的1顆——總共11+3＝14隻海狸，正好對應選項A。由於在時限內，最多也只有少數幾隻海狸能真的跑兩趟，因此14隻也是所需的最少數量。",
+    "ct_skills": "分解、抽象化（Decomposition, Abstraction）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "對讀者來說，這個故事本身很吸引人，充滿了豐富的細節。但電腦科學家要做的第一件事，就是找出真正解題所需要的資訊，並把其餘的都捨棄。這裡真正有意義的資訊包括：運河與交叉口；數值上的限制條件（每次移動恰好1小時；必須在4小時內完成；總共要撿31顆石頭；一次最多能搬1或2顆）；以及目標（用最少的海狸數量撿完所有石頭）。電腦科學家把這種形式化的表示方式稱為「圖」：由節點和邊組成，距離可以用經過的邊數來衡量。圖是電腦科學家解決問題時最核心的工具之一，導航系統就是一個廣為人知的應用範例。像這樣尋找「最佳可能解答」的問題，在資訊科學裡叫做最佳化問題。要解決這一題，必須把問題拆解成更小、更容易處理的部分，逐一解決（可能透過反覆試驗），並判斷組合起來的解法是否滿足所有的限制條件。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

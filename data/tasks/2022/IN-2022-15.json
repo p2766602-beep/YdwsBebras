@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2022-15",
+  "title_en": "Dominos",
+  "title_zh": "骨牌",
+  "source_country": "UK",
+  "source_country_flag": "🇬🇧",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：UK",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-15.png",
+    "path": "assets/images/india/2022/IN-2022-15.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Domino tiles have two sides, each with 0 to 6 dots. In a game of dominoes, tiles can be placed end-to-end in a row as long as the touching ends have the same number of dots; a player may flip tiles around to achieve this.",
+    "question": "Given the seven domino tiles below, what is the longest row of tiles achievable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "There are multiple ways to achieve a row of 5. This cannot be extended further, since the two remaining tiles with 3 dots can only attach to each other (with no other tile having 3 or 1 dots left to join to), giving a maximum row of just 2 more. So the maximum achievable row length is 5 dominoes.",
+    "ct_skills": "Data representation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Each domino is an object with carefully defined properties, and there are rules for how dominoes can be aligned next to each other — the object's behaviours are carefully defined too. This is similar to many situations in computer science; there is a whole programming paradigm that makes programming this way much easier: object-oriented programming (OOP). This problem is also similar to a common situation computers deal with — sorting — and the fact that dominoes can be flipped adds an interesting complication."
+  },
+  "content_zh": {
+    "prompt": "骨牌的兩端各有0到6個點。玩骨牌遊戲時，只要兩片骨牌相接的那端點數相同，就可以把它們頭尾相連排成一列；玩家可以翻轉骨牌來達成這一點。",
+    "question": "給定下面7片骨牌，最長可以排出幾片骨牌的一列？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2片"
+      },
+      {
+        "key": "B",
+        "text": "3片"
+      },
+      {
+        "key": "C",
+        "text": "4片"
+      },
+      {
+        "key": "D",
+        "text": "5片"
+      },
+      {
+        "key": "E",
+        "text": "6片"
+      }
+    ],
+    "answer": "D",
+    "explanation": "有很多種方式可以排出5片骨牌的一列。我們可以確定沒辦法再往下延伸，因為剩下兩片點數為3的骨牌，只能彼此相接，而且沒有其他點數是3或1的骨牌可以再接上去，這樣最多只能再排出2片。因此，能達成的最長列長度就是5片骨牌。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "每一片骨牌都是一個具有明確定義屬性的物件，而且骨牌之間該如何相鄰排列，也有明確的規則。這跟電腦科學裡許多情境很類似，事實上還有一整套程式設計典範，讓用這種方式寫程式變得容易得多：物件導向程式設計（Object-Oriented Programming，OOP）。這個問題也類似電腦常見的另一種情境：排序。而骨牌可以翻轉這一點，又增添了一個有趣的複雜度。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2022-34",
+  "title_en": "Virus",
+  "title_zh": "電腦病毒",
+  "source_country": "New Zealand",
+  "source_country_flag": "🇳🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：New Zealand",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-34.png",
+    "path": "assets/images/india/2022/IN-2022-34.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In the diagram, the circles are computers and the lines are connections between them. Computer A is infected with the StuxNet virus, and computer B is infected with the RoXX3 virus. At the beginning of each new day, each virus spreads to any computers directly connected to an infected computer. If both viruses end up on a single computer, that computer is automatically destroyed and no further spreading occurs from it. After a few days, every computer is either infected or destroyed.",
+    "question": "How many computers are operational but infected with the RoXX3 virus?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      },
+      {
+        "key": "E",
+        "text": "10"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tracing the spread day by day: on day 1, StuxNet reaches B, C, D while RoXX3 reaches A and E, destroying A and B. The infection continues spreading and destroying computers over several more days until neither virus can spread any further. In total, 11 computers are ever infected by RoXX3, but 5 of them (A, B, F, H, M) end up destroyed by also catching StuxNet — leaving 6 computers (E, L, P, N, O, Q) infected with RoXX3 but still operational, matching option A.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This task demonstrates how graphs can be used to represent dependencies between items. A graph is a data structure used a lot in computer science to represent relationships — here, the computers are 'nodes' and the connections are 'edges'. Graphs also make it much easier to visualise a task compared to just reading a text description of the relationships. In this problem, nodes are effectively removed (destroyed) over time, which also eliminates their edges (possible future connections)."
+  },
+  "content_zh": {
+    "prompt": "下圖中，圓圈代表電腦，線段代表電腦之間的連線。電腦A感染了StuxNet病毒，電腦B感染了RoXX3病毒。每天一開始，每種病毒都會傳播到與已感染電腦直接相連的電腦上。如果兩種病毒同時出現在同一台電腦上，這台電腦就會自動損毀，並且不會再從這台電腦繼續傳播。經過幾天之後，每一台電腦最後不是被感染，就是已經損毀。",
+    "question": "有幾台電腦仍在運作，但感染了RoXX3病毒？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6台"
+      },
+      {
+        "key": "B",
+        "text": "7台"
+      },
+      {
+        "key": "C",
+        "text": "8台"
+      },
+      {
+        "key": "D",
+        "text": "9台"
+      },
+      {
+        "key": "E",
+        "text": "10台"
+      }
+    ],
+    "answer": "A",
+    "explanation": "逐日追蹤病毒的傳播：第一天，StuxNet傳播到B、C、D，RoXX3傳播到A和E，導致A和B（同時被兩種病毒感染）損毀。接下來幾天，感染和損毀持續在剩下的電腦之間蔓延，直到兩種病毒都再也無法繼續傳播為止。整體來看，總共有11台電腦曾經感染RoXX3病毒，但其中有5台（A、B、F、H、M）後來也感染了StuxNet而損毀，剩下6台電腦（E、L、P、N、O、Q）仍在運作，但感染了RoXX3病毒，對應選項A。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題示範了圖如何被用來表示項目之間的依賴關係。圖是電腦科學裡經常使用的一種資料結構，用來呈現彼此之間的關係——在這一題裡，電腦就是「節點」，連接線就是「邊」。相較於只用文字描述彼此的關係，圖也讓一個問題更容易被視覺化理解。在這個問題裡，節點會隨著時間被移除（損毀），連帶也消除了它們的邊（也就是未來可能的連線）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

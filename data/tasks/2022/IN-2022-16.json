@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-16",
+  "title_en": "Heart Graphics",
+  "title_zh": "愛心圖形",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2022-16.png",
+    "path": "assets/images/india/2022/IN-2022-16.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Tina started with one circle and one square, then created a heart shape using only these operations on shapes: Rotate (rotate a shape by any amount in either direction), Move (move a shape anywhere), Duplicate (create a copy of a shape at the same location).",
+    "question": "Which of the following sequences of operations could Tina have used?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Duplicate circle. Rotate square. Move circle. Move circle."
+      },
+      {
+        "key": "B",
+        "text": "Duplicate square. Rotate square. Move square. Move circle."
+      },
+      {
+        "key": "C",
+        "text": "Duplicate circle. Rotate circle. Move circle. Move square."
+      },
+      {
+        "key": "D",
+        "text": "Move circle. Move circle. Duplicate circle. Move square."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The square needs to be rotated so a corner faces down — this only happens in sequences A and B, so the answer is A or B. Next, you need two circles to make a heart, but sequence B never creates a second circle, so it cannot be correct — leaving A as the only correct sequence.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "When you construct images with a graphics editor, you perform different operations. If you wanted a computer to do the job, you'd have to add more information — where to move each circle, how much to rotate the square by. The operation sequences in the answer options are incomplete descriptions of what to do — computer scientists call these abstractions of commands: they give an idea of what to do, but not in enough detail for a computer to execute. This is helpful because ignoring the details lets us focus on what's important; when developing a program, computer scientists often start with abstractions to get an idea of how it will work, then add the missing details later."
+  },
+  "content_zh": {
+    "prompt": "Tina一開始有一個圓形和一個正方形，接著她做出了這個愛心圖案。Tina只用了以下這幾種對圖形的操作：旋轉（把圖形往任一方向旋轉任意角度）、移動（把圖形移到任何地方）、複製（在原地建立一份圖形的副本）。",
+    "question": "Tina可能用了下面哪一組操作順序？",
+    "options": [
+      {
+        "key": "A",
+        "text": "複製圓形。旋轉正方形。移動圓形。移動圓形。"
+      },
+      {
+        "key": "B",
+        "text": "複製正方形。旋轉正方形。移動正方形。移動圓形。"
+      },
+      {
+        "key": "C",
+        "text": "複製圓形。旋轉圓形。移動圓形。移動正方形。"
+      },
+      {
+        "key": "D",
+        "text": "移動圓形。移動圓形。複製圓形。移動正方形。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "正方形需要被旋轉，讓其中一個角朝下——只有順序A和B會出現這個結果，所以正確答案是A或B其中之一。接下來可以看出，要做出愛心，需要兩個圓形，但順序B並沒有再建立第二個圓形，所以順序B不可能正確——因此只剩下A是正確的順序。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "當你用繪圖軟體建構圖像時，可以執行不同的操作。如果想讓電腦來完成這項工作，你還必須補充更多資訊——例如每個圓形該移動到哪裡、正方形該旋轉多少角度。答案選項裡的操作順序，其實是對「該做什麼」的不完整描述。電腦科學家把這種描述稱為指令的「抽象化」：它們給出了大致該做什麼的概念，但沒有詳細到能讓電腦直接執行的程度。這樣做是有幫助的，因為忽略細節能讓我們專注在真正重要的事情上。電腦科學家在開發一個程式時，通常也會先從抽象的想法開始，掌握程式大致該如何運作，之後再補上缺少的細節。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2022-24",
+  "title_en": "Ohrid Pearls",
+  "title_zh": "奧赫里德珍珠",
+  "source_country": "North Macedonia",
+  "source_country_flag": "🇲🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2022
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2022 Bebras, Bebras India. 原始出處國：North Macedonia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2022-24.png",
+    "path": "assets/images/india/2022/IN-2022-24.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "During their vacation in Ohrid, Monika and Veronika bought Ohrid pearls and made necklaces from them. They decide to change the pearls in their necklaces using these steps: (1) Monika and Veronika each take a pearl from the right end of their own necklace — Monika first, then Veronika. (2) If the pearl is yellow (square) or red (triangle), they add it to the LEFT end of the OTHER's necklace; otherwise, they add it to the left end of their OWN necklace. (3) If each has given three pearls to the other, they stop; otherwise they repeat from step 1.",
+    "question": "What do Monika's and Veronika's necklaces look like after these steps?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Option B is wrong, because the rules only exchange three pearls each, but this option shows four exchanged. Option C is wrong because the steps haven't finished yet. Option D is wrong because although the counts of each pearl colour are right, the pearls are in the wrong order. Tracing the steps iteration by iteration confirms option A is the correct final result.",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task illustrates the concept of a queue in computer science — a list where elements are added only at one end and removed only from the other, also called a FIFO (first-in-first-out) structure. It's a useful data structure because it automatically keeps track of the order items were added. Monika's and Veronika's necklaces can be regarded as queues: although we don't see how the pearls were first placed on the necklace, the rules make clear there is one specific end for adding new pearls, and the other end is only for removing them."
+  },
+  "content_zh": {
+    "prompt": "Monika和Veronika在奧赫里德（Ohrid）度假時，買了奧赫里德珍珠，並用這些珍珠做成了項鍊。她們決定用以下步驟來交換項鍊上的珍珠：1.Monika和Veronika各自從自己項鍊的右端取下一顆珍珠——先Monika，再Veronika。2.如果珍珠是黃色（方形）或紅色（三角形），就把它加到「對方」項鍊的左端；否則就加到「自己」項鍊的左端。3.如果雙方都已經給對方3顆珍珠，就停止；否則就回到步驟1繼續。",
+    "question": "完成這些步驟之後，Monika和Veronika的項鍊會變成什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "選項B不正確，因為根據規則，Monika和Veronika應該各自只交換3顆珍珠，但這個選項顯示她們交換了4顆。選項C不正確，因為步驟其實還沒有結束。選項D不正確，雖然各種顏色珍珠的數量是對的，但珍珠的順序不對。逐一按照步驟推算，可以驗證選項A就是正確的最終結果。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題示範了電腦科學裡「佇列」（queue）的概念——一種只能從一端加入元素、只能從另一端移除元素的清單，也叫做「先進先出」（FIFO）結構。這是很實用的資料結構，因為它能自動記錄項目被加入的先後順序。Monika和Veronika的項鍊都可以看成是佇列：雖然我們不知道一開始珍珠是怎麼被串上項鍊的，但規則已經說明了有一端是專門用來加入新珍珠的，另一端則只能用來移除珍珠。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}
