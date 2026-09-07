@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-20",
+  "title_en": "Finding the Treasure",
+  "title_zh": "鸚鵡問答找寶藏",
+  "source_country": "Hungary",
+  "source_country_flag": "🇭🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Hungary",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-20.png",
+    "path": "assets/images/india/2024/IN-2024-20.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Pip the pirate is looking for treasure on a deserted island, using a map divided into 16 squares. His parrot Chatterbox knows which square holds the treasure. Pip can ask about any group of squares, and Chatterbox will say whether the treasure is in that group or not (without saying which specific square).",
+    "question": "What is the minimum number of times Pip has to ask, to be certain which square the treasure is in?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Pip should first ask about half of the 16 squares. Whichever way the answer goes (treasure is in that half, or in the other half), he takes the remaining candidate squares and again asks about exactly half of them, and repeats this process. Each question halves the number of remaining candidate squares (16→8→4→2→1), so after 4 questions exactly one square remains, which must hold the treasure. Fewer than 4 questions cannot guarantee success: if the candidate squares were ever split unevenly, the treasure could be in the larger remaining part, which would then need at least as many further questions as splitting evenly would have required.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Pip's method is called binary search in computer science — from the Latin 'bis' (twice) — where a set is halved again and again through a series of questions. Binary search works well when the items in a set can be ordered (e.g. by position); there is a middle item to compare against, and whichever half doesn't contain the target can be discarded, leaving a search on half as many items as before. This makes binary search extremely fast: about 10 steps suffice for 1,000 objects, about 20 for 1,000,000 — in general, about log2(n) steps are needed for n objects — which is why binary search is used so widely in computer programs to search ordered data. Here, the search space is the set of squares on the island map; the squares could be numbered in order, but it also works just as well to repeatedly halve the actual set of squares still possibly holding the treasure, though it's then a bit trickier to keep track of exactly which squares remain candidates."
+  },
+  "content_zh": {
+    "prompt": "海盜Pip在一座無人島上找寶藏，他有一張分成16格的地圖。他的鸚鵡Chatterbox知道寶藏在哪一格。Pip可以指定任何一組方格來問，Chatterbox會回答寶藏是否在那組方格裡（但不會說出確切是哪一格）。",
+    "question": "Pip最少要問幾次，才能確定寶藏究竟在哪一格？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4次"
+      },
+      {
+        "key": "B",
+        "text": "8次"
+      },
+      {
+        "key": "C",
+        "text": "12次"
+      },
+      {
+        "key": "D",
+        "text": "15次"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Pip應該先問16格裡的其中一半。不論答案是哪一種（寶藏在這一半，或在另一半），他就拿剩下還有可能的方格，再問其中一半，並不斷重複這個過程。每問一次，剩下有可能的方格數量就會減半（16→8→4→2→1），所以問4次之後，剛好只剩下1格，那一格就一定是藏寶藏的地方。少於4次沒辦法保證成功：如果剩下的候選方格沒有平均切成兩半，寶藏就有可能落在比較大的那一部分，這樣接下來需要問的次數，就會跟平均對半分時一樣多、甚至更多。",
+    "ct_skills": "演算法思維、評估（Algorithmic Thinking, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "Pip用的方法，在電腦科學裡叫做「二分搜尋」（binary search）——「binary」源自拉丁文「bis」（兩次）——透過一連串的提問，把一組東西不斷對半切開。二分搜尋在「集合裡的項目可以被排序」時效果最好（例如依位置排序）；這時一定存在一個「中間項目」可以拿來比較，不論答案是哪一半，另一半就可以直接排除，讓接下來要搜尋的範圍縮小一半。這讓二分搜尋的速度非常快：1000個物件大約只要10步，100萬個物件大約只要20步——一般來說，n個物件大約需要log2(n)步——這正是為什麼二分搜尋在電腦程式裡被廣泛用來搜尋已排序的資料。這裡的搜尋空間，就是島嶼地圖上的方格；方格可以依序編號，但也可以直接反覆對半切「目前還有可能藏著寶藏的那組方格」，只是這樣一來，要記住「剩下哪些方格還是候選」會稍微麻煩一點。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

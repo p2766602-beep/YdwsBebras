@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-23",
+  "title_en": "Pizza Party",
+  "title_zh": "披薩配料滿足多數",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-23.png",
+    "path": "assets/images/india/2024/IN-2024-23.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Jahnvi throws a pizza party and knows each of her four friends' three favourite toppings (from a set including red pepper, mushrooms, cheese, pineapple, onions, salad). She wants to make one pizza with exactly 3 toppings, chosen to satisfy the maximum total number of individual topping-wishes across all her friends.",
+    "question": "Which 3 toppings will she choose?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct toppings are mushrooms, cheese, and onions: every friend wants mushrooms (4 wishes), three friends want cheese, and two want onions — a total of 9 wishes satisfied, more than any other combination of three toppings could achieve. This can be found systematically: build a table with a row per friend and a column per topping, marking 1 wherever a friend wants that topping, then sum each column — mushrooms scores highest (4), followed by cheese (3) and onions (2), while every other topping is wanted only once each. Choosing the three highest-scoring toppings maximises the total wishes fulfilled.",
+    "ct_skills": "Algorithmic Thinking, Pattern recognition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task is an example of a simple optimisation problem: to find a solution you must collect data (friends' wishes), calculate derived data (topping frequencies), respect constraints (only one pizza, exactly three toppings), and make a decision (which toppings to pick). The two-step procedure in the explanation — tally frequencies, then pick the top three — is a general algorithm that would work for any set of toppings and wishes, and such algorithms can be executed automatically by a computer; optimisation like this plays a role in many areas, such as finding an optimal delivery route or an optimal production process. This task also exemplifies pattern recognition (noticing which toppings are more popular, or which combinations satisfy multiple people) and algorithm design (formulating a clear, step-by-step, generalisable approach — including deciding what to do in case of ties)."
+  },
+  "content_zh": {
+    "prompt": "Jahnvi要辦一場披薩派對，她知道四位朋友各自最喜歡的三種配料（配料範圍包括紅椒、蘑菇、起司、鳳梨、洋蔥、生菜）。她想做一個披薩、剛好放3種配料，希望選出的配料，能滿足朋友們「各自想要某配料」的願望總數盡量多。",
+    "question": "她應該選哪3種配料？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "正確的配料是蘑菇、起司和洋蔥：每一位朋友都想要蘑菇（4個願望），三位朋友想要起司，兩位朋友想要洋蔥——總共滿足了9個願望，比其他任何三種配料的組合都多。這可以有系統地找出來：做一張表，每一列代表一位朋友，每一欄代表一種配料，只要某位朋友想要某配料就標記1，再把每一欄加總——蘑菇的分數最高（4），接著是起司（3）和洋蔥（2），其他每一種配料都只被想要過一次。選出分數最高的三種配料，就能讓滿足的願望總數達到最大。",
+    "ct_skills": "演算法思維、樣式辨識（Algorithmic Thinking, Pattern recognition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題是一個簡單最佳化問題的例子：要找出解答，必須先收集資料（朋友們的願望），再計算衍生資料（各配料被想要的頻率），同時遵守限制條件（只能做一個披薩、剛好3種配料），最後做出決定（選哪些配料）。解說裡用的兩步驟程序——先統計頻率，再選出前三名——是一個通用的演算法，換成任何一組配料和願望都適用，這類演算法可以由電腦自動執行；像這樣的最佳化，在很多領域都扮演重要角色，例如找出最佳送貨路線，或最佳的生產流程。這一題也示範了樣式辨識（觀察哪些配料比較受歡迎，或哪些組合能同時滿足多個人）和演算法設計（規劃出一套清楚、一步步、可以套用到其他情境的通用做法——包括決定遇到平手時該怎麼處理）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

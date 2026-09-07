@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-07",
+  "title_en": "Spinning Leaves",
+  "title_zh": "旋轉翻面找幸運草",
+  "source_country": "Ireland",
+  "source_country_flag": "🇮🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Ireland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-07.png",
+    "path": "assets/images/india/2024/IN-2024-07.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Semma dropped her favourite shamrock (a four-leaf-clover-like leaf) on the ground, and it got mixed up with other leaves. A photo of Seema's leaf is given, showing distinctive features such as a yellowed leaf tip, a browning area on the stem, a small tear, and a bite mark.",
+    "question": "Which is Seema's leaf?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "D is correct because its yellowed leaf tip and browning stem area are in the same relative place as in the photo, and its tear and bitten part also match. The other options each fail one feature: one lacks the yellowed tip on the top leaf, one lacks the browning stem, and one has the tear and bite mark in different places than the original.",
+    "ct_skills": "Pattern recognition, Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Information today is often searched by computer programs looking for patterns — identifying patterns lets information be filtered, analysed, and understood better, and removing what doesn't match the pattern often leads to better results. Patterns can be a perfect copy, imperfect with errors, or even transformed (e.g. rotated or flipped), as in this task, where the leaf appears mixed among others due to rotation and flipping. Solving this task requires pattern recognition — searching for a similar element (like the small tear opposite the bite mark) among the options, where failing to find a similar element rules an option out — and abstraction: building a small, rotation-and-flip-invariant set of features (an abstract model) that uniquely characterises Seema's leaf, while ignoring all other details."
+  },
+  "content_zh": {
+    "prompt": "Semma最喜歡的幸運草（類似四葉草的葉子）掉到地上，跟其他葉子混在一起了。她有一張自己那片幸運草的照片，上面有幾個明顯的特徵：葉尖有一點泛黃、莖上有一塊變褐色的區域、有一個小裂縫，還有一處被咬過的痕跡。",
+    "question": "哪一片才是Seema的葉子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "D是正確答案，因為它泛黃的葉尖和變褐色的莖，位置都跟照片裡相對應的位置一樣，裂縫和被咬過的地方也都吻合。其他選項各自少了一個特徵：有一個少了頂端葉片泛黃的部分，有一個沒有變褐色的莖，還有一個裂縫和咬痕的位置跟原本的不一樣。",
+    "ct_skills": "樣式辨識、抽象化（Pattern recognition, Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "現在的資訊，經常是靠電腦程式尋找樣式來搜尋的——辨識出樣式，能讓資訊被更好地過濾、分析和理解，把不符合樣式的東西剔除，往往能得到更好的結果。樣式可能是完美的複製，也可能帶有誤差的不完美複製，甚至可能經過變形（例如旋轉或翻面），就像這一題裡的葉子，因為旋轉和翻面而混在其他葉子當中。要解開這一題，需要用到樣式辨識——在各個選項裡尋找相似的特徵（例如裂縫跟咬痕正好相對的位置），只要找不到相似的特徵，就能排除那個選項；也需要用到抽象化——建立一組不受旋轉、翻面影響的小型特徵集合（一種抽象模型），用它來獨一無二地辨認出Seema的葉子，同時忽略其他所有細節。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

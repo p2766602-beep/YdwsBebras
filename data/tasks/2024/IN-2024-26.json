@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-26",
+  "title_en": "Disappearing Arrows",
+  "title_zh": "一次性捷徑箭頭賽跑",
+  "source_country": "Czechia",
+  "source_country_flag": "🇨🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Czechia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-26.png",
+    "path": "assets/images/india/2024/IN-2024-26.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A race track has two rules: (1) on their turn, a participant jumps one position forward; (2) an arrow provides a one-time shortcut — if a participant lands on a position with an arrow leading from it, they immediately jump to where the arrow points, and the arrow then disappears so no one else can use it. Four friends, Anil, Babloo, Chirag, Dina, start in that order.",
+    "question": "Which friend will finish first?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anil"
+      },
+      {
+        "key": "B",
+        "text": "Babloo"
+      },
+      {
+        "key": "C",
+        "text": "Chirag"
+      },
+      {
+        "key": "D",
+        "text": "Dina"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tracing each friend's route: Anil, moving first, reaches and uses the first arrow, but then must use a later arrow that sends him back near the start, putting him behind the others. Babloo is the first to reach the second arrow, using it and skipping past a third arrow. Chirag is then the first to reach that third arrow; using it jumps Chirag far ahead — and even though this arrow's destination requires going back a couple of positions from where it also could have gone, Chirag still retains the overall lead. Dina never lands on any arrow, so cannot overtake Chirag. Chirag wins.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Computers can simulate many phenomena and processes, including competitive situations where some participants gain a short-term advantage (or a setback for taking a wrong path) — if a process can be described by an algorithm, a computer can predict and simulate its outcome. Since the system's rules change every time a competitor uses an arrow (an arrow that disappears is no longer available to others), this task is about a dynamic system where conditions evolve during the process — a well-known category that includes, for instance, the classic fox-and-rabbit population simulation, where predator and prey numbers evolve together over time on an isolated island. Solving this task requires algorithmic thinking: reaching the final state means executing the given algorithm (the movement and arrow rules) starting from a specific initial state (the order the friends start in), and understanding and correctly applying that algorithm is what solves the task."
+  },
+  "content_zh": {
+    "prompt": "一條賽道有兩條規則：1.輪到自己時，參賽者往前跳一格。2.箭頭提供一次性的捷徑——如果參賽者跳到有箭頭指出去的格子，就會立刻跳到箭頭指向的位置，之後這個箭頭就會消失，其他人就沒辦法再用它了。四位朋友Anil、Babloo、Chirag、Dina依這個順序出發。",
+    "question": "哪位朋友會最先抵達終點？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anil"
+      },
+      {
+        "key": "B",
+        "text": "Babloo"
+      },
+      {
+        "key": "C",
+        "text": "Chirag"
+      },
+      {
+        "key": "D",
+        "text": "Dina"
+      }
+    ],
+    "answer": "C",
+    "explanation": "逐一追蹤每位朋友的路線：先出發的Anil，抵達並使用了第一個箭頭，但接下來又必須使用另一個箭頭，把他送回接近起點的位置，落到其他人後面。Babloo是第一個抵達第二個箭頭的人，使用之後跳過了第三個箭頭。接著Chirag成為第一個抵達那個第三個箭頭的人；使用它讓Chirag一口氣跳到很前面——雖然這個箭頭把他送到的位置，比原本可能到達的位置還要退後幾格，但Chirag依然保持著整體領先。Dina完全沒有踩到任何箭頭，所以沒辦法超越Chirag。最後獲勝的是Chirag。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "電腦可以模擬許多現象和過程，包括競爭情境——有些參賽者會得到短暫的優勢（或是走錯路而吃虧）；只要一個過程能用演算法描述出來，電腦就能預測並模擬出結果。因為每次有選手使用箭頭，整個系統的規則就會跟著改變（用過的箭頭消失，其他人就不能再用），這一題探討的是一個「動態系統」，條件會隨著過程不斷演變——這是個很知名的類別，例如經典的狐狸與兔子族群模擬，就是在描述掠食者跟獵物的數量，如何在一座孤島上隨著時間一起演變。要解開這一題，需要運用演算法思維：要得到最終結果，就是從一個特定的初始狀態（朋友們出發的順序）開始，執行給定的演算法（移動和箭頭規則），而正確理解並套用這套演算法，正是解題的關鍵。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-16",
+  "title_en": "Robot Path",
+  "title_zh": "機器人拼卡走迷宮",
+  "source_country": "Indonesia",
+  "source_country_flag": "🇮🇩",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Indonesia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-16.png",
+    "path": "assets/images/india/2024/IN-2024-16.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Tikku's robot moves on tiles, starting on the yellow tile and always moving in the direction of the arrow on its current tile; if it moves off the tiles, it stops. Some tiles are prearranged; Tikku has extra 'up' and 'right' direction cards to place on the empty (red) squares so the robot reaches the green tile with a circle.",
+    "question": "Which path does NOT lead to the green tile?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Tracing the robot's forced first moves (right, up twice, right again) shows a card must be placed at a specific position; working through the remaining choices step by step (or equivalently working backwards from the green target tile) shows there is only one arrangement of the available 'up' and 'right' cards that gets the robot to the green tile — the other options place a card differently at some point, sending the robot elsewhere instead.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "As a rule, this kind of problem is solved by trying one path, and if it fails, going back to try another — in computer science, exploring one path fully before backtracking to try the next is called depth-first search, and going back one or more steps to try an alternative is called backtracking. Some problems are also easier to solve backwards, working from the goal to see how it could be reached, though that isn't always straightforward, since going backwards from a target square can mean checking several possible incoming cards rather than a single determined next step. A computer, faced with very few possible squares and cards, could simply try all possibilities very quickly — but people benefit more from analysing the problem to formulate restrictions that greatly cut down the number of cases to try, which is what computational thinking is really about: not blindly trying everything like a naive computer program, but applying simplifications, such as depth-first search with backtracking, or a backward search."
+  },
+  "content_zh": {
+    "prompt": "Tikku的機器人在方塊上移動，從黃色方塊出發，永遠依照目前所在方塊上的箭頭方向前進；如果移出了方塊範圍，就會停止。有些方塊已經事先排好；Tikku還有一些額外的「向上」和「向右」方向卡，要放進空白（紅色）的方格裡，讓機器人能抵達帶著圓圈的綠色方塊。",
+    "question": "哪一條路徑沒辦法讓機器人抵達綠色方塊？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "追蹤機器人一開始被迫走的幾步（向右、向上兩次、再向右）可以看出某個位置一定要放特定的卡片；接著一步步推算剩下的選擇（或反過來從綠色目標方塊往回推算），可以發現只有一種把「向上」和「向右」卡片排列的方式，能讓機器人抵達綠色方塊——其他選項在某個位置放了不同的卡片，導致機器人走到別的地方去。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "一般來說，這類問題的解法是先嘗試一條路，如果走不通，就退回去試另一條——在電腦科學裡，先把一條路完整走完再退回去試下一條，叫做「深度優先搜尋」，退回一步或多步再嘗試別的選項，則叫做「回溯法」。有些問題反過來從目標往回推算會比較好解，不過這樣做並不總是比較簡單，因為從目標方格往回推算時，可能需要檢查好幾張可能的來源卡片，而不是像往前走一樣，每一步都只有唯一確定的下一步。如果換成電腦來解，因為可能的位置和卡片數量都很少，電腦可以很快就把所有可能性都試過一遍——但人類更適合的做法，是仔細分析問題、找出能大幅減少嘗試次數的限制條件，這正是運算思維真正的意義：不是像陽春的電腦程式那樣盲目地嘗試所有可能，而是運用簡化的技巧，例如帶回溯法的深度優先搜尋，或是反向搜尋。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

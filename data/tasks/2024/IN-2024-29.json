@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-29",
+  "title_en": "Conveyor with Toys",
+  "title_zh": "輸送帶隔一取一遊戲",
+  "source_country": "Estonia",
+  "source_country_flag": "🇪🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Estonia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-29.png",
+    "path": "assets/images/india/2024/IN-2024-29.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A conveyor with toys moves in a shown direction. Mahesh wants to sort the toys, but decides to play a game instead: whenever he picks up a toy, he skips the next toy that passes by, continuing this rule until the conveyor is empty.",
+    "question": "Mahesh starts the game by taking the green car. Which toy will he pick up last?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Arranging all the toys on the conveyor in one row and working through Mahesh's picks rotation by rotation: in the first rotation he takes the green car, the green-and-blue ball, the red car, and the purple car; in the second rotation he takes the red-green-yellow ball and the white-blue-yellow ball, leaving the orange ball still on the conveyor. In the third rotation, since he always takes every other toy regardless of distance, he takes the airplane but skips the orange ball again (having not yet seen it a second time in this rotation). This forces a fourth rotation, in which the orange ball — now the only toy left — is the one he finally picks up last.",
+    "ct_skills": "Algorithmic Thinking, Abstraction",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This 'take one, skip one' approach appears in the real world too — e.g. a shop giving a free gift to every tenth (or nth) visitor, or quality-control inspectors examining every other (or every nth) product on a production line. Such behaviour corresponds to a concept in informatics called looping — repeating a set of instructions multiple times, allowing repeated execution of a block of code based on a condition; programming languages offer various loop types (for loops, while loops, do-while loops), each suited to different purposes. Solving this task means applying algorithmic thinking: carefully following the pick-every-other-toy rule step by step, tracking the position of the last-picked toy and the next one in sequence, across each full rotation of the conveyor. It's also an example of abstraction — the toys' actual colours or sizes don't matter to the solution, only their order and position along the conveyor."
+  },
+  "content_zh": {
+    "prompt": "一條輸送帶上放著玩具，依圖示方向移動。Mahesh原本想整理玩具，但決定改玩一個遊戲：每次他拿起一個玩具，就跳過接下來經過的下一個玩具，一直照這個規則進行，直到輸送帶上的玩具全部被拿完為止。",
+    "question": "Mahesh從拿起綠色小車開始玩這個遊戲。他最後拿到的是哪一個玩具？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "把輸送帶上所有玩具排成一排，一輪一輪追蹤Mahesh拿玩具的過程：第一輪他拿了綠色小車、綠藍相間的球、紅色小車，和紫色小車；第二輪他拿了紅綠黃相間的球，和白藍黃相間的球，這時輸送帶上還剩下橘色的球。第三輪，因為他永遠是隔一個拿一個（不管距離遠近），他拿了飛機，但又跳過了橘色球（因為這一輪還沒有第二次看到它）。這樣就必須進行第四輪，這時候橘色球是輸送帶上僅剩的唯一玩具，也就是他最後才拿到的那一個。",
+    "ct_skills": "演算法思維、抽象化（Algorithmic Thinking, Abstraction）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這種「拿一個、跳一個」的做法，在現實世界裡也看得到——例如商店送給每第10位（或第n位）顧客一份贈品，或是生產線上的品管人員，每隔一個（或每第n個）產品抽檢一次。這種行為對應到資訊科學裡的一個概念，叫做「迴圈」（looping）——重複執行一組指令好幾次，讓一段程式碼可以依照某個條件重複執行；程式語言提供好幾種不同的迴圈（for迴圈、while迴圈、do-while迴圈），各自適合不同的用途。要解開這一題，需要運用演算法思維：仔細地一步步照著「隔一個拿一個」的規則走，在輸送帶每一輪的轉動裡，追蹤上一個被拿走的玩具位置，以及序列裡接下來的那一個。這也是抽象化的一個例子——玩具實際的顏色或大小跟解題無關，重要的只有它們在輸送帶上的順序和位置。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

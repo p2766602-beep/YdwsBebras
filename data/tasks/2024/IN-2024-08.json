@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-08",
+  "title_en": "Superbebras",
+  "title_zh": "無限跑酷背景生成",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-08.png",
+    "path": "assets/images/india/2024/IN-2024-08.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In the computer game Superbebras, the scrolling background is a sequence of tiles; a new tile is constantly added on the right while one is removed on the left. The computer picks each new tile using a diagram of arrows: it looks up the previous tile and randomly picks one of the tiles its arrows point to.",
+    "question": "One of the following images is NOT a valid Superbebras background. Which one?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The background in option C is not built up entirely according to the diagram: a tile with a diamond can only be followed by exactly one specific type of tile, but this rule is violated somewhere in C. A quick way to solve this task is to start with the tiles in the diagram that have only one outgoing arrow — these are the strongest constraints ('tile A must be followed by tile B') — and check each background image against them.",
+    "ct_skills": "Algorithmic Thinking, Abstraction, Pattern recognition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Some computer games — such as endless runner games — have a background that moves horizontally, creating the illusion that the player is travelling through a world; sometimes this background isn't a fixed image but is automatically created by the computer, a technique called procedural generation, where smaller elements are combined (not completely randomly, but under certain rules) to create varied backgrounds while avoiding situations the player cannot handle. The rules here are represented as a diagram of tiles connected by arrows — called a directed graph, with nodes and directed edges — widely used for modelling in computer science. Finite automata go one step further, with states, a start state, end states, and transition rules, and are also commonly used for modelling. Solving this task requires reading and using the directed graph (an abstraction of the generating mechanism) plus pattern recognition, to visually divide a background into blocks and spot faulty transitions."
+  },
+  "content_zh": {
+    "prompt": "在電腦遊戲Superbebras裡，捲動背景是一連串的方塊；電腦會不斷在右邊加入新方塊，同時在左邊移除一個方塊。電腦會依照一張箭頭圖，來挑選新的方塊：它會找出前一個方塊，再從這個方塊箭頭指向的幾個方塊裡，隨機挑一個。",
+    "question": "下面哪一張圖，不是有效的Superbebras背景？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "選項C的背景，並不是完全依照那張圖規則建構出來的：帶有菱形圖案的方塊，後面只能接特定的一種方塊，但C裡的某個地方違反了這條規則。解這一題的快速方法，是先從圖裡「只有一個箭頭指出去」的方塊開始檢查——這些是最強的限制條件（「方塊A後面一定要接方塊B」）——再拿每張背景圖去逐一驗證。",
+    "ct_skills": "演算法思維、抽象化、樣式辨識（Algorithmic Thinking, Abstraction, Pattern recognition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "有些電腦遊戲——例如無限跑酷遊戲——背景會水平移動，營造出玩家正在世界裡前進的錯覺；有時候這個背景不是固定的圖片，而是由電腦自動產生的，這種技術叫做「程序化生成」，做法是把較小的元素組合起來（不是完全隨機，而是依照特定規則），創造出多樣的背景，同時避免出現玩家應付不了的情況。這一題裡的規則，是用一張由箭頭連接方塊的圖來表示的——這種圖叫做「有向圖」，由節點和有方向的邊組成，在電腦科學裡被廣泛用來建模。「有限自動機」則更進一步，具備狀態、起始狀態、結束狀態，以及狀態轉換規則，同樣常被用來建模。要解開這一題，需要閱讀並運用這張有向圖（它是自動生成機制的一種抽象化），還需要運用樣式辨識，把背景視覺上拆成一個個區塊，並找出不符合規則的轉換點。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

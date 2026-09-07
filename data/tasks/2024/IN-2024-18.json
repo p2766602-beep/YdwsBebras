@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2024-18",
+  "title_en": "Bebracelet",
+  "title_zh": "珠管最長遞增子序列",
+  "source_country": "Taiwan",
+  "source_country_flag": "🇹🇼",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Taiwan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-18.png",
+    "path": "assets/images/india/2024/IN-2024-18.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sheela makes a bracelet by threading numbered beads taken in order from a glass tube, setting some aside unused. A bead may only be threaded if the cord is empty, or if the bead's number is higher than the last threaded bead's number.",
+    "question": "For the beads in Sheela's tube, what is the maximum number of beads she can thread?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 beads"
+      },
+      {
+        "key": "B",
+        "text": "4 beads"
+      },
+      {
+        "key": "C",
+        "text": "5 beads"
+      },
+      {
+        "key": "D",
+        "text": "6 beads"
+      },
+      {
+        "key": "E",
+        "text": "7 beads"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Listing out all possible bracelets and comparing lengths would work but is time-consuming. Looking more closely: starting with the first bead (5) threaded severely limits which later beads can follow, giving only short sequences (like 5679 or 589). Setting bead 5 aside and starting instead from the next bead (1) opens up longer possible sequences — any sequence starting from a later bead is already contained within (or is no longer than) sequences starting from bead 1. The bracelets with the most beads start with bead 1 and have 6 beads total, e.g. 124679 or 123679.",
+    "ct_skills": "Evaluation, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Each tube holds a sequence of numbered beads; following the threading rule (only a higher number than the last threaded bead) produces a bracelet that is an ascending subsequence of the tube's numbers. To thread as many beads as possible, Sheela must find the longest ascending subsequence. For long sequences, forming and comparing every possible ascending subsequence would take a huge amount of time — computational effort on the order of a million steps for just 20 beads. Fortunately, computer scientists have developed faster algorithms to find the longest ascending subsequence, using a technique called dynamic programming, which brings the computational effort for 20 beads down to well under a hundred steps."
+  },
+  "content_zh": {
+    "prompt": "Sheela做手鍊的方式，是依序從一根玻璃管裡取出編號珠子並串起來，有些珠子則放在一旁不使用。只有在繩子是空的、或者這顆珠子的編號比上一顆串上去的珠子大時，才能把這顆珠子串上去。",
+    "question": "就Sheela這根管子裡的珠子來說，她最多能串上幾顆珠子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3顆"
+      },
+      {
+        "key": "B",
+        "text": "4顆"
+      },
+      {
+        "key": "C",
+        "text": "5顆"
+      },
+      {
+        "key": "D",
+        "text": "6顆"
+      },
+      {
+        "key": "E",
+        "text": "7顆"
+      }
+    ],
+    "answer": "D",
+    "explanation": "把所有可能的手鍊都列出來再比較長度確實可行，但很花時間。仔細觀察會發現：如果先把第一顆珠子（5號）串上去，會嚴重限制之後能接續的珠子，只能串出比較短的序列（例如5679或589）。如果把5號珠子放在一旁，改從下一顆珠子（1號）開始串，就能串出更長的可能序列——從更後面的珠子開始的序列，其實都已經包含在（或不會超過）從1號珠子開始的序列裡了。串起最多珠子的手鍊，都是從1號珠子開始，總共有6顆珠子，例如124679或123679。",
+    "ct_skills": "評估、演算法思維（Evaluation, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "每根管子裡都裝著一串編號珠子；依照串珠規則（只能串比上一顆編號大的珠子）串出來的手鍊，其實就是這串編號裡的一段「遞增子序列」。要串上盡量多的珠子，Sheela就必須找出「最長遞增子序列」。如果序列很長，把每一種可能的遞增子序列都列出來再比較，會非常花時間——光是20顆珠子，運算量就高達大約一百萬步的量級。幸好，電腦科學家已經發展出更快的演算法，能找出最長遞增子序列，用的技術叫做「動態規劃」，用這種方法，20顆珠子的運算量能大幅降到遠低於一百步。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

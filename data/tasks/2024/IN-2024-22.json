@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-22",
+  "title_en": "Highest Score of Sequence",
+  "title_zh": "替換字母湊最高分",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-22.png",
+    "path": "assets/images/india/2024/IN-2024-22.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In a game, having 2 identical letters directly next to each other scores 2 points, 3 identical letters in a row score 3 points, and so on. Given a sequence of 12 letters and three extra letters (two Bs and one C) available to swap in, you must replace three letters in the sequence to maximise the total score.",
+    "question": "What is the highest score possible?",
+    "options": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "answer": "C",
+    "explanation": "One optimal placement scores 2+2+4+3=11 points, and this is the maximum possible: the letter A at the left end can never be part of a group, since there is no red A card available to extend it; every other letter ends up part of some group and so contributes to the score; and the size of the group a letter belongs to doesn't matter to that letter's own contribution — each individual letter always contributes exactly 1 point once it's part of any group. Systematically working through the positions for the three replacement letters so that each one creates a new group without breaking an existing one confirms that 11 points is the best achievable, with every other valid placement scoring only 10.",
+    "ct_skills": "Decomposition, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This example shows how computer scientists look for an optimal solution or a general method for finding one. A first approach could simply generate every possible way to replace three letters in a row of twelve with the two Bs and the C — for twelve letters, this gives 12×11×10=1320 possibilities to score and compare. The number of options to check can be greatly reduced by noticing that a replacement only scores points if placed next to a matching letter, that existing groups should not be shrunk, and that connecting separate single letters scores more than enlarging an existing group — leaving essentially one placement to consider. Though 1320 possibilities are trivial for a computer, computer science always asks how the effort needed to solve a problem grows as the problem gets larger; with longer sequences and more replacement letters, the search space grows accordingly, making it worthwhile to analyse the problem and develop an efficient method rather than brute-force checking everything. This is fundamentally an optimisation problem — much like optimising code in a compiler (making it smaller and faster without changing its behaviour) or compressing data (encoding information with fewer bits) — and solving it well uses decomposition (breaking the problem into identifying candidate sequences, scoring each, then evaluating) and evaluation (comparing scores to select the best)."
+  },
+  "content_zh": {
+    "prompt": "在一個遊戲裡，如果2個相同的字母緊鄰在一起，可以得2分；3個相同的字母連在一起，可以得3分，以此類推。給定一串12個字母，還有三個額外可以替換進去的字母（兩個B、一個C），你必須替換序列裡的三個字母，讓總分盡量高。",
+    "question": "最高可能拿到幾分？",
+    "options": [
+      {
+        "key": "A",
+        "text": "9分"
+      },
+      {
+        "key": "B",
+        "text": "10分"
+      },
+      {
+        "key": "C",
+        "text": "11分"
+      },
+      {
+        "key": "D",
+        "text": "12分"
+      }
+    ],
+    "answer": "C",
+    "explanation": "有一種最佳的替換方式，可以拿到2+2+4+3＝11分，而且這已經是可能拿到的最高分：最左端的字母A永遠不可能成為任何一組的一部分，因為沒有多餘的紅色A卡片可以拿來延伸它；其他每個字母最後都會成為某一組的一部分，因此都對得分有貢獻；而一個字母所屬的那一組有多大並不重要——只要一個字母屬於某一組，它自己貢獻的永遠剛好是1分。有系統地檢查三張替換卡片的各種擺放位置，讓每一張都創造出一個新的組合、而不破壞既有的組合，可以確認11分就是能拿到的最高分，其他所有有效的擺法都只能拿到10分。",
+    "ct_skills": "分解、評估（Decomposition, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這個例子示範了電腦科學家在尋找最佳解，或尋找一種通用解法時是怎麼進行的。一開始最簡單的做法，可能是直接窮舉出把12個字母裡的三個換成兩個B和一個C的所有排列方式——對12個字母來說，這樣會有12×11×10＝1320種可能性，每一種都要計算分數並比較。要大幅減少需要檢查的選項數量，可以觀察到：替換進去的字母，只有緊鄰相同字母時才能得分；不應該讓既有的組合變小；而且把兩個原本各自獨立的字母連起來，得分會比擴大既有組合來得多——這樣篩選下來，基本上就只剩一種擺法值得考慮。雖然1320種可能性對電腦來說微不足道，但電腦科學家永遠關心的是：隨著問題規模變大，解決問題所需的心力會怎麼成長；如果序列更長、可替換的字母更多，搜尋空間也會相應變大，這就是為什麼仔細分析問題、發展有效率的方法，會比窮舉所有可能更值得。這本質上是一個最佳化問題——就跟在編譯器裡最佳化程式碼（在不改變行為的前提下讓程式更小更快），或是壓縮資料（用更少的位元編碼資訊）很類似——要把它解好，需要用到分解（把問題拆成「找出候選序列」、「替每個序列計分」、再「評估比較」這幾個步驟），也需要用到評估（比較分數、選出最佳解）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2024-32",
+  "title_en": "Flipping Cards",
+  "title_zh": "翻牌計數二進位遊戲",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-32.png",
+    "path": "assets/images/india/2024/IN-2024-32.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A row of 7 cards, all face down, can be face up or face down. Each step: examine cards from right to left; if the current card is face down, turn it face up and stop; if face up, turn it face down and move to the next card left; stop if you run out of cards.",
+    "question": "How many steps will it take, using this system, to make all 7 cards face up?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It will take ten steps or less"
+      },
+      {
+        "key": "B",
+        "text": "It will take more than 10 but at most 100"
+      },
+      {
+        "key": "C",
+        "text": "It will take more than 100 steps but at most 1000"
+      },
+      {
+        "key": "D",
+        "text": "It will take more than 1000 steps"
+      },
+      {
+        "key": "E",
+        "text": "You can never reach the situation with all 7 cards facing up"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Watching the first few steps reveals a pattern: the rightmost card first turns face up at step 1, the second card from the right first turns face up at step 2, the third at step 4, the fourth at step 8 — a doubling sequence 1, 2, 4, 8, .... Following the pattern, the 5th, 6th, and 7th cards from the right would first turn face up at steps 16, 32, and 64 respectively, so at least 64 steps are needed just to first flip the leftmost (7th) card up. Working out the details more precisely (each step before a new card first turns up, the row briefly shows one fewer than that many consecutive face-up cards) shows that reaching all 7 face up in fact requires exactly 127 steps.",
+    "ct_skills": "Pattern recognition, Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Inside a computer, numbers are represented in binary notation, using only the digits 0 and 1 (bits) instead of 0-9 — e.g. with 7 bits, 1 is 0000001, 2 is 0000010, and so on (real computers typically use 32 or 64 bits). If you use 0 for a face-down card and 1 for a face-up one, the patterns produced by this card game exactly match the binary representations of 1, 2, 3, 4, ... in order — and since 1111111 represents 127 in binary, that confirms 127 steps are needed to reach all cards face up. The 'step' used in this game is exactly the operation real computer electronics use to increase a binary number by 1."
+  },
+  "content_zh": {
+    "prompt": "一排7張牌，一開始全部背面朝上，牌可能是正面朝上或背面朝上。每個步驟：從右到左檢查每張牌；如果目前這張是背面朝上，就把它翻成正面朝上，然後停止；如果是正面朝上，就把它翻成背面朝上，繼續檢查左邊下一張；如果牌檢查完了，就停止。",
+    "question": "照這個方式，要花幾個步驟，才能讓這7張牌全部變成正面朝上？",
+    "options": [
+      {
+        "key": "A",
+        "text": "10步以內"
+      },
+      {
+        "key": "B",
+        "text": "超過10步，但不超過100步"
+      },
+      {
+        "key": "C",
+        "text": "超過100步，但不超過1000步"
+      },
+      {
+        "key": "D",
+        "text": "超過1000步"
+      },
+      {
+        "key": "E",
+        "text": "永遠沒辦法讓7張牌全部正面朝上"
+      }
+    ],
+    "answer": "C",
+    "explanation": "觀察前面幾個步驟可以發現一個規律：最右邊那張牌在第1步第一次翻成正面朝上，右邊數來第二張在第2步第一次翻正面，第三張在第4步，第四張在第8步——形成一個「倍增」序列1、2、4、8……依照這個規律，右邊數來第5、6、7張，應該分別在第16、32、64步第一次翻成正面，所以光是要讓最左邊（第7張）的牌第一次翻成正面，就至少需要64步。更精確地推算細節（每次某張新牌要第一次翻正面之前，那一排會短暫出現比這個數字少1張的連續正面朝上牌），可以發現要讓全部7張都變成正面朝上，實際上剛好需要127步。",
+    "ct_skills": "樣式辨識、抽象化（Pattern recognition, Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "在電腦內部，數字是用二進位表示的，只用0和1（位元）這兩個數字，而不是0到9——舉例來說，用7個位元表示，1是0000001，2是0000010，以此類推（實際電腦通常用32或64個位元）。如果我們把背面朝上的牌當作0、正面朝上的牌當作1，這個翻牌遊戲產生的樣式，會剛好對應到1、2、3、4……依序的二進位表示法——而1111111在二進位裡代表127，這就證實了要讓所有牌都翻成正面朝上，確實需要127步。這個遊戲裡的「一步」，正好對應到真實電腦電子元件裡，把一個二進位數字加1的運作方式。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2024-11",
+  "title_en": "Tube",
+  "title_zh": "雙向佇列彈珠管",
+  "source_country": "South Korea",
+  "source_country_flag": "🇰🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：South Korea",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-11.png",
+    "path": "assets/images/india/2024/IN-2024-11.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A tube has holes on both sides and can hold up to 3 balls; pushing a 4th ball in from either side pushes a ball out the opposite side. A tube currently holds 3 balls in a given arrangement.",
+    "question": "How would this tube look after putting 4 balls in the following order (2 pushed in from the right, then 2 from the left)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Pushing a black ball then a white ball in from the right pushes the two originally-present balls on the left out, in order (black first, then white). Then pushing a black ball then a white ball in from the left pushes two balls out the right, in order (white first, then black). More simply: since two balls were pushed in from the right and then two from the left, the ball originally on the right of the tube stays on the right, and to its left (right to left) are the two balls most recently pushed in — giving the final arrangement light-dark-dark, which matches option C.",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "The tube in this task is a special form of queue, called in computer science a deque (short for double-ended queue). Unlike a traditional queue, elements can be added to or removed from either end of a deque. Deques have many uses, e.g. as a generalised replacement for both a stack (add/remove at the front) and a simple queue (add at the back, remove at the front) — like a shunting track where wagons can be added or removed at either end, but not from the middle. Just as this tube holds only 3 balls, a deque in practice has limited capacity: adding to a full deque requires making room by removing from the other end, losing that information — though deques are often treated as hypothetically unlimited when dealing with theoretical questions rather than practical, resource-constrained applications."
+  },
+  "content_zh": {
+    "prompt": "有一根兩側都有洞的管子，最多可以裝3顆彈珠；如果從任一側再塞進第4顆彈珠，就會把另一側的一顆彈珠推出來。目前管子裡已經裝著3顆彈珠，排列方式如圖所示。",
+    "question": "依照下面的順序放入4顆彈珠（先從右邊放入2顆，再從左邊放入2顆）之後，這根管子看起來會是什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "先從右邊放入一顆黑色彈珠、再放入一顆白色彈珠，會依序把原本在左側的兩顆彈珠推出去（先推出黑色，再推出白色）。接著從左邊放入一顆黑色彈珠、再放入一顆白色彈珠，會依序把兩顆彈珠從右側推出去（先推出白色，再推出黑色）。更簡單的想法是：因為先從右邊放入2顆、再從左邊放入2顆，所以原本在管子右側的那顆彈珠仍然留在右邊，而它左邊（從右到左）依序是最後放進去的那兩顆彈珠——最後的排列是「亮、暗、暗」，對應選項C。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題裡的管子，其實是一種特殊形式的佇列，在電腦科學裡叫做「雙向佇列」（deque，double-ended queue的縮寫）。跟傳統佇列不同的是，雙向佇列可以從任一端加入或移除元素。雙向佇列有很多用途，例如可以廣義地取代堆疊（從前端加入、從前端移除）和一般佇列（從後端加入、從前端移除）——就像一段調車軌道，車廂可以從兩端加入或移除，但沒辦法直接從中間抽走。就像這一題的管子最多只能裝3顆彈珠一樣，雙向佇列在實務上也有容量限制：如果要往已經裝滿的雙向佇列加入新元素，就必須先從另一端移除一個元素來騰出空間，而那筆資訊也會因此遺失——不過，在處理理論性問題（而非有資源限制的實際應用）時，雙向佇列通常會被當作容量沒有限制來討論。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

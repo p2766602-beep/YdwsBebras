@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-02",
+  "title_en": "Alfred the Famous Beaver",
+  "title_zh": "名海狸的真假消息",
+  "source_country": "Hungary",
+  "source_country_flag": "🇭🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Hungary",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-02.png",
+    "path": "assets/images/india/2024/IN-2024-02.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "When the famous beaver Alfred came to a big party, he was photographed. Four influencers wrote about it, but not everything on social media is true. (From the photo: Alfred had a hat, did not wear a tie, did not wear a bow tie, and used a walking stick.)",
+    "question": "Which of the following statements is true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alfred had a hat AND did not use a walking stick"
+      },
+      {
+        "key": "B",
+        "text": "Alfred wore a tie OR he used a walking stick"
+      },
+      {
+        "key": "C",
+        "text": "Alfred had a hat AND wore a bow tie"
+      },
+      {
+        "key": "D",
+        "text": "Alfred wore a bow tie OR did not use a walking stick"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each statement joins two sub-statements with AND or OR. An AND statement is true only if both parts are true; an OR statement is true if at least one part is true. (A) 'had a hat' (true) AND 'did not use a walking stick' (false) → false. (B) 'wore a tie' (false) OR 'used a walking stick' (true) → true, since one part is true. (C) 'had a hat' (true) AND 'wore a bow tie' (false) → false. (D) 'wore a bow tie' (false) OR 'did not use a walking stick' (false) → false, since neither part is true.",
+    "ct_skills": "Logical thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "AND and OR are logical operators that let us make decisions involving multiple conditions — for example, 'if a person is 18 or older, AND does not need glasses to see, they can get an unrestricted driving licence.' In computer systems, true and false are often represented as 1 and 0, processed by electronic components implementing AND and OR; in programming, certain steps are only carried out if a logical condition evaluates to true."
+  },
+  "content_zh": {
+    "prompt": "知名海狸Alfred參加一場盛大派對時被拍了照。四位網紅寫文章談論這件事，但社群媒體上的內容不見得都是真的。（從照片可以確認：Alfred戴著帽子、沒打領帶、沒打領結、用了一根拐杖。）",
+    "question": "下面哪一句敘述是真的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alfred戴著帽子，而且沒有用拐杖"
+      },
+      {
+        "key": "B",
+        "text": "Alfred打了領帶，或是他用了拐杖"
+      },
+      {
+        "key": "C",
+        "text": "Alfred戴著帽子，而且打了領結"
+      },
+      {
+        "key": "D",
+        "text": "Alfred打了領結，或是他沒有用拐杖"
+      }
+    ],
+    "answer": "B",
+    "explanation": "每句敘述都是用「且」或「或」連接兩個子敘述。用「且」連接的敘述，只有在兩部分都成立時才算真；用「或」連接的敘述，只要有一部分成立就算真。(A)「戴帽子」（真）且「沒用拐杖」（假）→假。(B)「打領帶」（假）或「用了拐杖」（真）→真，因為其中一部分成立。(C)「戴帽子」（真）且「打領結」（假）→假。(D)「打領結」（假）或「沒用拐杖」（假）→假，因為兩部分都不成立。",
+    "ct_skills": "邏輯思維（Logical thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "「且」（AND）和「或」（OR）是邏輯運算子，讓我們能在涉及多個條件時做出判斷——舉例來說，「如果一個人年滿18歲，而且不需要戴眼鏡就能看清楚，就能拿到不受限制的駕照」。在電腦系統裡，真和假通常用1和0表示，透過實作AND和OR邏輯的電子元件來處理；在程式設計裡，某些步驟只有在特定邏輯條件成立（為真）時才會被執行。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

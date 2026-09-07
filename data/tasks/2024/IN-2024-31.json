@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-31",
+  "title_en": "Dishes on the Shelf",
+  "title_zh": "機器人排碗盤規則",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-31.png",
+    "path": "assets/images/india/2024/IN-2024-31.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A robot places dishes on a shelf according to a given repeating diagram of steps, which places teapots on the shelf two at a time (i.e. whenever one teapot is placed, a second must also be placed immediately after it), along with other dish types in a fixed pattern.",
+    "question": "Which one of the shelves has the dishes incorrectly ordered?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Since the diagram places teapots in pairs (the first teapot placed always forces a second one immediately after), the number of teapots in a correctly-ordered row must always be even. Only option C has an odd number of teapots, so it must be incorrect; checking options A, B, and D confirms their dishes are lined up exactly according to the given diagram.",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This is a classic computer science problem: given a scheme (here, a kind of automaton) you must understand how it works and what results it can produce. The easiest way is to look at a few examples to spot patterns — here, focusing on one of the most important parts of the scheme, the repeated action of placing teapots, reveals that the number of teapots in the row must always be even. Checking the correctness of each option against the given diagram requires pattern recognition, an important component of computational thinking: identifying patterns, trends, and regularities within a problem helps you understand it better and find more efficient solutions than checking every dish position individually."
+  },
+  "content_zh": {
+    "prompt": "一個機器人依照一張重複性的步驟圖，把碗盤排上架子；這張圖規定茶壺一次要放兩個（也就是說，只要放了一個茶壺，緊接著就一定要再放一個），其他種類的碗盤則依固定的樣式排列。",
+    "question": "哪一個架子上的碗盤，排列順序是錯的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "因為這張圖規定茶壺是成對放置的（放了第一個茶壺，就一定要緊接著放第二個），所以正確排列的一排裡，茶壺的數量一定是偶數。只有選項C的茶壺數量是奇數，所以它一定是錯的；檢查選項A、B、D，可以確認它們的碗盤排列都完全符合給定的那張圖。",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這是一個經典的電腦科學問題：給定一套機制（這裡是一種自動機），你必須理解它是怎麼運作的、能產生什麼結果。最簡單的做法，就是看幾個例子來找出規律——這裡只要專注在這套機制裡最重要的一部分，也就是「重複放置茶壺」這個動作，就能發現一排裡的茶壺數量一定是偶數。要對照給定的圖，檢查每個選項是否正確，需要用到樣式辨識，這是運算思維裡重要的一環：辨識出問題裡的樣式、趨勢和規律，能幫助我們更好地理解問題，並找到比逐一檢查每個碗盤位置更有效率的解法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

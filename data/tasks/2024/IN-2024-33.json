@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2024-33",
+  "title_en": "Online Class",
+  "title_zh": "視訊畫面推理座位",
+  "source_country": "Malaysia",
+  "source_country_flag": "🇲🇾",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Malaysia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-33.png",
+    "path": "assets/images/india/2024/IN-2024-33.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Avi wants to see her old school friends again over video call. Her friends sit next to each other, but each is at a different computer; on her screen, she can partially see the neighbours seated next to whichever friend is shown in each window (e.g. seeing that Jay has only one visible neighbour tells you he sits at one end of the row).",
+    "question": "Which of her friends is sitting in the middle (5th position)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Diya"
+      },
+      {
+        "key": "B",
+        "text": "Rahul"
+      },
+      {
+        "key": "C",
+        "text": "Lalit"
+      },
+      {
+        "key": "D",
+        "text": "Bela"
+      },
+      {
+        "key": "E",
+        "text": "Heena"
+      }
+    ],
+    "answer": "E",
+    "explanation": "From the image showing Jay with only one neighbour, we know Jay sits at one end of the row; the image also shows Esha next to Jay, and Diya next to Esha. Applying the same reasoning to each remaining screen — using the partial glimpses of neighbours as clues — lets you place all 9 friends in a single consistent order, in which Heena turns out to be the one sitting exactly in the middle, at the 5th position.",
+    "ct_skills": "Logical thinking, Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "In this task, each picture shows not just one child but partial glimpses of the children next to them — like 'references' to their neighbours. Computer scientists use a very similar data structure for this: this arrangement of friends is called a doubly linked list, where each node holds an element (a child) plus a reference (pointer) to the previous node and a reference to the next node. This task involves traversing such a list starting from either end; having pointers in both directions lets you reach not just the next but also the previous element, making it faster to find and edit elements — at the cost of needing a bit more memory to store two references per element instead of one. Computational thinking here means using logical thinking to solve the task: understanding the problem, forming an algorithmic approach to evaluate the visual clues (much like finding edge pieces and matching connections when assembling a jigsaw puzzle), and applying that logic to the given scenario step by step."
+  },
+  "content_zh": {
+    "prompt": "Avi想透過視訊通話，再看看以前學校的朋友們。她的朋友們實際上是坐在一起的，但各自用不同的電腦連線；在Avi的螢幕上，她只能局部看到坐在某位朋友旁邊的鄰座（例如，如果畫面顯示Jay只有一側看得到鄰居，就代表他坐在整排的其中一端）。",
+    "question": "坐在正中間（第5個位置）的是哪位朋友？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Diya"
+      },
+      {
+        "key": "B",
+        "text": "Rahul"
+      },
+      {
+        "key": "C",
+        "text": "Lalit"
+      },
+      {
+        "key": "D",
+        "text": "Bela"
+      },
+      {
+        "key": "E",
+        "text": "Heena"
+      }
+    ],
+    "answer": "E",
+    "explanation": "從顯示Jay只有一側鄰居的畫面可以知道，Jay坐在整排的其中一端；同一張畫面也顯示Esha坐在Jay旁邊，而Diya坐在Esha旁邊。把同樣的推理方法套用到剩下的每個畫面上——利用局部看到的鄰座線索——就能把全部9位朋友排成一個前後一致的順序，其中Heena正好就坐在最中間，也就是第5個位置。",
+    "ct_skills": "邏輯思維、演算法思維（Logical thinking, Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "在這一題裡，每張畫面顯示的不只是一位小朋友，還包含坐在旁邊的小朋友的局部畫面——就像是指向鄰座的一種「參照」。電腦科學家也用非常類似的資料結構來處理這種情況：這種朋友排列方式，叫做「雙向鏈結串列」，每個節點都存放著一個元素（一位小朋友），還有指向前一個節點和後一個節點的參照（指標）。這一題牽涉到從任一端走訪這樣一份串列；同時擁有雙向的指標，讓我們不只能找到下一個，還能找到前一個元素，這讓尋找和修改元素更快速——代價是每個元素要多花一點記憶體，儲存兩個參照而不是一個。這一題的運算思維，體現在運用邏輯思維解題：理解問題、建立一套演算法式的方法來評估這些視覺線索（就像拼拼圖時，找出邊框拼片、比對接合處的做法一樣），再把這套邏輯一步步套用到給定的情境裡。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

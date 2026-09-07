@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-03",
+  "title_en": "Organizing Necklaces",
+  "title_zh": "項鍊收納盒配對",
+  "source_country": "Brazil",
+  "source_country_flag": "🇧🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Brazil",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-03.png",
+    "path": "assets/images/india/2024/IN-2024-03.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Vineeta keeps her necklaces in a box with seven compartments, each shaped for a necklace with a specific matching colour pattern.",
+    "question": "Which of the following necklaces does not fit into any compartment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Checking each necklace against the seven compartments shows that A, B, and C each match the colour pattern of one open compartment. Necklace D, with a black-and-white colour pattern, has no matching compartment among the seven — so it does not fit anywhere.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "In computer science problems you often have a large amount of data, but only a small part of it is relevant to a given question — here, we only need to look at each necklace's colours, not the shape or number of its beads, to decide which compartment it fits. Filtering out unneeded data lets you work only with what actually leads to the solution — a simple form of abstraction. This same principle is used in artificial intelligence, e.g. reducing data to relevant aspects when recognising objects, which increases computing efficiency."
+  },
+  "content_zh": {
+    "prompt": "Vineeta把項鍊收在一個有七個隔層的盒子裡，每個隔層的形狀，都對應著一條擁有特定配色圖案的項鍊。",
+    "question": "下面哪一條項鍊，沒辦法放進任何一個隔層？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "把每條項鍊拿去跟七個隔層比對，會發現A、B、C分別都對應到某一個空隔層的配色圖案。項鍊D是黑白配色圖案，在這七個隔層裡都找不到對應的——所以它哪裡都放不進去。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "在電腦科學的問題裡，我們手上經常有大量資料，但真正跟問題有關的往往只是其中一小部分——這裡我們只需要看每條項鍊的顏色，不需要管珠子的形狀或數量，就能判斷該放進哪個隔層。過濾掉不需要的資料，只留下真正能引導出解答的部分，這就是一種簡單的抽象化。這個原則在人工智慧裡也有應用，例如在辨識物體時，把資料簡化到只留下相關的面向，藉此提升運算效率。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

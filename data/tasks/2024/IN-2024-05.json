@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2024-05",
+  "title_en": "Birthday Present",
+  "title_zh": "生日禮物選球",
+  "source_country": "Netherlands",
+  "source_country_flag": "🇳🇱",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Netherlands",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-05.png",
+    "path": "assets/images/india/2024/IN-2024-05.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Falguni wants a ball for her birthday with no stripes, with a star on it, and with no moon on it.",
+    "question": "Which ball should we buy for Falguni?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) E"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Applying Falguni's rules in order: first remove all balls with stripes; from what remains, remove all balls without a star; finally remove the one remaining ball that has a moon. The one ball left, satisfying all three rules, is the correct answer.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task uses a very simple algorithm to determine the right ball — an algorithm being a set of rules a computer follows to solve a problem, which can be visualised as a flowchart. Algorithmic thinking is a very important everyday problem-solving approach, and this task introduces how to navigate an algorithm by going through a task step by step, following the rules one at a time."
+  },
+  "content_zh": {
+    "prompt": "Falguni想要一顆生日禮物球，條件是：沒有條紋、上面有星星圖案、沒有月亮圖案。",
+    "question": "我們該買哪一顆球給Falguni？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）E"
+      }
+    ],
+    "answer": "B",
+    "explanation": "依序套用Falguni的規則：先把所有有條紋的球去掉；在剩下的球裡，去掉所有沒有星星圖案的球；最後把剩下唯一一顆還有月亮圖案的球也去掉。最後剩下的那一顆球，同時符合三項規則，就是正確答案。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題用了一個非常簡單的演算法，來決定該選哪一顆球——演算法就是電腦為了解決問題而遵循的一組規則，可以用流程圖來呈現。演算法思維是日常生活裡非常重要的解題方式，這一題正好示範了如何依循演算法，一步步照著規則走完整個任務。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

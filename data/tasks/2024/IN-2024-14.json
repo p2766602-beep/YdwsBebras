@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-14",
+  "title_en": "Tree Tours",
+  "title_zh": "健行路線排出人氣序",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-14.png",
+    "path": "assets/images/india/2024/IN-2024-14.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beena offers forest hikes and talks about trees she encounters. From previous hikes she knows relative popularity relationships between certain trees (tree1 < tree2 means tree1 is less popular than tree2), given by three separate hikes' worth of comparisons. On her next hike she wants to show more popular trees later, in an order that doesn't conflict with any of the popularity relationships already known from previous hikes.",
+    "question": "In what order should she show the trees on her next hike?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture order) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture order) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture order) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture order) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Combining the popularity relationships from all three previous hikes into one diagram, where an arrow points from a less popular tree to a more popular one whenever their relative order is known, and merging the diagrams by identifying shared trees between hikes, produces a single combined diagram. Reading the trees from left to right through this diagram (following the arrows) gives a valid order that respects every known relationship — note that not every tree needs to appear in the new tour.",
+    "ct_skills": "Decomposition, Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is a classic computer science problem: given known partial-order relationships between items (here, popularity comparisons between pairs of trees from different hikes), find a full ordering consistent with all of them — known as topological sorting of a directed graph. The general strategy is to build a diagram (directed graph) representing every known 'before' relationship, combine partial diagrams by merging on shared elements, and then read off a consistent order by following the arrows from left to right. This requires decomposition (handling each hike's relationships separately, then merging) and algorithmic thinking (systematically combining evidence into one ordering)."
+  },
+  "content_zh": {
+    "prompt": "Beena帶隊在森林裡健行，並介紹沿途遇到的樹木。從之前幾次健行的經驗，她知道某些樹木之間的相對人氣關係（樹1<樹2代表樹1比樹2受歡迎程度低），這些關係分別來自三趟不同的健行行程。下一次健行，她想要越晚介紹的樹越受歡迎，而且排出來的順序，不能跟先前任何一趟健行裡已知的人氣關係互相矛盾。",
+    "question": "她下一次健行應該按照什麼順序介紹這些樹？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）順序A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）順序B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）順序C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）順序D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "把三趟先前健行裡已知的人氣關係全部整合成一張圖，只要知道兩棵樹的相對順序，就從比較不受歡迎的樹畫一個箭頭指向比較受歡迎的樹，再把提到相同樹木的圖合併起來，就能得到一張完整的合併圖。沿著這張圖，從左到右依序讀出樹木（順著箭頭方向），就能得到一個符合所有已知關係的有效順序——要注意的是，並不是每一棵樹都必須出現在新的健行路線裡。",
+    "ct_skills": "分解、演算法思維（Decomposition, Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是電腦科學裡的一個經典問題：給定一些項目之間已知的局部順序關係（這裡是不同健行行程裡，成對樹木之間的人氣比較），找出一個符合所有已知關係的完整排序——這叫做有向圖的「拓樸排序」。一般的策略是：先畫一張圖（有向圖），呈現每一個已知的「先後」關係，再把提到相同元素的局部圖合併起來，最後沿著箭頭從左到右讀出一個符合所有條件的順序。這需要用到分解（先分別處理每趟健行的關係，再合併起來）和演算法思維（有系統地把各種線索整合成一個順序）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

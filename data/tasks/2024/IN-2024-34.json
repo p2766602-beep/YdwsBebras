@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-34",
+  "title_en": "Keep Switching",
+  "title_zh": "哥布林排序移動次數",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-34.png",
+    "path": "assets/images/india/2024/IN-2024-34.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A machine moves six blocks of different heights using a marker placed between two blocks. It repeats: if the block left of the marker is shorter than the one to its right, the marker moves right; if the left block is taller, the two blocks are swapped, and then the marker moves left (only if it's still between two blocks). It stops when the marker reaches the far right of all the blocks. Different starting configurations need different numbers of steps.",
+    "question": "In which of these starting configurations does the machine take the fewest steps?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Simulating the machine for each starting configuration and counting marker movements would work, but the configurations can also be compared without fully counting: starting from configuration B, configuration A is reached after two more steps, so B needs more steps than A, ruling out B. Starting from configuration A, after three more steps a configuration is reached that is also reachable from configuration D in just one step, so A needs more steps than D, ruling out A. Starting from configuration C, configuration D is reached after four more steps, so C also needs more steps than D. Overall, configuration D takes the fewest steps.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Sorting data is a common process in computer science, whether by size, cost, or alphabetically, and one task of computer scientists is finding the most efficient sorting methods possible. The sorting method used by this machine is called Gnome sort, similar to bubble sort; computer scientists rate its average-case runtime efficiency as significantly worse than efficient methods like quicksort or merge sort, though Gnome sort is comparatively easy to understand and implement — illustrating the recurring computer-science trade-off between an algorithm's simplicity and its efficiency."
+  },
+  "content_zh": {
+    "prompt": "一台機器用一個放在兩個方塊之間的標記，來移動六個高度不同的方塊。它會不斷重複：如果標記左邊的方塊比右邊的矮，標記就往右移；如果左邊的方塊比較高，就把這兩個方塊互換，然後（只要標記還在兩個方塊之間）標記再往左移一格。當標記移到所有方塊的最右邊時，機器就停止。不同的起始排列，需要的步驟數量也不一樣。",
+    "question": "下面哪一種起始排列，機器需要的步驟數最少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "針對每種起始排列，實際模擬機器運作並計算標記移動次數固然可行，但也可以不用完整計算就比較各排列：從排列B開始，再走兩步就會到達排列A，所以B需要的步驟比A多，可以排除B。從排列A開始，再走三步會到達一個狀態，而這個狀態從排列D出發只要一步就能到達，所以A需要的步驟比D多，可以排除A。從排列C開始，再走四步會到達排列D，所以C需要的步驟也比D多。整體來看，排列D需要的步驟數最少。",
+    "ct_skills": "演算法思維、評估（Algorithmic Thinking, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "排序資料是電腦科學裡很常見的工作，不論是依大小、成本，還是按字母順序排序，電腦科學家的任務之一，就是找出盡可能有效率的排序方法。這台機器使用的排序方法叫做「哥布林排序」（Gnome sort），跟氣泡排序很類似；電腦科學家評估它的平均執行效率，明顯比快速排序或合併排序這類高效方法差得多，不過哥布林排序相對容易理解和實作——這正好說明了電腦科學裡一個反覆出現的取捨：演算法的簡單程度，跟它的效率之間往往需要權衡。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

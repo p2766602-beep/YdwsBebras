@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-28",
+  "title_en": "Railway Network",
+  "title_zh": "城市間鐵路最大流量",
+  "source_country": "Pakistan",
+  "source_country_flag": "🇵🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Pakistan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-28.png",
+    "path": "assets/images/india/2024/IN-2024-28.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In Bebravia, cities are linked by railway tracks, each with a limited daily number of trains it can carry (shown on a diagram); different trains may share a track. Quandaria wants to send materials to Pixleton, where trains must always follow the arrows shown.",
+    "question": "What is the maximum number of trains that can depart from Quandaria and arrive at Pixleton every day?",
+    "options": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "19"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Town Q (Quandaria) cannot send more trains than the total capacity leaving it (e.g. 8+11=19), so option C is already ruled out. Repeatedly finding a path from Q to P with remaining spare capacity and sending as many trains as that path allows, then repeating on what capacity remains elsewhere in the network, is one way to find a valid schedule totalling 13 trains (other groupings, including ones using longer paths, also reach 13). To confirm 13 is the maximum: three tracks in the middle of the network, with capacities 2, 7, and 4, are such that every possible path from Q to P must use one of them — so no schedule can ever exceed 2+7+4=13 trains total.",
+    "ct_skills": "Algorithmic Thinking, Evaluation, Decomposition",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This task is an instance of the maximum flow problem — like a network of pipes with different capacities, where you want to know how much water (or here, trains) can flow from a source to a sink. The maximum flow problem can be solved with various known algorithms (Ford-Fulkerson, Edmonds-Karp, Dinic's algorithm, and more), each with its own trade-offs in runtime efficiency, ease of implementation, and suitability for different network types; the unavoidable middle tracks found in this task's solution form what's called a 'minimum cut'. Maximum flow algorithms are used in traffic optimisation, distribution systems (e.g. water and electricity networks), resource allocation, and computer networking. Solving this task involves algorithmic thinking and evaluation: decomposing the solution into a sequence of steps, each finding a path between Q and P with spare capacity, and terminating once no such path remains available."
+  },
+  "content_zh": {
+    "prompt": "在Bebravia國，城市之間靠鐵路相連，每條軌道每天能承載的火車數量都有限制（如圖所示）；不同的火車可以共用同一條軌道。Quandaria要送物資到Pixleton，火車必須永遠依照圖上箭頭指示的方向行駛。",
+    "question": "每天最多能有幾列火車，從Quandaria出發、抵達Pixleton？",
+    "options": [
+      {
+        "key": "A",
+        "text": "13列"
+      },
+      {
+        "key": "B",
+        "text": "15列"
+      },
+      {
+        "key": "C",
+        "text": "19列"
+      },
+      {
+        "key": "D",
+        "text": "22列"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Q城（Quandaria）能送出的火車數量，不可能超過離開該城的總容量（例如8+11＝19），所以選項C可以直接排除。反覆從Q到P尋找一條還有剩餘容量的路徑、盡量送出這條路徑容量允許的火車數，再對網路裡剩下的容量重複同樣的做法，就能找到一個總共13列火車的可行排程（其他分組方式，包括用到較長路徑的做法，同樣也能達到13列）。要確認13列就是上限：這個路網中間有三條軌道，容量分別是2、7、4，而任何一條從Q到P的路徑，都一定會經過其中一條——所以不論怎麼排，總數都不可能超過2+7+4＝13列。",
+    "ct_skills": "演算法思維、評估、分解（Algorithmic Thinking, Evaluation, Decomposition）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題是「最大流量問題」的一個實例——就像一個由不同容量水管組成的網路，你想知道最多能有多少水（這裡是火車）能從源頭流到出口。最大流量問題可以用好幾種已知的演算法解決（Ford-Fulkerson演算法、Edmonds-Karp演算法、Dinic演算法等等），每一種在執行效率、實作難易度，以及適用的網路類型上各有優缺點；這一題解答裡那幾條「無法避開」的中間軌道，正好構成所謂的「最小割」（minimum cut）。最大流量演算法被廣泛應用在交通最佳化、配送系統（例如自來水和電力網路）、資源分配，以及電腦網路等領域。要解開這一題，需要用到演算法思維和評估：把整個解法拆解成一連串的步驟，每一步都在Q和P之間找出一條還有剩餘容量的路徑，直到再也找不到這樣的路徑為止。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-19",
+  "title_en": "Map of Lighthouses",
+  "title_zh": "燈塔可見範圍定位",
+  "source_country": "Czechia",
+  "source_country_flag": "🇨🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Czechia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-19.png",
+    "path": "assets/images/india/2024/IN-2024-19.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Captain Akhilesh has a map of the harbour but doesn't know exactly where his sailboat is. A circle is drawn around each lighthouse; when his boat is inside a lighthouse's circle, he can see that lighthouse.",
+    "question": "Captain Akhilesh can see lighthouses B and C, but he can't see lighthouse A. Which numbered position is his boat?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The boat must lie inside both circle B and circle C (since both are visible) but outside circle A (since it is not visible). Position 2 is the only marked position lying in the overlap of circles B and C while being outside circle A.",
+    "ct_skills": "Logical thinking, Abstraction",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Clearly visible landmarks on a coast can be used to navigate on water (terrestrial navigation); today most ships use satellite navigation instead, though sailors still learn traditional navigation as a backup. In computer science, precisely describing a problem and its solution process is very important — a useful tool here is propositional logic: let statement A mean 'lighthouse A is visible', and likewise for B and C. Akhilesh's situation is 'B AND C AND NOT A'. On the map, 'A AND B AND C' is the region where all three circles overlap (all three lighthouses visible), while 'NOT A AND NOT B AND NOT C' is the region outside all three circles. Propositional logic (or equivalently, Boolean algebra) is widely used in computer science for knowledge representation, program verification, and especially digital circuit modelling. The diagram used here — overlapping circles illustrating logical relationships between sets — is called a Venn diagram. Solving this task requires abstraction (the graph abstracts the important set relationships from the problem) plus logical thinking to apply Venn-diagram reasoning to find the answer."
+  },
+  "content_zh": {
+    "prompt": "船長Akhilesh有一張港口地圖，但不確定自己的帆船目前確切位置在哪裡。地圖上每座燈塔周圍都畫著一個圓圈；當他的船在某座燈塔的圓圈範圍內，就代表他能看到那座燈塔。",
+    "question": "船長Akhilesh能看到燈塔B和C，但看不到燈塔A。他的船位在編號幾號的位置？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1號"
+      },
+      {
+        "key": "B",
+        "text": "2號"
+      },
+      {
+        "key": "C",
+        "text": "3號"
+      },
+      {
+        "key": "D",
+        "text": "4號"
+      }
+    ],
+    "answer": "B",
+    "explanation": "船一定同時在B圓圈和C圓圈裡面（因為兩座都看得到），但一定在A圓圈外面（因為看不到）。在標示出的幾個位置裡，只有2號同時落在B跟C圓圈的重疊區域內，而且落在A圓圈外面。",
+    "ct_skills": "邏輯思維、抽象化（Logical thinking, Abstraction）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "海岸上清楚可見的地標，可以用來在水上導航（這叫做「地文導航」）；現在大多數船隻都改用衛星導航，不過水手仍然會學習傳統導航技巧，以備不時之需。在電腦科學裡，精確地描述一個問題和解題過程非常重要——這裡有一個實用的工具，叫做「命題邏輯」：假設敘述A代表「看得到燈塔A」，B、C也是同樣道理。Akhilesh目前的情況就是「B且C且非A」。在地圖上，「A且B且C」對應到三個圓圈重疊的區域（三座燈塔都看得到），而「非A且非B且非C」則對應到三個圓圈之外的區域。命題邏輯（也可以說是布林代數）在電腦科學裡有廣泛的應用，例如知識表示、程式驗證，尤其是數位電路的建模。這裡用到的圖——用重疊的圓圈來呈現集合之間的邏輯關係——叫做「文氏圖」（Venn diagram）。要解開這一題，需要用到抽象化（這張圖把問題裡重要的集合關係抽象化呈現出來），再加上邏輯思維，運用文氏圖的推理方式來找出答案。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

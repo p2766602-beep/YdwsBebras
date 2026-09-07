@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-04",
+  "title_en": "Balloon Machine",
+  "title_zh": "氣球機器排序(基礎版)",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-04.png",
+    "path": "assets/images/india/2024/IN-2024-04.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A balloon machine creates pictures by inflating balloons labelled A-E in a square frame. It reads letters left to right: if the current letter's balloon is empty, it inflates until touching another balloon or the frame edge; if the balloon is already inflated, it deflates instead.",
+    "question": "Which of the following sequences will NOT produce the target image?",
+    "options": [
+      {
+        "key": "A",
+        "text": "B A E C D"
+      },
+      {
+        "key": "B",
+        "text": "B E A C D"
+      },
+      {
+        "key": "C",
+        "text": "B E C A D"
+      },
+      {
+        "key": "D",
+        "text": "B C E D A"
+      }
+    ],
+    "answer": "D",
+    "explanation": "There are exactly four sequences of letters that correctly produce the target image, found by representing the required inflation order as a directed graph (an arrow from X to Y means balloon X must be inflated before Y) and finding all its topological orderings. Sequence D (B C E D A) does not follow this required order and so fails to produce the image.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The sequence of letters is a computer program controlling a machine — each letter is a statement that inflates or deflates a balloon, and as with most such programs, the order of statements matters (e.g. 'B E' produces a different result than 'E B'). The directed graph used to find valid sequences has no cycles, so it is called a directed acyclic graph (DAG); any DAG has at least one topological ordering, and fast algorithms exist to construct one. DAGs have many applications in informatics, such as task scheduling."
+  },
+  "content_zh": {
+    "prompt": "一台氣球機器，會在一個方形框架裡，把標示著A到E的氣球充氣，藉此畫出圖案。它會從左到右依序讀取字母：如果目前字母對應的氣球是空的，就會幫它充氣，直到碰到另一個氣球或框架邊緣為止；如果那個氣球已經是充氣狀態，就會改為放氣。",
+    "question": "下面哪一組字母序列，沒辦法產生目標圖案？",
+    "options": [
+      {
+        "key": "A",
+        "text": "B A E C D"
+      },
+      {
+        "key": "B",
+        "text": "B E A C D"
+      },
+      {
+        "key": "C",
+        "text": "B E C A D"
+      },
+      {
+        "key": "D",
+        "text": "B C E D A"
+      }
+    ],
+    "answer": "D",
+    "explanation": "剛好有四組字母序列能正確產生目標圖案，可以透過把「必要的充氣順序」畫成一張有向圖來找出（從X指向Y的箭頭代表氣球X必須在氣球Y之前充氣），再找出這張圖所有的拓樸排序。序列D(B C E D A)不符合這個必要的順序，所以沒辦法產生目標圖案。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這串字母序列其實就是一支控制機器的電腦程式——每個字母都是一條讓氣球充氣或放氣的指令，就像大多數這類程式一樣，指令的順序非常重要（例如「B E」跟「E B」會產生不一樣的結果）。用來找出合法序列的這張有向圖裡沒有環，所以叫做「有向無環圖」（DAG）；任何一張DAG都至少存在一種拓樸排序，而且有快速的演算法可以求出它。DAG在資訊科學裡有很多應用，例如工作排程。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

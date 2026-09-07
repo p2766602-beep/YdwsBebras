@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-01",
+  "title_en": "Lost",
+  "title_zh": "迷路的安妮塔",
+  "source_country": "Indonesia",
+  "source_country_flag": "🇮🇩",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Indonesia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-01.png",
+    "path": "assets/images/india/2024/IN-2024-01.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Anita was playing in the forest. When it was time to go home, she forgot which path to take. She remembered that on her way into the forest, she first saw red and yellow flowers, then an apple tree, and finally a bird's nest in a tree. The picture shows where Anita got lost, along with the paths leading out of the forest.",
+    "question": "Which path should Anita choose to go home?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) path A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) path B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) path C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) path D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "On the way into the forest, Anita saw the flowers first, then the apple tree, then the bird's nest — so on the way home she must see the same objects in the opposite order: nest first, then apple tree, then the red and yellow flowers last. Path A is wrong because it has no bird's nest; path C has the objects in the wrong order; path D has blue flowers instead of red and yellow ones.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This problem simulates a stack data structure using the LIFO (Last In, First Out) process. The objects Anita saw can be thought of as being placed into a stack in order: flowers, then apple tree, then bird's nest. Walking home in the opposite direction means removing items from the stack one by one, from the top — first the bird's nest, then the apple tree, leaving the flowers as the last item remaining. To solve this task, we need to focus on the relevant objects and ignore everything else — this is called abstraction."
+  },
+  "content_zh": {
+    "prompt": "Anita在森林裡玩耍。到了該回家的時候，她卻忘記該走哪一條路。她記得自己進森林的路上，先看到紅色和黃色的花，接著看到一棵蘋果樹，最後在一棵樹上看到一個鳥巢。圖中顯示了Anita迷路的地方，以及通往森林外的幾條路徑。",
+    "question": "Anita該選哪一條路回家？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）路徑A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）路徑B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）路徑C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）路徑D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Anita進森林的路上，先看到花，接著是蘋果樹，最後是鳥巢——所以回家的路上，她必須以相反的順序看到同樣的東西：先看到鳥巢，接著蘋果樹，最後才是紅黃色的花。路徑A是錯的，因為上面沒有鳥巢；路徑C的順序不對；路徑D上是藍色的花，不是紅色和黃色的花。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這個問題模擬了電腦科學裡的「堆疊」（stack）資料結構，運作方式是「後進先出」（LIFO）。Anita看到的東西，可以想像成依序被放進一個堆疊裡：先放花，接著蘋果樹，然後是鳥巢。往回走回家，就相當於一個個從堆疊「頂端」把東西拿出來——先拿出鳥巢，接著拿出蘋果樹，最後剩下的就是花。要解開這一題，我們只需要專注在有關的物件上，忽略其他所有東西——這就叫做抽象化。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

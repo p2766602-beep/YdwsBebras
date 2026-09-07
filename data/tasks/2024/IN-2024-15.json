@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-15",
+  "title_en": "Ricca Cards",
+  "title_zh": "怪獸卡片屬性型別",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-15.png",
+    "path": "assets/images/india/2024/IN-2024-15.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Babita collects cards of monsters called 'Riccas'. Each Ricca has attributes such as name or number of eyes, and each attribute's value must be given in a specific kind: text values, X-or-checkmark values, or number values.",
+    "question": "On which card does every attribute have the correct kind of value assigned to it?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Only on card B are all the attributes given values of the correct kind. On cards A, C, and D, the Ricca named Lori has 2 horns shown in the picture, but the horns attribute can only be given a value of X or checkmark (not a number) — so those cards are wrong. On card A additionally, the eyes attribute (which must be a number) is instead given as a picture of eyes rather than the number 3.",
+    "ct_skills": "Abstraction, Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "The values on the cards describe the Riccas and could be stored as variables, each with a data type determining which values are acceptable and which operations can be carried out on them — in the Ricca cards, name is stored as text, eyes as a number, and horns as yes/no. How we store data in a computer determines what calculations we can later perform on it, so before storing data we must think about how we intend to use it, and choose the data type accordingly. Solving this task requires abstraction: first filtering out the relevant information and validating the given values, then distinguishing between 'a correct value' and 'a correct value given in the correct data type.'"
+  },
+  "content_zh": {
+    "prompt": "Babita收集畫著怪獸「Ricca」的卡片。每隻Ricca都有一些屬性，例如名字或眼睛數量，而每個屬性的值都必須用特定的型別來表示：文字型別、X或打勾的型別，或是數字型別。",
+    "question": "哪一張卡片上，每個屬性的值都用了正確的型別來表示？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "只有卡片B上，所有屬性的值都用了正確的型別表示。在卡片A、C、D上，名叫Lori的Ricca圖片裡有2隻角，但「角」這個屬性只能用X或打勾來表示（不能用數字）——所以這幾張卡片都不對。另外在卡片A上，「眼睛」這個屬性應該要用數字表示，但卡片上卻用眼睛的圖片來表示，而不是數字3。",
+    "ct_skills": "抽象化、資料表示法（Abstraction, Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "卡片上的這些值，用來描述每隻Ricca，可以把它們儲存成變數，而每個變數都有一個「資料型別」，用來決定哪些值可以被接受、又能對這個值執行哪些運算——在Ricca卡片裡，名字用文字儲存，眼睛用數字儲存，角則用「是／否」儲存。我們把資料儲存在電腦裡的方式，會決定之後能對這筆資料進行什麼運算，所以在儲存資料之前，我們必須先想清楚打算怎麼使用它，再據此選擇合適的資料型別。要解開這一題，需要用到抽象化：先篩選出相關的資訊、驗證給定的值，接著再區分「值本身是否正確」跟「值是否用正確的資料型別表示」這兩件事。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

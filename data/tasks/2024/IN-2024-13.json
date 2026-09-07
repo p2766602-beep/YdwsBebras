@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-13",
+  "title_en": "Beaver's Pattern",
+  "title_zh": "夾心餅乾圍籬圖案",
+  "source_country": "Finland",
+  "source_country_flag": "🇫🇮",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Finland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-13.png",
+    "path": "assets/images/india/2024/IN-2024-13.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Badri's favourite snack is a cream biscuit: a biscuit, cream filling, and another biscuit. Badri likes to take them apart and make his own version (a different stacking/arrangement of the same three layers). Now Badri wants to paint his fence in the same repeating pattern as his version of the biscuit; he has already painted the first plank.",
+    "question": "What will the rest of the fence look like?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Badri's version of the biscuit is several normal biscuits stacked so that the biscuit layers alternate directly with cream layers, biscuit-cream-biscuit-cream-... — the same colour repeating every other layer. Painting the fence in this pattern therefore simply alternates the two colours from plank to plank, which is what option A shows.",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task is about the same pattern appearing in different situations — it can be seen as different representations of the same information, which happens often in informatics (e.g. the same data about correct answers per task in a Bebras challenge could be shown as a table or as a diagram). This task requires pattern recognition, an important computational thinking skill needed in areas like data compression, computer vision, and machine learning, where systems are typically trained on 'training data' so the recognised patterns can be applied to new, unseen data — or used to let a computer discover new patterns on its own."
+  },
+  "content_zh": {
+    "prompt": "Badri最喜歡的點心是夾心餅乾：一片餅乾、夾心、再一片餅乾。Badri喜歡把餅乾拆開，重新排出屬於自己的版本（同樣三層，但排列方式不同）。現在Badri想把圍籬漆成跟他那個「自己的版本」一樣的重複圖案；他已經漆好了第一片木板。",
+    "question": "剩下的圍籬會是什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Badri的版本，是把好幾片普通夾心餅乾疊在一起，讓餅乾層跟夾心層直接交替排列，變成餅乾-夾心-餅乾-夾心……——同一種顏色每隔一層就重複出現一次。照這個圖案漆圍籬，就等於讓兩種顏色一片接一片交替出現，這正是選項A呈現的樣子。",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題探討的是同一種樣式出現在不同情境裡——可以把它看成是同一份資訊的不同表示方式，這在資訊科學裡很常見（例如Bebras競賽裡各題答對人數的資料，既可以用表格呈現，也可以用圖表呈現）。這一題需要用到樣式辨識，這是運算思維裡重要的一項能力，在資料壓縮、電腦視覺、機器學習等領域都需要用到；這類系統通常會先用「訓練資料」訓練，讓辨識出的樣式能套用到全新、沒見過的資料上——或者反過來，讓電腦自己去發掘資料裡的新樣式。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

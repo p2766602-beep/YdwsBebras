@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-09",
+  "title_en": "Ovi's Rattle",
+  "title_zh": "環狀鏈結串列搖鈴",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-09.png",
+    "path": "assets/images/india/2024/IN-2024-09.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ovi has a see-through rattle with colourful balls arranged in a circle. When she shakes it, some balls move through the rattle to the other side, as shown in a picture. Ovi shakes the rattle one more time.",
+    "question": "Which picture shows Ovi's rattle after this shake?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "When balls move through the rattle, their relative order around the circle never changes — so you only need to check that the order of colours matches. Tracing the circle: after the red ball comes the yellow one, after the green one comes the blue one, then purple, then red again — this cyclic order matches only option D.",
+    "ct_skills": "Data representation, Pattern recognition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Computer scientists represent and store data in different ways, each with advantages depending on the data's properties. Here, the 'rattle' is what's called a circular linked list, storing the balls as elements: each element has a pointer to the next one, and the last element's pointer loops back to the first, closing the circle. This means for each ball we always know which ball comes next; we can start checking the order from any ball and must go through the whole list to verify it. A circular linked list has two advantages: it has no endpoint, so elements never run out mid-traversal (the list loops back to the start), and it's efficient to navigate, since you can just keep moving in one direction without special rules for an end point. In this task, you searched for a pattern — this is pattern recognition, which helps determine whether problems are similar (or the same), letting a solution to one help solve another."
+  },
+  "content_zh": {
+    "prompt": "Ovi有一個透明的搖鈴，裡面裝著排成一圈的彩色珠子。她搖動搖鈴時，有些珠子會穿過搖鈴、移到另一側，如圖所示。Ovi又搖了一次搖鈴。",
+    "question": "這次搖動之後，搖鈴會變成哪一張圖顯示的樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "珠子在搖鈴裡移動時，彼此在這一圈裡的相對順序永遠不會改變——所以只需要檢查顏色的順序是否吻合就行了。沿著這一圈追蹤：紅色珠子後面是黃色，綠色後面是藍色，接著是紫色，然後又回到紅色——這個環狀順序只跟選項D吻合。",
+    "ct_skills": "資料表示法、樣式辨識（Data representation, Pattern recognition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "電腦科學家用不同的方式表示和儲存資料，每種方式的優點都取決於資料本身的特性。這裡的「搖鈴」，其實就是所謂的「環狀鏈結串列」，把珠子當作元素儲存：每個元素都有一個指標指向下一個元素，最後一個元素的指標又會繞回指向第一個元素，形成一個環。這代表對每一顆珠子來說，我們永遠知道下一顆是哪一顆；我們可以從任何一顆珠子開始檢查順序，並且必須走過整個串列才能驗證完畢。環狀鏈結串列有兩個優點：第一，它沒有終點，所以走訪過程中元素永遠不會「用完」（串列會繞回起點）；第二，在串列裡移動非常有效率，因為你只需要朝同一個方向持續前進，不需要為「終點」設計特殊規則。這一題裡，你在尋找一種規律——這就是樣式辨識，它能幫助我們判斷不同問題是否相似（甚至完全相同），讓一個問題的解法能拿來幫助解決另一個問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

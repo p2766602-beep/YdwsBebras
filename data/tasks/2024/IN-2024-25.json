@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2024-25",
+  "title_en": "Tifinagh",
+  "title_zh": "提費納文字動物密碼",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-25.png",
+    "path": "assets/images/india/2024/IN-2024-25.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Tarun knows the Tifinagh alphabet, used by the Tuareg Berber people of northern Africa, and uses it to encode words letter-by-letter. He encodes five words: BEBRAS, TURTLE, WEASEL, WALRUS, and IGUANA.",
+    "question": "Which word in the Tifinagh alphabet maps to WALRUS?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) E"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Since all five words have 6 letters, letter count alone doesn't help; instead, look at each word's internal letter-repetition pattern (doubled/tripled letters, same letter at both ends, etc.), assuming first a left-to-right reading direction. BEBRAS has the same letter in its 1st and 3rd positions — a pattern matching only one code word, letting it be assigned and revealing the codes for 'A' and 'E' (letters that also appear in the other words). WEASEL and WALRUS both start with the same letter, and exactly two code words share a first letter — the positions of the now-known 'A' and 'E' let us tell which code word is which. TURTLE has the same letter in its 1st and 4th positions, matching only one remaining code word; IGUANA has the same letter in its 4th and last positions, again matching only one remaining code word. With every word assigned, the left-to-right assumption is confirmed by checking the WEASEL/WALRUS pattern doesn't produce any contradictions on the right-hand side.",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Written information is represented as a sequence of symbols from an alphabet — English uses 26 symbols called letters, while modern computers use an alphabet of just 2 symbols, 0 and 1. In this task, the same words are represented in a different alphabet; different alphabets exist because of different needs — computers use binary because it's easy to build and transport hardware for; braille lets people who cannot see read with their fingertips; various historical ciphers (different writing directions, rearranged letter sequences, entirely invented alphabets) were used to keep information secret, giving rise to the modern field of cryptology. Solving this task simply transforms letters one by one from one alphabet to another, using pattern recognition (and pattern matching) — the same powerful technique historically used to help decipher ancient Egyptian hieroglyphs, and used today to understand information stored in DNA. Selecting the best representation of data for a situation, and transforming data between representations when combining sources, is a key task for computer scientists, especially given restrictions like limited storage, weak transmission signals, or the need to protect data from unauthorized use."
+  },
+  "content_zh": {
+    "prompt": "Tarun懂得提費納文字（Tifinagh），這是北非圖阿雷格柏柏爾人使用的一種文字，他用這套文字把單字一個字母一個字母地編碼。他編碼了五個單字：BEBRAS、TURTLE、WEASEL、WALRUS和IGUANA。",
+    "question": "提費納文字裡的哪一個字，對應到WALRUS？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）E"
+      }
+    ],
+    "answer": "A",
+    "explanation": "因為這五個單字都剛好是6個字母，光靠字母數量沒辦法區分；改看每個單字內部重複字母的樣式（例如雙字母、三疊字母、頭尾同一個字母等），並先假設閱讀方向是由左到右。BEBRAS的第1個和第3個字母相同——這個樣式只符合其中一個編碼字，可以先確定這個對應關係，順便得知「A」和「E」（這兩個字母也出現在其他單字裡）的編碼符號。WEASEL和WALRUS開頭是同一個字母，而剛好有兩個編碼字的開頭字母相同——靠著剛才確定的「A」和「E」符號位置，就能判斷哪個是哪個。TURTLE的第1個和第4個字母相同，只符合剩下其中一個編碼字；IGUANA的第4個和最後一個字母相同，同樣只符合剩下的其中一個編碼字。所有單字都對應完之後，再檢查WEASEL和WALRUS的樣式在右側沒有出現矛盾，就能確認一開始「由左到右」的假設是對的。",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "書面資訊，是用某種字母系統裡的一連串符號來表示的——英文用26個符號（也就是字母）；而現代電腦使用的字母系統只有2個符號，就是0和1。這一題裡，同樣的單字被用不同的字母系統表示；之所以會有不同的字母系統，是因為不同的需求——電腦用二進位，是因為這樣的硬體比較容易製造和運輸；點字讓看不見的人可以用指尖閱讀；歷史上各種密碼（不同的書寫方向、重新排列字母順序、甚至發明全新的字母系統）則是為了保守祕密而發展出來的，也因此催生了現代的密碼學這門學科。解開這一題，其實只是把單字一個字母一個字母地，從一套字母系統轉換成另一套，用到的正是樣式辨識（以及樣式比對）——這正是歷史上幫助破解古埃及象形文字的強大技巧，現在也被用來理解DNA裡儲存的資訊。為特定情境選出最適合的資料表示法，並在整合不同來源的資料時，把資料從一種表示法轉換成另一種，是電腦科學家的核心工作之一，尤其是在有儲存空間限制、傳輸訊號微弱、或需要保護資料不被未授權使用等各種限制之下。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

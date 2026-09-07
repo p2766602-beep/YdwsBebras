@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-10",
+  "title_en": "Balls",
+  "title_zh": "藍球累計奇偶編碼",
+  "source_country": "Bulgaria",
+  "source_country_flag": "🇧🇬",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Bulgaria",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-10.png",
+    "path": "assets/images/india/2024/IN-2024-10.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Given a sequence of blue and red balls, for each ball we count how many blue balls are to its right (including itself), giving a sequence of counts (e.g. 3,3,2,1,1,1). Then, replacing each even count with 0 and each odd count with 1 gives a binary sequence (e.g. 1,1,0,1,1,1).",
+    "question": "Given the sequence of 0s and 1s: 0, 1, 1, 1, 0, 1, 0, 0 — which sequence of blue and red balls matches this representation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Working from right to left through the 0/1 sequence, whenever the digit stays the same as the previous one, the current ball must be red (it doesn't change the running blue-ball parity); whenever the digit flips from the previous one, the current ball must be blue (it does change the parity). Applying this rule across the whole sequence 0,1,1,1,0,1,0,0 uniquely determines a full sequence of blue and red balls, which matches option C.",
+    "ct_skills": "Abstraction, Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "During coding, irrelevant information is continuously omitted and reduced without losing the central content — this is abstraction. This task illustrates three central computer science concepts. Coding represents complex information (the exact colours and positions of all the balls) in a form computers can process easily — here, a sequence of parities — and under certain circumstances, such encoding also saves storage space, called compression: representing binary information (odd/even) needs only a single bit, whereas storing an arbitrary colour needs more space. As an intermediate step, a cumulative frequency (the running count of blue balls from the current position onward) is computed — cumulative frequency is a statistical tool whose value accumulates information about elements further along the sequence, and solutions using it often let many queries be answered quickly without re-examining the original data."
+  },
+  "content_zh": {
+    "prompt": "給定一排藍色和紅色的球，對每顆球，我們計算它右邊（包含自己）有幾顆藍球，得到一串數字（例如3,3,2,1,1,1）。接著，把偶數換成0、奇數換成1，就得到一串二進位序列（例如1,1,0,1,1,1）。",
+    "question": "給定這串0和1：0, 1, 1, 1, 0, 1, 0, 0——哪一排藍球紅球對應這個序列？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "從右到左檢查這串0和1：只要目前的數字跟前一個相同，這顆球就一定是紅色的（不會改變累計藍球數的奇偶性）；只要目前的數字跟前一個不同，這顆球就一定是藍色的（會改變奇偶性）。把這個規則套用在整串0,1,1,1,0,1,0,0上，就能唯一確定出一整排藍球紅球的順序，結果對應選項C。",
+    "ct_skills": "抽象化、演算法思維（Abstraction, Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "在編碼的過程中，不相關的資訊會不斷被省略、簡化，但不會因此丟失核心內容——這就是抽象化。這一題示範了三個電腦科學的核心概念。「編碼」把複雜的資訊（所有球的確切顏色和位置）轉換成電腦容易處理的形式——這裡就是一串奇偶性；在某些情況下，這種編碼還能節省儲存空間，這叫做「壓縮」：要表示二元資訊（奇數或偶數），只需要一個位元就夠了，但要儲存任意的顏色，需要更多空間。作為中間步驟，這裡計算了一種「累計次數」（從目前位置往後數，藍球出現的累計數量）——累計次數是統計學裡的一種工具，它的特色是這個數值本身就累積了後面所有元素的資訊；利用累計次數解題的好處，是能快速回答很多次查詢，而不必每次都重新檢查原始資料。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

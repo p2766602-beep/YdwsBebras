@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2024-21",
+  "title_en": "Ice Cream Shop",
+  "title_zh": "機器人挖冰淇淋口味",
+  "source_country": "Iceland",
+  "source_country_flag": "🇮🇸",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Iceland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-21.png",
+    "path": "assets/images/india/2024/IN-2024-21.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A self-service ice cream shop lets you push arrow buttons to move a robot to a flavour, then press a button to pick up a scoop; after three scoops, the robot brings you the ice cream. The robot always starts from the middle of the bottom row. A given example button sequence produces an ice cream with chocolate, plum, and coffee.",
+    "question": "What flavours do you get when you order an ice cream with the given (different) sequence?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) vanilla, strawberry, cherry"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) E"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tracing the robot's movement from its starting position (middle of the bottom row) according to the given arrow-button sequence, the robot first picks up a scoop of vanilla, then moves to and picks up strawberry, and lastly moves to and picks up cherry.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Using the arrow buttons to move the robot is like giving instructions to a computer — writing such instructions is called programming. A wrong instruction can have real consequences: the ice cream robot might hit the machine's window, or in real life a cash machine might dispense too much money, or a car might refuse to start. This is why it's important to test programs by mentally tracing through the instructions before actually running them — exactly what you did to solve this task. To solve it, you needed to strictly follow instructions in your head, a (weak) form of algorithmic thinking that's also needed in everyday life — for example, following a recipe exactly when baking, or pressing a washing machine's buttons in the right order so your clothes don't all turn pink."
+  },
+  "content_zh": {
+    "prompt": "一間自助冰淇淋店，你可以按方向鍵把機器人移動到想要的口味上，再按下按鈕挖一球；挖滿三球之後，機器人就會把冰淇淋端給你。機器人永遠從最下面一排的正中間開始。範例的按鍵順序會做出一份巧克力、洋李和咖啡口味的冰淇淋。",
+    "question": "用給定的（不同）按鍵順序點冰淇淋，會得到哪些口味？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）香草、草莓、櫻桃"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）E"
+      }
+    ],
+    "answer": "A",
+    "explanation": "從機器人的起始位置（最下面一排正中間）開始，依照給定的方向鍵順序追蹤它的移動：機器人先挖了一球香草，接著移動過去挖了一球草莓，最後移動過去挖了一球櫻桃。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "用方向鍵操控機器人移動，就像在給電腦下指令一樣——寫這類指令的過程，就叫做程式設計。一個錯誤的指令可能會造成嚴重後果：冰淇淋機器人可能會撞上機器的玻璃窗，現實生活裡，提款機可能會吐出比你要求還多的錢，或是汽車可能會發不動。這就是為什麼在真正執行指令之前，先在腦中把指令想過一遍、測試程式非常重要——這正是你解這一題時做的事。要解開這一題，你必須在腦中嚴格照著指令一步步走，這是一種（較弱形式的）演算法思維，日常生活裡也常常需要用到——例如烘焙時要嚴格照著食譜做，或是用洗衣機時要照正確順序按按鈕，才不會讓所有衣服都染成粉紅色。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

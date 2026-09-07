@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-17",
+  "title_en": "Gathering Gifts",
+  "title_zh": "卡片鏈找起始隔層",
+  "source_country": "Ireland",
+  "source_country_flag": "🇮🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Ireland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-17.png",
+    "path": "assets/images/india/2024/IN-2024-17.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Anita bought seven gifts for her brothers Amu (3 gifts) and Bablu (4 gifts), placed in numbered shelf compartments. Each will be given a starting compartment number; opening a gift there reveals a card pointing to the next compartment to open, continuing until an 'END' card is found. Amu's card says 6, and following the chain (6, then 2, then 4, where he finds 'END') gets him all his gifts.",
+    "question": "Which compartment number did Bablu start with to get all his gifts?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Working backwards for Bablu: the last compartment must be 7, since it holds the other 'END' card. Since compartment 5 leads to compartment 7, Bablu's third compartment must be 5; since compartment 1 leads to compartment 5, his second must be 1; since compartment 3 leads to compartment 1, his first (starting) compartment must be 3. So Bablu's chain, in order, is 3, 1, 5, 7 — confirmed by noting that compartments 6 and 3 are the only ones not referenced as a 'next' compartment by any card, meaning they must be the two starting points.",
+    "ct_skills": "Algorithmic Thinking, Decomposition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "In informatics, data structures like these 'chains' of gifts are called (singly) linked lists. As with other data in a computer's memory, access to a list requires an address — here, the starting compartment number; each element of the list holds useful information (the gift) plus the address of the next element (the card in the package), with a special value (the 'END' card) indicating there is no next element. The elements of such a list are 'scattered' in memory with no fixed limit on their number — more flexible than an array, whose elements occupy consecutive memory locations and can each be accessed directly once you know the address of the first one and the size of each element. A file system's storage is typically divided into fixed-size blocks, and a file can occupy several (even non-contiguous) blocks forming exactly such a list; more complex lists also store a 'previous' address at each element (for traversal in both directions), or store each element's size when elements vary. Fundamental list operations are 'linking' a new element into a given position and 'disconnecting' an element while keeping the rest of the chain intact."
+  },
+  "content_zh": {
+    "prompt": "Anita替兩個弟弟Amu（3份禮物）和Bablu（4份禮物）買了七份禮物，放進編號的置物櫃隔層裡。每個人都會拿到一張寫著起始隔層編號的卡片；打開那個隔層的禮物，裡面會有一張卡片，指向下一個要打開的隔層，一直持續下去，直到找到「END」卡片為止。Amu的卡片寫著6，依照這條鏈（6，接著2，接著4，在4找到「END」），他就能拿到自己所有的禮物。",
+    "question": "Bablu是從哪一個隔層編號開始，才能拿到他所有的禮物？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "B",
+    "explanation": "從Bablu的角度反推：最後一個隔層一定是7號，因為7號裡放著另一張「END」卡片。因為5號隔層會指向7號，所以Bablu的第三個隔層一定是5號；因為1號隔層會指向5號，所以他的第二個隔層一定是1號；因為3號隔層會指向1號，所以他一開始的起始隔層一定是3號。所以Bablu的整條鏈，依序是3、1、5、7——可以這樣驗證：6號和3號是唯二沒有被任何卡片指向的隔層編號，這代表它們一定就是兩個人的起始隔層。",
+    "ct_skills": "演算法思維、分解（Algorithmic Thinking, Decomposition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "在資訊科學裡，像這種禮物「鏈」一樣的資料結構，叫做（單向）鏈結串列。就像電腦記憶體裡的其他資料一樣，要存取一份串列，需要一個位址——這裡就是起始隔層編號；串列裡的每個元素，都包含一份有用的資訊（禮物），以及下一個元素的位址（包裹上的卡片），並用一個特殊的值（「END」卡片）表示沒有下一個元素了。這種串列的元素在記憶體裡是「分散」存放的，元素數量也沒有固定上限——這比「陣列」更有彈性，陣列的元素必須存放在連續的記憶體位置，只要知道第一個元素的位址和每個元素的大小，就能直接存取任何一個元素。檔案系統的儲存空間通常會被切成固定大小的區塊，一個檔案可能佔用好幾個（甚至不連續的）區塊，剛好構成這樣一份串列；更複雜的串列還會在每個元素裡多存一個「上一個」元素的位址（讓串列可以雙向走訪），或是在元素大小不一致時，額外儲存每個元素的大小。串列最基本的操作，是把一個新元素「連結」進某個位置，以及把某個元素「拆開」移除，同時讓其餘的元素仍然維持成一整條鏈。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

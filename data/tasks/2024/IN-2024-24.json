@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-24",
+  "title_en": "Returning Books",
+  "title_zh": "還書隊伍最短工作優先",
+  "source_country": "Slovenia",
+  "source_country_flag": "🇸🇮",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Slovenia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-24.png",
+    "path": "assets/images/india/2024/IN-2024-24.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beavers queue at Mumbai library's return desk, with the rule: the beaver with the fewest books goes next. The librarian always needs exactly one minute per book; once she finishes a beaver's books, the next beaver (the one currently waiting with the fewest books) takes their turn. One morning 5 beavers arrive at different times with different numbers of books; Anu arrives first and immediately returns her 4 books.",
+    "question": "In which order will the beavers return their books to the librarian?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anu, Bella, Chitra, Disha, Emil"
+      },
+      {
+        "key": "B",
+        "text": "Anu, Chitra, Bella, Disha, Emil"
+      },
+      {
+        "key": "C",
+        "text": "Anu, Chitra, Disha, Bela, Emil"
+      },
+      {
+        "key": "D",
+        "text": "Emil, Chitra, Anu, Disha, Bela"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Anu goes first (4 minutes for her 4 books). By the time she's done, Bela and Chitra have both arrived and are waiting; Chitra has fewer books (2), so she goes next (2 minutes). By the time Chitra is done, Disha has arrived; Disha has 4 books, Bela has 6, so Disha (fewer) goes next (4 minutes). Finally Emil, who has arrived by then, goes last. The order is Anu, Chitra, Disha, Bela, Emil.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task shows how a scheduler works — a program in a computer's operating system that controls the order and duration in which processes are executed by the CPU. Different strategies exist: Priority Scheduling (the highest-priority process runs next, to completion — used here); First Come First Served, FCFS (the process that arrived first runs first — the everyday 'first come, first served' principle); Round Robin (waiting processes each get only a fixed time slice before being interrupted and sent to the back of the queue); and Shortest Job First, SJF (the process with the shortest expected work time runs next, to completion — the strategy used in this task, since the beaver with fewest books, who can be processed fastest, always goes next). Solving this task means carefully following this rule-set (an algorithm) on the given input (arrival times and book counts); note the algorithm has potential ambiguity for ties in book count, which fortunately doesn't arise for this specific input."
+  },
+  "content_zh": {
+    "prompt": "海狸們在Mumbai圖書館的還書櫃檯排隊，規則是：書最少的海狸優先。館員每處理一本書一定要花剛好1分鐘；處理完一隻海狸的書之後，就輪到「目前排隊裡書最少」的下一隻海狸。某天早上有5隻海狸在不同時間抵達、各自帶著不同數量的書；Anu第一個抵達，馬上還了她的4本書。",
+    "question": "這幾隻海狸還書的順序會是什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anu, Bella, Chitra, Disha, Emil"
+      },
+      {
+        "key": "B",
+        "text": "Anu, Chitra, Bella, Disha, Emil"
+      },
+      {
+        "key": "C",
+        "text": "Anu, Chitra, Disha, Bela, Emil"
+      },
+      {
+        "key": "D",
+        "text": "Emil, Chitra, Anu, Disha, Bela"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Anu第一個還書（她的4本書要花4分鐘）。等她還完的時候，Bela和Chitra都已經抵達在等待；Chitra的書比較少（2本），所以她接下來還（花2分鐘）。等Chitra還完的時候，Disha已經抵達；Disha有4本書，Bela有6本，Disha比較少，所以接下來換她（花4分鐘）。最後輪到這時候已經抵達的Emil。所以順序是Anu、Chitra、Disha、Bela、Emil。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題示範了「排程器」（scheduler）的運作方式——這是電腦作業系統裡的一支程式，用來控制處理程序被CPU執行的順序和時間長短。有很多不同的排程策略：優先權排程（priority scheduling，優先權最高的程序接下來執行、而且會做到完——這一題用的就是這個）；先到先服務（First Come First Served，FCFS，最先抵達的程序最先執行——也就是日常生活裡「先到先服務」的原則）；輪詢排程（round robin，等待中的程序輪流只執行一段固定時間，時間到就被中斷、送回隊伍最後面）；以及最短工作優先（Shortest Job First，SJF，預期工作時間最短的程序接下來執行、而且會做到完——這正是這一題用的策略，因為書最少、能最快處理完的海狸，永遠是下一個）。要解開這一題，就是仔細依照這套規則（也就是一個演算法），套用在給定的輸入資料（抵達時間和書的數量）上；要注意的是，這套演算法在書的數量剛好打平時，該怎麼處理其實沒有明確定義，只是這個特定的輸入資料剛好沒有出現這種情況。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

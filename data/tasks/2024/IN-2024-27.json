@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-27",
+  "title_en": "Miracle Flower",
+  "title_zh": "神奇花朵分岔天數",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2024-27.png",
+    "path": "assets/images/india/2024/IN-2024-27.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A miracle flower grows so that after sunrise, a stalk with two new buds grows from each existing bud; at sunset it stops growing for the day, and this continues day after day, making the flower more and more magnificent.",
+    "question": "How many days has this miracle flower been growing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 days"
+      },
+      {
+        "key": "B",
+        "text": "11 days"
+      },
+      {
+        "key": "C",
+        "text": "16 days"
+      },
+      {
+        "key": "D",
+        "text": "32 days"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At the end of each day, every bud at the end of a stalk grows a new stalk with two new buds. Following any single branch from the original bud out to the far end of the flower (e.g. the branch furthest to the right) and counting how many times it has split lets you directly count the number of days it has grown — which is 5.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Miracle flowers grow according to a specific rule: every day, each new bud forms exactly one stem and two new buds, and the same rule is then applied again to all the newly-formed buds the next day — a continuous process of repeatedly applying the same rule. In computer science, this repeated application of a rule is called iteration; the flower can in principle keep growing indefinitely, and such repeated-rule behaviour is common in computer-controlled systems, such as traffic lights constantly repeating the same light sequence, or a slot machine that can restart the same game over and over. Solving this task requires abstraction — focusing only on the most important information (that the length of any single branch tells you the number of days grown) and ignoring everything else, especially the flower's irrelevant visual complexity."
+  },
+  "content_zh": {
+    "prompt": "有一種神奇花朵，日出之後，每個已有的花苞都會長出一根新的枝，枝的頂端再冒出兩個新的花苞；到了日落，當天就停止生長，這個過程日復一日持續進行，讓這朵花變得越來越壯觀。",
+    "question": "這朵神奇花朵已經生長了幾天？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5天"
+      },
+      {
+        "key": "B",
+        "text": "11天"
+      },
+      {
+        "key": "C",
+        "text": "16天"
+      },
+      {
+        "key": "D",
+        "text": "32天"
+      }
+    ],
+    "answer": "A",
+    "explanation": "每天結束時，每個位在枝條末端的花苞，都會長出一根帶著兩個新花苞的新枝。只要沿著（例如）最右邊那條分支，從最初的花苞一路追蹤到花的最外緣，數一數它分岔了幾次，就能直接算出這朵花已經生長了幾天——答案是5天。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "神奇花朵是依照一條特定規則生長的：每一天，每個新花苞都會長出剛好一根枝和兩個新花苞，隔天同樣的規則又會套用到所有新長出來的花苞上——這是一個不斷重複套用同一條規則的連續過程。在電腦科學裡，這種重複套用規則的動作叫做「迭代」（iteration）；理論上這朵花可以無止盡地一直生長下去，而這種「重複套用規則」的行為，在電腦控制的系統裡很常見，例如交通號誌會不斷重複同一套燈號順序，或吃角子老虎機可以一次又一次重新開始同一個遊戲。要解開這一題，需要運用抽象化——只專注在最重要的資訊上（也就是「任何一條分支的長度，就代表已經生長的天數」），忽略其他所有不相關的視覺複雜細節。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

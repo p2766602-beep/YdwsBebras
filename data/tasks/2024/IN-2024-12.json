@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-12",
+  "title_en": "Railways",
+  "title_zh": "鐵路貨物增減模擬",
+  "source_country": "Uzbekistan",
+  "source_country_flag": "🇺🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Uzbekistan",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-12.png",
+    "path": "assets/images/india/2024/IN-2024-12.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A railway transports heavy cargo from Pune to Mumbai. On the way, trains pick a route and pick up (+) or drop off (-) cargo according to signs along the railway, which include weight-based conditions (e.g. '< 20 kg?'). Three trains, weighing 5, 22, and 35 kg respectively, are sent along this network.",
+    "question": "What do the three trains' cargo look like when they arrive at Mumbai?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Tracing each train's path through the network according to the weight-based signs: the 35 kg train picks up one diamond along its path and arrives with two diamonds and one circle; the 22 kg train picks up one triangle and drops one circle, arriving with one star and one triangle; the 5 kg train picks up one diamond and one circle and drops one triangle, arriving with one diamond, one triangle, and one circle. This combination of final cargo matches option D.",
+    "ct_skills": "Decomposition, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Railway signs with weight conditions like '< 20 kg?' correspond to conditional (IF-THEN-ELSE) statements in programming languages — a crucial part of many non-trivial algorithms. The overall structure of the railway network corresponds to the computer science concept of control flow, one of the key concepts in all imperative programming languages (C++, Java, Python, and many others). Working out a variable's final value in a program by hand, as done here for each train's cargo, is part of the process called debugging, used to test a program and find implementation errors. Decomposition — breaking a large task into smaller parts — makes it easier to trace each train separately, and computational logic is used directly via the conditional signs."
+  },
+  "content_zh": {
+    "prompt": "一條鐵路負責把重型貨物從Pune運到Mumbai。路上，火車會依照鐵軌沿線的號誌選擇路線，並依照號誌指示裝載(+)或卸下(-)貨物，號誌上還會有跟重量有關的條件（例如「小於20公斤？」）。三列火車，分別重5公斤、22公斤和35公斤，被派上這個鐵路網。",
+    "question": "這三列火車抵達Mumbai時，貨物各自會是什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "依照重量相關的號誌，逐一追蹤每列火車在鐵路網裡走過的路線：35公斤的火車沿路撿了一顆菱形，最後帶著兩顆菱形和一顆圓形抵達；22公斤的火車撿了一個三角形、卸下一顆圓形，最後帶著一顆星星和一個三角形抵達；5公斤的火車撿了一顆菱形和一顆圓形、卸下一個三角形，最後帶著一顆菱形、一個三角形和一顆圓形抵達。這樣的最終貨物組合，對應選項D。",
+    "ct_skills": "分解、演算法思維（Decomposition, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "像「小於20公斤？」這樣帶有重量條件的鐵路號誌，對應到程式語言裡的條件敘述（IF-THEN-ELSE）——這是許多非簡單演算法和程式裡不可或缺的一環。整個鐵路網的結構，對應到電腦科學裡的「控制流程」概念，這是所有指令式程式語言（C++、Java、Python等等）的核心概念之一。像這裡一樣，手動推算出程式裡一個變數的最終值（這裡是每列火車最後的貨物），是「除錯」這個過程的一部分，用來測試程式並找出實作上的錯誤。「分解」——把一個大任務拆成更小的部分——讓我們可以分開追蹤每一列火車，而這裡的條件號誌，正是運算邏輯的直接應用。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

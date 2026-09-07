@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2024-06",
+  "title_en": "Berukone",
+  "title_zh": "數字連線謎題",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2024
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2024 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2024-06.png",
+    "path": "assets/images/india/2024/IN-2024-06.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A Berukone puzzle is a grid with individual numbers on squares, each number appearing in a pair. You must connect each pair with a line running horizontally or vertically from square to square (it may turn 90° at each square), and a line may not pass through a number or cross another line. Some Berukone puzzles cannot be solved.",
+    "question": "Only one of these Berukone puzzles cannot be solved. Which one is it?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Puzzle D is the only one that cannot be solved: there is no way to connect all the number pairs without lines crossing. In particular, given that the line connecting the two 3s must run between certain cells, the only way to connect the two 1s without passing through a number requires a path running between the two cells containing a 2 — but then any line connecting the two 2s would either pass through a number or cross the line connecting the 1s.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "For a small puzzle like this, it's fairly easy to see whether a solution exists; but for a much larger puzzle with many numbers, finding a solution (or proving none exists) becomes far harder, since there could be a huge number of ways to try connecting the pairs. A smarter approach is to proceed step by step — connecting pairs one at a time, or filling grid cells one by one — and as soon as you can tell your current partial solution can no longer lead anywhere, undo the last step (or more) and try an alternative. This method, called backtracking, is well known in computer science and is used to make programs solve problems (real or puzzles) automatically; its success depends on making good choices at each step and correctly predicting when a path is a dead end. In 2010, Japanese researchers showed that solving Arukone puzzles (a Berukone variant, also called Numberlink) is among the hardest known problems in computer science."
+  },
+  "content_zh": {
+    "prompt": "Berukone是一種方格謎題，格子上寫著一個個數字，每個數字剛好各出現兩次。你必須用一條線，把每對相同的數字連起來，這條線只能沿水平或垂直方向、逐格前進（可以在每一格轉90度），而且線不能穿過任何數字，也不能跟其他線交叉。有些Berukone謎題是無解的。",
+    "question": "下面這幾個Berukone謎題裡，只有一個是無解的，是哪一個？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "謎題D是唯一無解的：沒有辦法在不讓線交叉的情況下，連起所有數字對。具體來說，連接兩個3的線必須經過特定的格子，這樣一來，要在不穿過數字的前提下連接兩個1，唯一的方法就是讓路徑經過兩個標著2的格子之間——但這樣一來，任何要連接兩個2的線，就一定得穿過數字或跟連接1的線交叉。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "像這樣的小謎題，通常不難看出有沒有解；但如果換成數字更多的大謎題，要找出解答（或證明無解）就會困難得多，因為嘗試連接數字對的方式可能多到數不清。比較聰明的做法，是一步一步進行——一次連一對數字，或一格一格填入格子——一旦發現目前這條路走下去不可能有解，就退回上一步（或更多步），改試別的走法。這種方法叫做「回溯法」，在電腦科學裡非常有名，常被用來讓程式自動解決問題（不論是真實問題還是純粹的益智遊戲）；它成功與否，取決於每一步能不能做出好的選擇，以及能不能正確判斷目前這條路是不是死路。2010年，日本研究人員發現，解開Arukone謎題（Berukone的一種變體，也叫做Numberlink）是電腦科學裡已知最困難的問題之一。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}
