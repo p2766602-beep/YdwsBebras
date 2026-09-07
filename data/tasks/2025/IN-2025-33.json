@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-33",
+  "title_en": "Translation System",
+  "title_zh": "翻譯精準度加權圖",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-33.png",
+    "path": "assets/images/india/2025/IN-2025-33.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beavers built a translation system between languages A-E; each pair has a direct-translation accuracy (0.0-1.0, given in a table). Sometimes an indirect route (multiplying the accuracies along the path) beats the direct one — e.g. direct C→A is 0.2, but C→B→A gives 0.5×0.9=0.45, which is better.",
+    "question": "Select the case(s) below where an indirect path improves the translation accuracy: A→D, B→A, C→B, D→B.",
+    "options": [
+      {
+        "key": "A",
+        "text": "A → D"
+      },
+      {
+        "key": "B",
+        "text": "B → A"
+      },
+      {
+        "key": "C",
+        "text": "C → B"
+      },
+      {
+        "key": "D",
+        "text": "D → B"
+      }
+    ],
+    "answer": "A and C",
+    "explanation": "Since accuracy values are all ≤1.0, accuracy tends to decrease as more intermediate steps are added, so the goal is improving accuracy with as few extra steps as possible. A→D (direct 0.7) can be improved to 0.9×0.8=0.72 via A→B→D. C→B (direct 0.5) can be improved to 0.9×0.8=0.72 via C→D→B. B→A (direct 0.9) cannot be improved, since no accuracy value in the table exceeds 0.9 and all values are ≤1.0. D→B (direct 0.8) also cannot be improved — the only way to beat it would require two consecutive links both scoring above roughly 0.89, but no such pair exists in the table. So only A→D and C→B can be improved by an indirect route.",
+    "ct_skills": "Algorithmic Thinking, Abstraction, Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "A data structure can store not just data but relationships between data — a common way to do this is a graph, made of nodes (vertices) and edges connecting them, used in computer science to represent relationships like maps, social networks, or data flow in a network. In this task's graph, every vertex connects to every other vertex by a single weighted edge in both directions — a weighted, undirected, complete graph, where every pair of distinct vertices shares a unique edge. Graphs are often searched with algorithms that find the optimal path (minimum cost or maximum benefit) between two vertices — this task is essentially an optimal-path search problem, looking for the 'highest accuracy' path between two languages. Solving it requires representing the given table as a graph, then using algorithmic thinking, trial and error, and evaluation of alternatives to find ways of improving each direct route's accuracy."
+  },
+  "content_zh": {
+    "prompt": "海狸們建立了A到E五種語言之間的翻譯系統；每一對語言都有一個直接翻譯的精準度（0.0到1.0，列在一張表裡）。有時候繞道間接翻譯（把整條路徑上的精準度相乘）反而會比直接翻譯更好——例如C→A直接翻譯是0.2，但C→B→A卻是0.5×0.9＝0.45，比直接翻譯還要好。",
+    "question": "請選出下面哪些情況，間接路徑能提升翻譯精準度：A→D、B→A、C→B、D→B。",
+    "options": [
+      {
+        "key": "A",
+        "text": "A → D"
+      },
+      {
+        "key": "B",
+        "text": "B → A"
+      },
+      {
+        "key": "C",
+        "text": "C → B"
+      },
+      {
+        "key": "D",
+        "text": "D → B"
+      }
+    ],
+    "answer": "A和C",
+    "explanation": "因為精準度數值全部都不超過1.0，加入的中繼步驟越多，精準度通常反而會下降，所以目標是用盡量少的額外步驟來提升精準度。A→D（直接是0.7）可以透過A→B→D改善成0.9×0.8＝0.72。C→B（直接是0.5）可以透過C→D→B改善成0.9×0.8＝0.72。B→A（直接是0.9）沒辦法再改善，因為表格裡沒有任何一個精準度數值超過0.9，而且所有數值都不超過1.0。D→B（直接是0.8）同樣沒辦法改善——唯一有可能超越它的做法，需要連續兩段的精準度都超過大約0.89，但表格裡完全找不到這樣的組合。所以只有A→D和C→B能靠間接路徑提升精準度。",
+    "ct_skills": "演算法思維、抽象化、評估（Algorithmic Thinking, Abstraction, Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "資料結構不只能儲存資料本身，還能儲存資料之間的關係——一種常見的做法是用「圖」來表示，由節點（頂點）和連接它們的邊組成，在電腦科學裡被用來表示各種關係，例如地圖、社群網路，或網路裡的資料流動。這一題的圖裡，每個頂點都跟其他每個頂點，用一條雙向的加權邊直接相連——這是一張加權、無向的「完全圖」，任兩個不同的頂點之間，都有一條獨一無二的邊。圖經常會被拿來搜尋，找出兩個頂點之間的最佳路徑（最小成本或最大效益）——這一題本質上就是一個「最佳路徑搜尋」問題，要找出兩種語言之間「精準度最高」的路徑。要解開這一題，需要先把給定的表格表示成一張圖，接著運用演算法思維、試誤法，以及評估各種替代方案，找出能提升每一段直接路線精準度的方法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-40",
+  "title_en": "Beaver Island Bulletin",
+  "title_zh": "村莊訊息傳遞天數",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-40.png",
+    "path": "assets/images/india/2025/IN-2025-40.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "18 villages on Beaver Island are connected by postmen; whenever a village sends or receives a message, its postmen deliver it to every directly connected neighbouring village the next day, and this continues day by day.",
+    "question": "If a new message starts from Village J, how many days does it take to reach all villages?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tracking the message's spread day by day from Village J: on day 1, four directly-connected villages receive it; on day 2, eight more villages receive it from those four; on day 3, four further villages receive it, leaving only one village (Q) still unreached; on day 4, Village Q finally receives the message from its two now-informed neighbours. So it takes a total of 4 days for every village to receive the message.",
+    "ct_skills": "Algorithmic Thinking, Abstraction",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This message-propagation method is similar to a breadth-first search (BFS) algorithm on a graph, systematically exploring nodes layer by layer — visiting a starting node's direct neighbours first, then their unvisited neighbours, and so on, ensuring nodes closer to the start are explored before those farther away. Practical BFS applications include search engines crawling web pages layer by layer through links, social media platforms analysing how messages spread between users, and public health authorities tracing contacts to simulate the spread of infectious disease. A related concept is the flood-fill algorithm, used e.g. to fill a connected region with colour in a drawing app, or for a robot vacuum mapping and cleaning all connected rooms from its starting position — both typically implemented internally using BFS or depth-first search (DFS). Solving this task requires algorithmic thinking (systematically tracking the day-by-day spread), simulation (mentally or visually modelling how the message flows through the network over time), and abstraction (focusing only on the connections between villages and the timing of spread, ignoring irrelevant details)."
+  },
+  "content_zh": {
+    "prompt": "海狸島上有18座村莊，靠郵差彼此相連；只要有村莊要發送或收到一則訊息，牠的郵差就會在隔天，把訊息送到每一座直接相鄰的村莊，這個過程日復一日持續進行。",
+    "question": "如果一則新訊息從J村出發，需要幾天才能傳到所有村莊？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2天"
+      },
+      {
+        "key": "B",
+        "text": "3天"
+      },
+      {
+        "key": "C",
+        "text": "4天"
+      },
+      {
+        "key": "D",
+        "text": "5天"
+      }
+    ],
+    "answer": "C",
+    "explanation": "從J村開始，逐日追蹤訊息的傳播：第1天，4座直接相連的村莊收到訊息；第2天，這4座村莊又把訊息傳給另外8座村莊；第3天，再有幾座村莊收到訊息，這時只剩下一座村莊（Q）還沒收到；第4天，Q村終於從牠現在已經知情的兩座鄰村那裡收到訊息。所以，總共需要4天，訊息才能傳到所有村莊。",
+    "ct_skills": "演算法思維、抽象化（Algorithmic Thinking, Abstraction）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這種訊息傳播的方式，很類似在圖上執行「廣度優先搜尋」（BFS）演算法，有系統地一層一層探索節點——先拜訪起始節點的直接鄰居，再拜訪那些鄰居還沒被拜訪過的鄰居，依此類推，確保離起點較近的節點，會比較遠的節點更早被探索到。BFS的實際應用包括：搜尋引擎透過連結一層層爬取網頁、社群媒體平台分析訊息如何在使用者之間傳播，以及公共衛生單位追蹤接觸史、模擬傳染病的擴散。另一個相關概念是「洪水填充演算法」（flood-fill），例如繪圖軟體裡把一個連通區域填滿顏色，或是掃地機器人從起始位置開始，繪製並清掃所有相連的房間——這兩者內部通常都是靠BFS或深度優先搜尋（DFS）來實現的。要解開這一題，需要運用演算法思維（有系統地逐日追蹤訊息的傳播）、模擬（在腦中或視覺上模擬訊息如何隨時間在網路裡流動），以及抽象化（只專注在村莊之間的連接關係和傳播的時間點上，忽略不相關的細節）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

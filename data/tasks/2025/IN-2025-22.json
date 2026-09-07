@@ -1,0 +1,92 @@
+{
+  "task_uid": "IN-2025-22",
+  "title_en": "Beaver Book Exchange Club",
+  "title_zh": "書籍交換圖推理",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-22.png",
+    "path": "assets/images/india/2025/IN-2025-22.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Six beavers exchange books in a club, each giving exactly one book of a favourite genre to, and receiving one book of another favourite genre from, another beaver they share a favourite genre with. Each beaver's favourite genres (from Mystery, Adventure, Science Fiction, Fantasy, History, Biography) are given in a table.",
+    "question": "If Chintu gives his book to Esha, what type of book is given to Babloo, and from whom?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fantasy, from Anita"
+      },
+      {
+        "key": "B",
+        "text": "Fantasy, from Falak"
+      },
+      {
+        "key": "C",
+        "text": "Science fiction, from Deepa"
+      },
+      {
+        "key": "D",
+        "text": "Science fiction, from Chintu"
+      },
+      {
+        "key": "E",
+        "text": "History, from Esha"
+      },
+      {
+        "key": "F",
+        "text": "History, from Chintu"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Since Chintu's favourite genres are History and Biography, and Esha's are Mystery and History, Chintu can only give Esha a History book (their one shared genre). Esha, having received History, must now give away a book of her other favourite genre, Mystery, to someone who shares that genre with her — only Anita does, so Esha gives Anita a Mystery book. Continuing to trace the exchange graph for the remaining beavers this way shows that Babloo ends up receiving a Science Fiction book from Deepa.",
+    "ct_skills": "Algorithmic Thinking, Abstraction",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Mapping problems like this to graphs — structures of nodes (vertices) and edges — often makes them easier to understand and solve; here it's a directed graph, shown by the arrows of who-gives-to-whom, similar to game trees, navigation systems, and other constraint satisfaction problems (CSPs). This problem is a CSP: a set of variables (beavers) must be assigned values (book genres) while satisfying constraints (the exchange rules) — CSPs are widely used in scheduling, resource allocation, and logic puzzles like Sudoku, though not every CSP has a guaranteed unique solution (this one was carefully constructed to have exactly one). This problem requires algorithmic thinking — following a step-by-step process to trace the correct exchange sequence — and abstraction: once you realise you can simply follow a path along the exchange arrows, the relevant information has been drawn out from everything given, making the task much simpler to solve."
+  },
+  "content_zh": {
+    "prompt": "六隻海狸在一個書友會裡交換書籍，每隻都要把一本自己喜歡類型的書，送給另一隻跟自己有共同喜好類型的海狸，並收到那隻海狸另一種自己也喜歡的書。每隻海狸喜歡的類型（從推理、冒險、科幻、奇幻、歷史、傳記裡選）列在一張表格裡。",
+    "question": "如果Chintu把書送給Esha，那麼Babloo會收到什麼類型的書，又是從誰那裡收到的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "奇幻，來自Anita"
+      },
+      {
+        "key": "B",
+        "text": "奇幻，來自Falak"
+      },
+      {
+        "key": "C",
+        "text": "科幻，來自Deepa"
+      },
+      {
+        "key": "D",
+        "text": "科幻，來自Chintu"
+      },
+      {
+        "key": "E",
+        "text": "歷史，來自Esha"
+      },
+      {
+        "key": "F",
+        "text": "歷史，來自Chintu"
+      }
+    ],
+    "answer": "C",
+    "explanation": "因為Chintu喜歡的類型是歷史和傳記，而Esha喜歡的是推理和歷史，所以Chintu只能送給Esha一本歷史書（他們唯一共同的類型）。Esha收到歷史書之後，就必須把自己另一個喜歡的類型——推理——的書，送給跟她有共同喜好的人——只有Anita符合，所以Esha把一本推理書送給Anita。依照這個方式繼續追蹤剩下海狸的交換關係圖，可以發現Babloo最後會從Deepa那裡收到一本科幻書。",
+    "ct_skills": "演算法思維、抽象化（Algorithmic Thinking, Abstraction）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "把這類問題對應到圖——由節點（頂點）和邊組成的結構——通常能讓問題更容易理解和解決；這裡是一張有向圖，用箭頭表示「誰送書給誰」，跟賽局樹、導航系統，以及其他限制滿足問題（CSP）很類似。這個問題就是一個CSP：一組變數（海狸）必須被指派值（書籍類型），同時滿足一組限制條件（交換規則）——CSP被廣泛用在排程、資源分配，以及像數獨這類邏輯謎題裡，不過並不是每個CSP都保證有唯一解（這一題是刻意設計成剛好只有一個解）。這個問題需要運用演算法思維——依照一步步的過程，追蹤出正確的交換順序——也需要運用抽象化：一旦意識到只要沿著交換箭頭走就行了，就等於從所有給定的資訊裡，抽取出真正相關的部分，讓問題變得簡單許多。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

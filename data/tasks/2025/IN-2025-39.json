@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2025-39",
+  "title_en": "Recursion",
+  "title_zh": "遞迴編碼黑白方格",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-39.png",
+    "path": "assets/images/india/2025/IN-2025-39.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sarah represents a sequence of black/white squares with a recursive rule: if all squares in the current sequence are white, write 'W'; if all black, write 'B'; otherwise write 'X', followed by applying the same rule to the left half, followed by applying it to the right half. Applied to the 8-square sequence WBWWBBBW.",
+    "question": "How could Sarah represent this sequence of squares?",
+    "options": [
+      {
+        "key": "A",
+        "text": "XXBWBXWXWB"
+      },
+      {
+        "key": "B",
+        "text": "XXXBWBXWXWB"
+      },
+      {
+        "key": "C",
+        "text": "XXXWBXWWXXBBXBW"
+      },
+      {
+        "key": "D",
+        "text": "XWBWXBBW"
+      },
+      {
+        "key": "E",
+        "text": "XXXWBWXBXBW"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Building the code character by character: the full 8 squares aren't all one colour, so start with X. The left half (WBWW) isn't all one colour either, so another X. The left-left quarter (WB) isn't all one colour, so a third X, followed directly by its two individual squares W then B, giving XXXWB so far. The left-right quarter (WB, i.e. squares 3-4... ) — actually the right half of the left half — is all white, giving W (making XXXWBW). Now the right half of the whole sequence (BBBW) isn't all one colour, so X (making XXXWBWX); its left half (BB) is all black, giving B; its right half (BW) isn't uniform, so X, followed by its two squares B then W. The complete result is XXXWBWXBXBW, matching option E. The other options fail for various reasons: B gives the exact colour-complement of the correct row; C fails to reduce uniform pairs to a single letter; A and D don't even start with the required three X's that the first squares demand.",
+    "ct_skills": "Decomposition, Abstraction, Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Sarah's rule is a recursive rule — a very powerful algorithmic technique in computer science, describing a solution procedure in terms of itself: a simple case ('all one colour') is solved directly, while a complex case is divided into smaller instances of the same problem (the left and right halves), each solved the same way, then composed together (the 'X' followed by both halves' results) into the solution for the whole. Recursion is applied in many fields — Fibonacci's famous recurrence for rabbit populations, or fractals, geometric shapes built entirely from recursive construction. This task also touches on coding (converting information from one representation to another) and invertible, prefix codes, which — when the original sequence length is fixed and known — can be converted back into the original sequence, and can be inverted quickly without much computation. Solving this task requires abstraction (understanding the recursive definition), decomposition (breaking the sequence into smaller and smaller halves), and algorithmic thinking (simulating and evaluating the rule at each step to reconstruct the code)."
+  },
+  "content_zh": {
+    "prompt": "Sarah用一條遞迴規則來表示一排黑白方格：如果目前這段序列裡的方格全部都是白色，就寫「W」；如果全部都是黑色，就寫「B」；否則就寫「X」，接著對左半段套用同樣的規則，再接著對右半段套用同樣的規則。把這條規則套用在這8格序列：WBWWBBBW。",
+    "question": "Sarah會怎麼表示這排方格？",
+    "options": [
+      {
+        "key": "A",
+        "text": "XXBWBXWXWB"
+      },
+      {
+        "key": "B",
+        "text": "XXXBWBXWXWB"
+      },
+      {
+        "key": "C",
+        "text": "XXXWBXWWXXBBXBW"
+      },
+      {
+        "key": "D",
+        "text": "XWBWXBBW"
+      },
+      {
+        "key": "E",
+        "text": "XXXWBWXBXBW"
+      }
+    ],
+    "answer": "E",
+    "explanation": "一個字元一個字元建構出這個編碼：完整8格不全是同一個顏色，所以先寫X。左半段(WBWW)也不全同色，再寫一個X。左半段的左半段(WB)還是不同色，第三個X，接著直接寫出它的兩個方格W和B，目前是XXXWB。左半段的右半段全部是白色，寫W（變成XXXWBW）。接著看整個序列的右半段(BBBW)不全同色，寫X（變成XXXWBWX）；它的左半段(BB)全黑，寫B；它的右半段(BW)不同色，寫X，接著寫出它的兩個方格B和W。完整結果是XXXWBWXBXBW，對應選項E。其他選項各有問題：B剛好是正確答案「顏色顛倒」過來的版本；C沒有把同色的一對方格縮減成單一字母；A和D甚至沒有以最前面幾格所要求的三個X開頭。",
+    "ct_skills": "分解、抽象化、演算法思維（Decomposition, Abstraction, Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "Sarah用的這條規則是「遞迴規則」——電腦科學裡非常強大的一種演算法技巧，用問題本身來描述解決問題的程序：簡單的情況（「全部同色」）直接給出解答，複雜的情況則被拆解成同一問題的較小實例（左半段和右半段），各自用同樣的方式解決，再組合起來（「X」加上兩個半段的結果）成為整個問題的解答。遞迴被應用在許多領域——例如費波那契著名的兔子族群遞迴公式，或是完全由遞迴建構而成的幾何圖形——碎形（fractal）。這一題也牽涉到「編碼」（把資訊從一種表示法轉換成另一種）的概念，以及「可逆」、「前綴碼」——當原始序列長度固定且已知時，這類編碼可以被轉換回原本的序列，而且能快速還原、不需要太多運算資源。要解開這一題，需要運用抽象化（理解這條遞迴定義）、分解（把序列不斷拆成更小的兩半），以及演算法思維（在每一步模擬並評估這條規則，重建出完整的編碼）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

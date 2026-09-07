@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-30",
+  "title_en": "Flower Pots",
+  "title_zh": "二分搜尋種花藏鑰匙",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-30.png",
+    "path": "assets/images/india/2025/IN-2025-30.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A beaver hides a key in one of a row of flower pots (each empty or holding one flower) and tells a friend how to find it: count all flowers; if the total is even, the key is in the left half, otherwise the right half; repeat this on the chosen half until only one pot remains — that's where the key is. With 8 pots, the key should end up found in pot C.",
+    "question": "Which of the following flower arrangements will result in the key being found in pot C?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "(multiple correct — see explanation)",
+    "explanation": "To make the friend end up finding the key in pot C, three conditions must all hold: (1) the total flower count across all 8 pots must be even (so the search moves to the left half, pots A-D); (2) the flower count within just A-D must be odd (so the search moves to the right half of that group, pots C-D); (3) the flower count within just C-D must be even (so the search moves to the left half of that pair, pot C alone). Building an answer backwards is easiest: first make C and D have an even flower count between them (both empty or both flowered); then make A-D have an odd count overall (exactly one of A or B gets a flower, since C-D is already even); then make the full 8-pot count even (plant an odd number of flowers — one or three — among E, F, G, H, since the left half is already odd). Combining independent choices from these three conditions gives 2 × 2 × 8 = 32 different correct arrangements in total.",
+    "ct_skills": "Algorithmic Thinking, Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "The beaver uses the flower pattern to encode the position of the key — this code is useful precisely because every possible sequence defines a single, unambiguous position, so a friend always knows exactly where to look. Conversely, a single position can be represented by many different sequences (as this task's 32 correct answers show) — indeed 3 pots alone give 2³=8 different sequences, enough to distinguish 8 positions, so the beaver's 8-pot code has built-in redundancy. In informatics, codes are essential for representing data in formats computer hardware can handle, e.g. sending a message over the internet; many real codes deliberately use longer sequences than strictly necessary, since the redundant parts can help detect or even correct errors if part of the sequence is accidentally changed — as in Hamming codes. To help the beaver plant flowers encoding a given key position, it helps to think backwards from the answer explanation's method — a bottom-up approach, building a solution to a big problem from small pieces, as opposed to a top-down approach that starts from a rough whole-problem solution and refines the details."
+  },
+  "content_zh": {
+    "prompt": "一隻海狸把鑰匙藏在一排花盆裡的其中一個（每個花盆是空的，或種著一朵花），並告訴朋友怎麼找到它：先數一數所有花的總數；如果總數是偶數，鑰匙就藏在左半邊，否則藏在右半邊；對選中的那一半重複這個步驟，直到只剩下一個花盆為止——那就是藏鑰匙的地方。用8個花盆來說，最後應該要在C盆找到鑰匙。",
+    "question": "下面哪一種花朵的排列方式，會讓最後在C盆找到鑰匙？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "（不只一個正確答案，見解說）",
+    "explanation": "要讓朋友最後在C盆找到鑰匙，必須同時滿足三個條件：1.全部8個花盆的花朵總數必須是偶數（這樣搜尋才會進入左半邊，也就是A到D）。2.只看A到D這四盆，花朵數量必須是奇數（這樣搜尋才會進入這一組的右半邊，也就是C、D）。3.只看C、D這兩盆，花朵數量必須是偶數（這樣搜尋才會進入這一對的左半邊，也就是單獨的C盆）。從後往前建構答案最容易：先讓C和D兩盆的花朵數量是偶數（兩盆都空、或兩盆都有花）；接著讓A到D整體變成奇數（因為C、D已經是偶數了，所以A、B裡剛好要有一盆種花）；最後讓全部8盆變成偶數（因為左半邊已經是奇數了，所以E、F、G、H裡要種奇數朵花——1朵或3朵）。把這三個條件各自獨立的選擇組合起來，總共可以得到2×2×8＝32種不同的正確排列方式。",
+    "ct_skills": "演算法思維、抽象化（Algorithmic Thinking, Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "海狸用花朵的排列方式來編碼鑰匙的位置——這種編碼之所以有用，正是因為每一種花朵排列，都唯一對應到一個明確的位置，讓朋友永遠知道該去哪裡找。反過來說，同一個位置也可以用很多種不同的排列方式來表示（就像這一題有32種正確答案一樣）——事實上，光是3個花盆就能組出2³＝8種不同的排列，足夠區分8個不同的位置，所以海狸這套8盆花的編碼本身就帶有多餘的冗餘。在資訊科學裡，編碼對於把資料轉換成電腦硬體能處理的格式至關重要，例如透過網際網路傳送訊息；許多實際使用的編碼，會刻意使用比嚴格需要更長的序列，因為多出來的冗餘部分，能在序列有一部分被意外改變時，幫助偵測甚至修正錯誤——例如漢明碼（Hamming code）就是如此。要幫助海狸種花、編碼出特定的鑰匙位置，從解答說明裡用的方法反過來想會比較有幫助——這是一種「由下往上」的做法，從小片段逐步建構出大問題的解答，跟「由上往下」（從整個問題的粗略解法開始，再逐步細修）正好相反。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

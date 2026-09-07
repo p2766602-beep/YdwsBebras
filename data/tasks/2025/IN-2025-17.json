@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-17",
+  "title_en": "Island Research Expeditions",
+  "title_zh": "島嶼群組最少幾趟",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-17.png",
+    "path": "assets/images/india/2025/IN-2025-17.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A research team must investigate all islands, connected by one-way ferries (they may also land anywhere by helicopter). On a research trip, the team lands by helicopter on any island, can take any number of ferries, but must then return to the helicopter (i.e. back to the same starting island, via ferries).",
+    "question": "What is the minimum number of research trips needed to visit every island?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Since the team must return to their starting island after every trip using only the one-way ferries, they can only visit, within a single trip, islands that form a group where every island can reach every other island in that group and back. Grouping all islands this way (by starting from an unassigned island and adding every island reachable there and back) divides them into exactly three such groups; since travel between different groups is only possible in one direction, each group needs its own separate research trip — a common mistake is proposing one long tour that visits every island, which fails because the team could never get back to their helicopter. So 3 separate trips, one per group, are both necessary and sufficient.",
+    "ct_skills": "Abstraction, Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The coloured island groups in this task's solution represent sets where every member is reachable from every other member — in computer science, this is called a strongly connected component (SCC). SCCs appear far beyond islands: they can represent clusters of websites that all link to each other, clusters of social media users who mutually follow each other, or regions of a transportation network where travel is possible in both directions between all included cities. Understanding SCCs is useful in network analysis, recommendation systems, and optimisation problems. To solve this task, students must recognise that it's really about finding such groups of mutually-reachable islands (abstraction), and then devise a systematic way of actually finding those groups (algorithmic thinking)."
+  },
+  "content_zh": {
+    "prompt": "研究團隊必須調查所有島嶼，島嶼之間靠單向渡輪相連（他們也可以搭直升機降落在任何一座島上）。進行一趟研究行程時，團隊搭直升機降落在某座島上，可以搭乘任意數量的渡輪，但最後必須（透過渡輪）回到直升機的位置，也就是回到出發的那座島。",
+    "question": "要走遍所有島嶼，最少需要幾趟研究行程？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3趟"
+      },
+      {
+        "key": "B",
+        "text": "4趟"
+      },
+      {
+        "key": "C",
+        "text": "5趟"
+      },
+      {
+        "key": "D",
+        "text": "6趟"
+      }
+    ],
+    "answer": "A",
+    "explanation": "因為團隊每趟行程結束後，都必須只靠單向渡輪回到出發的島，所以在同一趟行程裡，他們只能造訪「彼此之間能互相往返」的一群島嶼。用這個方式把所有島嶼分組（從一座還沒分組的島出發，把所有能跟它互相往返的島都加進同一組），剛好可以分成三組；因為不同組之間的往來只能單向進行，所以每一組都需要各自獨立的一趟研究行程——一個常見的錯誤想法，是規劃一趟很長、走遍所有島嶼的行程，但這行不通，因為團隊永遠沒辦法回到直升機的位置。所以3趟行程（每組一趟）既是必要的，也是足夠的。",
+    "ct_skills": "抽象化、演算法思維（Abstraction, Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題解答裡用顏色標示的島嶼分組，代表的是一群「彼此之間都能互相到達」的集合——在電腦科學裡，這叫做「強連通分量」（strongly connected component，SCC）。SCC的應用遠遠不只是島嶼：它可以代表一群彼此互相連結的網站、一群在社群媒體上互相追蹤的使用者，或是運輸網路裡「所有城市之間都能雙向往來」的區域。理解SCC在網路分析、推薦系統，以及最佳化問題裡都很有用。要解開這一題，學生必須先意識到，這其實就是要找出這種「彼此可互相到達」的島嶼群組（抽象化），接著想出一套有系統的方法，真正找出這些群組（演算法思維）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

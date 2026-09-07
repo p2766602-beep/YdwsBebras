@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-34",
+  "title_en": "Flower Planting",
+  "title_zh": "機器人圖靈機式種花",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-34.png",
+    "path": "assets/images/india/2025/IN-2025-34.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A garden robot plants flowers along a line of spots based on signs, following this procedure: (0) go to the spot marked X; then repeat until no spot has a sign: (1) if the current spot has a sign, plant the flower it shows there; (2) remember that flower; (3) remove the sign; (4) go right until reaching an empty spot, and plant the remembered flower there; (5) go left until reaching a spot with a sign, or until moving off the flower bed.",
+    "question": "How will the flower beds look after planting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Starting at the last labelled spot (spot 5), the robot plants a violet there, remembers it, and moves right to the empty 6th spot, planting the remembered violet there. It then moves left to the first labelled spot it finds — the 4th spot — plants a rose, remembers it, moves right to the empty 7th spot and plants it there. It continues left to the 3rd spot (another violet, remembered, planted at the empty 8th spot), then to the 2nd and 1st spots (tulips, planted at spots 9 and 10 respectively). The robot ends up planting flowers into the empty spots in reverse order, producing the arrangement shown in option A.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Hidden behind the robot's instructions is the concept of a Turing machine — a machine performing an algorithm, with one head (the robot) moving along a tape (the line of flower-bed spots) made of cells that can be read (the signs) and written to (removing signs, planting flowers). A Turing machine's memory is a tape, and it can have more than one; here, the robot remembering which flower was last planted could be thought of as information written onto a second tape. This task requires algorithmic thinking: understanding and following a given algorithm expressed as a set of instructions, and executing it on a specific input — here, the sequence of labelled spots is the input, and the sequence of planted flowers is the resulting output."
+  },
+  "content_zh": {
+    "prompt": "一台花園機器人，會依照告示牌，沿著一排花圃格子種花，遵循以下程序：(0)先移動到標示X的格子；接著重複下面步驟，直到沒有任何格子還有告示牌為止：(1)如果目前所在格子有告示牌，就把牌上顯示的花種在這一格；(2)記住這朵花；(3)移除告示牌；(4)往右移動，直到找到一個空格，把剛才記住的花種在那裡；(5)往左移動，直到找到一個還有告示牌的格子，或是移出整排花圃為止。",
+    "question": "種完花之後，這排花圃會是什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "機器人從最後一個有標示的格子（第5格）開始，在那裡種下一朵紫羅蘭，記住它，接著往右移動到空的第6格，把記住的紫羅蘭種在那裡。接著它往左移動，找到下一個有標示的格子——第4格——種下一朵玫瑰，記住它，往右移動到空的第7格種下。接著繼續往左，到第3格（又是一朵紫羅蘭，記住後種在空的第8格），再到第2格和第1格（都是鬱金香，分別種在第9格和第10格）。機器人最後把花種進各個空格的順序，正好是相反過來的，結果就是選項A呈現的排列方式。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這台機器人的指示背後，隱藏著「圖靈機」的概念——一種執行演算法的機器，有一個讀寫頭（機器人），沿著一條「帶子」（花圃的那排格子）移動，帶子由許多格子（cell）組成，可以被讀取（告示牌）和寫入（移除告示牌、種花）。圖靈機的記憶體就是一條帶子，而且可以擁有不只一條；這裡機器人「記住上一朵種的花」，就可以想成是把這項資訊寫進了第二條帶子。這一題需要運用演算法思維：理解並依照一套以指令表達的演算法，把它套用在特定的輸入上——這裡輸入是一連串標示過的格子，輸出結果則是最後種下的一連串花朵。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

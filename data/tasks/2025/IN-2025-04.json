@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2025-04",
+  "title_en": "Polite Beavers",
+  "title_zh": "兩條巷道輪流匯入",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-04.png",
+    "path": "assets/images/india/2025/IN-2025-04.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Cars enter the main street alternating which street they come from: one comes from Heart Lane, then one from Sun Street, then Heart Lane again, then Sun Street, and so on.",
+    "question": "Which car will enter immediately after a given car (shown in the booklet)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) E"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Following the strict alternation rule — Heart Lane, then Sun Street, then Heart Lane, then Sun Street, and so on — determines exactly which car enters next after any given car, matching option A.",
+    "ct_skills": "Pattern recognition, Abstraction, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task combines basic algorithmic principles (alternating turns, scheduling, resource sharing) with a real-world traffic analogy. Alternating cars from two streets is a simple scheduling algorithm or resource-allocation problem, where two entities take turns using a shared resource (the highway) — much like traffic at an intersection forming two queues that take turns entering, a fundamental concept behind queue data structures and process management in operating systems. Recognising the repeating alternation pattern is pattern recognition; simplifying the real scenario down to just 'alternating turns' (ignoring traffic lights, road conditions, etc.) is abstraction; and following the rule step by step to predict the next car is algorithmic thinking and logical reasoning — the same kind of turn-taking appears in board games, sharing playground equipment, or two students alternating turns on a classroom computer."
+  },
+  "content_zh": {
+    "prompt": "車子輪流從兩條巷道匯入主街道：先從心型巷來一輛，接著從太陽街來一輛，再回到心型巷，再回到太陽街，依此類推。",
+    "question": "緊接在題本所示某輛車之後，下一輛匯入的會是哪一輛？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）E"
+      }
+    ],
+    "answer": "A",
+    "explanation": "依照嚴格輪替的規則——心型巷、太陽街、心型巷、太陽街，依此類推——就能準確判斷出緊接在任何一輛車之後，下一輛匯入的會是哪一輛，答案對應選項A。",
+    "ct_skills": "樣式辨識、抽象化、演算法思維（Pattern recognition, Abstraction, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題結合了基本的演算法原理（輪流、排程、資源共享）和現實生活中的交通情境。讓兩條街的車子輪流匯入，是一種簡單的排程演算法或資源分配問題，兩個實體（兩條街）輪流使用一項共享資源（這條主要道路）——就像路口的車流形成兩條隊伍，輪流匯入，這正是佇列這種資料結構、以及作業系統裡程序管理背後的基礎概念。辨認出這種重複的輪替規律，用到的是樣式辨識；把真實情境簡化成純粹的「輪流」（忽略紅綠燈、路況等因素），用到的是抽象化；而一步步依照規則推算下一輛車，用到的則是演算法思維和邏輯推理——同樣的輪流概念，也出現在桌遊、輪流玩遊樂設施，或兩位學生輪流使用教室電腦的情境裡。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

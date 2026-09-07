@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-19",
+  "title_en": "Beaver Timbers",
+  "title_zh": "三張表接力查木材",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-19.png",
+    "path": "assets/images/india/2025/IN-2025-19.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Eashan's friends collect three separate tables of hiking data: Saloni's table links leaf shape to tree species; Priti's table links fruit and 'is it a conifer' to tree species; Lara's table links wood colour and 'is it good beaver timber' to tree species. Eashan has found a leaf and knows its shape; he wants to know whether that tree's wood is good beaver timber.",
+    "question": "Which of his friends does he have to ask, and in which order, to find the right answer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lara only"
+      },
+      {
+        "key": "B",
+        "text": "First Saloni, then Priti"
+      },
+      {
+        "key": "C",
+        "text": "First Saloni, then Lara"
+      },
+      {
+        "key": "D",
+        "text": "First Priti, then Saloni, then Lara"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Timber information exists only in Lara's table, which is indexed by tree species (or wood colour), not by leaf shape — so Eashan cannot use Lara's table directly with only a leaf shape. Priti's table has no reference to leaves at all. Only Saloni's table connects leaf shape to tree species. So Eashan must first ask Saloni (using the leaf shape to find the tree species), then ask Lara (using that tree species to find whether the wood is good timber) — e.g. if the leaf is an oak leaf, Saloni's table gives the species 'oak', and Lara's table then shows oak is not good beaver timber. The tables are all linked through the shared tree-species information: knowing one specific piece of information from any table gives access to everything connected to it across all the tables.",
+    "ct_skills": "Abstraction, Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task illustrates fundamental concepts of relational databases: each friend's table is a database table, where each column is an attribute and each row is a record. The shared 'tree species' attribute connecting the tables corresponds to a foreign key in relational databases, establishing relationships between tables. Eashan's search — finding timber quality from leaf shape — is a typical database query requiring a join operation, which combines rows from different tables based on a common key, letting data spread across multiple tables be retrieved together. In computer science, the SQL (Structured Query Language) is used to write exactly this kind of database query. Solving this task requires abstraction: even though the example has a solution visible in the drawn tables, students must analyse the given data and figure out how to join it together to answer the actual question."
+  },
+  "content_zh": {
+    "prompt": "Eashan的朋友們各自收集了三張獨立的健行資料表：Saloni的表把「葉子形狀」對應到「樹種」；Priti的表把「果實」和「是否為針葉樹」對應到「樹種」；Lara的表把「木材顏色」和「是否適合做海狸建材」對應到「樹種」。Eashan在森林裡撿到一片葉子，知道它的形狀，他想知道這種樹的木材是否適合當海狸的建材。",
+    "question": "他必須依序問哪幾位朋友，才能找到正確答案？",
+    "options": [
+      {
+        "key": "A",
+        "text": "只問Lara"
+      },
+      {
+        "key": "B",
+        "text": "先問Saloni，再問Priti"
+      },
+      {
+        "key": "C",
+        "text": "先問Saloni，再問Lara"
+      },
+      {
+        "key": "D",
+        "text": "先問Priti，再問Saloni，再問Lara"
+      }
+    ],
+    "answer": "C",
+    "explanation": "木材相關的資訊只存在Lara的表裡，而她的表是依照樹種（或木材顏色）查詢的，不是依照葉子形狀——所以Eashan沒辦法只靠葉子形狀直接查Lara的表。Priti的表則完全沒有跟葉子相關的欄位。只有Saloni的表把葉子形狀跟樹種連結起來。所以Eashan必須先問Saloni（用葉子形狀查出樹種），再問Lara（用查到的樹種，判斷木材是否適合當建材）——舉例來說，如果撿到的是橡樹葉，Saloni的表會查出樹種是「橡樹」，Lara的表接著顯示橡樹並不適合做海狸的建材。這幾張表全都是靠共同的「樹種」資訊連結在一起：只要能從任何一張表查到一項具體資訊，就能透過它連結到所有表裡相關的資訊。",
+    "ct_skills": "抽象化、資料表示法（Abstraction, Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題示範了關聯式資料庫的基本概念：每位朋友的表格都是資料庫裡的一張表，每一欄是一個屬性，每一列是一筆紀錄。連結這幾張表的共同「樹種」屬性，對應到關聯式資料庫裡的「外鍵」（foreign key），用來建立表格之間的關聯。Eashan的查詢——從葉子形狀找出木材品質——正是典型的資料庫查詢，需要用到「join（合併）」運算：依照共同的鍵，把不同表格裡的資料列組合起來，讓分散在多張表裡的資料能一起被取出。在電腦科學裡，SQL（結構化查詢語言）正是用來寫這類資料庫查詢的語言。要解開這一題，需要運用抽象化：即使範例已經在畫出來的表格裡有解答，學生仍然必須分析給定的資料，想清楚該怎麼把它們連結起來，才能回答真正的問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

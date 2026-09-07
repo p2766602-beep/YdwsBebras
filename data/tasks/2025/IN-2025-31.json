@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-31",
+  "title_en": "Brightness Map",
+  "title_zh": "亮度變化編碼比對",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-31.png",
+    "path": "assets/images/india/2025/IN-2025-31.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sandhya creates brightness maps for images surrounded by white pixels: each pixel's brightness number is 1 if it's brighter than its right-hand neighbour, 0 if the same brightness, or -1 if darker. Images may look different but still share an identical brightness map.",
+    "question": "Which of the following four images has a brightness map that differs from the others?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Computing (or comparing) all four brightness maps works, but a quicker way is to notice that the brightness map only captures changes along each horizontal row — so any image where every pixel in a row shares the same brightness as its row-mates (just differing between rows in a way that doesn't matter to the row-to-row comparison) will share a map with any other image showing the same row-wise pattern. Three of the four images turn out to have this same underlying row pattern and therefore the same brightness map, while the fourth (option B) does not, making it the odd one out.",
+    "ct_skills": "Pattern recognition, Abstraction, Evaluation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "In computer vision, images can be represented in different ways depending on the colour model used — grayscale images hold a single brightness value per pixel, while RGB colour images hold a tuple of red/green/blue intensities per pixel; when analysing brightness, a program typically first converts RGB images to grayscale to simplify the data. Creating a brightness map like this is similar to the concept of convolution, sliding a small filter across an image to generate a feature map emphasising structural features such as edges or areas of uniform colour, making it easier for a computer to interpret visual information; convolutional neural networks (CNNs) build on this idea, learning their own, more complex filters, whose resulting feature maps can be used to detect objects in images such as tumours in medical scans."
+  },
+  "content_zh": {
+    "prompt": "Sandhya為周圍被白色像素包圍的圖片建立亮度地圖：每個像素的亮度數字，如果比右邊的鄰居亮就是1，亮度相同就是0，比較暗就是-1。有些圖片看起來不一樣，卻可能擁有完全相同的亮度地圖。",
+    "question": "下面四張圖裡，哪一張的亮度地圖跟其他三張不一樣？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "把四張圖的亮度地圖都算出來（或互相比較）確實可行，但更快的方法是留意到：亮度地圖只會捕捉「每一列水平方向」上的變化——所以只要某張圖裡，每一列的像素亮度彼此之間的相對關係跟另一張圖完全一樣（列與列之間就算不同也沒關係，因為那不影響同一列內的比較），這兩張圖就會有相同的亮度地圖。四張圖裡有三張剛好有著相同的這種逐列樣式、因此擁有相同的亮度地圖，而第四張（選項B）沒有，所以它就是那張不一樣的圖。",
+    "ct_skills": "樣式辨識、抽象化、評估（Pattern recognition, Abstraction, Evaluation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "在電腦視覺裡，影像可以依照使用的色彩模型，用不同方式表示——灰階影像每個像素只存一個亮度值，而RGB彩色影像每個像素則存著紅、綠、藍三個強度值組成的一組數值；在分析亮度時，程式通常會先把RGB影像轉換成灰階，藉此簡化資料。像這樣建立亮度地圖，概念上類似「卷積」（convolution）：把一個小濾波器滑過整張影像，產生一張特徵地圖，凸顯出影像裡的結構特徵，例如邊緣或顏色均勻的區域，讓電腦更容易解讀視覺資訊；卷積神經網路（CNN）正是建立在這個概念之上，能學習出自己更複雜的濾波器，產生的細緻特徵地圖，可以用來偵測影像裡的物體，例如醫學影像裡的腫瘤。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

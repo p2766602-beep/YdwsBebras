@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2025-41",
+  "title_en": "Public Transport",
+  "title_zh": "地鐵轉乘最短時間",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-41.png",
+    "path": "assets/images/india/2025/IN-2025-41.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Madhav wants to reach a theatre by metro; 4 one-way metro lines run on fixed departure intervals from their starting stops, with given travel times between stops. At intersecting stops, Madhav can switch to any train arriving there at the same time as him or later.",
+    "question": "If Madhav departs with the first orange line metro train, what is the shortest possible time it will take him to ride to the theater?",
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      },
+      {
+        "key": "E",
+        "text": "27"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Repeatedly picking the not-yet-finalised stop with the fastest known arrival time, then updating the times of stops reachable from it (only keeping the fastest known route to each stop, and only finalising a stop's time once every possible route to it has been considered) eventually determines the fastest route to every stop. Carrying this out for the full network shows the shortest possible time to reach the theatre, via stops A, C, F, H, I, and finally the destination, is 20 minutes.",
+    "ct_skills": "Algorithmic Thinking, Data representation, Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The metro map — stops connected by one-way routes, each segment taking a certain time to cross — is a weighted directed graph: stops are vertices, route segments are edges, the one-way nature makes it directed, and the differing crossing times make it weighted. The only twist versus a standard weighted graph is that travel time between two stops here also depends on arrival time (since you must wait for the next scheduled train), rather than being a fixed edge weight. Finding the shortest path between two vertices of a graph is a common informatics problem and a simplified version of real route-finding algorithms; the method used in the explanation — solving for the closest stops first and building outward to the farthest one — closely resembles dynamic programming, solving smaller parts of a problem first and reusing those answers to build up to the full solution. This task fosters computational thinking through data interpretation (analysing departure intervals, travel times, and transfer conditions), algorithmic reasoning (recognising repeating departure patterns and applying conditional transfer rules), and sequencing (maintaining the correct order of events across multiple synchronised time intervals)."
+  },
+  "content_zh": {
+    "prompt": "Madhav想搭地鐵到劇院；城裡有4條單向地鐵線，各自從起點站依固定的發車間隔出發，站與站之間的行駛時間都已知。在轉乘站，Madhav可以換乘任何「跟他同時抵達或比他晚抵達」的列車。",
+    "question": "如果Madhav搭乘第一班橘線列車出發，他最快能在幾分鐘內抵達劇院？",
+    "options": [
+      {
+        "key": "A",
+        "text": "18分鐘"
+      },
+      {
+        "key": "B",
+        "text": "20分鐘"
+      },
+      {
+        "key": "C",
+        "text": "21分鐘"
+      },
+      {
+        "key": "D",
+        "text": "25分鐘"
+      },
+      {
+        "key": "E",
+        "text": "27分鐘"
+      }
+    ],
+    "answer": "B",
+    "explanation": "反覆挑出「目前已知最快抵達時間、但還沒確定為最終結果」的站，再更新從那一站能到達的其他站的時間（每個站只保留目前已知最快的路線，而且只有在所有可能路線都考慮過之後，才把那一站的時間定案），最後就能算出抵達每一站的最快時間。把這個方法套用在整個路網上，會發現抵達劇院最快的時間，是經由A、C、F、H、I幾站，最後抵達目的地，總共20分鐘。",
+    "ct_skills": "演算法思維、資料表示法、評估（Algorithmic Thinking, Data representation, Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這張地鐵路網圖——由單向路線連接起來的車站，每一段都要花特定時間通過——是一張加權有向圖：車站是頂點，路線段是邊，因為是單向所以是有向圖，因為通過時間不同所以是加權圖。跟標準加權圖唯一不同的地方，是這裡兩站之間的移動時間，還取決於抵達時間（因為必須等下一班排定的列車），而不是固定不變的邊權重。找出圖上兩個頂點之間的最短路徑，是資訊科學裡常見的問題，也是真實路線規劃演算法的簡化版本；解說裡用的方法——先解出最近的幾站，再逐步往外推算到最遠的一站——跟動態規劃的做法非常相似，也就是先解決問題裡較小的部分，再重複利用這些答案，逐步組合出完整的解答。這一題透過資料判讀（分析發車間隔、行駛時間和轉乘條件）、演算法推理（辨認出重複的發車樣式，並套用轉乘的條件規則），以及排序（在多個同步進行的時間區間裡，維持正確的事件順序）來培養運算思維。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

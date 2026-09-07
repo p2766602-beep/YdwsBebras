@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-38",
+  "title_en": "Flood Prevention",
+  "title_zh": "池塘排水最小成本網路",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-38.png",
+    "path": "assets/images/india/2025/IN-2025-38.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A city has 7 hillside ponds that must all drain into a main reservoir via a new pipe network, either directly or indirectly. Each possible pipe route has a capacity (water per hour) and a cost (Rs. 1 Cr times its capacity). The city wants to connect all ponds while handling the expected flow, at minimum total cost.",
+    "question": "What is the lowest total cost to build a pipe system that ensures all ponds can safely drain their water to the reservoir during heavy rain?",
+    "options": [
+      {
+        "key": "A",
+        "text": "70 Cr"
+      },
+      {
+        "key": "B",
+        "text": "74 Cr"
+      },
+      {
+        "key": "C",
+        "text": "82 Cr"
+      },
+      {
+        "key": "D",
+        "text": "91 Cr"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Since there are no existing pipes, a full network must be built from scratch. Three ponds have only a single possible downhill connection, forcing a base cost of 11+9+20=40. One pond has two routing choices whose costs combine differently depending on how a nearby pond routes; comparing both combined options shows sending that pond directly to the reservoir (cost 8) while its neighbour routes elsewhere (cost 4) totals 12, cheaper than the alternative combined cost of 20+10=30. Two remaining ponds can each go directly to the reservoir at combined cost 24, or be joined together and routed as a merged flow through a shared pipe at combined cost 22 — the cheaper option. Adding these together: 40 + 12 + 22 = 74, the minimum total cost.",
+    "ct_skills": "Abstraction, Decomposition, Algorithmic Thinking, Logical thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The ponds and possible pipes form a graph with source nodes and weighted edges — the same kind of structure used to represent network bandwidth and information flow in distributed computing environments like the internet or mobile networks. Finding the maximum flow at minimum cost is a classic constraint optimisation problem, typically solved with graph traversal algorithms that, to avoid brute-force trial of every possibility, start from a cheap but sub-optimal solution (such as a minimum spanning tree) and iteratively improve it. Abstraction is required to reduce the real-world problem to a simplified graph; recursion or iteration is needed to build a partial solution — including a few nodes and connections at a time — towards the final one; and logical thinking is needed around which variable assignments are possible without violating capacity constraints, comparing combinations like the paired routing choices in this task."
+  },
+  "content_zh": {
+    "prompt": "一座城市裡有7座山丘上的池塘，必須全部（直接或間接）透過新的管線系統排水到主要蓄水池。每一段可能的管線，都有各自的容量（每小時能排放的水量）和成本（每1單位容量成本為1千萬盧比）。城市希望在能應付預期水量的前提下，把所有池塘連起來，同時把總成本降到最低。",
+    "question": "要建一套確保所有池塘在豪雨時都能安全排水到蓄水池的管線系統，最低總成本是多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "70千萬盧比"
+      },
+      {
+        "key": "B",
+        "text": "74千萬盧比"
+      },
+      {
+        "key": "C",
+        "text": "82千萬盧比"
+      },
+      {
+        "key": "D",
+        "text": "91千萬盧比"
+      }
+    ],
+    "answer": "B",
+    "explanation": "因為目前完全沒有現成的管線，必須從零開始建構整套網路。有三座池塘各自只有一條可能的下游連接方式，這就先確定了40（11+9+20）的基本成本。有一座池塘有兩種可能的路線選擇，成本會依照附近另一座池塘怎麼接而有所不同；比較兩種組合方式後發現，讓這座池塘直接接到蓄水池（成本8），同時讓鄰近的池塘改走別的路線（成本4），總共是12，比另一種組合方式（20+10＝30）便宜。剩下兩座池塘，可以各自直接接到蓄水池（合計成本24），或是先合併成一股水流、共用一段管線接到蓄水池（合計成本22）——後者比較便宜。全部加起來：40+12+22＝74，就是最低的總成本。",
+    "ct_skills": "抽象化、分解、演算法思維、邏輯思維（Abstraction, Decomposition, Algorithmic Thinking, Logical thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這些池塘和可能的管線，構成了一張帶有源頭節點和加權邊的圖——這正是用來表示分散式運算環境（例如網際網路或行動網路）裡，網路頻寬和資訊流動的同一種結構。要在滿足流量的前提下找出最低成本，是一個經典的限制最佳化問題，通常會用圖形走訪演算法來解決——為了避免窮舉所有可能，這類演算法通常會先從一個成本較低、但不是最佳的解法開始（例如最小生成樹），再逐步反覆改善它。這裡需要用到抽象化，把真實世界的問題簡化成一張圖；需要用到遞迴或迭代，一次納入幾個節點和連接、逐步建構出局部解，朝最終解答邁進；也需要用到邏輯思維，判斷哪些變數指派方式不會違反容量限制，並比較像這一題裡「成對路線選擇」這樣的不同組合。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

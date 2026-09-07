@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2025-10",
+  "title_en": "Coloring Squares",
+  "title_zh": "重疊上色統計方格",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-10.png",
+    "path": "assets/images/india/2025/IN-2025-10.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Esha colours squares yellow and Tarun colours squares blue; wherever both colour the same square (in either order), it turns green. A picture shows the resulting colours of all the squares.",
+    "question": "How many squares did Esha colour (in total, including both the squares only she coloured and the squares that turned green)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The 5 squares that ended up yellow were coloured only by Esha. Esha also coloured the 4 squares that ended up green, since green means both Esha and Tarun coloured that square. So Esha coloured 5 + 4 = 9 squares in total.",
+    "ct_skills": "Data representation, Evaluation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Based on the final colour of each square, you must work out whether it was coloured by only Esha, only Tarun, or both. Coloring squares like this is also the basis of raster graphics, where images are represented as a grid of coloured pixels — a concept used in graphics programming, 3D modelling, and data visualisation. Solving this task requires evaluating each square's colour against the combination rule (yellow+blue=green) to correctly attribute it to the right colourer(s), and representing the overall picture as data built from individual square states."
+  },
+  "content_zh": {
+    "prompt": "Esha把方格塗成黃色，Tarun把方格塗成藍色；只要兩人都塗了同一個方格（不論先後順序），那個方格就會變成綠色。一張圖顯示了所有方格最後呈現的顏色。",
+    "question": "Esha總共塗了幾個方格（包含只有她塗的方格，以及變成綠色的方格）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "answer": "E",
+    "explanation": "最後是黃色的5個方格，只被Esha塗過。變成綠色的4個方格，Esha也塗過，因為綠色代表Esha和Tarun兩人都塗了那個方格。所以Esha總共塗了5+4＝9個方格。",
+    "ct_skills": "資料表示法、評估（Data representation, Evaluation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "根據每個方格最後呈現的顏色，我們必須推算出它是只被Esha塗過、只被Tarun塗過，還是兩人都塗過。像這樣為方格上色，正是點陣圖形（raster graphics）的基礎——影像被表示成一格一格帶有顏色的像素網格，這個概念被用在繪圖程式設計、3D建模和資料視覺化裡。要解開這一題，需要評估每個方格的顏色，對照「黃+藍=綠」這條組合規則，正確判斷出是誰塗的（或兩人都塗了），並把整張圖表示成由每個方格個別狀態組成的資料。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

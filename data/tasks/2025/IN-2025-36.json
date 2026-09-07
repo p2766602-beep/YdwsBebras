@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-36",
+  "title_en": "Beaver Jatin",
+  "title_zh": "週期性障礙最短通過",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-36.png",
+    "path": "assets/images/india/2025/IN-2025-36.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beaver Jatin explores a pyramid hallway secured by a row of periodic blocks — a block with period p goes up after p minutes since someone arrives, comes back down p minutes after that, and so on, cycling forever. Jatin wants to reach a treasure at the end of the hallway as soon as possible by timing his passage through each block while it's up. The next hallway has four blocks with periods 3, 5, 8, and 4.",
+    "question": "When is the earliest Jatin can reach the treasure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "8 minutes"
+      },
+      {
+        "key": "B",
+        "text": "12 minutes"
+      },
+      {
+        "key": "C",
+        "text": "15 minutes"
+      },
+      {
+        "key": "D",
+        "text": "16 minutes"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Jatin can reach the treasure after 12 minutes, following (for example) the sequence: wait 3 minutes, pass the first block; wait 2 more minutes, pass the second block; wait 3 more minutes, pass the third block; wait 4 more minutes, then reach the treasure — matching the timing when each successive block happens to be up. A shorter-instruction (but not faster) route exists too: wait 9 minutes, pass directly to the third block, wait 3 more minutes, then reach the treasure — also totalling 12 minutes. There is no way to reach the treasure any sooner: the only way to rush through in a single unbroken pass, with all four blocks up simultaneously, first occurs after waiting 15 minutes, which is slower, not faster.",
+    "ct_skills": "Decomposition, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task covers three aspects of informatics. Algorithm: the central question is how a problem can be solved and its solution unambiguously described — once precisely defined (e.g. as a sequence of instructions), a machine can follow it without understanding it. Optimisation problem: this task compares different approaches, choosing the best by some measure (here, both the time to reach the treasure and the number of instructions needed) — one general method for such problems is dynamic programming, breaking the problem into parts (partial problems here being 'reach only the first block', 'reach only the first two', and so on) and reusing stored partial solutions to build up the full one. Programming: expressing the algorithm in fundamental operations/commands like 'wait(n)' and 'goto_block(b)', which can be combined using sequential, repeated, and conditional constructs to express more complex algorithms."
+  },
+  "content_zh": {
+    "prompt": "海狸Jatin在探索金字塔裡的一條走廊，走廊上設有一排週期性移動的閘門——週期為p的閘門，會在有人抵達之後p分鐘升起，再過p分鐘又落下，如此不斷循環。Jatin想盡快抵達走廊盡頭的寶藏，做法是抓準時機、趁每個閘門升起時通過。下一條更可怕的走廊，有四個閘門，週期分別是3、5、8、4分鐘。",
+    "question": "Jatin最快能在幾分鐘後抵達寶藏？",
+    "options": [
+      {
+        "key": "A",
+        "text": "8分鐘"
+      },
+      {
+        "key": "B",
+        "text": "12分鐘"
+      },
+      {
+        "key": "C",
+        "text": "15分鐘"
+      },
+      {
+        "key": "D",
+        "text": "16分鐘"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Jatin可以在12分鐘後抵達寶藏，依照（例如）以下順序：等3分鐘，通過第一個閘門；再等2分鐘，通過第二個閘門；再等3分鐘，通過第三個閘門；再等4分鐘，抵達寶藏——這樣的時間點，剛好對應每個閘門依序升起的時刻。也存在一條指令較少（但不會更快）的路線：等9分鐘，直接前進到第三個閘門，再等3分鐘，抵達寶藏——同樣總共12分鐘。沒有辦法比這更快抵達寶藏：唯一能一次不間斷通過、四個閘門同時升起的機會，第一次出現在等待15分鐘之後，這反而比較慢，不是更快。",
+    "ct_skills": "分解、評估（Decomposition, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題涵蓋了資訊科學的三個面向。演算法：核心問題是「一個問題該如何解決」，以及「這個解法該如何被明確無誤地描述出來」——一旦精確定義好了（例如寫成一連串指令），機器就能照著執行，不需要真正「理解」它。最佳化問題：這一題要比較不同的做法，依照某個衡量標準選出最好的一個（這裡同時考量抵達寶藏的時間，以及所需的指令數量）——解決這類問題的一種通用方法是動態規劃：把問題拆成幾個部分（這裡的局部問題，就是「只抵達第一個閘門」、「只抵達前兩個閘門」等等），並重複利用已經算出來的局部解，逐步組合出完整的解答。程式設計：用像'wait(n)'和'goto_block(b)'這樣的基本運算（指令）來表達演算法，並透過依序執行、重複執行，以及條件執行這些語言結構，把它們組合成更複雜的演算法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

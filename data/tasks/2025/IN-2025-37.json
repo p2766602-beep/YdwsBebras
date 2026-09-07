@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-37",
+  "title_en": "Biocolors",
+  "title_zh": "核苷酸混色最少滴數",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-37.png",
+    "path": "assets/images/india/2025/IN-2025-37.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Biological dyes are described by 3-nucleotide codes (A or C): black=CCC, blue=CCA, green=CAC, cyan=CAA, red=ACC, purple=ACA, yellow=AAC, white=AAA. Mixing two dyes reacts each corresponding nucleotide position (A+A=C, C+C=C, A+C=A, C+A=A) to produce a new dye colour. Given three tanks with green, purple, and yellow dye, you may take a drop from any tank and mix it into another; the goal is to swap the colours in tanks 1 and 3 (tank 1 → yellow, tank 3 → green), leaving tank 2 unchanged (purple).",
+    "question": "What is the smallest number of drops of dye required to swap colors in tank 1 and tank 3?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The swap can be done in 3 drops, e.g. 3→1, then 1→3, then 3→1: mixing yellow (AAC) from tank 3 into green (CAC) in tank 1 gives AAC+CAC=ACC (red); mixing that red (ACC) from tank 1 into yellow (AAC) in tank 3 gives ACC+AAC=CAC (green); mixing that green (CAC) from tank 3 into red (ACC) in tank 1 gives CAC+ACC=AAC (yellow) — the desired swap. One drop clearly isn't enough (it only changes one tank's colour, but two need to change). Two drops aren't enough either: checking every possible first drop that could turn tank 1 into yellow, or that could turn tank 3 into green, shows none of them succeed in a single drop — so a second drop could never complete both required changes. Hence 3 is the true minimum.",
+    "ct_skills": "Evaluation, Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task represents colours as sequences of symbols (nucleotides) and defines a combination rule between them — similar in spirit to how binary strings represent data, combined through logical or arithmetic operations. Finding the minimum number of mixing operations to reach a target configuration is a search and optimisation problem: you must both demonstrate that a solution of a given size exists (evaluating a specific sequence of operations) and prove that no smaller solution exists (systematically checking every possibility at the smaller size). This combination of finding a working solution, then evaluating whether a more efficient one exists, is central to computational thinking, and is closely related to search algorithms used across computer science to find shortest paths or minimum-cost sequences of operations."
+  },
+  "content_zh": {
+    "prompt": "生物染劑用3個核苷酸（A或C）組成的密碼來描述：黑=CCC，藍=CCA，綠=CAC，青=CAA，紅=ACC，紫=ACA，黃=AAC，白=AAA。把兩種染劑混合，會讓對應位置的核苷酸各自反應（A+A=C、C+C=C、A+C=A、C+A=A），產生一種新的染劑顏色。給定三個桶子，分別裝著綠色、紫色和黃色染劑，你可以從任一個桶子取一滴染劑，混進另一個桶子；目標是把1號桶和3號桶的顏色互換（1號桶變黃色，3號桶變綠色），2號桶維持不變（紫色）。",
+    "question": "要互換1號桶和3號桶的顏色，最少需要滴幾滴染劑？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2滴"
+      },
+      {
+        "key": "B",
+        "text": "3滴"
+      },
+      {
+        "key": "C",
+        "text": "4滴"
+      },
+      {
+        "key": "D",
+        "text": "5滴"
+      }
+    ],
+    "answer": "B",
+    "explanation": "這個互換用3滴就能完成，例如依序：3→1、1→3、3→1：把3號桶的黃色(AAC)滴進1號桶的綠色(CAC)，得到AAC+CAC=ACC（紅色）；把1號桶的紅色(ACC)滴進3號桶的黃色(AAC)，得到ACC+AAC=CAC（綠色）；把3號桶的綠色(CAC)滴進1號桶的紅色(ACC)，得到CAC+ACC=AAC（黃色）——完成了想要的互換。1滴顯然不夠（只能改變一個桶子的顏色，但需要改變兩個桶子）。2滴也不夠：檢查所有「能讓1號桶變黃色」或「能讓3號桶變綠色」的第一滴做法，會發現沒有任何一種能一滴就成功——這樣第二滴就不可能同時完成兩項必要的改變。因此3滴才是真正的最小值。",
+    "ct_skills": "評估、演算法思維（Evaluation, Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題把顏色表示成一串符號（核苷酸）組成的序列，並定義了它們之間的組合規則——這在精神上跟二進位字串代表資料、再透過邏輯或算術運算組合起來很類似。要找出達成目標配置所需的最少混合次數，是一個搜尋與最佳化問題：你必須同時證明「某個特定次數的解法確實存在」（評估一組具體的操作順序），也要證明「更少次數的解法不存在」（有系統地檢查較少次數下的每一種可能）。這種「先找出一個可行解，再評估是否存在更有效率的解」的做法，正是運算思維的核心，也跟電腦科學裡用來尋找最短路徑或最低成本操作序列的搜尋演算法密切相關。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

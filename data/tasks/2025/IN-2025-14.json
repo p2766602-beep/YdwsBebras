@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-14",
+  "title_en": "Cube",
+  "title_zh": "八個立方體拼大立方體",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-14.png",
+    "path": "assets/images/india/2025/IN-2025-14.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A Bebras cube has a different shape on each of its six faces. Eight identical Bebras cubes are stacked together to form one large cube.",
+    "question": "In a Bebras cube, what shape is on the face opposite the green circle?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "Purple diamond"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In the stack of eight cubes, the shapes seen directly next to a green circle are: an orange star, a red ellipse, a pink triangle, and a blue diamond — none of these can be opposite the green circle, since faces adjacent in the stack cannot be opposite faces on the same cube. The only one of the five candidate shapes that never appears next to a green circle anywhere in the stack is the purple diamond, so that must be the shape opposite it.",
+    "ct_skills": "Decomposition, Abstraction, Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This task is primarily about logical reasoning: of five possible options, four must be eliminated, each with visible evidence in the picture showing why it's wrong. Finding that evidence requires spatial reasoning — recognising which faces of the eight stacked cubes are adjacent to each other, a skill also important in computing, e.g. for accurately rendering three-dimensional objects in computer graphics. Eliminating alternatives to arrive at a correct choice is a fundamental computing skill, used for instance in debugging to find the root cause of an error. This task can be aided by decomposition (eliminating each candidate shape independently, in any order) and requires abstraction, since we only need to record which shapes are adjacent to circles, ignoring every other face of every cube."
+  },
+  "content_zh": {
+    "prompt": "每一顆Bebras立方體，六個面上都畫著不同的圖形。八顆一模一樣的Bebras立方體疊在一起，組成一個大立方體。",
+    "question": "在一顆Bebras立方體上，跟綠色圓形相對的那一面，畫的是什麼圖形？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "紫色菱形"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "在這疊八顆立方體裡，跟綠色圓形直接相鄰的圖形有：橘色星星、紅色橢圓、粉紅色三角形，和藍色菱形——這些都不可能跟綠色圓形相對，因為在這疊立方體裡彼此相鄰的面，不可能是同一顆立方體上相對的兩個面。在五個候選圖形裡，唯一一個在整疊立方體裡都沒有跟綠色圓形相鄰過的，就是紫色菱形，所以它一定就是跟綠色圓形相對的那一面。",
+    "ct_skills": "分解、抽象化、評估（Decomposition, Abstraction, Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題主要考驗邏輯推理：五個可能的選項裡，必須排除掉四個，每一個都能在圖中找到明確的證據，說明它為什麼是錯的。要找出這些證據，需要運用空間推理能力——辨認出這疊八顆立方體裡，哪些面彼此相鄰——這在電腦運算裡也是一項重要能力，例如在電腦繪圖裡精準呈現三維物件時就用得到。排除各種可能性、逐步逼近正確答案，是電腦運算裡很基本的能力，例如除錯時就會用這種方式找出錯誤的根本原因。這一題可以透過分解來輔助解題（依任意順序，逐一排除每個候選圖形），也需要用到抽象化，因為我們只需要記錄哪些圖形跟圓形相鄰，忽略每顆立方體上其他所有的面。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

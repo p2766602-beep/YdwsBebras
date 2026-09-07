@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-18",
+  "title_en": "Lights",
+  "title_zh": "星形AND-XOR燈網路",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-18.png",
+    "path": "assets/images/india/2025/IN-2025-18.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sonia has 15 programmable lights (numbered 1-15, of three types) connected in a star shape. Each light turns on based on the two lowest-numbered lights connected to it: an AND-type light turns on only if both are on; an XOR-type light turns on if exactly one of the two is on (but not both).",
+    "question": "All lights start off; Sonia turns on lights 1, 2, and 4, triggering a cascade. When the lights stop changing, which of lights 11 to 15 are on?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lights 11, 12, 13, 14, and 15"
+      },
+      {
+        "key": "B",
+        "text": "Only lights 12, 13, and 15"
+      },
+      {
+        "key": "C",
+        "text": "Only lights 11, 12, 13, and 14"
+      },
+      {
+        "key": "D",
+        "text": "Only lights 11, 13, and 14"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Working from lights 1, 2, 4 (on) and 3, 5 (off) toward the centre of the star: light 6 (AND of 1,2, both on) turns on; light 7 (XOR of 2,3 — one on, one off) turns on; light 8 (XOR of 4,3 — one on, one off) turns on; light 9 (AND of 4,5 — not both on) stays off; light 10 (XOR of 1,5 — one on, one off) turns on. Moving one level further in: light 11 (AND of 6,10, both on) turns on; light 12 (AND of 6,7, both on — since the rule for 12 needs them NOT both on) stays off; light 13 (AND of 7,8, both on) turns on; light 14 (XOR of 8,9 — one on, one off) turns on; light 15 (AND of 9,10 — not both on) stays off. So of lights 11-15, only 11, 13, and 14 end up on.",
+    "ct_skills": "Algorithmic Thinking, Decomposition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Each light here is either ON or OFF, which computer scientists would represent with binary digits 1/0 or boolean values true/false. Computer circuits, including CPUs, use logical gates to combine boolean values to perform computation — the AND-type lights in this task are literal AND gates (output true only if both inputs are true), and the XOR-type lights are XOR ('exclusive or') gates (output true if exactly one input is true). A CPU relies on potentially billions of such logical gates for every computation it performs. Solving this task requires algorithmic thinking — starting from what's known and working step by step toward the centre of the star — and decomposition, since determining whether each light is on requires looking at only its own two specific input lights, one at a time."
+  },
+  "content_zh": {
+    "prompt": "Sonia有15顆可程式化的燈（編號1到15，共三種類型），以星形排列連接在一起。每顆燈是否點亮，取決於連接到它的兩顆「編號最小」的燈：AND型的燈，只有當兩顆都亮時才會亮；XOR型的燈，只有當兩顆之中「剛好一顆」亮時才會亮（不能兩顆都亮）。",
+    "question": "一開始所有燈都是暗的；Sonia點亮了1、2、4號燈，觸發了連鎖反應。當燈不再變化時，11到15號燈裡，哪些是亮的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "11、12、13、14、15號燈"
+      },
+      {
+        "key": "B",
+        "text": "只有12、13、15號燈"
+      },
+      {
+        "key": "C",
+        "text": "只有11、12、13、14號燈"
+      },
+      {
+        "key": "D",
+        "text": "只有11、13、14號燈"
+      }
+    ],
+    "answer": "D",
+    "explanation": "從已知的1、2、4號燈（亮）和3、5號燈（暗）開始，往星形的中心推算：6號燈（AND，取決於1、2，兩者都亮）會亮；7號燈（XOR，取決於2、3——一亮一暗）會亮；8號燈（XOR，取決於4、3——一亮一暗）會亮；9號燈（AND，取決於4、5——不是兩者都亮）維持暗；10號燈（XOR，取決於1、5——一亮一暗）會亮。再往中心推進一層：11號燈（AND，取決於6、10，兩者都亮）會亮；12號燈（AND，取決於6、7，兩者都亮——但12號的規則要求「不是兩者都亮」）維持暗；13號燈（AND，取決於7、8，兩者都亮）會亮；14號燈（XOR，取決於8、9——一亮一暗）會亮；15號燈（AND，取決於9、10——不是兩者都亮）維持暗。所以11到15號燈裡，最後只有11、13、14號是亮的。",
+    "ct_skills": "演算法思維、分解（Algorithmic Thinking, Decomposition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這裡的每顆燈不是亮就是暗，電腦科學家會用二進位數字1/0，或布林值true/false來表示這種狀態。電腦電路（包括CPU）會用邏輯閘來組合布林值進行運算——這一題裡的AND型燈，就是實際的AND邏輯閘（只有兩個輸入都為真，輸出才為真）；XOR型燈則是XOR（「互斥或」）邏輯閘（剛好一個輸入為真時，輸出才為真）。CPU執行的每一次運算，都仰賴可能高達數十億個這樣的邏輯閘。要解開這一題，需要運用演算法思維——從已知的資訊出發，一步步往星形的中心推算——也需要運用分解，因為要判斷每顆燈是否點亮，只需要一次看它自己那兩顆特定的輸入燈就好。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

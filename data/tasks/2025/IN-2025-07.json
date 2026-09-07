@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-07",
+  "title_en": "Alok's Treasure",
+  "title_zh": "尋寶地圖限制路徑",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-07.png",
+    "path": "assets/images/india/2025/IN-2025-07.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Alok the explorer found an old treasure map, a grid with symbols for starting point, grass, mountain, water, and treasure. He must reach the treasure following three rules: he cannot step on water; he must cross at least one mountain; and he can only move up, down, left, or right (never diagonally).",
+    "question": "Which of four shown paths leads Alok to the treasure while following all the rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Option A is wrong because it steps on water (breaking rule 1). Option C is wrong because it moves diagonally (breaking rule 3). Option D is wrong because it never crosses a mountain (breaking rule 2). By elimination, option B is correct, and checking it directly confirms all three rules are satisfied.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Many computer science problems involve completing a task while satisfying certain conditions, limitations, or constraints — here, finding a path from start to treasure that obeys all the given rules, a classic constraint satisfaction problem. Solving problems by satisfying constraints is used heavily in business, finance, and governance — for example, assigning nurses to patients (goal) while still giving them rest time (constraint). This task is also related to path-finding: given many possible paths, you must evaluate which of the offered options is valid — similar to how a delivery route must satisfy constraints like not making anyone wait too long while minimising total travel time. This task involves algorithmic thinking, since it requires logically evaluating which rules are met by each option and which are not."
+  },
+  "content_zh": {
+    "prompt": "探險家Alok找到了一張古老的藏寶圖，是一個畫著出發點、草地、山、水，和寶藏符號的方格地圖。他必須遵守三條規則抵達寶藏：不能踩到水；必須至少跨越一座山；而且只能往上、下、左、右移動（絕不能走斜對角）。",
+    "question": "下面四條路徑裡，哪一條能讓Alok同時遵守所有規則抵達寶藏？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "選項A錯誤，因為它踩到了水（違反規則1）。選項C錯誤，因為它走了斜對角（違反規則3）。選項D錯誤，因為它完全沒有跨越任何一座山（違反規則2）。用刪去法，選項B就是正確答案，直接檢查也能確認它同時滿足三條規則。",
+    "ct_skills": "演算法思維、評估（Algorithmic Thinking, Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "電腦科學裡有許多問題，都是要完成一項任務，同時還要滿足某些條件、限制或約束——這裡就是要找出一條從起點到寶藏、遵守所有給定規則的路徑，是典型的「限制滿足問題」。用滿足限制條件的方式解決問題，在商業、金融、治理等領域都被廣泛運用——例如替護理師分配病患（目標），同時還要讓她們有休息時間（限制）。這一題也跟「路徑搜尋」有關：面對許多可能的路徑，你必須評估給出的選項裡哪一個有效——就像送貨路線必須同時滿足「不能讓任何人等太久」這樣的限制，又要盡量縮短總路程一樣。這一題運用了演算法思維，因為需要有邏輯地逐一評估每個選項符合哪些規則、又違反了哪些規則。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

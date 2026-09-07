@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-13",
+  "title_en": "Building Instructions",
+  "title_zh": "模糊組裝指令排除法",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-13.png",
+    "path": "assets/images/india/2025/IN-2025-13.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Given 6 cubes, 1 bridge, 2 pyramids, and 2 cuboids, a friend gives building instructions: take 3 cubes and stack them into a tower; form a separate tower with the remaining 3 cubes; place the 2 cuboids next to the cube towers; place the bridge on top of the structure; place the 2 pyramids on top of the structure. These instructions allow many different valid structures.",
+    "question": "Which of the following structures CANNOT be built by following the instructions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The instructions are followed correctly for the first four steps in every option, but structure B places the bridge underneath the structure instead of on top — impossible, since instruction 5 explicitly requires the bridge to be placed ON TOP of the already-built structure (the two cube towers and cuboids), never under it. The instructions leave several things unspecified — e.g. left/right placement of cuboids, colour, whether new blocks go on all or only some previous structures, and block orientation — so many different structures are valid, but structure B breaks an explicit rule rather than just an unspecified detail.",
+    "ct_skills": "Abstraction, Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task illustrates that clear instructions are essential both in everyday life and in programming — building instructions (like recipes) are algorithms, step-by-step instructions for completing a task, and unclear steps can lead to unpredictable results. In programming, well-defined instructions are crucial because computers cannot interpret or guess; before writing a program, a developer must think about what constraints need to be defined for a predictable result (here, e.g. vertical/horizontal block order, orientation, and how shapes connect). Solving this task requires executing the instructions precisely, then abstracting away from the specific results to identify the essence of what the instructions do and do not constrain, in order to spot the one example that breaks an actual rule rather than merely choosing a different unspecified option."
+  },
+  "content_zh": {
+    "prompt": "給定6個立方體、1座橋、2個金字塔、2個長方體，朋友給了組裝指示：拿3個立方體疊成一座塔；用剩下3個立方體另外疊成一座塔；把2個長方體放在立方體塔旁邊；把橋放在整個結構的最上面；把2個金字塔放在整個結構的最上面。這些指示能組出很多種不同的合法結構。",
+    "question": "下面哪一個結構，沒辦法依照這些指示組裝出來？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "在每個選項裡，前四個步驟都被正確依循，但結構B把橋放在整個結構的「下面」，而不是「上面」——這是不可能的，因為指示5明確要求橋必須放在已經組好的結構（兩座立方體塔和長方體）的「上面」，絕不能放在下面。這些指示留下了很多沒有明確規定的細節——例如長方體要放左邊還是右邊、顏色、新積木要放在所有還是部分先前結構上、積木的朝向——所以有很多不同的結構都算合法，但結構B違反的是一條明確的規則，而不只是選了一個沒被規定的細節。",
+    "ct_skills": "抽象化、演算法思維、評估（Abstraction, Algorithmic Thinking, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題說明了清楚的指示，不論在日常生活還是程式設計裡都非常重要——組裝說明書（就像食譜一樣）本身就是演算法，是完成一項任務的一連串步驟，不清楚的步驟會導致無法預測的結果。在程式設計裡，明確定義的指令至關重要，因為電腦沒辦法自行解讀或猜測；在寫程式之前，開發者必須先想清楚該定義哪些限制條件，才能得到可預測的結果（這裡例如：積木的上下左右順序、朝向，以及形狀之間該如何連接）。要解開這一題，需要精確地執行這些指示，接著抽象化，跳脫具體的結果，找出這些指示真正限制了什麼、又沒有限制什麼，才能找出那個違反了實際規則（而不只是選了不同的未規定選項）的例子。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

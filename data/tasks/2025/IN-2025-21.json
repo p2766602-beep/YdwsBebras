@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-21",
+  "title_en": "T-Shirt Sorting",
+  "title_zh": "IF-ELSE分類T恤",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-21.png",
+    "path": "assets/images/india/2025/IN-2025-21.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Baani's t-shirt sorting machine sorts by colour (Blue/Yellow/Pink) and pattern (Plain/Dotted/Striped) into 3 boxes. On Monday she used: 'If pattern is Plain or Striped, Box 2; else if colour is Pink, Box 3; else Box 1.' On Tuesday she wants a different sorting result.",
+    "question": "Which of the following instructions would give Baani the desired result for Tuesday?",
+    "options": [
+      {
+        "key": "A",
+        "text": "If colour is Yellow, Box 1; else if pattern is Plain, Box 3; else Box 2."
+      },
+      {
+        "key": "B",
+        "text": "If pattern is Plain, Box 3; else if colour is Yellow, Box 1; else Box 2."
+      },
+      {
+        "key": "C",
+        "text": "If colour is Blue or Pink, Box 2; else if pattern is Plain, Box 3; else Box 1."
+      },
+      {
+        "key": "D",
+        "text": "If pattern is Dotted or Striped, Box 2; else if colour is Yellow, Box 1; else Box 3."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Option A is wrong: it puts all Yellow shirts in Box 1 regardless of pattern, so a Yellow-Plain shirt would wrongly go to Box 1 instead of Box 3 (where all Plain shirts should go). Option B is correct: it puts all Plain shirts (any colour) in Box 3 first, then remaining Yellow shirts (Dotted or Striped) in Box 1, then everything else (Blue/Pink, Dotted/Striped) in Box 2 — exactly matching Tuesday's desired sorting. Option C is wrong: it puts all Blue/Pink shirts in Box 2 regardless of pattern, so a Blue-Plain or Pink-Plain shirt wrongly ends up in Box 2 instead of Box 3. Option D is wrong: after sorting Dotted/Striped shirts into Box 2, it puts remaining Yellow shirts in Box 1 — but a Yellow-Plain shirt should go to Box 3, not Box 1.",
+    "ct_skills": "Algorithmic Thinking, Decomposition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task demonstrates key informatics concepts fundamental to how computers process information: conditional logic (IF-ELSE statements controlling decision-making flow, exactly as computers decide actions based on inputs, used everywhere from mobile apps to complex systems); rule-based classification (separating items into categories by rules, as used in email spam filters, content recommendation systems, and data routing); and execution order (the order conditions are checked significantly affects the outcome, just as changing instruction order in a program can completely change its behaviour). Solving this involves algorithmic thinking — tracing through each candidate instruction set for every possible t-shirt type to see where it ends up — and decomposition — identifying the two key factors (pattern and colour) and focusing on one property at a time rather than all combinations at once."
+  },
+  "content_zh": {
+    "prompt": "Baani的T恤分類機依照顏色（藍/黃/粉紅）和花紋（素面/圓點/條紋）把T恤分進3個箱子。週一她用的規則是：「如果花紋是素面或條紋，放進箱2；否則，如果顏色是粉紅，放進箱3；否則放進箱1。」週二她想要不一樣的分類結果。",
+    "question": "下面哪一組指示，能讓Baani在週二得到她想要的分類結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "如果顏色是黃色，放進箱1；否則，如果花紋是素面，放進箱3；否則放進箱2。"
+      },
+      {
+        "key": "B",
+        "text": "如果花紋是素面，放進箱3；否則，如果顏色是黃色，放進箱1；否則放進箱2。"
+      },
+      {
+        "key": "C",
+        "text": "如果顏色是藍色或粉紅，放進箱2；否則，如果花紋是素面，放進箱3；否則放進箱1。"
+      },
+      {
+        "key": "D",
+        "text": "如果花紋是圓點或條紋，放進箱2；否則，如果顏色是黃色，放進箱1；否則放進箱3。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "選項A錯誤：它不管花紋，一律把所有黃色T恤放進箱1，這樣一件黃色素面T恤就會被錯誤地放進箱1，而不是箱3（所有素面T恤都該去的地方）。選項B正確：它先把所有素面T恤（不論顏色）放進箱3，接著把剩下的黃色T恤（圓點或條紋）放進箱1，最後把其他所有T恤（藍色或粉紅、圓點或條紋）放進箱2——完全符合週二想要的分類結果。選項C錯誤：它不管花紋，一律把所有藍色或粉紅T恤放進箱2，這樣一件藍色或粉紅色的素面T恤，就會被錯誤地放進箱2，而不是箱3。選項D錯誤：把圓點或條紋的T恤分進箱2之後，它把剩下的黃色T恤放進箱1——但黃色素面T恤應該要去箱3，不是箱1。",
+    "ct_skills": "演算法思維、分解（Algorithmic Thinking, Decomposition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題示範了電腦處理資訊時的核心概念：條件邏輯（IF-ELSE敘述控制決策的流程，就跟電腦依照輸入決定該做什麼一樣，從簡單的手機App到複雜的系統都用得到）；規則式分類（依照規則把項目分進不同類別，就像電子郵件的垃圾信過濾、內容推薦系統，或資料路由系統一樣）；以及執行順序（條件檢查的順序會大幅影響結果，就像改變程式裡指令的順序，可能會完全改變程式的行為）。要解開這一題，需要運用演算法思維——針對每一組候選指示，逐一追蹤每種T恤類型最後會落到哪個箱子——也需要運用分解——找出兩項關鍵因素（花紋和顏色），一次專注在一個屬性上，而不是一次考慮所有組合。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

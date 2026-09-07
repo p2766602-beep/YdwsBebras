@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-01",
+  "title_en": "The Queen's Favorite Fruit",
+  "title_zh": "女王最愛蘋果排序",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-01.png",
+    "path": "assets/images/india/2025/IN-2025-01.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Five villagers bring the Queen baskets of fruit: apples, bananas, and pears, each basket holding 8 pieces total. Apples are the Queen's favourite; she will see the villagers in order from most apples to least. If two baskets have the same number of apples, she sees the villager with more bananas first.",
+    "question": "In which order will the Queen see the villagers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Labelling the baskets A through E from left to right and counting apples: basket A has 3, B has 5, C has 2, D has 3, and E has 1. Sorted from most to least apples, B comes first. Since A and D are tied at 3 apples each, we break the tie by bananas: A has 2 bananas, D has 4, so D comes before A. Finally C and E remain, with C seen before E. The full order is B, D, A, C, E.",
+    "ct_skills": "Abstraction, Data representation, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Sorting is a common process in programming used to order lists of items. When sorting numbers, each item's value is inherent, but when sorting collections (like fruit baskets), the value of each collection must first be defined — here, by the number of apples, and bananas as a tie-breaker. In programming this is known as sorting with a key: the sorting key defines how items are compared. A familiar real-world example is a library, where books are first sorted onto shelves by genre, then alphabetically by author within each shelf — the librarian finds the shelf, then the exact spot. Solving this task requires abstraction (realising only apple counts matter, checking bananas only when needed), data representation (using the apple count to represent each basket's value), and algorithmic thinking (applying a sorting procedure to order the baskets)."
+  },
+  "content_zh": {
+    "prompt": "五位村民帶著水果籃來見女王：籃子裡裝著蘋果、香蕉和梨子，每個籃子總共都是8顆水果。蘋果是女王最喜歡的水果；她會依照「蘋果數量從多到少」的順序接見村民。如果兩個籃子的蘋果數量一樣多，女王會先接見香蕉比較多的那位村民。",
+    "question": "女王會依照什麼順序接見這些村民？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "把籃子從左到右標示為A到E，數一數各自的蘋果數量：A有3顆、B有5顆、C有2顆、D有3顆、E有1顆。依照蘋果數量從多到少排序，B排第一。因為A和D都是3顆蘋果打平，就用香蕉數量來判定：A有2根香蕉，D有4根，所以D排在A前面。最後剩下C和E，C會先被接見。完整順序是B、D、A、C、E。",
+    "ct_skills": "抽象化、資料表示法、演算法思維（Abstraction, Data representation, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "排序是程式設計裡很常見的動作，用來把一串項目排出順序。排數字的時候，每個項目的值本身就是現成的；但排「集合」（像這裡的水果籃）的時候，就必須先定義好每個集合的「值」是什麼——這裡是蘋果數量，同分時再看香蕉數量。在程式設計裡，這叫做「依鍵值排序」：排序鍵定義了項目之間該怎麼比較。生活中一個常見的例子是圖書館：書先依類別分到不同書架，同一書架裡再依作者姓氏字母排序——館員要先找到書架，再找到確切的位置。要解開這一題，需要用到抽象化（意識到只有蘋果數量重要，只有在打平時才需要看香蕉）、資料表示法（用蘋果數量來代表每個籃子的價值），以及演算法思維（套用一套排序程序，把籃子排出順序）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

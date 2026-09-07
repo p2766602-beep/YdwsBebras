@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-12",
+  "title_en": "A Wrong Step",
+  "title_zh": "路口除錯找錯誤步驟",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-12.png",
+    "path": "assets/images/india/2025/IN-2025-12.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Aira walks from her house to friend Bo's house for the first time, following instructions: Step 1, walk 2 blocks east; Step 2, walk 3 blocks south; Step 3, walk 3 blocks east; Step 4, walk 1 block north. She made a mistake on one step and did not arrive at Bo's house; her actual route is shown.",
+    "question": "Which step did Aira not follow correctly?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Step 1"
+      },
+      {
+        "key": "B",
+        "text": "Step 2"
+      },
+      {
+        "key": "C",
+        "text": "Step 3"
+      },
+      {
+        "key": "D",
+        "text": "Step 4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Aira's actual route shows she first walked 2 blocks east, matching Step 1. She then walked only 1 block south, but Step 2 required 3 blocks south — this is the mistake. She then walked 3 blocks east (matching Step 3) and 1 block north (matching Step 4). So the only incorrectly followed step is Step 2.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task outlines an algorithm for how Aira should walk to Bo's house — a finite sequence of instructions to accomplish a task, here all of the form 'move a given number of blocks in a given direction.' To determine which step Aira followed incorrectly, you must trace her actual route on the map step by step and compare it against the given algorithm — this is an aspect of debugging, the process of determining which instruction(s) in a program are incorrect in order to explain why its output is wrong. This task requires algorithmic thinking, tracing through the steps one by one to spot exactly where Bo's given instructions and Aira's actual route diverge."
+  },
+  "content_zh": {
+    "prompt": "Aira第一次要走路去朋友Bo家，依照指示：步驟1，向東走2個街區；步驟2，向南走3個街區；步驟3，向東走3個街區；步驟4，向北走1個街區。她其中一個步驟走錯了，沒能抵達Bo家；圖上顯示了她實際走的路線。",
+    "question": "Aira哪一個步驟沒有正確依循指示？",
+    "options": [
+      {
+        "key": "A",
+        "text": "步驟1"
+      },
+      {
+        "key": "B",
+        "text": "步驟2"
+      },
+      {
+        "key": "C",
+        "text": "步驟3"
+      },
+      {
+        "key": "D",
+        "text": "步驟4"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Aira實際走的路線顯示，她一開始向東走了2個街區，符合步驟1。接著她只向南走了1個街區，但步驟2要求向南走3個街區——這就是錯誤所在。之後她向東走了3個街區（符合步驟3），再向北走了1個街區（符合步驟4）。所以唯一沒有正確依循的步驟是步驟2。",
+    "ct_skills": "演算法思維、評估（Algorithmic Thinking, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題描繪了Aira該怎麼走到Bo家的一套演算法——一連串有限的指令，用來完成一項任務，這裡每個指令的形式都是「往某個方向走幾個街區」。要判斷Aira哪一步走錯了，必須在地圖上一步步追蹤她實際走的路線，並拿來跟給定的演算法比對——這正是「除錯」的一個面向，也就是找出程式裡哪一條（或哪幾條）指令有誤，藉此解釋為什麼輸出結果是錯的。這一題需要運用演算法思維，一步步追蹤整個過程，才能精準找出Bo給的指示跟Aira實際路線分歧的地方。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

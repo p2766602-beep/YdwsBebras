@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-06",
+  "title_en": "Snack Time",
+  "title_zh": "點心規則排五天",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-06.png",
+    "path": "assets/images/india/2025/IN-2025-06.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Lala gets one snack every afternoon, chosen from apples, pears, mangoes, or ladoo, subject to two rules: (1) she cannot eat mangoes two days in a row; (2) if she eats ladoo today, tomorrow she must eat either apples or pears.",
+    "question": "Lala is planning her snacks for five consecutive days. Which of the shown five-day choices is allowed by her mother's rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Options A and B are not allowed because after eating ladoo, Lala must eat an apple or a pear the next day, which they violate. Option D is not allowed because Lala eats mangoes on two consecutive days. Option C follows both rules: no two consecutive mango days, and an apple follows the ladoo day — making it the only valid plan.",
+    "ct_skills": "Algorithmic Thinking, Decomposition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task connects to algorithms and boolean logic. An algorithm is step-by-step instructions that help solve a problem — here, deciding which snacks Lala can eat while following the rules. Using if-statements, the rules become: 'if you had mango yesterday, today's snack must not be mango' and 'if you had ladoo yesterday, today's snack must be apple or pear' — the same kind of everyday reasoning as 'if it rains, take an umbrella.' If-statements use conditions to decide what to do, and combining multiple true/false statements is boolean logic, a central part of informatics. Instructions must also be exact and unambiguous to be usable as an algorithm. Computationally, this task uses decomposition: checking whether a five-day plan meets both rules can be broken down into checking each overlapping two-day period separately."
+  },
+  "content_zh": {
+    "prompt": "Lala每天下午都能吃一份點心，可以選蘋果、梨子、芒果，或麻糬球（ladoo），但要遵守兩條規則：1.她不能連續兩天吃芒果。2.如果她今天吃了麻糬球，明天就必須吃蘋果或梨子。",
+    "question": "Lala正在規劃連續五天的點心。下面哪一種五天的選擇組合，符合媽媽的規則？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "選項A和B都不符合規則，因為吃了麻糬球的隔天，Lala必須吃蘋果或梨子，但這兩個選項都違反了這一點。選項D不符合規則，因為Lala連續兩天都吃了芒果。選項C同時符合兩條規則：沒有連續兩天吃芒果，而且麻糬球那天的隔天吃了蘋果——是唯一有效的計畫。",
+    "ct_skills": "演算法思維、分解（Algorithmic Thinking, Decomposition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題牽涉到演算法和布林邏輯。演算法就是一連串幫助我們解決問題的步驟——這裡是要決定Lala能吃哪些點心、同時遵守規則。用if條件敘述來表示這些規則，就會變成：「如果昨天吃了芒果，今天的點心就不能是芒果」，以及「如果昨天吃了麻糬球，今天的點心必須是蘋果或梨子」——這跟日常生活裡「如果下雨，就帶傘」的推理方式是一樣的。if條件敘述用條件來決定該做什麼，而把好幾個真/假的敘述組合起來，就是布林邏輯，這是資訊科學裡很核心的一部分。指令也必須清楚明確、沒有模糊空間，才能當作演算法來使用。就運算思維來說，這一題運用了分解：要檢查一份五天的計畫是否同時符合兩條規則，可以拆解成逐一檢查每個重疊的兩天區間。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

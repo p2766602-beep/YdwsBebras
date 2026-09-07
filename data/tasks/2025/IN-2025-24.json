@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-24",
+  "title_en": "Inner Tubes",
+  "title_zh": "輪胎補位移動次數",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-24.png",
+    "path": "assets/images/india/2025/IN-2025-24.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Inner tubes float downstream and gather in a line at the end of a river. When a tube is pulled out of the water, every tube behind it floats one position downstream to fill the gap. Eight inner tubes (A through H) gather in a line; five are then pulled out in the order B, G, E, D, H.",
+    "question": "In total, how many times does an inner tube float one position downstream?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Starting line (from the end of the river): A, B, C, D, E, F, G, H. Pulling B moves C, D, E, F, G, H forward — 6 tubes shift, leaving A, C, D, E, F, G, H. Pulling G moves H forward — 1 tube shifts, leaving A, C, D, E, F, H. Pulling E moves F and H forward — 2 tubes shift, leaving A, C, D, F, H. Pulling D moves F and H forward — 2 tubes shift, leaving A, C, F, H. Pulling H moves nothing (it's already at the front) — 0 tubes shift. Total: 6+1+2+2+0 = 11.",
+    "ct_skills": "Algorithmic Thinking, Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "It's common for data to naturally occur as a sequence — planes waiting to take off, a list of document edits in order, or inner tubes in a river. When a computer program stores such data in consecutive memory locations, it's typically easy to find an element by its position, but removing (or inserting) an element requires shuffling the remaining elements to keep them consecutive — exactly analogous to inner tubes floating downstream to fill a gap left by a removed tube. This shuffling takes time, and doing it often enough can noticeably slow a program down; even data that isn't naturally sequential (e.g. a population of people) might still be stored this way, trading off the advantages and disadvantages of easy positional access against costly removal/insertion. Solving this task is a classic case of algorithmic thinking — an iterative process where order matters, executed while a total is accumulated — and requires generalisation, to apply the same logic to a different river shape or number of pulled-out tubes."
+  },
+  "content_zh": {
+    "prompt": "輪胎會順流漂下，在河的盡頭排成一列。當一個輪胎被拉出水面時，它後面的每一個輪胎都會往下游移動一個位置，補上空缺。八個輪胎（A到H）排成一列；接著依B、G、E、D、H的順序拉出五個。",
+    "question": "總共會有幾次「某個輪胎往下游移動一個位置」的動作發生？",
+    "options": [
+      {
+        "key": "A",
+        "text": "10次"
+      },
+      {
+        "key": "B",
+        "text": "11次"
+      },
+      {
+        "key": "C",
+        "text": "12次"
+      },
+      {
+        "key": "D",
+        "text": "13次"
+      }
+    ],
+    "answer": "B",
+    "explanation": "一開始的隊列（從河的盡頭算起）：A、B、C、D、E、F、G、H。拉出B會讓C、D、E、F、G、H往前移——6個輪胎移動，剩下A、C、D、E、F、G、H。拉出G會讓H往前移——1個輪胎移動，剩下A、C、D、E、F、H。拉出E會讓F和H往前移——2個輪胎移動，剩下A、C、D、F、H。拉出D會讓F和H往前移——2個輪胎移動，剩下A、C、F、H。拉出H不會讓任何輪胎移動（它已經在最前面）——0個輪胎移動。總計：6+1+2+2+0＝11次。",
+    "ct_skills": "演算法思維、抽象化（Algorithmic Thinking, Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "資料經常天生就以「序列」的形式存在——例如跑道上排隊等起飛的飛機、依序記錄的文件編輯清單，或是河裡排成一列的輪胎。當電腦程式把這類資料儲存在連續的記憶體位置時，通常很容易依照位置找到某個元素，但移除（或插入）一個元素時，就必須把其他元素挪動，才能維持連續排列——這正好對應到輪胎往下游漂移，補上被拉走輪胎留下的空缺。這種挪動需要花時間，如果做得夠頻繁，會明顯拖慢程式的速度；就算資料本身不是天生的序列（例如一群人的資料），有時候還是會選擇用這種方式儲存，這時就需要在「方便依位置存取」跟「移除／插入成本較高」之間做取捨。要解開這一題，是演算法思維的經典案例——一個講究順序的疊代過程，同時累加一個總數——而且需要運用「一般化」的能力，把同樣的邏輯套用到不同形狀的河流，或不同數量被拉出的輪胎上。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

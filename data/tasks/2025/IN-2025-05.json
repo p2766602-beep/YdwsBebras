@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-05",
+  "title_en": "Diwali Decorations",
+  "title_zh": "排燈節燈飾開箱順序",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-05.png",
+    "path": "assets/images/india/2025/IN-2025-05.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A new light is added to the decorations in Bebras town every week before Diwali, stored in one of four labelled boxes (A, B, C, D).",
+    "question": "The decorations look a certain way after four weeks. In what order were the boxes opened?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A C B D"
+      },
+      {
+        "key": "B",
+        "text": "C B D A"
+      },
+      {
+        "key": "C",
+        "text": "C A D B"
+      },
+      {
+        "key": "D",
+        "text": "D A C B"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The first light added is the star, stored in box C. The second is the circle, stored in box A. The third is the pentagon, stored in box D. Last is the cog, stored in box B. So the boxes were opened in order C, A, D, B. Any other order would place the lights in the wrong sequence, producing a different final decoration pattern.",
+    "ct_skills": "Algorithmic Thinking, Evaluation, Debugging",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In informatics, sequence refers to the ordered arrangement of instructions or tasks within a program or algorithm, defining the specific order they're executed to reach a desired outcome — here, that the lights must be collected from their boxes in the correct order. Abstraction lets you focus on essential information (which box held which light) while ignoring irrelevant details; evaluation confirms that the lights were collected in the correct order; logical reasoning predicts the outcome of following a particular sequence; and debugging is used to review and correct any mistaken assumptions when checking the incorrect answer choices."
+  },
+  "content_zh": {
+    "prompt": "在Bebras鎮上，排燈節前每週都會新增一盞燈飾，收在四個標示著A、B、C、D的盒子裡。",
+    "question": "四週之後，燈飾排列成某種樣子。這些盒子是依照什麼順序被打開的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A C B D"
+      },
+      {
+        "key": "B",
+        "text": "C B D A"
+      },
+      {
+        "key": "C",
+        "text": "C A D B"
+      },
+      {
+        "key": "D",
+        "text": "D A C B"
+      }
+    ],
+    "answer": "C",
+    "explanation": "第一盞加上去的燈是星形，收在C盒。第二盞是圓形，收在A盒。第三盞是五邊形，收在D盒。最後是齒輪形，收在B盒。所以盒子是依C、A、D、B的順序打開的。任何其他順序，都會讓燈飾排列成錯誤的順序，產生不一樣的最終圖案。",
+    "ct_skills": "演算法思維、評估、除錯（Algorithmic Thinking, Evaluation, Debugging）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在資訊科學裡，「序列」指的是程式或演算法裡指令或任務的排列順序，定義了達成目標所需的確切執行順序——這裡就是燈飾必須依照正確順序從盒子裡取出。抽象化讓我們能專注在重要的資訊上（哪個盒子裝著哪盞燈），忽略不相干的細節；評估用來確認燈飾是否依照正確順序取出；邏輯推理用來預測依循某個順序會產生什麼結果；而除錯則用在檢查錯誤選項時，回頭審視並修正錯誤的假設。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

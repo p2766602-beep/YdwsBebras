@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-32",
+  "title_en": "Beaver Language",
+  "title_zh": "海狸語形狀排列文法",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-32.png",
+    "path": "assets/images/india/2025/IN-2025-32.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In Beaver language, three shapes are named mer (rectangle), ogg (circle), and epp (triangle). A second shape's position relative to a first is marked with the ending 'x' (behind) or 'z' (below); a third shape can then be positioned relative to the second the same way.",
+    "question": "Which shape arrangement can be described by 'epp eppz oggx merx'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Reading 'epp eppz oggx merx' word by word: 'epp' places a triangle; 'eppz' places a second triangle below it; 'oggx' places a circle behind that second triangle; 'merx' places a rectangle behind that circle. Only arrangement D matches this exact chain of shapes and relative positions — the other three options each misplace at least one shape relative to what its ending actually specifies.",
+    "ct_skills": "Pattern recognition, Logical thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "In computer science, a formal language is a language specifically designed so computers can understand exactly what is meant, without confusion — its grammar, called syntax, dictates which symbols may be used and how they must be combined into meaningful instructions. 'Beaver Language' here is a very simple formal language: its syntax rule is that adding the ending 'x' or 'z' to a shape name specifies precisely how that shape relates to the previous one. Real formal languages include programming languages (Python, Java), data formats (JSON), markup (HTML), and query languages (SQL) — get the syntax wrong in any of these, and computers cannot correctly interpret the information, potentially crashing programs or breaking websites. Solving this task uses pattern recognition (finding the repeating endings and matching them to shape arrangements) and deductive reasoning (using the stated rules to derive the answer from the given examples)."
+  },
+  "content_zh": {
+    "prompt": "在海狸語裡，三種形狀分別叫做mer（長方形）、ogg（圓形）和epp（三角形）。第二個形狀相對於第一個形狀的位置，會用字尾「x」（在後面）或「z」（在下面）來標示；接著第三個形狀，也可以用同樣的方式，相對於第二個形狀來定位。",
+    "question": "「epp eppz oggx merx」這串詞，描述的是哪一種形狀排列？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "逐字解讀「epp eppz oggx merx」：「epp」放置一個三角形；「eppz」在它下面放置第二個三角形；「oggx」在第二個三角形後面放置一個圓形；「merx」在那個圓形後面放置一個長方形。只有排列D完全符合這串形狀與相對位置的鏈——其他三個選項，都至少有一個形狀的位置，跟它的字尾實際指定的位置不符。",
+    "ct_skills": "樣式辨識、邏輯思維（Pattern recognition, Logical thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "在電腦科學裡，「形式語言」是一種特別設計出來的語言，讓電腦能精確理解我們的意思、不會產生混淆——它的文法（叫做「語法」，syntax）規定了可以使用哪些符號，以及這些符號該如何組合成有意義的指令。這裡的「海狸語」就是一種非常簡單的形式語言：它的語法規則是，在形狀名稱後面加上字尾「x」或「z」，就能精確指定這個形狀相對於前一個形狀的位置關係。真正的形式語言包括程式語言（Python、Java）、資料格式（JSON）、標記語言（HTML），以及查詢語言（SQL）——只要語法用錯，電腦就沒辦法正確解讀資訊，可能導致程式當機或網站故障。要解開這一題，需要運用樣式辨識（找出重複出現的字尾，並跟形狀排列方式配對）和演繹推理（運用給定的規則，從範例推導出答案）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-20",
+  "title_en": "Parking at the Party",
+  "title_zh": "三車道停車出場順序",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-20.png",
+    "path": "assets/images/india/2025/IN-2025-20.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Anna's driveway has space for 9 cars in three columns of 3, one behind another; guests park in the first available space in any column, and cars can only leave once nothing blocks them from the front of their column. Given a specific arrival order (Ani, Bobby, Chitra, Dravid, Ela, Falak, Giri, Hailey, Iva) and a required departure order (Giri, Dravid, Falak, Iva, Hailey, Chitra, Bobby, Ani, Ela).",
+    "question": "Arrange the cars in columns, in order of arrival, so that no car blocks a car that needs to leave earlier. Choose the correct option.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Checking every pair of guests for conflicts (two guests can share a column only if whichever arrives later also leaves earlier, i.e. their arrival and departure orders are reversed) determines which pairs must go in different columns. Verifying option A against the actual departure order confirms nobody is ever blocked: Dravid and Giri can leave first since nothing is in front of them; once Giri leaves, Falak is unblocked; Dravid unblocks Bobby; Falak unblocks Chitra; Iva unblocks Hailey; Hailey unblocks Ela; and so on, all the way through in the exact required order. Option B fails because Dravid arrives before Falak so cannot park behind him. Option C fails because Dravid must leave before Hailey, but Hailey is parked in front of him. Option D fails because although parked by arrival order, Giri's car ends up blocked even though he needs to leave first.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "The way cars are parked in columns is what informatics calls a stack — a data structure for storing sequential collections of objects. A stack works like a pile of dishes: a new object is placed on top (pushing), and you can only look at or remove the object currently on top (peeking or popping) — this LIFO (Last-In First-Out) behaviour means only the most recently added element can be directly accessed and removed, exactly like the cars in this task. The problem of arranging many cars into multiple stacks (columns) so they don't block each other on the way out is called a multi-stack partitioning problem, and algorithms solving such problems find real application in allocating resources to jobs, such as in multicore processors handling parallel tasks. Students must follow the arrival order, check where each car can be parked, and check when each car can leave — developing algorithmic thinking and logical reasoning."
+  },
+  "content_zh": {
+    "prompt": "Anna家的車道可以停9輛車，分成三排、每排3輛，一輛接著一輛；賓客把車停進任何一排裡「第一個還空著的位置」，而且只有前面沒有車擋著時，車子才能離開。已知賓客抵達的順序（Ani、Bobby、Chitra、Dravid、Ela、Falak、Giri、Hailey、Iva），以及必須離開的順序（Giri、Dravid、Falak、Iva、Hailey、Chitra、Bobby、Ani、Ela）。",
+    "question": "請依照抵達順序，把這些車安排進三排，讓每輛車都不會擋到比它更早需要離開的車。選出正確的選項。",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "逐一檢查每對賓客之間是否有衝突（兩位賓客只有在「後抵達的人也早離開」的情況下——也就是抵達順序跟離開順序剛好相反——才能停在同一排），可以判斷出哪些人必須分開停在不同排。用實際的離開順序驗證選項A，可以確認沒有任何人被擋住：Dravid和Giri前面都沒有車，可以先離開；Giri離開後，Falak被解放；Dravid解放了Bobby；Falak解放了Chitra；Iva解放了Hailey；Hailey解放了Ela；依此類推，完全符合要求的離開順序。選項B不行，因為Dravid比Falak早抵達，不可能停在他後面。選項C不行，因為Dravid必須比Hailey早離開，但Hailey卻停在他前面。選項D不行，雖然是依抵達順序停車，但Giri的車最後被擋住了，而他卻是最先需要離開的人。",
+    "ct_skills": "演算法思維、評估（Algorithmic Thinking, Evaluation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這種把車停成一排一排的方式，在資訊科學裡就叫做「堆疊」（stack）——一種用來儲存循序物件集合的資料結構。堆疊的運作方式，就像一疊盤子：新的物件放在最上面（叫做push），而你只能查看或移除目前在最上面的物件（叫做peek或pop）——這種「後進先出」（LIFO）的特性，代表只有最後加進去的元素才能被直接存取和移除，就跟這一題裡的車子一模一樣。把許多車子安排進多排（多個堆疊），讓它們離開時不會互相擋住，這個問題叫做「多堆疊分割問題」，解決這類問題的演算法，在實務上被用來把資源分配給不同工作，例如在多核心處理器裡處理平行任務時就會用到。學生必須依照抵達順序，檢查每輛車可以停在哪裡，也要檢查每輛車什麼時候能離開——這正是在培養演算法思維和邏輯推理能力。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

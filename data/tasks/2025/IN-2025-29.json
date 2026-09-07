@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-29",
+  "title_en": "Exciting Water Slide",
+  "title_zh": "翻轉分岔滑水道",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-29.png",
+    "path": "assets/images/india/2025/IN-2025-29.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A dynamic waterslide has forks whose exit direction flips every time a beaver passes through. Mommy beaver sees one beaver exit from slide B, then another exit from slide C; little beaver Dan is the one after that next beaver.",
+    "question": "From which slide will Little Beaver Dan exit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Slide A"
+      },
+      {
+        "key": "B",
+        "text": "Slide B"
+      },
+      {
+        "key": "C",
+        "text": "Slide C"
+      },
+      {
+        "key": "D",
+        "text": "Slide D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Since each fork's exit direction flips every time a beaver passes through, we can deduce all fork states step by step. The first beaver exiting via slide B tells us it went left at the first fork and right at the second, flipping both forks; that beaver leaves the third (bottom-right) fork's direction still unknown. The next beaver exiting via slide C tells us that fork's direction before it passed, letting us determine (and flip) it too. With every fork's current direction now known, tracing the route of the beaver right before Dan, then flipping the forks it used, and finally tracing Dan's own route through the now-updated forks shows Dan exits via slide D.",
+    "ct_skills": "Algorithmic Thinking, Abstraction",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Each fork's behaviour is similar to a conditional statement in programming ('if pointing left, turn left and flip to right; otherwise turn right and flip to left'), and each fork must remember its current direction, information that can be represented as a variable (e.g. 0 for left, 1 for right) that a program checks and updates every time it's used — this mechanism closely resembles a flip-flop in digital circuits, a basic unit storing 1 bit of data that toggles between two states every time it's used. Working out where a beaver ends up by simulating each fork decision step by step is similar to code tracing, following a program's logic line by line to see what result it produces. Students must apply logical reasoning to track changing fork directions, disregarding story elements (who the beaver is, what the slide looks like) and focusing only on the essential structure — the sequence and state of each fork — a process of simplification known as abstraction."
+  },
+  "content_zh": {
+    "prompt": "一座動態水滑道上的岔路，每次有海狸經過，出口方向就會翻轉一次。海狸媽媽先看到一隻海狸從B滑道出來，接著又看到另一隻從C滑道出來；小海狸Dan是緊接在那之後再下一隻。",
+    "question": "小海狸Dan會從哪一個滑道出來？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A滑道"
+      },
+      {
+        "key": "B",
+        "text": "B滑道"
+      },
+      {
+        "key": "C",
+        "text": "C滑道"
+      },
+      {
+        "key": "D",
+        "text": "D滑道"
+      }
+    ],
+    "answer": "D",
+    "explanation": "因為每個岔路的出口方向，每次有海狸經過就會翻轉一次，我們可以一步步推算出所有岔路的狀態。第一隻海狸從B滑道出來，代表牠在第一個岔路走左邊、第二個岔路走右邊，這兩個岔路的方向也因此翻轉；這時第三個（右下方）岔路的方向還不確定。下一隻海狸從C滑道出來，讓我們得知那個岔路在牠經過之前的方向，也能藉此推算並翻轉它。這時所有岔路目前的方向都已經確定，先追蹤緊接在Dan之前那隻海狸的路線，翻轉牠經過的岔路，最後再追蹤Dan自己走過這些更新後岔路的路線，就能得知Dan會從D滑道出來。",
+    "ct_skills": "演算法思維、抽象化（Algorithmic Thinking, Abstraction）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "每個岔路的行為，很像程式設計裡的條件敘述（「如果指向左邊，海狸就左轉，岔路翻轉成指向右邊；否則海狸右轉，岔路翻轉成指向左邊」），而且每個岔路都必須記住自己目前的方向，這項資訊可以用一個變數來表示（例如0代表左、1代表右），程式每次使用時都會檢查並更新這個變數——這種機制跟數位電路裡的「正反器」（flip-flop）非常相似，是一種能儲存1位元資料、每次被使用就在兩種狀態間切換的基本元件。透過一步步模擬每個岔路的決策，推算出海狸最後會到哪裡，這跟「程式碼追蹤」的做法很像，也就是逐行追蹤程式的邏輯，看看會產生什麼結果。學生必須運用邏輯推理，追蹤岔路方向的變化，同時捨棄故事的細節（海狸是誰、滑道長什麼樣子），只專注在核心結構上——也就是每個岔路的順序和狀態——這種簡化的過程，就叫做抽象化。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

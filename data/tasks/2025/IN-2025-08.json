@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-08",
+  "title_en": "Roll-a-Monster",
+  "title_zh": "骰子繪製怪獸規則",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-08.png",
+    "path": "assets/images/india/2025/IN-2025-08.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Friends play 'Roll-a-monster' with 5 different-coloured dice, each representing a monster property: red = number of eyes, yellow = number of horns, green = number of arms, blue = its result times 2 gives the number of teeth, purple = number of legs, and the sum of the two lowest dice values = number of spots.",
+    "question": "Given a specific roll of the 5 dice, which of four friends' drawings follows all the rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "From the rolled dice: 3 eyes, 2 horns, 6 arms, 6 teeth (blue die showed 3, doubled), 4 legs, and — since the two lowest dice values were 2 and 3 — 5 spots. Checking each drawing against all six values (eyes, horns, arms, teeth, legs, spots) using a table shows that only drawing B satisfies every single one of the six rules; each other drawing fails at least one.",
+    "ct_skills": "Pattern recognition, Algorithmic Thinking, Decomposition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Computer programs often use a set of rules telling the computer what to do in different situations — 'if you see the number 5 (an odd number), use blobs' is just like telling a computer 'if condition is true, do this action.' In informatics these rules are called conditions or statements, and computers use them to decide what happens next; the same approach is used to sort or filter images by specific features. Solving this task uses pattern recognition (matching parts of the monster — eyes, arms, teeth — against the rules), algorithmic thinking (applying the rules in order so none are missed), and decomposition (breaking the monster's many features into individual steps checked one at a time)."
+  },
+  "content_zh": {
+    "prompt": "朋友們在玩「擲骰畫怪獸」遊戲，用5顆不同顏色的骰子，各自代表怪獸的一項特徵：紅骰＝眼睛數量，黃骰＝角的數量，綠骰＝手臂數量，藍骰＝擲出的點數乘以2得到牙齒數量，紫骰＝腿的數量，而「兩顆最小點數骰子的總和」＝斑點數量。",
+    "question": "給定一次特定的5顆骰子結果，下面四位朋友的畫作裡，哪一幅完全符合所有規則？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "這次擲出的骰子結果是：3隻眼睛、2隻角、6隻手臂、6顆牙齒（藍骰擲出3，乘以2）、4條腿——而且因為兩顆最小點數的骰子是2和3，所以是5個斑點。用一張表逐一檢查每幅畫作是否符合這六項數值（眼睛、角、手臂、牙齒、腿、斑點），會發現只有畫作B同時符合全部六條規則；其他每一幅至少違反了其中一條。",
+    "ct_skills": "樣式辨識、演算法思維、分解（Pattern recognition, Algorithmic Thinking, Decomposition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "電腦程式常常會用一組規則，告訴電腦在不同情況下該怎麼做——「如果看到數字5（是奇數），就用斑點圖案」，這就跟告訴電腦「如果條件成立，就執行這個動作」一樣。在資訊科學裡，這些規則叫做「條件」或「敘述」，電腦會用它們來決定接下來該做什麼；同樣的做法也被用來依照特定特徵排序或篩選圖片。要解開這一題，需要運用樣式辨識（把怪獸的各個部位——眼睛、手臂、牙齒——拿去跟規則比對）、演算法思維（依序套用規則，確保沒有漏掉任何一條），以及分解（把怪獸眾多的特徵拆成一個個步驟，逐一檢查）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

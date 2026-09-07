@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-28",
+  "title_en": "Lefty",
+  "title_zh": "只能左轉機器人繞路",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-28.png",
+    "path": "assets/images/india/2025/IN-2025-28.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Lefty the robot navigates a grid using only two moves: go forward, or turn left and go forward (it cannot turn right, and cannot cross walls). Given a grid with some walls.",
+    "question": "What is the minimum number of grid cells Lefty needs to visit on its way to the green goal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Since Lefty can only turn left, reaching the goal in fewer cells than going strictly leftward requires using a special 3-left-turn procedure (turning left three times in a row) to effectively turn right whenever needed. Combining forward moves with two such right-turning procedures at the correct points produces the shortest possible route given the positions of the walls, visiting 16 grid cells in total — no other route can do better.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Lefty's operation seems strongly limited — if it could turn right (or even climb over walls), navigating would be much easier, requiring a more complex instruction set. But this isn't strictly necessary: Lefty can turn right by making three left turns in a row (as long as it isn't forced to move forward after every single turn), and can go around a wall instead of over it — a reduced instruction set can work just as well. In informatics, these two philosophies of designing a processor's instruction set are both popular: a CISC (complex instruction set computer) has many powerful instructions (like 'climb over a wall'), while a RISC (reduced instruction set computer) — like Lefty here — has only the most essential, frequently-used instructions, relying on programmer-built subroutines (combinations of basic instructions) for less common, more complex behaviour; RISC processors have become somewhat more popular in recent years. This task involves algorithmic thinking, since you must construct the shortest route using only the two basic commands available."
+  },
+  "content_zh": {
+    "prompt": "機器人Lefty在格子網上移動，只有兩種動作：往前走，或是左轉後往前走（它不能右轉，也不能穿過牆壁）。給定一個帶有幾道牆的格子網。",
+    "question": "Lefty最少需要經過幾格，才能抵達綠色終點？",
+    "options": [
+      {
+        "key": "A",
+        "text": "8格"
+      },
+      {
+        "key": "B",
+        "text": "12格"
+      },
+      {
+        "key": "C",
+        "text": "16格"
+      },
+      {
+        "key": "D",
+        "text": "18格"
+      }
+    ],
+    "answer": "C",
+    "explanation": "因為Lefty只能左轉，要用比「一路只往左繞」更少的格數抵達終點，就必須在需要的地方使用一套特殊的「連續左轉三次」程序，等同於達成右轉的效果。在正確的位置搭配前進動作和兩次這樣的「右轉程序」，配合牆壁的位置，就能找出最短的路線，總共經過16格——沒有其他路線能比這更短。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "Lefty的操作方式看起來限制很大——如果它能右轉（甚至能翻過牆），移動起來會容易得多，但這樣就需要一套更複雜的指令集。但這其實不是必要的：只要不強制規定「每轉一次就一定要往前走」，Lefty就能靠連續左轉三次來達成右轉的效果，而且可以繞過牆、不必翻過去——精簡的指令集一樣能派上用場。在資訊科學裡，設計處理器指令集的這兩種哲學都很流行：CISC（複雜指令集電腦）有很多強大的指令（像是「翻過一道牆」這種）；而RISC（精簡指令集電腦）——就像這裡的Lefty——只保留最基本、最常用的指令，遇到較少見、較複雜的行為時，就靠程式設計師自己組合基本指令、寫成「副程式」來處理；近年來RISC處理器變得稍微更受歡迎一些。這一題運用了演算法思維，因為你必須只用這兩個基本指令，建構出最短的路線。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

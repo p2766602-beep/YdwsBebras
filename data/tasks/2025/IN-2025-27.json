@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-27",
+  "title_en": "A Message from Outer Space",
+  "title_zh": "外星字母替代密碼",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-27.png",
+    "path": "assets/images/india/2025/IN-2025-27.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Tikku receives a signal from outer space containing an alien alphabet and a message, but galactic radiation has made some letters illegible. Each alien character is a pentagon with a line and a dot; the line's position (one of 5) picks a row and the dot's position (one of 5) picks a column, together mapping to 25 Latin letters (V and W share one character).",
+    "question": "Can you read the message?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ONION"
+      },
+      {
+        "key": "B",
+        "text": "ORION"
+      },
+      {
+        "key": "C",
+        "text": "IONIC"
+      },
+      {
+        "key": "D",
+        "text": "RETRO"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Filling the gaps in the alien alphabet's table requires combining all 5x5 line-and-dot positions to map out the 25-letter grid (with V/W sharing one character). Reading the given message's symbols directly from this completed table, by combining each symbol's line position (row) and dot position (column), spells out the word ORION.",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task revolves around information representation, called encoding in computer science — here, Latin letters are represented by symbols of another alphabet, just as everyday computing uses decimal numbers, ASCII/Unicode, and more complex codes. A second central topic is the substitution cipher, converting Latin letters to and from a foreign alphabet — a classic form of cryptography, where each plaintext letter is replaced by a unique ciphertext symbol, a technique with a very long history from ancient ciphers to modern encryption. A third factor is pattern recognition: only by analysing the recurring structure in the encoding — the shared row and column positions across rows and columns of the grid — can the missing letters' symbols be inferred, which is exactly the central skill this task requires."
+  },
+  "content_zh": {
+    "prompt": "Tikku收到一則來自外太空的訊號，裡面有一套外星字母和一則訊息，但因為星際輻射，有些字母變得無法辨認。每個外星字符都是一個五邊形，上面有一條線和一個點；線的位置（5種之一）決定「列」，點的位置（5種之一）決定「欄」，兩者組合起來對應到25個拉丁字母（V和W共用同一個字符）。",
+    "question": "你能讀出這則訊息嗎？",
+    "options": [
+      {
+        "key": "A",
+        "text": "ONION"
+      },
+      {
+        "key": "B",
+        "text": "ORION"
+      },
+      {
+        "key": "C",
+        "text": "IONIC"
+      },
+      {
+        "key": "D",
+        "text": "RETRO"
+      }
+    ],
+    "answer": "B",
+    "explanation": "要補齊外星字母表裡缺漏的部分，需要把所有5×5種「線的位置」和「點的位置」組合起來，拼出完整的25個字母對照表（V和W共用一個字符）。用這張補齊的對照表，把訊息裡每個符號的線位置（列）和點位置（欄）組合起來直接查出來，拼出的字就是ORION。",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題的核心是資訊表示法，在電腦科學裡叫做「編碼」——這裡是用另一套字母的符號來表示拉丁字母，就像日常電腦運算裡用十進位數字、ASCII/Unicode，或更複雜的編碼一樣。第二個核心主題是「替代密碼」（substitution cipher），把拉丁字母轉換成外星字母、再轉換回來——這是密碼學裡的經典手法，明文字母表裡的每個字母，都被替換成密文字母表裡獨一無二的符號，這種技術從古老的密碼一直到現代的加密技術，歷史非常悠久。第三個因素是樣式辨識：只有透過分析編碼裡反覆出現的結構——也就是格子裡同一列、同一欄共用的位置關係——才能推論出缺漏字母對應的符號，這正是這一題最核心需要運用的能力。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

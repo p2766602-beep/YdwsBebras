@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-15",
+  "title_en": "Persian Carpet",
+  "title_zh": "二進位碼織地毯",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-15.png",
+    "path": "assets/images/india/2025/IN-2025-15.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sarah has a knitting robot that makes carpets using four patterns, each given by a two-digit binary code (00, 11, 01, 10). Sarah gives the robot a knitting program: a 5-row, 9-column grid of two-digit codes, knitted row by row, left to right, top to bottom.",
+    "question": "Which of the following carpets will the robot make based on Sarah's program?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Fully decoding the program square by square and comparing to each option works but is slow. A faster way: find where the four candidate carpets first differ, look up the corresponding code in the program to see which pattern is actually correct there, and eliminate any option showing the wrong pattern at that square — repeating this with the next difference each time, until only one option remains. Carrying this out shows option A is the only carpet consistent with every square of Sarah's program.",
+    "ct_skills": "Data representation, Pattern recognition, Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Computers represent colours not by name but by binary codes made of zeros and ones; this task works the same way, using two-digit binary codes to stand for different knitting patterns, then giving a robot a sequence of these codes (a program) to produce a carpet. In daily life, everything on a computer — documents, photos, music, videos, even numbers — is turned into such binary codes to be shown, stored, and transmitted. This task involves data representation (binary codes representing visual patterns), pattern recognition, and algorithmic thinking: simulating how a robot follows a sequence of instructions step by step, decoding each binary code, applying the mapping rule, and building up the output pattern just as a machine executing a program would."
+  },
+  "content_zh": {
+    "prompt": "Sarah有一台織毯機器人，會用四種花樣織地毯，每種花樣各自對應一組兩位數的二進位密碼（00、11、01、10）。Sarah給了機器人一份編織程式：一個5列9欄的兩位數密碼格子網，機器人會由左到右、由上到下，一列一列編織。",
+    "question": "依照Sarah的程式，機器人會織出下面哪一張地毯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "把整份程式逐格解碼、再跟每個選項比對，這樣做確實可行，但很慢。比較快的做法是：先找出四張候選地毯第一個出現差異的位置，查一下程式裡那個位置對應的密碼，看看那個位置實際上該是哪種花樣，就能排除掉花樣不對的選項——每次都針對下一個差異重複這個做法，直到只剩下一個選項為止。照這個方法做下去，會發現選項A是唯一一張，每一格都跟Sarah的程式完全吻合的地毯。",
+    "ct_skills": "資料表示法、樣式辨識、演算法思維（Data representation, Pattern recognition, Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "電腦表示顏色的方式，不是用顏色的名稱，而是用由0和1組成的二進位密碼；這一題的做法一樣，用兩位數的二進位密碼來代表不同的編織花樣，再把一串這樣的密碼（一份程式）交給機器人去織出地毯。在日常生活裡，電腦上的一切——文件、照片、音樂、影片，甚至數字——都會被轉換成這樣的二進位密碼，才能被顯示、儲存和傳輸。這一題運用了資料表示法（用二進位密碼代表視覺花樣）、樣式辨識，以及演算法思維：模擬機器人如何一步步依照一連串指令，解碼每一組二進位密碼、套用對應規則、逐步建構出輸出的花樣，就跟一台機器執行程式的方式一模一樣。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

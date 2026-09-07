@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2025-25",
+  "title_en": "Catch the Acorn",
+  "title_zh": "松鼠邏輯閘接橡實",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-25.png",
+    "path": "assets/images/india/2025/IN-2025-25.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Nine streams (A-I) meet at a beaver's dam. The beaver can place 1 acorn into any chosen streams, wanting as many as possible to arrive at the dam. Squirrels guard the streams alone or in pairs: a lone squirrel misses the first acorn but catches the second (or catches one, if two arrive simultaneously); a pair of squirrels catches the first acorn but misses the second (or catches one, if two arrive simultaneously). Each stream carries 0 or 1 acorns, all released simultaneously.",
+    "question": "On which 3 streams should the beaver place acorns so that at least 1 acorn reaches the dam?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A C H"
+      },
+      {
+        "key": "B",
+        "text": "B D F"
+      },
+      {
+        "key": "C",
+        "text": "B G H"
+      },
+      {
+        "key": "D",
+        "text": "C E G"
+      },
+      {
+        "key": "E",
+        "text": "E F I"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A lone squirrel guard behaves like a logical OR gate (needing only one of the acorns feeding into it to get one through), while a pair of squirrel guards behaves like an AND gate (needing both acorns feeding into it to get one through). Redrawing the stream network as a circuit of these gates, and working from the dam backwards: the final AND gate needs both of its input lines 'on'; one line traces back to an OR gate needing just one further acorn (the single stream on that side needs just 1 acorn at the top, requiring no further branching); the other line traces back to another OR gate, whose cheapest branch leads to an AND gate needing 2 acorns at the top. In total, this construction requires exactly 3 acorns — matching option D — and no combination of only 3 streams elsewhere in the network can satisfy every gate along the path to the dam.",
+    "ct_skills": "Decomposition, Abstraction, Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This task addresses discrete optimisation (optimising a gain under given constraints) and the analogy to logical circuits. Logical gates are the unseen building blocks of the digital world, deciding in fractions of a second which information to pass on; their significance extends to developing quantum computers for complex problems like climate modelling, and to enabling the Internet of Things, where millions of devices communicate via advanced logic circuits. Solving this task requires decomposing the stream network into its gate structure, abstracting each squirrel guard into the corresponding OR or AND gate (ignoring the story details of squirrels and acorns), and evaluating different acorn placements working backwards from the goal to find the cheapest one that still satisfies every gate."
+  },
+  "content_zh": {
+    "prompt": "九條溪流（A到I）都匯流到海狸的水壩。海狸可以選擇任意幾條溪流，各放1顆橡實下去，希望盡量多顆橡實能抵達水壩。松鼠會單獨或成對守著這些溪流：單獨一隻松鼠，會漏接第一顆橡實，但會抓住第二顆（如果兩顆同時抵達，則只抓到其中一顆）；一對松鼠，會抓住第一顆橡實，但會漏接第二顆（如果兩顆同時抵達，同樣只抓到其中一顆）。每條溪流只會有0或1顆橡實，而且所有橡實同時放下去。",
+    "question": "海狸應該在哪3條溪流放橡實，才能確保至少有1顆橡實抵達水壩？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A C H"
+      },
+      {
+        "key": "B",
+        "text": "B D F"
+      },
+      {
+        "key": "C",
+        "text": "B G H"
+      },
+      {
+        "key": "D",
+        "text": "C E G"
+      },
+      {
+        "key": "E",
+        "text": "E F I"
+      }
+    ],
+    "answer": "D",
+    "explanation": "單獨一隻松鼠守衛，運作起來就像邏輯「OR」閘（只要匯入的其中一顆橡實通過，就能有一顆過關）；一對松鼠守衛，則像「AND」閘（匯入的兩顆橡實都要有，才能有一顆過關）。把整個溪流網路重新畫成這種邏輯閘組成的電路，從水壩往回推算：最後那個AND閘需要它的兩條輸入線都「通」；其中一條線往回追溯到一個OR閘，只需要再一顆橡實就夠了（那一側的單一溪流，最上游只需要1顆橡實，不用再往上分支）；另一條線往回追溯到另一個OR閘，它成本最低的分支，會通向一個需要在最上游放2顆橡實的AND閘。整體加起來，剛好需要3顆橡實——對應選項D——而網路裡任何其他3條溪流的組合，都沒辦法同時滿足通往水壩路徑上的每一個邏輯閘。",
+    "ct_skills": "分解、抽象化、評估（Decomposition, Abstraction, Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題探討了兩個領域：離散最佳化（在給定限制條件下，讓收益最大化），以及邏輯電路的類比。邏輯閘是數位世界裡看不見的基礎建構元件，能在極短時間內決定該傳遞哪些資訊、不傳遞哪些；它們的重要性，也延伸到量子電腦的發展（用來解決氣候模擬這類複雜問題），以及物聯網（IoT）——讓數百萬台裝置能透過先進的邏輯電路彼此溝通。要解開這一題，需要把溪流網路分解成邏輯閘的結構，把每一個松鼠守衛抽象化成對應的OR閘或AND閘（忽略松鼠和橡實這些故事細節），並且從目標往回評估不同的橡實擺放方式，找出成本最低、又能同時滿足每一個邏輯閘的解法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

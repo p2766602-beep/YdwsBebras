@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-16",
+  "title_en": "Chung Cake",
+  "title_zh": "繩子切年糕先後順序",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-16.png",
+    "path": "assets/images/india/2025/IN-2025-16.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In Vietnam, beavers celebrate Lunar New Year eating BanhChung, sticky rice cakes too sticky to cut with a knife — so they use strings instead, laid under the cake before cutting. Multiple strings can be used, but they get tangled if not pulled out in the correct order.",
+    "question": "In what order should the beaver use the four strings (A, B, C, D) to cut the cake without tangling?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A B D C"
+      },
+      {
+        "key": "B",
+        "text": "B C A D"
+      },
+      {
+        "key": "C",
+        "text": "C D B A"
+      },
+      {
+        "key": "D",
+        "text": "D A C B"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The order of using the strings must follow the principle that the first string placed on the cake should also be the first one pulled to cut, since it's the only one touching the cake surface without interference from the others; once it's removed, the next-placed string becomes free to use, and so on, following the exact order the strings were originally placed. This gives the order D, A, C, B.",
+    "ct_skills": "Data representation, Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "The strings in this task must follow a FIFO (First In, First Out) policy: the first element added is the first to be removed, just like a queue where no one should jump the line. Many informatics problems benefit from enforcing a FIFO policy, so that the oldest entry — the 'head' of the queue — is always processed first. Another common policy is LIFO (Last In, First Out), which works oppositely, like a stack of plates, where the last one placed is the first one removed. Recognising which of these two fundamental orderings applies to a given real-world situation, and following it step by step, is the key algorithmic thinking skill needed to solve this task."
+  },
+  "content_zh": {
+    "prompt": "在越南，海狸過農曆新年時會吃粽子（BanhChung），這種糯米年糕太黏了，沒辦法用刀切，所以海狸改用繩子——在切之前先把繩子墊在年糕底下。可以同時用好幾條繩子，但如果抽的順序不對，繩子就會纏在一起。",
+    "question": "海狸該依照什麼順序使用這四條繩子（A、B、C、D），才不會讓繩子纏在一起？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A B D C"
+      },
+      {
+        "key": "B",
+        "text": "B C A D"
+      },
+      {
+        "key": "C",
+        "text": "C D B A"
+      },
+      {
+        "key": "D",
+        "text": "D A C B"
+      }
+    ],
+    "answer": "D",
+    "explanation": "使用繩子的順序，必須遵循一個原則：最先放上年糕的繩子，也應該最先被抽出來切，因為它是唯一一條完全貼在年糕表面、不受其他繩子干擾的繩子；等它被抽走之後，接下來放上去的那條繩子就變成自由的，可以被抽出來，依此類推，完全照著繩子原本被放上去的順序進行。這樣得到的順序就是D、A、C、B。",
+    "ct_skills": "資料表示法、演算法思維（Data representation, Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題裡的繩子，必須遵循所謂的「先進先出」（FIFO，First In First Out）原則：最先加入的元素，最先被移除，就像排隊時沒有人可以插隊一樣。在資訊科學裡，有很多問題都受益於強制套用FIFO原則，確保最早進入的項目——也就是佇列的「頭」——永遠最先被處理。另一種常見的原則是「後進先出」（LIFO，Last In First Out），運作方式剛好相反，就像一疊盤子，最後放上去的那個，會最先被拿走。要解開這一題，關鍵的演算法思維能力，就是判斷這個現實情境符合「先進先出」還是「後進先出」這兩種基本順序中的哪一種，並一步步依照它推算下去。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

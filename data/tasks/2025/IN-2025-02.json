@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-02",
+  "title_en": "Robot Assembly",
+  "title_zh": "機器人組裝除錯",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-02.png",
+    "path": "assets/images/india/2025/IN-2025-02.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Six animals work on a robot assembly line, each with a different job in a fixed order. The finished toy robots are supposed to look a certain way, but the robots that actually come off the line look different.",
+    "question": "Which animal is not doing their job correctly?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A toy robot is supposed to have three buttons across its body, but instead it has three buttons down its leg. This means the buttons were not added correctly, which is the job of the animal at option C's position on the line.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In this task the assembly line did not produce toys as expected — similar to a computer program producing unexpected output. When this happens, programmers must retrace every step their program follows to find where the mistake occurs; this process is called debugging. Using computational thinking here means: breaking down the problem (looking at each part of the robot), following instructions (checking what each animal was supposed to do), comparing (how it should look versus how it actually looks), and finding the mistake (figuring out who did something wrong) — this is exactly how real programmers solve problems."
+  },
+  "content_zh": {
+    "prompt": "六隻動物在機器人組裝線上工作，每隻都依照固定順序負責不同的工作。做出來的玩具機器人「應該」長成某個樣子，但實際做出來的機器人卻長得不一樣。",
+    "question": "哪隻動物沒有把自己的工作做對？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "玩具機器人本來應該在身體上橫向排列三顆按鈕，但實際做出來的卻是沿著腿部縱向排了三顆按鈕。這代表按鈕沒有被正確安裝，而這正是選項C那個生產線位置的動物負責的工作。",
+    "ct_skills": "演算法思維、評估（Algorithmic Thinking, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題裡，組裝線沒有做出預期中的玩具——這就像一支電腦程式產生了意料之外的輸出結果。發生這種情況時，程式設計師必須回頭檢視程式執行的每一個步驟，找出問題出在哪裡；這個過程就叫做「除錯」（debugging）。在這裡運用運算思維，就是：拆解問題（逐一檢查機器人的每個部位）、依循指示（檢查每隻動物原本該做什麼）、比較（應該長什麼樣子 vs. 實際長什麼樣子），以及找出錯誤（找出是誰做錯了）——這正是真正的程式設計師解決問題的方式。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

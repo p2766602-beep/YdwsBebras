@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-09",
+  "title_en": "Knitting",
+  "title_zh": "毛線球做背心圍巾",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2025-09.png",
+    "path": "assets/images/india/2025/IN-2025-09.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beaver Juhi wants to make vests and scarves: 1 vest needs 2 yarn balls, 1 scarf needs 1 yarn ball. She has 2 black yarn balls and 4 white yarn balls.",
+    "question": "Which option shows a combination of vests and scarves that Juhi can actually make with this yarn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Checking each option against the available yarn: option A works, since 4 white yarn balls make exactly 2 white vests, and 2 black yarn balls make exactly 2 black scarves. Option B fails because 2 black yarn balls cannot make 2 black vests (that needs 4). Option C fails because 4 white yarn balls cannot make 4 white vests (that needs 8), and 2 black yarn balls cannot make 2 black scarves as claimed either way it's stated. Option D fails because 2 black yarn balls cannot make 2 black vests.",
+    "ct_skills": "Evaluation, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This problem involves finding a state that satisfies multiple constraints, since various combinations of vests and scarves are possible from the given yarn — a topic extensively studied in artificial intelligence and other areas of informatics, where suitable solutions to such constraint satisfaction problems are found using methods like backtracking, heuristics, and combinatorial optimisation. The solving process can be expressed procedurally: check the colours and quantities of yarn available; check how many balls each item requires; calculate the yarn needed for each proposed combination; and compare against what's available to find the one true match. This shows how the problem can be expressed as a series of commands — an algorithm — much like a computer would execute."
+  },
+  "content_zh": {
+    "prompt": "海狸Juhi想織背心和圍巾：1件背心需要2球毛線，1條圍巾需要1球毛線。她現在有2球黑色毛線和4球白色毛線。",
+    "question": "下面哪一個選項，是Juhi實際上能用這些毛線做出來的背心和圍巾組合？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "拿現有的毛線去對照每個選項：選項A可行，因為4球白色毛線剛好能做2件白色背心，2球黑色毛線剛好能做2條黑色圍巾。選項B不行，因為2球黑色毛線做不出2件黑色背心（那需要4球）。選項C不行，因為4球白色毛線做不出4件白色背心（那需要8球），2球黑色毛線也做不出宣稱的黑色圍巾數量。選項D不行，因為2球黑色毛線做不出2件黑色背心。",
+    "ct_skills": "評估、演算法思維（Evaluation, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這個問題牽涉到找出一個同時滿足多項限制條件的狀態，因為用給定的毛線，可以做出好幾種不同的背心和圍巾組合——這在人工智慧和資訊科學的其他領域裡，都被廣泛研究過，這類「限制滿足問題」的合適解法，包括回溯法、啟發式方法，以及組合最佳化等技巧。解題過程可以用程序化的方式表達：先檢查現有毛線的顏色和數量；再檢查每種物品各需要幾球毛線；接著計算每個候選組合各自需要多少毛線；最後拿來跟現有的毛線比對，找出真正吻合的那一個。這說明了這個問題可以表達成一連串的指令——也就是一個演算法——就像電腦會執行的方式一樣。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

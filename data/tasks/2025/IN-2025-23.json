@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-23",
+  "title_en": "Sand Painting",
+  "title_zh": "共用顏料罐死結",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-23.png",
+    "path": "assets/images/india/2025/IN-2025-23.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In a sand-painting class, jars numbered 1 to 11 each hold a different colour; since the glue dries quickly, each student must have all the jars they want before starting, and must return all their jars only after finishing. If a student needs a jar someone else is holding, they must wait for it to be returned. Aryan wants jars including 1 and 9 (which no one else holds); Chinmay wants jar 2 (held by Aryan); Billu wants jar 5 (held by Chinmay); Deena wants jar 8 (held by Billu).",
+    "question": "Who is the last student to start colouring?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aryan"
+      },
+      {
+        "key": "B",
+        "text": "Billu"
+      },
+      {
+        "key": "C",
+        "text": "Chinmay"
+      },
+      {
+        "key": "D",
+        "text": "Deena"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Aryan wants jars no one else has, so he can start immediately. Chinmay needs jar 2, held by Aryan, so he must wait for Aryan to finish. Billu needs jar 5, held by Chinmay, so he must wait for Chinmay to finish. Deena needs jar 8, held by Billu, so she must wait for Billu to finish. So the start order is Aryan, then Chinmay, then Billu, then Deena — making Deena the last to start.",
+    "ct_skills": "Algorithmic Thinking, Decomposition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This problem is an example of a deadlock situation: a deadlock occurs when multiple processes compete for the same limited resources (files, databases, memory, or here, jars of sand), and involved processes cannot make progress while blocked waiting for unavailable resources — this can cause system instability, decreased performance, or complete failure. Here, a chain of students each waiting on the next one to finish, rather than a genuine circular deadlock, resolves itself once the first student (needing nothing held by anyone) can proceed. Students use algorithmic thinking to work out the order in which everyone can start painting, and decomposition — since the problem is too complex to solve all at once, it must be broken into smaller pieces, considering one student at a time: which jars do they need, and who currently has them."
+  },
+  "content_zh": {
+    "prompt": "在一堂沙畫課上，編號1到11的罐子各裝著一種顏色；因為膠水乾得很快，每位學生必須在開始畫畫之前，就先拿到自己想要的所有罐子，而且要等到畫完之後，才能把用過的罐子全部歸還。如果某位學生需要的罐子被別人拿著，他就必須等到那個罐子被歸還。Aryan想要包括1號和9號在內的罐子（沒有別人拿著）；Chinmay想要2號罐子（被Aryan拿著）；Billu想要5號罐子（被Chinmay拿著）；Deena想要8號罐子（被Billu拿著）。",
+    "question": "哪位學生最後才開始畫畫？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aryan"
+      },
+      {
+        "key": "B",
+        "text": "Billu"
+      },
+      {
+        "key": "C",
+        "text": "Chinmay"
+      },
+      {
+        "key": "D",
+        "text": "Deena"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Aryan想要的罐子沒有人拿著，所以他可以馬上開始。Chinmay需要2號罐子，被Aryan拿著，所以他必須等Aryan畫完。Billu需要5號罐子，被Chinmay拿著，所以他必須等Chinmay畫完。Deena需要8號罐子，被Billu拿著，所以她必須等Billu畫完。所以開始的順序是Aryan，接著Chinmay，接著Billu，最後才是Deena——所以Deena是最後開始畫畫的人。",
+    "ct_skills": "演算法思維、分解（Algorithmic Thinking, Decomposition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這個問題是「死結」（deadlock）情境的一個例子：當多個處理程序爭奪同樣有限的資源（檔案、資料庫、記憶體，或這裡的顏料罐）時，就可能發生死結，被卡住、等待無法取得的資源的處理程序，就沒辦法繼續往下進行——這可能導致系統不穩定、效能下降，甚至完全當機。這裡是一連串學生依序等待前一位完成，而不是真正的循環式死結，一旦第一位學生（不需要任何被別人拿著的罐子）能夠開始，整條鏈就會自然解開。學生運用演算法思維，推算出所有人能開始畫畫的順序；也運用了分解——因為這個問題太複雜，沒辦法一次解決，必須拆成更小的部分，一次只考慮一位學生：他需要哪些罐子、現在被誰拿著。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

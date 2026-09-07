@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-11",
+  "title_en": "Mars Rover",
+  "title_zh": "火星車最省能量路徑",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-11.png",
+    "path": "assets/images/india/2025/IN-2025-11.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A Mars rover must reach its base using as little energy as possible, on a grid where arrows constrain movement direction, numbers on squares show the energy cost to enter them, boulders cannot be crossed, and a lost alien can optionally be picked up along the way and brought to a flying saucer square (which can only be entered if the alien has been picked up).",
+    "question": "What is the minimum amount of energy the rover needs to reach the base?",
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "22"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A route costing exactly 20 energy units exists. Because of the boulders, the rover must pass through one particular square (marked with a star); from there, it can either pick up the alien (costing 10 extra energy) or not. Checking all ways to extend a route from the star square shows no cheaper option than 20: any route picking up the alien and improving on 20 would need to avoid certain high-cost squares but cannot do so within budget, and any route skipping the alien is forced through squares whose combined cost also cannot beat 20. So 20 is the minimum.",
+    "ct_skills": "Decomposition, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Computers are frequently used to solve optimisation problems — minimising factors like energy, time, or cost. Computer scientists have developed various solution strategies: some guarantee the best possible solution, others prioritise efficiency over optimality. A simple (but not always optimal) strategy is taking the route with the fewest squares; another is a greedy algorithm — always moving to the cheapest adjacent square not just visited — which often gives good, but not guaranteed optimal, results. For genuinely optimal routing, programmers commonly use Dijkstra's algorithm. The most relevant computational thinking concepts here are decomposition (splitting the problem into cases with and without picking up the alien, and into path segments) and evaluation (comparing candidate routes to identify the best one); abstraction plays a smaller role, since the map itself is already an abstraction that must be interpreted, though not one students need to construct themselves."
+  },
+  "content_zh": {
+    "prompt": "一台火星車必須用最少的能量抵達基地，行駛在一個用箭頭限制移動方向的格子網上，方格上的數字代表進入該格所需的能量，不能跨越巨石，途中還可以選擇性地撿起一個迷路的外星人，並把牠帶到飛碟方格（只有撿了外星人才能進入飛碟方格）。",
+    "question": "火星車最少需要多少能量才能抵達基地？",
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "22"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      }
+    ],
+    "answer": "B",
+    "explanation": "存在一條恰好花費20能量的路線。因為有巨石阻擋，火星車必須經過某個特定方格（標示為星號）；從那裡開始，它可以選擇撿起外星人（額外花費10能量）或不撿。檢查所有從星號方格延伸出去的路線，都找不到比20更省的選項：任何撿了外星人、想要比20更省的路線，都必須避開某些高成本方格，但預算內做不到；任何不撿外星人的路線，也被迫要經過幾個方格，加總起來同樣沒辦法比20更省。所以20就是最小值。",
+    "ct_skills": "分解、評估（Decomposition, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "電腦經常被用來解決最佳化問題——把能量、時間或成本這類因素降到最低。電腦科學家發展出各種不同的解題策略：有些保證能找到最佳解，有些則優先考量效率，犧牲一點最佳性。一種簡單（但不一定最佳）的策略，是選擇經過方格數最少的路線；另一種是貪婪演算法——永遠移動到還沒走過、成本最低的相鄰方格——這種做法通常結果不錯，但不保證是最佳解。若要真正找到最佳路線，工程師常使用戴克斯特拉演算法（Dijkstra's algorithm）。這裡最相關的運算思維概念是分解（把問題拆成「撿外星人」跟「不撿外星人」兩種情況，以及拆成不同路段），以及評估（比較候選路線，找出最佳的那一條）；抽象化在這裡的角色比較小，因為地圖本身已經是一種抽象表示，學生需要理解它，但不需要自己建構抽象化。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

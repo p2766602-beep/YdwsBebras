@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2025-26",
+  "title_en": "Family Tree",
+  "title_zh": "巢狀函式表達親屬關係",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-26.png",
+    "path": "assets/images/india/2025/IN-2025-26.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beavers Ankita and Dhruv are related; Ankita's family tree can be described using father(X) = 'father of beaver X' and mother(X) = 'mother of beaver X', which can be nested — e.g. mother(father(Ankita)) gives the mother of Ankita's father.",
+    "question": "Describe the relationship between Ankita and Dhruv by filling in the gaps: father(mother(Ankita)) = ________(________(________(Dhruv)))",
+    "options": [
+      {
+        "key": "A",
+        "text": "father(father(father(Dhruv)))"
+      },
+      {
+        "key": "B",
+        "text": "father(father(mother(Dhruv)))"
+      },
+      {
+        "key": "C",
+        "text": "father(mother(father(Dhruv)))"
+      },
+      {
+        "key": "D",
+        "text": "father(mother(mother(Dhruv)))"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The left-hand expression, father(mother(Ankita)), points to Anil — Ankita's mother's father, her maternal grandfather. To fill in the right-hand side, we need to express how Dhruv relates to Anil, moving up one generation at a time starting from Dhruv: first to Dhruv's mother (mother(Dhruv)), then to that mother's mother (mother(mother(Dhruv)), Dhruv's maternal grandmother), and finally to that grandmother's father (father(mother(mother(Dhruv)))), which reaches Anil. So the correct completion is father(mother(mother(Dhruv))) — option D.",
+    "ct_skills": "Decomposition, Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task demonstrates function composition and nesting: functions are reusable units in computer programs, described as f(p), where 'f' is the function's name and 'p' its input (or argument) — here, father() and mother() are functions returning a result when called. In a nested function call, results of inner calls become input to outer ones, and are evaluated from the inside out — this mechanism exists in most programming languages, and is especially important to functional programming languages such as Scheme. A family tree is also a hierarchical data structure, organising people at levels (parents, grandparents, etc.) — the same concept used in databases and in HTML, where every element on a web page (buttons, text, images) sits in a tree-like structure of parent-child relationships. Solving this task decomposes into several steps (determine who the left expression points to; express how Dhruv relates to that person; build that relation as individual function calls per generation) and requires abstraction, simplifying complex family relationships into this compact functional notation."
+  },
+  "content_zh": {
+    "prompt": "海狸Ankita和Dhruv有親屬關係；Ankita的家族關係可以用father(X)＝「X的父親」和mother(X)＝「X的母親」來描述，而且可以巢狀組合——例如mother(father(Ankita))代表「Ankita父親的母親」。",
+    "question": "請填空，描述Ankita和Dhruv之間的關係：father(mother(Ankita)) = ________(________(________(Dhruv)))",
+    "options": [
+      {
+        "key": "A",
+        "text": "father(father(father(Dhruv)))"
+      },
+      {
+        "key": "B",
+        "text": "father(father(mother(Dhruv)))"
+      },
+      {
+        "key": "C",
+        "text": "father(mother(father(Dhruv)))"
+      },
+      {
+        "key": "D",
+        "text": "father(mother(mother(Dhruv)))"
+      }
+    ],
+    "answer": "D",
+    "explanation": "左邊的算式father(mother(Ankita))，指向的是Anil——也就是Ankita母親的父親，她的外公。要填出右邊的算式，我們需要表達Dhruv跟Anil之間的關係，從Dhruv開始，一次往上一個世代推算：先到Dhruv的母親(mother(Dhruv))，接著到那位母親的母親(mother(mother(Dhruv))，也就是Dhruv的外婆)，最後到那位外婆的父親(father(mother(mother(Dhruv))))，正好就是Anil。所以正確的填法是father(mother(mother(Dhruv)))——也就是選項D。",
+    "ct_skills": "分解、抽象化（Decomposition, Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題示範了函式的組合與巢狀結構：函式是電腦程式裡可以重複使用的單元，寫成f(p)的形式，其中「f」是函式名稱，「p」是輸入（或稱參數）——這裡的father()和mother()就是呼叫後會回傳結果的函式。在巢狀函式呼叫裡，內層呼叫的結果會變成外層呼叫的輸入，而且是由內而外依序求值——這種機制存在於大多數程式語言裡，對Scheme這類函數式程式語言來說尤其重要。家族樹本身也是一種階層式的資料結構，把人依照世代分層組織（父母、祖父母等等）——這跟資料庫、以及HTML裡的概念是一樣的：網頁上的每個元素（按鈕、文字、圖片）都位在一個父子關係的樹狀結構裡。要解開這一題，可以拆解成幾個步驟（先確定左邊算式指向誰；接著表達Dhruv跟這個人的關係；再把這個關係表達成每個世代各自對應的函式呼叫），也需要運用抽象化，把複雜的家族關係，簡化成這種精簡的函式記號。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2025-35",
+  "title_en": "Bakery",
+  "title_zh": "兩速貨運排班最佳化",
+  "source_country": null,
+  "source_country_flag": null,
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2025
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2025-35.png",
+    "path": "assets/images/india/2025/IN-2025-35.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beavers Albert and Mario run flour deliveries between a bakery and a mill: Albert carries 13 kg per round trip, taking 1 hour; Mario carries 5 kg per round trip, taking 30 minutes. Only one can be travelling at a time (the other must stay at the bakery for customers), and after 3 consecutive trips each must rest at least 30 minutes (during which they can serve customers).",
+    "question": "Which of the following statements is correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Albert must deliver first."
+      },
+      {
+        "key": "B",
+        "text": "Mario must deliver first."
+      },
+      {
+        "key": "C",
+        "text": "Mario must deliver last."
+      },
+      {
+        "key": "D",
+        "text": "Albert must not deliver last."
+      },
+      {
+        "key": "E",
+        "text": "Mario must deliver one time."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Albert delivers 13 kg/hour versus Mario's 10 kg/hour, so Albert is the more efficient carrier and should be used as much as possible, with Mario filling in only while Albert rests. The optimal schedule has Albert make 3 trips (3 hours), then Mario makes 1 trip (30 min) while Albert rests, then this 3.5-hour cycle repeats. Starting with Mario instead is strictly worse: after two (Mario, Albert, Albert, Albert) cycles, only one hour remains, and since Albert needs to rest at that point, Mario is forced to take the final two rounds — delivering less flour overall than the Albert-first schedule. So Albert must deliver first for the optimal (maximum flour) schedule, making option A correct.",
+    "ct_skills": "Decomposition, Pattern recognition, Abstraction, Logical thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This flour-transporting problem is a scheduling and optimisation problem: trips must be scheduled under rest and occupancy constraints, while maximising total flour delivered and allocating time efficiently between the two beavers. Scheduling and optimisation problems like this appear throughout informatics — e.g. a computer processor's arithmetic logic unit can only execute one instruction at a time (an occupancy constraint), and instructions reading memory may have to wait for data to arrive (similar to resting) — where a well-optimised schedule can finish a program's work far faster than a sub-optimal one. Solving this task benefits from decomposition (breaking the problem into repeatable sub-schedules), pattern recognition (spotting that a good sub-schedule can simply be repeated), abstraction (representing the situation as an optimal kg/hour rate), and logical thinking to rule out options that violate the rest and occupancy constraints."
+  },
+  "content_zh": {
+    "prompt": "海狸Albert和Mario負責在麵包店和磨坊之間運送麵粉：Albert每趟能載13公斤，來回要花1小時；Mario每趟能載5公斤，來回只要30分鐘。同一時間只能有一位在路上（另一位必須留在麵包店照顧客人），而且每連續跑3趟之後，就必須休息至少30分鐘（休息時可以照顧客人）。",
+    "question": "下面哪一句敘述是正確的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Albert必須第一個出發。"
+      },
+      {
+        "key": "B",
+        "text": "Mario必須第一個出發。"
+      },
+      {
+        "key": "C",
+        "text": "Mario必須最後一個出發。"
+      },
+      {
+        "key": "D",
+        "text": "Albert不能最後一個出發。"
+      },
+      {
+        "key": "E",
+        "text": "Mario只能出發一次。"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Albert每小時能運送13公斤，Mario每小時只能運送10公斤，所以Albert效率比較高，應該盡量多用他，只有在他休息時才讓Mario補位。最佳的排班方式是：Albert先跑3趟（3小時），接著Mario趁Albert休息時跑1趟（30分鐘），然後這3.5小時的循環不斷重複。如果一開始改讓Mario先出發，結果一定更差：跑完兩輪（Mario、Albert、Albert、Albert）之後，只剩1小時，而這時Albert正好需要休息，Mario就被迫要跑完最後兩趟——整體運送的麵粉量，會比讓Albert先出發的排班方式少。所以要達到最佳（麵粉運送量最多）的排班，Albert必須第一個出發，選項A正確。",
+    "ct_skills": "分解、樣式辨識、抽象化、邏輯思維（Decomposition, Pattern recognition, Abstraction, Logical thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這個麵粉運送問題，是一個排程與最佳化問題：必須在休息和占用限制之下安排行程，同時讓運送的麵粉總量最多，並在兩隻海狸之間有效率地分配時間。像這樣的排程和最佳化問題，在資訊科學裡到處都看得到——例如電腦處理器的算術邏輯單元一次只能執行一條指令（占用限制），而讀取記憶體的指令有時必須等待資料抵達（類似休息）——一套經過良好最佳化的排程，能讓程式的工作完成得比次佳排程快得多。要解開這一題，可以運用分解（把問題拆成可以重複執行的小排程單元）、樣式辨識（發現一個好的小排程可以直接重複套用）、抽象化（把整個情境表示成一個「每小時最佳運量」的數值），以及邏輯思維，排除掉違反休息和占用限制的選項。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}
