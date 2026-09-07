@@ -1,0 +1,11 @@
+# 原始題本PDF為官方公開下載檔，體積大且可隨時重新取得，不進版控。
+# 每份來源的網址/授權資訊記錄於 sources/<country>/README.md（若有）與 data/ 底下的題目資料庫。
+*.pdf
+
+# 暫存探測檔
+_probe.txt
+_last3_*.txt
+_first*.txt
+
+# Claude Code本機設定
+/.claude/settings.local.json

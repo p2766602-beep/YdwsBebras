@@ -1,0 +1,2243 @@
+
+===== PAGE 1 =====
+
+===== PAGE 2 =====
+
+===== PAGE 3 =====
+Bebras India
+Introduction
+Bebras (www.bebras.org ) is an international student Computational Thinking Challenge
+organised in over 60 countries and designed to get students from all over the world excited
+about computing. The challenge is a great way to learn about computational thinking and
+problem solving skills.
+The Bebras challenges are made of a set of short problems called Bebras tasks. The tasks are
+fun, engaging and based on problems that Computer Scientists enjoy solving. The tasks
+require logical thinking and can be solved without prior knowledge of computational
+thinking. The aim is to solve as many as you can in the allotted time.
+Bebras India Challenge ( www.bebras.in) is organized by ACM India’s CSpathshala initiative
+(www.cspathshala.org). ACM India/CSpathshala’s goal is to make it possible so that every
+child in India learns Computer Science.
+The 2023 Bebras India Challenge was held from 19th November to 9th December, 2023 for
+age groups 8-18. The 2023 Bebras India Computational Thinking Challenge was conducted in
+English, Marathi, Gujarati, Hindi, Kannada, Odia, Tamil and Telugu and it is conducted for
+free. The 2023 Bebras India Challenge crossed participation of 2,10,000 students across 22
+states and 2 UTs in age groups 8-18.
+Challenge Site: bebras.cspathshala.org
+Queries? Contact: challenge@bebrasindia.org
+Editors:
+Vipul Shah
+Sonia Garcha
+January 2024 Page | 1
+
+===== PAGE 4 =====
+Bebras India
+We would like to thank the international Bebras community for allowing us to use the tasks
+they have developed. Bebras is a collective effort of many countries.
+We would also like to thank Eljakim Schrijvers, Eljakim Information Technology bv for the
+Bebras challenge platform.
+We would like to thank ACM India’s CSpathshala initiative volunteers for localizing and
+reviewing the tasks and reaching out to schools. We would also like to thank the teachers
+who have put in the effort for their students to participate in the challenge.
+We would like to acknowledge the authors and reviewers for the Bebras tasks used in the
+challenge:
+Austria Florentina Voboril, Gerald Futschek, Svetlana Unkovic
+Belgium Kris Coolsaet
+Brazil Leonardo Cavalcante
+Canada Christine Vender, Sarah Chan
+China Yong Mao
+Czechia Jiří Vaníček
+Finland Heidi Kaarto, Marika Parviainen
+France Mathias Hiron
+Germany Michael Weigend, Kirsten Schlüter,, Wolfgang Pohl
+Hungary Zsuzsa Pluhár
+India
+Anees Rao, Anupama Sivakumar, Krupa Makwana, Vikrant Mah Dhimate,
+Nirupama Jonna, Narasimha Murthy Raghu, Aragula Amith, Sushmitha Rai,
+Hamsitha U K, Hinesh Ramanlal Gohel, P Vighnesh, Sidhartha Sekhar Sahu,
+Lohith S, Ishita Dubey, Maitrik, Shubha Shasthri K N, Pratyksh Sarda,
+Himakara B, Divya Mittal, Mohsina Parveen Gorikhan, Chaithra K, Apoorva
+V M, Sandesh Agrawal, S, Harshitha, Shwetha Puttabuddi, Devarakonda,
+Vinod, Sunil Kumar D V, Chaitra Hosakoppa Shankar, Mudiam,
+Bhagyalakshmi, Chandrakanth Rajappa, Nitsure, Aditya Abhay,
+Mannavaram, Selvaraj, Sakshi Rajgariah, Gopinathks, Deepthi Appasani,
+Raghavrn, Neelam Kaur Mangat, Rashmik, Soma N, Durga Pra Khuntia,
+Rahul Kumar, Diya Acharya, Jena, Subhasmita, Rajesh Kandikonda, Spoorthi
+H, Sanju H, Madhura, Warad, Ashwini Shivayogi, A, Vinay Kumar, Sowmya B
+R, Prema Tr, S, Shankari, Vikram Patwardhan, Ram Sakal, Subrato Mall,
+Nidhi Malhotra, Jyoti Khare, Giridhar A, Kaushal Mehta, Sumit Kumars,
+Jajodia, Vikram, Gonyappa Kurubar, Madhusudan, Kavita (Hr Sdxi Dx), Suraj
+Patro, Eranki, Ram, Shailen Mehta, Masur, Savi K, Soubhagya Raikar,
+Prerana Madhusudhan, Vedant Sharma, B V, Sreenath, Zaware, Nikita
+Sambhaji, Konandur Bhaskar, Nithin Richa, Arun Tapaskar, Deshpande,
+Yogesh, Deepak Gowda K, Jagadeesh Nh, Madhumita Patnaik, Shivani
+January 2024 Page | 2
+
+===== PAGE 5 =====
+Bebras India
+Narsinhkumar Rathi, Mohammadi Amreen, Ameer Hussain Ballari, Dixit,
+Sandeep Arun, Sharanakumar, Shaikh Daud Akhter, Ramesh Poolla,Amarjit
+Kumar, Achyuth Dixit, Umesh N, Prathiba Chandarshekar Bharti, Pranali
+Thakur, Singh, Anurag, Shrivastava, Ankan, Hvarini, Mugdha Sathe, Adithi K
+Raj, Vikas Sitaram Chougale, Nanditha Krishna Raju, Shrivarshini
+Narayanan, Shreya Kini, Kumar Aarti, Madhavan Mukund, Sonia Garcha,
+Sonali Gogate, Ritambhara Korpal, Vipul Shah
+Indonesia Vania Natali
+Iran Jalil Nedaeepour
+Ireland Eimear Colreavy, Tom Naughton, Taina Lehtimaki, Robert Cleary
+Japan Seiichi Tani, Yoshiaki Matsuzawa
+Korea Kim Seulki,
+Lithuania, Valentina Dagienė
+Netherlands Alieke Stijf, Kyra Willekes, Justina Dauksaite, Merel Kämper
+New Zealand James Atlas, Tim Bell
+Pakistan Dr . Marios O. Choudary
+Peru Carlos Luna
+Romania Laura Ungureanu
+Saudi Arabia Akram Ahmed, Somayah Albaradei
+Slovakia Monika Tomcsányiová, Štefan Gura
+South Korea Hyun-seok Jeon, Dong Yoon Kim, Hakin Kim, Jihye Kim
+Switzerland
+Susanne Datzko, Jean-Philippe Pellet, Masiar Babazadeh, Angélica Herrera
+Loyo
+Taiwan Ling-Chian Chang, Greg Lee, Judith Lin, Yeh Yi Shan
+Turkey Özgür Özdemir
+UK Chris Roffey
+Ukraine Rostyslav Shpakovych
+Uruguay
+Anaclara Gerosa, Víctor Koleszar, Lucia Crivelli, María Eugenia Curi,Rosario
+Schunk, Graciela Oyhenard
+USA Eljakim Schrijvers
+Austria Florentina Voboril, Gerald Futschek, Svetlana Unkovic
+Belgium Kris Coolsaet
+Brazil Leonardo Cavalcante
+Canada Christine Vender, Sarah Chan
+January 2024 Page | 3
+
+===== PAGE 6 =====
+Bebras India
+Bebras challenge was conducted in five groups:
+Group Ages Standards Tasks
+Aryabhata 8-10 years Std III-IV 15
+Brahmagupta 10-12 years Std V-VI 15
+Bhaskara 12-14 years Std VII-VIII 15
+Mahavira 14-16 years Std IX-X 15
+Ramanujam 16-18 years Std XI-XII 15
+Each task is sorted in a category based on the difficulty levels: A, B or C. Students started
+with some points and could gain or lose points as follows:
+Difficulty Correct Answer Incorrect Answer Unanswered
+A category questions +6 points 0 points 0 points
+B category questions +9 points -2 points 0 points
+C category questions +12 points -4 points 0 points
+On the following pages you will find the tasks used in 2023 Bebras India Challenge. After
+each question there is an answer, an explanation of how the answer could be obtained plus
+a section on how the tasks are related to Computational Thinking.
+Copyright © 2023 Bebras, Bebras India.
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License
+January 2024 Page | 4
+
+===== PAGE 7 =====
+Bebras India
+Content
+Task Name
+Group II
+(Std 3-4)
+Group III
+(Std 5-6)
+Group IV
+(Std 7-8)
+Group V
+(Std 9-10)
+Group VI
+(Std 11-12)
+Page
+Number
+Sliced Apples A7
+Sort the
+beavers A 9
+Tile Land A1 1
+Umbrella A1 4
+Coded Ages A1 7
+A day at the
+zoo BA 19
+Flowershop BA 2 6
+Photo BA 2 8
+Applique BA 3 0
+Beads
+stringing BA 32
+Magic Tree CBA 3 5
+Riccas CBA 3 7
+Karlas Dream
+House CBA 39
+Autonomous
+Car CBA 41
+Logic Treasure CBA 4 3
+Log Storage CB A 4 6
+Unloading CB A 4 9
+Planting
+carrots CB A 51
+Closer or
+Further CB A 5 5
+Model railway CB A 5 8
+Counting CBA 6 2
+Ogham code CBA 6 5
+Job
+Assignment CBA 6 8
+January 2024 Page | 5
+
+===== PAGE 8 =====
+Bebras India
+OpenIt CBA 7 1
+Rooms CBA 7 7
+Reverse Polish
+Notation CB 7 9
+Dhooma's
+tasks CB 8 3
+Juice Carts CB 8 6
+Bumping
+robots CB 8 8
+Uphill CB 9 2
+BridgeBuildin
+g C9 6
+Electronic lock C9 9
+Domino C 101
+Robot C 105
+Glass Slipper C 108
+January 2024 Page | 6
+
+===== PAGE 9 =====
+Bebras India
+Sliced Apples
+Jigar loves to cut apples in half so as to make stars from the seed beds that appear in the cut.
+He cut 4 apples and put the halves on the table. Some of the seeds remained in one half of the apple
+and others in the other half. However, the halves of apples got mixed up.
+12 3 4
+Question:
+Which half of the apple below matches (2) above?
+AB C D
+January 2024 Page | 7
+
+===== PAGE 10 =====
+Bebras India
+Answer Explanation:
+The correct answer is C)
+Number of all seeds in one apple must be 5. But counting them only is not enough. Two
+apples with equal number of seeds in one half can be distinguished according to the pattern
+of full and empty seed beds placement.
+Two apples with equal number of seeds in one half can
+be distinguished according to the pattern of full and
+empty seed beds placement. The halves in the right in
+the picture have all full seed beds placed together,
+without an empty bed between them. The halves on the
+left have one full seed bed isolated, with empty beds on
+both sides.
+It’s Informatics:
+Some objects in real life must fit together, for example, pairs of A-T and C-G of nucleobases
+in DNA, or locks and keys. In computer science for each password-protected file (lock) there
+is a password to open it (key). In programming, some functions require a set number of
+input parameters. It is the compiler’s task to check if the provided number of parameters in
+a function call and their type match with the expected values by the function definition.
+To solve this task, it is necessary to find how the halves of one apple fit together . Finding a
+supplement and topological pattern recognition are the main skills necessary to solve the
+task.
+We can create a graph for each half in the 1-st row of the correct answer image. A node
+means a full seed bed and an edge means neighbourhoods of two full seed beds.
+We can also create similar graph for 2nd row of halves with switched full and empty seed
+beds (where a node means an empty seed bed and an edge means neighbourhoods of two
+empty seed beds). Then we get the same graphs for halves belonging to each other .
+January 2024 Page | 8
+
+===== PAGE 11 =====
+Bebras India
+Sort the beavers
+Sort the beavers in ascending order according to their hats’ heights.
+ABC D E
+Question:
+In what sequence will the beavers stand if they are arranged in a way that beavers to the right have
+taller hats than beavers to the left?
+A )CADEB
+B )BEDAC
+C )CAEDB
+D )EBDAC
+January 2024 Page | 9
+
+===== PAGE 12 =====
+Bebras India
+Answer Explanation:
+It’s Informatics:
+In informatics, arranging in an ordered sequence is called sorting. It is astonishing how many things
+are sorted in our daily life. The lockers in an aqua park, the entries in dictionaries or telephone
+books. Without sorting the entries in a dictionary it is extremely hard to find a required item. Even
+the results of any internet browser request are ordered according to their relevance. The results of
+nearly all sport events are ordered due to the achievements. In all these cases the sorted items are
+easier to handle than unsorted items. Especially if there is a large number of items the advantage is
+much more evident.
+First of all it is necessary to analyze the problem and to find out that to solve this problem, one needs
+to separate the height of the beavers from the height of their hats. Then by analyzing the data (the
+sequence of beaver hats) a sequence of rearrangements has to be found. The idea that moving taller
+hats to the right, respective hats with lower height to the left leads closer to the desired goal is a first
+step to create an algorithm where these steps are repeated until all beavers are in order .
+January 2024 Page | 10
+
+===== PAGE 13 =====
+Bebras India
+Tile Land
+Illa has a new game: Tile Land. It has tiles that show areas of water and land.
+Using the tiles, Illa can form landscapes. Neighbouring tiles must match: where tiles touch each
+other, land must touch land and water must touch water .
+For example, two tiles may be aligned like on the left, but not like on the right:
+Question:
+Which tile will Illa be able to place in one of the gaps below?
+A) B) C) D) E)
+January 2024 Page | 11
+
+===== PAGE 14 =====
+Bebras India
+Answer Explanation:
+A) is the correct answer
+We immediately see that this answer is correct: Each added tile matches its two neighbouring tiles.
+For each gap, we can look at all five tiles and see that only one tile can fill the gap, matching both
+neighbouring tiles. Hence, this is the only correct answer .
+It’s Informatics:
+Let us take another, closer look at Illa’s tiles. First, we realize that the tiles can be divided into
+sections, with the two outside borders of each section showing either both land or both water .
+Hence, there are only two different types of sections. We can label them "W" (for sections with their
+outside borders showing water) and "L" (for sections with their outside border showing land).
+We also realize that two tiles match if their neighbouring section types are equal. Hence, for most
+sections of the gaps, we can fill in the required types already. For the two sections in the outer
+corners of the gaps, we do not care about the type and fill in a '*'. Thus, for each gap, we get a
+section type pattern. The tiles to fill the gaps must fit these patterns. For each pattern, only one tile
+on the right fits the pattern.
+In summary, we discovered a special property of the tile images, and used this discovery to replace
+them by an arrangement of characters L and W . By this step, we reduced the information contained
+January 2024 Page | 12
+
+===== PAGE 15 =====
+Bebras India
+in the images significantly, in order to focus on what was needed to solve this Bebras task. Computer
+Scientists would refer to the character arrangements as models of the images. Modeling involves
+abstraction, and abstraction reduces information. Computers need to work on models of reality. In
+the process of creating such models, it must be taken care that important properties of reality will
+not get lost.
+January 2024 Page | 13
+
+===== PAGE 16 =====
+Bebras India
+Umbrella
+This is Anita’s umbrella:
+Question:
+One of the four images shows Anita’s umbrella. Which one?
+A) B) C) D)
+January 2024 Page | 14
+
+===== PAGE 17 =====
+Bebras India
+Answer Explanation:
+The correct answer is C.
+Every pattern is used only once in Anita’s umbrella. Therefore, we can
+compare each image with Anita’s umbrella this way:
+● pick the left-most pattern from the image and find its position in Anita’s umbrella.
+● check if the following patterns match Anita’s umbrella.
+In each image we can see a sequence of only five patterns. So we cannot decide whether the image
+matches the full sequence of all ten patterns of Anita’s umbrella. However, only image C has a
+sequence of five patterns that fully matches Anita’s umbrella. For this reason, only umbrella C can
+show Anita’s umbrella. All other images show pattern sequences that only partially match that of
+Anita’s umbrella; so they cannot show Anita’s umbrella.
+A B C D
+answer
+images
+Anita’s
+umbrell
+a
+It’s Informatics:
+In this Bebras task, we gain only partial information about the umbrella patterns shown in the
+answer options. Nevertheless, we can determine which image shows Anita’s umbrella: We can look
+at the four pattern sequences and notice that only one also occurs in Anita’s umbrella.
+The same principle as for the “umbrella search” is applied when searching a text document. The
+computer searches with the given partial information (“search sequence” of letters) for matching
+sequences of letters in the document. You can observe that the longer your search sequence, the less
+matches you will find and the higher your chance to find the spot in the document that you are
+January 2024 Page | 15
+
+===== PAGE 18 =====
+Bebras India
+looking for . The shorter your sequence, the less accurate, but the faster your search. In computer
+science, search procedures (search algorithms) have been designed (and are still being improved) in
+order to obtain the most suitable results as quickly as possible. These algorithms are capable of
+searching in large amounts of data, like the internet search tools you may know.
+The problem can be solved by using decomposition. Decomposition means breaking down a problem
+into smaller problems or steps. To find a matching sequence of 5 patterns you can break it down to
+the steps described in the answer explanation.
+This task is also a very practical exercise in pattern recognition. Pattern recognition is the ability to
+recognize regularities, repetitions or similarities in a set of data. To find the favorite umbrella it is
+necessary to quickly find the matching sequences of the patterns. Later, when programming, pattern
+recognition allows us to use a modular approach, where we have to solve a recurring subtask only
+once.
+January 2024 Page | 16
+
+===== PAGE 19 =====
+Bebras India
+Coded Age
+Jisha shows Shailesh how to use the cards below to tell their ages..
+Jisha is 6, so she uses the cards (4 + 2 = 6).
+Sailesh is 7, so he uses the cards (4 + 2 + 1 = 7).
+Question:
+Big sister Kali is 9. What cards will she use to show her age?
+A) B) C) D)
+January 2024 Page | 17
+
+===== PAGE 20 =====
+Bebras India
+Answer:
+T h ec o r r e c ta n s w e ri so p t i o nA( 8+1=9 ) .
+Explanation:
+Option B is incorrect because it represents age 10 (8 + 2 = 10).
+O p t i o nCi si n c o r r e c tb e c a u s ei tr e p r e s e n t sa g e1 1( 8+2+1=1 1 ) .
+Option D is incorrect because it represents age 13 (8 + 4 + 1 = 13).
+This is Informatics:
+Different representations for numbers is common in computer science. In a single computer there
+may be many different representations for numbers all being used at the same time. For example,
+ages (integers), fractions (real values), and dates would all have different representation rules.
+Understanding the number representation in this task is a stepping stone to understanding positional
+notation for numbers (decimal or binary, for example) which makes numerical calculations (e.g.
+addition, multiplication) very efficient with pencil and paper, and also in a computer .
+Inspired by the binary number system, the numbers on the cards in this task are carefully chosen to
+be powers of 2 so that only one of each card colour is needed to represent numbers between 0 and
+15. However, compared to a positional notation such as binary, the number representation in this
+task, based on the colour of the cards, is more flexible in that the order of the cards does not matter .
+But, it has two main disadvantages that makes it impractical. Firstly, humans and computers will find
+it difficult to distinguish between the different colours if we try to represent very large
+numbers,secondly, for efficient numerical calculations we would need to convert the colours into a
+different representation.
+This is Computational Thinking:
+The CT competency of ‘representation’ is used in this task as numbers are encoded into a format
+using coloured cards.
+The CT competency of ‘decomposition’ , can be used in this task to determine one at a time (starting
+from the largest) which powers of two are present in an arbitrary number . By combining the resulting
+cards we have the final representation of numbers in this number format.
+As with many multiple choice questions, the CT competency of ‘evaluation’ can be used to check (by
+addition) which of the answer options is the correct one.
+The CT competency of ‘algorithmic thinking’ is implicit in the task as using Zita’s representation
+system requires an algorithm to encode and decode decimal numbers.
+January 2024 Page | 18
+
+===== PAGE 21 =====
+Bebras India
+A day at the zoo
+Anjali spends a day at the zoo. There are many different activities.
+Each activity has a start and an end time, and visitors cannot leave in the middle of an activity.
+Anjali wants to attend as many activities as possible, but she can only attend one activity at a time.
+She can’t leave in the middle of an activity, so she has to attend activities from beginning to end.
+Since some of the activities overlap, Anjali cannot attend all of the activities today.
+Question:
+What is the maximum number of activities Anjali can attend during a single day?
+A. 4
+B. 5
+C. 6
+D. 7
+E. 8
+January 2024 Page | 19
+
+===== PAGE 22 =====
+Bebras India
+Answer Explanation:
+The correct answer is B)
+Anjali can attend a maximum of 5 activities over the entire day.
+One way to solve this problem is to try all possible combinations of non-overlapping
+activities. Each combination of non-overlapping activities gives us a valid schedule. Then we
+check which schedule has the most activities (an optimal schedule). This is called an
+exhaustive search.
+An exhaustive search can be difficult since there are too many possibilities to check. It’s also
+hard to make sure that you’ve checked everything.
+We can make an observation to simplify the problem. If two activities overlap, then only one
+of the two activities can be part of an optimal schedule. If one activity takes place
+completely during another activity, then it is always better to take the shorter activity.
+For example, the bird show takes place completely during the aquarium light show
+and it is shorter, it is better not to choose the aquarium light show, because it may
+overlap with a larger number of other activities.
+January 2024 Page | 20
+
+===== PAGE 23 =====
+Bebras India
+With the same reasoning, we can do the following.
+• We can exclude the kangaroo feeding , since the reptile show takes place
+completely during the kangaroo feeding.
+• We can exclude the elephant showering , since the bear feeding takes place
+completely during the elephant showering.
+After deleting these three activities, we are left with these activities.
+January 2024 Page | 21
+
+===== PAGE 24 =====
+Bebras India
+We can decompose (or break up) these activities into independent groups, which we call A,
+B and C. We can find the optimal schedule for the entire day by finding the optimal schedule
+for each group.
+For group A, there is only one activity: the bird show. The optimal schedule is to attend
+the bird show.
+For group B, there are three activities. Conducting an exhaustive search, there are only two
+valid schedules for group B.
+January 2024 Page | 22
+
+===== PAGE 25 =====
+Bebras India
+The optimal schedule is to take the spider and the reptile show activities.
+For group C, there are also three activities. Using a similar reasoning, the optimal schedule is
+to take the bear feeding and monkey show activities.
+Putting the optimal schedules together, we have the following schedule for the entire day.
+January 2024 Page | 23
+
+===== PAGE 26 =====
+Bebras India
+There are 5 activities in this schedule. Anajli will not be able to attend “elephant showering” .
+It’s Informatics:
+Often in informatics, when designing an algorithm to solve a problem, the easiest algorithm
+to think of is an exhaustive search, as it is conceptually simple and guaranteed to give the
+correct answer . The main problem is that an exhaustive search can take too much time to
+do, either by hand or with a computer . We need to find ways to make more efficient
+algorithms to solve problems in a more reasonable amount of time.
+In order to make an algorithm more efficient, we often have to make observations about the
+problem which allow us to simplify the problem. A problem where you maximize or
+minimize a quantity is called an optimization problem. When simplifying an optimization
+problem, we have to think about what decisions we can make which do not prevent us from
+obtaining an optimal solution. In the task, we were able to disregard the aquarium light
+show, koala feeding, and elephant showering activities, since we can be sure any schedule
+containing these activities can be potentially improved by picking a different activity instead.
+Another strategy which allows us to make an algorithm more efficient is decomposing the
+problem into independent parts, called subproblems. Since computers are really good at
+January 2024 Page | 24
+
+===== PAGE 27 =====
+Bebras India
+doing the same task repeatedly on different inputs, it is a viable strategy to find an algorithm
+which can be applied to independent subproblems.
+In general, the task of choosing the maximal number out of several activities in a certain
+period of time is called the activity selection problem or interval scheduling problem. When
+managing processes in a large factory or running many programs on a single computer, we
+might have an activity selection problem with thousands or millions of activities. In
+informatics, there are even more sophisticated algorithms to solve these problems without
+any use of exhaustive search at all.
+January 2024 Page | 25
+
+===== PAGE 28 =====
+Bebras India
+Flowershop
+The flower shop sells bouquets that are composed in only three steps:
+1. Pick a flower from the first bucket.
+2. If the flower is a daisy , pick another daisy.
+3. Pick at least one branch from the second bucket to complete the bouquet.
+Question:
+Which of these bouquets have been bought in the flower shop?
+January 2024 Page | 26
+
+===== PAGE 29 =====
+Bebras India
+Answer Explanation:
+C is the correct answer
+There are 2 correct solutions:
+In order to compose the bouquet correctly, you need to follow the three instructions:
+● Following the first instruction, you can pick either a daisy or a rose.
+● Following the second instruction, you pick either another daisy, so that you have two, or no
+flower, leaving you with one rose.
+● Following the third instruction, you add either three branches to the rose or two branches to
+the two daisies, in order to obtain exactly 4 pieces.
+It’s Informatics:
+The instructions to compose a bouquet are very clear and could be executed by a machine. In
+informatics, this is called an algorithm. In this task there are some very typical instructions that
+appear in many computer programs.
+● The first instruction is a random choice from a collection of objects.
+● The second instruction is called an if-statement. The command “pick another daisy” is only
+executed if a certain condition is true. This condition is “the flower is a daisy” .
+● The third instruction looks simple but is a rather complex repeat-until or while repetition.
+Here, a certain activity, namely “pick a branch from the second bucket” , is repeated several
+times. The number of repetitions has to be at least 1 and stops when the bouquet has 4
+pieces.
+Floristry is an art and a profession. There exist different traditions with rules on how to compose
+bouquets. This is an example that professional knowledge includes algorithms.
+To solve this task it is necessary to understand and execute an algorithm. Further, this task illustrates
+that algorithms are a facet of cultural life. Evaluation is also part of the task, because at the end, you
+must have 4 flowers, and they cannot be two roses, or one daisy and one rose.
+January 2024 Page | 27
+
+===== PAGE 30 =====
+Bebras India
+Photo
+The beaver just took a photo. It is one of the four images below.
+Question:
+Which one did the beaver take?
+A) B) C) D)
+January 2024 Page | 28
+
+===== PAGE 31 =====
+Bebras India
+Answer Explanation:
+D) is the correct answer .
+To determine how the logs appear in the photo, it is important to analyze which logs are left or right
+to each other . Here, the log with the pointed end (looking like a pencil) is between the two brown
+logs, so options A and C are out. Also, you can see that the beaver, when taking the photo, sees the
+“pencil” log left to the big brown log (without leaves). This is the case in option D only.
+This is Informatics
+In this Bebras task, your task was to examine the order of the logs instead of their specific positions
+in the images. To do so, we considered special links between the logs: For each log, we can say it is
+linked to the log on its right and to the log on its left.
+In computers, it can be useful to store data in a similar way. Each data item (like a number or a letter)
+will have links to two neighbors. In informatics, this structure is called a “doubly linked list” . It is very
+flexible: It can hold as much data as you like, and data can be added to or removed from it easily.
+This task requires competence in abstraction – to identify relevant information (the arrangement of
+logs in a circle) and in spatial reasoning (when transforming the representation of objects, their
+relationships are preserved).
+January 2024 Page | 29
+
+===== PAGE 32 =====
+Bebras India
+Applique
+Applique is an art form where shapes such as animals, birds and flowers are attached to fabric.
+An artist is using two different shapes for applique, an elephant and a flower . To make their planning
+easier, the artist divides the pieces of fabric into squares. Attaching an elephant requires an area of
+25 squares (5 x 5 squares). Attaching a flower requires an area of 9 squares (3 x 3 squares).
+Both shapes can be attached facing any direction and onto any colour fabric. On each piece of fabric,
+elephants must be attached first. The artist wants to place as many elephants as possible. When no
+more elephants can be attached, flowers are then attached to the remaining area. Shapes are not
+allowed to overlap.
+Question:
+What is the maximum total number of shapes that can be attached to the two pieces of fabric?
+A B C D
+8 (3 elephants and
+5 flowers)
+10 (4 elephants and
+6f l o w e r s )
+9 (3 elephants and
+6f l o w e r s )
+10 (3 elephants and
+7f l o w e r s )
+January 2024 Page | 30
+
+===== PAGE 33 =====
+Bebras India
+Answer:
+The correct option is C
+Explanation:
+One possible placement of elephants and flowers is shown below. Other optimal placements have
+the same number of shapes.
+Yellow fabric Pink fabric
+Without the requirement of the maximum number of elephants, the pink fabric has another solution
+with the same total number of 6 shapes but only 1 elephant and 5 flowers.
+This is Informatics:
+Memory management is an important task performed by an operating system. Several algorithms
+have been developed to aid memory allocation with an aim to maximize useful space. Best fit
+algorithm allocates the smallest free chunk of memory available that is adequate for the current
+requirement. The first fit algorithm allocates the first chunk of contiguous memory it finds that is
+large enough to meet the requirement. Whereas the worst fit algorithm allocates from the largest
+chunk of memory available. Each technique has its pros and cons in terms of speed versus memory
+utilization.
+In the task we are trying to optimize the number of shapes that can be attached to the fabric pieces
+by attaching the largest shapes first. This is an example of the first fit algorithm.
+This problem can be solved by applying a number of computational thinking skills. Abstraction is
+needed to use just squares of specified sizes. Algorithmic thinking is needed to apply the rules of the
+question, attaching elephants first, then filling the remaining space with flowers. Decomposition
+splits the question into two distinct problems, first placing the maximum number of elephants, then
+identifying locations to fit the flowers in the remaining space. Using abstraction can help to solve the
+problem, treating the elephant and flower as simple grid squares.
+January 2024 Page | 31
+
+===== PAGE 34 =====
+Bebras India
+Beads Stringing
+Esha and Ovi want to make a beaded necklace for their mom, which should look like this:
+To finish it as quickly as possible, they will both string the beads at the same time, Esha from the left
+and Ovi from the right.
+To help them string the beads in the correct order, the beads are placed on a vertical support, one for
+each sister .
+Esha is younger and she strings beads more slowly. In the time she strings one bead, Ovi strings two
+of them.
+Question:
+How must the beads be organised on Esha’s support so that the necklace is ready as soon as
+possible?
+A) B) C) D)
+January 2024 Page | 32
+
+===== PAGE 35 =====
+Bebras India
+Answer Explanation:
+The correct answer is C).
+Answer A) is not correct. Esha strings the beads more slowly than Ovi. If Esha had strung six beads,
+Ovi would have strung twelve beads during the same time. That would make a total of 18 beads,
+which is not correct since the necklace has 12 beads.
+Answer B) does not have the correct order of beads. If Esha were to string the beads in the order of
+the support, the necklace would look like this:
+Esha Ovi
+Answer D) also does not have the correct order of beads. If Emma were to string the beads in the
+order of the support, the necklace would look like this:
+Esha Ovi
+This is Informatics:
+One concept that is involved in this task is the Double-Ended Queue (deque, in short). It is a data
+structure used to represent a sequence of elements for which it is possible to add and remove
+elements from both ends. In this task, the necklace is a representation of a deque, namely a
+sequence of beads. Only the addition of a bead is used in this task.
+January 2024 Page | 33
+
+===== PAGE 36 =====
+Bebras India
+Another data structure is involved in this task, namely the Stack. This latter also represents a
+sequence, but for which it is only possible to add and remove elements from its top. In this task, the
+supports with the beads to string are a representation of stacks, namely a sequence of beads from
+which beads are taken one after another from the top.
+Finally, this task is also related to data structure manipulation. In this task, several pieces of data
+(beads) are transferred from one data structure to another one: beads are removed from the support
+(stack) to be added to the necklace (deque).
+January 2024 Page | 34
+
+===== PAGE 37 =====
+Bebras India
+Magic Tree
+Babloo has a magical tree growing near their home.
+Whenever a bird ( ) lands on it, the tree sprouts 2 apples. Whenever a squirrel ( ) climbs up
+it, the tree drops 1 apple (if it has any). Babloo has also noticed that whenever a snake ( ) visits
+the tree, all of the apples instantly disappear!
+One morning Babloo notes that the magical tree contains 25 apples. Babloo then spends the rest of
+the day drawing pictures of all the animals that come to the tree. The drawings, in order, are:
+Start of the day End of the day
+Question:
+How many apples are on the tree at the end of the day?
+A. 3
+B. 7
+C. 17
+D. 31
+January 2024 Page | 35
+
+===== PAGE 38 =====
+Bebras India
+Answer Explanation:
+The answer is B. There are 7 apples on the tree at the end of the day.
+Since all of the apples instantly disappear whenever a snake visits the tree, we can ignore everything
+that happens before the arrival of a snake. After the last snake, four birds land on the tree which
+means the tree will sprout 4 × 2 = 8 apples. Then one squirrel climbs up the tree which causes one
+apple to drop, leaving 8 − 1=7a p p l e s .
+It’s Informatics:
+This task introduces the ideas behind two fundamental programming concepts.
+The first is the idea of a variable. A variable is used to store information that a computer program
+needs. The value of a variable can change depending on what the rest of the program's instructions
+are. In this task, the number of apples on the tree is a variable and its value can increase ( ),
+decrease ( ), or reset ( ).
+In order to decide how to change the value of a variable, a computer program needs the ability to
+make decisions. This is the second fundamental programming concept and is referred to as selection.
+Decision making is accomplished by using special instructions called conditional statements that
+allow you to select from different possible outcomes. They commonly take the form "if this, then
+that". In this task, one conditional statement would be "if a bird lands on the tree, then increase the
+number of apples by 2". Can you find other conditional statements in this task?
+The task is in the area of abstraction, as students need to distinguish between the different cases in
+the task and focus only on the information they need. To solve the problem most efficiently, it is
+sufficient to examine the data from the last snake. The preceding markings are not relevant for us,
+since we always set the number of apples to 0 when the snake appears.
+Also the solution of the task requires algorithmic thinking or algorithmic design because students
+need to not only solve the task step by step, but they need to choose a solution depending on
+situations just like in case of an 'if' statement.
+January 2024 Page | 36
+
+===== PAGE 39 =====
+Bebras India
+Riccas
+Esha is trying to learn what a Ricca ( a friendly monster) looks like. Esha studies the following five
+photos of Riccas and makes some notes that accurately describe what she sees.
+Esha is then shown this sixth photo of a Ricca and realizes one of her notes is definitely wrong.
+Question:
+Which one of Esha’s notes about Riccas is definitely wrong?
+A. Riccas always have teeth.
+B. Riccas sometimes have wings.
+C. Riccas have either horns or three eyes, but not both.
+D. If Riccas have exactly two arms then they also have exactly two legs.
+January 2024 Page | 37
+
+===== PAGE 40 =====
+Bebras India
+Answer Explanation:
+The answer is Option D. It is not true that if a Ricca has exactly two arms then it also has exactly two
+legs. The sixth photo shows a Ricca with two arms and five legs.
+The note in Option A may still be true. All six photos show Riccas with teeth.
+The note in Option B is definitely true. The second photo shows a Ricca with wings.
+The note in Option C may still be true. Photos one, two, five, and six show Riccas with horns and
+"only" two eyes. The remaining photos (three and four) show Riccas with three eyes and no horns.
+It’s Informatics:
+Esha is learning to identify a Ricca by studying photos of Riccas and looking for similar characteristics.
+Computers can also be taught to do this, using a process called comparison. Nowadays, we can
+employ machine learning to compare a vast number of items automatically and in a short time. As
+part of machine learning, a computer is presented with a collection of data, and then it searches for
+patterns within this data to draw conclusions. Just like with Esha, it is possible for a computer to
+arrive at the incorrect conclusion. By providing the computer with more data, and data that is more
+representative and inclusive, the computer can correct its mistakes and update its learning.
+Detecting recurring patterns and regularities in given data is an important skill in informatics,
+generally referred to as pattern recognition. In programming, recognizing patterns allows us to adopt
+a modular approach, wherein we need to solve a recurring subtask only once. This is the foundation
+of efficient algorithms and software design, as it reduces code redundancy and enhances
+maintainability. Pattern recognition is also crucial for machine learning and artificial intelligence, as it
+empowers computers to learn from data and make predictions or decisions. For example, in image
+recognition, pattern recognition techniques assist in identifying objects in images, classifying them
+into different categories, and even recognizing faces. In natural language processing, pattern
+recognition enables computers to understand the structure of sentences, identify topics, and even
+generate human-like text.
+If care is not taken in the selection of data for machine learning, bias may be introduced into the
+computer system. Consider this: what impact would a speech recognition system have on society if it
+were trained only on data from male native English speakers?
+January 2024 Page | 38
+
+===== PAGE 41 =====
+Bebras India
+Karla’s Dream House
+Karla has three maps that all show exactly the same area. One map shows the forests, one shows the
+rivers, and one shows the houses. Karla's dream house is in the forest and close to the riverbank.
+Forests Rivers Houses
+Question:
+Which is Karla's dream house?
+A. A)
+B. B)
+C. C)
+D. D)
+January 2024 Page | 39
+
+===== PAGE 42 =====
+Bebras India
+Answer Explanation:
+Karla’s dream house is A), the left house on the top.
+To identify Karla's dream house, the information from all three maps
+must be evaluated. The selected house must be located in a forest area
+and close to a river, which only applies to the house on the top left.
+This is easy to see when the maps are overlayed:
+It’s Informatics:
+If the information about the vegetation, the rivers and the buildings were shown on a single map,
+then it would be easy to identify the house you are looking for .
+In a geographic information system (GIS), a wide variety of spatial information is brought together
+and displayed on a map. A GIS thus serves to visualize and analyze geodata. With the help of a GIS, it
+is possible for disaster control officers to compile information for evacuation plans, for example.
+The principle of multiple layers with different image information is also known from graphics
+programs. An important question is always which layer or which objects are displayed in the
+foreground. In the example, Karla's map should be the top layer, so that the houses are not hidden
+by the forest areas.
+The task requires students to systematically and logically combine multiple layers of maps to find a
+particular place. It involves geometric data structure analysis including abstraction of the three maps
+representation to create a coherent and informative composite map.
+January 2024 Page | 40
+
+===== PAGE 43 =====
+Bebras India
+Autonomous Cars
+Tushar is traveling with his autonomous car . A recent software update of the car had a major
+bug which causes it to make the same turn every time it reaches the same type of
+intersection as shown below. For example the car takes the left turn at every circle.
+Question:
+Which letter will be reached during Tushar’s journey?
+A) C
+B) D
+C) E
+D) F
+E) I
+January 2024 Page | 41
+
+===== PAGE 44 =====
+Bebras India
+Answer :
+The correct answer is D) F.
+Explanation:
+From the image, it can be concluded that the navigation system follows the following rules
+for each type of intersection:
+● In a T-intersection, the car always turns right.
+● In a circle, the car always takes the left turn.
+● In a +-intersection, the car always goes straight.
+The next intersection is a circle, so the car goes left, going up. Then the next is a
+T-intersection, so the car goes right. It goes straight in the +-intersection and turns right on
+the T-intersection in the uppermost part of the map. Finally, the car goes straight through
+the +-intersection and stops at F.
+This is Informatics
+It is a typical situation in Computer Science, that a dynamic system is observed that is
+controlled by an algorithm following certain rules. Future behaviour of the system can only
+be predicted by carefully analyzing the algorithm and determining the exact rules it follows.
+The system that is studied can be a real life system or a software system for example for
+debugging purposes.
+Solving this task requires good pattern recognition skills as well as algorithmic thinking.
+January 2024 Page | 42
+
+===== PAGE 45 =====
+Bebras India
+Logic Treasure
+An island contains three treasure chests: one by the mountains, one under the palm tree, and one by
+the sea. At the start of the day all three treasure chests are empty .
+At some point during the day, a pirate fills one of the chests with gold
+Three tourists took photos of the treasure chests while exploring the island. One tourist took their
+photos before the pirate filled a chest with gold. The other two tourists took their photos after the
+pirate filled a chest with gold.
+Anand: The chest by the sea was empty.
+Bindu: The chest by the sea was empty and the chest
+under the palm tree was empty.
+Chirag: The chest by the mountains was empty and the
+chest under the palm tree was empty.
+January 2024 Page | 43
+
+===== PAGE 46 =====
+Bebras India
+Question:
+Luckily for the pirate, no tourist found the gold. Which treasure chest was the gold in?
+A. The chest under the palm tree
+B. The chest by the sea
+C. The chest by the mountains
+D. The chest cannot be determined
+January 2024 Page | 44
+
+===== PAGE 47 =====
+Bebras India
+Answer:
+C) The gold was in the chest by the mountains.
+Explanation:
+Since there are three possible places for the gold to be, we can explore each possibility to see which
+one satisfies the details of the story.
+● If the gold was in the chest under the palm tree, then both Bindu's and Chirag's photos must
+have been taken before the pirate arrived. The story tells us that only one tourist took photos
+before, so this is a contradiction. The chest under the palm tree cannot contain gold.
+● If the gold was in the chest by the sea, then both Anand's and Bindu's photos must have been
+taken before the pirate arrived. This again contradicts the story. The chest by the sea cannot
+contain gold.
+● If the gold was in the chest by the mountains, then only Chirag's photos need to have been
+taken before the pirate arrived. This satisfies the story.
+Therefore, the pirate filled the chest by the mountains with gold.
+This is Informatics :
+This task involves logical reasoning. Using the photos given and considering the three places the gold
+could be, it is necessary to think logically and provide reasons why something must or must not be
+true. Contradictions are incredibly powerful when reasoning. If logical steps lead to two statements
+that cannot possibly be true at the same time, then we can say with confidence that an initial
+starting assumption must be false.
+Logic plays a key role in computer science in a huge variety of areas: databases, programming
+languages, artificial intelligence, hardware and software design and verification, etc.
+One way to solve this task is to explore each possible answer by assuming that it is true, and then
+following that assumption through its logical consequences in order to determine if the answer is
+plausible or if it causes a conflict with other details provided in the task.
+This process is called simulation and evaluation and it involves modelling a situation and then
+assessing its outcomes.
+January 2024 Page | 45
+
+===== PAGE 48 =====
+Bebras India
+Log Storage
+Sawya cuts wood logs of various lengths and then sells them. Whenever she has finished cutting one,
+she puts the logs down along the 18-meter-long narrow road, one after the other as the logs cannot
+fit side by side.
+When Sawya puts down a log, she places it in the first available spot from the left where the log fits.
+When she sells a given log, it is simply removed from the spot it previously occupied.
+Sawya has prepared, in this order, logs of lengths 2, 5, 3, 6, and 1 (in meters). This leads to this
+arrangement along the road:
+She proceeds to sell the logs with sizes 6, 2, and 5 meters. Then, she cuts a new 4-meter log. Since
+she places it as far left as she can, the road now looks like this:
+Question:
+Sawya has to cut logs of lengths 1, 2, 3 and 4 meters. Which of the following orders will allow her to
+store them all on the road, provided she uses the same rule?
+A)
+B)
+C)
+D)
+E)
+January 2024 Page | 46
+
+===== PAGE 49 =====
+Bebras India
+Answer:
+The correct answer is C)
+Explanation:
+The correct answer is C) First 3 m, then 2 m, then 4 m, then 1 m.
+All other answers lead to Sawya being unable to put down the last log.
+The state of the road before Sawya cuts the new logs, as shown in the question, has three free spots:
+the leftmost spot is 3 meters long, the middle spot is 6 meters long, and the last one, on the right, is
+1 meter long.
+Answer C) totally fills the leftmost spot with the first log, then totally fills the middle spot with the
+next two logs, and the last log goes right into the rightmost spot: this works.
+Answer A) totally fills the leftmost spot with the first two logs, but then puts the 3-meter-long log in
+the middle spot. Now the middle spot has been reduced to just 3 meters, and the last log, which is 4
+meters long, fits neither there nor in the rightmost spot.
+Answer B) puts the 1-meter-long log in the leftmost spot and, next, the 4-meter-log log in the middle
+spot. The leftmost spot can then still completely be filled with the third log, which is 2 meters long,
+but there is no sufficient contiguous space to put the last log.
+Answer D) has a similar problem, but even earlier: the third log of 4 meters already cannot be put
+down. The leftmost and rightmost spots are too small anyway, and the middle spot is half occupied
+by the second log of 3 meters.
+This is Informatics
+One can see Sawya’s road as memory (RAM, stands for Random Access Memory) inside a computer,
+and the logs being put down and, later, sold, as computer processes requesting a certain amount of
+memory to run. In this example, although there is enough space to theoretically put down all the
+logs, the order (and the strategy) in which they come and go makes it sometimes impossible to fit
+them all. The same can happen in computers: depending on the order in which chunks of memory
+are allocated and freed, it may be impossible to allocate a new chunk of memory of a given size, even
+when the total free memory is greater than that size. This problem is known as memory
+fragmentation. Allocation strategies smarter than that of Sawya or memory models allowing, e.g.,
+chunks to be moved help alleviate the fragmentation problem. Memory fragmentation is not only a
+problem with RAM: allocating space on a disk for writing files of various sizes leads to very similar
+problems.
+January 2024 Page | 47
+
+===== PAGE 50 =====
+Bebras India
+It’s Informatics:
+To solve this task, one must evaluate the different proposed orders according to the described
+strategy, and find out which lead to a possible solution or not. While doing so, one may infer rules of
+thumb that can help formulate criteria for a given order (or beginning of an order) to be either
+promising or probably leading to a difficult situation (e.g. by creating several small memory
+fragments, which will later be unlikely to be used).
+January 2024 Page | 48
+
+===== PAGE 51 =====
+Bebras India
+Unloading
+A freight train has wagons, each with a numbered box. A single crane is used for unloading. The
+crane is at a fixed position. To unload a box, the box has to be positioned directly below the crane.
+The boxes have to be unloaded in order starting from 1. The train can move only forward. It is on a
+circular track, so it can go around the track and return so more boxes can be unloaded by the crane.
+In the example above, the boxes have to be unloaded in the sequence of 1, 2, 3, 4. In the first round
+of unloading, the train skips box 4, unloads box 1, skips box 3, and unloads box 2. In the second
+round, it skips box 4 and unloads box 3. The train has to come back for a third round and unloads the
+final box, number 4.
+Question:
+How many rounds will be needed to unload all the boxes from the following train?
+(They need unloading in the order: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.)
+A) 5
+B) 7
+C) 8
+D) 9
+E) 10
+January 2024 Page | 49
+
+===== PAGE 52 =====
+Bebras India
+Answer Explanation:
+The correct answer is B) 7
+The required order for unloading is 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. If we follow the procedure outlined
+above, then during the first round boxes 1 and 2 will be unloaded together, then 3 and 4 together,
+then 5, then 6, then 7 and 8 together, then 9, and finally 10. This is 7 rounds.
+Alternatively, one might notice the general principle that for each number in this sequence 1, 2, ..., if
+t h en e x tn u m b e rc o m e st ot h el e f to fi ti nt h et r a i n ,a ne x t r ar o u n di sn e e d e d .F o ri n s t a n c e ,i f3
+appears to the left of 2, then 3 will be skipped to unload 2 and so an extra round is needed to bring 3
+under the crane. In the given challenge, the number of such pairs that are out of order are (2,3),
+(4,5), (5,6), (6,7), (8,9), and (9, 10), so 6 extra rounds are needed, for a total of 7 rounds.
+This is Informatics:
+For any box number, if the next largest number is to the left of it on the train, we call this an
+“inversion” . For each such inversion, an extra round is needed. If we count the number of inversions,
+we get the answer . Counting inversions with respect to a desired sequence has many applications.
+For some sorting algorithms, such as bubble sort, the number of inversions tells us how many swaps
+we need to sort a given sequence. If two customers rank the same set of items in order of
+preference, the number of inversions in their rankings tells us how aligned their tastes are. This is
+used by online shops to identify “similar” customers to make product recommendations.
+Algorithmic thinking can be used to solve this task. The sequence of steps that describes the
+unloading procedure is given, and we must carefully follow these steps to determine how long the
+unloading will take. Alternatively, decomposition combined with logic can be used to solve this task,
+if we understand that the number of pairs (1, 2), (2, 3), (3, 4), ..., that appear out of order in the
+sequence of boxes determines the number of unloading rounds needed.
+January 2024 Page | 50
+
+===== PAGE 53 =====
+Bebras India
+Planting Carrots
+The robotic rabbit is seeding carrots on these four mounds.
+He knows these commands:
+jump left to the next mound, jump right to the next mound
+place a carrot seed on the mound you are on
+Here are a sequence of commands for the rabbit:
+We don't know which mound the rabbit started on, but we do know that when he did this sequence,
+he placed each of three carrot seeds on different mounds.
+Question:
+Which picture shows the carrot seeds as planted by the rabbit according to the sequence of
+commands?
+A)
+B)
+C)
+D)
+January 2024 Page | 51
+
+===== PAGE 54 =====
+Bebras India
+Answer Explanation:
+The correct answer is D)
+The rabbit must start on the third mound from the left, otherwise it could not jump as specified in
+the given sequence of commands, i.e. once to the right and then three times to the left:
+After executing the first two commands
+Rabbit places the seed on the mound to the far right:
+It then executes the commands
+and he lays the seed:
+Then he jumps twice to the left and lays the last seed
+The carrot seeds will be on the hills as in answer D):
+January 2024 Page | 52
+
+===== PAGE 55 =====
+Bebras India
+F o ra n s w e rA )
+the rabbit could be starting
+and the program could look like this:
+F o ra n s w e rB )
+the rabbit could be starting
+and the program could look like this:
+F o ra n s w e rC )
+the rabbit could be starting
+and the program could look like this:
+January 2024 Page | 53
+
+===== PAGE 56 =====
+Bebras India
+This is Informatics:
+The computers are programmed similarly to how a robotic rabbit is controlled, but use more
+instructions. In our case, the sequence of commands for the robot is specified using picture blocks.
+This notation must be understood and interpreted by the pupils. They also need to realize that the
+instructions are given in a specific order on which the outcome depends - the placement of the
+carrot seeds on the hill.
+In order to find the initial location of the robotic rabbit, it is necessary to trace the given sequence of
+instructions while observing the given conditions (the rabbit places each seed on a mound).
+Debugging is an important part of programming. Using this process, we not only look for bugs in the
+program, but we can also use it to detect appropriate inputs so that we get the desired outputs.
+This is related to algorithmic thinking. Thinking in terms of sequences and rules.
+January 2024 Page | 54
+
+===== PAGE 57 =====
+Bebras India
+Closer or Further
+Disha is playing a game to find out where the treasure was buried in a grid of squares. Disha begins
+from a starting square denoted as S a n ds h ec a nm o v eas t e pat one time only horizontally or
+vertically to the neighbor squares. After each step, Disha receives a signal indicating whether she is
+closer (C) to or further away (F) from the treasure, where the distance t ot h et r e a s u r ei st h e
+minimum number of steps reaching there.
+For example, on the 3x3 grid shown below, the treasure is buried under the square marked . Disha
+goes forward two steps following the arrows. The distances from the two squares to the treasure are
+shown below on the right. Disha gets the signals “C” and “F” , respectively, after each step.
+Now, Disha is given another 4x7 grid, where her path follows the arrows and the obtained signals are
+also reported. Then, Disha is given a hint that the treasure is buried under one of the five numbered
+squares.
+Question:
+Under which numbered square the treasure was buried?
+A) 1 B) 2 C) 3 D) 4 E) 5
+January 2024 Page | 55
+
+===== PAGE 58 =====
+Bebras India
+Answer Explanation:
+The correct answer is E) square 5.
+We check the accuracy of the markings "C" and "F" on the playing board by writing the distance to
+square 5 in each square.
+We can see that if the distance to square 5 increased when moving in the direction of the arrow, the
+letter "F" is noted, and if its distance to square 5 decreased, then "C" is noted in the square. The
+obtained sequence of signals is consistent with the reported result. So the treasure is placed under
+square 5.
+For the other possibilities of placing the treasure, we find an incorrect letter in the reported result.
+For treasure in squares 1, 2 or 4:
+If the treasure was buried under one of the square 1, 2, or 4, then the letter "F" in row 4 and column
+2 would have to be a "C" because that square is closer to the treasure (to all these three locations)
+than was the square that it came from (i.e., row 4, column 3).
+For treasure in square 3:
+If the treasure was buried under square 3, then the square in row 2 and column 6 would have to be
+"F" because that square is further from the treasure than the square that the player started on (i.e.,
+row 1 and column 6).
+This is Informatics
+January 2024 Page | 56
+
+===== PAGE 59 =====
+Bebras India
+Reinforcement learning (RL) is a technique of machine learning, which concerns how intelligent
+agents ought to take actions in an environment in order to maximize the cumulative reward. The
+fundamental components of an RL system include an agent or learner, the environment it interacts
+with, the policy it follows to make decisions, and the reward signal it receives after taking actions. To
+evaluate the reward signal, the value function measures the "goodness" of a particular state.
+In this specific task, the new location in the playing board after a move represents the environment,
+while the signal obtained from the detected distance serves as a reward signal (with 'C' indicating a
+positive reward and 'F' indicating a negative reward). The player, Daniel, who collects reward signals
+by making optimal decisions for the next step, serves as the agent. He must consider the possibility
+of a square containing the treasure, which is similar to the value function.
+It is worth noting that the distance between squares in this scenario is measured by the Manhattan
+distance (also called taxicab metric), with the player only able to move horizontally or vertically.
+Autonomous driving is an example of an application of RL. In order to operate successfully in an
+unpredictable environment, an autonomous driving system must perform numerous perception and
+planning tasks such as vehicle path planning and motion prediction. Vehicle path planning entails the
+use of various low and high-level policies to make decisions that consider different temporal and
+spatial scales. Motion prediction, on the other hand, involves forecasting the movements of
+pedestrians and other vehicles, providing insight into how the situation might evolve based on the
+current state of the environment.
+In order to tackle this particular task, when devising a strategy to move forward, it is essential to
+develop a systematic approach that incorporates the principles of algorithm design. This ensures a
+well-structured plan for navigating the grid and optimizing the treasure-seeking process, that is the
+ability of algorithm design.
+In this task, according to the signal provided, represented by either "C" or "F ," the
+divide-and-conquer strategy can be used to determine potential locations for the buried treasure by
+dividing the grid. When encountering the "F" signal while moving forward, it indicates that none of
+the squares ahead can be considered as potential solutions. A good algorithm design strategy serves
+to narrow down the search space of the problem.
+January 2024 Page | 57
+
+===== PAGE 60 =====
+Bebras India
+Model Railway
+Ondra built a railway model with a Home station and 4 other stations. The train is programmable, can
+execute a sequence of instructions, and turn at railway switches according to the instructions. It
+terminates at the nearest station after executing all of the instructions.
+The instructions can only be the letters L and R. When the train reaches a railway switch, it chooses
+the direction in which to go based on the following table.
+Railway Switch Next
+Instruction
+Where to
+go
+L
+R
+For this
+switch next
+instruction is
+not
+processed
+and the train
+continues in
+the direction
+shown on
+the right
+Ondra places the train in the Home station with the direction shown in the image. If she gives the
+instruction RL, then the train will terminate at Banana station.
+If Ondra places the train back to the Home station with the same direction and gives the instructions
+LR then the train will terminate at Banana station again.
+January 2024 Page | 58
+
+===== PAGE 61 =====
+Bebras India
+Question:
+Which station will the train terminate after executing the instructions LLRR when starting from
+Home station with the same direction as shown in the picture?
+A) Apple station
+B) Banana station
+C) Cherry station
+D) Dates station
+January 2024 Page | 59
+
+===== PAGE 62 =====
+Bebras India
+Answer Explanation:
+Correct answer is B.
+After executing L the train goes through Apple station.
+After executing next LR it goes through Dates station. Since there is an instruction left the train will
+keep moving and goes to the Cherry station without using any instruction.
+After executing next R it goes Banana station. Because we do not have any further instructions, the
+train will stop at this station.
+January 2024 Page | 60
+
+===== PAGE 63 =====
+Bebras India
+It’s Informatics:
+A program is a sequence of instructions. The instructions combined with some conditions (direction
+at which we approach the railway switch) determines the path the train will take. Such instructions
+must be unambiguous and understandable for the agent executing it to avoid errors.
+Automatic railway control assumes that conditions and instructions are stored and the journey can
+be reconstructed later .
+This task requires understanding the graph model of a reality and way of coding the movement of
+the train. We need abstraction to grasp the essential and work with it.
+This task is also algorithmic thinking. We have the code describing how to process and we are
+interested in the final status after executing the code.
+January 2024 Page | 61
+
+===== PAGE 64 =====
+Bebras India
+Counting
+Meena enjoys walking holidays where she stays somewhere different each night. The diagram shows
+the complete walk Meena is considering for her next holiday. Meena can only walk one or two
+sections (marked by dashed lines) in a day. It shows the start, end, and all the places she can stop for
+the night. Two possible routes are shown on the diagram:
+Route 1 will have 3 overnight stops.
+Route 2 will have 4 overnight stops.
+Question:
+How many different routes (including the two shown) could Meena take on her walking holiday?
+A) 4
+B) 5
+C) 6
+D) 7
+E) 8
+January 2024 Page | 62
+
+===== PAGE 65 =====
+Bebras India
+Answer:
+The correct answer is C)
+Explanation:
+We can solve the complete problem by using decomposition: First we notice that Meena has
+to stay at B and C because the distance between these two places is the maximum distance
+she can walk in a single day. This allows us to consider the two sections before and after this
+as two smaller problems. It can be seen there are two ways of getting to B from the start
+(the ones shown in Route 1 and Route 2). Therefore, there are only two possible routes to C.
+We can now look at how many ways there are of getting from C to the end. You should be
+able to work out, in this smaller problem, that there are only three possibilities:
+C → D → E → End
+C → E → End
+C → D → End
+This means that there are 2 x 3 possible routes in total.
+It's Informatics!
+In this case the task can be solved by humans by decomposition into two smaller problems.
+With larger similar problems a dynamic programming solution is used. This is a strategy
+where an algorithm decomposes the problem into very small problems and uses the
+solutions for the smaller problems to create the bigger solution.
+If you number the places where you can be with Start, A, B, C, D, E, End, you can make a
+table of how many ways there are to reach each location.
+Location Ways to get there
+Start 1
+A 1 (directly from the Start)
+January 2024 Page | 63
+
+===== PAGE 66 =====
+Bebras India
+B 1 + 1 = 2 (either from the Start, or from A
+C 2 (you have to come from B)
+D 2 (you have to come from C)
+E 2+2 = 4 (either from B, or from C)
+End 2 + 4 = 6 (either from D or from E)
+As you saw in the answer explanation there are many things going on here. First of all we
+abstract from the houses, mountains and buses, and just give those labels.
+Then the algorithm does something smart, it starts solving smaller problems; how many
+ways are there to reach each point beginning at the starting point.
+This is a strategy where if we know the answers up to point 'B', it's easy to calculate for point
+'C'.
+Filling the table above in this way is called dynamic programming. This is a smart algorithm
+to find a solution in cases like this and also works for bigger problems where it would be
+particularly time consuming for humans to solve.
+January 2024 Page | 64
+
+===== PAGE 67 =====
+Bebras India
+Ogham Code
+At school, Ruchi and Aabha learned an ancient Irish alphabet called Ogham. It has letters
+which are formed by groups of lines. Different letters are separated by larger spaces.
+Aabha used Ogham to write words to her friend Ruchi. She wrote four food items and told
+Ruchi that they are bananas, berries, oranges, and lettuce.
+Question:
+Below are the four foods written using Ogham. Which one of them is BERRIES?
+AB C D
+January 2024 Page | 65
+
+===== PAGE 68 =====
+Bebras India
+Answer:
+The correct answer is D
+Explanation:
+There are various different ways the match between the letters can be figured out. Below we explain
+one way.
+However, the first step should be figuring out the direction in which the words should be read. It is
+not from left to right (or right to left) because in this case the words would have to have 4 letters and
+there have to be seven words and that is not the case. Also, the location of the boxes would not
+make sense. Now, one can compare the four top and bottom letters with the first and last letter in
+the words. Since 3 of the words end up with the same letter (S) they have to end in the top, so the
+reading goes bottom to top.
+Once this is done, we can analyze each word separately.
+BANANAS is the only word with three same letters “A” and the third picture is the only one with 3
+same characters so it must be BANANAS. We now know that letter A is a single long horizontal line.
+ORANGES is the only other word with an “A” . The second picture is the only one left with a single
+long horizontal line so the second picture must be “ORANGES” .
+Now we have only LETTUCE and BERRIES left to figure out.
+ORANGES and BANANAS both end with an “S” (four horizontal lines on the right). Also the fourth
+picture ends in same character so it must be BERRIES.
+Therefore LETTUCE must be the first picture.
+For completeness, here is a breakdown of the letters in each word:
+It’s Informatics:
+January 2024 Page | 66
+
+===== PAGE 69 =====
+Bebras India
+This task is a simple example of cryptanalysis. Cryptanalysis is the study of how to "crack" encryption.
+It is used to figure out contents of encrypted messages without access to the key normally required
+to do so. Experts called cryptanalysts try to decipher messages. In doing so, they use their knowledge
+about the words that may possibly be in the hidden message.
+Pattern recognition: To solve this task it is important to find patterns (e.g. repeats of the same letters)
+between the words and the pictures.
+Decomposition: This problem can be solved by breaking it into solvable parts (e.g. figure out one
+letter at the time). By combining the partial solutions, the initially complex problem can be solved.
+Representation: This task requires understanding how letters can be represented with different
+symbols or pictures.
+January 2024 Page | 67
+
+===== PAGE 70 =====
+Bebras India
+Job Assignment
+Rani, Meera, Ehan, Omkar, Yash, Bahar and Ninad have applied for open positions in a factory
+departments including accounting, warehouse, call center, and packing.
+Each individual is only qualified for jobs shown in the figure.
+One person must be hired to work in each position and each person can hold at most one of the jobs.
+Question:
+Which of the following is definitely true?
+a) Nahid will be hired for packing.
+b) Yash will be hired for the warehouse.
+c) Omkar will be hired for packing.
+d) If Meera is hired for packing, Bahar will be hired for accounting.
+e) Ehan will be hired for accounting.
+January 2024 Page | 68
+
+===== PAGE 71 =====
+Bebras India
+Answer Explanation:
+Choice (b) is true.
+It is enough to note that if a certain job has only one
+applicant, that applicant must be hired in that job, even if
+he/she has applied for other jobs as well.
+Thus, at first glance Omkar must be hired in the Call center .
+Therefore choice (c) is false.
+Now we remove Omkar and Call center and their
+lines from the figure, because the call center job is filled
+and Omkar can only have one job.
+By repeating this logic Yash will be hired for the
+Warehouse and the choice (b) is true.
+By removing Yash and the Warehouse and
+their lines from the figure, we can clearly see a
+solution that violates choices (a) and (d) and (e).
+For example, Meera and Rani might be hired
+in Packing and Accounting respectively.
+This is Informatics:
+We used a bipartite graph to represent the data structure of jobs and applicants. This is a constraint
+satisfaction problem where assigning values to variables eliminates other options and could be
+represented using traditional set notation, e.g. Warehouse = {Omkar, Yash} before applying arc
+January 2024 Page | 69
+
+===== PAGE 72 =====
+Bebras India
+consistency logic to assign jobs. Constraint satisfaction problems are common in many real world
+resource allocation problems and in puzzles (such as Sudoku).
+The story behind this task is using bipartite graphs for job assignment. Bipartite graphs are an
+interesting representation of a graph using two categories of vertices which allow a polynomial time
+algorithm to solve the vertex matching problem.
+We used decomposition by looking at each job alone and independent of other jobs.
+We used logic where we said that “if a certain job has only one applicant, that applicant must be
+hired in that job, even if he/she has applied for other jobs as well” , then we found an algorithm to
+solve this task, therefore this is Computational Thinking.
+January 2024 Page | 70
+
+===== PAGE 73 =====
+Bebras India
+OpenIt
+A beaver has to unlock a safe by lighting up the correct number combination.
+On each move, the beaver can rotate the arrow clockwise for either 3 or 4 steps. The arrow
+toggles the light of the number it lands on: if the number’s light was off, the light is turned
+on; if the number’s light was on, the light is turned off.
+For example, this is what happens if the beaver makes 3 moves, each rotating by 4 steps:
+Starting position After 1 st move
+(4 steps)
+After 2nd move
+(4 steps)
+After 3rd move
+(4 steps)
+Question:
+To open the safe, the beaver needs to light up only 7 and 8 (no other numbers should be lit).
+What is the minimum number of moves the beaver needs to do in order to light up only 7
+and 8 from the starting position shown above?
+A )3m o v e s
+B )4m o v e s
+C )5m o v e s
+D )6m o v e s
+E )7m o v e s
+January 2024 Page | 71
+
+===== PAGE 74 =====
+Bebras India
+Answer:
+The correct answer is B: 4 moves.
+Explanation:
+One way to start solving this task is by realizing that the numbers 8 and 7 can both be
+reached by making two moves from the starting position. To reach 7, we move it twice by 3
+steps. To reach 8, we move it once by 4 steps, then by 3.
+Furthermore, if we are on 8, we can reach 7 in two moves, but not the other way round:
+reaching 8 from 7 would require more moves and complicate the solution. This is an
+indication that first trying to reach 8 first and then 7 looks like a promising option, which
+could maybe be completed in just 4 moves. But of course, with 4 moves, we also modify the
+state of the intermediary numbers of which we land. So, in order to keep only 7 and 8 lit and
+no other number, we must ensure that we land on the same intermediary number both
+when first go for 8, and then when we later reach 7.
+This works if we move like this: first, 3 steps (we light up 4), then 4 steps (we light up 8), then
+4 steps again (we turn off 4), and finally 3 more steps to light up 7.
+Ist move 2nd Move 3rd Move 4th Move
+3 steps 4 steps 4 steps 3 steps
+Here is a systematic list of all possible sequences of moves, which can confirm that 4 is the
+optimal solution.
+If the beaver makes only 1 move:
+January 2024 Page | 72
+
+===== PAGE 75 =====
+Bebras India
+1st move Numbers lit
+3s t e p s 4
+4s t e p s 5
+Using 1 move, the beaver can light up only one number .
+If the beaver makes 2 moves:
+1st move 2 nd move Numbers landed on Numbers lit at the end
+3s t e p s 3s t e p s 4 ,7 4 ,7
+3s t e p s 4s t e p s 4 ,8 4 ,8
+4s t e p s 3s t e p s 5 ,8 5 ,8
+4s t e p s 4s t e p s 5 ,1 5 ,1
+Using 2 moves, the beaver can light up two numbers, but those two numbers are not 7 and
+8.
+If the beaver makes 3 moves:
+1st move 2nd move 3rd move Numbers landed on Numbers lit at the end
+3s t e p s 3s t e p s 3s t e p s 4, 7, 2 4, 7, 2
+3s t e p s 3s t e p s 4s t e p s 4, 7, 3 4, 7, 3
+3s t e p s 4s t e p s 3s t e p s 4, 8, 3 4, 8, 3
+January 2024 Page | 73
+
+===== PAGE 76 =====
+Bebras India
+3s t e p s 4s t e p s 4s t e p s 4, 8, 4 8
+4s t e p s 3s t e p s 3s t e p s 5, 8, 3 5, 8, 3
+4s t e p s 3s t e p s 4s t e p s 5, 8, 4 5, 8, 4
+4s t e p s 4s t e p s 3s t e p s 5, 1, 4 5, 1, 4
+4s t e p s 4s t e p s 4s t e p s 5, 1, 5 1
+Using 3 moves, the beaver can only light up either one or three numbers. It is impossible to
+light up 7 and 8.
+If the beaver makes 4 moves:
+1st move 2nd move 3rd move 4th move Numbers landed on Numbers lit at the end
+3s t e p s 3s t e p s 3s t e p s 3s t e p s 4, 7, 2, 5 4, 7, 2, 5
+3s t e p s 3s t e p s 3s t e p s 4s t e p s 4, 7, 2, 6 4, 7, 2, 6
+3s t e p s 3s t e p s 4s t e p s 3s t e p s 4, 7, 3, 6 4, 7, 3, 6
+3s t e p s 3s t e p s 4s t e p s 4s t e p s 4, 7, 3, 7 4, 3
+3s t e p s 4s t e p s 3s t e p s 3s t e p s 4, 8, 3, 6 4, 8,3,6
+3s t e p s 4s t e p s 3s t e p s 4s t e p s 4, 8, 3, 7 4, 8,3,7
+3s t e p s 4s t e p s 4s t e p s 3s t e p s 4, 8, 4, 7 8, 7
+January 2024 Page | 74
+
+===== PAGE 77 =====
+Bebras India
+3s t e p s 4s t e p s 4s t e p s 4s t e p s 4, 8, 4, 8 -
+4s t e p s 3s t e p s 3s t e p s 3s t e p s 5, 8, 3, 6 5, 8, 3, 6
+4s t e p s 3s t e p s 3s t e p s 4s t e p s 5, 8, 3, 7 5, 8, 3, 7
+4s t e p s 3s t e p s 4s t e p s 3s t e p s 5, 8, 4, 7 5, 8, 4, 7
+4s t e p s 3s t e p s 4s t e p s 4s t e p s 5, 8, 4, 8 5, 4
+4s t e p s 4s t e p s 3s t e p s 3s t e p s 5, 1, 4, 7 5, 1, 4, 7
+4s t e p s 4s t e p s 3s t e p s 4s t e p s 5, 1, 4, 8 5, 1, 4, 8
+4s t e p s 4s t e p s 4s t e p s 3s t e p s 5, 1, 5, 8 1, 8
+4s t e p s 4s t e p s 4s t e p s 4s t e p s 5, 1, 5, 1 -
+Using 4 moves, it is possible to light up 7 and 8.
+Therefore, the minimum number of moves the beaver needs to do in order to light up only 7
+and 8, from the starting position, is 4 moves.
+It’s Informatics:
+In this task, we are given rules (instructions) that need to be repeated multiple times.
+However, we don't know how many times each rule (instruction) needs to be used to reach
+the goal.
+One approach is to write a program that generates all possible sequences of moves (a total
+of 4 in this task) and checks the output for each case. Computer scientists refer to this as a
+brute-force search. However, take note that this method becomes impractical when we
+don't know the number of repetitions or when the number of possibilities overwhelms our
+memory.
+January 2024 Page | 75
+
+===== PAGE 78 =====
+Bebras India
+In this particular case, it is similar to the "trial and error" method, where we attempt to find
+the solution by iteratively following the rules. It's important to note that the first solution
+found through trial and error doesn't always yield the optimal solution, unless we start from
+the most optimal implementation of the instruction, in this case starting from using only 1
+move and then increasing the number of moves from there.
+In informatics, number systems play a crucial role in representing and manipulating data.
+The circular arrangement of numbers in the task, similar to a clock, represents a specific
+number system. Computers use different number systems, such as binary (base-2), decimal
+(base-10), or hexadecimal (base-16), to represent and process information. The numbers in
+the task are like the digits on a clock, but instead of going from 1 to 12, they go from 1 to 8.
+Understanding number systems and their representations is fundamental in computer
+science and helps computers store, process, and transmit data efficiently.
+January 2024 Page | 76
+
+===== PAGE 79 =====
+Bebras India
+Rooms
+In a castle there are 8 rooms and 6 types of doors. If you go through a door, you move to a
+room with a door of the same type as the one you entered. For example, room A has a blue
+door , so you can move to either room D or room E, which also have a blue door
+Question:
+Move from room A to room C in such a way as to pass through the least number of rooms.
+How many doors will you open?
+A. 2
+B. 3
+C. 4
+D. 5
+January 2024 Page | 77
+
+===== PAGE 80 =====
+Bebras India
+Answer Explanation:
+The correct answer is B) 3
+Draw a graph with the rooms as vertices, connecting the rooms with the same colored doors by
+edges.
+If you open one of the doors from A once, you can go to room D, E, or H. If you open a second door,
+you can go from A to room B (blue door in room E), F (blue door in room E or black door in room H),
+or G (orange door in room D). If you open the red door in room B or the brown door in room G, you
+can reach room C. Thus, we reach room C from room A by going through 3 doors.
+This is Informatics:
+This task was to find the shortest path from one room to another . In the answer explanation we used
+a graph to represent the problem. Graphs are used to represent maps, where cities are nodes and
+roads are edges. Other examples of the usage of graph representations are train route searches, the
+Internet transmission protocols, or analysis of social networks. There are algorithms which can help
+us find the shortest route from one city to another, for example the Dijkstra algorithm (used in
+common GPS systems) or the Warshall-Floyd algorithm (used in Google Maps) are usually applied to
+calculate the shortest path between two given nodes on a graph. In the case of maps and routes,
+they are used to calculate the shortest path between the starting point and the arrival, given the
+status of the routes (traffic, incidents, tolls, … ).
+January 2024 Page | 78
+
+===== PAGE 81 =====
+Bebras India
+Reverse Polish Notation
+Little Beaver and his friend thought of transforming the mathematical operations: addition
+(+), subtraction (-), multiplication (*), division (/), into a graphic representation, which they
+would then encode as follows (for A, B and C are variables or constants):
+1. The operation A+B is represented in
+the image below:
+where the coding rule is:AB+ .
+2. The operation (A+1)*(B+C) is
+represented in the image below:
+where the coding rule is:A1+BC+* .
+Question:
+For coding rule A 1 + B 2 + * 2 5C/+choose the correct representation from the following
+images:
+a) b)
+c)
+d)
+January 2024 Page | 79
+
+===== PAGE 82 =====
+Bebras India
+Answer Explanation:
+The correct answer is c.
+A 1 + is represented as
+B 2 + is represented as
+A1+B2+* i sr e p r esented as
+25 C / is represented as
+January 2024 Page | 80
+
+===== PAGE 83 =====
+Bebras India
+Therefore,A1+B2+*2 5C/+ i sr e p r esented as
+Answer a is not correct because it corresponds to the coding: A 1 B 2 2 5C/++*+
+Answer b is not correct because it contains the minus operation - which does not appear in
+the given expression.
+Answer d is not correct because it corresponds to the coding: A 1 + B 2 + 25C/+*
+This is Informatics :
+The reverse Polish notation (RPN) is a format utilized by compilers, which are types of
+translators that convert programming languages understood by humans into machine code
+comprehensible by computers. It is employed to evaluate expressions present in any
+program.
+This notation transforms an expression of the form "operand1 operator operand2" (where
+the operand can be a variable or a constant, and the operator represents operations like
+addition, subtraction, multiplication, division, etc.) into "operand1 operand2 operator". For
+instance, the expression A+Bb e c o m e sAB+ .
+In the field of computer science, a tree is a commonly used abstract data type that often
+represents a hierarchical structure with interconnected nodes. Each node in the tree can
+have multiple children (depending on the tree type) but must have exactly one parent,
+except for the root node, which has no parent. These constraints ensure that there are no
+cycles or loops (i.e., no node can be its own ancestor), and each child can be treated as the
+root node of its own subtree.
+January 2024 Page | 81
+
+===== PAGE 84 =====
+Bebras India
+Every expression can be associated with a binary tree, which is a structure composed of
+nodes and edges (connections between nodes). In a binary tree, each node can have
+connections with at most two other nodes on a subsequent level.
+The problem can be solved by decomposing expressions into smaller expressions and by
+using examples that work as models in building the tree associated with the expression.
+January 2024 Page | 82
+
+===== PAGE 85 =====
+Bebras India
+Dhooma’s tasks
+This is a map of Dhooma's village. The numbers on the map show how long (in minutes) it
+takes for Dhooma to walk from place to place.
+One day Dhooma needs to do the following tasks:
+● Get a knife from the blacksmith
+● Get medicines from the clinic
+● Get salt from the grocery
+These tasks can be performed in any order . Dhooma starts at his house and returns there
+after completing the tasks. Each task takes 1 minute to complete on site.
+If Dhooma takes the following route, it takes him 41 minutes:
+Dhooma's house → Grocery (salt) → Baker → Blacksmith (knife) → Park → Clinic
+(medicine) → School → Dhooma's house
+(Indeed: 4+6+3+9+7+3+6 is 38 minutes, to which we add 3 minutes for the tasks
+themselves.)
+Question:
+What is the shortest time in which Dhooma can perform all her tasks (and return home
+again)?
+A. 37 minutes B. 38 minutes C. 39 minutes D. 40 minutes
+January 2024 Page | 83
+
+===== PAGE 86 =====
+Bebras India
+Answer Explanation:
+The correct answer is C (39 minutes).
+A route that takes the least time is:
+Dhooma's house → School → Clinic → School → Temple → Baker → Blacksmith → Baker → Market
+→ Dhooma's house
+F o rt h i sh en e e d s6+3+3+4+4+3+3+6+4=3 6m i n u t e s+3m i n u t e sf o rt h et a s k s=3 9m i n u t e s .
+He can also follow this path in the opposite direction, taking the same amount of time.
+To see that there is no shorter route, we use a simplified version of
+the map - see picture on the right.
+Circles (henceforth called nodes) stand for the different places in the
+village and lines (henceforth called edges) stand for the paths
+between them. As in the map, the number next to each edge
+indicates the time taken to walk along this path.
+W ec a ni g n o r et h ee d g e si ng r e y( s e ep i c t u r e ) .A f t e ra l l ,t h e r ea r e
+faster routes via an intermediate node.
+We can also disregard the 'Park' node. Dhooma does not have a task
+to do in the park and for every route that goes through the park
+there is a faster alternative.
+January 2024 Page | 84
+
+===== PAGE 87 =====
+Bebras India
+The two top nodes in the remaining picture (blacksmith and Dr .’s
+Clinic) must be visited by Dhooma. As you can see, this will always
+happen through the node just below it, and will take 3 minutes there
+and 3 minutes back, in both cases.
+We remove these nodes and remember to add 12 minutes to the
+final result.
+We end up with the picture on the right. We need to start and end at
+the bottom right node (with the arrow) and visit all three coloured
+nodes. The shortest route goes through all five nodes leaving out the
+edge that is coloured gray.
+T h i sr o u t et a k e s4+6+4+4+6=2 4m i n u t e s .A d d i n gt h e1 2m i n u t e s
+from the previous step and the 3 minutes to complete the tasks at
+each place visited, we end up with a total time of 39 minutes.
+It’s Informatics:
+The simplified picture which we used to find the shortest route is called a graph. Many problems in
+computer science can be reduced to finding properties of such graphs. Here we try to find the
+shortest circuit that goes through some given nodes in the graph.
+Computers are used to find solutions to 'shortest circuit'-problems with many more nodes and
+edges, for example in transport and distribution problems, to compute the shortest route for a
+garbage truck, a postman or a milk lorry to follow on their rounds.
+Using a graph to model a problem is a form of abstraction: we forget about the names of the various
+places and the shapes of the paths between them, but concentrate on which places are connected to
+which and what is the distance between them (expressed in minutes). Making this abstraction helps
+us in solving the problem.
+The map itself is already an abstraction of the village. Knowing how to interpret such an abstraction
+is also part of computational thinking.
+January 2024 Page | 85
+
+===== PAGE 88 =====
+Bebras India
+Juice Carts
+The image below shows a map of Bebravia City.
+Key:
+street corners, where new lime juice carts could be kept
+streets
+lime juice carts
+In summer , residents of Bebravia decided that they want it to be possible to get to a
+lime juice cart from any street corner by walking, at most, 2 streets. It was decided
+that a new juice cart should be kept at one of the four numbered corners.
+Question:
+Where should the new lime juice cart be positioned such that it is possible to reach a
+lime juice cart from any corner in the city walking two streets at most?
+(A) corner 1 (B) corner 2 (C) corner 3 (D) corner 4
+January 2024 Page | 86
+
+===== PAGE 89 =====
+Bebras India
+Answer Explanation:
+The correct answer is D.
+To find the best corner for the additional lime juice cart, we can start by eliminating all
+corners that are two streets away from the existing lime juice carts.
+Now we are left with only four corners from which it is not possible to reach a lime juice cart
+by walking 2 streets at most. The problem has become much simpler now. If we place a lime
+juice cart at corners 1, 2, or 3, we will still have some corners that cannot reach any lime
+juice carts in two full streets at most. But placing the lime juice cart at corner 4 makes every
+one of the remaining corners be at a distance of a maximum of two streets from it, which is
+what we were looking for .
+This is Informatics:
+This question deals with graphs, a common, powerful and versatile data structure for digital
+data. Graphs can be applied to different contexts like streets in maps, relationships between
+people, states in a closed system, words organized hierarchically. Although visually simple, it
+can be quite challenging to verify if a graph has some properties. In this case, the question is
+dealing with “dominating sets” . The idea can be applied to real world problems, such as how
+to build a network of public transportation that gives service to all citizens and locations
+with, for example, 2 trips at most.
+January 2024 Page | 87
+
+===== PAGE 90 =====
+Bebras India
+Bumping Robots
+The goal of the Bumping robots game is to give the robot instructions to move from its current
+location to the star . An obstacle is defined as something that the robot cannot go through. The
+game has the following rules:
+1. Brown squares on the board are obstacles.
+2. Other robots are also obstacles.
+3. The robot can be programmed to move in 4 directions only. The directions are up (
+), down ( ), right ( ), left ( ).
+4. Once the robot starts moving in a direction, it won’t stop until it hits an obstacle or the edge
+of the board.
+5. When a robot starts its movement, the other robots will wait until this robot stops.
+In the example shown to the right, the player can move robot to the
+star by combining 3 moves. The first moves robot to the right. This will
+make it move and stop next to the obstacle shown. Then move robot
+up and take advantage of the stopped robot . Then finally, move robot
+left.
+Question:
+Given the situation on this board , what is the minimum number of moves required for robot to
+stop on the star ?
+A) 4 B) 5 C) 6 D) 7
+January 2024 Page | 88
+
+===== PAGE 91 =====
+Bebras India
+Answer Explanation:
+The correct answer is 4. On the following explanatory pictures, each movement of the
+robots is marked by an arrow. Collaboration of robots is important in solving this task. In the
+following paragraphs, we will show the solutions of A) without collaboration, B) with only
+two robots in collaboration, C) the best solution of this task with three robots in
+collaboration.
+A) Using only robot 1, heading left from the starting point leads to 7 movements.
+B) But robots can collaborate. The robot 4 could be an obstacle for robot 1 after its
+movement and this tactic leads to only 6 movements.
+C) If we involve more robots in collaboration, we can have the best solution in 4 moves.
+When moving robot 3 first, it could be an obstacle for robot 2. Then robot 2 can be an
+obstacle for robot 1 after its movement. Then robot 1 needs to use only 2 more movements
+to stop at the star .
+January 2024 Page | 89
+
+===== PAGE 92 =====
+Bebras India
+How to get correct solution:
+If we start thinking about the possible movements of robot 1, we see that there are too
+many combinations. Therefore, we can start from the end, to explore the last movement of
+robot 1. One possible solution is that it comes from the left to the target (star). Another
+option would be to move robot 4 to the right to an obstacle, and then robot 1 could reach
+the star from below. But to reach from below, more movements would be needed, both
+from robot 1 and from other robots to work as obstacles.
+If we take the movement from left to the Star as the last movement, we can check how
+robot 1 can stop at the starting square of the last movement. We then found an obstacle is
+needed below that square. This square could potentially serve as a suitable location for the
+other robots to stop. This process is
+repeated in subsequent steps until we
+reach the solution.
+Another strategy is to find the shortest
+way to the final square regardless of
+whether there is an obstacle in the places
+where we want the robot to turn. Then
+check turning squares whether an obstacle
+necessary for turning is there. If not, we
+can try to move some other robot to this
+square.
+Why 3 movements are not enough:
+There is no way to move the robot 1 to the target square at 1 movement.
+There are two ways from 2 movements (see figure on the right). To realize such movement,
+we need to place a robot at one of squares marked gray first so that robot 1 could stop its
+movement by bouncing to it. But we can't make any of the other robots move to one of
+January 2024 Page | 90
+
+===== PAGE 93 =====
+Bebras India
+these two gray squares in 1 move. Therefore, 4 movements is the lower bound of the
+solution.
+It’s Informatics:
+Collaboration is an essential aspect of informatics as it plays a vital role in ensuring the effective
+functioning of robots and information systems. Without proper collaboration, robots may risk
+damaging themselves or causing harm to people. When programming a set of robots, it is crucial to
+ensure they are finely tuned to work together seamlessly.
+When developing information systems that are utilized by numerous individuals, programmers must
+consider the various processes that need to work in harmony. Establishing the correct order, defining
+roles, and implementing a hierarchical structure for users and system components are critical factors
+in promoting efficient collaboration within the system.
+However, collaboration of multiple robots can be a complex optimization task. Searching the working
+space of multiple robots for the best solution may lead to combinatorial explosion. Scientists and
+engineers may apply stochastic optimization algorithms (introduce randomness into the algorithm)
+to find a high quality but sub-optimal solution in a given period of time.
+To solve this task, it is crucial to effectively coordinate multiple objects and determine the optimal
+order and manner in which they will move. This involves evaluating the overall situation and breaking
+down the task to consider all the robots and obstacles. By doing so, we can move the robots
+sequentially, with each step contributing to the collective goal. It is important to consider
+collaboration among the robots throughout the process to achieve the desired outcome.
+January 2024 Page | 91
+
+===== PAGE 94 =====
+Bebras India
+Uphill
+Beavers are practicing climbing steep hills. The beavers line up and walk in a single line. All
+beavers are carrying a ladder . When they reach a steep climb, the beaver at the front of the
+line holds up their ladder for others to climb. All of the beavers who are holding ladders
+remain in place until all the other beavers have climbed to the top of the hill. Each beaver
+that was holding a ladder then climbs up to the next level using their own ladder . They
+continue to climb in this way until they reach the top of the hill and each beaver joins as the
+last beaver in the line. When they finish climbing a hill they climb down using a rope and
+keep their order .
+The figure below shows how four beavers climb up hills. They reach the foot of the first hill
+in the order 1234. Beaver 1 holds up the first ladder . Beaver 2 climbs the ladder first, and
+holds their ladder for the second climb. Then Beavers 3 and 4 continue up both ladders to
+the top of the hill. Finally, 2 and 1 climb up in that order and join the other beavers at the
+top. So the final order of the beavers is 3421.
+Six beavers go on a hiking trip in the terrain shown in the following figure.
+January 2024 Page | 92
+
+===== PAGE 95 =====
+Bebras India
+Question:
+Which beaver will be the first one to reach the flag?
+AB CD E
+January 2024 Page | 93
+
+===== PAGE 96 =====
+Bebras India
+Answer :
+The correct answer is C) 3
+Explanation:
+The correct order is 365412.
+The beavers started in the order 123456. They arrive at the first hill, which has 3 levels.
+Beaver 1 holds up their ladder at level 1, Beaver 2 holds up their ladder at level 2, and
+Beaver 3 holds up their ladder at level 3 while Beavers 4, 5 and 6 climb up to the top in that
+order .
+Once the other beavers have reached the top, 3, 2, and 1 climb up, in that order, until they
+are all at the top of the first hill. The order after this climb is 456321.
+The beavers arrive at the second hill in this order . The second hill has 4 levels. As the first
+beaver in line, Beaver 4 holds up the ladder at level 1, Beaver 5 at level 2, Beaver 6 at level 3,
+Beaver 3 at level 4, allowing Beaver 2 and 1 to climb to the top of the second hill in that
+order . Once 2 and 1 have reached the top, 3, 6, 5, and 4 climb up, in that order, until they are
+all on top of the second hill. The order right now is 213654.
+The beavers arrive at the last hill in this order . This hill has 2 levels. As the first beaver in line,
+Beaver 2 holds up the ladder at level 1, Beaver 1 at level 2, while the other beavers climb to
+January 2024 Page | 94
+
+===== PAGE 97 =====
+Bebras India
+the top in the order 3, 6, 5 and 4. Once the other beavers have reached the top, Beaver 1
+and 2 climb up in that order .
+After climbing the last hill, the order of the beavers is 365412. This means that the order of
+the beavers arriving at the camp is 365412.
+It’s Informatics:
+How the beavers in this task climb up hills reflects the structure of both a stack and a queue
+in computer science. The beavers set up ladders by stacking and climbing up the hills in a
+queue.
+Stack and queue are two types of data structures. Storing data in a stack is just like how we
+stack objects up in real life: we add an object to the stack by putting it on top of the stack,
+and the only accessible object is the one at the top of the stack. Therefore, if we take
+data/objects from a stack one by one, the first datum or object placed on the stack will be
+the last one removed. We describe the order as first in last out (FILO).
+On the other hand, storing data in a queue is just like how people queue up for tickets: the
+first person in the queue will be the first one to get a ticket. In other words, if we take out
+data/objects from a queue one by one, the first datum or object placed in the queue will be
+the first one out. We describe the order as first in first out (FIFO).
+The students can apply pattern recognition to find out the order of beavers setting up
+ladders and the order of beavers climbing up hills. Also, the students apply algorithmic
+thinking to follow the instructions and trace the order of beavers hiking through the terrain.
+January 2024 Page | 95
+
+===== PAGE 98 =====
+Bebras India
+Bridge Building
+Bansi is a bridge builder . His next job is to build bridges so that students from his village
+could get to the new school.
+● Unfortunately Bansi cannot swim, first he must build a bridge that can be used for
+crossing water as many times as needed.
+● To build a bridge, Bansi needs enough logs. In his village he can only pick up 3 logs to
+start. He can also travel between any land connected by bridges to pick up more logs.
+● The map below shows how many logs are needed to build a bridge at each possible
+water crossing and how many logs are available on each island.
+● Each log can be used only once but not all available logs have to be used.
+Question:
+What is the smallest number of logs Brian needs so that students can travel from the village
+to the school over land and bridges?
+(A) 11 (B) 12 (C) 13 (D) 14 (E) 17
+January 2024 Page | 96
+
+===== PAGE 99 =====
+Bebras India
+Answer Explanation:
+The correct answer is 14
+We can show the correct path is feasible (each step has picked up logs >= used logs) by
+recording the cumulative number of picked up logs and used logs at each step:
+(3,2)(5,4)(8,4)(8,8)(10,10)(13,11)(14,12)(14,14).
+We can prove this is minimal by finding all paths that connect the village to the school that
+have <= 14 used logs and show that only the answer is feasible. First, note that all paths
+must go through the big island in the middle, so we can split the problem into two parts.
+Second, the path from the village to the center needs at least 6 logs and the path from the
+center to the school needs at least 5 (we call these lower bounds).
+We first solve the left part by using the right lower bound. This means we look for all feasible
+paths that use <= 9 logs (because any solution for the left part >= 10 would use at least 15
+logs total).
+On the left side we have the following paths that connect to the center and use <= 9 logs
+(shown with picked up logs, used logs):
+{A,C}=(6,7),{A,B,C}=(10,9),{O,Q}=(5,6),{O,H,Q}=(9,9),{O,P ,Q}=(8,8),{O,P ,J,F}=(11,9)
+Removing infeasible solutions (ones with picked up logs < used logs) leaves us with:
+{A,B,C}=(10,9),{O,H,Q}=(9,9),{O,P ,Q}=(8,8),{O,P ,J,F}=(11,9)
+January 2024 Page | 97
+
+===== PAGE 100 =====
+Bebras India
+We then solve the right side using a lower bound of 8 used logs for the left, so we look for all
+paths that use <= 6 logs:
+{D,E}=(2,5),{D,G,E}=(3,6),{K,L,G,E}=(6,6),{R,S,T}=(5,6)
+We now combine the solutions for left and right parts to find any feasible pairs that would
+have <= 14 total used logs and find only {O,P ,Q}=(8,8)+{K,L,G,E}=(6,6)→ (14,14) as all other
+pairs have picked up logs < used logs.
+This is Informatics:
+The land masses and potential bridges can be represented as nodes and edges of a graph.
+The number of logs picked up at each land mass and used to build each bridge can be
+assigned to their respective nodes and edges. The path Brian travels can be represented as a
+list of edges in the order they are built.
+Solving this problem in general can be done using pathing algorithms with resource
+constraints. An exhaustive search of all valid paths would work but take an exponential time
+with respect to the size of the graph.
+Alternatively, the problem can be framed as a guided divide and conquer search as the
+sample solution does. This approach uses techniques from constraint optimization such as
+path consistency and branch-and-bound. These techniques form the basis for solutions to
+the hardest real world resource allocation problems, puzzles (like Sudoku!), and
+game-playing artificial intelligences.
+Abstraction – land mass size does not matter, nor does physical layout of the problem, thus a
+graph is a good representation.
+Decomposition – the problem can be divided into two subproblems of similar nature (left
+and right side of graph).
+Algorithmic and asymptotic complexity thinking – validating a path is a polynomial time
+sequential algorithm and requires cumulative resource constraints. Using an exhaustive
+search approach would have exponential complexity (given that our path is a tree and there
+can exist up to n^n-2 trees in a graph) and impractical even for this sized problem. A
+modified pathing algorithm can run in polynomial time.
+Enumeration/Iteration – the problem asks for an integer minimization which can be found by
+generating lower and upper bounds and enumerating possible solutions between.
+January 2024 Page | 98
+
+===== PAGE 101 =====
+Bebras India
+Electronic Lock
+Ballu installed an electronic code lock on the front door of his house.
+To open it, you need to press several different number buttons in the correct sequence.
+Originally the password was:
+0 2 4 3 1
+To make it difficult to guess, he encoded the password in the following form:
+0>>0, 1>>3, 2>>0, 3>>1, 4>>0
+The notation “I>>K” means that to the left of the number I there are exactly K numbers
+greater than I.
+“0>>0, 2>>0 and 4>>0” means there are no larger numbers to the left of the numbers 0, 2, 4
+in the password.
+“1>>3” means there are three larger numbers to the left of the number 1, which are 2, 3, 4.
+And “3>>1” means there is one larger number to the left of the number 3, which is 4.
+Ballu changed the password to a more complex 8-digit one, encoded as:
+0>>3, 1>>2, 2>>4, 3>>4, 4>>1, 5>>1, 6>>1, 7>>0.
+Question:
+What is Ballu’s new password?
+A )70145623
+B )74105623
+C )74165320
+D )74105326
+January 2024 Page | 99
+
+===== PAGE 102 =====
+Bebras India
+Answer Explanation:
+Correct answer is B)
+74105623
+It is infeasible to manually obtain the correct password by iterating through all possible n! options.
+The idea of a quick solution is that you need to put the numbers in their places starting from the
+smallest (digit 0) to the largest (digit 8).
+1. It follows from 0>>3 that there should be three free cells to the left of the number 0. That is,
+the number 0 is guaranteed to be in the fourth cell from the left.
+2. It follows from 1>>2 that there should be two free cells to the left of the number 1. That is,
+the number 1 is guaranteed to be in the third cell from the left.
+3. It follows from 2>>4 that there should be four free cells to the left of the number 2. That is,
+the number 2 is guaranteed to be in the sixth cellf r o mt h el e f t :
+10 2
+Consecutive fulfillment of the remaining five digit encodings provides a unique solution.
+This is Informatics :
+Generating all possible permutations and finding only the correct one belongs to the classical
+algorithms of combinatorics, information encoding and cryptography. This task can be a good
+introduction to combinatorial algorithms for beginners.
+In combinatorics, the quantity of larger numbers to the left of a given number is called the inverse.
+We believe that it is much more useful to offer students to first solve a problem of this type, and only
+then to give the definition of inversion.
+The sequential application of value assignments to arrive at the solution is an example of the arc
+consistency algorithm for constraint satisfaction. This algorithm forms the basis for solutions in many
+real world resource allocation problems and popular puzzles such as Sudoku.
+January 2024 Page | 100
+
+===== PAGE 103 =====
+Bebras India
+Dominos
+Domino tiles consist of two halves. Each half has between 1 and 6 dots. In this task, the
+following eight tiles are lying in front of you:
+These tiles now need to be put in a row such that:
+1. All eight tiles are used and
+2. The adjacent halves of two neighboring tiles always have the same number of dots
+A valid solution contains a row with all eight tiles in a specific order . The tiles can be placed
+in several different orderings and still produce a valid solution. Abstractly a solution looks
+like this:
+As you will notice, certain tiles cannot be placed at the marked edges.
+Question:
+Which of the following tiles can be used at the edges?
+AB C D
+January 2024 Page | 101
+
+===== PAGE 104 =====
+Bebras India
+Answer:
+The correct answer is D)
+Explanation:
+Among the eight Domino tiles, there are five that can be considered as edge pieces:
+To start with, let’s count the number of dots on each Domino tile and examine how
+frequently each of these dot counts appears. In our scenario we have eight Domino tiles
+which translates to 16 faces (tile halves). The table below shows a summary along with an
+extra column showing whether the dot frequency is even or odd:
+Dots Frequency Even/Odd
+3 odd
+3 odd
+2e v e n
+2e v e n
+4e v e n
+2e v e n
+Note that the faces with 3, 4, 5, and 6 dots occur with an even frequency, whereas the faces
+with 1 and 2 dots occur with an odd frequency. This is relevant since adjacent faces of two
+tiles should always have the same number of dots and, consequently, occur in pairs in a
+given Domino sequence. Tiles with the faces 3, 4, 5, and 6 can be grouped into pairs without
+any remainder, whereas this is not the case with faces 1 and 2.
+January 2024 Page | 102
+
+===== PAGE 105 =====
+Bebras India
+For the ordering of tiles, it is important to distinguish between tiles with even and odd
+frequencies. Specifically, faces with 1 and 2 (faces with odd frequencies) need to be carefully
+placed as they can lead to situations where the sequence cannot be continued despite
+having remaining tiles. For example, if we arrange the tiles so that all the tiles with one dot
+are used up, and the sequence ends in a tile with one dot, the sequence cannot be extended
+even if there are still tiles available.
+However, this problem can be solved by deliberately using a tile with 1 dot as an edge tile.
+The same holds true for faces with two dots. The beginning and the end of the sequence are
+unique as they do not require a predecessor (in the case of the edge tile at the beginning) or
+a successor (in the case of the edge tile at the end).
+Among the eight Domino tiles, five have the numbers 1 or 2 on one or both halves.
+Therefore, the following five Domino tiles are considered eligible edge tiles: (1,2), (1,4),
+(1,5), (2,5), (2,6).
+It’s Informatics:
+There are multiple valid solutions that use all eight provided tiles and also fulfill the given
+rules. To gain a better overview of all possible solutions, we can visually represent the
+problem in a different way; computer scientists use so-called graphs:
+In the graph above, squares (called nodes) represent all six possible faces of Domino tiles.
+The lines (called edges) represent Domino tiles where each line connects two halves of a
+Domino tile. In the task above, we were given eight specific Domino tiles and accordingly we
+also see exactly eight edges in the graph. For example, the tile 2-6 is represented by the
+following edge:
+January 2024 Page | 103
+
+===== PAGE 106 =====
+Bebras India
+(Observation: there is no line between certain faces (e.g. 5-6) since this combination is not
+among the provided Domino tiles in our task.)
+To find a valid arrangement using all eight Domino tiles, we need to find a sequence where
+the dots match up between adjacent segments. After placing the first tile, it is thus already
+clear with which number the second tile must begin because adjacent halves of two tiles
+should always have the same number of dots. In the graph, this is evident by the fact that
+tiles can be placed next to each other if and only if their edges meet at the same node. For
+example, the tiles (2,6) and (6,3) can be placed next to each other since they both contain
+the number 6:
+The arrangement of the tiles can be understood as a path (a sequence of edges) through the
+graph. This path should visit each edge exactly once to ensure that all eight tiles are used
+and none are used multiple times. A path that visits every edge exactly once is called an
+Eulerian path. The name originates from Leonhard Euler, a Swiss mathematician who
+invented the field of graph theory. Euler was able to prove that in a connected graph, an
+Eulerian path exists if and only if there are at most two nodes with an odd number of edges.
+January 2024 Page | 104
+
+===== PAGE 107 =====
+Bebras India
+Robot
+Milu has built a robot that reads colored squares, changes their color and then moves one
+square to the left or one square to the right. The robot acts according to rules like these:
+If you see a red square, change its color to green and move one square to the
+right
+If you see a red square, change its color to green and move one square to the left
+At the beginning, the robot is standing on the leftmost square. It detects the color of the square,
+finds the rule that starts with this color, changes the color of the square according to the rule and
+moves according to the rule. Then, the robot repeats the same procedure for the square that it is
+now standing on, and so on. If it doesn't find an appropriate rule or it goes outside of the squares, it
+stops.
+The robot is given this sequence of squares
+and these four rules:
+Question:
+What do the squares look like when the robot stops?
+A)
+B)
+C)
+D)
+January 2024 Page | 105
+
+===== PAGE 108 =====
+Bebras India
+Answer:
+The correct answer is A).
+Explanation:
+Here is how the robot proceeded.
+Start:
+Following the rule we get
+Following the rule we get
+Following the rule we get
+Following the rule we get
+Following the rule we get
+Following the rule we get
+Following the rule we get
+Following the rule four times we get
+Following the rule we get
+January 2024 Page | 106
+
+===== PAGE 109 =====
+Bebras India
+Following the rule we get
+Following the rule we get
+Following the rule we get
+Following the rule we get
+Now the robot is outside of the squares, it stops.
+This is Informatics:
+In Computer Science it's important to define a model of computation to work with. A model of
+computation is simply a set of rules and structures to comply with. So, for example, when we are
+programming software our model of computation is the programming language we are using. This
+problem defines a model very similar to a very well-known model called a Turing machine. A Turing
+machine is a very useful model of computation for Computer Scientists because even though it is
+very simple, it is equivalent to most programming languages, meaning we can turn any software
+program into a Turing machine and conversely turn any Turing machine into a program.
+January 2024 Page | 107
+
+===== PAGE 110 =====
+Bebras India
+Shoes
+Bina went to the shoe store to buy a pair of shoes. She saw several shoes on display
+arranged as shown in the picture. The shoes were arranged in increasing order of size as well
+as width. The shoes varied in size and width, with the smallest and the narrowest shoes kept
+in the left bottom and the biggest and the widest shoe at the top right. All shoes have
+different sizes and widths.
+Being very forgetful, she did not remember her shoe size and will have to try on shoes till
+she finds the right fit. A right fit is one that is the right size and the right width.
+Bina uses a method that guarantees that she can find the shoe that fits her in the least
+number of tries.
+Question:
+How many tries did she need?
+A) 2 B) 3 C) 4 D) 5
+January 2024 Page | 108
+
+===== PAGE 111 =====
+Bebras India
+Answer Explanation:
+The correct answer is A)
+Bina can get lucky and find the shoe in the first attempt. However, she can find the right fit
+after trying on 2 shoes.
+- She can start with the shoes in the center as shown below.
+- The shoe will either be the right size, smaller, bigger and right width, narrow or wide for
+Bina. According to the fit, Bina will know that the shoe that will fit her will be in one of the
+following nine colored zones.
+- If the shoe fits her, she has found the right pair of shoes
+- If the shoe is smaller and wider, she would try shoes in zone 1
+- If the shoe is smaller but the right width, she would try shoes in zone 2
+- If the shoe is bigger and narrow, she would try shoes in zone 9 and so on
+January 2024 Page | 109
+
+===== PAGE 112 =====
+Bebras India
+Let us suppose the pair of shoes Bina tried is smaller and wider for her . So she has to try for
+bigger and narrower shoes, which will be in zone 1.
+She now tries the shoe in the center of zone 1 (box marked as #1).
+● If the shoe fits her, she has found the right pair of shoes
+● If the shoe is still smaller and wider for her, the shoe in position A will be the right
+fit.
+● If the shoe is smaller but the right width, the shoe in position B will be the right fit.
+As we can see, Bina will have to try at most 2 shoes to find the right fit.
+If she starts in any other position, she will have to try out more shoes.
+It’s Informatics:
+In the above problem, the shoes on display in the shoe store are arranged in increasing
+order of size and width along multiple dimensions. Such an arrangement is called sorting.
+Binary search algorithms are used on sorted data to find an item very quickly. Binary
+searching reduces the search space into half every time to get the correct answer in fewer
+attempts.
+Using a binary search algorithm when playing the game to guess a number between say 1
+and 100 and lead to guessing the number in the minimum number of attempts.
+Given problem is about binary searching that finds a desired value in a two-dimensional
+direction.
+January 2024 Page | 110
+
+===== PAGE 113 =====
+Bebras India
+January 2024 Page | 111
+
+===== PAGE 114 =====
+
+===== PAGE 115 =====
+
+===== PAGE 116 =====

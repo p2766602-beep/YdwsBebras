@@ -1,0 +1,199 @@
+
+===PAGE 1===
+Bebras Community
+Statutes
+1.1
+May 19, 2022
+Foreword
+The Bebras International Challenge on Informatics and Computational Thinking (short: 
+Bebras Challenge) was founded in 2004 by Valentina Dagiene in Lithuania. As an easily 
+accessible contest for students of all school ages, it serves to promote informatics and to 
+support informatics education. In the following years, in more and more countries, the 
+Bebras idea found followers who annually met to develop tasks for Bebras. Now, the 
+Bebras Challenge has spread all over the world. Bebras challenges are taking place all over 
+the world, and millions of participants have a positive experience with informatics and 
+computational thinking and the opportunity to discover or challenge their talent in this 
+area.
+The community of organizations that run Bebras challenges has become quite large. While 
+in the early years of Bebras their representatives formed a small group of closely related 
+enthusiasts, now hundreds of people (including everyone working only on a national level) 
+are involved in the preparation of the annual challenges. Bebras has grown and grown up. 
+In order to ensure a stable and continuous development and to allow for further growth, 
+the Bebras Community decided to formulate and adopt the following statutes.
+===PAGE 2===
+1 Preamble / The Bebras Community
+S1 The Bebras Community is an association of organizations which are involved with 
+informatics1 and educational activities in this area.
+S2 It is the goal of the Bebras Community to promote informatics and computational 
+thinking among teachers and young people in particular, among decision-makers in 
+the area of education, and to the public at large. 
+S3 As a central tool to achieve this goal, the community members organize easily 
+accessible and highly motivating online challenges in many countries. Each of these 
+challenges follows the pattern of the Bebras International Challenge on Informatics 
+and Computational Thinking (“Bebras Challenge” further on), and is therefore 
+referred to as national Bebras Challenge.
+S4 The working language of the Bebras Community is English.
+S5 This document defines the statutes of the Bebras Community. The Bebras Community
+may accept further documents as appendices to the statutes. Alternatively, other 
+documents may be accepted as guidelines which are not mandatory and are not part 
+of the statutes.
+2 Membership
+S6 The members of the Bebras Community are organizations responsible for running a 
+national Bebras Challenge in their country. For the Bebras Community, a country is a 
+state that has an officially recognized relationship with the United Nations, UNESCO, 
+or the International Olympic Committee. 
+S7 A member organization of the Bebras Community is referred to as National Bebras 
+Organizer (NBO)2. There may be only one NBO per country.
+S8 The Bebras Community lives on contributions by its members. In particular, NBOs 
+are asked to contribute tasks to the Bebras Challenge. The Bebras Community equally 
+welcomes all other contributions which the Bebras Community and its members will 
+benefit from.
+S9 The Bebras Community requires an NBO (among other duties mentioned later on)
+9.1 to have expertise in the area of informatics education, nationally or 
+internationally;
+9.2 to annually organize a national Bebras Challenge in its country;
+9.3 to promote the national Bebras Challenge and provide the resources necessary to 
+make the challenge available to as many young people in the country as possible;
+9.4 to make visible to the public that their national activities are part of the 
+international activities of the Bebras Community, and to provide a website that 
+can be used by the Bebras Community to point to the NBOs national activities;
+9.5 to provide a contact person and contact data for permanent liaisons with the 
+Bebras Community; and
+9.6 to annually report about its activities to the Bebras Community.
+1 The term „informatics“ is consistently used throughout this document. It refers to the science and the 
+school subject that in other contexts may better be known as „computer science“ or „computing“.
+2 The terms “NBO” and “member” are used interchangeably throughout this document.
+===PAGE 3===
+S10 If an NBO misses to meet the requirements or to make contributions, its membership 
+in the Bebras Community may be suspended or dismissed.
+S11 The Bebras Community may accept new members from countries without an NBO. 
+Organizations from a country with an NBO are invited to get in touch with the 
+respective NBO to form a joint NBO organization. In particular, this holds when the 
+respective NBO is currently suspended.
+S12 In order to become a new member of the Bebras Community, an appropriate 
+organization needs to apply to the Bebras Board (cf. Section 3.3). In its application, 
+the organization is to lay out if and how it is planning to satisfy the requirements 
+mentioned in S9.
+S13 There are two states of membership: provisional and full. Any general reference to 
+members includes both provisional and full members.
+13.1 Decision on an application for membership (provisional and full) will be based 
+on the applicant’s fulfilment of the requirements set out in S9.
+13.2 After having been accepted as new member, an organization will be a provisional 
+NBO.
+13.3 Beginning with the first International Bebras Workshop (see section 3.1) after 
+becoming a provisional NBO,
+(a) a provisional NBO may apply to become a full NBO after at least two years, 
+and after running at least two national Bebras challenges (perhaps as trials); 
+and
+(b) an NBO must not remain provisional for more than four years.
+3 Organization, Bodies, Office Bearers and Duties
+3.1 International Bebras Workshop
+S14 The Bebras Community has an annual meeting, the International Bebras Workshop. 
+The main goal of the workshop is to work on tasks for the next national Bebras 
+Challenges; therefore, the main result of the workshop is the annual Bebras task pool.
+Moreover, the workshop must offer opportunities for exchanging the experiences and 
+best practices of organising a Bebras challenge and utilising it in informatics 
+education.
+S15 The workshop is organized by the Workshop Host, usually an NBO. Among the duties 
+of the workshop host are to provide accommodation, food, and the infrastructure 
+(rooms, electricity, internet access, …) needed by the workshop participants.
+S16 The workshop host may ask for a participation fee from workshop participants. This 
+fee is to cover the cost of organising the workshop and must be accepted by the Bebras
+Board (cf. Section 3.3). The workshop host is expected to avoid or reduce fees with the
+help of sponsors; the Bebras Community supports the host in the search for sponsors.
+S17 Each NBO should send at least one delegate to the workshop. The workshop host may 
+invite individuals not related to any NBO as guests, if approved by the Board. Guests 
+will be given access to Bebras resources only as far as required by their contributions 
+at the workshop.
+===PAGE 4===
+3.2 International Bebras Committee
+S18 The International Bebras Committee (IBC) is composed of NBO representatives. 
+During the International Bebras Workshop, all NBO delegates are considered IBC 
+members. For all IBC actions to be taken in between the workshops, each NBO 
+nominates one representative as a member of the IBC.
+S19 The IBC is the main decision body of the Bebras Community. Among its duties are
+19.1 to decide about full membership, including suspension and dismissal;
+19.2 to decide about changes to the statutes, including appendices;
+19.3 to decide about guidelines for the work of the Bebras Community;
+19.4 to elect members of other Bebras Community bodies, as well as office-bearers.
+S20 The IBC will decide on proposals made by the Board or those brought forward by a 
+group of at least 3 NBOs at a workshop. 
+S21 The IBC meets once a year at the International Bebras Workshop. In between the 
+workshops, the IBC is expected to use appropriate means of communication for 
+discussion and decision-making.
+S22 In general, IBC decisions need to be voted on. In IBC meetings, voting is on the basis 
+of “one vote per full NBO”.
+22.1 For a decision to be accepted, at least half of those entitled to vote must cast a 
+valid vote.
+22.2 For a decision to be accepted, at least 2/3 of the valid non-abstaining votes must 
+be in favor.
+22.3 In between the workshops, virtual votes may be organized.
+3.3 Bebras Board
+S23 The Bebras Board is the executive body of the Bebras Community. It is responsible 
+for all ongoing business of the Bebras Community. Among the duties of the Bebras 
+Board are
+23.1 to deal with membership issues such as receiving applications, accepting new 
+provisional members, checking with NBOs for satisfaction of NBO requirements, 
+suggesting suspensions or dismissals of membership to the IBC;
+23.2 to find hosts for upcoming International Bebras Workshops;
+23.3 to support workshop hosts;
+23.4 to manage financial issues as being related to the international operations of the 
+Bebras Community;
+23.5 to prepare proposals for changes to the statutes;
+23.6 to report to the IBC with at least one written summary of all activities per year.
+S24 The Bebras Board consists of six voting members who are elected by the IBC, and a 
+seventh voting member who is nominated by the host of the next International Bebras
+Workshop. The Board may co-opt further individuals to assist the Board in fulfilling 
+its duties. In particular, the Bebras Board should involve representatives of future 
+workshop hosts in its work. 
+===PAGE 5===
+S25 Elected members of the Bebras Board serve for a term of three years. Each year, two 
+members are elected by the IBC. Re-election is possible.
+S26 From its elected members, the Bebras Board chooses one as chair. The other members
+will take over other responsibilities as needed. In addition, the Board may appoint a 
+secretary as a non-voting member for a term of three years.
+26.1 The Bebras Board Chair is the main representative of the Bebras Community 
+both within the Bebras Community and to the outside world.
+26.2 The Bebras Secretary is responsible for minuting meetings and organizing 
+appropriate means of communication amongst the bodies and office-bearers of 
+the Bebras Community.
+26.3 The Bebras Board Chair has the right to propose an appropriate person to the 
+Board for the secretary position. The chair overlooks the work of the secretary 
+and may organize compensation for the secretary's work.
+S27 The Bebras Board meets during the International Bebras Workshop. In between the 
+workshops, the Bebras Board is expected to use appropriate means of communication 
+for discussion and decision-making.
+S28 The Bebras Board is supported by long-term, standing committees, dealing with (a) 
+membership, (b) task handling (in preparation of the workshop), and (c) technical 
+issues.
+S29 The IBC may install further temporary committees. 
+S30 Each committee must consist of at least three members. The Bebras Board is obliged 
+to support the work of all committees. For that purpose, at least one Board member is 
+associated with each committee.
+4 Bebras Challenge
+S31 The Bebras Challenge is implemented by the national Bebras Challenges that are 
+organized by the NBOs.
+S32 A national Bebras Challenge needs to meet the following requirements:
+32.1 It should take place during the International Bebras Week, the dates of which 
+are set by a decision of the IBC. For countries in the northern hemisphere, the 
+Bebras Week is usually the second full week of November. For countries in the 
+southern hemisphere, a different week may be chosen. 
+An NBO may ask the Bebras Board for exemption from this requirement.
+32.2 It should be offered to participants of different ages. Participants should be 
+students of primary or secondary education.
+32.3 It should be offered nation-wide, i.e. not be limited to a region or specific part of 
+a country. In a multi-lingual country, the national Bebras challenge should be 
+available in as many official languages as possible and asked for.
+32.4 It should draw a major part of its tasks from the annual Bebras task pool.
+32.5 The majority of its tasks should not require foreknowledge in informatics.
+32.6 It should be organized as a non-profit offering. Participation fees may be 
+required in order to cover organizational cost.
+===PAGE 6===
+S33 Each NBO takes full responsibility for its national Bebras Challenge, and is free to 
+decide about organizational details within the requirements listed above. The Bebras 
+Community cannot be made liable, financially or legally, for any issues arising with 
+respect to any national Bebras Challenge.
+5 Revision of the Statutes
+S34 Revisions of the statutes may be proposed by the Bebras Board or by at least three 
+NBOs together. 
+S35 Revisions of the statutes require a decision by the IBC.

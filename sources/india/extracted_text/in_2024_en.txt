@@ -1,0 +1,2127 @@
+
+===== PAGE 1 =====
+Editor-Vipul Shah, Sonia Garcha
+Edition: English
+Bebras IndiaComputational Thinking Challenge 2024
+===== PAGE 2 =====
+
+===== PAGE 3 =====
+ Bebras  India 
+ Introduction 
+ Bebras  (  www.bebras.org  )  is  an  international  student  Computational  Thinking  Challenge 
+ organised  in  over  80  countries  and  designed  to  get  students  from  all  over  the  world  excited 
+ about  computing.  The  challenge  is  a  great  way  to  learn  about  computational  thinking  and 
+ problem solving skills. 
+ The  Bebras  challenges  are  made  of  a  set  of  short  problems  called  Bebras  tasks.  The  tasks  are 
+ fun,  engaging  and  based  on  problems  that  Computer  Scientists  enjoy  solving.  The  tasks 
+ require  logical  thinking  and  can  be  solved  without  prior  knowledge  of  computational 
+ thinking.  The aim is to solve as many as you can in the allotted time. 
+ Bebras  India  Challenge  (  www.bebras.in  )  is  organized  by  ACM  India’s  CSpathshala  initiative 
+ (  www.cspathshala.org  ).  ACM  India/CSpathshala’s  goal  is  to  make  it  possible  so  that  every 
+ child in India learns Computer Science. 
+ The  2024  Bebras  India  Challenge  was  held  from  17th  November  to  7th  December,  2024.  The 
+ 2024  Bebras  India  Computational  Thinking  Challenge  was  oﬀered  for  age  groups  8-19  in  12 
+ languages:  English,  Marathi,  Gujarati,  Hindi,  Bangla,  Bodo,  Punjabi,  Kannada,  Odia,  Tamil, 
+ Telugu and Assamese and is conducted for free. 
+ For  the  very  ﬁrst  time  the  challenge  was  oﬀered  to  ﬁrst  year  undergraduate  students  (ages 
+ 17-19)  in  English.  The  2024  Bebras  India  Challenge  We  had  participation  of  2,69,931 
+ students from 22 states and 2 UT in 12 languages in age groups 8-19. 
+ Challenge Site:  bebras.cspathshala.org 
+ Queries? Contact:  challenge@bebrasindia.org 
+ Editors: 
+ Vipul Shah 
+ Sonia Garcha 
+ January 2025  Page |  2 
+
+===== PAGE 4 =====
+ Bebras  India 
+ We  would  like  to  thank  the  international  Bebras  community  for  allowing  us  to  use  the  tasks 
+ they have developed. Bebras is a collective eﬀort of many countries. 
+ We  would  also  like  to  thank  Eljakim  Schrijvers,  Eljakim  Information  Technology  bv  for  the 
+ Bebras challenge platform. 
+ We  would  like  to  thank  ACM  India’s  CSpathshala  initiative  volunteers  for  localizing  and 
+ reviewing  the  tasks  and  reaching  out  to  schools.  We  would  also  like  to  thank  the  teachers 
+ who have put in the eﬀort for their students to participate in the challenge. 
+ We  would  like  to  acknowledge  the  authors  and  reviewers  for  the  Bebras  tasks  used  in  the 
+ challenge: 
+ Armenia  Gohar Khachatryan 
+ Austria  Florentina Voboril, Gerald Futschek, Svetlana Unkovic 
+ Australia  Chris Wetherell 
+ Belgium  Kris Coolsaet, Emil Kelevedjiev 
+ Brazil  Leonardo Cavalcante, Emily Cavalcanti 
+ Canada  Lorenzo Repetto, J.P. Pretti 
+ Czechia  Jiří Vaníček, Václav Dobiáš, 
+ Denmark  Mette Eis-Hansen, Anne-Marie B. Kristiansen 
+ Estonia  Lidia Feklistova, Ahto Truu, Kristofer Lill 
+ Finland  Heidi  Kaarto, Milla Aavakare, Marika Parviainen 
+ France  Mathias Hiron 
+ Germany  Michael Weigend, Kirsten Schlüter, Yannic Schulz,  Wolfgang Pohl 
+ Hungary  Zsuzsa Pluhár, Bence Gaál 
+ Indonesia  Mariskha Tri Adithia, Vania Natali, Husnul Hakim, 
+ Iceland  Linda Björk Bergsveinsdóttir 
+ India 
+ Arun  Kadekodi,  Aditi  Karandikar,  Jonna,  Nirupama,  Mannavaram,  Selvara, 
+ K,  Chaithra,  Shwetha  Urs,  Vipul  Shah,  Krithika  Santhosh  Kumar,  Nikhil 
+ Karkare,  Geetanjali  Kale,  Krupa  Makwana,  Darshan  Thakar,  Pavani 
+ Pemmaraju, Sujatha Vinod Kumar 
+ Ireland  Taina Lehtimaki 
+ Japan  Seiichi Tani 
+ Korea  Dongyoon Kim, Hongjin Yeh 
+ Lithuania,  Valentina Dagienė, Vaidotas Kinčius, Eglė Jasutė, 
+ Malaysia  Khairul Anwar M. Zaki 
+ Netherlands  Alieke Stijf, Eljakim Schrivers 
+ January 2025  Page |  3 
+
+===== PAGE 5 =====
+ Bebras  India 
+ New Zealand  Margot Phillipps 
+ Pakistan  Dr. Marios O. Choudary, Răzvan-Alexandru Smădu 
+ Philippines  Ezra Templonuevo 
+ Poland  Maciej M.Syslo 
+ Saudi Arabia  Esraa Almajhad, Atheer Khabti 
+ Slovakia  Lucia Budinská 
+ Slovenia  Špela Cerar 
+ South Korea  Lucia Budinská,Hyun-seok Jeon, Dong Yoon Kim,  Hakin Kim,  Jihye Kim 
+ Spain  Eugenio Bravo, Javier Bilbao 
+ Switzerland 
+ Susanne  Datzko,  Martin  Pﬁster,  Regula  Lacher,  Reza  Jabbir,  Jean-Philippe 
+ Pellet, Masiar Babazadeh, Angélica Herrera Loyo, Nora A. Escherle, 
+ USA  Justina Dauksaite, Kelli Recher 
+ January 2025  Page |  4 
+
+===== PAGE 6 =====
+ Bebras  India 
+ Bebras challenge was conducted in six groups: 
+ Group  Ages  Standards  Tasks 
+ Aryabhata  8-10 years  Std III-IV  15 
+ Brahmagupta  10-12 years  Std V-VI  15 
+ Bhaskara  12-14 years  Std VII-VIII  15 
+ Mahavira  14-16 years  Std IX-X  15 
+ Ramanujam  16-18 years  Std XI-XII  15 
+ Pingala  19 years  First Year  15 
+ Each  task  is  sorted  in  a  category  based  on  the  diﬃculty  levels:  A,  B  or  C.  Students  started 
+ with some points and could gain or lose points as follows: 
+ Diﬃculty  Correct Answer  Incorrect Answer  Unanswered 
+ A category questions  +6 points  0 points  0 points 
+ B category questions  +9 points  -2 points  0 points 
+ C category questions  +12 points  -4 points  0 points 
+ On  the  following  pages  you  will  ﬁnd  the  tasks  used  in  2024  Bebras  India  Challenge.  After 
+ each  question  there  is  an  answer,  an  explanation  of  how  the  answer  could  be  obtained  plus 
+ a section on how the tasks are related to Computational Thinking. 
+ Copyright © 2024 Bebras, Bebras India. 
+ This  work  is  licensed  under  a  Creative  Commons  Attribution-NonCommercial-ShareAlike  4.0 
+ International License 
+ January 2025  Page |  5 
+
+===== PAGE 7 =====
+ Bebras  India 
+ Content 
+ Lost  7 
+ Alfred the famous 
+ Beaver  51 
+ Organising Necklaces  9  Balloon Machine  53 
+ Birthday Present  10  Berukone  56 
+ Spinning leaves  13  Superbebras  58 
+ Ovi’s Rattle  15  Balls  61 
+ Tube  17  Railways  65 
+ Beaver’s pattern  20  Tree tours  68 
+ Ricca Cards  23  Robot path  71 
+ Gathering gifts  26  Bebracelet  74 
+ Map of Lighthouses  29  Finding the treasure  76 
+ Ice cream shop  32  Highest score of 
+ sequence  79 
+ Pizza Party  35  Returning books  82 
+ Tifinagh  38  Disappearing arrows  84 
+ Miracle Flower  41  Railway network  87 
+ Conveyor with toys  43  Balloon machine  90 
+ Dishes on the shelf  46  Flipping cards  93 
+ Online Class  48  Keep Switching  96 
+ January 2025  Page |  6 
+
+===== PAGE 8 =====
+ Bebras  India 
+ Lost 
+ Anita was playing in the forest. But when it was time to go home, she forgot which path to 
+ take. She remembered that on her way through the forest: 
+ She ﬁrst saw red and yellow ﬂowers. 
+ Then, she saw an apple tree. 
+ Finally, she spotted a bird's nest in a tree. 
+ The picture below shows where Anita got lost along with paths leading out of the forest. 
+ Question: 
+ Which path should Anita choose to go home? 
+ A.  B.  C.  D. 
+ January 2025  Page |  7 
+
+===== PAGE 9 =====
+ Bebras  India 
+ Answer Explanation: 
+ The correct answer is B. 
+ On the way to the forest, Alia ﬁrst saw red and yellow ﬂowers; second, an apple tree; and 
+ third, a bird nest on a tree. On the way home, she sees the same objects, but in the opposite 
+ order. So, on the way home, she sees a bird nest ﬁrst, then an apple tree, and last the red 
+ and yellow ﬂowers. Hence, B is the correct answer. 
+ Path A is incorrect, because there are no bird nests in the trees. 
+ Path C is incorrect because the order of the ﬂowers, apple tree and birds nest is reversed. 
+ Path D is incorrect because there are no red and yellow ﬂowers, but the blue one instead. 
+ It’s Informatics: 
+ This problem simulates a stack data structure that uses the LIFO (Last In First Out) process. 
+ The objects seen by Alia can be thought of as objects put into a stack. The ﬁrst object seen 
+ (red and yellow ﬂowers) is put into a stack, followed by the second object (apple tree) and 
+ the third object (bird nest on a tree) so that the stack can be described as follows: 
+ When Alia walks in the opposite direction, each object in the stack needs to be removed. 
+ The ﬁrst thing Alia sees on her way home is a bird nest on a tree. Then the bird nest is 
+ removed from the stack so that in the top position is the apple tree. Then the apple tree is 
+ removed from the stack as well. The last item remaining from the stack was the red and 
+ yellow tree. 
+ This is Computational Thinking 
+ To solve this task, we need to focus on certain things and ignore others. We only need to pay 
+ attention to the red and yellow ﬂowers, the apple tree, and the bird nest. Everything else 
+ doesn't help us solve the problem, so we can forget about them. This is called abstraction. 
+ January 2025  Page |  8 
+
+===== PAGE 10 =====
+ Bebras  India 
+ Organizing Necklaces 
+ Vineeta keeps her necklaces in a box with seven compartments. She only puts her necklaces 
+ in compartments with matching colour patterns. 
+ Here is an example of a necklace that ﬁts into a compartment. 
+ Question: 
+ Which of the following necklaces do not ﬁt into any compartment? 
+ A.  B. 
+ C.  D. 
+ January 2025  Page |  9 
+
+===== PAGE 11 =====
+ Bebras  India 
+ Answer Explanation: 
+ The correct answer is bracelet  . It does not fit  in any of the open boxes. 
+ The picture below shows which boxes the other bracelets fit into. They have a 
+ matching colour pattern. 
+ However, there is no box with the colour pattern black and white like bracelet 
+ . 
+ It’s Informatics: 
+ Often, when dealing with computer science problems, you have a large amount of data, but 
+ only a small part of it is relevant to a particular question. For this task, too, we only need 
+ information about some properties of the bracelets in order to put them in the right boxes. 
+ Information about many other properties of the bracelets is not helpful in solving the task. 
+ We only need to look at the colours, not the shape of the beads or how many there are. It is 
+ important to ﬁlter out data that is not needed. This way, you can only work with the data 
+ that will lead to the solution of the problem. 
+ This principle is also used in artiﬁcial intelligence, for example to reduce the amount of data 
+ to the relevant aspects when recognizing objects, thereby increasing computing power. 
+ This is Computational Thinking 
+ This task uses a simple form of abstraction. We need to ignore the unnecessary details of the 
+ bracelets in order to ﬁnd the information we need to solve the task. In this task, it is 
+ important that we realise that it is the colour that is important, that is the only information 
+ we need about bracelets to solve the task. 
+ January 2025  Page |  10 
+
+===== PAGE 12 =====
+ Bebras  India 
+ Birthday Present 
+ Falguni wants a ball for her birthday. 
+ She wants the ball to: 
+ ●  Have no stripes 
+ ●  Have a star on it 
+ ●  Have no moon on it 
+ Question: 
+ Which ball should we buy for Falguni? 
+ A.  B.  C. 
+ D.  E. 
+ January 2025  Page |  11 
+
+===== PAGE 13 =====
+ Bebras  India 
+ Answer Explanation: 
+ The correct answer is 
+ We can use Falguni's rules to determine which ball she wants. 
+ She wants a ball with no stripes, so we remove the balls with stripes: 
+ She wants a ball with a star on it, so we remove all balls that have no stars: 
+ Her last rule is: no moon. So we remove the last ball. The ball with the star is the 
+ only ball that follows Falguni's rules. 
+ It’s Informatics: 
+ This task uses a very simple 
+ algorithm to determine what the 
+ right ball is. An algorithm is a set 
+ of rules that the computer has to 
+ follow to solve a problem. 
+ We can visualise this in a 
+ ﬂowchart. 
+ This is Computational Thinking 
+ Algorithmic thinking is a very important way of problem solving that we use in our everyday 
+ life. This task is an introduction on how to navigate algorithms and how to go through a task 
+ step by step by following the rules. 
+ January 2025  Page |  12 
+
+===== PAGE 14 =====
+ Bebras  India 
+ Spinning leaves 
+ Semma dropped her favourite Shamrock (leaf) on the ground. Now it is mixed with other 
+ leaves! 
+ Below is a photo of Seema's leaf. 
+ Question: 
+ Which is Seema’s leaf? 
+ A.  B. 
+ C.  D. 
+ January 2025  Page |  13 
+
+===== PAGE 15 =====
+ Bebras  India 
+ Answer Explanation: 
+ D. is the correct answer because the yellowed leaf  tip, and browning area of the 
+ stem, are in the same place. As well as that, the tear on the leaf and the eaten part match 
+ too. 
+ is not correct because it doesn’t have the yellowed  leaf tip on the top leaf. 
+ is not correct because it doesn’t have the brown  part on the stem. 
+ is not correct because the shamrock has been torn  and eaten in diﬀerent areas. 
+ It’s Informatics: 
+ Information in today’s world is often searched by computer programs that are looking for 
+ patterns. By identifying patterns, information can be ﬁltered, analysed, and understood 
+ better. By removing what doesn’t match the pattern, we can often ﬁnd better results. 
+ Patterns can occur in any type of data, spatially and temporally, as a perfect copy or 
+ imperfectly with errors, or even transformed (e.g. reversed). Patterns can also occur in 
+ diﬀerences between sets of data. The patterns in this task are hidden slightly due to rotation 
+ and ﬂipping, to illustrate that data may need to be processed to uncover the pattern we’re 
+ looking for. 
+ This is Computational Thinking 
+ Pattern recognition. This task illustrates the concept of ﬁnding similar elements. Each 
+ element of Seema’ shamrock (e.g. the small tear opposite the bite mark) could be used as a 
+ basis to search the list of multiple answers looking for a similar element in each. Not ﬁnding 
+ a similar element is suﬃcient to rule out that one out of the multiple answers. 
+ Abstraction. This task illustrates the concept of building an abstract model. To solve this task 
+ we could make a note of features in Seema’ shamrock that do not change when the 
+ shamrock is rotated or face-down (e.g. one useful one would be that it has a yellowed edge 
+ on the same leaﬂet that has been nibbled). A small set of such features (an abstract model; 
+ in this case a symbolic representation of a picture) could uniquely characterise Seema’ leaf 
+ and all other details could be ignored. There are many equally valid possibilities for such a 
+ January 2025  Page |  14 
+
+===== PAGE 16 =====
+ Bebras  India 
+ small set of features. The set of features can be compared to each multiple choice to 
+ determine the matching shamrock. 
+ Ovi’s Rattle 
+ Ovi has a see-through rattle with colorful balls. When she shakes it, some balls go through 
+ the rattle and move to the other side, as you can see in the picture. 
+ Ovi shakes the rattle one more time. 
+ Question: 
+ Which picture shows Ovi’s rattle? 
+ A.  B. 
+ C.  D. 
+ January 2025  Page |  15 
+
+===== PAGE 17 =====
+ Bebras  India 
+ Answer Explanation: 
+ D. is the correct answer 
+ When balls go through the rattle, they cannot change their order. So you only need to check 
+ the order of all balls.  After the red ball  comes  the yellow one  . After the green one 
+ is the blue one  . Then comes the purple , then  comes red  again. 
+ It’s Informatics: 
+ Computer scientists represent and store the data in diﬀerent ways. All data representations 
+ have advantages that depend on the properties of the respective data. 
+ In this task a so-called circular linked list is used and is called a “rattle” and the stored 
+ elements are the balls. In this circular-linked list, each element has a so-called pointer to the 
+ next element. Also, the pointer of the last element points back to the ﬁrst element and thus 
+ closes the circle. 
+ That means, in this task, we know for each ball which ball is next. After the last ball is the 
+ ﬁrst one. When we check the order of the balls, we can start from any ball and need to go 
+ through all of them (the whole list) in the correct order. 
+ There are two advantages when we use a circular linked list to store elements. The ﬁrst 
+ advantage is that in a circular linked list there is no endpoint. Since the list loops back to the 
+ beginning the elements never run out of data to check or use. The second advantage is the 
+ eﬃciency of the navigation through the list. It is easy to move through the list without 
+ having to follow special rules for the end point. You just keep going in one direction. 
+ This is Computational Thinking 
+ In this task, you tried to look for a pattern. This is called pattern recognition. Recognising 
+ patterns is helpful to determine if some problems are similar or even the same. Then, we 
+ don’t need to solve each of them separately, instead we can use the solution to one of them 
+ to help us solve the other. 
+ January 2025  Page |  16 
+
+===== PAGE 18 =====
+ Bebras  India 
+ Tube 
+ There is a tube (  ) with holes on both sides that  can be ﬁlled up to 3 balls. 
+ The following images show what happens when three balls are in the tube and we try to put 
+ a fourth ball in it: 
+ from the left(  )  from the right (  ) 
+ This tube is now ﬁlled as follows: 
+ Question: 
+ How would this tube look after putting 4 balls in the following order? 
+ A  B  C  D  E 
+ January 2025  Page |  17 
+
+===== PAGE 19 =====
+ Bebras  India 
+ Answer Explanation: 
+ The correct answer is: 
+ Two balls are pushed into the tube from the right, ﬁrst a black ball and then a white ball. 
+ Therefore, two balls fall out on the left, ﬁrst the black one, then the white one. 
+ = 
+ Then two balls are pushed into the tube from the left, ﬁrst a black ball and then a white ball. 
+ So this time two balls fall out on the right, ﬁrst the white one, then the black one. 
+ = 
+ Therefore the correct answer is: 
+ The solution can also be found more simply: since two balls are ﬁrst pushed into the tube 
+ from the right and then two balls from the left, the ball that was originally on the right in the 
+ tube is now on the right and to the left of it (from right to left) are the two balls that were 
+ last pushed into the tube. 
+ It’s Informatics: 
+ The tube of this task is a special form of queue, which in computer science is called a deque 
+ (short for double-ended queue). 
+ January 2025  Page |  18 
+
+===== PAGE 20 =====
+ Bebras  India 
+ Unlike  a  traditional  queue,  we  can  add  an  element  to  either  end  of  a  deque  and  remove  an 
+ element from either end of the deque. A deque is a data structure. 
+ Deques  have  many  uses,  for  example  as  a  generalised  replacement  for  both  stacks  (add  at 
+ the  front  and  remove  at  the  front)  and  simple  queues  (add  at  the  back  and  remove  at  the 
+ front).  You  can  think  of  it  like  a  shunting  track:  wagons  can  be  added  or  removed  at  the  front 
+ and  back,  but  you  cannot  simply  remove  a  wagon  from  the  middle.  On  a  simple  shunting 
+ track,  on  the  other  hand,  you  could  only  add  or  remove  wagons  on  one  side  (like  a  stack) 
+ and on a hump, the wagons only ever move in one direction (like a queue). 
+ Just  as  the  tube  of  this  task  can  only  hold  up  to  three  balls,  a  deque  also  has  a  limited 
+ capacity  in  practice.  If  an  element  is  added  to  a  deque  that  is  already  at  capacity,  space  must 
+ be  made  at  the  other  end.  This  is  done  by  removing  an  element  from  there  and  losing  the 
+ corresponding information. 
+ Storage space is a ﬁnite resource and the amount of data you can store depends on it. 
+ Nevertheless, deques are often used as hypothetically unlimited, especially when dealing 
+ with theoretical questions rather than practical applications. 
+ January 2025  Page |  19 
+
+===== PAGE 21 =====
+ Bebras  India 
+ Beaver's pattern 
+ Badri’s favorite snack is cream biscuits. It consists of a biscuit, cream ﬁlling, and another 
+ biscuit. Badri likes to take cream biscuits apart and make his own version. 
+ Normal biscuit  Badri’s version 
+ Now Badri wants to paint his fence in the same pattern as his version of the biscuit. 
+ Question: 
+ Badri has already painted the ﬁrst plank. What will the rest of the fence look like? 
+ January 2025  Page |  20 
+
+===== PAGE 22 =====
+ Bebras  India 
+ A) 
+ B) 
+ C) 
+ D) 
+ January 2025  Page |  21 
+
+===== PAGE 23 =====
+ Bebras  India 
+ Answer Explanation: 
+ Badri would paint the fence the following way: 
+ This way the pattern of the cookie is replicated in the colors of the fence. 
+ It’s Informatics: 
+ This task is about the same pattern appearing in diﬀerent situations. It can also be seen as 
+ diﬀerent representations of information, which happens often in informatics. For example, 
+ the data about how many students in a group gave correct answers to diﬀerent tasks in a 
+ Bebras challenge can be shown as a table, but the same information can also be presented 
+ as a diagram. 
+ This is Computational Thinking 
+ This task requires pattern recognition which is an important computational thinking skill. It is 
+ needed in, for example, in data compression, in computer vision, and in machine learning. 
+ Pattern recognition systems are usually trained with “training data” and the results can be 
+ applied to new data. Another application is to let the computer ﬁnd new patterns in data. 
+ January 2025  Page |  22 
+
+===== PAGE 24 =====
+ Bebras  India 
+ Ricca Cards 
+ Babita collects cards showing monsters called “Riccas”. All Riccas have attributes such as 
+ name or the number of eyes. Each Ricca is diﬀerent, so the values of the attributes 
+ sometimes vary. Here are three example cards showing some of these attributes and values: 
+ Each value of an attribute is noted in a speciﬁc kind: 
+ attribute  kinds of attribute values 
+ values are given as  text 
+ values are given as  X or ✓  
+ values are given as  numbers 
+ Question: 
+ On which card does every attribute have the correct kind of attribute value assigned to it? 
+ A  B  C  D 
+ January 2025  Page |  23 
+
+===== PAGE 25 =====
+ Bebras  India 
+ The correct answer is: B 
+ Answer Explanation: 
+ The following table shows why: 
+ A  B  C  D 
+ Attribute 
+ Only on card B), the values of each attribute are noted to be the right kind. 
+ ● Answer A), C) and D): The Ricca named Lori has 2 horns in the picture, but the value for 
+ the horns,  , can only be X or ✓ . 
+ ● Answer A): The Ricca named Lori has eyes in the picture, but the value for the eyes, 
+ , can only be a number which in this case should  be the number 3. 
+ January 2025  Page |  24 
+
+===== PAGE 26 =====
+ Bebras  India 
+ It’s Informatics: 
+ The values on the cards describe the Riccas. The values for Riccas could be stored as 
+ variables for each card. Each variable has a data type associated with it that is used to 
+ determine what types of values are acceptable or not. In the Ricca cards shown, the name is 
+ stored as text, the eyes are stored as a number and the horns are either yes or no. 
+ Depending on how we store data in the computer, it can perform diﬀerent calculations (or 
+ operations). Before we store data in the computer, we have to think about what we want to 
+ do with it later. Then we can decide which data type to use. Not only does a data type 
+ determine which values can be accepted, it also indicates which operations can be carried 
+ out. 
+ It’s Computational Thinking 
+ Abstraction is required to solve this task: First, the participants have to ﬁlter out the relevant 
+ information and validate the given values. The second step is to distinguish between a 
+ correct value and a correct value in the correct data type. 
+ January 2025  Page |  25 
+
+===== PAGE 27 =====
+ Bebras  India 
+ Gathering gifts 
+ Anita bought seven gifts for her brothers, Amu and Bablu. There are 3 gifts for Amu, and 4 
+ gifts for Bablu. Anita placed the gifts and cards in a shelf in compartments as shown below, 
+ and will give Amu and Bablu each a card with the compartment number to start with. 
+ Amu’s card says 6, so in order to get his gifts, Amu will start by opening the gift in 
+ compartment 6. Next he will go to the compartment indicated on the gift and open that gift, 
+ and keep going until he ﬁnds the “END” card. By following the “chain” of cards, Amu will 
+ eventually receive all his gifts. 
+ Question: 
+ Which compartment number did Bablu start with to get all his gifts? 
+ A)  1  B)  3  C)  5  D)   7 
+ January 2025  Page |  26 
+
+===== PAGE 28 =====
+ Bebras  India 
+ The correct answer is: B) 3 
+ Answer Explanation: 
+ The correct answer is: Amu: 6, 2, 4. Bablu: 3, 1, 5, 7. 
+ Amu starts with the gift in compartment 6, then is directed to compartment 2, and then to 
+ compartment 4, where he receives the “END” card. 
+ To ﬁnd Bablu’s compartments, we need to work backwards. The last compartment will be 
+ compartment 7, because it contains the other “END” card. Since compartment 5 leads to 
+ compartment 7, then Bablu’s third compartment must be 5. Since compartment 1 leads to 
+ compartment 5, then Bablu’s second compartment must be 1. Since compartment 3 leads to 
+ compartment 1, then Bablu’s ﬁrst compartment must be 3. So Bablu’s compartments in 
+ order from start to ﬁnish are 3, 1, 5, 7. 
+ It’s important to note that compartments 6 and 3 are the only numbers not written on any 
+ cards in the compartments, so this suggests they are the two compartments that Amu and 
+ Bablu start with. 
+ It’s Informatics: 
+ In  informatics,  data  structures  similar  to  the  “chains”  of  gifts  are  called  (simply-)linked  lists. 
+ As  with  any  other  piece  of  data  in  a  computer’s  memory,  the  information  that  provides 
+ access  to  a  list  is  an  address,  precisely  that  of  the  ﬁrst  element  (in  the  case  of  the  task,  the 
+ number  of  the  compartment  from  which  to  start  gathering  the  gifts);  each  element  of  the 
+ list  contains  a  useful  piece  of  information  (the  gift)  and  the  address  of  the  next  element  (the 
+ card  on  the  package);  a  special  value  will  indicate  that  there  is  no  next  element  (the  “END” 
+ card). 
+ So,  in  general,  the  elements  of  each  list  are  “scattered”  in  the  memory  and  we  do  not  limit 
+ their  number:  this  is  more  ﬂexible  than  considering  only  consecutive  sequences  of  memory 
+ locations  (called  arrays);  the  elements  of  an  array  (in  prearranged  number)  are  stored  one 
+ after  the  other.  An  advantage  of  an  array,  however,  is  that  it  is  suﬃcient  to  know  the  address 
+ of  the  ﬁrst  element  (in  addition  to  the  size  of  the  elements,  the  same  for  all  of  them)  to  be 
+ able  to  access  any  of  them  directly,  without  traversing  the  sequence  of  elements  preceding 
+ it. 
+ Typically,  the  storage  which  preserves  the  ﬁle  system  is  divided  into  blocks  of  ﬁxed  size,  and 
+ a ﬁle can occupy several blocks, even non-contiguous ones, which precisely form a list. 
+ There  are  lists,  which  are  more  complex  to  manage,  in  which  each  element  also  contains  the 
+ address  of  the  previous  one  (as  well  as  that  of  the  next  one)  so  that  the  list  can  be  easily 
+ traversed  in  both  directions,  or  whose  elements  are  not  the  same  size  (and  then  it  is 
+ necessary, for example, to store its size immediately at the beginning of each element). 
+ January 2025  Page |  27 
+
+===== PAGE 29 =====
+ Bebras  India 
+ Fundamental operations on a list are to “link” a new element to a given position in the list 
+ and, vice versa, “disconnect” a certain element from the list (naturally keeping the others in 
+ a single “chain”). 
+ January 2025  Page |  28 
+
+===== PAGE 30 =====
+ Bebras  India 
+ Map of lighthouses 
+ Captain Akhilesh has a map of the harbor but he does not know where his sailboat is on the 
+ map. A circle is drawn around each lighthouse. When Akhilesh’s boat is inside a lighthouse’s 
+ circle, then he can see that lighthouse. 
+ Question: 
+ Captain Akhilesh can see lighthouses B and C. He can't see lighthouse A.  Which is his boat? 
+ A)  1  B)  2  C) 3  D) 4 
+ January 2025  Page |  29 
+
+===== PAGE 31 =====
+ Bebras  India 
+ The correct answer is: B) 2 
+ Answer Explanation: 
+ Akhilesh's ship is shown in the following diagram: 
+ Akhilesh sees the two lighthouses B and C. The boat is therefore in the area where their two 
+ circles intersect. 
+ However, Akhilesh doesn’t see lighthouse A. So, the ship is not in the circle of this 
+ lighthouse. 
+ Akhilesh's ship is located here because this is the only place where only circles B and C 
+ overlap. 
+ It’s Informatics: 
+ You can use clearly visible points on the coast to navigate on the water (this is called 
+ terrestrial navigation). Today, most ships are equipped with satellite navigation. This uses 
+ satellite signals instead of the clearly visible points and the position is calculated by 
+ computer. However, every sailor also learns to navigate without satellite signals, for example 
+ in case they are not available. 
+ Computer Science 
+ In computer science, the exact description of a problem and the solution process is of great 
+ importance. A useful tool for this is propositional logic: Akhilesh is guided by three 
+ statements, each of which can be true or false : 
+ ●  Statement A is: “Lighthouse A is visible.” 
+ ●  Statement B is: “Lighthouse B is visible.” 
+ ●  Statement C is: “Lighthouse C is visible.” 
+ In Akhilesh's case, B and C are true, A is false (Akhilesh sees lighthouses B and C, but not 
+ lighthouse A). In propositional logic, this is written as: "B AND C AND NOT A". On the map, 
+ for example, "A AND B AND C" corresponds to the area where all three circles overlap, 
+ because only there can you see all three lighthouses. "NOT A AND NOT B AND NOT C" 
+ January 2025  Page |  30 
+
+===== PAGE 32 =====
+ Bebras  India 
+ corresponds to the area that lies outside the three circles. None of the three lighthouses are 
+ visible there. 
+ In general, propositional logic is used in computer science for knowledge representation, 
+ program veriﬁcation and, above all, for modelling digital circuits. 
+ Alternatively, in computer science, we often have to describe relationships between objects 
+ or sets of objects. We don't use verbal descriptions but we use a set of symbols and rules 
+ called Boolean Algebra. Our problem could be then written as: B and C and Not A. 
+ The graph used in this task is called a Venn diagram. A Venn diagram uses overlapping circles 
+ or other shapes to illustrate the logical relationships between two or more sets of items. 
+ Often, they serve to graphically organise things, highlighting how the items are similar and 
+ diﬀerent. 
+ It’s Computational Thinking 
+ For solving this task usage of abstraction is necessary. Graphs abstract important 
+ relationships between sets of objects from the problem statement and the solver needs to 
+ apply Venn Diagram theory to solve this task. In addition, logical thinking is applied when 
+ solving this task. 
+ January 2025  Page |  31 
+
+===== PAGE 33 =====
+ Bebras  India 
+ Ice Cream Shop 
+ A cool new ice cream shop with self-service has opened! You can get an ice cream with 
+ diﬀerent ﬂavors. To place an order, you push the arrow buttons to move the robot to the 
+ ﬂavor you want and then press  to pick up a scoop.  After you have picked up three 
+ scoops, the robot brings you the ice cream. 
+ The robot always starts from the middle of the bottom row. 
+ This sequence 
+ makes and ice cream with the ﬂavors chocolate  ,  plums  and coﬀee  . 
+ January 2025  Page |  32 
+
+===== PAGE 34 =====
+ Bebras  India 
+ Question: 
+ What ﬂavors do you get when you order an ice cream with this sequence? 
+ A  B  C  D  E 
+ January 2025  Page |  33 
+
+===== PAGE 35 =====
+ Bebras  India 
+ The correct answer is A 
+ Answer Explanation: 
+ First the robot picks up a scoop of  vanilla, then  strawberry and lastly 
+ cherry. 
+ It’s Informatics: 
+ When you use the arrow buttons to move the robot, it's like giving instructions to a 
+ computer. Writing instructions for a computer to follow is called programming. 
+ When a program contains a wrong instruction this may have disastrous consequences – the 
+ ice cream robot might hit the window of the machine, or in real life, a cash machine might 
+ give you more money than you ask for or your car might refuse to start. 
+ For that reason it is important to test programs by trying out the instructions ‘in your head’ 
+ without really carrying them out. This is what you have been doing in this task. 
+ It’s Computational Thinking 
+ To solve this task, you need to strictly follow instructions in your head. This is (a weak form 
+ of) algorithmic thinking. Also in every day life you need to be able to do this. For example, 
+ when you bake a cake, you need to strictly follow the recipe, or when you use a washing 
+ machine you have to press the buttons in the right order if you do not want all your clothes 
+ to end up pink. 
+ January 2025  Page |  34 
+
+===== PAGE 36 =====
+ Bebras  India 
+ Pizza Party 
+ Jahnvi throws a pizza party. She knows the favorite pizza toppings of her friends: 
+ Alia wishes 
+ (red pepper)  (Mushrooms)  (Cheese) 
+ Babu wishes 
+ (Mushrooms)  (Pineapple)  (Onions) 
+ Charu wishes 
+ (Mushrooms)  (Salad)  (Cheese) 
+ Dina wishes 
+ (Mushrooms)  (Cheese)  (Onions) 
+ Jahnvi wants to make one pizza with 3 toppings. She wants to choose the 3 toppings so that 
+ the maximum number of wishes overall is satisﬁed. Then her friends will be happy. 
+ Question: 
+ Which 3 toppings will she choose? 
+ A) 
+ B) 
+ C) 
+ D) 
+ January 2025  Page |  35 
+
+===== PAGE 37 =====
+ Bebras  India 
+ The correct answer is: C 
+ Answer Explanation: 
+ The correct answer is: mushrooms, cheese and onions. 
+ Each of her friends wishes for mushrooms (4 wishes), 3 friends wish for cheese and 2 friends 
+ want onions. So a total of 9 wishes are granted. No other combination of toppings can grant 
+ more wishes. 
+ How do you ﬁnd the solution? You could simply try all combinations and count how many 
+ wishes are fulﬁlled. But you can also systematically proceed. 
+ Step 1: For each topping, determine how many friends want it. 
+ The topping requests of Janhvi's friends are shown in a table. For each topping, there is a 
+ column and for each person, there is a row. If a topping for a person is desired, you enter in 
+ the ﬁeld that corresponds to the row of the person and the column of the covering. Alia 
+ wants a pepperoni, so in the ﬁrst line and ﬁrst column a 1 is recorded 
+ Alia  1  1  1 
+ Babu  1  1  1 
+ Charu  1  1  1 
+ Dina  1  1  1 
+ Topping is 
+ a favourite 
+ of many 
+ people 
+ 1  4  1  1  3  2 
+ Step 2: Find the three most popular toppings 
+ Then you add up the numbers in each column and write the total in the bottom row. 
+ Mushrooms are the most popular (4), followed by cheese (3) and onions (2). The others are 
+ January 2025  Page |  36 
+
+===== PAGE 38 =====
+ Bebras  India 
+ only requested once each. The three most popular toppings fulﬁl the most wishes, namely 9 
+ in total. 
+ It’s Informatics: 
+ This task is an example of a simple optimisation problem. To ﬁnd a solution, you need to 
+ collect data (friends' wishes), calculate new data (frequencies of wishes), consider 
+ constraints (only one pizza with three toppings), and make decisions (choosing the 
+ toppings). The two-step procedure used in the explanation of the correct answer is an 
+ algorithm that can solve this optimization problem in general. It is a general solution 
+ because it would work with other toppings and other wishes. 
+ Algorithms can be executed automatically by a computer. Optimisation plays a role in many 
+ areas of life, for example in transportation (optimal route for a delivery vehicle) or in 
+ industry (optimal production processes). 
+ It’s Computational Thinking 
+ This puzzle exempliﬁes several key components of computational thinking. 
+ Pattern  recognition  involves  looking  for  similarities  or  trends  within  the  problem.  By 
+ analysing  the  toppings  preferences,  one  might  notice  that  certain  toppings  are  more  popular 
+ than  others  or  that  some  combinations  can  satisfy  multiple  people's  preferences. 
+ Recognizing  these  patterns  is  crucial  for  making  an  informed  decision  on  which  toppings  to 
+ choose. 
+ Algorithm  design  involves  creating  a  step-by-step  solution  to  solve  a  problem.  For  the  pizza 
+ puzzle,  this  could  involve  creating  a  method  for  tallying  votes  for  each  topping,  a  process  for 
+ selecting  the  top  three  toppings,  and  a  rule  for  deciding  what  to  do  in  case  of  ties.  This  step 
+ is  about  formulating  a  clear,  logical  approach  to  arrive  at  the  optimal  pizza  topping 
+ combination given the constraints. 
+ In  this  task,  although  the  number  of  toppings  and  friends  is  relatively  small,  one  has  to 
+ systematically  analyse  the  data  (preferences)  to  make  a  decision  (which  toppings  to  choose) 
+ that  achieves  a  goal  (maximising  happiness).  This  process  could  be  translated  into  an 
+ algorithm  that  could  be  applied  to  diﬀerent  scenarios  involving  a  higher  number  of  friends 
+ or toppings, a diﬀerent number of chosen toppings and even a diﬀerent criteria. 
+ The  task  serves  as  a  practical  example  of  computational  thinking  in  action,  illustrating  how 
+ these  concepts  are  not  only  relevant  in  programming  and  computer  science  but  also  in 
+ everyday problem-solving and decision-making scenarios. 
+ January 2025  Page |  37 
+
+===== PAGE 39 =====
+ Bebras  India 
+ Tiﬁnagh 
+ Tarun knows the Tiﬁnagh alphabet, which is used by Tuareg Berber, who are living in 
+ northern Africa. Tarun uses the Tiﬁnagh alphabet as code. Tarun maps each Tiﬁnagh symbol 
+ to the English alphabet. Tarun codes ﬁve words: BEBRAS, TURTLE, WEASEL, WALRUS, and 
+ IGUANA. 
+ Question: 
+ Which word in the Tiﬁnagh alphabet maps to WALRUS? 
+ A)  B)  C)  D)  E) 
+ January 2025  Page |  38 
+
+===== PAGE 40 =====
+ Bebras  India 
+ The correct answer is A 
+ Answer Explanation: 
+ The  ﬁrst  attempt  is  to  check  whether  the  number  of  letters  can  help.  But  no,  all  words 
+ contain  6  letters.  We  therefore  look  to  the  pattern  of  letters  which  can  be:  doubles  or  triples 
+ of  the  same  letter,  same  letter  at  beginning  and  end  of  the  word,  same  letters  in  diﬀerent 
+ positions,  etc.  The  direction  of  letters  (from  left  to  right  or  from  right  to  left)  must  also  be 
+ considered  as  part  of  the  pattern.  The  ﬁrst  assumption  is  that  the  direction  is  from  left  to 
+ right, we will work with this assumption and check against it at the end. 
+ Here is the detailed explanation how to ﬁnd the solution: 
+ You  see  that  WEASEL  and  WALRUS  begin  with  the  same  letter  and  you  ﬁnd  two  with  the 
+ same  pattern  (and  you  have  learned  that  W  must  be  ).  You  cannot  yet  assign  them  as  you 
+ need to know which is which. 
+ You  also  see  that  BEBRAS  has  the  same  letter  in  the  ﬁrst  and  third  position.  So  you  check  and 
+ ﬁnd  this  pattern  in  the  code  texts,  and  since  only  one  of  the  code  words  has  this  pattern,  you 
+ can  assign  BEBRAS  to  .  You  also  have  learnt  the  meaning  of  the  letters  in  the  word  BEBRAS. 
+ Interesting  are  A  (which  is  coded  )  and  E  (which  is  coded  )  because  these  letters  are 
+ used in the other words. 
+ You  look  for  other  patterns  and  ﬁnd  that  both  WEASEL  and  WALRUS  start  with  the  same 
+ letter. 
+ And  yes,  there  are  two  code  words  that  begin  with  the  same  letter.  Which  is  which?  The 
+ position of the A and E help you assigning both words. 
+ TURTLE  has  the  same  letter  in  the  ﬁrst  and  fourth  position,  allowing  it  to  be  assigned  to  the 
+ code word (as only one code word has this pattern). 
+ IGUANA  has  the  same  letter  in  the  fourth  and  last  position,  and  again  only  one  code  word 
+ has this pattern, so it can be assigned. 
+ We  have  assigned  all  clear  text  words  to  code  words,  so  the  assumption  of  the  direction  (left 
+ to  right  or  right  to  left)  seems  to  be  correct.  Nevertheless,  and  to  be  absolutely  certain,  the 
+ patterns  are  tested  on  the  pattern  of  WEASEL  and  WALRUS:  No  two  code  words  have  the 
+ same letter on the right-hand side. 
+ It’s Informatics: 
+ When information is written down, it is represented as a sequence of symbols of an 
+ alphabet. Many languages – such as English – use an alphabet of 26 symbols, called letters. 
+ The (current) computers use an alphabet of 2 symbols, called 0 and 1. 
+ January 2025  Page |  39 
+
+===== PAGE 41 =====
+ Bebras  India 
+ In this Bebras-Task, the same words are represented in diﬀerent alphabets. Why do we use 
+ diﬀerent alphabets? It would be so much easier if we would all use the same alphabet! 
+ We have diﬀerent needs for alphabets, here are some examples: 
+ ●  Computers must be built in a way that can be produced and transported easily, the 
+ solution is the binary alphabet using 0 and 1 only. 
+ ●  Some people cannot see and so they cannot read the books, the solution is the 
+ braille alphabet that they can read using their ﬁngertips. 
+ ●  Sometimes, the information must be kept secret, this can be a recipe of making the 
+ best cheese, a military secret or the password to a bank account. The solution for this 
+ need started with using diﬀerent directions of writing, changing the sequence of the 
+ letters and also included inventing new alphabets where only the selected few knew 
+ how to interpret the symbols correctly. 
+ This area is evolving with the current technology and within computer science a new science 
+ has emerged, called cryptology. 
+ The Bebras-Task is very simply transforming letter by letter from one alphabet to another. 
+ Pattern recognition (and pattern matching) is used to solve the task, which is a nice 
+ illustration how this powerful technique can be used to understand unknown writing. 
+ Pattern recognition not only helped in understanding the ancient Egyptian hieroglyphs, but 
+ also is used to understand the information stored in the DNA. 
+ It’s Computational Thinking 
+ To solve this task, pattern recognition skills are used. 
+ Here is some background: When collecting and using data, there often are restrictions such 
+ as limited storage space, transmission that must be tolerant for weak signals, protection of 
+ data against unauthorized usage etc. Selecting the best representation of data for the 
+ situation is a key component of every solution and when data from diﬀerent sources is used, 
+ computer scientists need to transform data from one representation to another. 
+ January 2025  Page |  40 
+
+===== PAGE 42 =====
+ Bebras  India 
+ Miracle Flower 
+ After sunrise, a stalk with two new buds grows from each new bud of the miracle ﬂower. At 
+ sunset, the ﬂower stops growing. This continues day after day and the miracle ﬂower 
+ becomes more and more magniﬁcent. 
+ New bud before sunrise  Miracle Flower after sunset 
+ (ﬁrst day) 
+ Miracle Flower after sunset 
+ (second day) 
+ Question: 
+ How many days has this miracle ﬂower been growing? 
+ A)  5 days  B) 11 days  C) 16 days  D) 32 days 
+ January 2025  Page |  41 
+
+===== PAGE 43 =====
+ Bebras  India 
+ The correct answer is A) 5 days 
+ Answer Explanation: 
+ The correct answer is 5 days. 
+ At  the  end  of  each  day,  each  bud  on  the  end  of  a  stalk  of  the  Miracle  Flower  will  have  grown 
+ a  new  stalk  with  two  new  buds.You  just  need  to  follow  a  branch,  such  as  the  one  on  the  far 
+ right, to count the number of days it grew. This is illustrated in the following diagram: 
+ It’s Informatics: 
+ Miracle  ﬂowers  grow  according  to  a  speciﬁc  rule:  every  day,  each  new  bud  forms  exactly  one 
+ stem  and  two  new  buds.The  next  day,  the  same  rule  is  applied  to  all  newly  formed  buds.  This 
+ is  a  continuous  process  that  repeatedly  applies  the  same  rule.Theoretically,  the  miracle 
+ ﬂower can continue to grow indeﬁnitely. 
+ Such  repeated  application  of  a  rule  is  common  in  computer-controlled  systems.In  computer 
+ science,  the  process  of  repeating  the  same  or  similar  actions  multiple  times  is  called 
+ iteration. 
+ For  example,  traﬃc  light  controls  constantly  generate  the  same  sequence  of  traﬃc  lights.  In 
+ a slot machine, the same game can be restarted over and over again. 
+ It’s Computational Thinking 
+ Abstraction  requires  computer-minded  people  to  focus  only  on  the  most  important 
+ information  and  elements  of  the  problem,  ignoring  everything  else,  especially  irrelevant  or 
+ unnecessary  details.  This  task  requires  the  student  to  understand  that  it  is  enough  to  just 
+ look at the length of any branch. 
+ January 2025  Page |  42 
+
+===== PAGE 44 =====
+ Bebras  India 
+ Сonveyor with toys 
+ A conveyor with toys moves in the direction shown with a black arrow in the picture. 
+ Mahesh wanted to sort all the toys in the three boxes, but as he considers this task boring, 
+ he decides to play a game. The rule of the game is that when he picks up a toy, he skips the 
+ next toy that passes by him until the conveyor is empty. 
+ Question: 
+ Mahesh starts the game by taking the green car. Which toy will he pick up last? 
+ A)  B)  C)  D) 
+ January 2025  Page |  43 
+
+===== PAGE 45 =====
+ Bebras  India 
+ The correct answer is D 
+ Answer Explanation: 
+ The last toy he picks up is the orange ball. 
+ Let's  arrange  all  the  toys  that  are  on  the  conveyor  in  one  row.  Before  Mahesh  started  the 
+ sorting, the toys were in the following order. 
+ Working  from  left  to  right,  during  the  ﬁrst  conveyor  rotation  Mahesh  took  the  green  car,  the 
+ green  and  blue  ball,  the  red  car,  and  the  purple  car.  So,  after  the  ﬁrst  rotation,  we  have  the 
+ following toys left on the conveyor. 
+ As  the  last  toy  was  not  taken  in  the  ﬁrst  round  he  starts  from  the  beginning  (the  leftmost 
+ toy).  During  the  second  conveyor  rotation,  Mahesh  took  the  red-green-yellow  ball  and  the 
+ white-blue-yellow  ball.  So,  after  the  second  rotation,  we  have  the  following  toys  left  on  the 
+ conveyor. 
+ Because  he  left  the  orange  ball  on  the  conveyor,  during  the  third  rotation,  Mahesh  takes  the 
+ airplane.  Since  he  always  takes  every  other  toy,  no  matter  how  far  or  close  it  is  from  the  toy 
+ Mahesh  just  picked  up,  during  this  rotation,  he  doesn’t  take  the  orange  ball,  until  he  sees  it 
+ the second time. 
+ This  means  that  the  conveyor  rotates  a  fourth  time  and  the  only  toy  left  it  the  orange  ball, 
+ which is the last toy he picks up. 
+ It’s Informatics: 
+ This  approach  can  be  found  in  the  real  world  as  well.  For  example,  in  a  shop  a 
+ complimentary  gift  can  be  given  to  every  tenth  (or  nth)  visitor  or  during  quality  control 
+ checks  in  production  line  inspectors  take  every  other  (or  nth)  product  to  examine  it.  Such 
+ behavior  corresponds  to  a  concept  in  informatics  known  as  looping.  It  refers  to  the  process 
+ of  repeating  a  set  of  instructions  or  operations  multiple  times.  These  loops  allow  the 
+ January 2025  Page |  44 
+
+===== PAGE 46 =====
+ Bebras  India 
+ repeated  execution  of  a  block  of  code  based  on  a  speciﬁed  condition.  There  are  various 
+ types  of  loops  in  programming  languages,  such  as  for  loops,  while  loops,  and  do-while  loops, 
+ each serving diﬀerent purposes and providing diﬀerent ways to control the iteration. 
+ It’s Computational Thinking 
+ The  task  can  be  solved  by  applying  algorithmic  thinking.  In  the  task,  we  have  information 
+ about  the  order  and  the  sequence  in  which  toys  should  be  picked  up  (every  second  toy).  We 
+ should  carefully  follow  this  condition  step-by-step,  taking  into  account  the  position  of  the 
+ toy  that  was  previously  picked  up  and  the  next  toy  to  pick  up  in  the  sequence,  to  determine 
+ which toys are taken from the conveyor during each rotation. 
+ In  addition,  this  task  is  an  example  of  abstraction  (for  example,  the  balls  might  be  diﬀerent 
+ colours).  The  main  focus  must  remain  on  the  order  of  the  steps,  no  matter  what  size  or 
+ colour a toy is. 
+ January 2025  Page |  45 
+
+===== PAGE 47 =====
+ Bebras  India 
+ Dishes on the shelf 
+ A robot has to put dishes on the shelf according to the given steps: 
+ Question: 
+ Which one of the shelves has the dishes incorrectly ordered? 
+ January 2025  Page |  46 
+
+===== PAGE 48 =====
+ Bebras  India 
+ The correct answer is C 
+ Answer Explanation: 
+ Did  you  notice  that  the  number  of  teapots  in  a  row  on  the  shelf  must  be  even?  This  is 
+ because  the  diagram  shows  repetition  with  teapots:  when  the  ﬁrst  teapot  is  placed,  the 
+ second  teapot  must  be  placed,  when  the  third  teapot  is  placed,  the  fourth  teapot  must  be 
+ placed and so on. 
+ Only  option  C  has  an  odd  number  of  teapots,  so  it  is  incorrect.  Of  course,  you  need  to  check 
+ carefully  options  A,  B  and  D  to  make  sure  that  the  dishes  are  lined  up  exactly  according  to 
+ the given diagram. 
+ It’s Informatics: 
+ This  is  a  classic  computer  science  problem,  where  you  are  given  a  scheme  (in  this  case  a 
+ so-called  automaton)  and  you  need  to  understand  how  it  works  and  what  results  can  be 
+ obtained.  The  easiest  way  to  do  this  is  to  look  at  a  few  examples  –  then  you  can  see 
+ patterns.  So,  when  looking  for  a  variant  in  which  the  dishes  are  not  arranged  correctly 
+ according  to  the  scheme,  we  will  focus  on  one  of  the  most  important  parts  of  the  scheme  – 
+ the  action  of  repetition  (placing  the  teapots).  We  make  sure  that  the  number  of  teapots 
+ must always be even in the row of dishes. 
+ It’s Computational Thinking 
+ In  this  problem,  when  checking  the  correctness  of  the  options  (the  order  of  the  dishes) 
+ according  to  the  given  diagram,  we  have  to  notice  pattern  recognition,  which  is  one  of  the 
+ important  components  of  computational  thinking.  Identifying  patterns,  trends,  and 
+ regularities  within  the  problem  or  its  solution.  Recognizing  patterns  helps  in  understanding 
+ the problem better and in ﬁnding more eﬃcient solutions. 
+ January 2025  Page |  47 
+
+===== PAGE 49 =====
+ Bebras  India 
+ Online Class 
+ Avi goes to a new school but wants to see her friends from her old school again. Her friends 
+ are sitting next to each other, but at diﬀerent computers 
+ This is how Avi sees her friends on her screen: 
+ Question: 
+ Which of her friends is sitting in the middle (5  th  position)? 
+ A. Diya  B. Rahul  C. Lalit  D. Bela  E. Heena 
+ January 2025  Page |  48 
+
+===== PAGE 50 =====
+ Bebras  India 
+ The correct answer is Heena 
+ Answer Explanation: 
+ The correct answer is: 
+ Based on what we see on the computer screen, we know who is sitting next to each other. 
+ From the image on the bottom right 
+ of the screen we know that Jay has 
+ only one neighbour. Therefore he is 
+ sitting at one end of the row. 
+ On the top left we see that Esha is 
+ sitting next to him and next to Esha 
+ sits Diya. 
+ If you apply the same method to the remaining images, you can see that all 9 friends are 
+ sitting in the order above. 
+ It’s Informatics: 
+ In  this  task,  we  have  pictures  where  you  can  see  not  only  one  child  but  also  parts  of  the 
+ children next to him. They are like "references" to the neighbours. 
+ Computer scientists like to use similar data structures. 
+ This  data  structure  of  the  friends  arrangement  is  called  a  "doubly  linked  list".  In  a 
+ double-linked  list,  each  node  of  the  list  contains  the  element,  a  reference  to  the  previous 
+ node,  and  a  reference  to  the  next  node.  In  this  task,  each  screen  (node)  the  child  (element  of 
+ the  list)  and  references  (pointers)  to  the  children  to  the  right  and  left  of  the  child.  This  task 
+ involves  an  exercise  in  traversing  a  list,  starting  from  either  end.  This  double  link  helps 
+ computer  scientists  to  reach  not  only  the  next  but  also  the  previous  element.  This  allows 
+ them  to  ﬁnd  and  edit  an  element  more  quickly.  Of  course,  you  need  a  bit  more  memory  to 
+ store two references for all elements. 
+ January 2025  Page |  49 
+
+===== PAGE 51 =====
+ Bebras  India 
+ It’s Computational Thinking 
+ Computational  thinking  in  this  task  refers  to  the  use  of  logical  thinking  to  solve  it.  This 
+ involves  understanding  the  problem,  creating  an  algorithmic  approach  to  evaluate  the 
+ conditions, and then applying the logic to the given scenario. 
+ Logical  thinking  is  necessary  to  ﬁnd  the  solution.  It  involves  breaking  down  a  problem  into 
+ steps  in  order  to  ﬁnd  a  solution.  If  you've  ever  looked  up  guides  on  putting  together  puzzles, 
+ you  might  ﬁnd  the  speciﬁc  pattern  of  piece  connections,  ﬁnd  the  edge  pieces,  sort  by  shape, 
+ and work section by section. 
+ January 2025  Page |  50 
+
+===== PAGE 52 =====
+ Bebras  India 
+ Alfred the Famous Beaver 
+ When the famous beaver Alfred came to a big party, he was photographed. 
+ Four inﬂuencers wrote about it, but not everything on social media is true. 
+ Question: 
+ Which of the following statements is true? 
+ A. Alfred had a hat  and did not use a walking stick 
+ B. Alfred wore a tie  or he used a walking stick 
+ C. Alfred had a hat  and wore a bow tie 
+ D. Alfred wore a bow tie  or did not use a walking  stick 
+ January 2025  Page |  51 
+
+===== PAGE 53 =====
+ Bebras  India 
+ The correct answer is B 
+ Answer Explanation: 
+ he correct statement is  Alfred wore a tie or he used  a walking stick  . 
+ In this task, we test the truth content (true or false) of statements about a picture. 
+ Each statement consists of 2 sub-statements, which are linked with either  and  or 
+ or  . 
+ A statement with  and  is only true if both parts of  the statement are true. 
+ In logic, a statement with  or  is only true if only  one of the sub-statements is true. 
+ Alfred had a hat  (true)  and  did not use a walking  stick  (false). The 
+ statement is false because both parts of the statement are not true. 
+ Alfred wore a tie  (false)  or  he used a walking stick  (true). The statement is 
+ true because only one part it true. 
+ Alfred had a hat  (true)  and  wore a bow tie  (false).  The statement is 
+ false because both parts of the statement are not true. 
+ Alfred wore a bow tie  (false)  or  did not use a walking  stick  (false). The 
+ statement is false because neither of the parts is true. 
+ It’s Informatics: 
+ AND and OR are logical operators that allow us to make decisions in several conditions. For 
+ example, if a person is 18 years or older, and this person does not wear glasses, he or she 
+ can obtain a driving licence without any restrictions. 
+ In computer systems, true and false are often represented by 1 and 0, which can be 
+ processed using electronic components for AND and OR. In programming, often certain 
+ processing steps are only carried out if a certain logical statement is true (condition). 
+ January 2025  Page |  52 
+
+===== PAGE 54 =====
+ Bebras  India 
+ Balloon Machine 
+ A balloon machine can create pictures by inﬂating balloons 
+ in a square frame. The balloons are labeled with the letters 
+ A, B, C, D, and E. 
+ The machine reads letters one after the other from left to 
+ right. When it reads a letter, the following rules apply: 
+ ●  If the current letter's balloon is empty (unﬁlled), it 
+ will inﬂate until it either touches another balloon or 
+ reaches the opposite edge of the frame. 
+ ●  If the balloon of the current letter is inﬂated, it will 
+ be deﬂated. 
+ For example, the sequence E C creates this image: 
+ Question: 
+ Which of the following sequences will not produce the 
+ image? 
+ A) B A E C D 
+ B) B E A C D 
+ C) B E C A D 
+ D) B C E D A 
+ January 2025  Page |  53 
+
+===== PAGE 55 =====
+ Bebras  India 
+ The correct answer is B C E D A 
+ Answer Explanation: 
+ There are 4 possible correct answers with nine letters: 
+ ●  B E B C A C B D B 
+ ●  B E C B A C B D B 
+ ●  B E B C A B C D B 
+ ●  B E C B A B C D B 
+ We show detailed explanation for one answer: B E B C A C B D B. The images below illustrate 
+ the execution of these instructions. They show intermediate states. The ﬁrst image shows 
+ the state after the execution of B E. You can see that it is necessary to inﬂate B before E to 
+ make B an appropriate barrier for the inﬂation of E. 
+ The second image shows the state after B E B C A. Balloon C serves as a barrier for A and 
+ therefore must be inﬂated before A. Additionally balloon B must be deﬂated, before A can 
+ be inﬂated, otherwise it would not reach the required length. 
+ The third image shows the state after B E B C A C B D. B serves as barrier for D and C must be 
+ deﬂated before D is inﬂated. 
+ To ﬁnd all correct answers, it is helpful to represent the problem using a directed graph. The 
+ letters represent the balloons. An arrow from B to E indicates that balloon B must be inﬂated 
+ before balloon E etc. There are two instances where the order of B and C can vary (indicated 
+ with a dashed rectangle). 
+ Each correct answer (sequence of balloons to be inﬂated) is a topological ordering of this 
+ graph. In this case we have 4 topological orderings so there are four possible correct 
+ solutions. 
+ Observation for evaluating correctness of your solution: inﬂated balloons have to appear 
+ odd times → A, D, and E have to appear odd times. Deﬂated balloons have to appear even 
+ times (including 0)→ B, C, and F. 
+ January 2025  Page |  54 
+
+===== PAGE 56 =====
+ Bebras  India 
+ It’s Informatics: 
+ The  sequence  of  letters  is  a  computer  program,  which  controls  a  machine.  Each  letter  is  a 
+ statement  that  makes  the  machine  inﬂate  or  deﬂate  a  balloon.  As  in  most  computer 
+ programs  of  this  type,  the  order  of  statements  is  essential.  For  example,  the  sequence  B  E 
+ makes the machine create a diﬀerent image than the sequence E B. 
+ The  directed  graph  used  in  the  answer  explanation  has  no  cycles  and  is  therefore  called 
+ directed  acyclic  graph  (DAG).  Any  DAG  has  at  least  one  topological  ordering,  and  fast 
+ algorithms  are  known  for  constructing  a  topological  ordering.  DAGs  have  numerous 
+ applications in informatics, e.g. task scheduling. 
+ January 2025  Page |  55 
+
+===== PAGE 57 =====
+ Bebras  India 
+ Berukone 
+ Let's  play  Berukone!  A  Berukone  puzzle  consists  of  a  grid  with  individual  numbers  on  the 
+ squares.  Each  of  these  numbers  appears  in  pairs.  To  solve  the  puzzle,  you  must  connect  each 
+ of  these  pairs  of  numbers  with  a  line.  This  connecting  line  must  run  horizontally  or  vertically 
+ from square to square, but can rotate 90 degrees on each square. 
+ A line may not pass through a number and may not cross another line. 
+ Sometimes there are Berukone puzzles that cannot be solved: 
+ This Berukone can be solved  This Barukone cannot be solved 
+ Question: 
+ Only one of these Berukones cannot be solved. Which one is it? 
+ A  B  C  D 
+ January 2025  Page |  56 
+
+===== PAGE 58 =====
+ Bebras  India 
+ The correct answer is D 
+ Answer Explanation: 
+ Answer D is correct: this is the only one of the four Berukone puzzles that cannot be solved. 
+ In  puzzle  D,  there  is  no  way  to  connect  all  pairs  so  that  lines  do  not  cross.  In  particular,  this 
+ already  holds  for  the  two  pairs  of  1s  and  2s,  knowing  that  there  will  be  a  line  inside  both 
+ cells  that  contain  a  3.  The  only  way  to  connect  the  1s  without  going  through  a  number  is 
+ with  a  line  that  goes  between  the  two  cells  containing  a  number  2,  as  depicted.  Then,  any 
+ line  to  connect  the  2s  would  either  go  through  a  number  or  cross  the  line  that  connects  the 
+ 1s. 
+ It’s Informatics: 
+ For  the  small  Berukone  puzzles  in  this  Bebras  task,  it  is  relatively  easy  to  see  whether  they 
+ can  be  solved  or  not,  and  how  they  can  be  solved.  But  imagine  larger  puzzles,  with  many 
+ more  numbers:  Then,  ﬁnding  a  solution  may  not  be  as  easy  any  more.  There  might  be  many 
+ ways to connect the number pairs, and it would take a vast amount of time to try them all. 
+ But  you  can  try  to  be  smarter.  You  can  go  step  by  step  when  solving  a  puzzle:  Connect  the 
+ pairs  one  by  one,  or  try  to  ﬁll  the  grid  cells  one  bye  one  (with  straight  or  bending  lines).  As 
+ soon  as  you  can  predict  that  your  current  way  towards  a  solution  can  not  lead  to  a  solution 
+ any  more,  at  least  one  in  the  series  of  steps  you  made  was  wrong.  You  can  undo  the  last 
+ step,  and  perhaps  even  more  steps,  until  at  some  point  another  step  can  be  taken 
+ alternatively  that  may  be  a  better  choice.  That  is,  you  go  back  on  the  track  you  created  with 
+ your steps, in order to pursue an alternative path. 
+ This  method  of  backtracking  is  well  known  in  computer  science.  It  is  often  used  to  make 
+ computer  programs  solve  problems  –  whether  real  problems  or  just  puzzles  –  automatically. 
+ Backtracking  algorithms  work  as  described  above:  They  try  to  construct  solutions  step  by 
+ step  und  undo  steps  if  they  can  predict  that  the  current  path  of  steps  does  not  lead  to  a 
+ solution.  Their  ability  to  (a)  make  good  choices  when  taking  the  next  step  and  (b)  predict 
+ whether  a  current  path  may  lead  to  a  solution  or  not  is  crucial  to  their  success.  Backtracking 
+ algorithms  often  have  to  deal  with  hard  problems,  where  speciﬁc  solution  approaches  are 
+ not  known.  In  2010,  Japanese  researchers  found  that  solving  Arukone  puzzles  (a  variant  of 
+ Berukone,  also  known  as  Numberlink,  where  in  a  solution,  every  numbered  bubble  must 
+ have  one  black  link  and  every  unnumbered  bubble  must  have  two  black  links)  is  among  the 
+ hardest problems known in computer science. 
+ It’s Computational Thinking 
+ Algorithm  design  is  the  process  of  deﬁning  a  step-by-step  solution  to  a  problem,  which  can 
+ be  implemented  in  a  programming  language.  It  starts  with  problem  deﬁnition,  where  the 
+ problem,  input,  and  desired  output  are  clearly  identiﬁed.  Next  is  analysis,  which  involves 
+ understanding  the  problem’s  constraints  and  potential  solutions'  feasibility  and  complexity. 
+ Various  design  techniques  can  be  used:  divide  and  conquer,  dynamic  programming,  greedy 
+ algorithms, backtracking, and so on. 
+ January 2025  Page |  57 
+
+===== PAGE 59 =====
+ Bebras  India 
+ Superbebras 
+ In the computer game Superbebras, the 
+ background is a sequence of tiles. The computer 
+ constantly adds a new tile at the right-hand side 
+ of the sequence and removes a block on the 
+ left-hand side, at the same time. This way, the 
+ computer creates the illusion of motion. 
+ The computer chooses a new tile to be added using 
+ the diagram on the right. It looks up the previous 
+ tile and checks the arrows coming from this tile 
+ and randomly picks one of the tiles it is pointing to. 
+ For example, after the tile  , the computer 
+ could either pick the tile  or the tile  . 
+ Question: 
+ One of the following images is NOT a valid Superbebras background. Which one? 
+ A  B 
+ C  D 
+ January 2025  Page |  58 
+
+===== PAGE 60 =====
+ Bebras  India 
+ The correct answer is C 
+ Answer Explanation: 
+ The background shown in the following answer is not completely built up according to the 
+ diagram. 
+ A tile with a diamond can only be followed by one tile, which is not the case here. 
+ There are several ways to ﬁnd the solution to this task. A simple strategy is to check any 
+ given background image and compare each tile with the diagram to see if it is valid. The 
+ quickest way is this: 
+ ●  Check the tiles in the diagram, starting with the tiles that have only one arrow. These 
+ arrows can be seen as constraints. A → B means “tile A must be followed by tile B". 
+ ●  Then check whether this restriction applies to every background image. 
+ It’s Informatics: 
+ Some  computer  games  –  such  as  endless  runner  games  –  have  a  background  that  moves 
+ horizontally,  creating  the  illusion  that  the  player  is  moving  through  a  fantasy  world. 
+ Sometimes  the  background  is  not  a  constant  image,  but  is  automatically  created  by  the 
+ computer.  This  is  called  procedural  generation.  Usually,  smaller  elements  are  non  randomly 
+ combined to create a wide variety of backgrounds. 
+ However,  the  combination  of  elements  cannot  be  completely  random,  but  must  follow 
+ certain rules to avoid situations with which the player cannot. 
+ In  the  task,  these  rules  are  represented  by  a  diagram  of  tiles  and  such  diagrams,  where 
+ elements  are  connected  by  arrows,  are  called  directed  graphs  are  also  called  graphs.  The 
+ elements  are  then  called  nodes  and  the  arrows  are  directed  edges.  Directed  graphs  are  used 
+ for all types of modelling used. 
+ January 2025  Page |  59 
+
+===== PAGE 61 =====
+ Bebras  India 
+ Finite  automata  go  one  step  further:  They  have  states,  a  start  state,  end  states  and  rules  for 
+ how  to  move  from  one  state  to  the  next.  Finite  automata  are  often  used  for  modelling  in 
+ computer science. 
+ It’s Computational Thinking 
+ To  solve  the  task,  a  participant  must  read  and  use  the  directed  graph.  The  graph  determines 
+ the  composition  of  the  background  image.  It  can  be  seen  as  an  abstraction  of  the 
+ mechanism that automatically generates images. 
+ In  addition,  pattern  recognition  can  be  used  to  visually  divide  the  background  into  a  series  of 
+ image  blocks  and  detect  faulty  transitions.  Therefore,  this  task  involves  algorithmic  thinking, 
+ abstraction and pattern recognition. 
+ January 2025  Page |  60 
+
+===== PAGE 62 =====
+ Bebras  India 
+ Balls 
+ We consider a sequence of blue and red balls:: 
+ For each ball, we now count how many blue balls are to the right of the respective ball 
+ (including the ball itself) and note this as follows: 
+ 3, 3, 2, 1, 1, 1. 
+ In the next step, we write down the same sequence again. But if the number is even , we 
+ write down a 0, if it is odd , then a 1. This leads to this sequence: 
+ 1, 1, 0, 1, 1, 1 
+ Question: 
+ Given the following sequence of 0 and 1: 
+ 0, 1, 1, 1, 0, 1, 0, 0 
+ Which sequence of blue and red balls matches this representation? 
+ A  B 
+ C  D 
+ January 2025  Page |  61 
+
+===== PAGE 63 =====
+ Bebras  India 
+ The correct answer is C 
+ Answer Explanation: 
+ The correct answer is: 
+ There  are  several  ways  to  ﬁnd  this  answer.  One  way  is  to  go  through  the  number  sequence 
+ from right to left and to logically conclude whether the current ball must be red or blue. 
+ Let’s look at the balls in sequence: 
+ 1.  Let  us  look  at  the  ﬁrst  ball  on  the  far  right  .  We  take  the  0  at  this  point  as  Indication  that 
+ the ball must be  red  , because only a red ball keeps  the sum of all blue balls even. 
+ 0  1  1  1  0  1  0  0 
+ red 
+ 2.  In  the  second  position  from  the  right  we  ﬁnd  a  0.  The  argument  remains  the  same  as 
+ before:  only  by  a  red  ball  the  sum  of  all  blue  balls  remains  right  and  including  this  position 
+ right now. 
+ 0  1  1  1  0  1  0  0 
+ red  Red 
+ 3.  In  the  third  position  from  the  right  we  ﬁnd  a  1,  which  indicates  that  the  number  of  blue 
+ balls  should  be  odd  from  this  point  on.  Since  we  already  know  that  the  two  balls  on  the  right 
+ are  red,  so  the  current  ball  must  be  blue  to  move  from  a  straight  to  an  odd  number  of  blue 
+ balls. 
+ 0  1  1  1  0  1  0  0 
+ blue  red  Red 
+ 4.  In  the  fourth  position  from  the  right  we  ﬁnd  a  0.  To  replace  the  previous  odd  balls  (2x  red 
+ and  1x  blue)  to  get  an  even  number  of  blue  balls,  the  number  of  blue  balls  the  fourth  ball 
+ must be  blue  . 
+ 0  1  1  1  0  1  0  0 
+ January 2025  Page |  62 
+
+===== PAGE 64 =====
+ Bebras  India 
+ blue  blue  red  Red 
+ 5.  In  the  ﬁfth  position  from  the  right  we  ﬁnd  a  1.  Since  the  previous  sum  of  blue  balls  was 
+ even and is now to be odd, the new ball must also be  blue  . 
+ 0  1  1  1  0  1  0  0 
+ blue  blue  blue  red  Red 
+ 6.  In  the  sixth  position  from  the  right  we  ﬁnd  the  number  1.  Since  the  previous  number  of 
+ blue balls was odd, the current ball must be red so that the number displayed is odd. 
+ 0  1  1  1  0  1  0  0 
+ red  blue  blue  blue  red  red 
+ 7.  In  the  seventh  position  from  the  right  we  ﬁnd  another  1.  The  current  sequence  already 
+ contains  an  odd  number  of  blue  balls;  to  maintain  this  state,  the  new  ball  must  have  a  red 
+ colour. 
+ 0  1  1  1  0  1  0  0 
+ red  red  blue  blue  blue  red  red 
+ 8.  In  the  eighth  position  from  the  right  (ﬁrst  position  from  the  left)  we  ﬁnd  the  number  0. 
+ To make the odd number of blue balls even again, it must be a  blue  ball. 
+ 0  1  1  1  0  1  0  0 
+ blue  red  red  blue  blue  blue  red  red 
+ In  summary,  every  transition  from  a  0  to  a  1  or  from  a  1  to  a  0  a  blue  ball  must  be  used, 
+ while  a  sustained  sequence  of  the  same  numbers  indicates  red  balls.  These  do  not  aﬀect  the 
+ sum of the blue balls: 
+ 0  1  1  1  0  1  0  0 
+ January 2025  Page |  63 
+
+===== PAGE 65 =====
+ Bebras  India 
+ 4 blue  3 red  3 red  3 blue  2 blue  1 blue  0  red  0   red 
+ Then the sequence of blue balls is  43332100  . 
+ It’s Informatics: 
+ During  the  coding  process,  learners  abstract  :  irrelevant  information  is  continuously  omitted 
+ and reduced without losing the central information content. 
+ It’s Computational Thinking 
+ This task includes three central concepts of computer science: 
+ Coding  is  used  to  represent  complex  issues  in  such  a  way  that  computers  can  easily  process 
+ them.  Often  irrelevant  data  can  be  omitted  without  aﬀecting  the  central  components  of  the 
+ information.  This  task  proposes  a  coding  of  how  the  exact  number  and  position  of  the  blue 
+ and  red  balls  can  be  saved  without  the  actual  colours  themselves.  Due  to  the  chosen  coding 
+ we  are  in  the  location  of  the  original  information  (the  colours  and  position  of  the  original 
+ balls). 
+ Under  certain  circumstances,  encoding  can  also  save  storage  space,  which  we  call 
+ compression.  To  represent  binary  information  (as  in  the  information  whether  a  number  is 
+ even  or  odd)  it  is  suﬃcient  to  have  a  single  bit  of  information  whereas  to  store  any  number 
+ or colour more storage space is needed. 
+ As  a  ﬁrst  intermediate  step,  a  cumulative  frequency  was  determined  to  calculate  the  sum  of 
+ the  elements  that  have  a  certain  characteristic  (here  speciﬁcally  the  number  of  blue  balls 
+ from  the  current  position).  The  cumulative  frequency  is  a  tool  of  statistics,  which  is 
+ particularly  characterised  by  the  fact  that  the  resulting  value  information  accumulates  (here 
+ not  only  an  indication  of  the  colour  of  the  current  ball,  but  also  about  the  colours  of  the  balls 
+ behind  it).  Problem  solutions  that  use  cumulative  frequency  often  beneﬁt  from  that  you  can 
+ process many requests quickly without having to access the original data. 
+ Railways 
+ Railway is used to transport heavy cargo from Pune to Mumbai. On the way, they pick a 
+ route and pick up  (+)  or drop oﬀ  (-)  cargo following  the railway signs. Below is a map of the 
+ railway: 
+ January 2025  Page |  64 
+
+===== PAGE 66 =====
+ Bebras  India 
+ Three trains are available to send cargo from Pune to Mumbai, the trains weigh 5, 22, and 35 
+ kg respectively. 
+ Question: 
+ What do the three trains look like when they get to city Mumbai? 
+ A  B  C  D 
+ The correct answer is D 
+ Answer Explanation: 
+ January 2025  Page |  65 
+
+===== PAGE 67 =====
+ Bebras  India 
+ The 35 kg train follows the path shown at 
+ the right. 
+ On its path, it picks up one diamond. It 
+ ends in city B with two diamonds and one 
+ circle. 
+ The second train is 22 kg. It follows the 
+ path shown at the right. 
+ On its path, it picks up one triangle and 
+ drops one circle. It ends in city B with one 
+ star and one triangle. 
+ January 2025  Page |  66 
+
+===== PAGE 68 =====
+ Bebras  India 
+ The last train is 5 kg. It follows the path 
+ shown at the right. 
+ On its path, the train picks up one diamond 
+ and one circle. It then drops one triangle. It 
+ ends in city B with one diamond, one 
+ triangle and one circle. 
+ It’s Informatics: 
+ Railway  signs  with  conditions  like  “<  20  kg?”  correspond  to  conditionals  (IF-THEN-ELSE)  in 
+ programming  languages.  These  logical  conditions  are  crucial  part  of  many  non-trivial 
+ algorithms and programs. 
+ The  overall  structure  of  the  railways  corresponds  to  the  computer  science  concept  of  control 
+ ﬂow.  Explicit  control  ﬂow  is  one  of  the  key  concepts  of  all  imperative  programming 
+ languages: C++, Java, Python, and many others. 
+ Finding  the  ﬁnal  value  of  the  variable  in  the  computer  program  by  hand  is  a  part  of  process 
+ called debugging. It helps to test actual program and ﬁnd errors in its implementation 
+ It’s Computational Thinking 
+ Decomposition breaks down large task into smaller parts allowing to solve it easier. 
+ Computational  logic  is  used  directly  with  logical  expressions  (conditional  statements)  in  the 
+ task. 
+ January 2025  Page |  67 
+
+===== PAGE 69 =====
+ Bebras  India 
+ Tree Tours 
+ Beena oﬀers hikes through the forest and talks about the trees she encounters. From 
+ previous hikes, she knows which trees are particularly popular with guests 
+ Hike 1 
+ Hike 2 
+ Hike 3 
+ Here, tree 1 < tree 2 means that tree 1 is less popular than tree 2. On the next hike, Beena 
+ wants to show the most popular trees later on in the hike. This calls for an order that 
+ corresponds to the popularity of trees from previous hikes. In her next tour, Beena would 
+ like to show the more popular trees later. She decides to ﬁnd a good order that does not 
+ conﬂict with the popularity order from any of the previous tours. For instance, if Beena plans 
+ to show trees  and  , she must show  before  because  on hike 
+ 1  was less popular than  . On her next hike, Beena  wants to show  , 
+ ,  ,  , and  . 
+ Question: 
+ In what order should she show the trees? 
+ A.  ,  ,  ,  , 
+ B.  ,  ,  ,  , 
+ C.  ,  ,  ,  , 
+ D.  ,  ,  ,  , 
+ January 2025  Page |  68 
+
+===== PAGE 70 =====
+ Bebras  India 
+ The correct answer is D 
+ Answer Explanation: 
+ The correct answer is: 
+ An appropriate order must not contradict the popularity of the trees from previous 
+ Tours: 
+ Tour 1 
+ Tour 2 
+ Tour 3 
+ We will now try to combine the three Tours and present the Tours as a diagram. In 
+ this diagram, two trees are always connected by an arrow when one tree has to be 
+ visited before another tree. Here is the diagram for Tour 1: 
+ This information can now be linked to Tour 3. We first find that both Tour 1 and Tour 
+ 3 contain the tree  : 
+ Thanks to this overlap, we can also combine the two diagrams into one: 
+ Finally, we try to integrate Tour 2 (bottom of the following diagram) into the 
+ previous diagram (above). We find that three of the four trees previously were 
+ already included in the diagram. Only  is newly added  to the diagram: 
+ January 2025  Page |  69 
+
+===== PAGE 71 =====
+ Bebras  India 
+ Again,  we  can  combine  both  diagrams  into  one,  keeping  only  one  copy  of  each  tree,  and  add 
+ the arrows accordingly: 
+ Using  the  diagram,  we  can  now  solve  the  task  very  easily:  We  visit  the  trees  in  the  diagram 
+ from  left  to  right  along  the  arrows  and  thus  build  a  sequence  of  the  trees  that  should  be 
+ included in the hike. Also note that not every tree has to be included in the hike. 
+ The new tour visits the trees as follows: 
+ It’s Informatics: 
+ This  is  a  classic  computer  science  problem,  where  you  are  given  a  scheme  (in  this  case  a 
+ so-called  automaton)  and  you  need  to  understand  how  it  works  and  what  results  can  be 
+ obtained.  The  easiest  way  to  do  this  is  to  look  at  a  few  examples  –  then  you  can  see 
+ patterns.  So,  when  looking  for  a  variant  in  which  the  dishes  are  not  arranged  correctly 
+ according  to  the  scheme,  we  will  focus  on  one  of  the  most  important  parts  of  the  scheme  – 
+ the  action  of  repetition  (placing  the  teapots).  We  make  sure  that  the  number  of  teapots 
+ must always be even in the row of dishes. 
+ It’s Computational Thinking 
+ In  this  problem,  when  checking  the  correctness  of  the  options  (the  order  of  the  dishes) 
+ according  to  the  given  diagram,  we  have  to  notice  pattern  recognition,  which  is  one  of  the 
+ important  components  of  computational  thinking.  Identifying  patterns,  trends,  and 
+ regularities  within  the  problem  or  its  solution.  Recognizing  patterns  helps  in  understanding 
+ the problem better and in ﬁnding more eﬃcient solutions. 
+ January 2025  Page |  70 
+
+===== PAGE 72 =====
+ Bebras  India 
+ January 2025  Page |  71 
+
+===== PAGE 73 =====
+ Bebras  India 
+ Robot path 
+ Tikku’s robot moves on tiles following a set of rules: 
+ ●  The robot starts on the yellow tile. 
+ ●  The robot moves in the direction of the arrow on the tile it's standing on. 
+ ●  If the robot moves oﬀ the tiles it stops. 
+ Tiles  are  prearranged  as  shown  below.  Tikku  is  given  extra  tiles.  Tikku  wants  to  place  the 
+ extra tiles on the empty (red) areas so that his robot reaches the green tile with a circle. 
+ Question: 
+ Which path does NOT lead to the green tile? 
+ A) 
+ B) 
+ C) 
+ D) 
+ January 2025  Page |  72 
+
+===== PAGE 74 =====
+ Bebras  India 
+ The correct answer is D 
+ Answer Explanation: 
+ As  already  indicated  in  the  task,  Tikku's  robot  will  ﬁrst  move  to  the  right,  twice  up  and  once 
+ again to the right. This means that a card must be placed at the position marked with 1: 
+ The  two  types  of  cards  available  are  “up”  or  “right”.  If  you  choose  "right",  the  robot  would 
+ move  to  the  right,  then  down  twice  and  right  again.  Now  you  could  either  choose  "right" 
+ again or "up" and then "right". In both cases, the robot would land under the desired target: 
+ So  "up"  must  be  chosen.  The  only  card  that  can  be  chosen  as  the  second  card  is  now  "right" 
+ because  the  only  "up"  card  has  already  been  used.  The  robot  would  then  move  to  the  right, 
+ up,  to  the  right  and  from  there  up  and  to  the  right.  At  this  point,  the  last  available  card, 
+ "right",  must  be  placed  so  that  the  robot  can  move  to  the  right,  down  twice  and  once  to  the 
+ right and land at the target. 
+ This is the only correct solution. 
+ You  can  also  think  about  this  solution  more  quickly  backwards:  You  can  only  get  to  the  goal 
+ from  the  top  three  possible  positions  in  the  right  red  column.  However,  you  can  only  get 
+ there  at  the  very  top,  so  there  must  be  a  "right"  card  at  the  very  top  right.  However,  you  can 
+ only  get  there  from  the  top  two  cards  in  the  middle,  so  you  have  to  put  another  "up"  card  in 
+ the left red column to get there. 
+ January 2025  Page |  73 
+
+===== PAGE 75 =====
+ Bebras  India 
+ It’s Informatics: 
+ As  a  rule,  you  will  solve  this  problem  as  described  in  the  answer's  explanation:  you  will  try 
+ one way, and if it does not lead to the goal, you will go back and try another way. 
+ In  computer  science,  this  is  called  depth-ﬁrst  search  because  one  path  is  tried  out 
+ completely  ﬁrst  and  then  the  next  one  is  tried.  Because  you  often  have  to  go  back  one  or 
+ more  steps  to  try  a  diﬀerent  solution,  you  do  backtracking.  In  any  case,  however,  you  solve 
+ the problem by forward tracking. 
+ However,  some  problems  are  better  solved  backwards  by  looking  from  the  goal  to  see  how 
+ you  could  get  there.  Actually,  this  type  of  problem  is  not  well  suited  to  being  solved 
+ backwards,  because  while  you  always  know  which  card  is  next  when  you  go  forwards,  going 
+ backwards  can  mean  that  you  are  coming  from  several  cards  (the  arrow  points  forwards  and 
+ going  backwards  you  have  to  look  for  all  the  cards  around  it  to  see  if  they  are  pointing  in  the 
+ direction of the card). 
+ But  in  this  particular  case,  it  is  still  easy  to  see  which  one  solution  can  be  the  only  correct 
+ one. 
+ It’s Computational Thinking 
+ A  computer  is  good  at  simply  trying  out  all  possible  cases.  Since  there  are  only  (for  a 
+ computer)  very  few  possible  places  and  very  few  possible  cards  available,  a  computer  can 
+ very  quickly  simply  try  out  all  the  possibilities.  Such  a  relatively  "stupid"  algorithm  would 
+ solve the problem well. 
+ However,  people  need  a  little  more  time  to  try  everything.  Therefore,  it  is  worth  analysing 
+ the  problem  more  closely  and  formulating  restrictions  that  greatly  reduce  the  number  of 
+ cases  to  be  tried.  For  example,  a  card  must  be  in  the  third  highest  position  in  the  left  red 
+ column.  This  signiﬁcantly  limits  the  search  space  for  possible  solutions,  so  that  ultimately 
+ only two variants need to be tried, as shown in the answer explanation. 
+ Computational  thinking  does  not  mean  simply  trying  out  all  possible  cases  like  a  computer 
+ does,  but  rather  considering  simpliﬁcations  that  computer  scientists  also  use.  In  this  case, 
+ this  could  be  an  applied  depth-ﬁrst  search  with  backtracking  or  a  backward  search  instead  of 
+ a forward search. 
+ January 2025  Page |  74 
+
+===== PAGE 76 =====
+ Bebras  India 
+ Bebracelet 
+ Sheela is making a bracelet. She takes beads with numbers from a glass tube. She threads 
+ some of them on and puts some aside and does not use them. She is only allowed to thread 
+ a bead if: 
+ ●  the cord is empty, or 
+ ●  the bead has a higher number than the last bead on the string. 
+ In this example, the last bead on the string is bead 2. Next, Sheela may thread bead 5 from 
+ the tube. She may also set it aside and not use it. 
+ If she strings bead 5, she can make a bracelet with four beads 1257. If she doesn't use the 5, 
+ she can make a bracelet with more beads 12347. 
+ Sheela makes a new bracelet from the beads in this tube: 
+ Question: 
+ What is the maximum number of beads she can thread? 
+ A.  3 beads  B. 4 beads  C.  5 beads 
+ D. 6 beads  E. 7 beads 
+ January 2025  Page |  75 
+
+===== PAGE 77 =====
+ Bebras  India 
+ The correct answer is D) 6 beads 
+ Answer Explanation: 
+ The answer is 6. 
+ We  could  list  all  the  bracelets  for  this  tube  and  see  which  ones  have  the  largest  number  of 
+ beads. But that would be time-consuming. Let's take a closer look at the numbers: 
+ The  ﬁrst  bead  is  number  5.  When  it  is  threaded,  only  beads  6,  7,  8  and  9  are  possible,  so 
+ possible  sequences  would  be  5679  and  589.  If  bead  5  is  put  aside  and  the  next  bead,  bead  1, 
+ is  threaded,  there  are  more  and  longer  possible  sequences.  This  can  be  clearly  represented 
+ in a decision tree: 
+ If  bead  1  is  also  put  aside  and  another  bead  is  threaded  on  ﬁrst,  the  possible  sequences  are 
+ already  contained  in  one  of  the  above  sequences.  If  you  start  with  bead  2,  for  example,  you 
+ get  24679  or  2489,  which  are  contained  in  the  longer  sequences  124679  and  12489 
+ respectively. 
+ Bracelets  with  the  largest  number  of  beads  start  with  bead  1  and  consist  of  6  beads:  124679 
+ or 123679. 
+ It’s Informatics: 
+ Each  tube  contains  a  sequence  of  numbered  beads.  If  Scott  follows  the  second  rule  (only 
+ string  beads  that  have  a  higher  number  than  the  last  bead  stringed),  he  will  get  a  bracelet 
+ with  an  ascending  subsequence.  To  string  a  bracelet  with  as  many  beads  as  possible,  he 
+ must determine the longest ascending subsequence. 
+ For  long  sequences,  it  would  take  a  lot  of  time  to  form  all  possible  ascending  subsequences 
+ and  then  determine  the  longest  one.  If  the  tube  contained  20  beads,  for  example,  the 
+ computational eﬀort would be in the order of a million steps. 
+ Fortunately,  algorithms  have  been  developed  in  computer  science  that  can  ﬁnd  the  longest 
+ ascending  subsequence  more  quickly.  This  is  done  using  a  technique  called  dynamic 
+ January 2025  Page |  76 
+
+===== PAGE 78 =====
+ Bebras  India 
+ programming  .  The  order  of  magnitude  of  the  computational  eﬀort  for  these  fast  algorithms 
+ is less than a hundred steps for a tube with 20 beads. 
+ Finding the Treasure 
+ Pip  the  pirate  is  looking  for  treasure  on  a  deserted  island.  He  has  a  map  of  the  island.  The 
+ map is divided into 16 squares. 
+ Chatterbox,  Pip's  parrot,  knows  which  square  the  treasure  is  in.  Pip  can  ask  Chatterbox  about 
+ any  number  of  squares.  Chatterbox  will  then  tell  him  whether  or  not  the  treasure  is  in  any  of 
+ those squares. 
+ For  example,  Pip  asks  about  the  three  squares  marked  in  the  picture.  If  Chatterbox  says  yes, 
+ Pip knows that the treasure is in any of these three squares - but not which one. 
+ Pip wants to know as quickly as possible which square the treasure is in. 
+ Question: 
+ How many times does Pip have to ask for squares? 
+ A)  4  B) 8  C) 12  D) 15 
+ January 2025  Page |  77 
+
+===== PAGE 79 =====
+ Bebras  India 
+ The correct answer is A 
+ Answer Explanation: 
+ 4 is the correct answer. 
+ Pip  should  enter  letters  of  half  of  the  regions  to  the  device  ﬁrst.  There  could  be  two 
+ scenarios. 
+ A.  If  the  device  indicates  that  the  treasure  is  in  the  given  regions,  Pip  now  further  divides 
+ this region into two halves and enters one half to the device. 
+ B.  If  the  device  indicates  that  the  treasure  is  not  in  the  given  regions,  he  splits  the  remaining 
+ regions into two halves and enters one of the halves to the device. 
+ Pip continues the above till he ﬁnds the region that has the treasure. 
+ For  example,  if  he  enters  A,B,C,D,E,F,G,H  to  the  device  and  it  returns  a  "no",  he  could  enter 
+ K,L,O,P  to  the  device  (any  remaining  4  regions  would  do).  If  it  returns  "no"  again,  he  further 
+ divides  the  remaining  regions  and  enters  any  2  of  the  remaining  regions  to  the  device  (for 
+ example  J,N  as  shown).  If  the  device  returns  "no",  the  treasure  is  hidden  in  one  of  the 
+ remaining  regions  I  or  M.  If  he  enters  M  and  the  device  returns  no,  he  now  knows  for  sure 
+ that the treasure is in region I. 
+ In order to know for sure which square the treasure is in after four questions, Pip can use 
+ this strategy: He asks exactly half of the squares in which the treasure could still be based on 
+ the previous questions. 
+ Pip  cannot  get  by  with  fewer  questions.  If  he  did  not  divide  the  remaining  squares  into  two 
+ equal  halves,  the  treasure  could  be  in  the  larger  part.  To  ask  about  this  part,  Pip  would  have 
+ to ask at least as many questions as for one half. 
+ It’s Informatics: 
+ The  method  that  Pip  uses  for  the  treasure  hunt  is  called  binary  search  in  computer  science. 
+ The  term  binary  comes  from  the  Latin  word  bis  (twice).  In  the  binary  search  for  an  object  in 
+ a  set,  the  set  is  halved  again  and  again  by  a  series  of  questions,  i.e.  divided  into  two  parts  - 
+ hence  "binary".  A  set  can  be  halved  well  if  the  objects  in  it  can  be  ordered,  e.g.  by  size;  this 
+ applies  to  any  set  of  numbers,  among  other  things.  Then  there  is  a  middle  object  in  the  set, 
+ and  you  can  compare  the  middle  object  with  the  one  you  are  looking  for.  If  the  middle 
+ object  is  not  already  the  one  you  are  looking  for,  you  at  least  know  in  which  half  of  the  set 
+ the  object  you  are  looking  for  is  located  and  search  this  half  again  in  binary.  In  this  way  you 
+ January 2025  Page |  78 
+
+===== PAGE 80 =====
+ Bebras  India 
+ can  very  quickly  get  to  the  object  being  searched  for.  For  1,000  objects,  about  10  search 
+ steps  are  needed,  for  1,000,000  objects,  about  20.  In  general,  one  can  say  that  for  n  objects, 
+ about  log(n)  steps  are  needed;  the  log  function  is  the  "logarithm  of  two"  or  the  logarithm  to 
+ base  2.  Because  binary  search  is  so  fast,  it  is  often  used  in  computer  programs  to  search  in 
+ ordered data. 
+ In  this  beaver  task,  the  search  space  is  the  set  of  squares  on  the  island  plan.  The  squares  can 
+ be  arranged  by  numbering  them  from  top  to  bottom  and  from  left  to  right.  But  in  this  case  it 
+ would  also  work  to  halve  the  set  of  squares  in  which  the  treasure  could  still  be.  Then  it  is  just 
+ a  little  more  diﬃcult  to  remember  which  set  of  squares  is  still  possible  for  the  next  search 
+ step and which needs to be halved again. 
+ January 2025  Page |  79 
+
+===== PAGE 81 =====
+ Bebras  India 
+ Highest Score of Sequence 
+ In  a  game,  if  2  identical  letters  are  placed  directly  next  to  each  other,  you  get  2  points,  if  3 
+ identical letters are right next to each other, you get 3 points, and so on. 
+ For  example:  For  the  letter  below  you  get  0  points,  because  there  are  no  identical  Letters 
+ directly next to each other: 
+ Extra  letters  and  letters  are  available  to  improve  the  score.  Now  replace  the 
+ ﬁrst  C  with  an  A  and  the  second  C  with  a  B.  You  get  4  points  for  the  result:  2  for  the  two  A's 
+ and 2 for the two B's in a row. 
+ Now  you  are  given  a  sequence  of  12  letters  with  three  extra  letters.  Replace  letters  in  such  a 
+ way that you get as many points as possible for the result. 
+ ,  , 
+ Question: 
+ What is the highest score possible? 
+ A)  9  B) 10  C) 11  D) 12 
+ January 2025  Page |  80 
+
+===== PAGE 82 =====
+ Bebras  India 
+ The correct answer is C) 11 
+ Answer Explanation: 
+ Below is the solution: 
+ This  sequence  has  a  score  of  2  +  2  +  4  +  3  =  11  points.  It  is  not  possible  to  do  better  than  this 
+ for the following reasons: 
+ ●  The  A  at  the  left  end  cannot  be  part  of  a  group  because  there  are  no  red  A  cards  to 
+ include in the sequence. 
+ ●  Every other letter is part of a group and therefore contributes to the score. 
+ ●  The  size  of  a  group  that  a  letter  is  in  makes  no  diﬀerence  –  each  individual  letter 
+ contributes exactly 1 point. 
+ To  check  this  is  the  only  way  to  score  11  points,  we  can  work  systematically  through  other 
+ possible  sequences.  We  choose  positions  for  all  three  red  cards  so  that  each  one  creates  a 
+ new group without interfering with an existing one. This results in the following list: 
+ The fourth sequence scores 11 points and all of the others score only 10 points. 
+ It’s Informatics: 
+ This  example  clearly  shows  how  computer  scientists  proceed  when  they  are  looking  for  an 
+ optimal solution or a method for ﬁnding a solution. 
+ The  idea  is  to  ﬁnd  a  placement  of  the  letters  B,  B  and  C  that  scores  the  most  points.  A  ﬁrst 
+ approach  could  simply  be  to  generate  all  the  possibilities  in  which  three  letters  in  the  series 
+ January 2025  Page |  81 
+
+===== PAGE 83 =====
+ Bebras  India 
+ are  replaced  by  B,  B  and  C.  For  a  series  of  twelve  letters,  there  are  12  *  11  *  10  =  1320 
+ possibilities,  for  each  of  which  the  score  must  be  calculated  and  compared  to  determine  the 
+ best solution. 
+ The  number  of  solutions  can  be  signiﬁcantly  reduced  if  you  take  into  account  that  B,  B  and  C 
+ only  score  points  if  they  are  next  to  the  same  letters.  If  you  also  take  into  account  that 
+ existing  groups  should  not  be  reduced  in  size,  the  number  of  solutions  is  further  reduced.  If 
+ you  also  take  into  account  that  connecting  individual  letters  brings  more  points  than 
+ enlarging existing groups, then only one possible placement remains. 
+ The  1320  possibilities  mentioned  above  are  not  a  lot  for  a  computer  to  compute,  However, 
+ computer  science  always  asks  how  the  eﬀort  required  to  solve  the  problem  would  change  as 
+ the  size  of  the  problem  grows.  With  longer  rows  and  more  alternating  letters,  the  solution 
+ space  would  be  correspondingly  larger.  It  is  worthwhile  to  analyse  the  problem  carefully  and 
+ develop an eﬃcient method. 
+ From  the  point  of  view  of  informatics,  this  is  an  optimisation  problem.  In  the  ﬁeld  of 
+ informatics,  optimization  plays  a  crucial  role.  It's  about  making  something  as  eﬀective  or 
+ functional  as  possible  within  certain  constraints.  Optimisation  is  about  ﬁnding  the  best  of  all 
+ possible  solutions.  For  example,  when  we  talk  about  optimising  code  in  a  compiler,  we're 
+ referring  to  the  process  of  modifying  the  code  to  make  it  more  eﬃcient  and  smaller  without 
+ changing  its  output  or  side  eﬀects.  This  is  important  because  it  helps  programs  run  faster 
+ and  use  fewer  resources.  Similarly,  data  compression  is  another  example  of  optimisation.  It 
+ involves  encoding  information  using  fewer  bits  than  the  original  representation  to  save 
+ storage  space  or  reduce  the  amount  of  data  that  needs  to  be  transmitted.  In  this  task,  when 
+ we  try  to  optimally  arrange  the  letters  'BBC',  we're  essentially  doing  the  same  thing  -  we're 
+ trying  to  ﬁnd  the  most  eﬃcient  arrangement  that  will  achieve  our  goal,  i.e.  to  create  the 
+ sequence  that  gives  us  the  most  score.  To  do  this,  we  store  the  BBC  letters  in  order  to 
+ increase  the  length  of  a  subsequence  of  the  same  letters,  or  to  create  a  new  sub-sequence. 
+ For  all  the  sequences  we  create  in  this  way,  we  calculate  their  scores.  We  then  choose  the 
+ sequence  with  the  best  score.  As  in  informatics,  we're  looking  for  the  'best'  solution  within 
+ the constraints we've set. 
+ It’s Computational Thinking 
+ When  looking  for  a  solution,  we  use  decomposition,  which  involves  breaking  the  problem 
+ down  into  smaller,  more  manageable  parts.  This  is  a  key  aspect  of  computational  thinking. 
+ The  ﬁrst  step  in  this  process  is  to  identify  all  the  sequences  that  could  potentially  be  relevant 
+ to  our  solution.  Once  we  have  these  sequences,  we  calculate  a  score  for  each  one.  Once  all 
+ the scores have been calculated, we move on to the evaluation. 
+ Evaluation  is  another  important  aspect  of  computational  thinking.  In  this  case  we're 
+ evaluating  the  scores  of  our  sequences.  Finally,  we  select  the  sequence  with  the  highest 
+ score.  This  is  our  optimal  solution.  It's  worth  noting  that  the  evaluation  also  involves 
+ determining  which  sequences  are  worth  considering  in  the  ﬁrst  place.  By  using  task 
+ January 2025  Page |  82 
+
+===== PAGE 84 =====
+ Bebras  India 
+ decomposition  and  evaluation,  we  can  systematically  and  eﬃciently  ﬁnd  the  best  solution  to 
+ our problem 
+ Returning books 
+ The beavers in Mumbai are avid readers. That is why there are usually lots of beavers 
+ queuing at the library's return desk. The following rule applies: 
+ The beaver with the fewest books goes next. 
+ The librarian always needs exactly one minute to return a book. Once she has noted the 
+ books returned by a beaver and put them away, the next beaver from the waiting area takes 
+ his turn. It is always the beaver with the fewest books. 
+ One morning, 5 beavers come and want to return their books. The picture shows the arrival 
+ time and the number of books for each beaver. 
+ Anu arrives ﬁrst and can immediately return her 4 books. 
+ Question: 
+ In which order will the beavers return their books to the librarian? 
+ A)  Anu, Bella, Chitra, Disha, Emil 
+ B)  Anu, Chitra, Bella, Disha, Emil 
+ C)  Anu, Chitra, Disha, Bella, Emil 
+ D)  Emil, Chitra, Anu, Disha, Bella 
+ January 2025  Page |  83 
+
+===== PAGE 85 =====
+ Bebras  India 
+ January 2025  Page |  84 
+
+===== PAGE 86 =====
+ Bebras  India 
+ The correct answer is Anu, Chitra, Disha, Bela, Emil. 
+ Answer Explanation: 
+ The books are returned as follows: 
+ ●  Anu is ﬁrst. It takes 4 minutes for the librarian to note down the 4 books. 
+ ●  Meanwhile,  Bela  and  Chitra  have  arrived  and  are  waiting.  Chitra  only  has  2  books. 
+ That's why she's next. After 2 minutes, her books are noted. 
+ ●  Meanwhile,  Disha  has  come  and  stands  next  to  Bela.  Disha  has  4  books  and  Bela  has 
+ 6.  Disha  has  the  fewest  books  and  is  therefore  next.  After  4  minutes  the  librarian  is 
+ ﬁnished with Disha's books and can now ﬁnally take care of Bela. 
+ ●  Meanwhile, Emil has arrived. He is the last to go. 
+ It’s Informatics: 
+ The  task  shows  how  a  scheduler  works.  A  scheduler  is  a  program  that  belongs  to  the 
+ operating  system  of  a  computer.  While  a  computer  is  running,  many  tasks  must  be 
+ processed. 
+ For  each  task,  a  process  is  started  that  solves  the  task.  The  Scheduler  controls  the  ﬂow  of 
+ processes.  It  determines  when  and  for  how  long  a  process  is  executed  by  the  computer's 
+ central processing unit (CPU) 
+ There are diﬀerent strategies that schedulers use: 
+ ●  Priority  Scheduling  –  The  process  with  the  highest  priority  is  executed  next  (fully). 
+ This procedure is used in the task. 
+ ●  First  Come  First  Serve  (FCFS)  –  The  process  that  is  ﬁrst  in  the  queue  is  processed  ﬁrst. 
+ The  person  who  has  come  is  the  ﬁrst  to  be  served  (completely).  This  is  the  principle 
+ that most queues in everyday life work according to (“ﬁrst come, ﬁrst served”). 
+ ●  Round  Robin  –  the  waiting  processes  are  processed  in  turn  only  for  a  certain  time 
+ executed.  If  a  process  is  not  ﬁnished,  it  is  interrupted  and  has  to  go  back  to  the  end 
+ of the queue. Then it's the next process's turn. 
+ ●  Shortest  Job  First  (SJF)  –  The  process  with  the  shortest  expected  work  time  is 
+ executed  ﬁrst  (completely).  In  this  task,  the  Shortest  Job  First  strategy  was  used 
+ because  the  beaver  with  the  fewest  books  (which  could  be  processed  the  fastest) 
+ was served next. 
+ It’s Computational Thinking 
+ In  this  task,  we  are  given  a  set  of  rules  for  how  the  library  operates,  including  how  long  it 
+ takes  the  librarian  to  process  a  book  return,  when  someone  can  leave  the  queue,  and  who 
+ leaves  the  queue  next.  This  set  of  rules  is  actually  an  algorithm,  and  by  following  this 
+ algorithm  carefully  on  the  input  provided  (the  list  of  book  borrowers  and  their  details)  we 
+ can  solve  the  task.  The  algorithm  has  potential  ambiguities,  such  as  what  to  do  in  the  state 
+ January 2025  Page |  85 
+
+===== PAGE 87 =====
+ Bebras  India 
+ that  two  book  borrowers  in  the  queue  at  the  same  time  have  the  same  number  of  books, 
+ but this state does not need to be deﬁned for this speciﬁc input. 
+ Disappearing Arrows 
+ A race on the track shown in the picture. The race has two rules: 
+ 1.  On their turn, a participant will jump one position forward. 
+ 2.  Arrows provide a one time shortcut. If a participant jumps to a position that has an 
+ arrow leading from it, it immediately jumps to the position the arrow is pointing to. 
+ The arrow then disappears so no other participants can use it. 
+ Question: 
+ If 4 friends Anil, Babloo, Chirag, Dina start in that order, which one will ﬁnish ﬁrst? 
+ A)  Anil 
+ B)  Babloo 
+ C)  Chirag 
+ D)  Dina 
+ January 2025  Page |  86 
+
+===== PAGE 88 =====
+ Bebras  India 
+ The correct answer is C) Chirag 
+ Answer Explanation: 
+ Correct answer is C. 
+ For  explanation,  we  have  created  4  schemes  for  the  routes  of  individual  friends  Anil  (A), 
+ Babloo (B), Chirag (C), Dina (D). 
+ Yellow  circles  represent  the  positions  of  individual  friends  A,  B,  C,  and  D  after  the  15  th  turn 
+ (when the winner reaches the ﬁnal position). Yellow lines show their routes. 
+ The  jumping  arrows  are  numbered  as  J1  to  J6  followed  by  A,  B,  C,  or  D  indicating  the  person 
+ using the arrow, after which the arrow disappears. 
+ A  solid  arrow  indicates  an  arrow  available  for  use.  A  dashed  arrow  means  that  it  has 
+ disappeared. 
+ Since  A  is  the  ﬁrst  to  move,  it  comes  to  arrow  J1  ﬁrst  and  uses  it.  At  the  next  turn  it  must  use 
+ arrow J4, so after the 4  th  turn A returns to the 1  st  position, behind the others. 
+ B  is  the  ﬁrst  one  that  comes  to  the  arrow  J2  so  it  skips  arrow  J3.  So  the  ﬁrst  friend  reaching 
+ arrow J3 is C. 
+ Using  the  arrow  J3,  C  moves  to  16  th  position.  Even  though  it  goes  back  2  positions  from  the 
+ 19  th  position, he still retains the lead. 
+ D doesn’t use any of arrows so it cannot overtake C. 
+ So the winner is C (Chirag). 
+ January 2025  Page |  87 
+
+===== PAGE 89 =====
+ Bebras  India 
+ It’s Informatics: 
+ Computers  can  simulate  many  phenomena  and  processes,  for  example,  a  competitive 
+ struggle,  when  some  of  the  rivals  can  gain  a  short-term  advantage  or,  conversely,  a  loss  if 
+ they  go  down  the  wrong  path.  If  one  can  describe  a  process  with  an  algorithm,  a  computer 
+ will be able to predict and simulate the result. 
+ The  system  changes  when  a  competitor  reaches  a  position  with  a  green  arrow,  therefore  the 
+ task is about a dynamic system, where conditions change during the process. 
+ A  very  well-known  case  of  evolution  simulation  is  the  fox-rabbit  population  problem.  It 
+ predicts  the  development  of  the  rabbit  and  fox  population  on  an  isolated  island.  Foxes  eat 
+ rabbits,  and  when  they  eat  a  lot  of  them,  they  run  out  of  food,  starve,  and  die  too.  Fewer 
+ foxes will then allow rabbits to multiply faster. 
+ We  can  look  at  the  mathematical  model  of  such  a  prediction  at 
+ https://www.geogebra.org/m/FwQfAxqE  (press  the  button  at  the  bottom  left,  you  can 
+ change some of parameters on the right). 
+ It’s Computational Thinking 
+ This  task  requires  algorithmic  thinking.  The  student  arrives  at  the  ﬁnal  state  after  executing 
+ an  algorithm  with  a  diﬀerent  initial  state  (given  by  the  order  of  objects  at  the  start  that 
+ behave  according  to  this  algorithm).  The  instructions  on  the  task  show  the  algorithm.  The 
+ student has to understand and apply it to solve the task. 
+ January 2025  Page |  88 
+
+===== PAGE 90 =====
+ Bebras  India 
+ Railway Network 
+ In the land of Bebravia, cities are linked by a network of railway tracks. For each track, there 
+ is a limited number of trains that can travel along it each day, indicated on the diagram 
+ below. Diﬀerent trains may share a track. 
+ Quandaria oﬀered to send materials to Pixleton. In this direction, trains must always follow 
+ the arrows 
+ Question: 
+ What is the maximum number of trains that can depart from Quandaria and arrive at 
+ Pixleton every day? 
+ A)  13 
+ B)  15 
+ C)  19 
+ D)  22 
+ January 2025  Page |  89 
+
+===== PAGE 91 =====
+ Bebras  India 
+ The correct answer is A) 13 
+ Answer Explanation: 
+ The correct answer is  13  . 
+ The  ﬁrst  observation  is  that  Town  Q  cannot  send  to  Town  P  more  than  8+11=19  trains,  the 
+ number of trains which can leave Town Q. Therefore, answer C 22 is incorrect. 
+ One  way  to  solve  this  problem  is  to  ﬁnd  a  shortest  possible  path  from  Town  Q  to  Town  P  (in 
+ this  case,  of  length  3)  and  determine  the  largest  number  of  trains  it  can  accommodate.  Then 
+ we  repeat  this  step  on  the  rest  of  the  network  with  the  remaining  number  of  trains  available 
+ on  each  track.  The  diagrams  below  show  three  paths  found  in  this  way,  with  a  combined 
+ capacity  of  2+4+7=13  trains.  There  are  other  ways  to  push  13  trains  from  Town  Q  to  Town  P, 
+ including some using longer paths. 
+ To  check  that  13  is  the  maximum,  notice  the  three  tracks  in  the  middle  of  the  network  with 
+ capacities  2,  7  and  4:  all  paths  go  through  one  of  these,  so  we  cannot  do  better  than 
+ 2+7+4=13. 
+ It’s Informatics: 
+ January 2025  Page |  90 
+
+===== PAGE 92 =====
+ Bebras  India 
+ The  problem  in  this  task  is  an  instance  of  the  maximum  ﬂow  problem.  Problems  of  this  type 
+ are  like  a  puzzle  game  with  water  ﬂowing  through  pipes:  you  have  a  network  of  pipes  with 
+ diﬀerent  capacities,  and  you  want  to  ﬁgure  out  how  much  water  can  ﬂow  from  a  source  to  a 
+ sink. 
+ The  maximum  ﬂow  problem  can  be  solved  using  various  algorithms:  Ford-Fulkerson 
+ Algorithm,  Edmonds-Karp  Algorithm,  Dinic's  Algorithm  and  many  more.  The  unavoidable 
+ tracks in the middle of the network in this task form what is known as a ‘minimum cut’. 
+ Each  of  the  algorithms  above  has  its  advantages  and  disadvantages  in  terms  of  runtime 
+ eﬃciency,  ease  of  implementation,  and  applicability  to  diﬀerent  types  of  networks.  The 
+ choice  of  algorithm  depends  on  factors  such  as  the  size  of  the  network,  the  nature  of  the 
+ capacities, and the desired level of optimization. 
+ Maximum  ﬂow  algorithms  are  utilised  in  traﬃc  optimization,  distribution  systems  (e.g.  water 
+ and electricity), resource allocation, computer networking, and more. 
+ It’s Computational Thinking 
+ Solving  this  task  involves  algorithmic  thinking  and  evaluation.  The  solution  of  the  problem  is 
+ decomposed  into  a  sequence  of  steps,  each  consisting  of  ﬁnding  a  path  between  Q  and  P 
+ which  has  a  maximum  capacity.  The  algorithm  terminates  when  there  is  no  such  path 
+ available. 
+ January 2025  Page |  91 
+
+===== PAGE 93 =====
+ Bebras  India 
+ Balloon Machine 
+ A balloon machine can create pictures by inﬂating balloons in a square frame. The balloons 
+ are labeled with the letters A, B, C, D, E and F. 
+ The machine reads letters one after the other from left to right. When it reads a letter, the 
+ following rules apply: 
+ ●  If the current letter's balloon is empty (unﬁlled), it will inﬂate until it either touches 
+ another balloon or reaches the opposite edge of the frame. 
+ ●  If the balloon of the current letter is inﬂated, it will be deﬂated. 
+ For example, if all the balloons are initially empty and the machine reads F, A, B and then A, 
+ it will do the following: 
+ Question: 
+ To start, each balloon is deﬂated and then the machine 
+ reads a sequence of nine letters. Which of the following 
+ sequences will NOT produce the image on the right? 
+ A.  B E B C A C B D B 
+ B.  B E C B A C B D B 
+ C.  B E B C A B D C B 
+ D.  B E C B A B C D B 
+ January 2025  Page |  92 
+
+===== PAGE 94 =====
+ Bebras  India 
+ The correct answer is C) B E B C A B D C B 
+ Answer Explanation: 
+ There are 4 possible correct answers with nine letters: 
+ ●  B E B C A C B D B 
+ ●  B E C B A C B D B 
+ ●  B E B C A B C D B 
+ ●  B E C B A B C D B 
+ We  show  detailed  explanation  for  one  answer:  B  E  B  C  A  C  B  D  B.  The  images  below  illustrate 
+ the  execution  of  these  instructions.  They  show  intermediate  states.  The  ﬁrst  image  shows 
+ the  state  after  the  execution  of  B  E.  You  can  see  that  it  is  necessary  to  inﬂate  B  before  E  to 
+ make B an appropriate barrier for the inﬂation of E. 
+ The  second  image  shows  the  state  after  B  E  B  C  A.  Balloon  C  serves  as  a  barrier  for  A  and 
+ therefore  must  be  inﬂated  before  A.  Additionally  balloon  B  must  be  deﬂated,  before  A  can 
+ be inﬂated, otherwise it would not reach the required length. 
+ The  third  image  shows  the  state  after  B  E  B  C  A  C  B  D.  B  serves  as  barrier  for  D  and  C  must  be 
+ deﬂated before D is inﬂated. 
+ To  ﬁnd  all  correct  answers,  it  is  helpful  to  represent  the  problem  using  a  directed  graph.  The 
+ letters  represent  the  balloons.  An  arrow  from  B  to  E  indicates  that  balloon  B  must  be  inﬂated 
+ before  balloon  E  etc.  There  are  two  instances  where  the  order  of  B  and  C  can  vary  (indicated 
+ with a dashed rectangle). 
+ Each  correct  answer  (sequence  of  balloons  to  be  inﬂated)  is  a  topological  ordering  of  this 
+ graph.  In  this  case  we  have  4  topological  orderings  so  there  are  four  possible  correct 
+ solutions. 
+ Observation  for  evaluating  correctness  of  your  solution:  inﬂated  balloons  have  to  appear 
+ odd  times  →  A,  D,  and  E  have  to  appear  at  odd  times.  Deﬂated  balloons  have  to  appear  even 
+ times (including 0)→ B, C, and F. 
+ January 2025  Page |  93 
+
+===== PAGE 95 =====
+ Bebras  India 
+ It’s Informatics: 
+ The  sequence  of  letters  is  a  computer  program,  which  controls  a  machine.  Each  letter  is  a 
+ statement  that  makes  the  machine  inﬂate  or  deﬂate  a  balloon.  As  in  most  computer 
+ programs  of  this  type,  the  order  of  statements  is  essential.  For  example,  the  sequence  B  E 
+ makes the machine create a diﬀerent image than the sequence E B. 
+ The  directed  graph  used  in  the  answer  explanation  has  no  cycles  and  is  therefore  called 
+ directed  acyclic  graph  (DAG).  Any  DAG  has  at  least  one  topological  ordering,  and  fast 
+ algorithms  are  known  for  constructing  a  topological  ordering.  DAGs  have  numerous 
+ applications in informatics, e.g. task scheduling. 
+ January 2025  Page |  94 
+
+===== PAGE 96 =====
+ Bebras  India 
+ Flipping Cards 
+ A row of cards is laid out in front of you. 
+ The cards may lie face up:  or face down: 
+ How to play: 
+ For each step in the game you: 
+ ●  examine the cards from right to left 
+ ●  if the current card is face down, you turn it face up and stop 
+ ●  if the current card is face up, you turn it face down and move to the next card 
+ ●  when you run out of cards, you stop. 
+ The image below shows the eﬀect of such a step: 
+ Before: 
+ After: 
+ Here are 7 cards lying face down: 
+ Question: 
+ How many steps will it take, using the system above, to make all 7 cards face up? 
+ A. It will take ten steps or less 
+ B. It will take more than 10 but at most 100. 
+ C. It will take more than 100 steps but at most 1000. 
+ D. It will take more than 1000 steps. 
+ E. You can never reach the situation with all 7 cards facing up. 
+ January 2025  Page |  95 
+
+===== PAGE 97 =====
+ Bebras  India 
+ The correct answer is C. It will take more than 100 steps but at most 1000. 
+ Answer Explanation: 
+ The answer: It will take more than 100 steps but at most 1000. 
+ There are various way to see (or guess) that this is the correct answer. If you perform the 
+ ﬁrst few steps you will see the following patterns: 
+ Notice  that  the  rightmost  card  is  turned  over  at  the  1st  step,  the  second  card  from  the  right 
+ is  ﬁrst  turned  over  at  the  2nd  step,  the  third  card  from  the  right  is  ﬁrst  turned  over  at  the  4th 
+ step and the fourth card from the right is ﬁrst turned over at the 8th step. 
+ Is there anything remarkable about the sequence 1, 2, 4, 8, ... ? 
+ Indeed,  every  number  in  the  sequence  is  double  the  number  that  preceds  it.  So  you  can 
+ guess  that  it  will  take  16  steps  before  the  5th  card  from  the  right  is  turned  over,  32  steps  for 
+ the  6th  card  and  64  steps  for  the  7th  card.  (And  the  7th  card  from  the  right  is  the  ﬁrst  from 
+ the left.) So we need at least 64 steps. 
+ January 2025  Page |  96 
+
+===== PAGE 98 =====
+ Bebras  India 
+ It  is  a  little  bit  more  diﬃcult  to  see  that  you  in  fact  need  127  steps  to  turn  all  cards  facing  up. 
+ For  that  you  need  to  realise  that  after  step  7,  just  one  step  before  the  4th  card  is  turned 
+ over,  the  pattern  contains  3  consecutive  cards  facing  up.  Similarly,  after  step  15,  one  step 
+ before  the  5th  card  is  ﬁrst  turned  over,  the  pattern  contains  4  consecutive  cards  facing  up. 
+ So,  7  cards  facing  up  happens  one  step  before  the  8th  card  would  be  turned  over  (if  there 
+ were 8 cards), which is after step 2x64-1 = 127. 
+ In  the  It's  Computer  Science  section  you  can  read  about  a  diﬀerent  explanation  that  involves 
+ binary numbers.. 
+ It’s Informatics: 
+ Inside a computer, numbers are represented in so-called binary notation where instead of 
+ the digits 0-9, a number is 'written' using only zeroes and ones (called bits). 
+ The representations of the ﬁrst few numbers are as follows: 
+ 1 is represented as 0000001 
+ 2 as 0000010 
+ 3 as 0000011 
+ 4 as 0000100 
+ 5 as 0000101 
+ 6 as 0000110 
+ etc. 
+ (We use 7 bits for a number here, but on modern computers the total number of bits used is 
+ usually 32 or 64.) 
+ Do you recognize these patterns? Indeed, if you use 0 for a card that is placed face down, 
+ and 1 for a card that is lying face up, than you obtain the same patterns as for the ﬁrst 6 
+ steps of our game. And if you know that 1111111 represents the number 127, then you see 
+ that indeed 127 steps are needed to end up with the requested pattern. 
+ The 'step' which we use in our game is what is used by the actual electronics inside a 
+ computer to increase a binary number by 1. 
+ January 2025  Page |  97 
+
+===== PAGE 99 =====
+ Bebras  India 
+ Keep Switching 
+ A machine can move six blocks of diﬀerent heights. It uses a marker that is usually placed 
+ between two blocks. At the beginning, the blocks and marker are in a starting conﬁguration, 
+ for example like this: 
+ The machine then repeatedly performs one of these two steps: 
+ If  the  stone  to  the  left  of  the 
+ marker  is  smaller  than  the 
+ stone  to  the  right,  the  marker 
+ moves to the right. 
+ If  the  stone  to  the  left  of  the 
+ marker  is  higher  than  the 
+ stone  to  the  right  of  it,  the 
+ stones are swapped. 
+ In  addition,  the  marker  moves 
+ to  the  left  –  but  only  if  it  is 
+ still between two stones. 
+ The machine stops when the marker is at the far right of the stones. 
+ Depending on the starting conﬁguration, the machine takes diﬀerent numbers of steps. 
+ January 2025  Page |  98 
+
+===== PAGE 100 =====
+ Bebras  India 
+ Question: 
+ In which of these starting conﬁgurations does the machine take the fewest steps? 
+ A) 
+ B) 
+ C) 
+ D) 
+ January 2025  Page |  99 
+
+===== PAGE 101 =====
+ Bebras  India 
+ The correct answer is D 
+ Answer Explanation: 
+ This is the correct answer: 
+ To  determine  the  correct  answer,  one  could  simulate  the  machine's  operation  until  it  stops 
+ for each starting conﬁguration, counting the movements of the marker. 
+ It  is  easier  to  compare  the  four  starting  conﬁgurations  in  terms  of  the  number  of  movements 
+ without counting them. 
+ To  simplify  things,  we  represent  the  conﬁgurations  only  by  numbers  (the  heights  of  the 
+ blocks),  with  the  marker  between  two  numbers.  In  this  representation,  the  starting 
+ conﬁgurations look like this: 
+ We will name each answer as the following for this explanation: 
+ A  C 
+ B  D 
+ If  the  machine  starts  with  the  conﬁguration  of  answer  B  (we  say  conﬁguration  B  for  short), 
+ conﬁguration A is reached after two steps: 
+ For  conﬁguration  B,  the  machine  takes  more  steps  than  for  conﬁguration  A.  Therefore, 
+ answer B cannot be correct. 
+ When the machine starts with conﬁguration A, it ﬁrst does these three steps: 
+ The conﬁguration thus achieved is reached from conﬁguration D in one step: 
+ For  conﬁguration  A,  the  machine  takes  more  steps  than  for  conﬁguration  D.  Therefore, 
+ answer A cannot be correct. 
+ If the machine starts with conﬁguration C, conﬁguration D is reached after four steps: 
+ January 2025  Page |  100 
+
+===== PAGE 102 =====
+ Bebras  India 
+ So the machine also takes more steps for conﬁguration C than for conﬁguration D. 
+ Overall, it takes the fewest steps for conﬁguration D. 
+ It’s Informatics: 
+ Sorting  data  is  a  common  process  in  computer  science,  whether  by  size,  cost  or 
+ alphabetically.  Therefore,  one  of  the  tasks  of  computer  scientists  is  to  ﬁnd  the  most  eﬃcient 
+ sorting methods possible. 
+ The  sorting  method  in  this  beaver  task  is  called  Gnome  sort.  It  is  similar  to  bubble  sort.  It  is 
+ not  particularly  eﬃcient.  Computer  scientists  rate  the  average  runtime  eﬃciency  as 
+ signiﬁcantly  worse  compared  to  eﬃcient  sorting  methods  such  as  quicksort  or  merge  sort. 
+ However, Gnome sort is easier to understand. 
+ January 2025  Page |  101 
+
+===== PAGE 103 =====
+Bebras (www.bebras.org) is an international student Computational Thinking Challenge organised in over 80 countries and 
+designed to get students all over the world excited about computing. The challenge is a great way to learn about 
+computational thinking and problem solving skills. 
+Bebras India Challenge (www.bebrasindia.org) is organized by ACM India’s CSpathshala initiative (www.cspathshala.org).
+Association for
+Computing Machinery
+Advancing Computing as a Science & Profession
+Association for Computing Machinery (ACM)
+Bebras IndiaComputational Thinking Challenge 2024
+The ACM (www.acm.org) is the world’s largest not-for-pro t scienti c and computing
+society. ACM brings together computing educators, researchers, and professionals to
+inspire dialogue, share resources, and address the  eld's challenges. ACM has
+endeavoured to tailor curriculum recommendations for undergraduate and school
+computing curriculum. ACM India (india.acm.org) Education Council is involved in
+recommending an undergraduate computer science curriculum, conducting faculty
+development programs and CSpathshala – an initiative to teach computing in schools.

@@ -1,0 +1,2333 @@
+
+===== PAGE 1 =====
+Editor - Vipul Shah, Sonia Garcha
+Edition: English
+Bebras India
+Computational Thinking Challenge 2020
+===== PAGE 2 =====
+ 
+Introduction 
+Bebras (​www.bebras.org​) is an international student Computational Thinking Challenge 
+organised in over 60 countries and designed to get students from all over the world excited 
+about computing. The challenge is a great way to learn about computational thinking and 
+problem solving skills.  
+The Bebras challenges are made of a set of short problems called Bebras tasks. The tasks are 
+fun, engaging and based on problems that Computer Scientists enjoy solving. The tasks 
+require logical thinking and can be solved without prior knowledge of computational 
+thinking. ​The aim is to solve as many as you can in the allotted time. 
+Bebras India Challenge (​www.bebras.in​) is organized by ACM India’s CSpathshala initiative 
+(​www.cspathshala.org​). ACM India/CSpathshala’s goal is to make it possible so that every 
+child in India learns Computer Science.  
+The 2020 Bebras India Challenge was held from 1st - 13th February, 2021 for age groups 
+8-18. It was offered in English, Gujarati, Kannada, Marathi, Odia, Tamil and Telugu. 1,03,114 
+students from 600 schools across 19 states participated in 2020 Bebras India Challenge. 
+Challenge Site: ​bebras.cspathshala.org 
+Queries? Contact: ​challenge@bebrasindia.org 
+ 
+ 
+ 
+Editors: 
+Vipul Shah 
+Sonia Garcha 
+  
+ 
+March 2021 Page | 2  
+
+===== PAGE 3 =====
+ 
+We would like to thank the international Bebras community for allowing us to use the tasks 
+they have developed. Bebras is a collective effort of many countries. 
+We would also like to thank Eljakim Schrijvers, Eljakim Information Technology bv for the 
+Bebras challenge platform in English, Odia and Telugu and as well Tata Consultancy Services 
+for providing the TCS iON platform for Gujarati, Kannada, Marathi and Tamil. 
+We would like to thank ACM India’s CSpathshala initiative volunteers for localizing and 
+reviewing the tasks and reaching out to schools. We would also like to thank the teachers 
+who have put in the effort for their students to participate in the challenge. 
+We would like to acknowledge the authors and reviewers for the Bebras tasks used in the 
+challenge:  
+ 
+March 2021 Page | 3  
+Australia Hannah Piper, Melinda Phelps, Susannah Quidilla 
+Austria Gerald Futschek 
+Belgium Kris Coolsaet, Guillaume de Moffarts 
+Canada J. P. Pretti, Sarah Chan 
+Egypt Eslam Wageed 
+Estonia Lidia Feklistova 
+Finland Heikki Hyyrö 
+France Marielle Léonard 
+Germany Michael Weigend, Wolfgang Pohl, Peter Rossmanith, Ulrich Kiesmüller 
+Hungary Zsuzsa Pluhár, Christian Datzko, Susanne Datzko 
+Iceland Linda Björk Bergsveinsdóttir 
+India 
+Anupama Sivakumar, Aditi Karandikar, Anagha Bhat Behere, Aarti Halbe,, 
+Arun Kadekodi, Uday Oak, Hari Devarapalli, BalaNaga Praveen Devarapalli, 
+Vipul Shah, Madhavan Mukund, Prathyush Ponnekanti, Preethi Sudharsha, 
+Vaishali Khandekar, Vijaya Sekhar, Radha Ashok Kumar,Sonia Garcha, 
+Subrata Dash, JP Jagdev, Jivan Jyoti Bal, Geetha Prassana, Krupa Makwana, 
+Rama Krishna Teja,  R Ramanujam, Ritambhra Korpal, Harish Amur, Krithika 
+Santhosh Kumar, Tejal Patel, Viral Shah, Chirag Chavda, Rinkesh Parekh 
+Indonesia 
+Husnul Hakim, Vania Natali, Mariskha Tri Adithia, Raymond Chandra Putra, 
+Rana R. Natawigena 
+Iran Hamed Mohebbi 
+Ireland Thomas Naughton, Aidan Mooney, Taina Lehtimaki 
+Italy Anna Morpurgo, Carlo Belletini 
+Japan Hiroyuki Nagataki , Motomasa Omura, Takeharu Ishizuka 
+Lithuania Vaidotas Kinčius, Valentina Dagienė, Tolmantas Dagys,  
+
+===== PAGE 4 =====
+ 
+ 
+  
+ 
+March 2021 Page | 4  
+Macedonia Mile Jovanov, Emil Stankov,  
+Malaysia Khairul Mohamad Zaki 
+Netherlands Willem van der Vegt, Kyra Willekens 
+New Zealand 
+Margot Phillipps, Maayan Levy, Megan MacDiarmid, Sam Zhuang,  
+Issac Siu, Yunge Yu, Eric Song, Brianna Maloney, Nicholas Grace,  
+Norway Laura Braun, Tony René Andersen 
+Pakistan Marios Choudary, Tiberiu Iorgulescu 
+Philippines 
+Ezra Templonuevo, Rechilda Villame, Vernon Gutierrez Maria Krisel 
+Cristobal 
+Portugal Pedro Ribeiro, João Rico 
+Russia Anton Chukhnov 
+Slovakia 
+Monika Tomcsányiová, Lucia Budinská,  Peter Tomcsányi, Daniela 
+Bezáková, Michal Winczer,  
+Slovania Špela Cerar, Matija Lokar 
+South Africa Pieter Waker 
+South Korea Ungyeol Jung, Kwangsik Moon, Jihye Kim, Doyong Kim 
+Spain Xavier Muñoz 
+Sweden Jonatan Pipping, 
+Switzerland 
+Juraj Hromkovič, Regula Lacher, Gabriel Parriaux, Nora A. Escherle, 
+Jean-Philippe Pellet, Fabian Frei, Jonas Winckler, Serge Adam, 
+Syria Omran Kouba 
+Taiwan Judith Lin, Meng-ting Tsai  
+Turkey Yasemin Gulbahar 
+Uruguay Graciela Oyhenard, Rosario Schunk, Víctor Koleszar 
+USA Eljakim Schrijvers 
+Uzbekistan Alisher Ikramov 
+Vietnam Vu Luan 
+
+===== PAGE 5 =====
+ 
+Bebras challenge was conducted in five groups: 
+ 
+Each task  is sorted in a category based on the difficulty levels: A, B or C. Students started 
+with some points and could gain or lose points as follows: 
+ 
+On the following pages you will find the  tasks used in 2020 Bebras India Challenge. After 
+each question there is an answer, an explanation of how the answer could be obtained plus 
+a section on how the tasks are related to Computational Thinking.  
+ 
+ 
+Copyright © 2020 Bebras, Bebras India. 
+This work is licensed under a ​Creative Commons Attribution-NonCommercial-ShareAlike 4.0 
+International License  
+ 
+March 2021 Page | 5  
+Group Ages Standards Tasks 
+Aryabhata 8-10 years Std III-IV 15 
+Brahmagupta 10-12 years Std V-VI 15 
+Bhaskara 12-14 years Std VII-VIII 15 
+Mahavira 14-16 years Std IX-X 15 
+Ramanujam 16-18 years Std XI-XII 15 
+Difficulty Correct Answer Incorrect Answer Unanswered 
+A category questions +6 points -2 points 0 points 
+B category questions +9 points -3 points 0 points 
+C category questions +12 points -4 points 0 points 
+
+===== PAGE 6 =====
+ 
+Content  
+ 
+ 
+  
+ 
+March 2021 Page | 6  
+Train Tracks 7 Jumping Kangaroo 46 
+Where it can fly? 10 Creating Numbers 48 
+Footprint 12 Rahul’s Drawings 50 
+Teddy Bear Hunt 14 Beaver at the Castle 53 
+Picking Mushroom 16 Electric cars 56 
+Bear Selection 19 Dinner Table 58 
+Bowls 21 Snakes and Ladders 60 
+Log Classifier 23 Spreading the News 63 
+Tile Laying 25 Chairs 65 
+Theater Performance 27 Dangerous Virus 67 
+Processing Objects 29 DNA 69 
+Secret Digits 31 Robot Parking 71 
+Painting the houses 33 WaterWorks 74 
+Towns and highways 36 MathMachine 76 
+Heaviest mark 38 Game of Whispers 78 
+Pancake 40 Cheating 81 
+Exhibition Tour 42 Towers of Blocks 85 
+Number Lock 44   
+    
+
+===== PAGE 7 =====
+ 
+ Train Tracks   
+ 
+Can you help guiding the train to the station?  
+ 
+ 
+Question​: 
+Which of the following choice of tracks for each position would make the train arrive safely 
+to the station? 
+ 
+ 
+  
+ 
+March 2021 Page | 7  
+A B C D 
+ 
+  
+  
+  
+
+===== PAGE 8 =====
+ 
+Answer:  The correct answer is D), as shown in the figure:  
+Explanation: 
+ 
+The other answers lead to these railroad tracks. As you can see they do not guide the train 
+to the station. 
+A) 
+ 
+B) 
+  
+ 
+March 2021 Page | 8  
+
+===== PAGE 9 =====
+ 
+ 
+C) 
+ 
+It’s Computational Thinking: 
+For the kids 
+A railway track guides a train. In each box of the map, the rails make the train go straight, 
+left or right. 
+A computer program is similar to a railway track. It tells the computer what to do in order to 
+solve a certain task, like adding two numbers. 
+A computer program is made of many instructions like the railroad track in the task is made 
+of many rails. 
+ Sometimes, a computer program does not work, because instructions are missing. The 
+programmer has to find what is the correct instruction to add which will produce the correct 
+result. 
+For the teachers 
+By writing a program, you learn to control an object or a character in the same way that the 
+rails control the movement of the train. Each track section can be understood as an 
+instruction, a command given by the programmer to the train to move in the chosen 
+direction. 
+This sequence of instructions that are executed in a certain order and always produce the 
+same result, this is what computer scientists call a “program”. 
+In order to solve this task and find the two missing track sections, the children have to 
+anticipate what the train will do before it even goes through the circuit[1] . In doing so, they 
+analyze the system and plan the behavior of an object that will be executed in the future. 
+These are facets of Computational thinking. 
+ 
+March 2021 Page | 9  
+
+===== PAGE 10 =====
+ 
+ Where it can fly?           
+ 
+Bees can fly from one square to the next in a horizontal or vertical direction only. 
+When any bee leaves the hive in the morning, it can fly up to a maximum of 3 squares from 
+the square on which the hive is. 
+ 
+Question​: 
+How many flowers can be reached by the bees? 
+A) 5 
+B) 6 
+C) 7 
+D) 8 
+ 
+  
+ 
+March 2021 Page | 10  
+
+===== PAGE 11 =====
+ 
+Answer​:  The correct answer is C) 7 
+All the flowers that are within the distance of 3 squares are marked on the picture below: 
+  
+Explanation: 
+In general, we can find all squares that are not farther than three squares from the hive by 
+at first finding the ​farthest squares​ the bee can fly. If it flies three squares to the left then it 
+ends at point 1. It can also fly two squares to the left and one up (point 2) or down (point 3), 
+or one square to the left and two up (point 4, which is outside the field) or down (point 5). If 
+we apply the same method when starting to fly up, right and down and then also consider 
+all squares that are closer to the hive than the farthest ones, we find all the squares that are 
+not farther that three squares from the hive. These squares are painted by a darker green 
+color: 
+ 
+It’s Computational Thinking: 
+The flight of the bee is described as an algorithm. Understanding algorithms so that one can 
+infer their properties (like how far it can fly, all the places it can fly within a distance, ...) is 
+an important skill belonging to informatics. 
+Note that the distance measured in squares, which is used in the task is not the "usual" 
+distance between two points (also called Euclidean distance), because the bees are not 
+allowed to travel diagonally or in any direction, but only horizontally or vertically within the 
+grid. Such distance is called rectilinear distance (or city block distance or Manhattan 
+distance referring to a rectangular grid of streets usual in modern cities). 
+ 
+March 2021 Page | 11  
+
+===== PAGE 12 =====
+ 
+ Footprint            
+ 
+There are four robot animals in a shop. 
+  
+One robot animal has secretly walked around the shop at night. There was a trail of 
+footprints left on the floor.  
+Question​: 
+Whose footprint is this?   
+ 
+March 2021 Page | 12  
+A B C D 
+ 
+  
+  
+ 
+
+===== PAGE 13 =====
+ 
+  
+Answer​:  D 
+Explanation: 
+The matching footprint is D: the rabbit’s. It is the only one made up of one large triangle 
+with a circle inside and then three small circles 
+It’s Computational Thinking: 
+Solving this task firstly requires identifying the feet in each of the proposed animal robots, 
+and secondly checking which ones match the footprints. 
+In doing so, one can ignore all non-foot body parts of the animals. This process is called 
+abstraction, which is used a lot in computer science, and is an important part of a set of 
+skills known as computational thinking. One side of abstraction is about selecting the 
+information  necessary to solve a given problem. Here, it is about seeing that only the shape 
+of the feet is relevant. 
+When writing programs, programmers do this constantly: decide what to take into account 
+from the problem they are solving. This is also part of a process called modeling, which in 
+computer science is about deciding what information a computer will need to have and in 
+what form in order to solve a given task. 
+Realizing that the footprint matches a given animal’s foot is done by pattern recognition 
+while comparing the images. Humans are pretty skilled at recognizing what an image is 
+about (for instance, if there is a cat in a picture or not), but it is a rather difficult task for 
+computers. Machine-learning techniques have been developed to make computers able to 
+solve such tasks. 
+ 
+ 
+  
+ 
+March 2021 Page | 13  
+
+===== PAGE 14 =====
+ 
+Teddy Bear Hunt           
+ 
+The beaver family goes for a Teddy Bear hunt.  They start from their home (named TEDDY 
+BEAR) walking only along the roads and return back to their home. Along the way, they take 
+pictures of the Teddy Bears they see. Below is a map of their village. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+They saw 4 Teddy Bears and below are the pictures they took, but they forgot one! 
+ 
+  
+Question
+​: 
+Which Teddy Bear did they forget? 
+  
+ 
+March 2021 Page | 14  
+A B C D 
+    
+
+===== PAGE 15 =====
+ 
+Answer​:  The correct answer is C 
+Explanation: 
+On the picture you can see the route (red) they took. It is the only route that has exactly 4 
+teddy bears. 
+ 
+It’s Computational Thinking: 
+Finding a route is a common problem in computer science. To solve this task you need to 
+follow the routes and find out what route meets the conditions (4 stops). Although this task 
+is very simple, it can become harder to solve as the map expands. 
+The map is a representation of a planar graph (the combination of nodes – houses, and 
+edges – roads between houses) where we chose four nodes (home and three houses with 
+given pictures) and the task is to determine the node that must be on any route consisting 
+of four nodes that are not home. It is a combinatorial problem on a graph. It is like drawing 
+a map of the route from home to school, then to swimming pool, to the shop and back 
+home. 
+ 
+  
+ 
+March 2021 Page | 15  
+
+===== PAGE 16 =====
+ 
+Picking Mushroom          
+ 
+Beavers do not eat mushrooms. They collect them for the Mushroom Museum. The 
+Museum is only interested in rare mushrooms. The rarity of the mushroom is defined by the 
+score in the following table: 
+ Beaver Arun goes to the forest to collect rare mushrooms to show in the museum. 
+Question​: 
+Which mushroom should Arun not pick? 
+  
+  
+ 
+March 2021 Page | 16  
+Shape and Score of mushroom Decision based on score 
+ 
+[sack] [hat] 
+Mushroom score (sum) 
+is  
+· 0 ~ 3points: common 
+· 4 points and more: 
+rare 
+Multiple 
+layered 1 
+point 
+horned 2 
+points 
+dotted 
+3 points 
+striped 
+5 points 
+      
+ 
+A) 
+ 
+B) 
+ 
+C) 
+ 
+D) 
+
+===== PAGE 17 =====
+ 
+Answer​: The correct answer is A 
+Explanation: 
+Based on the results of analyzing each mushroom shape, this task can be easily solved by 
+creating a score table as follows. 
+It’s Informatics 
+It’s Computational Thinking: 
+This is an example of a Classification Task, a very important problem in Informatics. In a 
+classification task, we try to classify each object with a certain label based on its 
+characteristics (usually called features). For example, given a set of mushrooms we classify 
+each of them as collectible for a museum or not, given its features (color and shape). 
+Common real life examples of classification problems include classifying medical images (for 
+example, whether a tumor is present), classifying documents per topic (for example, 
+ 
+March 2021 Page | 17  
+  multiple 
+layered 
+sack 
+horned 
+hat 
+white 
+dotted hat 
+white 
+striped hat 
+Mushroom 
+Score 
+Result 
+A  
+1 point 2points - - 3points Common 
+B  
+- 2points 3points - 5points Rare 
+C  
+- - - 5points 5points Rare 
+D  
+1 point - 3points - 4points Rare 
+
+===== PAGE 18 =====
+ 
+automatically labelling news articles in the category of sports, politics or education), facial 
+recognition, and email spam detection. 
+The table described is a function that assigns a score to an object based on characteristics of 
+that object. Such a score is typically summed from different individual values which each are 
+based on a single aspect of that object. This kind of a function is used in computers quite 
+often because in many cases it is simple to measure certain aspects and just sum up the 
+individual values. In many cases the score is then compared to a threshold to handle the 
+object differently. 
+A typical example for this kind of a function would be a SPAM filter for email messages. 
+Based on keywords in the message, transmission details, or sender reputation values like 
++2.5 or -1.0 are assigned to a message and if the sum of these values, the score, is larger 
+than for example 5.0, the message is considered as SPAM. 
+This procedure can be automated by writing a computer program and it would allow the 
+classification of millions of mushrooms in a small amount of time. Similar programs are used 
+everyday to solve the classification problems such as the examples above in an automatic 
+fashion. Given the incredibly large amount of data available, classifying instances manually 
+by a human is not possible because of time, money and privacy restrictions. Imagine if every 
+email had to be read by someone before classifying it as spam or not spam! 
+In the example above, the algorithm for classification is already given to us. We only have to 
+apply the rules. But what if we want to build a new classification algorithm? Let's say for 
+example that we want to develop a program that classifies an image as 'cat' or 'dog' 
+depending on whether a cat or a dog is in the image. There are two main approaches to 
+solve this problem: one based on the expert knowledge of the application domain, and one 
+based on having a large amount of labeled data. In the first case, we would talk with cat and 
+dog experts that would describe which features are important for each species (for 
+example, shape of ear, size, or type of fur) and attempt to write a program to detect those 
+specific features. This is the traditional approach and it is in general very hard and expensive 
+to do. The second approach is based on machine learning. In this approach we use a 
+program that can automatically learn to classify, if it is given a sufficient amount of 
+examples. For example, if we have a million pictures of cats and a million pictures of dogs, 
+after training our program, when we have a new image with no label, the program is able to 
+say if it is more similar to the cat images or the dog ones. This approach based on big data 
+and machine learning has recently allowed many new applications, and is one of the reasons 
+why data and privacy are so important today. 
+  
+ 
+March 2021 Page | 18  
+
+===== PAGE 19 =====
+ 
+Bear Selection          
+Ravi is allowed to bring one of his teddy bears to school for show and tell. 
+ 
+          
+ 
+Question: 
+Ravi chooses a bear that has a star on its foot, and is wearing a scarf or a bow, but not 
+glasses. Which bear does Ravi choose? 
+A.  B. C. D. E.  
+  
+ 
+March 2021 Page | 19  
+
+===== PAGE 20 =====
+ 
+Answer​:  Option D 
+Explanation: 
+Ravi did not choose Option (A), or Option (C) since those bears have glasses. 
+Ravi did not choose Option (B) since that bear is not wearing a scarf nor a bow. 
+Ravi did not choose Option (E) since that bears do not have a star on their feet. 
+Ravi chose Option (D). The bear in Option (D) has a star on its foot, is wearing a scarf, and                    
+does not have glasses. 
+It’s Computational Thinking: 
+Ravi decides that the bear he will take along to school has to exactly meet a specific set of                   
+requirements. This set of requirements comprises 3 diffeRavit statements about the bear: It             
+(1) has a star on its foot, (2) is wearing a scarf or a bow, and (3) does not have glasses. This                      
+task requires the use of boolean logic. Each of Ravi's requirements is expressed as a so                
+called boolean statement. A boolean statement has the property of being either true or              
+false. The individual statements are then combined together using the boolean operators            
+AND, OR, and NOT. The meaning of these operators is similar, but not identical, to how                
+these words are understood in English: AND is true if all statements it connects are true. OR                 
+is true if at least one of the statements it connects is true. NOT is true if a statement is false.                     
+In the case of Ravi's set of requirements, all of the 3 individual statements are combined by                 
+the boolean operator AND. Note that the second AND is present implicitly in the colloquial               
+version as it is expressed by a comma: The bear (1) has a star on its foot, AND (2) is wearing                     
+a scarf or a bow, AND (3) not glasses. This means that in order to meet Ravi's requirements,                  
+every single one of the 3 statements about the bear needs to be true. 
+  
+ 
+March 2021 Page | 20  
+
+===== PAGE 21 =====
+ 
+Bowls           
+Three siblings want to eat breakfast from three bowls of the same type. The stack of bowls 
+has many different types. Bowls can only be removed from the top of the stack. 
+ 
+Question : 
+What is the smallest number of bowls that needs to be removed to get three of the same 
+type? 
+A. 13 
+B. 14 
+C. 15 
+D. 16 
+  
+ 
+March 2021 Page | 21  
+
+===== PAGE 22 =====
+ 
+Answer​:  Option A 
+Explanation: 
+at least 13 bowls need to be removed to get three bowls of the same type (in this case, 
+three orange bowls). 
+It’s Computational Thinking: 
+A stack is a very common way of storing things in computer science. It is very simple but also                   
+quite powerful. There are rules for how to put things on a stack, and how to take them back                   
+off a stack. In this task, we are just dealing with how to take things off a stack. The rule is                     
+that only the item at the top of the stack can be removed at a time. If you want to get the                      
+tenth bowl in a stack of bowls, you have to remove the top ten bowls. It becomes important                  
+then to have somewhere to put the other nine bowls -- this is also the case in computer                  
+science. If we have a second stack, and we can make our stacks as high as we want, we can                    
+compute everything there is to compute in computer science! This is because a computer              
+with two stacks can be equivalent to a Turing machine, the most studied theoretical              
+computer. This simple little stack really is powerful! 
+ 
+  
+ 
+March 2021 Page | 22  
+
+===== PAGE 23 =====
+ 
+Log classifier           
+In Beaver village there is a log storing facility, which stores logs depending on three 
+properties: number of inner rings, number of bark lines and number of nodes, as in the 
+image below. 
+  
+ 
+Above you can see how beavers sort logs based on their inner rings, bark lines and nodes, by 
+sending logs between them, starting from the top beaver until the stacks on the bottom.​The 
+log shown above will be placed in stack D. This is because the log has three inner rings (so it 
+goes right from the first beaver), three bark lines (so it goes right from the second beaver) 
+and two nodes (so it goes right from the third beaver). 
+Question : 
+ On which stack will the log shown below be sent based on its properties? 
+ 
+ 
+A. A  
+B. B 
+C. C 
+D. D  
+ 
+March 2021 Page | 23  
+
+===== PAGE 24 =====
+ 
+Answer​:  
+The correct answer is C. This is because the log has two inner rings, three bark lines and one 
+node, which means that it will end on stack C. 
+Explanation: 
+Stack ​A​ has two types of logs: 
+1. with 2 inner rings, 2 bark lines and 1 node 
+2. with 3 inner rings, 2 bark lines and 1 node 
+Stack ​B
+​ has two types of logs: 
+1. with 2 inner rings, 2 bark lines and 2 nodes 
+2. with 3 inner rings, 2 bark lines and 2 nodes 
+Stack ​C​ has two types of logs: 
+1. with 2 inner rings, 3 bark lines and 1 node 
+2. with 3 inner rings, 3 bark lines and 1 node 
+Stack ​D
+​ has two types of logs: 
+1. with 2 inner rings, 3 bark lines and 2 nodes 
+2. with 3 inner rings, 3 bark lines and 2 nodes 
+That is why the answer is C. 
+It’s Computational Thinking: 
+This task is related to the concept of packet classification and forwarding, something that 
+happens in network devices such as switches or routers. Based on different rules, these 
+devices inspect network packets and decide whether to forward the packets on different 
+ports, typically others than the port on which a packet arrived. 
+The picture shows a decision tree (where beavers are shown), another concept of Computer 
+Science, which is used to make decisions with one rule for each level. Decisions are 
+something that computers make every moment, evaluating alternatives to choose an 
+appropriate path. 
+ 
+ 
+March 2021 Page | 24  
+
+===== PAGE 25 =====
+ 
+ Tile Laying   
+Beaver Bittu is laying down eight types of tiles, as shown on the right. He must put them 
+down in a sequence from left to right according to certain rules: 
+•​       ​The first tile is always type 1; the second tile is always type 2. 
+•​       ​The next tile is determined by adding the number of the two previous 
+tiles. If that sum exceeds 7, then a grey tile with number –2 is used instead. 
+For example, the third position will be a red tile   with number 3 because 3 is the 
+addition of 1 (tile  in first position) and 2 (tile  in second position): 
+ 
+ 
+Question​: 
+Which tile will Bittu lay down in the eighth position? 
+A.  
+B.  
+C.  
+D.  
+ 
+  
+ 
+March 2021 Page | 25  
+
+===== PAGE 26 =====
+ 
+Answer​: The correct answer is B), a tile of type 4. 
+Explanation: 
+This figure explains line by line how the next tile type was determined, starting from the 
+fourth tile: 
+ 
+It’s Computational Thinking: 
+The rule of this task uses the value of previous tiles to determine the value of the next tile.                   
+Such a definition is called recursive: it essentially “uses itself”. In mathematics for instance,              
+the Fibonacci sequence is defined in a similar way as the way the next tile is determined                 
+here: by adding up the two previous values of the sequence to find the next one. Contrary                 
+to the tiles here, where we have the special –2 grey tile type, Fibonacci numbers never stop                 
+growing. They can be found surprisingly often in real life, as in the way the branches appear                 
+in a tree, the way the fruit sprouts of a pineapple, etc. 
+In computer science, recursion is a widely used programming technique and is useful when              
+a problem to be solved can be decomposed into smaller problems that share the same               
+characteristics with the original problem. 
+ 
+  
+ 
+March 2021 Page | 26  
+
+===== PAGE 27 =====
+ 
+ Theater performance   
+The actors in a fairy-tale play enter and leave the stage according to the order shown in the 
+picture (from top to bottom). The play has two acts and a break between the acts. 
+ 
+Question​: 
+Which statement is not true? 
+A) The prince and the princess were together on the stage 
+B) The king and the dragon were together on the stage 
+C) The prince came to the stage after the break 
+D) The prince and the dragon were together on the stage 
+ 
+March 2021 Page | 27  
+
+===== PAGE 28 =====
+ 
+Answer​: The correct answer is B 
+Explanation: 
+The correct answer is B. 
+A) The statement ‘The prince and the princess were together on the stage’ is true. After the 
+break, the prince entered the stage, the dragon left the stage, and then the princess came 
+back onto the stage. 
+B) The statement ‘The king and the dragon were together on the stage’ is not true, because 
+the king left the stage right before the dragon came onto the stage. 
+C) The statement ‘The prince came to the stage after the break’ is true. 
+D) The statement ‘The prince and the dragon were together on the stage’ is true. After the 
+break, the dragon came back onto the stage and then the prince came onto the stage as 
+well. 
+It’s Computational Thinking: 
+In informatics we often graphically depict a process (events that happen over time in a given 
+order). Graphic visual representations of information, data, or knowledge are usually 
+intended to present information quickly and clearly. They can improve comprehension by 
+enhancing the human visual system's ability to see patterns and trends. Understanding 
+visual representations (or diagrams) and drawing conclusions from them is an important 
+skill to develop in computer science. 
+  
+ 
+March 2021 Page | 28  
+
+===== PAGE 29 =====
+ 
+ Processing Objects   
+A robot arm takes objects from three conveyor belts (A, B and C) to move them to the 
+processing conveyor belt (OUT). Here is how the robot arm works: 
+● it first takes an object from A and moves it to OUT, 
+● it then moves to B, takes an object from B and moves it to OUT, 
+● finally, it does the same steps with C, before starting again from A (step 1). 
+ 
+When there is no object to pick on a conveyor belt, the robot arm waits until one becomes 
+available, because the processing unit needs one object from each to proceed. 
+Question​: 
+Given the situation shown on the picture, and knowing that no new objects will arrive on 
+the conveyor belts (A, B and C), how many objects will be moved by the arm? 
+A. 3 
+B. 5 
+C. 7 
+D. 9 
+  
+ 
+March 2021 Page | 29  
+
+===== PAGE 30 =====
+ 
+Answer​:  
+The correct answer is  C) 7. 
+Explanation: 
+Indeed, the arm will first move an object from conveyor belt A, then one from B and finally 
+one from C (which is already 3 objects). It then goes back to A, followed by B and C (which 
+makes now a total of 6 objects). Finally, the arm starts again with A (which makes now a 
+total of 7 objects) and then moves to B where there is no more object. Since no new objects 
+are coming, the arm will be stuck on B after the two complete iterations. 
+It’s Computational Thinking: 
+The process the robot is executing here has close ties with scheduling, that is, a method to 
+decide how resources are assigned to jobs to be executed to perform and complete a work. 
+Here, the robot arm has to move three objects to a processing conveyor belt that perform 
+some work with the three objects. In order to be sure that only three objects, and only one 
+of each, are moved to the processing conveyor belt at the same time, a specific scheduling 
+method described in the task has been programmed in the robot arm. 
+The task is also about understanding an algorithm and execute it, to predict a future state. 
+Given an initial situation (the position of the robot arm and the objects on the A, B and C 
+conveyor belts) and an algorithm, executing it, step-by-step, to find out the produced result 
+is an important activity that programmers have to do. It is known as debugging when they 
+have to find out a possible bug, that is, something that goes wrong in the program. 
+ 
+ 
+ 
+  
+ 
+March 2021 Page | 30  
+
+===== PAGE 31 =====
+ 
+ Secret Digits   
+Beaver homes have symbols instead of house numbers. 
+They use the table to translate the symbols to numbers. 
+ 
+For example, the digit 5 is written by locating the digit in the table and then combining its 
+row symbol  with its column symbol to create the new symbol . 
+ 
+Here is a picture of one of the beaver’s homes: 
+ 
+Question​: 
+What number is this beaver’s home? 
+A. 1428 
+B. 6973 
+C. 6428 
+D. 1973 
+ 
+March 2021 Page | 31  
+
+===== PAGE 32 =====
+ 
+Answer​:  1973 
+Explanation: 
+The digits on the beaver’s home can be figured out by using each symbol on the home to 
+find the correct row and column and then finding where the row and column meet. 
+Therefore, the digits on the beaver’s home are 1973. 
+It’s Computational Thinking: 
+This task is about encoding.  Encoding is the process of applying a code to data in order to 
+represent the same data in a different (equivalent) way.  The beavers’ code in this task is the 
+table, and they apply the table to the digits 0 through 9 in order to represent the digits in a 
+different way using symbols. 
+Encoding has many uses in computer science.  Encoding data can be a way to hide 
+messages. This idea is called cryptography. Encoding data can also be a way to reduce the 
+size of messages. This idea is called data compression. 
+ 
+  
+ 
+March 2021 Page | 32  
+ 
+ 
+  
+  
+
+===== PAGE 33 =====
+ 
+Painting the houses          
+The people on Be-Taro’s street decide to paint their houses according to these rules: 
+1. All houses must be painted either red, light green or dark blue. 
+2. Houses next to each other must not be the same colour. 
+3. A house must not be the same colour as the house directly across the street. 
+In the picture below you can see that some of the houses have already been painted. 
+ 
+Question: 
+Which colour can be used for Be-Taro’s house? 
+A. Only red can be used 
+B. Only blue can be used 
+C. Only green can be used 
+D. Be-Taro can choose either blue or green. 
+  
+ 
+March 2021 Page | 33  
+
+===== PAGE 34 =====
+ 
+Answer:   
+The correct answer is B - Be-Taro’s house must be painted blue. 
+Explanation: 
+The correct colour can be determined in the following way: 
+ 
+ 
+March 2021 Page | 34  
+ 
+We start with this picture. 
+ 
+First paint the houses for which, because of 
+their neighbours, only one choice of colour 
+remains. 
+ 
+Now consider the second house on 
+Be-Taro’s side of the street. Next door to 
+this house is a blue one and the house 
+across the street is green. It must therefore 
+be painted red. 
+ 
+For the same reason, the colour of the next 
+house must be green. 
+
+===== PAGE 35 =====
+ 
+ 
+It’s Computational Thinking: 
+The 10 houses together form a so-called graph, an object that is often used in informatics to 
+represent data and how it is connected 
+ 
+A graph is composed of vertices (the coloured circles in the diagram) and edges (the lines 
+connecting these circles). 
+For this task, each vertex corresponds to a house and each edge corresponds to one of the 
+relations "is next to" or "is directly across the street from". In fact, for this problem you can 
+treat both relations in exactly the same way. 
+The task requires us to colour the vertices of the graph in such a way that no edge connects 
+two vertices of the same colour. The same question can be asked of any graph, but 
+depending on which graph you choose, you may not always be able to do this with only 
+three colours. 
+In fact, it is a famous problem how many colours you need to colour a plane graph - a graph 
+you can draw on a piece of paper without crossing edges. The answer turns out to be 4, but 
+it took a lot of computer work to actually prove this. 
+In computer science, many questions can be modelled graphs. This is very convenient 
+because many powerful algorithms solvings all kinds of problems on graphs have already 
+been developed through the ages. 
+ 
+March 2021 Page | 35  
+ 
+And then Be-Taro’s house can only be blue! 
+
+===== PAGE 36 =====
+ 
+Towns and Highways                   
+This is a map of 5 towns and 4 highways. The black dots are the towns. The coloured lines 
+are the highways. 
+ 
+ We want to represent this map with a diagram in which: 
+● towns are represented by circles 
+● two towns are connected with a line, when they lie on the same highway. 
+Question​: 
+ Which diagram represents the map correctly? 
+  
+ 
+March 2021 Page | 36  
+A.  
+ B.  
+C.  
+ D.  
+
+===== PAGE 37 =====
+ 
+Answer:    
+The correct answer is C. 
+Explanation: 
+ By studying the map carefully, we can see that:  
+• Town A lies on the same highway as the town D.  
+• Town B lies on the same highway as the towns C and D.  
+• Town C lies on the same highway as the towns B, D and E.  
+• Town D lies on the same highway as all the other towns.  
+• And finally, the town E lies on the same highway as the towns C and D.  
+All of the other answers are wrong: 
+• In answer A, the connection between towns E and C is missing.  
+• In answer D, there are connection between towns A and B, as well as between A and E, 
+and those towns don’t lie on the same highways.  
+• The same goes for answer B, in which the connection between the towns E and C is also 
+missing. Some students might make careless mistakes. 
+ It is important to note that:  
+• Even though town A can reach town B, they are actually not on the same highway.  
+• Even though towns E and C has another town in between them, they are still on the same 
+highway. 
+It’s Computational Thinking: 
+ In computer programs, reality must be represented by some data so that the computer can 
+process them. The same reality can be usually represented by several ways and computer 
+programmers need to choose the one that is the most suitable for the task (algorithm) their 
+program has to perform. Therefore it is essential for computer programmers to know many 
+kinds of representations. One often used kind of representation is a graph – a diagram made 
+of vertices (usually circles with names in or besides them) and edges (lines connecting 
+vertices). A big part of informatics (where it overlaps with discrete mathematics) is called 
+Graph Theory and it defines many useful algorithms on data represented by graphs. But, as 
+this task shows, the same reality can be represented by several kinds of graphs – the first 
+picture is also a graph (when we abandon the parts of highways that do not connect any 
+two towns), but it connects the towns in a slightly different way than the graph in the 
+solution  
+ 
+March 2021 Page | 37  
+
+===== PAGE 38 =====
+ 
+Heaviest Mark                   
+There are five boxes, each with a different shape drawn on it. 
+Using a balance scale, you can compare the weights of two boxes. 
+An example:  shows that  is heavier than . 
+Five comparisons were made: 
+ 
+ 
+Question​: 
+Which is the heaviest box? 
+  
+ 
+March 2021 Page | 38  
+A B C D E 
+ 
+  
+  
+  
+  
+
+===== PAGE 39 =====
+ 
+Answer​:  The correct answer is:  (C, the pentagon box) 
+Explanation: 
+What can we tell about the heaviest box in advance? 
+It must be the heavier box (that is, it must be on the lower part of the scale) in any 
+comparison which it is involved in. Looking into all five comparisons, the pentagon box is the 
+only such box; it never is on the upper part of the scale. As each of the other boxes are the 
+lighter box in at least one comparison, we can be certain that they are not the heaviest. 
+It’s Computational Thinking: 
+That was hard! To find the heaviest box, you had to look at five comparisons. And it could 
+have been worse: When you are looking for the heaviest or best or largest or … object in a 
+set, you may have to compare every object with every other. When there are many objects, 
+this may result in really many comparisons. It would have been much easier to find the 
+heaviest box if the boxes had been sorted – by weight, of course. Then, the heaviest box 
+would just have been the first (or perhaps last) box in the row. 
+Computers very often need to find specific information in a huge set of data. And this is 
+much easier if the data are sorted. That’s why sorting is a very important topic in 
+informatics. Computer scientists have invented many sorting algorithms. And as computers 
+are sorting data very often, it is important that sorting algorithms are efficient. 
+Unfortunately, computers can compare only two values at one time, like the balance scale in 
+this Bebras task. Therefore, no matter which sorting algorithm is used, the core of sorting is 
+the comparison of two values. A sorting algorithm can be characterized by the number of 
+such comparisons used. 
+  
+ 
+March 2021 Page | 39  
+
+===== PAGE 40 =====
+ 
+Pancake                   
+In a restaurant, Shiny saw 3 pancakes arranged on a plate. She wanted the apple pancake 
+which was at the bottom of the plate. Pancakes are taken only from the top. 
+ 
+ 
+After the first pancake was served to another person, the cook placed 4 fresh pancakes on 
+top of the earlier pancakes. He first added an apple pancake followed by 3 other pancakes. 
+A girl took 2 pancakes.  The cook placed 4 more fresh pancakes on top, but this time there 
+were no more apple pancakes. 
+Question​: 
+What is the smallest number of pancakes that have to be taken before Shiny can get an 
+apple pancake? 
+A)    8 
+B)    5 
+C)    6 
+D)    7 
+ 
+  
+ 
+March 2021 Page | 40  
+
+===== PAGE 41 =====
+ 
+Answer​:  
+The correct answer is B) 
+Explanation: 
+The correct answer is B) 
+Step 1: Out of initial 3 pancakes, one taken, 2 left on plate. Apple pancake at the bottom 
+Step 2: 4 pancakes are added, taking the total to 6 pancakes. Apple pancakes are 4​th​ and 6​
+th 
+from the top 
+Step 3: 2 pancakes were served, leaving 4 on the plate. Now the apple pancake is 2​nd​ and 4​th 
+from the top 
+Step 4: 4 more pancakes were added, taking the total to 8. Now the apple pancake is the 6​th 
+and 8​
+th​ from the top. 
+5 pancakes have to be served before Shiny can serve herself an apple pancake. 
+It’s Computational Thinking: 
+ 
+ 
+ 
+ 
+The pile of pancakes represents a stack. A stack is a commonly used data structure in 
+computing where elements are added or removed according to the last-in first-out (LIFO) 
+principle. As per this principle the new element is added and removed only from the top. 
+Stacks are used during function calls where function parameters are pushed on the stack. 
+Variables local to a function are allocated memory on the stack.  
+In real life situation, plates or books stacked on a table represent a stack. The undo feature 
+in a word processor or a browser is also accomplished by keeping all changes in a stack.  
+  
+ 
+March 2021 Page | 41  
+
+===== PAGE 42 =====
+ 
+ Exhibition Tour   
+Rahul the architect, was asked to design a museum. 
+Rahul produced 4 layouts. Each layout contains 7 rooms, labeled with numbers 1 – 7.  
+He wants to choose a layout which allows visitors to go through all of the rooms exactly 
+once, without visiting a room more than once, and without using the same door for entering 
+and exiting. This is called a one-way tour. 
+Visitors are supposed to take a one-way tour through the exhibition. 
+Question​: 
+Which layout allows each visitor to enter, visit each room exactly once, and then exit? 
+ 
+ 
+March 2021 Page | 42  
+A B 
+ 
+ 
+ 
+C D 
+ 
+ 
+ 
+ 
+
+===== PAGE 43 =====
+ 
+Answer​:  
+Only layout C allows a visitor to take a one-way tour.  
+The sequence of rooms is: 2, 1, 3, 4, 7, 6, 5. 
+Explanation: 
+In general, if a room has only one entrance, a one-way tour is not possible: If visitors enter 
+this room, they will have to go back to the room they came from and hence visit it twice. 
+In layout A, room #1 has only one entrance. 
+In layout B, the last room #6 can be reached from room #5 and room #7. If one chooses to 
+go via room #5, one can visit room #7 and reach the exit afterwards only by visiting room #6 
+twice (and vice versa). 
+In layout D, room #6 has only one entrance. 
+It’s Computational Thinking: 
+To be solved by a computer, we must model the problem in a way that is better understood 
+by computers. For finding the requested tour, it is most important to know about which 
+rooms are connected by a door (so that you can go from one to the other). So, for example, 
+layout C can be modeled as follows: 
+A circle indicates a room (plus the “outside rooms” before entering and after exiting), while 
+a line indicates a door. This model is called graph: circles are called vertices and lines are 
+called edges. There are many problems that can be solved by computers using graphs, like 
+finding the shortest route, determining friendships in social media, and others. 
+In the graph model, finding the exhibition tour corresponds to finding a path along the 
+edges that visits all vertices. Graph theory tells us that this problem is inherently difficult. In 
+this Bebras task, the number of rooms and doors is small, and we can solve it even without 
+computers. However, if the number of rooms and doors gets large, even computers may fail 
+to find a tour. 
+ 
+March 2021 Page | 43  
+
+===== PAGE 44 =====
+ 
+ Number Lock   
+ 
+You need to turn the four digits of a number lock to the right combination to unlock it. Each 
+digit on the lock can be turned forward or backwards. 
+ 
+In the image here, 2719 are the present digits on the lock. 7 can be turned forward to 8, or 
+backward to 6. If you turn 9 forward, it circularly goes to 0. Likewise, if you turn 0 
+backwards, you circle back to 9.  
+Question​: 
+What is the minimum number of turns to unlock the number lock if the present digits are 
+2719 and the key combination to open the lock is 4383? 
+A. 21 
+B. 19 
+C. 17 
+D. 13 
+E. 12 
+ 
+  
+ 
+March 2021 Page | 44  
+
+===== PAGE 45 =====
+ 
+Answer​:  
+D) 13 is the correct answer. 
+Explanation: 
+Every digit has the option to go forward or backward. We pick the smaller number of these 
+turns.  
+Picking the smaller number of turns for each digit we go forward two turns for the first digit 
+(2 → 3 → 4), four turns backward for the second digit ( 7 → 6 → 5 → 4 → 3), three turns 
+backward for the third digit ( 1 → 0 → 9 → 8), and four turns forward for the last digit ( 9 → 
+0 → 1 → 2 → 3). That gives us a minimum of 13 turns.  
+Incorrect Options:  
+A) We get 21 (= 2 + 6 + 7 + 6) turns if we went forward for the first digit ( 2 → 3 → 4), 
+forward on second digit (7 → 8 → 9 → 0 → 1 → 2 → 3), forward on third digit ( 1 → 2 → 3 
+→ 4 → 5 → 6 → 7 → 8), and backward on the last digit ( 9 → 8 → 7 → 6 → 5 → 4 → 3).  
+B) We get 19 (= 2 + 6 + 7 + 4) turns if we went forward for each digit. i.e. ( 2 → 3 → 4),  (7 → 
+8 → 9 → 0 → 1 → 2 → 3), ( 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8), and ( 9 → 0 → 1 → 2 → 
+3). 
+C)  We get 17 (= 2 + 4 + 7 + 4) turns if we went forward for the first digit i.e. ( 2 → 3 → 4), 
+backward for the second digit i.e. ( 7 → 6 → 5 → 4 → 3 ), forward for the third digit i.e.  ( 1 
+→ 2 → 3 → 4 → 5 → 6 → 7 → 8), and forward for the fourth digit ( 9 → 0 → 1 → 2 → 3). 
+E) 12 is a misleading option as a miscount of 13 and a smaller value than 13.  
+It’s Computational Thinking: 
+This task is a minimisation problem on sets of algorithmically determined values. 
+Minimisation is a kind of an optimisation problem. 
+In this task,  we are to minimise a sum of independent values. This is achieved by minimising 
+each value respectively. Thus, minimising the sum of independent values is equivalent to 
+sum of minima of independent values.  
+The values themselves are algorithmically determined because each digit can be changed 
+forward or backward. That is, for 9 to go to 2, we can go forward three turns ( 9 → 0 → 1 → 
+2) or backward seven turns (9 → 8 → 7 → 6 → 5 → 4 → 3 → 2). You can observe that the 
+number of forward turns and number of backward turns sum to 10, because that is the 
+length of the circle.  
+For each digit then, we pick the minimum number of turns, and the sum of these minima is 
+the minimum of the sum as well.  
+ 
+March 2021 Page | 45  
+
+===== PAGE 46 =====
+ 
+ 
+ Jumping Kangaroo   
+A kangaroo jumps home. She can jump only along the path, only vertically (up – down) or 
+horizontally (left – Right) and only if there are not more than two bricks in the way. 
+The kangaroo wants to be home as quickly as possible. 
+ 
+ 
+Question​: 
+How many jumps does the kangaroo need to make? 
+A. 14 
+B. 16 
+C. 18 
+D. 20 
+  
+ 
+March 2021 Page | 46  
+
+===== PAGE 47 =====
+ 
+Answer​:  The correct answer is: 14 jumps.  
+Explanation:​Solution is shown in picture below. 
+It’s Computational Thinking: 
+To find solution, one can proceed as follows: start the search, go step by step and, if we end 
+up in a dead end where all possible paths have three stones, go back (possibly, by several 
+steps) and try an other possible steps. 
+This approach is known in computer science as backtracking, and it is a technique used in 
+many algorithms. It can be used to solve puzzles or sudoku or combinatorial optimization 
+problems. 
+This task shows that, sometimes, it is more efficient to start working out the solution from 
+the “end”, here working our way back from the kangaroo’s home. We can see that here, 
+doing so requires us to do less backtracking, and the solution is easier to find. But without 
+prior exploration of the problem, it is impossible to say whether one had better start from 
+the beginning or from the end. 
+  
+ 
+March 2021 Page | 47  
+
+===== PAGE 48 =====
+ 
+ Creating Numbers   
+ 
+Olivia, the beaver, is playing with blocks. Each block has a single digit on it. She loves to 
+make a big tower and then use the blocks one by one, from the top, to form a number. Each 
+time she removes one block, she can place it to the right or to the left of the number she is 
+forming. The following figures show a tower of 4 blocks and two possible numbers that can 
+be formed from it (2534 and 4235): 
+ 
+ 
+Olivia just built a new tower of 6 blocks and she wants to create the smallest possible 
+number from it. Can you help her? 
+Question
+​: 
+What is the smallest number that can be formed from the tower of 6 blocks shown above, 
+following the rules? 
+A. 354765 
+B. 347565 
+C. 357465 
+D. 374565 
+ 
+March 2021 Page | 48  
+
+===== PAGE 49 =====
+ 
+Answer​:  
+The correct answer is 347565.  
+Explanation: 
+The smallest possible number should start with the smallest digit in the tower, which is 3. All 
+the numbers that are below 3 in the tower should be added to the right of the number 
+being formed, so the final number ends with 65. Above 3 we have a smaller tower 547, from 
+which we want to form the smallest possible number to come between 3 and 65.  We apply 
+the same reasoning: the number should start with the smallest digit, 4, and 5 should be 
+added to the right, so we get the number 475.  This gives us final answer, 475, preceded by 
+3, followed by 65. 
+It’s Computational Thinking: 
+Searching for the best solution (such as the minimum number) among all possibilities is a 
+very common computational task known as optimization. We often use additional 
+techniques to narrow down the possibilities and speed up the search. In this case, we use a 
+greedy strategy to fix the smallest digit as the leftmost digit. We then use a 
+divide-and-conquer approach to solve a smaller instance of the same problem for the blocks 
+above the smallest digit. 
+ 
+  
+ 
+March 2021 Page | 49  
+
+===== PAGE 50 =====
+ 
+ Rahul’s Drawings   
+Rahul can draw pictures without lifting a pen.  
+To do this lines are drawn from one point to the next, however, we can never draw over a 
+line that has already been drawn. 
+Example: 
+A picture of a house can be drawn like this: 
+ 
+Question​: 
+Which of the following pictures can Rahul  also draw without lifting a pen? 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+March 2021 Page | 50  
+A) B) C) D) 
+ 
+  
+  
+  
+
+===== PAGE 51 =====
+ 
+Answer​:  
+The correct answer is C).  
+Explanation: 
+One possible sequence of drawing steps is shown below. 
+Note that exactly two of the points in answer C) have an odd number of lines coming in or 
+going out. They are marked in the last step above. All other points have an even number of 
+lines coming in or going out. 
+For answer A), however, you have four of the points with an odd number of lines coming in 
+or going out. They are marked in the picture below. But you can only start at one point and 
+end at one point. To draw a picture in a way you want to draw your pictures, there must be 
+at most two points with an odd number of lines coming in or going out. It would also be 
+possible to draw pictures having more than two points with an odd number of lines coming 
+in or going out if you were able to come in or go out of a point with the same line, but you 
+can’t draw the same line segment more than once. 
+ 
+The situation for answer B) is very similar, as you can see by this “try”: you must either go 
+down or right-up, but then you’ll have to go back in either case to draw the third line. 
+ 
+Finally, answer D) consists of a triangle drawn inside a square, but none of the points of the 
+(inner) triangle is connected to the (outer) square, so there is no way you could draw this 
+picture without lifting the pen. 
+It’s Computational Thinking: 
+These drawing are made of points and lines connecting the points. In Computer Science this 
+is a way of representing objects or relationships among objects: the points represent objects 
+and the lines represent connections or relationships among them. Such a representation is 
+called a graph. A graph consists of a set of vertices or nodes (usually depicted as points or 
+circles) and a set of edges (usually depicted as lines, possibly curved, sometimes directed 
+with an arrow). The edges connect vertices. A sequence of connected edges in a graph is 
+called a path. 
+ 
+March 2021 Page | 51  
+
+===== PAGE 52 =====
+ 
+The graphs you draw are special: the graph has to be connected (you should be able to go 
+from any vertex to any other vertex by following edges of the graph) and only two vertices 
+or none at all may have an odd degree (that is that the number of edges connected to a 
+vertex). For graphs that have these two special properties you can always draw the 
+complete graph in one continuous motion without having to draw an edge twice. A drawing 
+like this is called an Eulerian path named after Leonhard Euler (1707 – 1783) who first 
+described this problem. 
+Euler came up with the concept by trying to solve the problem of the Seven Bridges of 
+Königsberg. Today we can find Eulerian paths by applying the well-known Fleury's algorithm 
+or Hierholzer's algorithm. 
+  
+ 
+March 2021 Page | 52  
+
+===== PAGE 53 =====
+ 
+ Beaver at the Castle   
+A smart beaver needs a fir tree   to build a dam on a river. But he only has one carrot . 
+At Grandson Castle there is a trade today and exchange is possible. The beaver goes there 
+with his carrot  and hopes to exchange it for a fir tree . 
+ 
+In each room two exchanges are allowed according to the following table: 
+Question​: 
+What is the sequence of rooms the beaver has to go in, to ensure that he will eventually get 
+a fir tree  ? 
+A. DGE 
+B. GGE 
+C. AGE 
+D. DBC 
+ 
+March 2021 Page | 53  
+Room A:  
+➜ 
+ or  
+➜  
+Room B: 
+ ➜ 
+ or  
+➜ 
+ 
+Room C: 
+ 
+➜ 
+ or  
+➜  
+Room D:  
+➜ 
+ or  
+➜ 
+ 
+Room E:  
+➜ 
+ or  
+➜  
+Room F:  
+➜ 
+ or 
+ 
+➜ 
+Room G: 
+ 
+➜ 
+ or  
+➜  
+Room H:  
+➜ 
+ or  
+➜ 
+
+===== PAGE 54 =====
+ 
+Answer​:  
+The correct answer is: DGE 
+Explanation:​.  
+In the Room D, the beaver exchanges his carrot  for an ice cream cone . After that he 
+moves to the room G to exchanged the ice cream cone for a ring . Finally, the beaver 
+goes to the room E to exchange the ring for the fir tree . 
+ 
+While looking for a feasible room order, mainly two distinct strategies can be followed. 
+The first one is a longer way and is based on the idea that the beaver can initially exchange 
+the carrot  in five rooms (A, D, E, G and H) for 6 objects. After that all following 
+possibilities should be considered. This can even generate endless cycles if no exit 
+conditions is provided. One of that situation is illustrated below: 
+    1. Room A (  ➜ ) 
+    2. Room B (  ➜ ) 
+    3. Room H (  ➜ ) 
+    4. Room B (  ➜ ) – cycle! 
+ 
+ 
+March 2021 Page | 54  
+Room D:  
+➜ 
+ 
+Room G: 
+ 
+➜  
+Room E:  
+➜  
+
+===== PAGE 55 =====
+ 
+The second strategy is a shorter way and is based on “upside down” principle. The starting 
+point is in the Room E as it is the only room where the beaver can get the fir tree . This 
+fir tree was exchanged for a ring . We can see that the ring can be obtained only in the 
+room G by exchanging for an ice cream cone  . With the last step we have to control how 
+can we get an ice cream cone. This exchange is only possible in the room B for a ring  or 
+in the room D for a carrot . As the beaver has only a carrot the room D is the correct one. 
+So, this is what we were looking for — namely, to connect the path that leads from the 
+carrot  to the fir tree . 
+The structure of of the table with 
+the possible paths can be 
+represented as a graph. Each node 
+of it represents an object to 
+exchange and each outgoing edge 
+represents a visiting room for the 
+exchange: 
+The visual representation of a 
+sequence of rooms allows in an 
+easier manner trace the 
+connection between the carrot  
+and the fir tree  . We can easily 
+verify that DGE is the correct 
+answer. 
+It’s Computational Thinking: 
+The known states of such a problem can be represented with a graph. In computer science, 
+directed graph is used to visualize known from a task conditions, to demonstrate finite state 
+machines. Posing such a problem as a graph-based problem has the advantage as a whole 
+series of existing known graph-based strategies can be used. 
+Searching through the graph to find the solution can be done systematically by a sequence 
+of steps, a.k.a an algorithm. One algorithm that could be used here is called depth-first 
+search. This algorithm would here start from the carrot and explore as far as possible along 
+each vertex (representing an object) until it finds the fir tree. Using the depth-first search 
+algorithm one must be careful not to get into an endless cycle (for instance, ABHBHBH…). 
+  
+ 
+March 2021 Page | 55  
+
+===== PAGE 56 =====
+ 
+ Electric cars   
+ 
+A blue car can travel 4 km before it needs charging and needs 3 minutes to charge. A green 
+car can travel 5 km before it needs charging and needs 4 minutes to charge. A red car can 
+travel 6 km before it needs charging and needs 5 minutes to charge. 
+A car does not need to stop at every charging station, but once a car stops to charge, it 
+spends the full amount of charging time, no matter how much charge the car has left. All 
+cars travel at the same speed and are fully charged at node A. 
+ 
+ 
+ 
+ 
+The map above shows all the roads and the charging station between A and B. The numbers 
+indicates the distance (in km) between each charging station. 
+Question​: 
+Based on the map, which car can travel from A to B in the fastest time? 
+A. Blue 
+B. Green 
+C. Red 
+ 
+ 
+ 
+  
+March 2021 Page | 56  
+
+===== PAGE 57 =====
+ 
+Answer​:  
+The correct answer is (B) Green.  
+Explanation: 
+The green car can follow the route with distances {5, 2, 1, 5} which is a total of 13 km, taking 
+13 minutes. It only needs to stop at the first and third charging stations, accounting for 8 
+minutes (2 * 4 minutes) for charging. This gives a total of 13 + 8 = 21 minutes. 
+The fastest that the blue car can get to point B is 26 minutes by following the route with 
+distances {4, 3, 2 ,3, 2} which is a total of 14 km, taking 14 minutes. The car needs to stop at 
+all the 4 charging stations, accounting for 12 minutes (4 * 3 minutes) for charging. This gives 
+a total of 14 + 12 = 26 minutes. 
+The fastest that the red car can get to point B is 23 minutes by following the route with 
+distances {5, 2, 1, 5} which is a total of 13 km, taking 13 minutes. It only needs to stop at the 
+first and third charging stations, accounting for 10 minutes (2 * 5 minutes) for charging. This 
+gives a total of 13 + 10 = 23 minutes. 
+It’s Computational Thinking: 
+Finding the shortest route/path between points is a common problem in Informatics. In 
+modern day technology, we would want to be able to communicate with somebody else 
+somewhere in the world as quickly as possible. Finding the shortest route between two 
+points may ensure fastest communication. 
+Various algorithms were developed over the years to aid in finding the shortest route in any 
+network. One such algorithm was published by a Dutch computer scientist, Edsger Dijkstra, 
+and is now known as Dijkstra’s algorithm. This algorithm finds the shortest path from a 
+source node to every other node. 
+ 
+ 
+  
+ 
+March 2021 Page | 57  
+
+===== PAGE 58 =====
+ 
+ Dinner Table   
+Mat is hosting a dinner party for the beaver families! Mat has invited his friend Robert, and 
+two other beaver families. Mama and Papa Jones with their son, Harry and daughter, Rose 
+and Mama and Papa Gray with their daughters Lily and Daisy. 
+Mat has laid down some rules for the seating arrangement at the round dinner table to 
+encourage the beavers to start new conversations. 
+1)    Two female beavers cannot sit next to each other. 
+2)    Mama and Papa beavers in the same family cannot sit next to each other. 
+3)    Young beavers cannot sit next to their parents. 
+Question​: 
+Which of the following is a correct seating arrangement according to Mat’s rules? 
+ 
+ 
+ 
+ 
+  
+ 
+March 2021 Page | 58  
+A B C D 
+ 
+  
+  
+
+===== PAGE 59 =====
+ 
+Answer​:  
+The correct answer is B. 
+Explanation: 
+In option A, Mama Gray and Papa Gray are seated next to each other which breaks rule #2. 
+Daisy is also seated next to her father, Papa Gray which breaks rule #3. 
+In option C, Lily is seated next to Papa Gray, her father, which breaks rule #3. 
+In option D, Daisy is seated next to Mama Jones which breaks rule #1. Rose is seated next to 
+her father, Papa Jones and Daisy is seated next to her father, Papa Gray which breaks rule 
+#2.  
+All the rules (constraints) are satisfied by option B so that is the correct answer. 
+It’s Computational Thinking: 
+The Dinner Table problem is in fact a simpler version of a more general ‘constraints’ 
+problem, where we are given a set of constraints (rules or restrictions), a domain of values, 
+and must find a solution that satisfies all the constraints. 
+We do this by creating a model from the data and then build the solution incrementally. We 
+decide the variables, what values they can take, and which constraints apply. In this 
+problem, the variables are the seats occupied by each person. 
+We then try a step-by-step solution by assigning valid values to one variable at a time, 
+‘propagating’ the effect of the assignment to other variables and proceeding. In some cases, 
+if an assignment results in failure, we backtrack, assign a different value and try again. 
+In this problem our task is easier: we are given the values — in the form of multiple choice 
+answers— and just have to verify whether or not they meet all the constraints. 
+ 
+  
+ 
+March 2021 Page | 59  
+
+===== PAGE 60 =====
+ 
+ Snakes and Ladders   
+The game of Snakes and Ladders is played by rolling a common dice (giving values 1 to 6) 
+and moving that many places from your current cell position. Each player starts from cell 
+number 1, and a player wins when they reach the last cell (49).  
+ 
+If you reach a cell with a snake’s head, you will slide down to the snake’s tail. That is, if you 
+land on cell 21, the snake will take you back down to cell 5. And if you reach a cell with the 
+bottom of a ladder, you will climb up to the top of that ladder. That is, if you land on cell 23, 
+the ladder will take you up to cell 36.  
+Question​: 
+If you are at cell 19, what is the minimum number of dice rolls to win?  
+A. 2 
+B. 3 
+C. 4 
+D. 5 
+ 
+  
+ 
+March 2021 Page | 60  
+
+===== PAGE 61 =====
+ 
+Answer​:  
+B) 3 is the correct answer. 
+Explanation: 
+ 
+The shortest path only moving forward takes a minimum of 4 rolls of the dice. 
+From cell 19 you roll a four and move to cell 23, where the ladder takes you up to cell 36.  
+From here there are no remaining ladders and 13 cells remaining, so 3 rolls (6,6,1) are 
+required for a total of 4 rolls.  
+ 
+However, there is a shorter path if you move backwards and use the longest ladder from cell 
+10 to cell 44.  
+From cell 19, if you roll a two you would move to cell 21 and the snake would take you back 
+to cell 5. From cell 5, if you roll a five, you will move to cell 10 where the ladder will take you 
+up to cell 44. Finally, a roll of five will take you to the winning cell, for a total of 3 rolls. 
+ 
+March 2021 Page | 61  
+
+===== PAGE 62 =====
+ 
+It is impossible to win in 2 rolls, as from 1 roll, the cells you would land on could be 
+20,5,22,36,24, or 25 (from a roll of 1 to 6, respectively). From any of these cells it is 
+impossible to land on the final cell, 49, within 1 roll of the dice.  
+It’s Computational Thinking: 
+This task is a shortest path problem. A shortest path problem can be represented by graphs. 
+Graphs are an abstract data-structure where nodes (cells in the game) are connected by 
+edges. The cells here are said to have an edge if they can be reached from one to the other 
+within a single throw of the dice. The problem then becomes one of finding the path with 
+least number of edges, which may lead to the destination.  
+Breadth-first search (BFS) is an algorithm for searching graph data structures. It starts at the 
+tree root and explores all of the neighbor nodes at the present depth prior to moving on to 
+the nodes at the next depth level. This approach would be starting at cell 19, and exploring 
+each dice roll before moving on to the second roll.  
+  
+ 
+March 2021 Page | 62  
+
+===== PAGE 63 =====
+ 
+ Spreading the news   
+A colony of 12 beavers each have their own pole to send messages. The poles are connected 
+with ropes and the beavers use their ropes to send messages to each other. 
+ 
+The beavers really like to be informed about the events as quickly as possible. Whenever 
+one hears a good story they immediately use all the ropes that connect to their pole to 
+inform the other beavers. For example, if the beaver in the pole 8 hears a story, he informs 
+beavers in poles 1 and 11. The next ones who will hear the story, are the beavers in poles 2, 
+4 and 5 and so on, till all the beavers know the latest story.  
+Question​: 
+Which beaver you should inform if you wanted the story will be known to all beavers as 
+soon as possible?  
+A. 1 
+B. 2 
+C. 4 
+D. 10  
+ 
+March 2021 Page | 63  
+
+===== PAGE 64 =====
+ 
+Answer​:  
+The correct answer is 2.  
+Explanation: 
+If the story is told to beaver #2, it will be distributed to all the other beavers in 2 steps. In 
+the first step beavers 4, 1, and 10 are informed. They inform all other beavers. So all the 
+holes are on a distance at most 2 from hole 2. There is no other hole for which this is 
+possible, or even a hole with distance 1 to all other holes. 
+It’s Computational Thinking: 
+Many real-life problems are solved by computer programs after representing them as a 
+graph. A graph consists of a set of vertices or nodes (usually depicted as points) and a set of 
+edges (usually depicted as line segments, possibly curved), that connect these vertices. In 
+this task, the underlying problem is to find the so-called graph center. 
+The center (or Jordan center) of a graph is the set of all vertices of minimum eccentricity, 
+that is, the set of all vertices u where the greatest distance d(u, v) to other vertices v is 
+minimal. Here, there was only one such vertex – city 2. 
+Finding the center of a graph is useful in facility location problems, where the goal is to 
+minimize the worst-case distance to the facility. For example, placing a hospital at a central 
+point reduces the longest distance the ambulance has to travel. 
+If we have a small graph, like in our task, we can use trial and error, as it is simple to 
+calculate the distance between all pairs of vertices. For large problems the center can be 
+found using with more sophisticated algorithms like the Floyd–Warshall algorithm. 
+  
+ 
+March 2021 Page | 64  
+
+===== PAGE 65 =====
+ 
+ Chairs   
+The beavers are sitting on 6 chairs kept in a row and are given numbers from 1 to 6 and 
+want to play a game.  Before starting the game, a number between 1 and 4 is chosen. With 
+every clap, all the beavers would go to the chair on their right as many positions as was the 
+number chosen and beavers at the end will move to the front.  After the movement, the 
+rightmost beaver is out of the game and last  chair is removed. The beaver left in the end is 
+the winner. So, if number 2 is drawn, beaver 6 is the winner as you can see below: 
+Start :  
+After 1st Clap:  
+(Beaver 4 out)  
+After 2​nd​ Clap:  
+(Beaver 1 out) 
+After 3​rd​ Clap: 
+(Beaver 3 out) 
+After 4​th​ Clap: 
+(Beaver 5 out) 
+After 5​th​ Clap: 
+(Beaver 2 out) 
+Question​: 
+Who will be the winner if number 3 is drawn? 
+A. 1 
+B. 2 
+C. 3 
+D. 4 
+E. 5 
+ 
+  
+ 
+March 2021 Page | 65  
+
+===== PAGE 66 =====
+ 
+Answer​:  
+The answer is 2. 
+Explanation: 
+Start :  
+After 1st Clap:  
+(Beaver 3 out)  
+After 2​nd​ Clap:  
+(Beaver 5 out) 
+After 3​rd​ Clap: 
+(Beaver 6 out) 
+After 4​th​ Clap: 
+(Beaver 4 out) 
+After 5​th​ Clap: 
+(Beaver 1 out) 
+ 
+ 
+Finally Beaver 2 is the winner 
+It’s Computational Thinking: 
+In digital computer programming, a bitwise operation operates on one or more bit patterns 
+or binary numerals at the level of their individual bits. It is a fast and simple action, directly 
+supported by the processor, and is used to manipulate values for comparisons and 
+calculations.  
+One form of bitwise operation is Circular Shift 
+In this operation, sometimes called rotate no carry, the bits are "rotated" as if the left and 
+right ends of the register were joined. The value that is shifted into the right during a 
+left-shift is whatever value was shifted out on the left, and vice versa for a right-shift 
+operation. This is useful if it is necessary to retain all the existing bits, and is frequently used 
+in digital cryptography.  
+  
+ 
+March 2021 Page | 66  
+
+===== PAGE 67 =====
+ 
+ Dangerous Virus   
+Alpha island is the capital of a nation consisting of six  islands. The names of the other 
+islands are Gamma, Beta, Delta, Eta, and Kappa. A dangerous virus is spreading on Kappa 
+island so it needs medical supplies, but they are only produced on Alpha island. 
+To prevent the virus from spreading, the government limits all existing transportation routes 
+to those shown below. The number on each route is the maximum weight of supplies (in kg) 
+that can be sent on the route in one day. 
+ 
+Each route can only be used once per day but there are no restrictions on the order in which 
+the routes are used. 
+For example, from Beta island, 2 kg can be sent to Gamma island, 3 kg to Delta island, and 5 
+kg to Eta island. 
+Question​: 
+What is the maximum weight of supplies that can be obtained by Kappa island per day? 
+A. 20 
+B. 12 
+C. 15 
+D. 18 
+ 
+March 2021 Page | 67  
+
+===== PAGE 68 =====
+ 
+Answer​:  
+The correct answer is 18 (B).  
+Explanation: 
+From Alpha, 10 kg of drugs are sent to Gamma island and 10 kg to Beta island. From 
+Gamma, 10 kg of drugs are sent to Delta island. From Beta, 3 kg of drugs are sent to Delta 
+island and 5 kg to Eta island. The current weight of drugs on Delta island is 13 kg. From 
+Delta, only 10 kg can be sent to Kappa island. The remaining 3 kg drug in Delta island is sent 
+to Eta island. There is 8 kg in Eta island now. From Eta island, 8 kg are sent to Kappa island. 
+The total drug obtained by Kappa island is 18 kg. 
+It’s Computational Thinking: 
+Tags – Graph, Maximum flow 
+A graph is a data structure consisting of nodes and edges. Graphs are used to represent 
+many real-life problems. In this problem, graph is used to represent the network flow. The 
+cities are represented by nodes and transportation routes as edges. Finding daily maximum 
+capacity between cities is a maximum flow problem. 
+ 
+ 
+  
+ 
+March 2021 Page | 68  
+
+===== PAGE 69 =====
+ 
+ DNA Sequence   
+Every creature has a sequence of DNA that determines the genes of a creature. The 
+sequence of DNA is formed from several nitrogen bases which can be formed from 4 types 
+namely Adenine (A), Guanine (G), Cytosine (C), and Thymine (T). DNA can mutate to form a 
+new series that is different from the original sequence. 
+ 
+ 
+ 
+ 
+ 
+Vormi is a creature that can mutate in 3 ways, as follows: 
+1. Substitution: Changes one base component with another base component in the 
+DNA sequence. 
+Example: AGGTC becomes AGGTA (change C to A) 
+2. Deletions: Elimination of one of the base components of the DNA sequence. 
+Example: AGGTC becomes AGTC (delete one G) 
+3. Duplication: Addition of base components to the DNA sequence repeatedly. 
+Example: AGGTC becomes AGGTTC (duplicate T) 
+Question
+​: 
+Given four DNA sequences of Vormi creature. Which sequence cannot be generated from 3 
+gene mutations if the initial DNA sequence from Vormi is "GTATCG" 
+A. “GCAATG” 
+B. “ATTATCCG” 
+C. “GAATGC” 
+D. “GGTAAAC” 
+ 
+ 
+March 2021 Page | 69  
+
+===== PAGE 70 =====
+ 
+Answer​:  
+The correct answer is "GGTAAAC" (D).  
+Explanation: 
+Option A: substitution (T to C – GCATCG), substitution (T to A – GCAACG), substitution (C to 
+T – GCAATG) 
+Option B: substitution (G to A – ATATCG), duplication (T – ATTATCG), duplication (C – 
+ATTATCCG) 
+Option C: substitution (T to A – GAATCG), substitution (C to G – GAATGG), substitution (G to 
+C – GAATGC) 
+Option A, B and C can be reached by 3 steps of gene mutation, while option C can be 
+reached by 4 steps:  duplication (G, GGTATCG), duplication (A, GGTAATCG),  substitution (T 
+to A, GGTAAACG), deletion (G, GGTAAAC) 
+It’s Computational Thinking: 
+Tags: Levensthein distance 
+To solve this problem, we need to find the distance between one word (DNA sequence) and 
+another. We have to try all the choices and calculate the minimum distance of each given 
+DNA sequence. To find minimum distance between two words is known as Levenshtein 
+distance.  
+Levenshtein distance may also referred as edit distance because this metric measure 
+minimum number of single-character edits. The known operators for this metric are 
+insertion, deletions, dan substitutions. But in this task, the insertion operation is replaced by 
+duplication operation. 
+In this task, we can assume the DNA sequences is one string and mutated DNA sequences is 
+another string. Then we can measure the Levensthein Distance between these two strings. 
+The combination which doesn't have Levensthein Distance equal to 3 is the answer. 
+  
+ 
+March 2021 Page | 70  
+
+===== PAGE 71 =====
+ 
+ Robot Parking   
+Robot cars in a fenced area can move around according to the following rules: 
+One move of a robot can be either: 
+● one square forward 
+● one square backward 
+● turn left (90 degrees) in the current square, or 
+● turn right (90 degrees) in the current square. 
+ 
+ 
+In addition, only the spider car can move outside the fenced area to the spider square. 
+Question​: 
+What is the minimum number of robot moves needed to get the spider car to the spider 
+square? 
+A.  9 
+B. 11 
+C. 13 
+D. 15 
+ 
+ 
+March 2021 Page | 71  
+
+===== PAGE 72 =====
+ 
+Answer​:  
+The correct answer is B) 11. 
+Explanation: 
+The spider car can reach the spider square in 11 moves as shown: 
+ 
+It now remains to prove that 11 is the minimum number of moves needed. 
+Suppose the spider car was the only car in the fenced area.  To reach the spider square it 
+must move up 2 times, right 3 times, and turn 2 times.  These moves can be done in a 
+variety of different combinations, but the spider car will always require these 8 moves.  Of 
+course, the spider car is not the only car in the fenced area and more moves are needed to 
+unblock its path. 
+First we need to create a way through this “L-shaped” barricade.  This can be done using 
+one move as shown: 
+ 
+ 
+March 2021 Page | 72  
+  
+
+===== PAGE 73 =====
+ 
+Now we need to create a way through this second “L-shaped” barricade.  This can not be 
+done using one move (without blocking the exit).  It needs at least two: 
+ 
+Therefore, the minimum number of robot moves needed is 8+1+2=11. 
+It’s Computational Thinking: 
+Proving a solution is minimal (or optimal) can be a very difficult thing to do.  Often the only 
+way to do it is to list all solutions, in order to shown that no solution exists that is better 
+than the one you found. This is known as exhaustive search. Exhaustive search can be 
+unfeasible to do by hand in many instances but is a straightforward and fast task to do using 
+a computer.  
+Sometimes the number of possible solutions to a problem is so large that, even using a 
+computer, exhaustive search takes too long. When this happens there are other computer 
+science algorithms that can be applied in order to simplify the search. Branch and bound 
+and  greedy are examples of two such algorithms. 
+ 
+  
+ 
+March 2021 Page | 73  
+  
+
+===== PAGE 74 =====
+ 
+ WaterWorks   
+We have a system of buckets, arranged vertically and connected by overflow pipes. Each 
+bucket collects a certain amount of water: the amount which the bucket is labeled with. 
+After the bucket fills to the indicated level, all remaining 
+water splits evenly between the overflow pipes leading 
+down from it and continues to pass down the system of 
+buckets.  
+The top most bucket doesn’t hold any water. 
+200 L of water is poured into the top most bucket (marked 
+“S”), where splits evenly between the overflow pipes 
+leading down from it and continues to pass down the 
+system of buckets to the final ones. For example, in the system of buckets to the right, 40 L 
+of water would accumulate in the bucket “B”. 
+Question
+​: 
+How much water will accumulate in bucket “A” if 200 L of water is poured into bucket “S” of 
+the following system of buckets? 
+ 
+A. 65.5 L 
+B. 66.7 L 
+C. 43 L 
+D. 100 L 
+E. 131 L 
+  
+ 
+March 2021 Page | 74  
+
+===== PAGE 75 =====
+ 
+Answer​:  
+The correct answer is C) 43 L. 
+Explanation: 
+We could calculate every amount of water that flows from one bucket to each next bucket, 
+but actually just the amounts on the left side (8 numbers exactly) have to be calculated. 
+ 
+It’s Computational Thinking: 
+The buckets and the pipes can be generalized 
+by a graph. Other than a flow network for 
+which the capacity of the pipes is limited, the 
+pipes of this graph have an unlimited 
+transport capacity. The buckets, however, 
+where the pipes connect, “steal” a certain 
+amount of water. 
+In general a graph consists of edges (in this case the pipes) and nodes (in this case the 
+buckets). This graph is directed, that means that an edge can only by traversed in one 
+direction. In this case this is presented by the downdraft of gravity. Because the graph has a 
+single source for water, that node is called the root of the graph. The three buckets where 
+the water ends up are sometimes called sinks. 
+Finding the amount of water in the final buckets can be done with a variant of the aptly 
+named flood fill algorithm. This algorithm simulates the filling of the buckets by putting all 
+200 L of water in the first bucket and puts it in a “to do” list. Then it repeatedly checks the 
+“to do” list and as long as there are buckets in the “to do” list, it splits the amount of water 
+that’s more than the bucket’s capacity into all buckets that it overflows into. Then the 
+bucket is removed from the “to do” list. Depending on the order in which the “to do” list is 
+emptied, it could happen that the same bucket ends up being put more than once on the 
+“to do” list. For instance the second bucket from the left in the row above the named 
+buckets gets water poured into twice. So it could happen that at first the overcapacity from 
+the first pour is distributed and then the overcapacity from the second pour. 
+  
+ 
+March 2021 Page | 75  
+
+===== PAGE 76 =====
+ 
+ MathMachine   
+The beavers created a MathMachine. It takes a number as input and returns another 
+number as output. 
+Inside, the MathMachine uses components. All components work in the same way. 
+Each component takes three numbers as input, and processes them as follows: 
+● If the first number is 1, return the third number to the MathMachine as output. 
+● Else: 
+○ Decrease the first number by 1. The result is the new first number. 
+○ Increase the second number by 2. The result is the new second number. 
+○ Add the new second number and the third number. The result is the new third 
+number. 
+○ Pass the new numbers to the next component, in the same order. 
+When the MathMachine receives an input, it passes this number as the first input to a 
+component. The other two inputs for this component are 1. As soon as the MathMachine 
+receives the output of any component, it 
+returns this number as result. 
+The image shows how the MathMachine 
+processes the input 2, using two 
+components in this case. 
+ 
+Question​: 
+The MathMachine processes the input 4. Which number does the MathMachine return as 
+output? 
+A. 7 
+B. 10 
+C. 16 
+D. 64  
+ 
+March 2021 Page | 76  
+
+===== PAGE 77 =====
+ 
+Answer​:  
+Answer is C. 16. 
+Explanation: 
+First component has input (4,1,1), output (3,3,4). Second component has input (3,3,4), 
+output (2,5,9). Third component has input (2,5,9), output (1,7,16). Fourth component has 
+input (1,7,16), returns value 16 to MathMachine. 
+Multiple-choice 
+Answer A is incorrect: The "last" component returns the third number, not the second. 
+Answer B is incorrect: The components do not increase the result by 3 starting with 1. 
+Answer C is correct. 
+Answer D is incorrect: The components do not increase the result fourfold starting with 1. 
+It’s Computational Thinking: 
+A common method of simplification is to divide a problem into subproblems of the same 
+type. As a problem solving technique, this is called divide and conquer and is key to the 
+design of many important algorithms. Recursion in computer science is a method of solving 
+a problem where the solution depends on solutions to smaller instances of the same 
+problem. Recursion solves problems by using functions that call themselves from within 
+their own code. The approach can be applied to many types of problems, and recursion is 
+one of the core ideas of computer science. 
+The power of recursion evidently lies in the possibility of defining an infinite set of objects 
+by a finite statement. In the same manner, an infinite number of computations can be 
+described by a finite recursive program, even if this program contains no explicit repetitions. 
+Tail recursion is particularly useful, and often is easy to handle in implementations. Tail calls 
+can be implemented without adding a new stack frame to the call stack. 
+ 
+ 
+March 2021 Page | 77  
+
+===== PAGE 78 =====
+ 
+ Game of Whispers   
+Five friends sit in a sequence: Anjali, Bernard, Chandra, Damini, and then Eshwar. Anjali 
+whispers the spelling of a ten letter word to Bernard (eg. V-I-S-I-B-I-L-I-T-Y). Bernard then 
+whispers the spelling of the word to Chandra, but with one error. The error could be a 
+replacement of a letter with a new letter (eg. V-I-Q-I-B-I-L-I-T-Y) or the deletion of a letter 
+(eg. V-I-S-I-B-I-L-I-Y). Chandra, in turn, whispers the spelling with one error to Damini and so 
+on.  
+ 
+In each whisper, there is exactly one 
+error; no more, no less but the same 
+letter or position could be involved in 
+more than one error. 
+ 
+Question
+​: 
+If the spelling whispered by Anjali to Bernard is A-D-V-E-N-T-U-R-E-S, which of these 
+spellings could be whispered to Eshwar?  
+I. A-D-E-N-U-R 
+II. A-D-D-E-N-T-U-R-E-S 
+III. A-D-V-E-N-T-U-R-E 
+IV. A-V-E-N-G-E-R-S 
+V. D-E-N-T-U-R-E 
+Answer Options 
+A. I & II 
+B. I & IV 
+C. II, III 
+D. II, III, V 
+E. II, III, IV  
+ 
+March 2021 Page | 78  
+
+===== PAGE 79 =====
+ 
+Answer​:  
+A) A-D-E-N-U-R 
+B) A-D-D-E-N-T-U-R-E-S 
+C) A-D-V-E-N-T-U-R-E 
+D) A-V-E-N-G-E-R-S 
+E) D-E-N-T-U-R-E 
+Correct answers: options B, C and E 
+Explanation: 
+Anjali whispers the correct spelling to Bernard. Bernard whispers the spelling with one error 
+to Chandra. Chandra whispers to Damini with one more error. And finally, Damini whispers 
+to Eshwar with one more error. So there are exactly three errors that take place by the time 
+the spelling is whispered to Eshwar.  
+Option A) Incorrect. There are only six letters in this option, indicating four deletions. But we 
+can only have a maximum of three deletions. 
+Option B) Correct. V is replaced by D in one error. Then, any letter (say T) is replaced in the 
+second error. That letter is replaced again in the third error by the original letter (T) itself. 
+i.e. A-D-V-E-N-T-U-R-E-S → A-D-D-E-N-T-U-R-E-S → A-D-D-E-N-C-U-R-E-S → 
+A-D-D-E-N-T-U-R-E-S.  
+Option C) Correct. S is deleted. Then any letter is replaced twice to come back to the original 
+letter. i.e. A-D-V-E-N-T-U-R-E-S → A-D-V-E-N-T-U-R-E → A-D-V-E-N-C-U-R-E → 
+A-D-V-E-N-T-U-R-E. 
+Option D) Incorrect. The option has only 8 letters. That means two deletions. Further, the 
+option has two new letters (G and E) indicating two replacements as well. This needs more 
+than 3 errors. 
+Option E) Correct. This option needs exactly three deletions (A, V, and S) and nothing else. 
+It’s Computational Thinking: 
+This task is an example of the concept of noise in information transfer. The noise in this 
+question are deletion and replacement of letters. We know that the noise here is restricted 
+to three letters. So we can be sure that the final word reaching Eshwar should have a 
+minimum of seven letters which match (in sequence) with the original word.  
+ 
+March 2021 Page | 79  
+
+===== PAGE 80 =====
+ 
+A more real world application for such noise in information transfer comes in transmitting 
+digital signals composed of bits i.e. signals consisting of only 0’s and 1’s. Such signals could 
+have the same errors of replacement and deletion. However, in these cases, replacement 
+simply means switching the bit i.e. 0 becomes 1 and vice versa.  
+Claude Shannon, who is famously known as the ‘Father of Information Theory’, did some 
+path-breaking work on how to send a digital signal with almost zero error where he 
+discusses the impact of the channel through which the signal is being sent.  
+ 
+ 
+ 
+  
+ 
+March 2021 Page | 80  
+
+===== PAGE 81 =====
+ 
+ Cheating   
+You are the most popular person in your class. However, you struggle studying for the next 
+exam. Luckily you are friends with everyone in your class and they are willing to help you 
+out. 
+There are seven people who studied exceptionally well and you know exactly where they 
+will sit. You also know that they will all come up with a solution to a unique problem in a 
+given amount of time from the start of the exam, noted on their tables: . 
+You have a single piece of paper that can be passed between adjacent tables (vertically and 
+horizontally, but not diagonally) at the speed of one table per minute. 
+When the paper arrives at a table where a solution has already been found, the solution will 
+be added onto the paper. The paper can start at any position but must end up at your table 
+marked with “x”:  after 16 minutes, when the exam ends. 
+Question​: 
+Assuming that everyone passes around the paper optimally, how many solutions will you 
+receive by the end of the 16 minutes long exam? 
+A. 4 
+B. 5 
+C. 6 
+D. 7  
+ 
+March 2021 Page | 81  
+
+===== PAGE 82 =====
+ 
+Answer​:  
+The right answer is that you can receive at most 5 solutions. 
+Explanation: 
+Not 7 
+There are 7 solutions in total. But we can see easily that to collect all 7 isn’t possible. 
+Looking at the 2 tables with 12 and 15 (the tables where it takes the longest to produce a 
+solution), if an answer is collected after 12 minutes from the (12) table, it takes 5 more 
+minutes to get to the table with 15 on it. (the solution at the table with 15 cannot be 
+collected any earlier than a minute before the end of the exam.) So this cannot be done in 
+the 16 allowed minutes. 
+Not 6 
+So we know we cannot have both the 12 and the 15. But to have 6 solutions in total, you 
+must include either the 12 or the 15. 
+If we have either the 12 or the 15 we can get the solutions back to the X table in the 16 
+minutes as the 12 table is 4 away and the 15 minutes is 1 away. So now the problem is to 
+prove we can get to the 12 table, collecting all other solutions in exactly 12 minutes (or the 
+15 table in exactly 15 minutes) 
+Lets look at the 12 table. The next highest number of minutes to wait is 8. So if we could 
+collect the 1,2,3 and 6 in exactly 8 minutes, unfortunately it takes another 5 minutes to get 
+to the 12 table. One more than we can allow. 
+So lets look at the 15 table and see if we can collect 1,2,3,6 and 8 in 13 minutes. (Another 2 
+to get to the 15 table from 8 or 3) This is a bit harder to prove by elimination. There are 120 
+permutations and its not possible to explore them all in this explanation.  
+Hopefully it can be seen that waiting near the 1 desk and then collecting that will waste time 
+as the nearby 6 cannot yet be collected and so the paper will need to return to that end of 
+the room at some stage. 
+ Similarly the 3 requires waiting for 3 minutes, then wasting time waiting for the nearby 8, 
+or returning to that part of the room. 
+So we don’t want to have to “return” to the area where the 1 and 6 are or “return” to the 
+area where the 3 and 8 are.   
+ 
+March 2021 Page | 82  
+
+===== PAGE 83 =====
+ 
+So start near the 2 and then collect that after 2 minutes. If we go to the 3/8 area, then the 
+1/6 area then back to the 15 obviously we have traversed the room several times and 
+exceeded the time limit. 
+ So collect the 2 and go to the 1/6 area and then the 3/8 area. This shows the most promise. 
+At the 2 desk, its taken 2 minutes to leave. Its 4 minutes to the 1 desk so 2 + 4 = 6. Another 1 
+to the 6 desk and a minute there => 7 minutes. 5 minutes to either the 3 or 8 desk (12 
+minutes) and then 2 minutes to the one you didn’t visit of the 3 and 8 (14 minutes)  … and 
+now from either the 3 or the 8 desk its 2 minutes to the 15 desk and now the 16 minutes 
+have been used up and it hasn’t been returned to the X desk. 
+But 5 
+From the explanation above we can see that we can get to the 3 table in 14 minutes 
+collecting 2,1,6,8,3 in 14 minutes and its only a further 1 minute to the X desk.  
+For 5 solutions several possibilities exist. This is one of them: 
+ 
+It’s Computational Thinking: 
+This is an optimization problem. In this case the number of tables visited should be 
+maximized. The problem also has some additional constraints: the amount of time it takes 
+before a solution is found. The way that the number of tables is counted is by creating a 
+path through the graph (as shown in the answer explanation). In this case the tables are 
+represented as nodes and the connections between tables as edges. A path is a sequence of 
+edges in the graph. The number of minutes it has taken to go from the first node to the last 
+ 
+March 2021 Page | 83  
+
+===== PAGE 84 =====
+ 
+node is written down for each edge of the path. A path is a valid solution of your problem, if 
+the number of an edge is at least one more than the number of the node it is leading from. 
+From all valid paths the maximum number of numbered tables is searched. 
+This type of problem can be solved by different methods. The answer explanation use 
+contradictions to show that valid paths that visit 6 or 7 numbered tables do not exist. And it 
+gives a single example that proves that a solution for 5 numbered tables exists. This is a 
+formally correct way to show that a solution is correct. 
+When first being confronted with a problem, however, most people take a constructive 
+approach. They try to construct a valid path, maybe run into a problem, move back a few 
+steps, try a different approach, until they have an idea what could be true or not. This 
+method is called branch & bound first conceived by Ailsa Land and Alison Doig in 1960, 
+because one for each step four different next steps are possible and one decides to try one 
+and if it’s not leading to a success, it is no longer considered. This method is commonly used 
+for inherently complex problems in computer science. 
+  
+ 
+March 2021 Page | 84  
+
+===== PAGE 85 =====
+ 
+ Towers of Blocks   
+Ram, the little beaver, is playing with his toy blocks.  Each block is the same height, but 
+different width.  He built nine beautiful towers, each one made with blocks of the same 
+width. 
+ 
+There are two ways to change the height of a tower: adding blocks to the top or removing 
+blocks from the top.  Either way, the energy cost to change the height of a tower is 
+proportional to the width and the number of the blocks.  For example: Removing 2 blocks 
+from a tower with the width of 1 costs 2*1 = 2 units of energy; and adding 4 blocks to a 
+tower with the width of 3 costs 4*3 = 12 units of energy. 
+Ram wants all towers to be the same height, and he wants to spend as little energy in total 
+as possible. 
+Question​: 
+In total, what is the minimum amount of energy that will cost Sam to make all towers the 
+same height? 
+A. 39 
+B. 40 
+C. 46 
+D. 51  
+ 
+  
+ 
+March 2021 Page | 85  
+
+===== PAGE 86 =====
+ 
+Answer​:  
+The correct answer is 39. 
+Explanation: 
+If adding blocks is depicted as and removing as , then the following figure 
+depicts the correct solution, making all the towers 3 blocks tall: 
+ 
+The medium height of the all nine towers is 4 (1 2 2 3 4 4 5 6 7). One might think the median 
+height is the answer, but this is not the case here.  As calculated in the table below, all other 
+possible heights would cost a higher cost: 
+This is due to the fact that the blocks do not have uniform width. However, the function 
+determining the cost is unimodal (has a single minimum), so instead of trying all possible 
+heights, we can use a smarter strategy for finding the minimum such as ternary search.  By 
+applying ternary search, we can eliminate the two highest heights and the two lowest 
+ 
+March 2021 Page | 86  
+ Original 
+height 7 5 3 4 2 4 6 1 2 Total 
+energy 
+cost  Width 1 2 4 2 1 3 4 5 3 
+En
+er
+gy 
+co
+st 
+Height 1 6 8 8 6 1 9 20 0 3 61 
+Height 2 5 6 4 4 0 6 16 5 0 46 
+Height 3 4 4 0 2 1 3 12 10 3 39 
+Height 4 3 2 4 0 2 0 8 15 6 40 
+Height 5 2 0 8 2 3 3 4 20 9 51 
+Height 6 1 2 12 4 4 6 0 25 12 66 
+Height 7 0 4 16 6 5 9 4 30 15 89 
+
+===== PAGE 87 =====
+ 
+heights out of seven heights, leaving height 3, 4, and 5.  Then we only need to calculate the 
+energy cost forming these three heights. 
+It’s Computational Thinking: 
+Each pile of blocks is what we call a stack in Computer Science, with two possible 
+operations: push (putting a new block on the top of the stack) and pop (removing the 
+topmost block). In this problem, we need to take into account the current height and width 
+of each tower already built. Stacks are very useful in many algorithms more complex than 
+basic block building. For example, they can be used to evaluate arithmetic expressions.  
+Searching for the best solution (such as the minimum cost) among all possibilities is a very 
+common thing in Computer Science. This is known as an optimization problem. In this case, 
+because the cost has a unimodal distribution, we could use ternary search, which 
+determines that the minimum or the maximum can be in neither the first third nor the last 
+third of the domain, and then repeats on the remaining two thirds. A ternary search is an 
+example of a divide and conquer algorithm. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+March 2021 Page | 87  
+
+===== PAGE 88 =====
+acm India
+Association for
+Computing Machinery
+Advancing Computing as a Science & Profession
+Association for Computing Machinery (ACM)
+ 
+The ACM (www.acm.org) is the world’s largest not-for-profit scientific and computing 
+society.  ACM brings together computing educators, researchers, and professionals to 
+inspire dialogue, share resources, and address the field's challenges.  ACM has 
+endeavoured to tailor curriculum recommendations for undergraduate and school 
+computing curriculum. ACM India (india.acm.org) Education Council is involved in 
+recommending an undergraduate computer science curriculum, conducting faculty 
+development programs and CSpathshala – an initiative to teach computing in schools.
+Bebras (www.bebras.org) is an international student Computational Thinking Challenge 
+organised in over 60 countries and designed to get students all over the world excited 
+about computing. The challenge is a great way to learn about computational thinking 
+and problem solving skills.
+ Bebras India Challenge (www.bebrasindia.org) is organized by ACM India’s CSpathshala 
+initiative (www.cspathshala.org).
+Bebras India
+Computational Thinking Challenge 2020

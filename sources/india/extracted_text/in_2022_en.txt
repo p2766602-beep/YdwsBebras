@@ -1,0 +1,1277 @@
+
+===== PAGE 1 =====
+Editor - Vipul Shah, Sonia Garcha
+Edition: English
+Bebras India
+Computational Thinking Challenge 2022
+===== PAGE 2 =====
+
+===== PAGE 3 =====
+BebrasIndia
+IntroductionBebras (www.bebras.org) is an internationalstudent ComputationalThinkingChallengeorganisedinover60countriesanddesignedtoget studentsfromallovertheworldexcitedaboutcomputing.Thechallenge isa great way to learnaboutcomputationalthinkingandproblemsolvingskills.
+TheBebraschallengesaremadeofasetofshortproblemscalledBebrastasks.Thetasksarefun,engagingandbasedonproblemsthat ComputerScientists enjoy solving.Thetasksrequire logical thinkingandcan be solved withoutpriorknowledge of computationalthinking. Theaimistosolveasmanyasyoucanintheallottedtime.
+BebrasIndiaChallenge (www.bebras.in) isorganizedby ACMIndia’s CSpathshalainitiative(www.cspathshala.org). ACMIndia/CSpathshala’s goalisto make it possiblesothat everychildinIndialearnsComputerScience.
+The2022BebrasIndiaChallengewasheldfrom14thNovemberto3rdDecember, 2022forage groups 8-18.The2022BebrasIndiaComputationalThinkingChallengewas conductedinEnglish,Marathi,Gujarati,Hindi,Kannada,Odia,TamilandTeluguanditwasconductedfree.The2022BebrasIndiaChallenge saw participationof65,000+students from900+schoolsacross20statesinagegroups8-18.
+ChallengeSite:bebras.cspathshala.org
+Queries?Contact:challenge@bebrasindia.org
+Editors:VipulShahSoniaGarcha
+January2023 Page|1
+
+===== PAGE 4 =====
+BebrasIndia
+WewouldliketothanktheinternationalBebrascommunityforallowingustousethetaskstheyhavedeveloped.Bebrasisacollectiveeffortofmanycountries.
+We wouldalsolike to thankEljakimSchrijvers,EljakimInformationTechnologybv fortheBebraschallengeplatform.
+We wouldlike to thankACMIndia’s CSpathshalainitiative volunteers forlocalizingandreviewingthetasks andreachingoutto schools.Wewouldalsoliketothanktheteacherswhohaveputintheeffortfortheirstudentstoparticipateinthechallenge.
+We wouldlike to acknowledge theauthors andreviewers fortheBebrastasks usedinthechallenge:
+Australia AdamGrodeck,ChristopherMesiku,GraemeBuckie,SusannahQuidillaAustria FlorentinaVoboril,GeraldFutschek,LiamBaumannBelgium KrisCoolsaetBrazil LeoBarichello,LeonardoCavalcanteCanada J.P.Pretti,SarahChan,TroyVasigaCroatia DarijaDasovi ć ,LidijaKralj,Cyprus ThomasIoannouDenmark MichaelWeigendFinland Heidi KaartoFrance MarielleLéonardGermany MichaelWeigend,WolfgangPohlHungary ChristianDatzko,ZsuzsaPluhárIceland LindaBjörkBergsveinsdóttir
+India
+AabhaUtkalika Meher, AnupamaSivakumar, Madhavan Mukund,AditiKarandikar, AnaghaBhat-Behere, Arati Halbe,ArunKadekodi,A, Abhijna,AnandSunil,APAkash,AragulaAmith,B Himakara, B Kavitha,BrahmaNandanandan,Das Daya, DevadossDheepa,Ghatage Ramchandra,GeetanjaliKale,GovindappanavarDattatreya,HIREMATHSANTOSHKUMAR,InfenShirley, J VRekha,JayarajPoornimaB, KDhanya,KMaitri,KonandurBhaskar, Krithika SantoshKumar, KrupaMakwana,NikhilKarkarey, NithinKulkarni,NarayanAnand,MSundarRaj,MGRashmi,N KAVYASHREEG,NarasimhaMurthy Vinay, PasupathiGayathri,Patgar Geeta Ganapayya,Patro Lalatendu,Patro Suraj,R NNithinKarthik,RVarun,Rajanna,AnilH,Rajappa,Chandrakanth (CK), Raju, NandithaKrishna,Ramalingam,Easwaran(GFAO),Ravikumar, Ranjitha,S,Iniyaal,Palani,Balasundaram,S,
+January2023 Page|2
+
+===== PAGE 5 =====
+BebrasIndia
+RajeshKanna,SoniaGarcha,S,Suvarnalakshmi,Shankar, Chaitra,Shenoy,DeepakPundalik,SinnanMuthusamy, Poornachandran,Subramani,LathaT, Subramaniam,Sujitha,TejalPatel,T.S,Arun,UdayOak,ViralShah,VipulShahIndonesia HusnulHakim,IryaWisnubhadra,VaniaNataliIreland TomNaughton,TainaLehtimaki,TroyVasigaItaly AnnaMorpurgoLatvia IlzeNilandere
+Macedonia
+Veronika Stefanovska, Monika Maneva, Veronika Ognjanovska, MileJovanov,EmilStankovMontenegro GoranSukovicNewzealand DavidClark,MargotPhillipps,WillemvanderVegtPakistan Dr.MariosO.Choudary,PhilipDumitruPhilippines AnnaPatriciaMiravite,MarkEdwardM.GonzalesSaudiArabia EsraaAlmajhadSerbia MilanRajkovi ćSlovakia MonikaTomcsányiová,KarolínaMiková
+SouthKorea
+ByeonggyuCho, DongYoonKim, HakinKim,HongjinYeh,SoojinJun,YongJuJeon,UngyeolJung, JihyeKim,JoohyunKim,SeulkiKimSpain XavierMuñozSwitzerland GiovanniSerafini,SusanneDatzkoTaiwan JudithLin,YehYiShanTurkey GulgunAfacan,YaseminGülbaharUK ChrisRoffeyUruguay Víctor Koleszar,MaríaEugeniaCuri,RosarioSchunk,GracielaOyhenardUSA Justina,DauksaiteUzbekistan AlisherIkramov,TimurSitdikov
+Vietnam LeQuangQuan,VuVanLuan
+January2023 Page|3
+
+===== PAGE 6 =====
+BebrasIndia
+Bebraschallengewasconductedinfivegroups:
+Group Ages Standards Tasks
+Aryabhata 8-10years StdIII-IV 15
+Brahmagupta 10-12years StdV-VI 15
+Bhaskara 12-14years StdVII-VIII 15
+Mahavira 14-16years StdIX-X 15
+Ramanujam 16-18years StdXI-XII 15
+Eachtask issortedina categorybasedonthedifficultylevels:A, BorC.Studentsstartedwithsomepointsandcouldgainorlosepointsasfollows:
+Difficulty CorrectAnswer IncorrectAnswer Unanswered
+Acategoryquestions +6points 0points 0points
+Bcategoryquestions +9points -2points 0points
+Ccategoryquestions +12points -4points 0points
+Onthefollowingpagesyouwillfindthe tasks usedin2022BebrasIndiaChallenge.Aftereachquestionthereisananswer, anexplanationofhowtheanswercouldbeobtainedplusasectiononhowthetasksarerelatedtoComputationalThinking.
+Copyright©2022Bebras,BebrasIndia.
+ThisworkislicensedunderaCreativeCommonsAttribution-NonCommercial-ShareAlike4.0InternationalLicense
+January2023 Page|4
+
+===== PAGE 7 =====
+BebrasIndia
+Content
+Coloringpage 7 Colourful tower 47KidsandBooks 9 NutsandBolts 49Makinganecklace 11 Wheat storage 52TortoiseandHare 13 FlowerGame 55Clothes 16 TangledLoop 57Beaver WorldCupBall 19 OhridPearls 59Traditional Art 19 StringFunction 64Burger Recipe 21 Four Tiles 67Trail tograndma 23 Mysteria 72BuildingInstruction 28 FavouriteGem 75Pickupsticks 31 ListenandWalk 78Sticker Collection 33 RugWeaving 81LoopKolam 35 CollectingStones 85Sailor necklace 37 FavoriteMovie 90Dominos 39 SeashellsandPebbles 93Heart Graphics 41 Virus 97AncientRunes 43 Maze 99Pool PartyLockers 45
+January2023 Page|5
+
+===== PAGE 8 =====
+BebrasIndia
+Coloringpage
+Pankajwantstopaintacoloringpage.Hesetsuponerule:Twotouchingareasmustnothavethesamecolor.
+Question:
+Whatistheleastnumberofcolorsheneedstofulfilltherule?
+A) 2
+B) 3
+C) 4
+D) 5
+January2023 Page|6
+
+===== PAGE 9 =====
+BebrasIndia
+Answer:
+Thecorrectansweris3.Apossiblecoloringwith3differentcolorsisshowninthepicture.
+Explanation:
+Itisnotpossibletofulfilltherulewithjust2colors.Thiscaneasilybeseenwhenlookingatjustthreetouchingareas.
+Tofulfilltherule,allthreehavetobecoloredwithadifferentcolor.
+ It’sComputationalThinking:
+ Incomputerscience,problemslikethisareknownasthegraphcoloringproblem.Thisisafamousquestionandhasmanypracticalapplications.Forexample,itcanbeusedinsportstournamentstosplittheparticipantsintogroups.Itcanalsobeusedinschedulingortrafficmanagement.Whenwehaveapicturewithmanyareas,itcangetverycomplextosolvethisquestion.
+January2023 Page|7
+
+===== PAGE 10 =====
+BebrasIndia
+KidsandBooks
+Kidsborrowbooksfromthelibrary.Thelibrarymadeaborrowingtabletofindoutwhichbookwasmostpopular.
+Question:
+Whichbookarethekidsborrowingmostoftenbasedontheborrowingtablebelow?
+January2023 Page|8
+
+===== PAGE 11 =====
+BebrasIndia
+A) B) C) D)
+Answer:
+ThecorrectanswerisB)
+Explanation:
+Twokidsaskforthebookwiththebutterfly.
+Threekidsaskforthebookwiththecaterpillar.
+Onekidasksforthebookwiththeladybug.
+Also,onekidasksforthebookwiththesnail.
+Thatis,thebookwiththecaterpillarisaskedformostoften.
+ It’sComputationalThinking:
+ Goodtoseethat thekids inthis Bebras taskwishtoreadbooks! But dowereallyneedatablewithidentifiers for kids andbooks toshowtheir wishes?Whataboutjustdrawinglines?True,thatwouldbeeasyforpeople-butnotforcomputers.Computersarenotverygoodindetectinglines,butmuchbetter in working with tables. If we want to have computers process data like which kid asks forwhich books, or which person owns which bank accounts, etc., then it usually is a good idea toorganizesuchdataintotables.
+ Tables show how things (or kids) are related to other things. How to organize data into tablesdepends onwhat theserelations looklike. For instance, iftherewasarulethateverykidcanaskforonebookonly, always andforever, thenwecouldhaveaddedthiswishtoakidstable,withonerowper kid. In such a table, we could storetheoneandonlybookrequest together withall theotherthingsofwhichakidcanhaveonlyone,likename,eyecolor,haircolor,…Butfortunately,itisOKforkids to ask for many books, and to ask for the same books as other kids. Then, an extra table isneededthatlinkskidstobooks–andmayhavemanytableentriesforeachkidandforeachbook.
+January2023 Page|9
+
+===== PAGE 12 =====
+BebrasIndia
+Makinganecklace
+BeaverLeelalikestomakenecklaceswithbeads.Necklaceiscreatedbyaddingorremovingbeadsfromtheleftortherightside.
+Question:
+Leelawantstoinsertastarbeadwherethearrowpoints.Shewantstoremovethefewestnumberofbeads.HowmanybeadsshouldLeelaremove?
+A)3beads
+B)4beads
+C)5beads
+D)6beads
+January2023 Page|10
+
+===== PAGE 13 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisB)
+Explanation:
+Thisnecklacehasnoknots,soLalacanremoveorinsertbeadsfromeitherside.IfLalaremovesthebeadsfromtheleft,Lalahastotakeout4beadstoputastar-shapedbeadwhereshewants.IfLalaremovesthebeadsfromtheright,6beadsmustbetakenout.
+ It’sComputationalThinking:
+ Anuntiednecklacestringallowsthebeadstoberemovedoraddedoneitherside.Andfromeitherendofthenecklacestring,thelastbeadhastoberemovedfirst.Ininformatics,thisstructureiscalledadoubleendedqueue,astheelementscanberemovedoraddedfrombothsides.
+ Ifoneendistied,thebeadscanonlyberemovedoraddedfromtheotherside.Ininformatics,thisstructureiscalledastack.Structuressuchasdoubleendedqueuesandstacksareusedininformaticstosequentiallyinput,storeandremovedata.
+January2023 Page|11
+
+===== PAGE 14 =====
+BebrasIndia
+TortoiseandHare
+Atortoiseandaharearetryingtoraceagainsteachotherinthetrackshownbelow:
+Theybothstartatthesametimeinthefieldwithaheartinitandtheyfollowthedirectionofthearrowsonthetrack.Thetortoisemovesonefieldeveryminute.Theharemovestwofieldseveryminute.
+Question:
+Whatisinthefieldwherethetortoiseandtheharemeetforthefirsttimeafterthestart?
+A. B. C. D. E.
+January2023 Page|12
+
+===== PAGE 15 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisC.
+Explanation:
+Thefiguresbelowshowthelocationsofthetortoiseandthehareaftereveryminute.
+After 1minute:
+After2minutes:
+After3minutes:
+After4minutes:
+January2023 Page|13
+
+===== PAGE 16 =====
+BebrasIndia
+After5minutes:
+After6minutes
+ It’sComputationalThinking:
+ The task is about traversing a specific data structure with one-way traffic, adirectedgraphwithalooporacycle.
+ A linked list is a data structure used to store items that havetobeconnectedinsequence. Theseitemsarealsocalledelementsornodes;examplesincludethestepsinarecipe,thelandmarksontheway from one location to another, or even the operations in an algorithm. To maintain theirconnection, eachitemknows the"address" of thenext item. Moreformally, eachnodemaintainsapointer tothenext node. Usually, alinkedlist is linear —ifwebeginatthefirstnodeandfollowthepointers,wewillreachtheendwithoutvisitinganynodetwice.
+ If it sohappens that wevisit anodetwice, thenwearecaught inacycle.Howdocomputersdetectthe existence of cycles? One ingenious approach, attributed to the American computer scientistRobert W Floyd, is the tortoise-and-hare algorithm (in reference to the Aesop fable). As
+January2023 Page|14
+
+===== PAGE 17 =====
+BebrasIndia
+demonstrated in this challenge, it features two "pointers" that move through the linked list atdifferent speeds: onemovestwiceasfastastheother.Iftheymeet,thenwecanconcludethatthereisacycle.Otherwise,thelinkedlistislinear.
+ Cycledetectionis animportanttaskininformatics.Forinstance,itcanbeusedtocheckifourcodeisrepeatingasequenceof tasks endlessly(infiniteloop),whichpreventsourprogramfromstopping.Amore advanced application is related to the analysis of the qualityof randomnumber generators,especiallythosethat areutilizedintheencryptionor protectionofsensitivedata.Theyusuallyhavepre-cycle that does not repeat and then cycle. The part of the path presented as straight linecorresponds tothepre-cycle, theroundpart corresponds tothecycle.Havinglongercyclelengthsisakeycharacteristicthatmakessecurealgorithmsstrongerandmoredifficulttocrack.
+ 
+January2023 Page|15
+
+===== PAGE 18 =====
+BebrasIndia
+Putyourshirtsaway!
+Preeti has apileof sixcleanshirts onher bed. Shehas toput themintoherfourdrawers.Shetakesoneshirt at atimefromthetopof thepile,andputsitintoadrawer.Shestartswiththetopdrawer,thenuses thesecondfromthetop, andsoon.Whenshehasputashirtintothebottomdrawer,shestartsagainfromthetop.
+Question:
+Intowhichdrawerwillsheputthelastshirt?
+A)
+B)
+C)
+D)
+January2023 Page|16
+
+===== PAGE 19 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisB
+Explanation:
+ 
+ Preeti puts thefirst shirt inthe drawer. Thesecondshirt gets put intothe drawer.Thenthe
+third and fourth shirts get put into the and drawers. Since the drawer is the bottom
+drawer, thefifthshirt gets put intothe drawer again. Finallythesixthshirtgetsputintothedrawer.
+ It’sComputationalThinking:
+ The task is about traversing a specific data structure with one-way traffic, adirectedgraphwithaloop or a cycle. A linked list is a data structure used to store items that have to be connected insequence. Theseitems arealsocalledelementsornodes;examplesincludethestepsinarecipe,thelandmarks on the way from one location to another, or even the operations in an algorithm. Tomaintain their connection, each itemknows the "address" of the next item. More formally, eachnode maintains a pointer to the next node. Usually, alinkedlist is linear —if webeginat thefirstnodeandfollowthepointers,wewillreachtheendwithoutvisitinganynodetwice.
+ If it sohappens that wevisit anodetwice, thenwearecaught inacycle.Howdocomputersdetectthe existence of cycles? One ingenious approach, attributed to the American computer scientistRobert W Floyd, is the tortoise-and-hare algorithm (in reference to the Aesop fable). Asdemonstrated in this challenge, it features two "pointers" that move through the linked list atdifferent speeds: onemovestwiceasfastastheother.Iftheymeet,thenwecanconcludethatthereisacycle.Otherwise,thelinkedlistislinear.
+ Cycledetectionis animportanttaskininformatics.Forinstance,itcanbeusedtocheckifourcodeisrepeatingasequenceof tasks endlessly(infiniteloop),whichpreventsourprogramfromstopping.Amore advanced application is related to the analysis of the qualityof randomnumber generators,especiallythosethat areutilizedintheencryptionor protectionofsensitivedata.Theyusuallyhavepre-cycle that does not repeat and then cycle. The part of the path presented as straight linecorresponds tothepre-cycle, theroundpart corresponds tothecycle.Havinglongercyclelengthsisakeycharacteristicthatmakessecurealgorithmsstrongerandmoredifficulttocrack.
+January2023 Page|17
+
+===== PAGE 20 =====
+BebrasIndia
+BeaverWorldCupBall
+Beaverswanttomakeafootballthatlooksliketheoneinthepicture.
+Theyhavefourdifferentoptionsofmaterial,whichcanbeused.
+Question:
+Whichmaterialcantheyusetomakethefootball?
+(A) (B)
+(C) (D)
+January2023 Page|18
+
+===== PAGE 21 =====
+BebrasIndia
+Answer:
+Theanswerisoption(A)
+Explanation:
+Lookingattheimageoftheball,itcanimmediatelybeseenthatallthewhiteshapesare6-sidedhexagons,andalltheblackshapesare5-sidedpentagons.Therefore,allothershapescanimmediatelybeeliminated:
+(B)iswrongasitusesblackhexagonsinsteadofpentagons.
+(C)iswrongasituseswhitetrianglesinsteadofhexagons.
+Wecanalsoseethatthereisonlyonehexagonedgebetweenanytwoblackpentagonsontheball.Thiseliminatesoption(D),astheblackpentagonsareseparatedbyatleasttwoedgesofahexagon.
+Option(A)istheonlyremainingoption.Afterverifyingthatitindeeddoesfollowthetworulesabove,wecanconfirmthatthisisthecorrectanswer.
+Notethatthepatternson(A)and(D)donotfitperfectlytogether,astheyareadesignfora3Dsurfacetranscribedontoaflat2Dsheet.Thisiswhyitmightlooklikethereare2hexagonsbetweenpentagonsfor(A),whenthisisnotthecaseafterfoldingintoaballshape.
+ It’sComputationalThinking:
+ Pattern recognition is one of thecornerstones incomputational thinking. Recognizingpatterns inaproblemorbetweenproblemscanhelpussolveaproblemmoreeasily.
+ Apart frombeingacornerstoneof computational thinking, patternrecognitionisalsoanareainthefield of informatics. Withpatternrecognition, computers canrecognizeor distinguishbetweenoneobject and another. In principle, the way computers recognize an object is the same as the wayhumans recognize an object. For example, humans can recognize cats by the characteristics theyhave. Computers canalsodeterminewhether animageisanimageofacatbyextractingfeaturesorcharacteristicsfromtheimageofacat.
+ Pattern recognition has helped humans in many fields. In the healthcare, for example, patternrecognition can be applied to diagnose disease, predict disease risk, and others. In agriculture,patternrecognitioncanbeusedtodetectplantdiseasesfromleafimageandweeddetection.
+January2023 Page|19
+
+===== PAGE 22 =====
+BebrasIndia
+TraditionalArt
+DeepaislearningWarlipainting.Withthehelpofsomecards,shewantstocreatethefollowingpicture:
+Shehastofollowthestep-by-stepinstructionsshownonthecards,butshedroppedthemandnowtheyareallmixedup!Putthesecardsbackintheproperorder.
+A B C
+D E F
+Question:
+Selectthecorrectorder
+1. D-F-B-A-E-C2. C-E-B-A-F-D3. C-E-A-B-D-F4. E-C-B-A-D-F
+January2023 Page|20
+
+===== PAGE 23 =====
+BebrasIndia
+Answer:
+C-E-B-A-F-D
+Explanation:
+Thecorrectorderofthecardsis:
+Eachcardaddsonemorefeatureofthefinalpicture.
+ It’sComputationalThinking:
+ This task is a good illustration of the computational thinking skill pattern recognition, specificallyfindingsimilar or commonelements. Toput thecardsinorderyouhavetocomparepairsofcardstofindtheonesthatareclosesttogetherintermsofpatternsimilarity.Then,understandingtheruleforhowoneimageis transformedintoanother (i.e. addingnewwhitegeometricshapes)youcanordereachpair.
+January2023 Page|21
+
+===== PAGE 24 =====
+BebrasIndia
+BurgerRecipe
+BeaverJanhaviismakingBurgersaccordingtotherulesbelow.
+Hamburgeringredients:
+Buns Patty Sauce Pickles Lettuce Onions Cheese
+1.Thesauceshouldberightabovethepatty.
+2.Pattyandcheeseshouldbebelowthepickles,lettuceandonions.
+3.Onionsshouldnotbeincontactwiththebuns.
+4.Allingredientsmustbebetweenthebuns.
+Question:
+WhichBurgeriscorrectlymadeaccordingtotherules?
+(A) (B) (C) (D)
+January2023 Page|22
+
+===== PAGE 25 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisD.
+Explanation:
+ (A) This hamburger followsrules1and2.Buttheoniontouchesthetopbun,soitdoesn’tfollowrule3.
+(B)Thishamburgerfollowsrule1,butthelettuceisbelowthemeatandthecheese,sorule2wasnotfollowed.
+(C)Thecheeseisbetweenthemeatandthesauce,soitdoesn’tfollowrule1.
+(D)Satisfiesalltherules,sothisisthecorrectanswer!
+(Bytheway,everyanswerfollowsrule4.)
+ It’sComputationalThinking:
+Incomputersciencefindingoutwhetherasolutionobeysallthegivenrulesiscalledconstraintschecking.Inthefigurebelowaself-drivingcarhastodecidewhetheritcanturnright.Itusestworules:
+ Thelightmustbegreen.
+ Thereshouldbenopedestrianscrossing.
+Checkingwhetheragivensolutionsatisfiestheconstraintsisonething,findingsuchasolutionisanother.(Thisiscalledtheconstraintsatisfactionproblem.)Mostofthetime,findingasolutionismuchmuchharderthancheckingconstraints,evenforacomputer.
+January2023 Page|23
+
+===== PAGE 26 =====
+BebrasIndia
+ 
+TrailtoGrandma
+Asshown,abeaverisgoingtovisithergrandma.Thereareseveraldifferenttrailstograndma’shouse.
+Question:
+Whichoneofthetrailsbelowcanleadthebeavertograndma'shouse?
+A
+B
+C
+D
+January2023 Page|24
+
+===== PAGE 27 =====
+BebrasIndia
+Answer:
+Thecorrectansweris:A
+Explanation:
+Thereareseveraltrailsthatleadtograndma'shouse.Ofthepresentedoptions,thereisonlyonecorrectanswerA.
+A Correctanswer.Thetrailismarkedbyred.
+B Thistreecannotbethefirsttreepassedbythebeaver.
+C
+Thistreecanbethefirsttreeonatriptograndma'shouse,butthenitisnotpossibleforbeavertopassthefollowing
+tree.
+January2023 Page|25
+
+===== PAGE 28 =====
+BebrasIndia
+Thistrailleadstoalake,nottograndma'shouse.
+ It’sComputationalThinking:
+Motionplanning,alsopathplanning(alsoknownasthenavigationproblem)isacomputationalproblemtofindasequenceofvalidconfigurationsthatmovestheobjectfromthesourcetodestination.Thetermisusedincomputationalgeometry,computeranimation,roboticsandcomputergames.
+January2023 Page|26
+
+===== PAGE 29 =====
+BebrasIndia
+BuildingInstruction
+InBeaverland,blockhousesarebuiltoutofdifferentblocks.Acranetakesblocksonebyoneinagivenorder.Itputseachblockanywhereonthebaseorontopofanotherblock.
+Thehouseshownbelowisbuiltusingthissequenceofblocks:
+Question:
+Whichhousecannotbebuiltoutofthisblocksequence?
+January2023 Page|27
+
+===== PAGE 30 =====
+BebrasIndia
+(A) (B)
+(C) (D)
+January2023 Page|28
+
+===== PAGE 31 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisC.
+Explanation:
+Inthe“Chouse” isplacedon ,whichispossibleonlyif follows inthesequence.
+ It’sComputationalThinking:
+Thistaskdealswithalistofobjects(blocksinourcase)andasetofpossibleactionsonthem.Thecraneoperatorcanchoosewhatactiontoperform(i.e.wheretoputtheblock).Inordertoprogramacranetoconstructahousewewouldneedtospecifyforeachblockwhichactiontotake(eitherdeterministicallyorrandomly).
+Thistaskemphasizestheconceptoftracingaprogram,andinthiscase,tracingallpossiblepathsofdecisionsdependingonwhereaparticularblockisplaced. Thatis,aftereachplacementofablock,therearemanypossiblestatesthatcanresult. Eachofthesestatesmustbekepttrackofinordertofigureoutallofthepossiblenextstates. Thisisaprocesssimilartohowprogramsaredebuggedandverified.
+January2023 Page|29
+
+===== PAGE 32 =====
+BebrasIndia
+Pickupsticks
+Anuisplayingthepick-upsticksgame.Shedropssomesticksonatable,andthenpicksthemallupaccordingtothefollowingrules:
+-pickuponestickatatime
+-onlypickupastickifnootherstickiscoveringit
+Forexample,ifshedrops3stickslikethis: Shehastopickthemupinthisorder:
+Question:
+Anudropped6stickslikethis:
+Inwhichordershouldshepickthemup?
+(A) (B)
+(C) (D)
+January2023 Page|30
+
+===== PAGE 33 =====
+BebrasIndia
+Answer:
+Theanswerisoption(C).
+Explanation:
+SinceAnaneedstopickuponestickatatimeandwithoutmovingtheothers,shemustpickupthestickabovetheotherseachtime.
+Firstly,thestickabovetheothersisthedottedgrayone.Oncethedottedgraystickhasbeenpickedup,thestickabovetheothersisthewhiteone.Oncethewhitestickhasbeenpickedup,thestickabovetheothersisthedottedblackone.ThewholesequenceofstickspickedupbyAnaisdottedgray–white-dottedblack-dottedwhite–black-gray.
+Theoption(A)iswrong,becauseAnapicksuptheblackstickafterthewhite,dottedblack,anddottedwhitesticks.
+Theoption(B)iswrong,becauseAnapicksupthedottedwhitestickbeforetheblackstick,andthegraystickafterthedottedwhiteandblacksticks.
+Theoption(D)iswrong,becauseAnapicksupthewhitestickbeforethedottedblackstick,andthedottedwhitestickbeforetheblackstick.
+It’sComputationalThinking:
+Thestudentshavetothinkstepwiseinwhichsticksarealreadytakenandwhichoneisontop.Ithappensbecausetheyhavetofollowsomerules:“theyhavetopickuponestickatatime”,and“theyhavetopickuponestickwithoutmovingtheothers”(thatis,algorithmicthinking).Inaddition,theyhavetoassociatetheorderinwhichthesticksaretakenwiththecolorsequenceinthediagram(datastructuresandrepresentations).Furthermore,theactofremovingastickcanbeseenasanoperationinanabstractstructure,suchasagraph,thatcanbedoneonlyifcertainrequirementsaremet.Afterasequenceofvalidtransformations(theactofremovingsticksfromthestack),theresultcanbeseenasasimplifiedorreducedversionoftheoriginalstructure(stacksofsticksgettingsmallerandsmaller).
+January2023 Page|31
+
+===== PAGE 34 =====
+BebrasIndia
+StickerCollection
+Ajay,Divya,RamandSeemacollectstickersofthingstheylike.Eachonehoweverlikesonlyonething.Theywanttosharefournewstickerssothateachoneofthemgetsastickerthatfitstheircollection.
+Ajaydoesnotlikecarsbutlovessnacks.
+Divyadoesnotlikeflowers.
+RamexchangedhiscarstickerwithDivya.
+Seemaisananimallover.
+Question:
+WhichstickerswillAjay,Divya,RamandSeemafinallyget?
+A B C D
+Ajay-Car
+Divya-Flower
+Ram-Burger
+Seema-Dog
+Ajay-Burger
+Divya-Car
+Ram-Flower
+Seema-Dog
+Ajay-Burger
+Divya-Flower
+Ram-Car
+Seema-Dog
+Ajay–Burger
+Divya-Car
+Ram-Dog
+Seema-Flower
+January2023 Page|32
+
+===== PAGE 35 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisoptionB.
+Explanation:
+Wecanobtainthisanswerbyrecallingtheconditionsmentionedinthetask.
+OptionA:inthetaskitisclearlymentionedthatAjaydoesnotlikecars.SooptionAwillnotbethecorrectsolution.
+OptionCisnotthecorrectanswerbecausetheconditionstatesthatRamhasexchangedhisCarStickerwithDivya,soRamcannothaveCarstickerwithhim.
+InoptionD,Seemahasflowerstickerbuttheconditionstatesshelovesanimals.
+OptionBhasalltheconditionssatisfied.
+It’sComputationalThinking:
+InthistaskwehadtomakeuseoflogicalthinkingtosatisfytheinterestsofAjay,Divya,RamandSeema.Eachhaveaparticularinterestandtherewasonlyonewaytodistributethefourstickersinordertohaveeverybodysatisfied.
+Logicalthinkingisveryimportantwhenitcomestoprogramming.Acomputerprogrammermustmakeuseoflogicaloperators(suchas“and”,“or”,and“not”)inordertowriteaprogramwhichisabletosatisfycertainconditions.
+Inthisquestion,asacomputerprogrammeryoumustcarefully:
+● Identifytheresultthatyouwanttoachieve;
+● Whatfactsareavailabletoyou;
+● Breaktheproblemstatementintosmallerpartsandfilteroutirrelevantdata;
+● Alwayskeepinmindtherulesorconditionsmentionedinthetask;
+● Keeptrackoftheactionsexecution(i.e.,DivyaandRamexchangingstickers);
+● Testtheeffectivenessoftheresultbyworkingbackwardsandbeopentomakingrevisions.
+January2023 Page|33
+
+===== PAGE 36 =====
+BebrasIndia
+LoopKolam
+Kolamsaredecorativepatterns.YoucandrawKolamonthefloorwithchalk.
+Firstyouplacedotsandthenyoudrawlinesaroundthem.
+Youstartandendatthesamepointbyformingacontinuouspattern,withoutliftingthechalk.
+Linesmaycrosseachother,butyoucannotdrawsharpturns.
+Theturnofthislineisallowed.
+Thisturnwouldbeasharpturn,whichisforbidden.
+Step1 Step2 Step3 Step4 Step5
+Question:
+WhichKolamcanyouNOTdrawthisway?
+A B C D
+January2023 Page|34
+
+===== PAGE 37 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisoptionC.
+Explanation:
+ThedesignofOptionA,BandDiscontinuous.Startfromanypointonthedesignandfollowthroughthecurves,youwillreachbackatstartingpointwithoutliftingthechalk.
+ButinoptionCyouwillnoticethatyouhaveliftedyourhandaftercompletingthefirstpattern.
+Observethestepsasshownintheimages:
+ It’sComputationalThinking:
+CS:Decomposition,Abstraction,Datainterpretation.
+KolamsareintricatepatternsfoundintownsandvillagesacrossIndia.Howarethesepatternsrememberedandreproduced? Onetheoryisthattheyaregeneratedbysimpleruleswhicharepasseddownfromonegenerationtothenext.
+Incomputerscience,onecanwritemorecomplicatedtwo-dimensionalarraygrammarsthatgeneratepictureslikekolams.KolamcanbecalledanEuleriangraphnamedafterLeonhardEuler.LeonhardEuler,thegeniusSwissMathematicianwasaprolificcontributortoseveralareasofMathematicsisconsideredastheinventoroftheconceptofagraph.
+January2023 Page|35
+
+===== PAGE 38 =====
+BebrasIndia
+SailorNecklace
+Hereareinstructionsformakingasailornecklaceusingwavywhitebeadsandsolidbluebeads.
+Everysailornecklacestartsbyplacingonewavybeadandonebluebeadonastringintheordershown:
+Thesailornecklacecanthenbemadelongerbyeither:
+• addingabluebeadtobothendsofthestring(actionB)
+• oraddingtwowavybeadstotherightmostendofthestring(actionW)
+Theseactionscanbedonemultipletimesinordertobuildlongerandlongernecklaces.
+Question:
+Whichnecklacebelowisnotasailornecklace?
+A)
+B)
+C)
+D)
+January2023 Page|36
+
+===== PAGE 39 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisoptionD.
+Explanation:
+Therearemanywaysyoucouldhavesolvedthistask.Herearethreepossibilities:
+Youcouldhaveconstructedeachnecklacebyfirstlocatingthetwostartingbeadsandthenperformaseries of B and Wactions. Necklace A can bemadestartingwiththesecondandthirdbeads, andthen performing actions B-W-W. Necklace Bcanbemadestartingwiththethirdandfourthbeads,andthenperformingtheactions B-B-W. NecklaceCcanbemadestartingwiththesecondandthirdbeads, and then performing the actions W-B-W. However, if you look at necklace D, the startingbeads must be the second and third beads. YoucanperformactionBonce, but thentherearenoactionsthatwillconstructtherestofthenecklace.
+Thisapproachwouldnotworkwellifthenecklacewasverylongandhadmanypossiblestartingbeads.Inthiscase,youcouldinsteadtryadeconstructiveapproachwhereyourepeatedlyremovebeadsbyreversingtheBandWactionsuntilyouonlyhavetwostartingbeadsleft.
+Athirdstrategyistonoticesomethingabouttheparityofthebeads.Accordingtothesailornecklaceinstructions,therewillalwaysbeanoddnumberofsolidbluebeadsandanoddnumberofwavywhitebeads.Canyouseewhy?NecklaceDhasanevennumberofbothtypesofbeadsandthereforecannotbeasailornecklace.
+ It’sComputationalThinking:
+Inthistaskyoucouldonlyaddbeadstotheendsofthenecklacestring.Youcouldnotinsertabeadintothemiddle.
+Similarly,ifyouwantedtotakethenecklaceapart,youwouldhavetoremovebeadsfromtheendsofthenecklacestring.Youcouldnoteasilyremoveabeadfromthemiddle.
+Thistypeofstructure,whereyoucaneasilyaddandremovefromtheendsbutnotfromthemiddle,isusedincomputerscienceandithasaname–adouble-endedqueueordeque.
+Dequescanbeusedtostoreabrowser’shistory,toscheduleprintjobs,andalsotoverifythevalidityofmathexpressions.Checkingformatchingparenthesescanbedoneinawaythatisquitesimilartohowyouverifiedthevalidityofthesailornecklaces.
+January2023 Page|37
+
+===== PAGE 40 =====
+BebrasIndia
+Dominos
+Dominotilesconsistoftwosideswith0to6dotsoneachside.
+Inagameofdominositispossibletomakearowoftilesbyplacingthemend-to-end,solongasthetouchingendshavethesamenumberofdots.Aplayerisallowedtoflipthedominotilesaroundtoachievethis.
+Example:
+Therowabovecouldbeincreasedto3dominosby:
+• addinganotherdominowithsixdotsononesidetotheleft.
+• addinganotherdominototherightthathasonesidewithnodots.
+Question:
+Giventhesevendominotilesbelow,whatisthelongestrowoftilesachievable?
+A. 2B. 3C. 4D. 5E. 6
+January2023 Page|38
+
+===== PAGE 41 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisD.Thelongestrowofdominotilesachievableis5.
+Explanation:
+Therearemultiplewaystoachievearowof5.Onewayofdoingthisisshownbelow:
+Weknowthatthiscannotbeextendedfurtherasthetworemainingdominotileswith3dotsonthemcanbeattachedtoeachother,buttherearenootherdominotileswith3or1dotremainingtojointhemto.Usingthesetileswouldgiveamaximumrowlengthof2.
+Thismeansthatthemaximumrowlengththatwecanachieveis5dominos.Aswecanfindananswerthatcontains5dominos,thismustbethelongestpossibleanswer.
+ It’sComputationalThinking:
+Eachdominoisanobjectthathascarefullydefinedproperties.Objectswithcarefullyassignedpropertiescanberepresentedwellincomputerprograms.Therearealsorulesforhowthedominoscanbealignednexttoeachother.Thatis,theobject’sbehavioursarecarefullydefinedtoo.Thisissimilartomanysituationsincomputerscience.Infactthereisawholeprogrammingparadigmthatmakesprogramminginthiswaymucheasier:Object-OrientedprogramingorOOP.
+Thisproblemissimilartoacommonsituationcomputershavetodealwith:Sorting.Thefactthatdominoscanbeflippedaddsaninterestingcomplication.
+January2023 Page|39
+
+===== PAGE 42 =====
+BebrasIndia
+HeartGraphics
+Tinastartedwithonecircleandonesquare:
+Thenshecreatedthisheart:
+Tinaonlyusedthesekindsofoperationsonshapes:
+Rotate: Rotatetheshapebyanyamountineitherdirection
+Move: Movetheshapeanywhere
+Duplicate: Createacopyoftheshapeatthesamelocation
+Question:
+WhichofthefollowingsequenceofoperationscouldTinahaveused?
+A:Duplicatecircle.Rotatesquare.Movecircle.Movecircle.
+B:Duplicatesquare.Rotatesquare.Movesquare.Movecircle.
+C:Duplicatecircle.Rotatecircle.Movecircle.Movesquare.
+D:Movecircle.Movecircle.Duplicatecircle.Movesquare.
+January2023 Page|40
+
+===== PAGE 43 =====
+BebrasIndia
+Answer:
+AnswerAiscorrect.
+Explanation:
+Thesquareneedstoberotatedsothatonecornerisfacingdown.ThisonlyhappensinsequencesAandB.Hence,thecorrectsolutioniseitherAorB.Next,youcanseethatyouneedtwocirclestocreateaheart.SequenceBcannotbecorrectbecauseitdoesnotcreateasecondcircle.ThisleavesAastheonlycorrectsequence.
+TheimagesbelowshowtheshapesaftereachofthefirstthreeoperationsofsequenceA.Afterthefinalfourthoperation,theheartiscreated.ThisverifiesthatTinacouldhaveusedsequenceA.
+ It’sComputationalThinking:
+Whenyouconstructimageswithagraphicseditoryoucanperformdifferentoperations.Fortheheartimageofthistask,youduplicateacircle,rotateasquareandmovethecircles.Ifyouwantacomputertodothejob,youwouldhavetoaddsomeinformation.Youwouldhavetoindicatewheretomoveeachcircleandhowmuchtorotatethesquareby.
+Theoperationsequencesintheansweroptionsareincompletedescriptionsofwhattodo.Computerscientistssaytheyareabstractionsofcommands.Theygiveanideaofwhattodobuttheydonotexplainitinenoughdetailforacomputertoexecute.Thisishelpfulbecauseignoringthedetailsletsusfocusonwhatisimportant.
+Whencomputerscientistsdevelopacomputerprogram,theyoftenstartwithabstractionstogetanideaofhowtheprogramwillwork,andaddinthemissingdetailslater.
+January2023 Page|41
+
+===== PAGE 44 =====
+BebrasIndia
+AncientRunes
+TheancientruneswerepartiallydecodedbyProfessorChallengerbeforehismysteriousdisappearance.Youhavefoundthepagebelowfromhisnotebook.
+Question:
+Whichofthefollowingcanbedecodedas“BAT”?
+A B C
+D E
+January2023 Page|42
+
+===== PAGE 45 =====
+BebrasIndia
+Answer:
+AnswerDiscorrect.
+Explanation:
+Thenumberofspinesontheleftrepresentstherownumberandthenumberofspinesontherightrepresentthecolumnnumber.Thedecodedletterliesintheintersectionoftherowandcolumn(“I”has2ontheleftand4ontheright,“V”has5ontheleftand2ontheright).
+ChoiceDspells“BAT”.
+ChoiceAspellsDOG,ChoiceBspellsHOG,ChoiceCspellsCAT,ChoiceEspellsRAT
+ It’sComputationalThinking:
+Theproblemisanexampleofacoded(singleworded)message.Crackingcodeswasarguablythebirthofmoderncomputing,asfeaturedinmoviesaboutAlanTuring. HewasattheforefrontofcrackingtheEnigmacodeusedbyGermanyinWorldWar2.
+Thiscodeissimplebutreliesonyoubeinggiven2clues(“I”and“V”)toworkoutthecode.
+Thealphabetisgiventoyouinwhat,inComputingterms,iscalledatwodimensional(“2D”)array.Accessingitemsina2Darrayisdoneinaprogrambyusing“indexes”whichcantakeondifferentvaluesfortherowindexandthecolumnindex.
+January2023 Page|43
+
+===== PAGE 46 =====
+BebrasIndia
+PoolPartyLockers
+TheBeaversaregoingtoapoolparty!AtthepoolpartythebeavershandedoverthelockerkeysalongwiththelockernumbertotheOldBeaverforsafekeeping.
+OldBeaverhasdevisedasystemasshowninthepicturetokeeptrackofthelockernumberforeachkey. Forexample,forthelockernumber243theOldBeaverdrawsthedigits2,4,and3onebyoneonpaperandthenconnectsthedigitstothepurplekey(seeatthebottomofthepicture).
+Laterintheevening,thebeaversfoundoutthatwaterhadgottenonthesheetofpaperandsmudgedsomeofthewrittendigits.
+Question:
+Knowingthatthekeysforlockernumbers73X,24XX,7X1Xarearrangedinorder,whichoneofthefollowingsetsofkeysisthecorrectsetfortheselockers?
+A)
+B)
+C)
+D)
+January2023 Page|44
+
+===== PAGE 47 =====
+BebrasIndia
+Answer:
+AnswerDiscorrect.
+Explanation:
+ThecorrectanswerisA.Thethirdlockernumberhas4digitsandstartswith7.Therefore,itcanonlybethe key.Similarly,thesecondkeyneedstobe, asitstartswith2andhas4digits.Thefirstkeycanbeeither (733)or (732)asbothstartwith73.ThereforethecorrectanswerisA: .Analternatecorrectanswercouldhavebeen,butthischoiceisnotavailable.
+AnswerBiswrongsince correspondstoa3digitnumber.AnswerCiswrongbecausethenumberof startswithdigit2insteadof7.AnswerDiswrongbecausethenumberofhastheseconddigit9insteadof3.
+ It’sComputationalThinking:
+ThegraphdrawnbytheOldBeaverrepresentssocalledTrie(comesfromReTrieval),atreedatastructureusedtostorekey-valuepairs,similartoahashtable.TheTrieisconstructedasdirectedtreegraph,whereeachedgeislabeledwithaletter.Avalueisobtainedbyfollowingthegraphletterbyletter,justasinthepresentedexample.
+Theadvantageoverhashtables,whereavaluecanbeobtainedonlywiththeexactmatchofthekey,isthatTrieallowssearchingusingaprefix,andfindingallthepossiblematches.Thisisveryusefulinauto-completiontasks.Thestructurecanalsobeextendedtosuffixsearchinadditiontoprefixes.
+Trieisusedforstoringdictionaries,especiallyduetothecommonrootwordsandtheirderivation.Thisisappliedtoindexingtaskinsidesearchengines.Itcanalsobeusedforsorting,asitsinternalrepresentationissimilartoRadixSort.Otherusagesincludepatternrecognitiontasks,drawingclosetoautomatatheory.
+January2023 Page|45
+
+===== PAGE 48 =====
+BebrasIndia
+ColourfulTower
+Sameer hashexagonpuzzlepiecesinthreecolors.Whenheplacesthreepiecesasshown,thethreepiecesmustallbethesamecolororalldifferentcolors.
+Question:
+Sameerplacespiecesinatowershapeasshownbelow.Whatmustthetoppiecebe?
+A. B. C. D.
+thereismorethanonepossibility
+January2023 Page|46
+
+===== PAGE 49 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisA.
+Explanation:
+Whenweknowthecolorsoftwopiecesbesideeachother,weknowwhatthecolorofthepieceabovethemmustbe.Forexample,considerthebottomleftunknownpiece.Sincethetwopiecesbelowitaregreen,itmustalsobegreen.Ontheotherhand,thepiecetoitsrightmustbebluebecausethetwopiecesbelowitaregreenandyellow.
+Wecanusethisideatoworkfromthebottomtothetopofthetower.Theresultmustbethis:
+Notethatwecanworkinanyorderoneachrowofthetower.
+ It’sComputationalThinking:
+Wefounditimportanttoidentifywhichoftwocasesapply(i.e.twopiecesarethesamecolororadifferentcolor).Thenwerepeatthisuntilallthecolorsofthetowerareknown.Thissequenceofstepsformsanalgorithmthatcanbeusedtosolvetheproblem.Ifwewroteacomputerprogramtoimplementthealgorithm,identifyingthecasesandtakingtherightactionineachcasemightcorrespondtoaconditionalstatement.Therepetitionofthismightcorrespondtoaloop.
+Designingandimplementingalgorithmsisoneofthemostcentralandimportanttasksperformedbycomputerscientists.Forbothoftheseactivities,criticalskillsincludeidentifyingpatterns(e.g.arrangementsofthreepiecesandcolors)andmakingcarefuluseoflogic(e.g.breakingintocases).
+January2023 Page|47
+
+===== PAGE 50 =====
+BebrasIndia
+NutsandBolts
+AttheBeaverConstructionfactory,Benoitworksatthenutsandboltsassemblyline.
+Hisjobdescriptionisasfollows:
+● Benoitstandsatoneendofalongconveyorbelt,whichcontainsalineofnutsandbolts.● Benoit'sjobistotakeeachelement,eitheranutorabolt,offoftheconveyorbelt.● IfBenoittakesanutfromtheconveyorbelt,heputsitinthebucketbesidehim.● IfBenoittakesaboltfromtheconveyorbelt,hegrabsanutfromthebucketbesidehim,attachesthenutandbolttogether,andplacestheassembledpartontolargebox.
+However,thingscangowrongforBenoitintwodifferentways:
+1. IfBenoittakesaboltfromtheconveyorbelt,andthereisnonutinthebuckettoattach.2. Iftherearenomorenutsorboltsontheconveyorbelt,andtherearestillnutsinthebucket.
+Question:
+Whichsequenceofnuts andbolts ,whenprocessedfromleft-to-right,willnotcausethingstogowrongforBenoit?
+A)
+January2023 Page|48
+
+===== PAGE 51 =====
+BebrasIndia
+B)
+C)
+D)
+January2023 Page|49
+
+===== PAGE 52 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisC.
+Explanation:
+Wecankeeptrackofthestateofthebucketandconveyorbeltfromleft-to-right:N= B=
+Bucket ConveyorBeltempty NBNNBNNBBBN BNNBNNBBBempty NNBNNBBBN NBNNBBBNN BNNBBBN NNBBBNN NBBBNNN BBBNN BBN Bempty emptyLookingattheotheranswers:A. willgowrongafterNBB,sincetherewillbenonutinthebucketwhenthesecondBisencountered.B. willgowrongafterNNBNNBBBB,sincetherewillbenonutinthebucketwhenthefifthBisencountered:noticethereareonly4N'sbeforethisB.D. willgowrongaftertheentiresequenceisprocesses,sincetherewillbetwonutsinthebucket,sincethereare6N'sand4B's.
+ It’sComputationalThinking:
+Thistaskhighlightstheuseofapush-downautomata(PDA).APDAisawayofdescribingaalgorithmthatreliesonthecurrentstate,butalsohasanunlimitedamountofmemoryintheformofastack.Inthistask,thestateiseitherhavinganutorhavingaboltontheconveyorbelt,andthestackisthebucketwhichholdsthenuts.
+APDAcanbeusedtorecognize,orparsecontext-freelanguages.Torecognizeorparsealanguagemeanstodetermineifagivensequenceofsymbolsbelongstothelanguage.Inthiscase,wecanthinkofthenutsandboltsasarepresentationofbalancedparentheses,whereN=(andB=).Thatis,balancedparenthesesarevalidarrangementsofparenthesesinarithmeticexpressions.Examplesofasequenceofparentheseswhicharenotbalancedare(((()or())(.Detectingbalancedparenthesesisimportantincompilers,sincemanyprogramminglanguagesrelyonparenthesestoindicatenestedscopesaswellasarithmeticexpressions.
+January2023 Page|50
+
+===== PAGE 53 =====
+BebrasIndia
+Wheatstorage
+Thepictureshowsseveralmillsandtheroadsconnectingthemtothestorage.Everyevening,themillsproducesacksofflourandplacetheminfrontofthemills.Vivekthebeaverissupposedtopickupallthesacksandbringthemtothestoragebeforesunset.Vivekcancarryseveralsacksatthesametime,butthetotalweightcannotbeheavierthan15kg.
+ThetimeittakesVivektotravelfromonemilltoanotherandtothestorageisshowninthepicture.
+Question:
+Startingfromthestorage,Vivekthebeaverwantstobringinallthesackstothestorageasfastaspossible.Howmanyminutesdoesittakehimtocarryoutthistask?A)50minutes
+B)31minutes
+C)44minutes
+D)54minutes
+January2023 Page|51
+
+===== PAGE 54 =====
+BebrasIndia
+Answer:
+Correctanswer:A)
+Explanation:
+Thetotalkilosofflourtobepickedupis35kg.SinceWilliethebeavercancarryamaximumof15kgpertrip,thenhewouldhavetotakeatleast3tripstobringinallthesacks.Tominimizehistime,hewouldhavetopickupsacksinneighboringmills.
+Forexample,inpickingupthe9kgsackfromtheupperleftmill,Williecanalsopickupthe3kgsackinitsneighboringmill(Totalweight:12kg).Allothersacksweightmorethan3kilos,sohecannotpickupanyothersack.Thefirsttripwouldtake20min(3+2+2+3+3+2+2+3).
+Topickuptheremainingsacksinthefourremainingmills,thesecondtripwouldhavetobringinthethreefarthestsacks,the6kgintheupperrightmillandtwo4kginthemiddlemills(Totalweight:14kg).Thesecondtripwouldtake24min(3+2+4+4+3+3+2+3).
+Thethirdtripwillpickuptheremaining9kgfromthemillclosesttothestorageandwouldtake6min(3+3).Sothetotaltripwouldtake50min.
+Theorderofthefirst,second,andthirdtripsabovecanbeinterchanged;whatisimportantisthegrouping
+ofthesackstobepickedup.
+OptionBcannotbetheanswerbecausetopickupthe9kgsackfromtheupperleftmillwouldalreadytake20min(seefirsttripabove).Theremaining10minisonlyenoughtogotothesecondmillandback,soWilliewillnotbeabletopickupthetwosacksintheuppermills.
+OptionCcannotbetheanswerbecause44minisjustenoughtimeforthefirstandsecondtrip,sothe9kginthenearestmillwouldnothavebeenpickedup.
+OptionDcannotbetheanswersincethisislongertimethanOptionA.
+ It’sComputationalThinking:
+January2023 Page|52
+
+===== PAGE 55 =====
+BebrasIndia
+Incomputerscience,optimizationproblemsareproblemstofindthebestsolutionamongallpossiblesolutions.Usuallythisisrelatedtofindingthelargestorsmallestvalueofafunction.Inthistask,forexample,weareaskedtofindthesmallesttotaltime.
+Solvingaproblemusingacomputerisalsooftenrelatedtooptimization.Forexample,wewantthecomputertobeabletocompleteitstasksinashorttimeandusingminimalresourcessuchasmemory.
+Inthistask,we(orthecomputer)canfindthebestsolutionbytryingallpossibleroutes,thenchoosingtheroutewiththesmallesttotaltimeasthesolution.Thismethodisknownasthebruteforcetechnique.Thistechniqueissuitableforproblemswithsmallsizes(inthiscase,thenumberofmillsandpathsthatcanbepassed).Ifthesizeoftheproblemislarge,thenthebruteforcetechniquewillworkslowlybecausetherearesomanypossiblesolutionsthatmustbeexamined.
+Therefore,thereareothertechniquesthatcanfindsolutionstoproblemsmoreefficiently,suchasgreedyalgorithmsanddynamicprogramming.
+January2023 Page|53
+
+===== PAGE 56 =====
+BebrasIndia
+FlowerGarden
+TheFlowerGardenisasimplelogicgame.
+Ifyouclickonasquare,youcanseeeitherafloweroranumber.Thenumbershowshowmanyneighboringsquareshaveflowersinthem.
+ThegoalofthegameistouncoverallthesquaresonagridthatdoNOTcontainflowers.
+Inthesituationshowninthepicturebelow,wecanseesomenumbersandweassumethereisaflowerinthesquare.
+Question:
+Inwhichsquare,markedwithA,B,CorD,dowehaveanotherflower?
+A)A
+B)B
+C)C
+D)D
+January2023 Page|54
+
+===== PAGE 57 =====
+BebrasIndia
+Answer:
+CorrectanswerisB.
+Explanation:
+Inthesquarebelowthesquaremarked“A”wehavea“1”.Weassumethereisaflowerbelowthat.So“1”indicatesthatassumedflowerandthesquaremarked“A”cannotcontainaflower.
+Inthesquarelefttothe“C”,andabovethe“D”markedsquareswehavea“1”.Andnexttothatistheassumedflower.So“1”indicatesthatassumedflowerandthesquaresmarked“C”and“D”cannotcontainaflower.
+Thesquaremarked“B”hastwoneighborscontained“1”.Theycanrefertothissquare.Butonlythenumber“2”ofthesquareleftdownshowsclearlythataflowerneedstobethere.This“2”hasonly2neighborswhichdon’tcontainnumbersandifwehavetheassumedflower,anotherflowerneedstobeinthesquaremarked“B”.
+ It’sComputationalThinking:
+TosolvepuzzleslikeinthisBebrastaskyouneedonlyto“think”logical.
+Butsometimesyouneedtostartwithanassumptionandfollowthelogic.Ifyoufindanerror(forexampleherethata“1”referstoanitemandbecauseofthisyoucannothaveanotherone),you“goback”andfixthattheassumptionwasfalse.
+ThisistheverypopularalgorithmcalledBacktrack.Thedisadvantageofthebacktrackis:thatsometimesyouneedto“goback”alotanditwastestimeandresources.Andofcourseyouneedtodefineaclear“ending”–toansweriftheredoesn’texistasolution.
+InfiniteversionsofminesweeperareTuringcompletehttp://web.mat.bham.ac.uk/R.W.Kaye/minesw/infmsw.pdf
+January2023 Page|55
+
+===== PAGE 58 =====
+BebrasIndia
+TangledLoopKolam
+Kolamsaredecorativepatterns,traditionallydrawnonthefloor.Dotsareplacedfirsttoguidetheartist,thenlinesaredrawnaroundthedotsformingelegantKolams.
+Todrawaline,youstartatapoint,goaroundasubsetofdotsandreturntothestartingpointwithoutliftingyourhand.Thelinemaycrossotherlines,orevencrossitself,butshouldnotoverlapwithasectionofanylinethatisalreadydrawn. Everylinemustgoaroundatleastonedot.Eachlinethatyoudrawinthismanneriscalledaloop.IntheKolamillustratedbelow,thereare6loops.Noticethattheloopscrosseachotheratdifferentplacesandtheoutermostloopinblackalsocrossesitself.
+Question:
+WhichKolamhasthefewestloops?
+A B C D
+January2023 Page|56
+
+===== PAGE 59 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisoptionD.
+Explanation:
+OptionA has4loopsasshowninthefigure
+OptionBhas5loopsasshowninthefigure
+OptionChas3loopsasshowninthefigure
+OptionDhasjust1loop.Thestartandendpointcoincide.Forconveniencetheexplanationtotheoptionisgiveninthreesegmentseachusingdifferentcolors.Ineachoftheimagesegments,thereddotisthestartingpointandblackdotistheendforthatsegment.Wecontinuefromthereddotinthenextimageandkeeptracinguntilwereachthepointwherewestartedfrom(inimage1).
+image1 image2 image3
+ It’sComputationalThinking:
+CS:Decomposition,Abstraction,Modelling,Simulation,Datainterpretation.
+KolamsareintricatepatternsfoundintownsandvillagesacrossIndia.Howarethesepatternsrememberedandreproduced? Onetheoryisthattheyaregeneratedbysimpleruleswhicharepasseddownfromonegenerationtothenext. Incomputerscience,agrammarisasetofrulesforgeneratingsequencesofletters. Similarly,onecanwritemorecomplicatedtwo-dimensionalarraygrammarsthatgeneratepictureslikekolams. Therearealsorelatedtographrewritingwheregrammarsareusedtogeneratefamiliesofgraphs. Grammar-Wikipedia.Graphrewriting:https://en.wikipedia.org/wiki/Graph_rewriting.
+January2023 Page|57
+
+===== PAGE 60 =====
+BebrasIndia
+Ohridpearls
+DuringtheirvacationinOhrid,MonikaandVeronikaboughtOhridpearlsandmadenecklacesfromthem.Theirnecklacesareshownbelow.
+Monika
+Left Right
+Veronika
+Left Right
+Theydecidedtochangethepearlsintheirnecklacesusingthefollowingsteps.
+1. MonikaandVeronikaeachtakeapearlfromtherightoftheirownnecklace.2. MonikagoesfirstandthenVeronika.3. Ifthepearlisyellow(square)orred(triangle)theyaddittotheleftoftheother’snecklace.Ifitisoneoftheothercolours,theyaddittotheleftoftheirownnecklace.MonikagoesfirstandthenVeronika.4. Ifeachhasgiventhreepearlstotheother,theystop,otherwisetheygotostep1.
+Question:
+WhatdoMonika’sandVeronika’snecklaceslooklikeafterthesteps?
+A
+January2023 Page|58
+
+===== PAGE 61 =====
+BebrasIndia
+B
+C
+D
+January2023 Page|59
+
+===== PAGE 62 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisA.
+Explanation:
+OptionBisnotcorrect,becauseaccordingtotherules,MonikaandVeronikawillonlyexchangethreepearlseach.Butinthisexampletheyhaveexchangedfour.
+OptionCisnotcorrect,becausethestepshavenotfinishedyet.
+OptionDisnotcorrectbecause,althoughthenumbersofdifferentcolouredpearlsiscorrect,thepearlsareinthewrongorder.
+ToseewhyoptionAis thecorrectanswer,andwecanfollowthestepsonebyone,asfollows.Westartwiththeinitialstateofthetwonecklaces:
+Monika
+Left Right
+Veronika
+Left Right
+Wewillfollowthestepstoremovepearlsfromtherightsideofeachnecklace,oneattime,alternatingbetweeneachnecklace,startingwithMonika.Intheexplanatorytextbelow,weusetheterm“iteration”torefertoonepassthroughthesteps1through3.Apictureshowingtheresultofeachiterationcanalsobeseenbelow.Inthispicture,thefirstpairofcolouredrowsrepresentsthestartingstateofthenecklaces,thesubsequentpairsofcolouredrowsrepresentthenecklacesaftereachiteration.
+January2023 Page|60
+
+===== PAGE 63 =====
+BebrasIndia
+Iteration1.
+Sincebothofthepearlsontherightsidesareyelloworred,theyareexchangedandaddedtotheother’snecklaceontheleftside.Theyhaveeachgivenonepearlsofar
+Iteration2
+SinceMonikahasayellowpearlattherightsideofhernecklace,sheaddsittotheleftsideofVeronika'snecklace.Veronikahasabluepearl(thatwillnotbeexchanged)soit'saddedontheleftsideofherownnecklace.MonikahasgiventwoandVeronikahasgivenone.
+Iteration3.
+Monika’snextpearlisgreen,sosheaddsittotheleftsideofherownnecklace.Veronika’snextpearlisred,sosheaddsittotheleftsideofMonika’snecklace.Eachhasgiventwo.
+Iteration4.Monika’snextpearlisgreen,sosheaddsittotheleftsideofherownnecklace.Veronika’snextpearlisblue,sosheaddsittotheleftsideofherownnecklace.Nochange:eachhasgiventwo.
+Iteration5.Bothnextpearlsareyellowandred,sotheyareexchangedandaddedtotheother’snecklaceontheleftside.Eachhasgiventhree.
+Sincetheyhaveeachgiventhreepearlstotheother,theystop,andthefinalnecklaceslooklikethepicturebelow,whichistheansweroptionA.
+January2023 Page|61
+
+===== PAGE 64 =====
+BebrasIndia
+Monika
+Left Right
+Veronika
+Left Right
+ It’sComputationalThinking:
+Wecanusethistasktoexplaintheconceptofaqueueincomputerscience.Aqueueisalistinwhichelementsareaddedonlyatoneendandtakenawayonlyfromtheotherend.ItcanbereferredtoasaFIFO(firstin–firstout)structureforholdingdata.Itisausefuldatastructurebecauseitautomaticallykeepstrackoftheorderthatitemswereaddedtothequeue.
+ThenecklacesofMonikaandVeronikacanberegardedasqueues.Althoughwedon’texplainhowthepearlswereputonthenecklaceinthefirstplace,therulesexplainthatthereisaspecificendonwhichtoaddnewpearls,andtheotherendisonlyforremovingpearls.
+January2023 Page|62
+
+===== PAGE 65 =====
+BebrasIndia
+Stringfunction
+Therearetwokindsofmachinesinthestonefactory.Whenweputanarrangementofthestonesintothesemachinesfromthelefthandside,theywillremovesomestonesandputoutspecificarrangementsofthestonesontheright:
+Thebluemachineiscalledan“oddmachine”,whichputsoutstonesintheoddplacesandremoveeverysecondstones,justlikethepicturebelow:
+Thebrownmachinewithanumber“n”onitiscalleda“trimmachine”.Itremovesthefirstandlast“n”stones,andputsoutwhicheverstonesthatareleft.Thepicturebelowshowshowatrimmachinewiththenumber“3”onitworks:
+Thesetwomachinescanbecombined,andtheoutputofthefirstmachinewillbetheinputofthesecondmachine.
+Question:
+Ifthestonesarearrangedandputintothemachinelikethepicturebelow,whatwillbetheoutput?
+A)
+B)
+C)
+D)
+January2023 Page|63
+
+===== PAGE 66 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisB.
+Explanation:
+Thestonesareoriginallyarrangedasfollows:
+Theygothroughanoddmachinefirst.Everysecondstoneisremovedandtheoutputisasfollows:
+Then,thisoutputofstonesgoesthroughthetrimmachinewith“2”onit,Themachineremovesthefirstandlast2stones,andtheoutputis:
+ It’sComputationalThinking:
+Functionstomanipulateandtransformdatainacomputerprogramareamongthemostimportanttoolsforaprogrammer.Justlikeinarithmetic,theorderofapplicationthesefunctionsisstartinginsidetheparentheses.Thefunctiondefinitionisarecipe,applyingthedefinitioninaprogramislikeusingtherecipetocreatesomethingnew,inthiscaseanewstring,determinedbytheinputstring.
+Therearetwomajorviewsoncomputerprograms.Attheonehandyoucanlookatacomputerprogramasasetofinstructionsthatareexecutedintheproperorder,theotherviewistoregardaprogramasamachinethatisabletoprocessinputandtoproduceoutput.
+Amodelforthis:
+Intheexampleweseeafunctionwithinafunction.Theresultofthefirstmachineispassedtoasecondone.Inmaththisisverycommon.
+January2023 Page|64
+
+===== PAGE 67 =====
+BebrasIndia
+Inordertocalculatetheleftexpressionyouwillinvoketwoconsecutivesimplefunctions,asshownintherightpartofthepicture.
+ 
+January2023 Page|65
+
+===== PAGE 68 =====
+BebrasIndia
+FourTiles
+Youareaskedtoarrangefourtilesintoa2x2square,accordingtothefollowingrule:
+● Tilesmayonlytoucheachotheratsidesthatcarryexactlythesamesymbol!
+Thepicturebelowshowsanexample:
+Youarenowgiventhefollowing5tiles.
+Youmustarrangefourofthesefivetilesintoa2x2squarethatfollowstheruleabove.(Inthiscasethereisonlyonepossiblechoiceoffourtilesthatallowsthis.)
+Question:
+WhichtilewillyouNOTuse?
+A B C D E
+January2023 Page|66
+
+===== PAGE 69 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisC.
+Explanation:
+Itispossibletocreatea2x2squarethatfollowstheruleusingtilesA,B,DandE,asshownbelow:
+Tryingthemany possibilitiesuntilonehappensto fitisanoption,butthere isa way toreducethenumberofpossibilitiesthathavetobechecked.
+Wedothisintwoseparatesteps.
+1)Wemakeadiagramofthefivetilesandconnectthemwithalineiftheyshareatleastonesymbol. 
+DiagramExplanation:C andEareconnectedbyalinebecausebothtileshavealittleblackcircleononeoftheirsides.A andC are not connectedbecausenoneofthesymbolsonAoccursonC.(Thesimplifieddiagramontherightiscalleda graph.)
+January2023 Page|67
+
+===== PAGE 70 =====
+BebrasIndia
+Explanationoftheterm4-cycle:apathfromtiletotilethatfollowsthelinesandendsupatthestartafter4stepsfromonetiletothenext. Itisimportanttorealisethatthefourtilesina2x2squarethatfollowstherule,correspondtoa4-cycle.
+2)Withthehelpdiagram,we findoutallthepossible4-cycles.Inourdiagramthere arethree4-cycles:
+a)   Thefirst goesfromAtoBtoDtoEandthenbacktoA(That4-cyclecorrespondstooursolution).
+b)   ThesecondistheA-B-C-E-A.
+c)   ThethirdistheB-C-E-D-B. 
+Ofcourseallcyclicpermutationsofthefiveletters (i.e.startingfromanyletter,butkeepingtheorder)are equivalent, aswellastheirreverse. ForexampleA-B-C-E-A, B-C-E-A-BandE-C-B-A-Eareequivalent.
+Isitpossiblethesecondorthethird4-cyclemayleadtoanothersolutionofourpuzzle?
+BothcyclescontainB-C-E,andthere are onlytwo possibilitiesto jointhesetilesinthatorder:
+NeithertileAnorDcanbeusedtocompletethesetoa2x2square(andstillconformtotherule).
+ It’sComputationalThinking:
+To solve a computationalproblemit is oftenusefulto (temporarily)ignore someofitsdetails.(Thisiscalledabstractionandisanimportant computationalthinkingskill).Inourfirst stepweignoredtheshapeandcolorsofthesymbolsandtheirpositionsonthetiles.Wewereonlyinterestedinwhethertwotilessharedasymbolornot.
+January2023 Page|68
+
+===== PAGE 71 =====
+BebrasIndia
+Theresultingdiagram(thegraph)alreadyprovideduswithsufficient informationtomakeoursearchforasolutionabitshorter.Onlythreepossiblesolutionswereleft.
+Graphsare oftenusedin computerscienceasabstractionofthedata that needsto beprocessed.Throughhistory a lot of peoplehave devicedclever andfast methodstodeterminevariouspropertiesofsuchgraphs,forinstance,toeasilyfindall4-cycles.
+To furthersolve theproblem,we neededa secondstep,whichagainuseda graphasanabstractionoftheproblem.Splittinga difficultprobleminto separate steps whichcanbesolvedmoreeasilyiscalleddecomposition-againanimportantcomputationalthinkingskill.
+Alternativesolution:
+ Wecanuseaseconddiagram,whichweconstructinthefollowingway:connectsymbolsonthesametilebyanarrowinthefollowingway:
+Nowusethesearrows asconnectionsinanewdiagraminwhicheverysymboloccurs onlyonce(thisdiagramiscalledadirectedgraph):
+Wehaveputthe'name'ofthetile(A,B,C,D,E)onthecorrespondingarrow.
+Againa validsolutionconsists ofa 4-cycleinthisdiagram,butthistimeallarrows mustfollowthedirectioninwhichwewouldwalkalongthe4-cycle.ThereissuchacycleA-E-D-B-whichcorrespondstooursolution.
+January2023 Page|69
+
+===== PAGE 72 =====
+BebrasIndia
+There isalsoacycleE-C-B-D-whichis'almost asolution',except that theD-arrowisinthewrongdirection.ThereisapathA-B-C-E-,butitdoesnotendupwhereitstarted(soisnotacycle)andanyhow, theC-arrowisinthewrongdirection.Oursolutionisthereforetheonlyonethatiscorrect.
+January2023 Page|70
+
+===== PAGE 73 =====
+BebrasIndia
+Mysteria
+InacastlecalledMysteriatherelivesasinglewizard.Thiswizardcanturnthemselvesintoafairy,orcreateafairybesidethem(totheright).Thefairycanturnintoapotion(ontheleft)andadragon(ontheright),orturnintoapotion(ontheleft),awizard(inthecenter)andadragon(ontheright).
+ThefollowingtableshowsthecontentsofMysteriabothbeforeandaftereachofthefourpossibletransformations:
+Before After
+Thesemagicaltransformationscanhappenanynumberoftimes,inanyorder.Thatis,anywizardandanyfairycantransformatanytime.
+Question:
+Startingwiththesinglewizard,whichstateofMysteriaisnotpossibletoobtain?
+January2023 Page|71
+
+===== PAGE 74 =====
+BebrasIndia
+A
+B
+C
+D
+January2023 Page|72
+
+===== PAGE 75 =====
+BebrasIndia
+Answer:
+TheanswerisOptionB.
+Explanation:
+Supposethemagicaltransformationsarenumbered1through4asfollows:
+OptionAcanbeobtainedbystartingwiththesinglewizardandapplyingtransformations1,4,2,and3inthatorder.
+OptionCcanbeobtainedbystartingwiththesinglewizardandapplyingtransformations2,2,3,4,and1inthatorder.
+OptionDcanbeobtainedbystartingwiththesinglewizardandapplyingtransformations2,1,3,and3inthatorder.
+OnequickwaytoseethatOptionBisnotpossibleistonoticethatthetransformationrulesalwayscreateapotionandadragonatthesametime.Therefore,thenumberofpotionsinMysteriawillalwaysequalthenumberofdragons,whichisnotthecaseinOptionB.
+ It’sComputationalThinking:
+ThemagicaltransformationscanbethoughtofasasetofrulesusedtogeneratepatternsofobjectsinMysteria.
+Incomputerscience,acontext-freegrammarisonetoolthatcanbeusedtodescriberulesthatgeneratepatterns.Context-freegrammarscandescribelanguages(bothformalandnatural)andbyrepeatedlyapplyingtherulesofthegrammaryoucangeneratewords(orstrings)thatmakeupthelanguage.
+Inthistask,youwereaskedtodeterminewhichofthegivenwordswasnotpartoftheMysterialanguage.
+January2023 Page|73
+
+===== PAGE 76 =====
+BebrasIndia
+FavouriteGem
+Ramhasacollectionofgems.Herankshisgemsfromhisoverallfavouritetohisleastfavourite.
+SunitaknowswhatgemsareinRam'scollection,butshedoesnotknowhowhehasrankedthem.
+SunitahasaplantofindoutwhichgemisRam'sfavourite:
+● SunitachoosesfourofRam'sgemsandasksRam:"Outofthisgroupoffour,whichgemisyourfavourite?"
+● Sunitachoosesanewsetoffourgemsandasksherquestionagain.
+● Thenshechoosesathirdsetoffourgemsandasksherquestionforthelasttime.
+Note:
+WhenSunitachooseshersecondandthirdsetoffourgems,shemaysometimesincludegemsshehaschosenbefore.
+Question:
+IfSunitaistofindRam'soverallfavouritegem,whatisthelargestpossiblenumberofgemsinRam'scollection?
+A. 8
+B. 10
+C. 11
+D. 12
+January2023 Page|74
+
+===== PAGE 77 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisOptionB.
+Explanation:
+With10gems,SarahcanaskTroyabouteightdifferentgemswiththefirsttworequests.Troy'sanswertoeachoftheserequestsisacandidatetobehisfavouriteofallhisgemsbuttheotherthreecannotbe.Therefore,withSarah'sthirdandfinalrequest,shecanincludethesetwocandidatesandthetwogemsthathavenotyetbeenpartofarequest.Troy'sanswertothisthirdrequestmustbehisfavouritegem.
+WehaveshownthatthereisastrategyofSarah'sthatworksifthereare10gems.(Notethatthereareothercorrectstrategiesthatworkfor10gems.)
+IfTroyhasatleast11gems,weconsiderSarah'sfirsttworequests.
+Ifatleastonegemispartofbothrequests,thenatleastfourgemswillbeunconsideredafterthefirsttworequests.Inthiscase,Sarahmustaskaboutthesefourunconsideredgemsbecauseifshedoesn't,anunconsideredgemcouldbeTroy'sfavourite.Ontheotherhand,shewon'thaveanyinformationaboutTroy'sfavouriteamongthelastfourunconsideredgemscomparestotheother7gems.Inthiscase,herstrategycannotdeterminewhichgemisTroy'smostfavourite.
+IfthereisnogemthatispartofSarah'sbothfirsttworequests,thencandidatesforTroy'sfavouriteincludethetwoanswerstotheserequestsandthethreeremainingunconsideredgems.ThisisatotaloffivepossibilitiesforTroy'smostfavouritegemandSarahdoesnothaveanyinformationabouthowtheyranksoherstrategycannotwork.
+WehaveshownthatthereisnotastrategyofSarah'sthatworksiftherearemorethan10gems.
+ It’sComputationalThinking:
+Toanswerthistask,weneedtofindthebeststrategythatwillalwaysworkforSarah.Thestrategyisanalgorithmwhichisasequenceofstepsthatsolvesaproblem.Inthistaskweevaluatethealgorithmtofindthemaximumnumberofgemsforwhichitworks.Thealgorithmtofindthemaximumnumberofgemshassomeconstraints:
+1.Findthefavouriteoutoffourgems
+2.Onlythreesetsoffourcanbeexamined.
+Therearelotsofalgorithmsthatworkwellforsomesituationsbutnotforothers,forexample,asortingalgorithmmightbeabletosortpositiveintegersbutnotnegativeintegers.Someroutefindingalgorithmscanfindtheshortestroutebetweentwotownsbutdosotooslowlywhenappliedtoamapwiththousandsoflinkedtowns.Inthiscasequickeralgorithmsareoftenchosenthatfindoneoftheshortestroutesbutnotnecessarilytheshortest.Agoodsolutionquicklyisbetterthannosolution!
+January2023 Page|75
+
+===== PAGE 78 =====
+BebrasIndia
+Ingeneral,therearemanywaysofevaluatingalgorithmsprogrammedtorunonacomputer.Forexample,commonly,weconsidertherunningtimeofanalgorithm(howlongweexpectittotakefromstarttofinish)ortheamountofspaceanalgorithmuseswhichindicateshowmuchcomputermemoryitmightusewhileitisexecuting.
+Thistaskisaboutanalgorithmthatisconstrainedbysomecondition.InourcaseSarahisallowedtoaskonlythreequestionsandeveryquestioncanonlycover4items.
+Despitethisconstraintthisalgorithmworkswellforcollectionsizessmallerthan11butitfailsotherwise.
+Theremightbedifferentreasonstoimposeconstraintsonalgorithms.Forexampleonecoulddemandthatanoperationmustbecompletedinafixedamountoftimewhichisnecessaryinrealtimeoperatingsystems.
+Anotherreasoncouldbethatoperationscauseexternalcostortheydamageacomponentthatishandledinamanufacturingprocess.
+Itsnotaproblemthatthealgorithmfailsfromacertainthresholdbutitistheresponsibilityoftheengineerstomakesure,thattheseconditionsneveroccur.
+Forexampletheconstrainedstrategyofthistaskmustneverbeusedoncollectionsgreaterthan10.
+January2023 Page|76
+
+===== PAGE 79 =====
+BebrasIndia
+ListenandWalk
+Tina,whoisblindwalksthroughthecityalongtheroads,usinghertalkingglasses.Thetalkingglasseshavecamerasandanintelligentobjectrecognitionsystem.Theycanrecognizethefourtypesofsquaresofthemapbelow:ahouse,atree,aroadandlawn.WhenTinaentersanewroadsquare,thetalkingglassestellher–inthisorder–whatisonherleft,whatisinfrontofherandwhatisonherright;forexample:“treeroadhouse”.
+Tinastarts(facingtherightsideofthemap)atthetriangleandlistenstohertalkingglasses.Thisiswhattheytellher(beginningwiththestartingsquare):
+treeroadhouse,roadroadlawn,treeroadtree,roadroadroad,treeroadtree,treehouseroad,roadroadtree,houseroadtree
+Attheend,Tinahasarrivedatoneofthesquareslabeledwithaletter.
+Question:
+Atwhichone?
+A B C D E
+January2023 Page|77
+
+===== PAGE 80 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisB.
+Explanation:
+Therearedifferentstrategiestofindthesolution.Youcanjustfollowthewayfromthestartandwalkalongthepaththatmatchestheinformationgivenbythetalkingglasses.TheobjectsdonottelluswhenTinamakesaturnontheroad.Soifatanylocationthenextsetofobjectsmatchobjectsonmorethanoneroads,wetryeachroadatatime.Forexample,ifwetaketheroadtodestinationA,tocontinuealongtheroad,wewouldrealizethatafter“treeroadtree”thenext(4th)setofobjectsshouldhavebeen“lawnroadtree”.Howevertheobjectsare“roadroadroad”whichdonotmatchtheobjectsonroadtodestinationA.SowetracebacktotheintersectionwherewechosetheroadtodestinationAandtakeanotherroad.Wedothistillwehaveeithertriedallthepossibleroadsoruntilwereachoneofthetargets.ThefigurebelowshowspossiblepathsTinacantake.Xindicatesthatshecouldnothavecontinuedonthepath.
+Alternatively,youcancheckthesixtargetsquares.OnlyBandDmatchthedescription“houseroadtree”. ButbothsquaresadjacenttoDdonotmatch“roadroadtree”,whichisthesecondlastdescription.Therefore,BmustbeTina’sgoalsquare.
+January2023 Page|78
+
+===== PAGE 81 =====
+BebrasIndia
+ It’sComputationalThinking:
+ThetaskshowshowjustknowingalogofthemessagesthetalkingglassestoldtoTinaissufficienttorecoverherfinalsquareamongseveralpossibilities.IngeneralonecouldthinkthislogisnotinformativeenoughtosaywhereTinaisinthismoment,buttheadditionalknowledgewehaveabouttheenvironmentinwhichsheactsisrichandwecantrackdownherdestination.Itisalwaysdifficulttojudgehowsensitivepersonalinformationcanbe,andthisisespeciallytrueforspacialorgeographicaldata.
+Objectrecognitionisanimportanttopicincomputerscience.Anartificialintelligencesystemcanbetrainedtorecognizeobjectslikehouses,treesandroadsurfaces.Probablyyoursmartphonecameraisabletorecognizefacesandindicatesthemwithaframe.Anautonomouscarmustrecognizepersons,othercars,trafficsignsandotherobjectsinitsenvironment,whichareimportantforitsdecisionswheretogo.Tohelpblindandvisuallyimpairedpersons,modernwebmediaincludeAutomaticAltText(AAT).Thistechnologyusesobjectrecognitiontoautomaticallycreateverbaldescriptions(alttexts)ofimages.The“talkingglasses”arestillsciencefictionbutthereexistrealprojectsthattrytoimplementtheidea.
+January2023 Page|79
+
+===== PAGE 82 =====
+BebrasIndia
+RugWeaving
+HaleisaTurkishweavingartist.Sheismakingasquarerugwith6rowsand6columns.
+Haleputsasymbolineachsquareonthegridoftherugusingthefollowingquestions:
+January2023 Page|80
+
+===== PAGE 83 =====
+BebrasIndia
+Question:
+Usingthismethod,whatwouldtheresultingruglooklike?
+A)
+B)
+C)
+D)
+January2023 Page|81
+
+===== PAGE 84 =====
+BebrasIndia
+Answer:
+Correctanswer:B
+Explanation:
+ThefirstquestionthatHaleasksindicatesthatthe1
+st 
+and6
+th
+rowsaswellasthe1
+st 
+and6
+th
+columnsshouldhavepurpleshapes.Thisgivesthefollowingsymbolarrangement:
+Thesecondquestionleadstoallsquaresonthediagonaloftherughavingaredsymbol,becauseonthediagonaltherowandcolumnnumbersarethesame:
+Onthenextlayerofquestions,wefindthattherownumberislargerthanthecolumnnumberinallthesquarestotheleftofthediagonal.Intheseplacesabluesymbolisplaced:
+January2023 Page|82
+
+===== PAGE 85 =====
+BebrasIndia
+Finally,theremainingsquarestotherightofthediagonalallhaverownumbersthatareNOTlargerthanthecolumnnumbers,hencetheyarefilledinwithyellowsymbol,givingtheanswerseeninoptionB.
+ It’sComputationalThinking:
+Inmathematicsandcomputerscience,analgorithmisafinitesequenceofwell-definedinstructions,typicallyusedtosolveaclassofspecificproblemsortoperformacomputation.Algorithmsareusedasspecificationsforperformingcalculationsanddataprocessing.
+Adecisiontreeisonewayofeasilydisplayingthestructureofanalgorithmthatismadeupofconditionalstatements,suchasIF/ELSEstatements.Thismeansthateachlayerofthedecisiontreeconsistsofaquestionorstatement–ifthequestion/statementistrue,thealgorithmfollowsonebranchofthetree,otherwisethealgorithmfollowstheotherbranchofthetree.Thiscontinuesthroughthedifferentbranchesuntiltheoutcomeofthealgorithmisreached.
+Bymakinguseofartificialintelligence,algorithmscanperformautomateddeductions(referredtoasautomatedreasoning)andusemathematicalandlogicalteststodivertthecodethroughvariousroutes(referredtoasautomateddecision-making).
+ 
+January2023 Page|83
+
+===== PAGE 86 =====
+BebrasIndia
+CollectingStones
+Thebeaver’sfamilylodgeconsistsof21canals.31stonesneedtoberemoved.Thebeaversgoforaswimandcollectthestonesandbringthemtothedeposit.
+Thestonesareheavy.Abeavercanonlycarryoneortwoofthematthesametime,butnomore.Togetfromoneintersectiontothefollowing,beaversswimsurprisinglyalwaysforexactlyonehour.Afterstartingsimultaneouslythebeavershavetocollectallstoneswithinfourhours.
+Question:
+Howmanybeaversdoweneedatleast?
+A) 14beavers
+B) 18beavers
+C) 20beavers
+D) 24beavers
+January2023 Page|84
+
+===== PAGE 87 =====
+BebrasIndia
+Answer:
+ThecorrectanswerisA).
+Explanation:
+Shortversion
+Thereisonlyonepathwherethebeaverscanreachthedepositwithin2hours.Onthiswayare4stones.2beaverscancarrythese4stonestothedepositandmaycontinue tocarryadditional4stonestothedeposit.Thenthereare23=31-8stonesleftandatleast12morebeaversarenecessary,sincetheremainingstoneslieonpathsoflength3or4andthereiswithin4hoursnotimeleftafterdepositingstonestocontinueandbringmore.Wecanobservebyinspectingthebeaverlodgethattheremaining23stonescanbebroughttothedepositby12beavers,11ofthemcarry2stonesand1ofthemcarryingjustonestone.
+Secondversion(moredetailled)
+Thestart,allthestonesandthedepositofthebeaverslieincanalintersections.Inthefollowingpicture,werepresentcanalsbymeansofstraightlines.Thenumbersinthepicturesrepresentthenumberofstonesontherespectiveintersection.
+Wemeasurethepathlengthbetweenstartanddepositbycountingthenumberofcanalsthebeavershavetoswimthrough:
+ Therearenocanalsthatdirectlyconnectstartanddeposit(i.e.,therearenopathsoflength1hour).
+ Therearepathsoflength2hours,oflength3hours,andoflength4hours.
+ Thebeaversarerequiredtocollectstonesatmostfourhours.Pathsoflengthmorethanfourhoursdonotneedtobefurtherconsidered.
+January2023 Page|85
+
+===== PAGE 88 =====
+BebrasIndia
+First,weconsideralltheintersectionswithatleastthreestones.Ineachsuchintersection,abeavercollectstwostonesandbringsthemtothedeposit.Tothisend,weneed8beavers.Theycollected16stones.31-16=15stonesarestillleft.Allthebeaversexceptonewereatleastthreehoursontheway.Theyarenotabletogobacktothecanalsandtocollectfurtherstones.Wecan’t“reuse”them.Oneofthebeavers,however,collectedtwostoneswithintwohours.Hewouldhaveenoughtimetogetbacktoanintersection,tocollecttwoadditionalstones,andtobringthemtothedeposit.Wecantherefore“reuse”thisbeaveratalaterpoint.Anewbeavercollectthetwostoneswithintwohours.Wecan“reuse”thisbeaveraswell.15-2=13stonesarestillleft.Sofar,weused9beavers.Twoofthemcanbe“reused”.
+Now,thetwobeaverscanbe“reused”.Eachofthemcollectstwostones.13-4=9stonesarestillleft.Sofar,weused9beavers.Nooneofthemcanbefurther“reused”.
+Weapplythesamestrategyandfurtherconsideralltheintersectionwithatleasttwostones.Weneed2beavers.Theycollect4stones.9-4=5stonesarestillleft.Sofar,weused9+2=11beavers.
+January2023 Page|86
+
+===== PAGE 89 =====
+BebrasIndia
+Thefinalstepconsistsinfindingasolution(possiblybytrialanderror)thatusesaslessbeaversaspossible.Twobeaverscollecttwostoneseach.Athirdandlastbeavercollectsthelaststone.ThebestsolutionisA):11+3=14beavers.
+Thereare31stones,onlytwobeaverscanbring2stoneseachandthenreturningformore,otherbeaverscanbringatmost2.Soatleast13.5beaversarenecessary.Thebestsolutionrequires14beavers.
+ It’sComputationalThinking:
+Intheeyesofareader,thestoryisappealingandrichofattractivedetails.Nonetheless,thefirstactiontakenbyacomputerscientistconsistsinidentifyingtheinformationthatonereallyneedtosolvetheproblemandinremovingalltherest.
+Themeaningfulinformationcomprises:
+ canalsandintersectionsofthecanals(stones,startandhome).
+ numericalconstraints:abeaverswimsexactly1hfromoneintersectiontothenext;beaversneedtobeathomewithin4hours;theyhavetocollect31stones;theycan carryoneortwostones.
+ Wehavetocollectallthe31stonesbyusingasfewbeaversaspossible.
+Ontheotherside,wedonotneedtoconsidertheprecisecourseofthecanalsandtheirexactpositiononthemap,theappearanceofthebeaversetc.Thisinformationcanbeomitted.
+Computerscientistscallsuchaformalrepresentationagraph.Agraphconsistsofnodesand edgesbetweenthenodes.Thedistancebetweentwonodescanbeexpressedinseveralways,forinstancebycountingthenumberofedgeswehavetotraversetogetfromonenodetoanotherone.Graphsareoneofthecoreproblem-solvinginstrumentsinthelifeofacomputerscientist.Navigationsystemsareawell-knownexampleofapplicationsthatheavilymakeuseofgraphs.
+Inourtask,thebeaversareexpectedtocollectallthe31stones.Possibly,thereismorethanonewaytoreachthisgoal.Onecouldimaginetouse14,18,20oreven31differentbeavers.However,thequestionexplicitlyrequiresasolutionthatusesasfewbeaversaspossible.Fromthisperspective,weshouldcarefullyconsiderwhetherthereisawayto“reuse”abeaverofnot.
+Problemsthatlookatthebestpossiblesolutionareverycommon.Intheterminologyofinformatics,theyareoptimizationproblems.Anavigationsystemisexpectedtoselectthebest(e.g.,theoptimal)waytogetfromAtoB.Ofcourse,theexactmeaningof“thebest”solutionneedstobedefineda
+January2023 Page|87
+
+===== PAGE 90 =====
+BebrasIndia
+priori.Inthecaseofanavigationsystem,acriterioncouldconsistinminimizingthedistanceinkm,orthetimethecarneedstoreachthetarget.
+Intermsofcomputationalthinking,thepupilsprobablywillslightlysimplifytherepresentationofthegivenproblem–theywillwritenumbersinsteadofdrawingstonesandwillrepresentcanalsbymeansoflines.Nevertheless,thepicturealreadyisaninformalbutaccurateformofagraph.Thepupilsarerequiredtodecomposetheproblemintosmallerandmanageablepieces,tosolve(possiblybytrialanderror)eachofthem,andtoinferwhethertheirsolutionsatisfiesalltheconstraintsandtheexceptionsthatpotentiallycouldarise.
+ 
+January2023 Page|88
+
+===== PAGE 91 =====
+BebrasIndia
+FavoriteMovie
+Agroupoffriendsneedtochoosewhichofsevenmovietowatch.Eachfriendrateseachmovieasshown.
+1 2 3 4 5 6 7
+Ada
+Nancy
+Niklaus
+Grace
+Edsger
+Rosza
+Theratingsfromthebesttoworstare: , , .
+Amovieiscalleda"favoritemovie",ifallfriendsgiveittheirbestrating.ForexampleMovie1isnotafavoritemoviebecauseNikolausgavehisbestratingtotheMovie4.
+Question:
+Whatisthesmallestpossiblenumberofratingsthatneedtobechangedsuchthattherewillbeafavoritemovie?
+A. 1 B. 2 C. 3 D. 4
+January2023 Page|89
+
+===== PAGE 92 =====
+BebrasIndia
+Answer:
+ 2isthecorrectanswer.
+Explanation:
+ Thereisnowaytochangeonly1entrysuchtherewillbeafavoritemovie.Inthesurvey,foreachmovieanothermovieisratedbetterbyatleasttwofriends:
+Movie Thatmanyfriendsratedothermoviesbetter1 4:Nancy,Niklaus,Grace,andRozsa2 3:Niklaus,Edsger,andRozsa3 3:Niklaus,Edsger,andRozsa4 3:Nancy,Edsger,andRozsa5 3:Nancy,Grace,andEdsger6 2:NiklausandRozsa7 3:Niklaus,Grace,andRozsa NowAdaneedstoconvinceNiklausandRozsatochangeoneratingeachsuchthatmovie6willbeafavoritemovie.NiklausandRoszaneedtoimprovetheirratingsformovie6.Alternatively,theycoulddowngradetheirratingsforthosemoviestheyratedbetterthan6:thatismovies4(Niklaus)and5(Rosza).Itiseasytosee,however,thatAdaneedstoconsiderratingimprovementsonlyinsimilarfuturesituations.
+ It’sComputationalThinking:
+ Whathaveyoudonetosolvethetask?Onewayistocheckforeachmovie,onebyone,andforeachperson,onebyone,ifforanyoftheothermoviesthereisabetterrating.Intheend,youwillarriveatatableliketheonegivenabove.Thenyouknowwhichpersonstoasktochangetheirratings,inordertogettoafavoritemoviewiththesmallestnumberofchanges.Adacanusethisalgorithmtoeffectivelysolveherproblem.
+ Butisthealgorithmefficientaswell?I.e.,couldAdadofaster?Ingeneral,thereareMmoviesandFfriends.AdawillhavetolookatallM*Ftableentries,andforeachofthemshewillhavetolookattheM–1otherratingsofthesameperson.Overall,shewillhavetolookatM*(M–1)*Fratings.Butactually,inordertoseeifaperson'sratingofaspecificmoviepresentsaproblem,Adaonlyneedstoknowaboutthebestoverallratingofthisperson.Ifthespecificratingislowerthantheoverallbestone,theratedmoviecannotbeafavoriteone.Thatis,ifAdafirstfindsoutabouteachperson'soverallbestratings(bylookingatallM*Fratings),shecancheckforallM*Fratingswhethertheyarelowerthantherelevantperson'sbestone.Allinall,thisalternativealgorithmwithpre-computationofbestratingsmakesAnnalookat2*M*Fratings.WithM=7andF=6,theseare84lookups,whilethepreviousalgorithminvolves252lookups.ThesecondalgorithmalsosolvesAda'sproblemeffectively,butitismoreefficientthanthefirstone.
+January2023 Page|90
+
+===== PAGE 93 =====
+BebrasIndia
+ Forcomputerscientists,oneoftheircoreactivitiesistosolveaproblemnotonlyeffectively,butalsoasefficientlyaspossible.Fasterhardwaremakescomputerssolveproblemsfaster,butifthereisnoefficientalgorithmforaproblem,fasthardwaredoesnothelpmuch.
+January2023 Page|91
+
+===== PAGE 94 =====
+BebrasIndia
+SeashellsandPebbles
+AnnandBobareplayingonthebeach.Annhascollectedmanylightcoloredshells,Bobhascollectedmanydarkpebbles.Theymakeholesinthesandandconnectthemwithfurrows.Theytaketurnstoputoneoftheirpiecesinanemptyhole.Annstartsthegame.
+Theloseristhefirstplayertoplacetwoofher/hispiecesintotwoholesconnectedbyafurrow.
+ Question:
+Theyhavereachedthepositionshowninthefigureabove.ItisAnn’sturn;inwhichemptyhole(between1and7)mustsheplaceashelltoensurevictoryforherself?
+A. 2 B.4 C. 5 D.6 E.7
+January2023 Page|92
+
+===== PAGE 95 =====
+BebrasIndia
+Answer:
+ Thecorrectansweris7.
+Explanation:
+Holes1,3,4and6are“closed”toAnn;holes1,4,5and6toBob.AfterAnnhasputashellin7,Bobcanplayeither2or3;inbothcases,Annjustputsashellon5toforceBobtolose.
+If,fromthepositionshowninthefigure,Annhadputashellin2,thegamewouldhavecontinuedinthisway:Bob7,Ann5,Bob3,andAnnloses.
+Finally,ifAnnhadputashellin5,thegamewouldhavecontinuedinthisway:Bob7,Ann2,Bob3,andAnnlosesagain.
+Itisinterestingtonotethat,inthepositionshowninthefigure,ifitwereBob’sturn,Bobwouldloseanyway.Infact,ifBoboccupieseither2or3,Annoccupies7;instead,ifBoboccupies7,Annoccupies2,thenBob3andAnn5.
+Butthereisanotherfact,evenmoreinteresting:fromtheinitial(empty)board,Bob–whoisthesecond–hadawinningstrategy …buthemadeatleastonemistake!IfAnn’sfirstmovewastheshellontheleft,Bob’stoppebblewasgood(whilethebottomoneledtoadraw)andthemistakeoccurredonhisnextmove.If,ontheotherhand,Annstartedwiththeshellontheright,bothofBob’smoveswerewrong …Thetaskofcompletingtheanalysisisyours!
+ It’sComputationalThinking:
+WejustshowedaninstanceofCOL,atwo-personperfect-informationpositionalgameintroducedbyColinVout;thelategreatmathematicianJohnHortonConwaytalksaboutitinhisbook“OnNumbersandGames”(secondedition,2001,pp.91-96),togetherwithanothergame,SNORT(introducedbySimonNorton),inasensetheoppositeofCOL:thetwoplayersalternatelyplacetheirpiecesinsuchawaythatnopieceiseveradjacenttoapieceplayedbytheotherplayer,andagainthefirstplayerwhocannotrespectthisruleloses.Despitetheirsimilarity,SNORTturnedouttobemorecomplextoanalyzethanCOL;moreover,unlikeCOL,itisimpossibleforaSNORTgametoendinadraw(whateverthegameboard).
+Therearemanypopulargamesinwhichthetwoplayers,afterplacingtheirpiecesonthegameboard,taketurnsmovingthemtoreachacertaingoal(e.g.,a“mill”inNinemen’smorris,orthree-in-a-rowinPicaria).Theboardhasafixedpattern,oritisbuiltadhocbytheplayersorsomeoneelse(asinCOLandSNORT).Inanycase,thegameanalysisand“solution”canbeperformedbysettingupaspecificcomputerprogram.
+January2023 Page|93
+
+===== PAGE 96 =====
+BebrasIndia
+ThefamoustheoremformulatedbyErnstZermeloin1912appliestofinitegamesofthisclass:whenbothplayersdotheirbest(i.e.,theyareperfectplayers),eitherthegameendsinadraworoneofthetwoplayersmusthaveawinningstrategy,thatis,canforceawin.Forexample,Picariaisnotafinitegame(intheabsenceofappropriaterestrictions,agamecangoonforeveraslongasneitherplayermakesamistake),whereastic-tac-toealwaysendsinadrawassumingbestplayfrombothplayers.AsregardsCOLandSNORT(certainlyfinite),theoutcomewilldependonthegameboard,thatis,onthegivengraph,inwhichtheverticesrepresenttheholesandtheedgesrepresentthefurrows(betweendistinctholes).
+Inalltheaforementionedgames,theboardcanbemodeledbyasimpleandundirected(andalsofinite,connected,planar)graph,wherepiecesoccupyvertices;ingeneral,inmathematicsandinformatics,asimpleandundirectedgraphisastructuresuitableforrepresentingasymmetricrelationbetweentheelementsofaset.
+Thefigurebelowillustratesthethreepossibleoutcomes,usingthreesimpledifferentboards:(a)thefirstplayer(White)hasawinningstrategy,andmuststartwith1(otherwisehewilllose);(b)thesecondplayer(Black)hasawinningstrategy;(c)thegameisdrawn,providedthatWhitestartswith1(otherwisehewilllose)andBlackrespondswith4(otherwisehewilllose):thefirsttwoareforcedmoves!(Incidentally,usingthesethreeboardsinSNORTwouldwinWhitestartingwith2.)
+AsregardsCOL,therearewinningstrategiesinspecificsituations,forexampleinparticularsymmetricpositions...Buthowcanwedesignacomputerprograminorderto“solve”any(arbitrary)instanceofCOL?Wenowdescribeonlyaverygeneral(andbrute-force)method,adaptingittoCOL.Firstofall,theboard(i.e.,thegraphwithnvertices,eachofwhichcanbefreeoroccupiedbyapieceofthefirstorsecondplayer)mustberepresented,forexamplebyasymmetricadjacencymatrixandanarray(ofnternary-valuedelements).
+Thecompletegametree(indeedadirectedgraph,ifthenodescorrespondingtothesamegamestateoverlap)hastheemptyboardinitsroot,andeachofitsnodeshas,aschildren,thestatesthatcanbereachedfromitwithamovebytheturnplayer.Theleavescorrespond
+January2023 Page|94
+
+===== PAGE 97 =====
+BebrasIndia
+tothefinalstates,inwhichtwopiecesplacedbythesameplayerareadjacentorthereisnofreevertexforanewpiece(orboth);and,consequently,eithertheturnplayerwins,becausehisopponent–withhislastmove–hadtoplaceoneofhispiecesadjacenttoanotherofhisownpieces(sotheleafvalueis+1),orthegameisdrawn(sotheleafvalueis0).
+Theprogrammustvisitthegametreeinpost-order(byworkingbackwardsfromthefinalstates),assigningtoeachnodetheminimumvalueofallitschildren-nodeschangedinsign;ifwealsostoreaminimum-valuedchild-nodeinalist,attheendoftheprocesswewillgetanoptimalgame.Thisrecursivealgorithm,callednegamax,isasimplerversionofthewell-knownminimaxalgorithm.
+Finally,therootvalue+1meansthatthefirstplayerhasawinningstrategy,–1meansthatthesecondplayerhasawinningstrategy,0meansthatthegameendsinadrawassumingbestplayfrombothplayers.
+Onlargegraphs,inefficiencycanbereducedbysomegame-treepruningorotherimprovementtools(e.g.,transpositiontables),orspecialresourcesforsolvingthegameunderconsideration.
+January2023 Page|95
+
+===== PAGE 98 =====
+BebrasIndia
+Virus
+Inthefollowingdiagram,thecirclesarecomputersandthelinesareconnectionsbetweenthem.
+ComputerAisinfectedwiththeStuxNetvirusandComputerBisinfectedwiththeRoXX3virus.
+Atthebeginningofeachnewday,eachvirusspreadstoanycomputersthataredirectlyconnectedtoaninfectedcomputer.Ifbothvirusesenduponasinglecomputer,thatcomputerisautomaticallydestroyedandnofurtherspreadingwilloccurfromthatcomputer.Afterafewdays,everycomputeriseitherinfectedordestroyed.
+Question:
+HowmanycomputersareoperationalbutinfectedwiththeRoXX3virus?
+(A)6 (B)7 (C)8 (D)9 (E)10
+January2023 Page|96
+
+===== PAGE 99 =====
+BebrasIndia
+Answer:
+ ThecorrectanswerisA)6.
+Explanation:
+Day1:B,CandDareinfectedwithStuxNetandAandEwithRoXX3,destroyingAandB
+Day2:F,Gareinfected(byC&Drespectively)andH&L(byE)withRoXX3,nodestructions
+Day3:StuxNet:FandGinfectH,I,J,K(Cisalreadyinfected).
+RoXX3:LinfectsNandP(Einfectedalready),Hinfects(E,N),F.
+SoHandFaredestroyed.
+Day4:StuxNet:(IJK)infect(FK),(FK)M,and(GIJ)–theonlynewinfectionisM
+RoXX3:NinfectsO,M(HisdestroyedalreadyandLalreadyhasit.AndLisalsoallPcaninfect))
+SoMisdestroyed.
+Day5:StuxNethasnowherenewtogo.Theonlynewinfectiononday4wasdestroyed
+RoXX3:OcaninfectQ(andN,alreadyinfected)
+Day6:RoXX3Ncanonlyinfectdestroyed(HandM)oralreadyinfectedcomputers(L)
+AsneitherStuxNetorRoXX3canmakenewinfections,thecomputersinfectedbyRoXX3are:BAEHLNFPOMQ(roughlyinorderofinfection)so11gotthevirus.OftheseABFHMaredestroyed(5)leaving6,(answerA)infectedwithRoXX3butoperational.(E,L.P,N,O,Q)
+ It’sComputationalThinking:
+Thistaskdemonstrateshowgraphscanbeusedtorepresentdependenciesbetweenitems.AgraphisadatastructurethatisusedalotinComputerSciencetodemonstraterelationships.Thecomputersinthisproblemare“Nodes”andthecommunicationlinesare“Edges”Graphsalsomakeiteasiertovisualizeataskcomparedtojustreadingthedescriptionsoftherelationshipsintext.Inthisproblemnodesareremoved,thuseliminatingedgesorpossibleconnections.
+ 
+January2023 Page|97
+
+===== PAGE 100 =====
+BebrasIndia
+Maze
+TheLittleBeaverisinamaze.Themazeismadeupoftwofloors,eachwithitsowngridofobstacles.
+TheLittleBeavercanmovebetweentwoadjacentcellswithinonefloorifthereisnoobstaclebetweenthecells;thistakesonesecond.TheLittleBeavercanalsousehermagicwandtomovetothecorrespondingcelloftheotherfloor;thistakesfiveseconds.
+Forexample,iftheLittleBeaverisincellA,therearethreepossiblemoves:
+1.Moveleft.Thismovetakes1second.
+2.Movedown.Thismovetakes1second.
+3.Movetothecorrespondingcelloftheotherfloor.Thismovetakes5seconds.
+TheLittleBeaverstartsatcellAandwantstoreachcellBassoonaspossible.
+ Question:
+WhatistheshortesttimeneededfortheLittleBeavertoreachcellB,ifstartingfromcellA?
+A)16
+B)17
+C)18
+D)20
+January2023 Page|98
+
+===== PAGE 101 =====
+BebrasIndia
+Answer:
+ ThecorrectanswerisC.
+Explanation:
+Thegivenproblemisashortestpathproblem.Therearedifferentapproachestoobtainthesolution,oneofwhichistoapplyDijkstra’salgorithmtofindtheshortestpathfromAtoB.
+TheimagebelowshowsthelengthsoftheoptimalpathstoallcellsifstartingfromA.
+OnecanseethatthelengthoftheshortestpathtoBis18.Oneofthepossibleoptimalpathsisthefollowing:
+AnswerD(20)correspondstotheoptimalpathwhenmovingonlywithinonefloor.AnswerA(16)correspondstothelowerboundofthetimetoreachBfromAifgoingviatheotherfloorandassumingtherearenoobstacles(i.e.[ManhattandistancefromAtoB]+[timetomovebetweenfloors]).
+ It’sComputationalThinking:
+Theshortestpathproblemisawell-studiedgraphtheoryproblem.Itsapplicationsincludefindinganoptimalpathinacomputernetwork,onacitymap,etc.
+January2023 Page|99
+
+===== PAGE 102 =====
+BebrasIndia
+Theinstanceoftheshortestpathproblemonagridgraphhasvariousapplications,e.g.wireroutinginVLSIdesign(thesocalled“mazerunner”).Inthegivenproblemmovingbetweenfloorstakesmoretimecomparedtomovingwithinonefloor(5to1).Thiscorrespondstothefactthatinmulti-layerVLSIcircuitscross-levelwiringismoreexpensivethanintra-layerwiring.CommonVLSIcircuitsareplacedona10-layersiliconcrystalwhilethistaskintroducesonly2-layerproblem.Moreover,VLSIdesignrequirestoroutemillionsandbillionsofwirestoconnecttransistors,inputs,outputsandmemorycellstogethertogetVLSIcircuitfordigitaldevices.
+ 
+January2023 Page|100
+
+===== PAGE 103 =====
+acm India
+Association for
+Computing Machinery
+Advancing Computing as a Science & Profession
+Association for Computing Machinery (ACM)
+ 
+The ACM (www.acm.org) is the world’s largest not-for-profit scientific and computing 
+society.  ACM brings together computing educators, researchers, and professionals to 
+inspire dialogue, share resources, and address the field's challenges.  ACM has 
+endeavoured to tailor curriculum recommendations for undergraduate and school 
+computing curriculum. ACM India (india.acm.org) Education Council is involved in 
+recommending an undergraduate computer science curriculum, conducting faculty 
+development programs and CSpathshala – an initiative to teach computing in schools.
+Bebras (www.bebras.org) is an international student Computational Thinking Challenge 
+organised in over 60 countries and designed to get students all over the world excited 
+about computing. The challenge is a great way to learn about computational thinking 
+and problem solving skills.
+Bebras India Challenge (www.bebrasindia.org) is organized by ACM India’s Cspathshala 
+initiative (www.cspathshala.org).
+Bebras India
+Computational Thinking Challenge 2021

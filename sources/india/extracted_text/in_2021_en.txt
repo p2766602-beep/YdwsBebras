@@ -1,0 +1,1006 @@
+
+===== PAGE 1 =====
+Editor - Vipul Shah, Sonia Garcha
+Edition: English
+Bebras India
+Computational Thinking Challenge 2021
+===== PAGE 2 =====
+Bebras Computational Thinking ChallengeNovember 15- December 7, 2021
+Copyright © 2021 Bebras, Bebras India.
+ThisworkislicensedunderaCreativeCommonsAttribution-NonCommercial-ShareAlike4.0International License
+
+===== PAGE 3 =====
+IntroductionBebras (www.bebras.org) is an internationalstudent ComputationalThinkingChallengeorganisedinover60countriesanddesignedtoget studentsfromallovertheworldexcitedaboutcomputing.Thechallenge isa great way to learnaboutcomputationalthinkingandproblem solving skills.
+TheBebraschallengesaremadeofasetofshortproblemscalledBebrastasks.Thetasksarefun,engagingandbasedonproblemsthat ComputerScientists enjoy solving.Thetasksrequire logical thinkingandcan be solved withoutpriorknowledge of computationalthinking.  The aim is to solve as many as you can in the allotted time.
+BebrasIndiaChallenge (www.bebras.in) isorganizedby ACMIndia’s CSpathshalainitiative(www.cspathshala.org). ACMIndia/CSpathshala’s goalisto make it possiblesothat everychild in India learns Computer Science.
+The2021BebrasIndiaChallengewasheldfrom15thNovemberto7thDecember, 2021forage groups 8-18.It was offeredin English,Gujarati,Kannada,Marathi,Odia,TamilandTelugu.22,600studentsfrom262schoolsacross16statesparticipatedinthe2021BebrasIndia Challenge.
+Challenge Site:bebras.cspathshala.org
+Queries? Contact:challenge@bebrasindia.org
+Editors:Vipul ShahSonia Garcha
+January  2022 Page |2
+
+===== PAGE 4 =====
+WewouldliketothanktheinternationalBebrascommunityforallowingustousethetasksthey have developed. Bebras is a collective effort of many countries.WewouldalsoliketothankTataConsultancyServicesforprovidingtheTCSiONplatformforconducting the Bebras Challenge.
+We wouldlike to thankACMIndia’s CSpathshalainitiative volunteers forlocalizingandreviewingthetasks andreachingoutto schools.Wewouldalsoliketothanktheteacherswho have put in the effort for their students to participate in the challenge.
+We wouldlike to acknowledge theauthors andreviewers fortheBebrastasks usedinthechallenge:
+Australia Hannah Piper,Susannah Quidilla, Sarah AtkinsAustria Florentina Voboril, Wilfried Baumann,Belgium Kris Coolsaet, Sébastien Combéfis,Canada J. P. Pretti,Sarah ChanChina Cheng Cheng, Jinbao Zhang, Qing Zou, Xiaolu ZhangCzechia Ji ř í Vaní č ekEgypt Eslam WageedEstonia Ahto Truu, Lidia FeklistovaFrance Mathias HironGermany Wolfgang PohlHungary Ágnes Erd ő sné Dr. Németh,Christian Datzko, ZsuzsaPluhárIceland Linda Björk Bergsveinsdóttir
+India
+AabhaUtkalika Meher, AnupamaSivakumar, AnaghaBhat Behere, ArunKadekodi,Uday Oak,HariDevarapalli,VipulShah,MadhavanMukund,SoniaGarcha,KrupaMakwana,RamaKrishnaTeja, Krithika SanthoshKumar, BhavinShah,TejalPatel,ViralShah,RinkeshParekh,BiswajitDash,SagarDutta,MandarChitale,Anvita Goyal,S,Surabhi,Murthy, Niranjana,ManjunathBhushan,Kuma,VijethBharathNarayan,MGAbhilashKrishnanUraliKandi,Nidugala,MuraliNagaraj,MohanKumarGujjar, PatwardhanVikram,V S, Praveen,SK,Ashwini,Balikai Umesh,J HM,Thippeswamy,VakkaladnChetanS,NV, Sridhar, GovindaPanavarDattatreya,SK,Karthik,Chowdaiah Mukunda, MK, Raghavendra, Hiremath Santoshkumar,Mulgund,Srinivas S, NarasimhaMurthy, Raghu,PoojariMalathi S,Subramanyam BhanuPrakash, Bolinjadka PramodKumar, RajappaChandrakanth (Ck),Bl Chetan,AnjineyuluKavitha,K, Nikitha,DaripineniHarsha,DevaSmithaShadakshari,MukundaYeshaswini,RPGiridhara,NhJagadeesh,RajuNandithaKrishna,PandurangaAchyuthan,KSGopinath.UK Hamsitha,PatgarGeeta Ganapayya, ShankarChaitra,K C Vinayashree,KattigenahalliKalpanaRamalingaiah,M S Sachin,K M Bharath Kumar,
+January  2022 Page |3
+
+===== PAGE 5 =====
+RamavanaSahana,KumarM Madhu,AshaVenkatram,AboliMahajan,PruthirajSrichandanDas,Sridhar, Aryasomayajula,NaveenaBm,AnuPriyaKuppusamy, AnilTalavadekar, MaridhasanMurugesan,Priyanka PradeepKulkarni,Swati Devkar, KavithaS A, SarojSahoo, RashmiPrakash,SudeepParab,RakeshKumar, Sowjanya Morusu,GayathriRaghunathan,ParagChitale,Vaibhavi Dhankhode,KokilaS Nikita, Dattani,HarshadaDesale,AravindBopparathi,NehaShankar, JayalakshmiS Bijjur, NikhilNevase,SuhasK, Sumitra Naik,Priya TejaswiniArikatla,Ipsita Pujari,CharusmitaPatil,KirtiBais,BhagyasriG S, Garre Venkata, SaiSindhuVaishnavi,SasiBhushanMuttada,AbdulShahil,JoshibaJames,SrinivasanKumar,ApoorvaShankarIreland Tom Naughton,Taina LehtimakiItaly Lorenzo Repetto, Violetta LonatiLithuania Tomas Š iaulys, Valentina Dagien ė ,Latvia Mija Za ļū ksneNorway Iorgulescu TiberiuPakistan Viorica Mariela Ungureanu,Philippines Mark Edward M. Gonzales,Saudi Arabia Amal Khotani,Slovakia Andrea Hru š ecká,Lucia BudinskáSlovenia Janez Dem š arSouth Africa Pieter Waker
+South Korea
+DongYoonKim,HongjinYeh,SoojinJun,YongJuJeon,UngyeolJung, JihyeKimSweden Jonatan Pipping
+Switzerland
+BernadetteSpieler,Jean-PhilippePellet,FabianFrei,SusanneDatzko,ShangFeiTaiwan En-hsuan Lee, Jia-Ling Koh, Judith Lin, Sheng-Yong Liao, Shu Jyuan YangTurkey Filiz Kalelio ğ lu, Ezgi Arzu Güne şUK Chris RoffeyUzbekistan Timur Sitdikov,
+Vietnam Vu Luan
+January  2022 Page |4
+
+===== PAGE 6 =====
+Bebras challenge was conducted in five groups:
+Group Ages Standards Tasks
+Aryabhata 8-10 years Std III-IV 15
+Brahmagupta 10-12 years Std V-VI 15
+Bhaskara 12-14 years Std VII-VIII15
+Mahavira 14-16 years Std IX-X 15
+Ramanujam 16-18 years Std XI-XII 15
+Eachtask issortedina categorybasedonthedifficultylevels:A, BorC.Studentsstartedwith some points and could gain or lose points as follows:
+Difficulty Correct Answer Incorrect Answer Unanswered
+A category questions +6 points 0 points 0 points
+B category questions +9 points -2 points 0 points
+C category questions +12 points -4 points 0 points
+Onthefollowingpagesyouwillfindthe tasks usedin2021BebrasIndiaChallenge.Aftereachquestionthereisananswer, anexplanationofhowtheanswercouldbeobtainedplusa section on how the tasks are related to Computational Thinking.
+Copyright © 2021 Bebras, Bebras India.
+ThisworkislicensedunderaCreativeCommonsAttribution-NonCommercial-ShareAlike4.0International License
+January  2022 Page |5
+
+===== PAGE 7 =====
+Content
+Butterflies 7 Kayles Pins 46Dancing dress 9 Raster 50Dancing Dolls 11 Hashing 53Creatures 13 Necklace Instruction 55Funny Filter 15 Meeting race 57April Fool 17 Find animal 62Between Dots 19 Hercules and Hydra 64Moving the balls 21 Spider Quilts 66Find a mistake 23 Do they meet 68Necklaces 25 Shop Counters 70Maze 27 Jumping jack 73Turtle Path 29 Upcycling 75Robot 31 Truchet 76Farmer Beaver 33 Vaccination Centres 79Bank Lock 36 Symbol reading robot 81Cuckoo Birds 38 Error Detection 85Arranging Shapes 41 Great Wall of Beavaria 87The gift 43
+January  2022 Page |6
+
+===== PAGE 8 =====
+Butterflies
+A beaverisphotographingbutterflies,butaftereachphotoistaken,halfthebutterfliesflyaway.
+The first photo has 64 butterflies in it and the last photo has just two butterflies in it
+Question:
+How many photos did the beaver take?
+A. 5B. 7C. 3D. 6
+January  2022 Page |7
+
+===== PAGE 9 =====
+Answer:
+The correct answer is Option D, 6 photos.
+Explanation:
+We are toldthat thefirst photo has64butterfliesinit.Sincehalfthebutterfliesflyawayafter each photo is taken, we can record how many butterflies are in each photo.
+Photo Number Number of Butterflies1 642 323 164 85 46 27 1
+We see that the photo with just two butterflies in it is photo number 6.
+It’s Computational Thinking:
+Thenumberofphotosthebeavertakesisjust onemorethanthenumberoftimesthathalfthebutterfliesflyaway. Soafterthenumberofbutterfliesiscutinhalfonlyfivetimes,weare left withtwo butterflies.Noticethat sixis quite a bitsmallerthan64.Thisisnotacoincidence.
+Theprocessofrepeatedlycuttingaquantityinhalfuntilyouendupwithonlyoneitem,canoccurquitequickly. That is,youcanmovefromaverylargenumbertoaverysmallnumberinthiswayinarelativelysmallnumberofsteps.Thisideaisusedbycomputerscientiststodesignalgorithmswhichareveryefficient.Themost famousalgorithmbasedonthisideaisprobablysomethingcalledbinary search.Ina mathclassinalatergrade,youmight learnabout logarithms which help measure this kind of process.
+January  2022 Page |8
+
+===== PAGE 10 =====
+Dancing dress
+Shrutineedsto make a dressforherschooldancingcompetition.Shegoestoashopthatsells craft bags containing a selection of the items shown in the picture below.
+Question:
+Shrutineedspinkfabric,scissors,andgoldstarstomakethedress.Whichofthesecraftbagsshould she buy?
+A B
+C D
+January  2022 Page |9
+
+===== PAGE 11 =====
+Answer:
+The correct answer is Craft Bag D. This bag contains pink fabric, scissors, and gold stars.
+Explanation:
+Craft Bag A is not correct because it does not contain gold stars.
+Craft Bag B is not correct because it does not contain scissors.
+Craft Bag C is not correct because it does not contain pink fabric.
+Craft Bag D is correct because it contains pink fabric, gold stars, and scissors.
+Eachbagalsocontainsat least oneitemthat isnotrequired,butthisdoesnotaffecttheanswer.
+It’s Computational Thinking:
+Thistaskinvolvesconditionalstatements.Aconditionalstatementtellsacomputerprogramto dodifferent actionsdependingonwhethera conditionistrueorfalse.Inthistaskwehavethreeconditionsthat allhavetobetrueinorderforShrutitobuythatbag.Conditionsandtheirevaluationare animportant partof computer programmingandalgorithmicthinking.Thistaskalsoteacheselementsofabstraction,inthatthepupilmustabstractawayfromtheindividualitems,ignoringdistractoritems,toobtaintrue/falsevalueswhethereachbag satisfies particular properties or not.
+Thistaskcanalsobeusedasaneasy exampleto introducepatternrecognitionto youngpupils,ifthepupilssolveitbyconstructingtheirownbagofcorrectitemsfromtheselectionin the question, and then visually comparing bags to find the closest matching bag.
+January  2022 Page |10
+
+===== PAGE 12 =====
+Dancing Dolls
+A dress-maker had to make dresses for four dolls.
+Each dress should be made from four different materials.
+Question:
+Which of the dolls is wearing a dress that is NOT made of four different materials?
+A B C D
+January  2022 Page |11
+
+===== PAGE 13 =====
+Answer:
+The correct option is (c)
+Explanation:
+Thedress-makerhasmadedressesforA, BandDusingallfourmaterials,whileinoptionCthe rules are not met.
+It’s Computational Thinking:
+CS: Data structures and representations
+Data structuresmeansstoringandmanipulatingdatainthememoryofcomputer, inawaythat thedata canbeusedforconstructingrules.Thisdata cantake theformofimages,numbers or text.
+Inourexamplethefourmaterialsthatarerequiredtobeusedarestoredinthememoryandeachimage isvalidatedagainst therules.Thepatternsoftheimagescanbeinterpretedascolors as well. The patterns can be seen physically or calculated mathematically.
+January  2022 Page |12
+
+===== PAGE 14 =====
+Creatures
+Littlebeaverfounda new hobby. Hewants to buildcreaturesby combiningsinglebodyparts.Forinstance,heusedtheshape,color, eyes,mouth,hairanddrawinginthefirstcolumnto buildtheviolet creature in thelast row. Hefinishedbuildingthecreaturesasshown:
+Littlebeaverbuiltfollowingnewcreatures,butsomeonerearrangedthebodypartsandkeptthe new creatures as you see in this picture.
+Question:
+CanyouhelptheLittlebeaverto findtheminimumnumberofpartsthat may beinthewrong places?
+A) 1    B) 2    C) 3    D) 4
+Answer:
+January  2022 Page |13
+
+===== PAGE 15 =====
+The correct answer is B) Two images are wrong.
+Explanation:
+Bylookingat thefirst example,wecanseeawaytocomposethecreaturebyfirstusingtheshapein thefirst row, thencoloringthecreature withthecolorinthesecondrow, thenaddingtheeyesfromthethirdrow,afterwardsputtingthemouthfromthefourthrow,thenaddingthehairfromthefifthrowandfinallyaddingsomedrawingonthebellyfromthesixth row.
+Followingsuchpatternwecanseethat thefirst imageinthequestion(thatis,thecreatureresultingfromthesecondcolumn)iswellcomposed,whilethesecondandthethirdimageshave thebellydrawingsinterchanged (sothey are wrong)andfinallythelast image(correspondingto thecreatureresultingfromthelast column)iscorrect.Sothereareonlytwo creatures that are badly composed, hence two images that are wrong.
+It’s Computational Thinking:
+Theproblemis related to theconcept of machinelearning, classificationandpatternmatching.
+In machinelearninganalgorithmcanattribute somescoresto eachpossiblecategory ofoutput,in ourcasetheresultingimages(creatures).A machinelearningalgorithmwouldprovidea highscore to thecorrectimages(class1)anda lowerscore fortheincorrectimages (class 2).
+Thetaskcouldbeseenasa simplifiedsupervisedlearningapproach.Inthetrainingstep,multipleexamples(likegiveninthefirst column)wouldbeused.Thefollowingclassificationstep(testing)isdonewiththedataoftheremainingfourcolumns(withtherespectiveresultimages/creatures).Basedontheprevioustraining, thealgorithmwouldclassify theresultimages/creatures as correct or incorrect.
+January  2022 Page |14
+
+===== PAGE 16 =====
+Funny Filter
+A photo app has four funny filters; each filter has a different effect shown below:
+AfterLittleBeaverappliedtwo filters, "applyblush"and"reshapeface"ona photo, thephoto looks like this:
+Question:
+What might the original photo look like?
+A. B. C. D.
+January  2022 Page |15
+
+===== PAGE 17 =====
+Answer:
+The correct answer is D.
+Explanation:
+Since"enlarge teeth"filterisnotapplied,wecaninferthat theteethintheoriginalphotoare alreadylarge; therefore,optionA andC, bothshowingrelativelysmallteeth,are notcorrect.Also, littlebeaverhaswhiskers onthefinalphoto, andnofilterthat addswhiskerswasappliedsotheoriginalphoto hasto have whiskers.Hence,optionsA andB are notcorrect.
+We canalsofindtheanswerby reversingtheeffectthosetwo filterhadonthephoto, asshowninthephotobelow. Afterremoving"applyblush"filter, wewillget thephotointhemiddle.Andafterremoving"reshapeface"filterfromthemiddlephoto, we willget thephoto on the right, which is the original photo.
+It’s Computational Thinking:
+Inthistask,wearedescribingthefaceofbeaversusingasetofproperties,sometimescalledattributes.
+Each property of a beaver can have different values:
+- teeth can be short or long
+- whiskers can be present or absent
+- head shape can be round or thin
+- cheeks can be bare or have blush
+Each funny filter changes the value of one of these properties.
+Whencomputers manipulate objectsoftherealworld,theyoftenrepresent thembysuchlistsofproperties.Peopleina computerdatabasehavepropertiessuchastheirfirstname,lastname,genre,birthdate,birthplace,etc.We canthenperformsearchesbasedonthevalueofsomeoftheseproperties,suchasfindingallthepeoplecalledBobwhowerebornin 2004 in Lithuania.
+January  2022 Page |16
+
+===== PAGE 18 =====
+April Fool
+BeaverTinahasapileofphotostakenin2020,eachwiththeexactdateonit.SheasksherfriendLinato sortthepicturesby monthinto 12albums.Tinaisofcourseexpectingtheusual order:
+But it is April Fools’ Day, so Lina plays a prank and sorts the months alphabetically instead:
+Question:
+In which album will Tina find the pictures from June?
+a) 4 b) 5 c) 6 d) 7
+January  2022 Page |17
+
+===== PAGE 19 =====
+Answer:
+The correct answer is D) 7
+Explanation:
+The complete arrangement of Lina’s looks as follows:
+Thus the photos from June are found in album 7.
+ It’s Computational Thinking:
+Weoftenwant tosortthings.Computersciencehelps ustodothisquickly.Butbeforeevenstartingwiththesorting, it is important to noticeif different orders are possibleandtodecidewhichorderwe want. Intheexample,Linaknewwhat orderTinawanted,shewasjustplayingaprank.ButacomputerwouldnothaveknownwhatTinawanted.Whenweusea computer to sort something, we must make sure to tell it what sorting we want.
+January  2022 Page |18
+
+===== PAGE 20 =====
+Between Dots
+Seema plays with a robot that draws lines between dots.
+She pushes arrow buttons to send the robot to the next dot.
+The robot starts on the dot with the circle around it.
+Thisarrowsequence tells the robot to draw:
+Question:
+When Seema pushed the buttons in this sequence
+What did the robot draw in this grid, starting on the dot rounded with a circle?
+A B C D
+January  2022 Page |19
+
+===== PAGE 21 =====
+Answer:
+The correct answer is D :
+Explanation:
+Therobotstartsonthedotroundedwiththeredcircleandthearrowsshowshowitfollowsthe commands:
+ It’s Computational Thinking:
+Computerprogramsareaseriesofcommandsthattelltheadevicewhattodo.Allcomputerprogramsare run(activated)by pressinga buttonortypingacommand.Oneofthebasicthingsininformaticsandroboticsforstudentstolearnisthatarobotoracomputerfollowscommandsina sequence/ specificorderandexecutesactionsinthat order. Studentswilllearnthat a computer or robotwillonlyrespondto commandsit hasbeengiven.Thecommandsmust beprecise.Students usealgorithmicthinkingto followthesequenceofbuttoncommandsinthequestion.They willalsolookat thedatarepresentationsgiveninthemultiplechoiceanswers toselectthecorrectimagerepresentation.Usingrecipesasametaphormight helpstudents to understandbetter. Thesteps of cookingare likeinstructions, and only correct instructions can make delicious meals.
+Itisimportant tounderstandtheinstructionsandexecutethemstepbysteptoseewhatishappening.Thesesteps willbeusefulfordebugging.Debuggingistheprocessofworkingthrougha programsequenceto seewhereerrors might haveoccurred.Itisusefultohavestudents ‘think-aloud’(talk throughactionsas they makingthem),especiallywhendebugging.Discussingwheretheymight havegonewrongisausefulprocessforstudentstolearnthat we all make mistakes andneedto follow steps to fix them.Eventhebestcomputer programmers make mistakes. Debuggingis a natural partof theprocessoflearning.
+January  2022 Page |20
+
+===== PAGE 22 =====
+Moving the ball
+Beavers areplayingagameofmovingaballinacylinder.Thegoalofthisgameistoclassifythe same balls to the same cylinder. The rules of this game are as follows.
+ Rule #1: The ball can be moved to another cylinder with no ball.
+ Rule#2:Whenthereisaspaceinthecylinder,theballcanonlybemovedonaballofthe same color in another cylinder.
+ Rule #3: Only one ball at the top of a cylinder can be moved at one step.
+Question:
+If youwant to winthegameasbelow, howmany steps doyouneedto move theballatleast?
+A) 5 steps B) 6 steps C) 7 steps D) 8 steps
+January  2022 Page |21
+
+===== PAGE 23 =====
+Answer:
+The correct answer is B.
+Explanation:
+Theballsareclassifiedinthefollowingorder. Althoughtheorderisdifferent,theremaybeother ways to classify the balls in just 6 steps.
+ It’s Computational Thinking:
+In Informaticssocalledstacks canbeusedforstoringdata.Thespecialcharacteristicofstacks is that you can only access and remove the last added data.
+Thecylinders in ourexamplebehave like stacks:Youcanonlyadda ballonthetopofacylinder. And you can only remove the ball from the top. The other balls cannot be accessed.
+January  2022 Page |22
+
+===== PAGE 24 =====
+Find a mistake
+Sunita wrote a program to guide the beaver to his home.
+The program consisted of these 5 commands
+2 →    2 ↑    5 →    4 ↑    1 →
+The first command is correct and guides the beaver to move like this:
+However, there is a mistake in one of the next four commands in the program!
+Question:
+Which one of the commands has a mistake?
+A. 2 ↑    B. 5 →    C. 4 ↑    D. 1 →
+January  2022 Page |23
+
+===== PAGE 25 =====
+Answer:
+B. 5 →
+Explanation:
+Thefirst command5 →shouldbefixedbychangingitto6 → .Thisissothebeaverisguidedto reach the exact cell where the beaver's home is, as shown in the picture below:
+Whenthebeavertriesto follow Sunita’s originalprogramwithcommand5 → , it hitsanisland:
+ It’s Computational Thinking:
+A programconsistsofcommandsusedto solve a problemandrepresentsasuccessionofoperationsanddecisionsthat must bemade.Startingfromonepoint, reachinganotherpoint, corresponding to a correct solution to the problem.
+Inthistask,thefirst representationofthecommandscanbeclarifiedbythechildrentracingthemovement ofthebeaver, onecommandat a time.Whenthebeaverarrivesat theisland,thechildrenneedto realisethat thepreviouscommandneededto takethemonestepfurther. Itisagoodideatoencouragethechildrentofinishtheprogramtoseethatthebeaver also ends up just short of its home.
+Inthistask,we were lookingforamistake.Thisiscalleddebugging, whichisanimportantskill for computer programmers to develop.
+January  2022 Page |24
+
+===== PAGE 26 =====
+Necklaces
+BeaversANNA,BELLAandLENAmadenecklacesaccordingtotheirnames.Torepresenteachletter, they agreedona way to threadbeads and . Also, theyagreedtoseparatetheletters in the necklaces with beads.
+ANNA
+BELLA
+ 
+Question:
+Which necklace did LENA make?
+A)
+B)
+C)
+D)
+January  2022 Page |25
+
+===== PAGE 27 =====
+Answer:
+Correct answer is A)
+Explanation:
+TheletterLisinthenameBELLAandisthethirdinarow,soitismadeofbeads .We seethat optionsA)orD)maybecorrect.Thenwefindoutwhichbeadsrepresent theletterE.FromBella'snecklacewe seethat E is . OptionsA)andD)maystillbecorrect.Nowwewant tofindoutwhichbeadsaretheletterN.FromAnna'snecklaceweseethatNis . And that is in A).
+Anotherwaytofindasolutioncanbetodeterminehowbeadsarethreadedforeachletterandthendeterminewhat nameeachofthefouransweroptionsrepresents.SoweknowfromAnna'snecklacethat theletterAismadeofbeads andtheletterNis .FromBella'snecklace,inturn,Bismadeofbeads ,Eis andLis .SowewillcreateLENAfrom , , a , amongwhichwewillinsert .Sowegetasequence that isinanswerA).Whenwedecodetheotheranswers, we find that B) is BENA, C) is NENA and D) is LEAN.
+ It’s Computational Thinking:
+We commonlyencodeinformation,mainlyto make communicationeasieror to writeinformationmore economically. Orwecancomeupwithasecret code.Heretheencodingofletters isbasedontheMorsecode,wherethedot()ofMorsecodeisreplacedby andthedash( ) is replaced by . Therefore, 'A' in ANNA'sname is encoded in ( ).
+If we don'tknowwhichencodingisused,thenwe can'tcreate necklacesfornameswithotherletters. We wouldhave to agreeonhowto encodeeachletterfromthealphabet.However, we can also encode non-text information - pictures, sounds or videos.
+January  2022 Page |26
+
+===== PAGE 28 =====
+Maze
+ThelittlewitchLunadiscovers ahiddentreasurecave.Toget tothetreasure,sheneedstopassthrougha maze.Lunadiscovers fivetreasures:coins,aruby, amagicbook,atreasurebox, and a magic potion.
+She doesn’t know which treasure she should choose, so she decides to follow these rules:
+● Go down ( ↓ ) as a priority;
+● When there is no way down, go right ( → );
+● When there is no way down or right, go left ( ← );
+● Do not turn back and not fly up ( ↑ ) until you reach the treasure.
+Question:
+Which treasure will Luna get?
+A. 2 B. 3 C. 4 D. 5
+January  2022 Page |27
+
+===== PAGE 29 =====
+Answer:
+The correct answer is D. The route is shown on the map.
+Explanation:
+WhenLunaenters thecaveshehastoflydownaccordingtothefirst rule.At thefirst fork,shecanchooseto go leftorright.Accordingtothesecondrule,sheneedstoright.At thesecondforkshehasto flydownagainbecausethisisherpriority. Forforks 3to6thefirsttworulesapply. At fork7thereisnotwaydownortotheright.Thereforeshehastogotothe left. By applying all four rules she finally comes to the treasure box.
+ It’s Computational Thinking:
+InInformaticsconditionalstatementsareusedtoexecutedifferent codes/actionsaccordingto certainconditionsorrules.IFtheconditionsapply, thena code/anactionisexecuted,ELSEothercodes/actionsare executed.In thistaskwe have threerules.IF youreachajunctionandthereisaforkdowngodown.Otherwise,IFthereisaforktotheright,goright.ELSE got to the left. Luna never has to fly up
+January  2022 Page |28
+
+===== PAGE 30 =====
+Turtle Path
+The turtles live in small gardens.
+Eachgardenis dividedinto squares,coveredwitheithergrassorstones.
+Theturtlescannotcrossstones.Butthey canmove fromonegrasssquare to the next, as shown.
+Eachturtleneedstotakeafeedingpathinitsgarden:Itneedstomovetoallgrasssquares,while visiting each of them only once.
+Unfortunately, one turtle cannot take a feeding path in its garden.
+Question:
+Which turtle cannot take a feeding path in its garden?
+A B
+C D
+January  2022 Page |29
+
+===== PAGE 31 =====
+Answer:
+The correct answer is C.
+Explanation:
+A B C D
+For each of the gardens A, B, and D, a feeding path is shown above.
+There isnofeedingpathingardenC, though.Suchapathwouldhavetoincludethepartsshownabove. Now, theturtlestillneedsto finda pathacrossthesixremaininggrasssquares,startingat oneendoftheshownpartandendingat theother, whilevisitingallsixsquaresexactlyonce.However, thereisnosuchpath.Lettheturtlestartonthelowerleftofthesixsquares;itissufficienttoconsiderthiscase,duetosymmetry.Seebelowallpathstheturtlecantake onthesixsquares,visitingasmanysquaresaspossible,buteachsquareatmost once. None of these paths ends at the upper left square.
+It’s Computational Thinking:
+Theturtleswant tofindapaththroughtheirgarden,visitingeachgrasssquareexactlyonce.Thisproblemis quite well knownin informatics– notas theturtleproblem,butas"Hamiltonianpathproblem".Aturtlegarden(thegrasssquares,thatis)canberegardedthisway:Eachgrasssquareisanode(depictedasdot),andeachpossiblewayfromonesquareto thenext is anedge (depictedasline).Forsuchkindofstructures(calledgraphsbycomputerscientists,andbymathematicianseither),inthe19thcenturySirWilliamRowanHamiltonwonderedwhetherthere wouldbea cyclepathalongtheedges,visitingeachnode(otherthanthestartingnode)exactlyonce.This"Hamiltoniancycleproblem"isveryhardtosolveingeneral;thesameholdsforthe"Hamiltonianpathproblem",thatdoesnotrequire thepathvisitingallnodesexactlyonceto bea cycle.Ininformatics,there isnoknownalgorithmthat, for arbitrary graphs,canefficiently(i.e.withinreasonabletime)decide whether there is such a "Hamiltonian path" for the graph or not.
+January  2022 Page |30
+
+===== PAGE 32 =====
+Robot
+Ram,abeaver, isatennisplayer. Heprogrammedhisrobottopickuptennisballsthat endup scattered on the court, and put them into a basket at the back of the court.
+Here is the flowchart of this program:
+Ramthrowsaballonthecourttotesthisrobot.Unfortunately,aftersomeactions,therobotstays in the middle of the court where the ball was, and is holding the ball but not moving.
+Question:
+What is the first step that the robot failed to perform?
+A. “Wait for a ball on the floor!”
+B. “Go to the ball!”
+C. “Pick up the ball!”
+D. “Go to the basket!”
+January  2022 Page |31
+
+===== PAGE 33 =====
+Answer:
+The correct option is d.
+Explanation:
+Lets understandtheobservationsmadeby Ram.Ramobservedthat therobotis in themiddle of the court, holding the ball.
+Thismeanstherobotsucceededinwaitingforaballonthefloor,thenmanagedtogototheball,andfinallymanagedtopickuptheball.However, therobotstays inthemiddleofthecourtwheretheballwas,andstillholdingtheball,soitfailedtoperformthenextstep:gotothe basket!
+ It’s Computational Thinking:
+Thistaskfocusesonlogicalreasoninganddebugging.Debuggingisaprocessoffixingabugorremovingerrors intheprogram.Thisactofdebuggingbeginsaftertheprogramfailstoexecuteproperly. Asadeveloper/programmer, onemustbeabletoidentifythepartofcodethat needs improvement.
+Oncetheincorrectpatch of theprogramis identifiedit becomesconvenient for theprogrammer to change the code and apply the patch to the main program.
+The main program is then validated.
+January  2022 Page |32
+
+===== PAGE 34 =====
+Farmer Beaver
+FarmerBeaverMaheshgrows wheat inthefieldsshowninyellowinthemapbelow.Unfortunately, weedsgrowinnearbyfieldsshowninbrown.Maheshonlywantstoirrigate
+thewheat fields . Hecanblocksomeirrigationchannelscomingfromthelake at thespots marked with the letters A to J:
+Question:
+At whichspotsmust Maheshblockthechannelssuchthat allwheat fieldsareirrigated,butnone of the others?
+a) A C D I b) B F E J c) B H I J d) B F H J
+January  2022 Page |33
+
+===== PAGE 35 =====
+Answer:
+The correct answer is d) B F H J
+Explanation:
+The channels should be blocked at the following spots: B, F, H, and J.
+Ifthegatestherearenotclosed,thewaterwillreachthefieldswithweeds.Ifmoregatesareclosed, then some wheat fields will get no water.
+If we review all spots:
+A must be open to irrigate for field 1B hastobeclosedtoavoidirrigatingfield2.Italsobringswatertofield3—butthisfield can also get it through CC must beopenbothforfield4andforfield3,whichcannotbewateredthoughAsince B is closedD must be open for fields 7 and 8E must also be open field 7F must be closed to prevent the irrigation of field 5G,ifclosed,wouldonlypreventfield3frombeingwateredandthusmustbeopenaswellHmust alsobeclosedevenifFisalsoclosed,aswatercanflowfromtheopenDandEI must be open for field 11J, finally, prevents fields 9 and 10 from getting irrigated 
+ It’s Computational Thinking:
+Inthistask,waterflows tothefieldsbasedonanumberofconditions.Forinstance,waterflows to field7 if bothDandE are open.Waterflows tofield3ifGisopenandeitheroftheseconditionshold:(1)Cisopen;or(2)bothAandBareopen.Thesetypesofcompound
+January  2022 Page |34
+
+===== PAGE 36 =====
+conditionsare formedwiththebooleanoperatorANDiftwogatesareoneaftertheotheronthesamechannel,andwithoperatorORifwatercanflowtothesamedestinationfromtwoseparatechannelsegments.Suchaconditionisalwayseithertrueorfalse.Itisknownasa boolean value, or simply as a boolean.
+Inprogramming, booleansareubiquitous.Commonusagesincludetheifstatement,foundinvirtuallyallprogramminglanguages,usedtocheckthat acertainconditionistruebeforeexecuting a series of instructions.
+January  2022 Page |35
+
+===== PAGE 37 =====
+Bank Lock
+In the Bebras Bank, the passcode to the safe is a combination of three out of eight symbols:
+1 2 3 4 5 6 7 8
+The passcode automatically changes every day.
+To change the passcode, each symbol is shifted to the right. That is:
+The symbol is replaced by the symbol right to it.
+The rightmost symbol is replaced by the leftmost symbol.
+For example:
+If on Sunday the passcode is ,
+on Monday the passcode will be .
+Last Sunday, a bank manager set the passcode to
+Then,hewrote a list ofpasscodesforsomedays ofthefollowingweek.Buthemadeonemistake.
+Question:
+Which of the passcodes is WRONG?
+A. Wednesday:
+B. Thursday:
+C. Friday:
+D. Saturday:
+January  2022 Page |36
+
+===== PAGE 38 =====
+Answer:
+Correct answer is D.
+Explanation:
+Hereishowthepasscodereallychangesdaybyday(thenumericalpositionsofthesymbolsare given in braces):
+The passcode on Sunday (524)Wednesday (857)Thursday (168)Friday (271)Saturday (382)Therefore,thepasscodeinanswers A, B, andC are correct.InanswerD, thepasscodeonSaturday should be(382), instead of(413).
+It’s Computational Thinking:
+Didthebankmanagers regardtheirsystemofpasscodechangesassafe?Ifsomeoneknewthesymboltable,andwouldobserve theuseofa fewcodes,shewouldeasilybeabletodiscover the system and crack the code.
+Whilebanks needtokeepmoneysafe,otherswanttokeepinformationsafe,thatis:hiddenfromothers.Inhistory, peopleutilizedvariousencryptionmethodstokeeptheirmessagessecret toothers.OneexampleistheCaesarcipher:thismethodsubstituteseachletterofamessagebyanotherletter,somefixednumberofpositionsdownthealphabeticalorder.Thismethodturnedouttobeunsafeandeasytocrack.Relativelyfewencryptedmessagesneedto be observed in order to discover the system.
+Moderncomputingusesmodernencryptionmethodstosafeguardimportant information.Theirdesignisverydifferent fromthat ofhistoricmethods:Theirsystemiswell-known,butisbasedonmathematicalpropertiessuchthat itcanbeproventhat theyareat least veryhard to crack.
+January  2022 Page |37
+
+===== PAGE 39 =====
+Cuckoo Birds
+Spotted cuckoo birds don't build nests. Instead, they move into empty nests.
+When a spotted cuckoo bird finds a tree with empty nests, it moves into a nest as follows:
+It starts at the bottom of the tree. It repeats the following steps until it finds an empty nest:
+1. It goes up until it encounters a nest.
+2. If the nest is empty, it moves into the nest. Done.
+3. If the nest is occupied, the bird looks at the cuckoo bird in the nest: if the other bird
+○ has more spots, the bird continues to the left.
+○ has the same number or fewer spots, the bird continues to the right.
+There is a tree with five empty nests, and there are five cuckoo birds.
+Thebirdsmove into theemptynestsinorderfromlefttoright;thebirdwithfourspotsisthe first.
+Question:
+January  2022 Page |38
+
+===== PAGE 40 =====
+Which bird will move into the highest nest?
+A B
+C D
+January  2022 Page |39
+
+===== PAGE 41 =====
+Answer:
+Answer D is correct: the bird with three spots.
+Explanation:
+The first bird, with four spots, moves into the lowest nest.
+Thesecondbirdhastwospots.Thelowestnestisoccupiedbythefirstbird,withfourspots.Sincefourismorethantwo, thesecondbirdcontinuestotheleftandmovesintothenextempty nest.
+Thethirdbirdhasthreespots.Sincefourismorethanthree,thebirdcontinuestotheleft.Thenext nest isoccupiedbythesecondbird,withtwospots.Sincetwoislessthanthree,thebird continuesto theright,andmovesintothenext emptynest –whichisthehighestnest.
+It’s Computational Thinking:
+Assigningbirdstonestsinthiswayhasaninterestingadvantage.Itmakesfindingparticularbirdsquite efficient. If thebird youare lookingforhasfewerspotsthanthecurrent birdbeingobserved,lookintheleftportionofthetree.Otherwise,checktheportionofthetreeto theright. By repeatedlysplittingthetreein half, thebird youare lookingforcanbequickly found.
+Thisstructuredway oforganizingdata is calleda binary searchtree.It is oftenusedincomputer applications when it is necessary to be able to quickly retrieve data.
+January  2022 Page |40
+
+===== PAGE 42 =====
+Arranging Shapes
+Rinki the beaver played with her shapes board game.  The board is divided into squares.
+Initially, she placed shapes in each square, like this:
+Then she swapped pairs of shapes, that is: made the two shapes exchange their positions.She made four swaps, in this order:
+1 2 3 4
+Question:
+What will be the position of after the last swap?
+A B C D
+ 
+January  2022 Page |41
+
+===== PAGE 43 =====
+Answer:
+The correct answer is option C.
+Explanation:
+The task involves swapping of only five shapes. So we can ignore the shapes not involved.The initial positions of the five involved shapes are shown below:
+After the first swap after swap 2 after swap 3 after swap 4
+ 
+ It’s Computational Thinking:
+CS: Algorithms and programs
+Thistaskfocusesontheswappingfunction.In computer programming, a variableis amemory allocationthat canholdinformation.Swappinginvolvesexchangingthevaluesofany two variables of compatible datatype.
+Forexample,if A isa variablethat holdsthevalue“Name”andBisanothervariablethatholds“Date ofbirth”. Aftertheswapfunctionisperformed,variableA willhold“Date ofbirth” and B will hold “Name”.
+Thesesteps oftheswapfunctioncanbeusedforsortingagivensetofdatainanyordersayascending or descending order.
+January  2022 Page |42
+
+===== PAGE 44 =====
+The gift
+Bela's mom bought a present and locked it in the safe.
+Shegave Belaa blueballandsaid:“Youcanhavethegiftifyoucansolvethepuzzleand get the key that is in the middlemost drawer. “
+ToopenadrawerBelamustputanobjectofthecorrectshapeinthekeyholeonthedrawer.Thenthedrawerpops openandshecanget theobjectwhichisshownonthefront ofthedrawer and lies in the drawer.
+Question:
+Which drawers in the right order when opened will help get the key ?
+A. → → → → →
+B. → → → →
+C. → → → → →
+D. → → → → →
+January  2022 Page |43
+
+===== PAGE 45 =====
+Answer:
+The correct answer is c) → → → → →
+Thetaskistofindapathbetweenthecircle(ball)tothemoonasthekeyholeonthedrawerthat contains the key is in the shape of a moon.
+→ → → → →
+Explanation:
+To findthesolutionit helps to drawtheobjectsandarrows (directedgraph)torepresentwhat object is needed to get the object from a drawer.
+January  2022 Page |44
+
+===== PAGE 46 =====
+You can use backtracking from the moon to the circle to help you to find the correct path.
+→ → → →
+ It’s Computational Thinking:
+Graph is a diagram or pictorial representation of connection between two or more things.
+Theobjectsanddrawers describea directedgraph:Eachobjectisa vertex connectedbyedgestorepresentrelationshipsbetweenobjectsandwhatobjectgivesanotherobjectfromthe drawers. Representing information using a graph helps to see the structure of a task.
+In graphs it is also possible to use backtracking to find the solution.
+It is also important to be able to recognize pattern and shapes.
+January  2022 Page |45
+
+===== PAGE 47 =====
+Kayles pins
+Ann and Bob put four bowling pins in a row, beside each other.
+Ontheirturn,they caneitherdropasinglepinortwoadjacent pinsinoneshot(theycanalways choosewhichpin(s)toknockdown).Whoeverdropsthelastpinwins.BothAnnandBob can ensure their victory if they always choose well.
+Question:
+Consideringthat Annplays first, whichpinor pinsshouldshedropfirst to ensure hervictory?
+Choosetheonlyright answer amongthesefour. (Becareful:in thefigures, a circlerepresents a pin that Ann has knocked down)
+A B C D
+January  2022 Page |46
+
+===== PAGE 48 =====
+Answer:
+The only correct answer is D.
+Explanation:
+Let’s number the pins from left to right.
+A. If Annknocks downthefirst pin,Bobwinsbydroppingthethirdpin.(Mirroring, ifAnnthrew down the fourth pin … )
+B.IfAnnknocksdownthefirsttwopins,Bobwinsimmediatelybydroppingthelasttwopinsleft standing. (Mirroring, if Ann knocked down the last two pins … )
+C. If Annknocks downthesecondpin,Bobwinsby droppingthethird pin,asincaseA.(Mirroring, if Ann knocks down the third pin … )
+D. Bydroppingthepair“secondpinandthirdpin”, Annleavesonlytwodetachedpins;Bobcan not help but knock one of them down, leaving the other to Ann!
+ It’s Computational Thinking:
+Kaylesisanimpartial(combinatorial)game(i.e.,a gamecharacterizedbynodistinctionof“material”andnopossibilityofa draw)inspiredby Henry E. Dudeney (TheCanterburyPuzzlesandOtherCuriousProblems,Heinemann,London1907,PuzzleNo.73).Thename“kayles” comes from the French “quilles”, which means “bowling”.
+Ingeneral,givenarowofn(>0)bowlingpins,thetwoplayerstaketurnstoknockouteitheronepinortwo adjacent pins,untilallthepinshave fallendown.Underthenormalplayconvention,whothrows downthelast pinwins;inthiscase,thefirst playerhasawinningstrategyforany rowofn (>0)pins.Indeed,thefirst playerensuresvictorybyleavingtheopponent twoequal(anddetached)setsofpins:ifnisodd,thefirstplayerthrowsdownthecentralpin;if n iseven,thefirst playerknocks downthetwocenterpins.Whateveractionthesecondplayerperformsononeofthetwosetsinthefollowingrounds,thefirst playerwill “copy” it onto the other.
+Kaylesis a specialcaseoftheso-called“octalgames”, that involve removingtokensfromheaps oftokens,possiblyarrangedin rows, stacks orotherforms,generallymodeledbymeans of a graph.
+But,takinga cuefromourtask,let’s seehow a more general finite “zero-sum”game,betweentwo opponents withperfectinformation,canbeanalyzed.Let’s drawthegametree,assuming, forexample,that Anndroppedthefirst pin(seesituationAinthefigureintheansweroptions);here’s howthegamecanevolvefromthispointon:Bobcanleavetwo
+January  2022 Page |47
+
+===== PAGE 49 =====
+adjacent pinsoronlyonepinortwo non-adjacent pins,asillustratedinthefigure below(where symmetrical situations are omitted).
+Theplayerwhoseturnitisinthefinalstate(fourpinsknockeddown)loses;weattributeanegativepoint tothisstate,then–goingupthetree–weassigntoeachstatetheminimumofthescoresofthestatesimmediatelybelow, changedinsign.Arrivingat therootofthetree,wewillknowwhohasthechancetowin;inthiscase,sincethevalueoftherootis1,thecurrent player(that is Bob)wins,whomust necessarilyleave two non-adjacent pins,since this is the only state that has a value of –1 for the opponent.
+SohereisconfirmedthatifAnnknockeddownthefirstpin,shewouldleaveBobthechanceofvictory. Theothersituationscanbeanalyzedinasimilarway. If, startingfromtherowoffourpins,weimmediatelyanalyzethecaseinwhichAnnknocks thetwopinsinthemiddleoftherow, we seethat thisisamovethat allows Anntowin,andthereforewecanavoidinspecting the other situations.
+January  2022 Page |48
+
+===== PAGE 50 =====
+Notetoteachers:theinformallydescribedprocedureistheso-callednegamaxversionofthewell-known minimax algorithm.
+Thisprocedureisquitegeneralfordealingwithawiderclassofgames,includingtic-tac-toeand chess; the final draw states are valued zero.
+Representingaproblemasagraphandtraversingitusingdifferentsearchalgorithmsisoneof the most important and widely used concepts in informatics and AI.
+We concludeby referringto thequestionoriginallyposedby Dudeney;there,thestartingrowconsistedof13pinsandthefirst playerdroppedthesecondpin(seethefigurebelow).What does the second player have to do now to ensure victory for himself?
+Thesecondplayermust make sure toleavetheopponent,soonorlater, twoequalsetsof(detached)groups ofpins;andtheonlyways toforcetheachievement ofsuchasituationconsist inknockingdowneitherthesixthpinorthetenthpin …Inordertogeneralizethesituationillustratedby Dudeney, onemust askwhat are thewinningmovesoftheplayerwhoseturnitis,whenheisfacingapinononesideandarowofm(>1)pinsontheother(in Dudeney’s question, m = 11).
+January  2022 Page |49
+
+===== PAGE 51 =====
+Raster
+Rasterimagesconsist ofsmalldotscalledpixels(pictureelements).Eachpixelrepresentsacertaincolor. Forexample,inablackandwhitepicture,eachpixeliseitherblackorwhite.Toavoidwastingdiscspacewhilesavingpicturesacompressionmethodapplies.Anexampleofsavinga picture ofletter“a”andemployedmethodisprovidedbelow. Thefirst numberineachrowalwaysrelatestotheamountofwhitepixelsatthebeginningoftherow.Ifthefirstpixel is black the row begins with a zero.
+Question:
+What picture is saved with the following code?
+155, 3, 74, 1, 3, 1, 63, 1, 5, 1, 52, 1, 7, 1, 41, 1, 4, 1, 4, 1, 31, 1, 3, 3, 3, 1, 31, 1, 4, 1, 4, 1, 32, 1, 7, 1, 43, 1, 5, 1, 54, 1, 3, 1, 1, 1, 45, 3, 3, 1, 312, 1, 213, 1, 115
+A B C D
+January  2022 Page |50
+
+===== PAGE 52 =====
+Answer:
+The correct answer is B.
+Explanation:
+To get to know the correct answer we do not need to check the whole code.
+Since the first row in all images is the same we can skip the first code line.
+Thesecondcodelinestartswith5.Thus,thesecondrowinpictureshouldstartwithwhitepixel.Iftherewasablackpixel,thenthecodewouldhavetostartwith0(accordingtotherule of the first black pixel in the row). But it would not, so option C is incorrect.
+Next two rows in the images A, B and D are identical, so we can also skip them.
+Thefifthcodelinehasfivenumbers butintheimageDtherearesevensegmentsofwhiteandblack.Fromanotherpointofview,rightinthemiddleofthiscodelinethereshouldbe1forblackpixellocatedinthecentre ofthefifthimageline–butthereis7.So, optionDisincorrect.
+Thesixthcodelinehassevennumbers butintheimageAthereareonlyfivesegmentsofwhiteandblack.Also, thecodelineshouldinclude9torefertoninewhitepixels,butitdoesnot. So, option A is incorrect.
+Thus,wehaveoptionBasthecorrectanswer. Formoreconfidence,wecancheckthesixthcode line for the sixth row in the image B as following:
+◦ 1 – one white pixel
+◦ 1 – one black pixel
+◦ 4 – four white pixels
+◦ 1 – black pixel
+◦ 4 – four white pixels
+◦ 1 – one black pixel
+◦ 3 – white pixels
+ It’s Computational Thinking:
+Rasterimagesare representedonscreenassmalldotsinformofsquare.Thosedotesarecalledpixels.Insteadof storingimage as it is, computers usedifferent compressionalgorithmsto reducetheamount ofstoredinformation.Forexample,lossyalgorithmsare
+January  2022 Page |51
+
+===== PAGE 53 =====
+basedonthehumanpsychovisualsystemfeaturetodiscardshigh-frequencyinformation,i.e.sharptransitionsinintensity, andcolourhue.Although,high-frequencyinformationwillnotbesaved,thequalityofimagewillremainhigh.Also,thesizeofthesefileswillbereduced.Itispossibletochangequalitylevelbutlowlevelmayleadtoartefactsappearance.JPGisoneof the most popular raster image formats.
+Anothertypeofdigitalgraphicsisvectorimage.Thisisdrawnbylines(paths)withastartingandendingpoints.Eachpathisrepresentedasa mathematicalexpressions.SVGisoneofthe most popular vector image formats.
+January  2022 Page |52
+
+===== PAGE 54 =====
+Hashing
+TarunaccompanieshisoldersisterShrutito theBebrasPublicLibrary. Thelibraryonlyhasonehuge shelf. They want to borrowthebook“ConstructingDamsforBeginners”. Whenthey arrivedShrutigoesstraight tothebookshelfandpullsoutthecorrectbook.“Howdidyouknowwhere thebookwas”, Tarunaskedsurprised.Shrutismiledandshowedhimtwopieces of paper:
+“Itookthefirst letters ofeachwordinthetitleandconvertedthemintoanumberusingthetable.ThenI multipliedthenumberofthefirst letterby 2 andaddedthenumberofthesecondletter. I thenmultipliedtheresultby 2 andaddedthenumberofthethird letter.FinallyI multipliedthat resultby 2 oncemore andaddedthenumberofthelast letter. Ilookedintherowofthesecond-to-last digitandinthecolumnofthelastdigitforthebook.It wasvery easy to findthecorrectbookfromthethreebooks that are there,”explainedShruti.“Butwhat aboutnumbers greaterthan99,”askedTarun.Shrutireplied:“Ijustignoreall digits except for the last two.”
+Question:In which bay can you find the book “How to Avoid Falling Trees”?A. [row 3, column 2]B. [row 3, column 4]C. [row 2, column 4]D. [row 2, column 6]
+January  2022 Page |53
+
+===== PAGE 55 =====
+Answer:
+The correct answer is C: [row 2, column 4]
+Explanation:
+The correct answer is that the book is in the bay in row 2 and column 4. The calculation is:
+ It’s Computational Thinking:
+Behind the algorithm of the Bebras Public Library is a concept called “hashing”.
+If nosystemisbehindthebookshelfa(linear)searchofeverybookwouldbenecessarytofindthebook.Onaverage youwouldhave to check50%ofallbooks to findthedesiredbook.ImaginesearchingtheLibraryofAlexandria(~100’000books),theLibraryofCongress(~38’000’000books)orevenjust yourlocaloryourschool’s library. Theproblemnotonlyexists forlibraries.Bigpharmaciesalsoneedto have a systemto store andretrieve theirmedicine.Inthelast fewyears moreandmorepharmaciesareadoptingautomatedstoringsystems.For thema systematicorderfor instanceby typeofmedicinedoesn’tmatter.Instead they look for an even distribution of the shelf.
+Heretheconcept of“hashing”comesintoplay.Ahashvalueisa valuecalculatedviaa hashfunctionfrompropertiesofanitem.Inthecaseofthistaskthetitleofabookistransformedinto two digitsthat makeuptherowandthecolumnofabayin theshelf. Ofcourse,different books canendupwiththesamehasvaluelikethebooks “TreeBarkGourmetGuide”andTasty Treesto GnawOn”. There are different ways ofdealingwithsuchaconflict.Onewayistosimplyputseveralitemsintothesameplacelike ina bay intheshelf. Ifthat’s notpossiblethenext empty placeis chosenoranempty placen placesaway to have a more evendistribution.Whensearchingforsaiditemsimplythesamenumberofplacesischeckedalsountilanemptyplaceisfound.To eventuallyfillupallplacesnischosentocoprimetothenumber of places (like the number 7 in the example below).
+January  2022 Page |54
+
+===== PAGE 56 =====
+Necklace Instruction
+Youlikeverymuchtodesignnecklacesfrombeadswithvariousshapesandyouwouldliketoeasilyshare yourdesignwithyourfriendsusinga compactrepresentation.Eachshapeisdescribed with a single bead letter (S for star, T for triangle, R for rectangle and L for line).
+Insteadofjust writingdownthesequenceofbeadsinthenecklace,youusethefollowingrules:
+● if there are severalidenticalbeadsfollowingeachother, just write thenumberofbeads followed by the bead letter
+● if there is a repeatingsequenceof beads,just write thenumberofrepetitionsfollowed by the repeated sequence in parenthesis
+● otherwise, just write the bead letter
+For example, for the following necklace:
+one of possible descriptions may be: S3(TR)3SL with the length 9.
+Question:
+Howmany symbolsare there intheshortest representationforthefollowingnecklace?(asymbol is either a digit, a letter or a parenthesis)
+A. 12 B. 13 C. 14 D. 15
+January  2022 Page |55
+
+===== PAGE 57 =====
+Answer:
+The correct answer is proposition B.
+Explanation:
+There are many possibleways to represent thisnecklacedependingonwhetheryouusestar-triangleor triangle-star as the repeated pattern.All of themgive a differentrepresentation, the first two results below are the shortest:
+● S2RT3S3(ST)4L with 13 symbols,
+● SRRT4STSTST4L with 13 symbols,
+● and S2RT4S2(TS)T4L with 14 symbols.
+It’s Computational Thinking:
+Thistaskisrelatedtothedatacompressionfieldfromtheinformatics.Theideaofthisfieldis to designtechniquesto make it possibleto represent andstore data usingthefewestpossibleamount ofmemory, whilebeingableto recovertheoriginaldataat anytime.Allthesetechniquesusethesameobservationwhichis to identify redundancyin ordertorepresent it in a more compactway. Thisis exactlywhat happensinthistaskwhentherepetitionofbeadsare representedina more shorterway thanbyexplicitlyenumeratingthe repeated bead or sequence of beads.
+January  2022 Page |56
+
+===== PAGE 58 =====
+Meeting race
+Two friendsneedtomeet urgently- seethemapbelow. Theycanwalkfromasquaretoahorizontallyorverticallyadjacent square inexactlyoneminute.Iftheyreachabikeorcarthey canuseit totravelfaster–2squaresinoneminutewithabike,5squareswithacar.They cannot travel over water.
+Question:
+What is the minimum number of minutes they need to end up on the same square?
+a) 6 b) 5 c) 4 d) 3
+January  2022 Page |57
+
+===== PAGE 59 =====
+Answer:
+The correct answer is c) 4.
+Explanation:
+The correct answer is 4. This can be achieved by the route shown below:
+(Anotheroptionistotaketheleftmost bikeandcycletotheleftmostcarandthencontinueas above.)
+To see why 3 minutes are not sufficient, you can reason as follows.
+Althoughin 3 minutesyoucanreachthecarontheleft,there isnotimeleftto drive itanywhere.Andthatpositioncannotbereachedinthreeminutesbytheotherperson.Sothecars are of no use and we may as well remove them from the map.
+Thetwofriendsaremorethan5minutesawayfromeachotheronfoot,sotheyneedabike.Infact,bothneedabikebecausetheyareseparatedbymorethan9positions.Butfindingthat bike costsoneminute andwithonlytwo minutesleftthey cannotreacheachother,even by bike.
+ 
+January  2022 Page |58
+
+===== PAGE 60 =====
+ It’s Computational Thinking:
+Howdidyougo aboutsolvingthistask?Didyoufindashortroutebyaccident andhopedthat noshorterroutecouldbefound,ordidyoutryoutdozensofdifferentpossibilitiesandremembered the shortest time?
+Acomputerprogramthatisdesignedforthiskindoftasks,woulduseasystematicapproach,most probablyusinganalgorithmcalled‘breadth-first search’. Forthistask,thiswouldbedone as follows:
+1. Mark all squares on the map that can be reached by either friend in one minute.
+2. Markallsquaresthat canbereachedin(at most)oneminute fromthepositionsyoumarked in step 1 and keep track of which kind of transportation you were using.
+3. Mark all squares that can be reached in one minute from the squares marked in step 2.
+January  2022 Page |59
+
+===== PAGE 61 =====
+Becausethetwoareasthat wehavemarkeddonotoverlap,youseethatthefriendscannotyet reach each other in 3 minutes.
+4.Doonemorestep:markallsquaresthat canbereachedinoneminutefromthesquaresmarked in step 3.
+Nowthetwo regionsthat we have markedoverlap(inonesquare)indicatingthat after4minutes the two friends are able to meet.
+Youareprobablyfamiliarwithsoftwarethatfindsthefastestroutebetweentwoplacesonamaptakingcareonlytofollowroadsandnotdrivethroughmountainsandrivers. Thistaskisverysimilarbutnowtwopersonsmovetowardseachotherinsteadofonepersontowardsa fixed position.
+Becauseofthesystematicway inwhichthesearchforasolutionisdone,acomputerwilloftenfindsolutionsthat are notobviousat first – sometimesa detourwithfewertrafficlightscanbeabetteroptionthanadirectroad,orapublictransportroutewithseveralquicktransfers turns out to be faster than a direct bus.
+January  2022 Page |60
+
+===== PAGE 62 =====
+Incomputersciencevariousmethodsareknownforfindingthebest solutiontoaproblemlikethis.Apartfromthedepth-firstsearchmethoddescribedabove,thereisalsothebranchandboundtechnique,whichisquite similarbutuseswell-reasonedshortcutstospeedupthesearch:if we have alreadyfounda prettygoodsolutionthenwe may discardoptionswhich we know cannot produce a better solution than the best one found so far.
+Whenaproblembecomestoocomplex,goingthroughallpossiblesolutionstofindthebestonewilltaketoolongevenforafast computer. Andinpracticeitisoftensufficienttofindaverygoodanswerevenifitisnotthebest possible.(Ifyoucanreachyourdestinationin78minutesyouare probablynotmuchbotheredby thefactthat thereisanotherroutethatcould have taken you there in 77.)
+Onetechniquethat isusedinthat case,isthemore intuitive greedyalgorithm,whichateachstepchooseswhat seemsoptimalat that timeanddoesnotlookaheadatwhatcouldhappeninfurthersteps.Inourtaskthatwouldmeanthatthetwofriendsalwaystakeastepthat bringsthemclosertogether, whichinthiscircumstanceisnotagoodstrategybecausethentheywouldgoonfootmost oftheway. Therearehoweverothertypesofprobleminwhichthisgreedystrategyproducesreasonablygoodsolutions.Anditismuchfasterthanthe other methods.
+January  2022 Page |61
+
+===== PAGE 63 =====
+Find animal
+Wecanfindananimalnamebyrepresentationofthepositionoftheletterinthetable.Forexample  having a schema
+we can find a word PANDA, you can see in the table below:
+Question:
+Find the name of an animal in the table above represented by the following schema:
+A. ELEPHANTB. SQUIRRELC. TORTOISED. ANTELOPE
+January  2022 Page |62
+
+===== PAGE 64 =====
+Answer:
+SQUIRREL is correct answer
+Explanation:
+Witha givenschemawe have to go throughallthetabletofindwherewehavetoputit,that we gotnotmixedset oftheletters butoneofthepossiblewords.Accordingto theschemaparameters (height is3cellsandwidthis4cells)wecanseethat wehavetocheckall thepossibilitiesonthefirst line,countingfromthebottom(7 options)andallthepossibilitiesonthesecondline,therearealso7options.Inthirdlineourschemadoesn'tfit,becauseit'sheight is3cells.Soduringthisprocessinthefirstline,startingwiththirdcellwefound the word SQUIRREL.
+ It’s Computational Thinking:
+Thetaskisaboutgridofletters(two-dimensionalarray)andsearchingcontinuoussequenceofpositionsaccordingto thepattern.Usingprogrammingpatternsisvery commonwhencreating various programs.
+January  2022 Page |63
+
+===== PAGE 65 =====
+Hercules and Hydra
+BeaverBabloohasa treein hisgarden.Unfortunately, thetreehasa diseaseandallitsleavesdiedandturnedbrown.NowBablooneedstocutoff allthebrancheswiththedeadleaves. Then the tree can grow new branches with healthy leaves.
+Inthepicture,thenumbers showthetimeneededtocuteachbranch.WhenBabloocutsalargerbranch(forexample,thebranchmarkedwith5 insidethegreenellipse),allleavesattachedtoitfalldownandthenBabloodoesnotneedtocutallthesmallerbranches(theones marked with 1 and 3 inside the ellipse) one by one.
+Question:
+What is the shortest time Babloo needs to cut off all branches with dead leaves?
+A. 19 B. 20 C. 22 D. 25
+January  2022 Page |64
+
+===== PAGE 66 =====
+Answer:
+The correct answer is B.
+Explanation:
+Thepicturebelowshows howtoachievetheoptimalresult(thebranchestocutareshownin red).We canviewthetree(theplant)asa datastructure that is alsocalledtree.Tree as a datastructure is a typeofanotherdata structure calledgraph.Withthisinterpretation,thetaskistofindtheminimalweight of edges separatingall theleavesfromtheroot.Thisis a standard problemingraphtheory knownas theminimalcut(ormin-cutforshort)andcanbesolvedby variousstandard algorithms(Ford-Fulkesronalgorithm,forexample).
+However, there isamuchsimplerspecialalgorithmforfindingmin-cutbetweentheleavesandtherootofatree.Wecanstartmovingfromleavestowardstherootandrecalculateforeach edge whether it’s optimal to cut this edge or not.
+Let’s illustratetheprocess.Initiallywestartfromleaves.Foreachleafwecutthebranchitison, thus the initial estimate is
+1 + 3 + 1 + 3 + 3 + 5 + 2 + 1 + 3 + 2 + 1.
+Nowwemovetowardstheroot.Ineachmovewecaneitherleavethe“old”cuts,orreplacethem by cutting a single larger branch.
+The second iteration: 1 + 3 + min(5, 1 + 3) + min(4, 3 + 5) + min(5, 2 + 1) + min(5, 3 + 2 + 1) =1 + 3 + 4 + 4 + 3 + 5.
+The third iteration: min(9, 1 + 3 + 4) + min(8, 4 + 3) + 5 = 8 + 7 + 5.
+Now we reached the root of the tree, hence the final answer is 8 + 7 + 5 = 20.
+ It’s Computational Thinking:
+Treesare important data structures in computer science.Moreover, there are somecontemporaryalgorithmsthatusetrees,likedecisiontreesinrandomforest.Findingminimalcutofadirectedgraphallows toalsofindthemaximumflowinthisgraph,whichiswidelyusedin logistics.It helps to determinethemaximumweight of goodsthat can betransported from thefactoriesto othercountriestakinginto account all meansoftransportation between major cities and their capabilities.
+January  2022 Page |65
+
+===== PAGE 67 =====
+Spider Quilts
+When Veena sees an interesting web she uses it to design a new quilt.
+Shenumbers theweb'sanchorpointsfrom1toNandthenarrangessquaresoffabricintoan N-by-N grid as follows:
+Forevery pieceofsilk,if itsanchors are numberedX andY, sheplacestwo dottedfabricsquares in her grid:
+○ One dotted fabric square is placed where row X and column Y meet.
+○ Another dotted fabric square is placed where row Y and column X meet.
+The rest of the grid is filled using solid fabric squares.
+For example, the spider web on the left inspired the quilt on the right.
+Veena now sees the following web and wishes to design a new quilt:
+Question:
+What might her quilt look like?
+A B C D
+January  2022 Page |66
+
+===== PAGE 68 =====
+Answer:
+The answer is Option A.
+Explanation:
+The web has silk joining anchor 1 with anchors 3, 5, and 6. So the first row of the quilt willhave dotted fabric in columns 3, 5, and 6.
+The web has silk joining anchor 2 with anchors 4 and 7. So the second row of the quilt willhave dotted fabric in columns 4 and 7.
+The web has silk joining anchor 3 with anchors 1 and 6. So the third row of the quilt will havedotted fabric in columns 1 and 6.
+The web has silk joining anchor 4 with anchors 2, 6, and 7. So the fourth row of the quilt willhave dotted fabric in columns 2, 6, and 7.
+The web has silk joining anchor 5 with anchor 1. So the fifth row of the quilt will have dottedfabric in column 1.
+The web has silk joining anchor 6 with anchors 1, 3, and 4. So the sixth row of the quilt willhave dotted fabric in columns 1, 3, and 4.
+The web has silk joining anchor 7 with anchors 2 and 4. So the seventh row of the quilt willhave dotted fabric in columns 2 and 4.
+OptionB is incorrectbecauseit ismissingdottedfabricinrow1 column6 andinrow6column1. OptionC is incorrectbecauseit hasdottedfabricincorrectlyplacedinrow1column1,row4column4,andinrow7column7.OptionDisincorrectbecausetheentirequilt pattern is rotated 90 degrees.
+It’s Computational Thinking:
+Thespiderwebcanbeconsidereda graph,a concept that is oftenusedin computerscience.A graphis composedofvertices(theanchorpoints oftheweb)andedges(thepiecesofsilkbetweentwo anchorpoints).Graphsare usedto represent objectsandtherelationships betweenobjects.Forexample,agraphcouldshowpeoplewhoarefriendsonsocialmedia,or flights betweencountries.In thistask,Wanda'squiltdemonstratesanalternativewaytorepresent agraph,knownasanadjacencymatrix.Adjacencymatricesareusefulrepresentationssincethey provideanefficient way to answerquestionsaboutthestructure of a graph.For example,doesa particularedge exist?andhow many edgesconnect to a given vertex?
+January  2022 Page |67
+
+===== PAGE 69 =====
+Do they meet
+Onthelake,beavers cangofromonelilypadtoanotheronlyinthewaythearrows show.Bob starts on pad A1, and Nora starts on pad H3.
+Question:
+Is it possible that the beavers meet each other? If yes, where may they meet?
+A. No, they cannot meet.
+B. Yes, they may meet on pad C2.
+C. Yes, they may meet on pad F4.
+D. Yes, they may meet on pad C5.
+January  2022 Page |68
+
+===== PAGE 70 =====
+Answer:
+The correct answer is D: The beavers may meet on pad C5.
+Explanation:
+At hisstartingposition,Bobhastwooptions:Ifhegoes“up”,thenhemayeitherrunintothedeadendat A3orget stuckintheloopthat beginsat B4.Ifhegoes“right”(toB1),hecancontinuesto D3.At D3hemay eithergo “left” into a loopthat willtake himbackto D3eventuallyorgo“up”, whichmakeshimendupat C5,anotherdeadend.Noraalsohastwooptionsat thestart.If shegoes“down”, shewillruninto thedeadendat G2.Ifshegoes“up”, shewillreachG3.Fromthere shemay eitherrunintotheG2deadendagain,orgo“left”andreachE5eventually. ThereshemayeithergointoaloopthatwilltakeherbacktoE5againorreachanotherdeadendatC5.Aswealreadyknow,BobmayreachC5aswell,sowecanseethattheymaymeetatC5.Thepictureshowsthewaysalongwhichtheybothcanreach C5.
+Butthisdoesnotyet fullyguaranteethat theycannotmeet at F4orC5either.Thenextpictureshowsthesetof padsthat Bob(white)andNora (darkgray) mayreachbyfollowingthearrows inanypossibleway.Wecan see that C5 is the only pad common to both sets.
+ It’s Computational Thinking:
+Let ustake a closerlookat how we createdthelastpicture. For eachbeaver, we followedthearrows. Iftherewasadeadend,oraloopwasdetected,wewentbackto themost recent fork,in orderto chooseanotheroptionto proceed.Thus,we followed allpossibleways.Averysimilarprocedureisoftenappliedbycomputerscientistswhensolvingdifficultproblems.Theproceduretriestoconstructasolutionstepbystep.Often,thereareseveraloptionstochoosethenext step.Then,theprocedure willchooseoneoptionbutkeeptrackoftheotheroptionsaswell.Whenitrunsintoadeadend(andaloop,ifdetected,isadeadendaswell),it goesbackto themost recent choiceandtriesanotheroption.Thisalgorithmicalapproachtoproblemsolvingiscalledbacktracking;thisnamegivesaprettygoodindicationof how the approach works.
+January  2022 Page |69
+
+===== PAGE 71 =====
+Shop Counters
+A shophasfourbillingcounters numbered1,2,3,4.Eachcountercanhaveaqueueofatmost 4 customers, includingthecustomerbeingserved.Eachcounter canserve onecustomer at a time. It takes 2 minutes to serve a customer. Initially, only counter 1 is open.
+Whena customerwantsto pay thebill,hejoinstheendofthequeueat thefirst counterwhere the queue is not full. He first tries counter 1, then counter 2, etc.
+Ifthereisnospaceavailableinanyofthecounterscurrentlyopen,anewcounteropensandthecustomerjoinsthequeuethere.However, it takes1 minute to set upa counter, soittakes 3 minutes to serve thefirst customerat a newlyopenedcounter. Eachfollowingcustomer will be served in 2 minutes as usual.
+At a giventime,if there are customers wholeavetheirqueueafterbeingservedandnewcustomers whowant tojoinaqueue,youcanassumethat theservedcustomers leavefirstand create an empty space in their queues where new customers can join.
+Question:
+12customers arrive at thecounters, two at a timeeachminute (two customers arriveinitially, another two after 1 minute etc.). How long does it take to serve them all?
+A. 12 minutes B. 11 minutes C.  13 minutes D.  8 minutes
+January  2022 Page |70
+
+===== PAGE 72 =====
+Answer:
+The correct answer is C) 13 minutes.
+Explanation:
+Inthefollowingpictureyoucanfindthetimewheneachcustomercomes(withgreen)andthe time when they leave (with red):
+As you can see,leavingtimesineachcounterqueueispredictable,aseachcustomerleaves2minutesafterthelast one.Inordertosolvetheproblem,weonlyneedtokeeptrackofthesetimes(showninred),whichcan becomputedfor eachcustomer when he arrives.
+After 2 minutes, when2 newcustomers arrive, we can alreadyremove the first beaver fromcounter1 (ashehasbeenserved)andonenewcustomerjoinsqueuefromcounter1 andwillbeserved2 minutesafterthelast customerinqueue(8+2=10),whiletheothernew customers goesto a newlyopenedcounter(counter2)andwillbeserver 3 minutes after current time (2+3=5).
+After5minutes,queueswillbetheonesinorangerectangles.However,wewillneedtowaituntilthelast customerisserved,whichwillbethelastcustomerfromthesecondqueue,at13 minutes.
+Thus, the correct answer is C) 13 minutes.
+Answer A) is the time the last customer finishes in the first queue.
+Answer D) is the time the last customer finishes in the third queue.
+ It’s Computational Thinking:
+CloudservicessuchasGoogleCloud,AmazonWebServices,MicrosoftAzure,etc.,scaleuptheavailabilityofcomputingresourcesdynamically, basedontheusage requirementsofcustomers. Thisway, customers onlypay fortheresourcesthat they need.Thisflexibleprovisioning of resources is called dynamic scaling.
+January  2022 Page |71
+
+===== PAGE 73 =====
+Thistaskillustratesa simpleexampleofdynamicscaling.Here theresourcesare billingcounters. Keepinga billingcounter openrequires payingonemore staff member, forinstance,socountersareopenedondemand,asthenumberofcustomersgrows.Thiskeepsdown the cost when demand is low.
+In practice,dynamicscalingalsoinvolvesscalingdownwhendemanddecreases.In thecontext ofthistask,thiswouldmeana strategyforclosingcounters whenthenumberofcustomers starts to decrease.
+January  2022 Page |72
+
+===== PAGE 74 =====
+Jumping jack
+Jackisamonkeylivinginapark.Fromonetree,hecanjumptoanothertreeifit'seitherupto two cellsaway horizontallyorvertically, oronecellaway diagonally, asshowninthediagram.
+Jackplays agameinwhichhejumpstoasmanydifferenttreesaspossiblewithouttouchingthe ground. He can start from any tree in the park.
+Map of the park:
+ Question:
+What is the largest number of different trees he can visit in a day?
+A) 5 B) 7 C) 8 D) 9
+January  2022 Page |73
+
+===== PAGE 75 =====
+Answer:
+The correct answer is c) 8
+Explanation:
+Inthisdiagram,Jackcanvisitthe8 treesthat are coloredindarkblue.Wecoloredothertreeswithmultiplecolors,to showthedifferent groups oftrees.There are essentiallysixgroups of trees in the park.
+If Jackstartsona treewe paintedyellow, hecanreachallyellow trees, and no trees of other colors.
+How do we find such groups?Pickarandomtreeandcoloritasyouwish.Thenusethesamecolorforalltreesthat arereachablefromit.Andalltreesthatare reachablefromthosetrees,too.Andso on,until youcannotreachanyothertrees.Ifthereareanytreesyouhaven'tcoloredyet,takeanothercolorandstartagainfromarandomuncolored tree. Your coloring simulates Jack's exploring.
+ It’s Computational Thinking:
+Fromthepoint ofview ofInformatics,we are manipulatinga graph:thetreesare calledvertices,andwe connecttwo treeswithanedge whenJackcanjumpbetweenthesetwotrees. In the diagram below, we represent edges as black segments between trees.
+If there isa path,usingtheseedges,that allows Jacktogofromonetreetoanother, thenthesetwotreesbelongtothesamegroup.Wecallsuchgroups theconnectedcomponentsof the graph. Here we used a different color to represent each connected component.
+Theprocedureforcoloringissimilartoanumberofdifferentgraphalgorithmsthatdealwithsearching. Their fancy names are breadth-first and depth-first search.
+January  2022 Page |74
+
+===== PAGE 76 =====
+Upcycling
+Beavers hate waste.They like to useoldwornoutthingsasmaterialstomakenewusefulitems.Thisis calledupcycling.It is shownbelow what materialsare requiredto make awheel, a bicycle, a barrow, and a tricycle.
+Tyre       +         Iron bar Wheel
+2 Wheels          +           Iron bar Bicycle
+Tyre      +       Wood piece Barrow
+Wheel    +         Bicycle TricycleDurga lovesupcyclingandlikesto selltheitemssheis making.They canbesoldat themarket for these prices:
+Wheel: Rs. 100 Bicycle: Rs. 1000 Barrow: Rs 500 Tricycle: Rs 1500
+Question:
+Durgahasthesematerials:6tyres,6ironbars and2woodpieces.What isthemostmoneyshe can make by upcycling when she sells the items she makes?
+x 6 x 6 x 2a) 2500 b) 2600 c) 3000 d) 4000
+January  2022 Page |75
+
+===== PAGE 77 =====
+Answer:
+The most that Durga can make is c) Rs 3000
+Explanation:
+Itmight betemptingtothinkthat Durgashouldbuildatricyclebecausethisistheitemthatcanbesoldforthemost totalmoney. Ifshedoes,itrequires2wheelsandoneironbar(tomakeabicycle)andanotherwheel.The3wheelsneed3tyresand3ironbars.SothisleavesDurga with 3 tyres, 2 iron bars, 2 wood pieces.
+Now, Durga nolongerhasthethreeironbars neededto makeanotherbicyclesoshecanonlymakewheelsandbarrows.Sinceshehasthesamenumberofironbarsaswoodpieces,andbarrows canbesoldformore thanwheels,sheshouldthenmake two barrows.Thisuses 2 tyres and 2 iron bars, leaving 1 tyre and 2 iron bars.
+It wouldnow bepossibleto make a wheel,leaving1 ironbarwhichcannotbeusedforanything else.
+Thetotalvalueofitemsmadeis1tricycle+2barrows +1wheel=1500+1000+100=Rs2600. So Rs 2600 is the most money Durga can make if she builds a tricycle.
+But what if Durga does not build a tricycle?
+Durgacouldmaketwobicyclesusing2tyresand4ironbars,leaving4tyres,2ironbarsand2 wood pieces. Then, she could also make 2 barrows, leaving just 2 iron bars unused.
+Thetotalvalueofthissecondstrategyis2bicycles+2barrows=2000+1000=Rs3000.Thisis the maximum that can be earned given the resources available.
+Canyouconvinceyourselfthat nootherscenarioscanproduceitemswitha greatertotalvalue?
+ It’s Computational Thinking:
+Efficient useofresourcesisacommonprobleminsociety,thatcomputerscientistsareoftenaskedtowriteprogramstooptimise.Therearemanyalgorithmsused.Durga’sfirststrategywasa GreedyAlgorithm,socalledbecausethealgorithmalways triestomakethehighestvalueitemsfirst.Althoughthisworks insomecases,therearesituationswherepickingthehighest valueitemfirst,limitshowmanyotheritemsyoucanmakeanddoesnotgetyoutothe highest total value possible. This is the situation found in this question!
+January  2022 Page |76
+
+===== PAGE 78 =====
+Truchet tiles
+Thesepatternscanbecreatedwithjust onetile.Thetilesthat createdthepatternsshownall share an important property.
+Hint:  Pay attention to the sides of the tiles:
+Question:
+Which of the following tiles is lacking that property?
+A. 1 B.2 C.  3 D. 4
+January  2022 Page |77
+
+===== PAGE 79 =====
+Answer:
+Correct answer is c) Tile 3 lacks the property.
+ Explanation:
+Tiles1,2and4allhavesameandmatchingsides.Pattern3doesnot.Thetopandbottomsidefitnicelybuttheleftandright sidedonot.Forthat reasontheresultingpatternfromtile3doesnotlook as smooth as the ones above.
+Theimagebelowshows whichtilecancreatewhichpatternwhenaddingtileswithrandomorientation.
+ It’s Computational Thinking:
+Thesetilesare namedafterSébastienTruchet whoworkedonvariantsofthesetiles.Tileswith4samesidesformasubsetofTruchettiles(Truchettilesdon’tnecessarilyhavetohave4 same sides like in the three patterns above).
+Thefact that complex patternscan be created withvery simplebuildingblocks hasfascinated people for a long time.
+Truchet tilesare studiedin mathematicsandcomputer scienceandthey are usedincomputer games to generate mazes or decorations.
+January  2022 Page |78
+
+===== PAGE 80 =====
+Vaccination Centres
+Aregionhassixmaincities.Onlytwocitiescanhaveahospital.Whenpeoplefeeltheyneedclinicalcare,theyhavetoget toahospitalquickly. Themapbelowshowstheregionanditscities,withthetimes,inhours,neededto travelfromonecitytoanother. Sometimesyouhave to go through one city to reach another.
+Thetwocitieswithhospitalsmust bechosensothat peoplecanget toahospitalinaslittletime as possible.
+Question:
+One hospital is at city F. Where must the second hospital be placed?
+A. City A. B. City B. C. City C. D. City D.
+January  2022 Page |79
+
+===== PAGE 81 =====
+Answer:
+The correct answer is City B.
+Explanation:
+SinceonehospitalisplacedinthecityF, therearefivepossibilitiestoplacethesecondone.Foreachpossibility, we have to checktheminimumtimeneededtogofromeverycitytoanyhospital.Inthefollowingtable,thecolumnsshoweachpossibleplacement forthetwohospitals and the rows show the number of hours needed to reach the closest hospital.
+Minimumtimego from city...
+Locations of special hospitalsA and F B and F C and F D and F E and FA 0 2 3 3 5B 2 0 1 2 3C 2 1 0 1 2D 3 2 1 0 2E 1 1 1 1 0F 0 0 0 0 0Max 3 2 3 3 5Asshowninthelastrow,thelargestnumberofhoursneededtoreachahospital,placingthesecondonein cityB is thebest solution.Peoplein eachcitywouldbeableto reachahospital in no more than 2 hours.
+It’s Computational Thinking:
+Thistaskisrelatedtothevertexk-centerproblemwhichcanbesolvedbyusinganalgorithmdesignedbycomputerscientists.Givenaproblemthatcanberepresentedasagraph,thatisaset ofnodesthatcanbeconnectedtogetherwithlinksthathaveaweight(citiesandroadswithtraveltimeinthistask).Theproblemconsistsofchoosingknodesfromthegraph(2inthistask)soasto minimisethetime/distancefromany nodeofthegraphtoanyofthekselected nodes.
+Suchaproblemisverycommonwhentryingtochoosewheretoplacefacilitiessuchasfirestations,schools,policestations,etc.(orhospitalsinthistask).Thecriterionthat hastobeminimisedcanbethetimeneededto reachthefacilities,orthedistanceto traveloranyother criterion that is available.
+January  2022 Page |80
+
+===== PAGE 82 =====
+Symbol reading
+A robotstartsfromthepositionshownandmovesalongthelines.Therearethreesymbols, and onthelinesthat decidethedirectionitshouldtakeatthenextintersection.The robot must not reach the.
+Eachsymbolhasadifferent meaningandcouldmean:
+ turn leftat the next intersection, or
+ turn rightat the next intersection, or
+ go straightat the next intersection
+Unfortunately, we do not know which symbol means what.
+The symbol meaning remains the same irrespective of the direction the robot is moving.
+Thearrow in thepicture shows howtherobotwouldturn,comingfromeither directions,if the trianglesymbol meant “turn left”.
+Question:
+Help the robot reach by assigning correct meaningto the symbols.
+A) = turn right, = go straight, = turn left
+B) = turn left, = go straight, = turn right
+C) = turn right, = turn left, = go straight
+D) = go straight, = turn right, = turn left
+January  2022 Page |81
+
+===== PAGE 83 =====
+Answer:
+The correct answer is D
+Explanation:
+The correct answer is: = go straight = turnright = turn left
+The picture shows robot's walk.
+Howtoget thecorrectsolution:Wecanusedifferentstrategiestosolvetheproblems.Oneofthemis goingthroughevery possibility. Inthistaskthere are only6 different ways tointerpret the symbols (pictures show all of them) and only one of them leads to .
+= turnright, = gostraight, = turn left
+= turnleft, = gostraight, = turn right
+= turnright, = turnleft, = go straight
+=gostraight, =turnright, = turn left
+= turnleft, = turnright, = go straight
+=gostraight, =turnleft, = turn rightAnotherstrategyistotracethepaththerobotcouldtakeandassignmeaningtosymbolsaswe follow thepath.If therobotreachestheredflagorenters a loop,orthemeanings
+January  2022 Page |82
+
+===== PAGE 84 =====
+cannotbeappliedto symbolsconsistently, we retraceto thepreviousstep(inthiscaseintersection) and try another path.
+WhentherobotreachesintersectionF, it hasthreeoptions:turnleft,go straight orturnright.
+[Guess1]Let usassumeitgoesstraight.Whichimplies wouldmean"gostraight".TherobotwouldcontinuetointersectionC.Since"gostraight"isalreadytakenfor androbothas just seen , the robot could either turn leftor turn right.
+◦ [GUESS1.1]Let usassumetherobotwouldturnright atintersectionC, implying means"turnright" andtherefore wouldmean"turnleft". Therobotwouldnow turnleft at intersectionB reaching . Thisis notwhat we want, so we retraceourpath to previousintersection C.
+◦ [GUESS1.2]Let usassumethattherobotwouldturnleftatintersectionC, implyingthat means"turnleft"andtherefore wouldmean"turnright".   At intersectionDtherobotwouldgostraight as means“gostraight”andthenreachintersectionE.Itwouldturnright at Easithasseen . At intersectionDit wouldturnright again,soitwouldenteraloop.That isnotthesolutionwewanted,soweretraceourstepsto intersectionC aswe hadmadethechoicesthat fixedmeaningtosymbolstocheckifanyotherpathwaspossible.Sincethereisnootherwaytointerpret,weconcludethat evenourpreviousassumptionwasincorrectandwe retracetointersection F and try an alternate path.
+ [GUESS2]Let usassumetherobottakesa leftturnat intersectionF, implyingmeans "turn left".
+◦ [GUESS2.1]WhenitreachesintersectionD, again3possibilitiesexists.Itcan’tturnleftasthatwouldmeanboth and have thesamemeaning.TherobotcouldturnrightatD,whichwouldimplymeans"turnright",andtherefore means"gostraight".FromDtherobotwillcontinuetoC.
+January  2022 Page |83
+
+===== PAGE 85 =====
+At Citwillturnleftasitwouldhaveseen .AtintersectionAitwouldturnrighthavingseen .AtintersectionBitwouldcontinuestraighttointersectionCasitwouldhave seena . At intersectionCitwouldturnright againafterpassinganother , enteringaloop.Thisisnotwhatwewant,soweretraceallthewaybacktotheintersectionDwherewedecidedtoturnright andexplorealternatepath.
+◦ [GUESS 2.2]Let us now assumethat therobotcontinuesstraight (rememberit cannotturnleft),implying means"go straight" andthereforemeans"turnright".Now onecanfollowthepathandrealize that therobotwouldreachthe. Hencethe correct interpretation ofmeaning: means“turnleft”, means“gostraight”, and means “turn right”.
+ It’s Computational Thinking:
+Thefirst strategyproposedintheexplanationiscalledbruteforce.Thismeanstoconsiderandcheckeverypossibilityuntilonefindsthedesiredresult.Sometimetherecanbemanypossibilitiesandconsideringallofthemcouldbevery timeconsumingandtherefore oneneedto findotherstrategies.Thesecondstrategyiscalledbacktracking.Inthistechniqueoneincrementallybuildscandidatestothesolutions,andabandonsacandidateassoonasonedeterminesthat thecandidate cannotpossiblybecompletedto a validsolution.Theadvantageofbacktrackingwithrespecttobruteforceisthat youdonothavetoreconsiderthenewcandidate solutionsfromthebeginning, sinceyougobackonlytothestepwhereyou made your last choice and continue on from there.
+Forthegivenproblembruteforcemayworkbetter, aswehavefewvariables(symbols)andfewpathsfortherobottotake.Howeveringeneralforlargercomplexproblems,whenthenumberof variablesincreaseandthepathsto explore are more, backtrackingprovidesbetter and elegant solution.
+Puzzles like Sudoku can be elegantly solved using backtracking.
+January  2022 Page |84
+
+===== PAGE 86 =====
+Error detection
+In BeaverCity, electricityis producedby windmillsonthehillsandit gets carriedto thehouses through this network:
+Somelinks are faulty, though:thetwohouseswiththelightsoff don’thaveelectricityanymore! All others do. Electricity can be carried from house to house in any direction.
+Question:
+At least howmanylinks betweenhousesdotheyneedtochecktoknowthatallotherlinksare working?
+a) 2 b) 3 c) 4 d) 5
+January  2022 Page |85
+
+===== PAGE 87 =====
+Answer:
+The correct answer is c) 4
+Explanation:
+Here is themapshowingwhat we know aboutthelinks in theelectricity-distributionnetwork:
+Thefirst thingweknowisthat the2directlinks tohouseEandthe3directlinkstohouseCare allfaulty. Asallneighboringhouseshaveelectricity, aworkinglinkwouldhavebroughtelectricity to houses C and E as well.
+Next,links that arealoneinprovidingelectricitytohouseswherethelightsareoncannotbefaulty, otherwisenoelectricitycouldarrive there. ThisisthecaseforthelinkleadingtohouseHandthelinkfromhouseGtoF.ThelinkfromthewindmillstohouseAmustalsobeworking, otherwisenoonewouldhaveelectricityat all.Theremaininghouses,B, G,andD,aremultiplyconnectedtohouseA. Forinstance,BcangetitselectricitydirectlyfromA,butitcouldalsoget itfromGifthelinktoAwasfaulty.ThesamecanbesaidaboutD.Finally,Gcanget itselectricityeitherfromBorfromD. Oneofthelinks intheA – B – G – D – Acyclecould thus be faulty and these 4 houses would still get electricity.
+ It’s Computational Thinking:
+In computer networks, just like in electricity-distributionnetworks, somelinks canbefaulty—slow, overloaded,or outright broken.Havingredundancyin thestructure of anetworkensuresitscontinuousavailabilityincaseoffaults(providedtherearenottoomanyfaultsat thesametime).To represent networkstructures,computerscientists usethenotationofgraphs.A lotofalgorithmsexist to workwithgraphsinorderto, forinstance,determineafaultylinkasefficientlyaspossiblegiventhenetworkstructure.Fixingerrorsinasystemisataskcomputerscientistsveryoftenhavetodo,notonlyincomputernetworksbutalsoinsoftwaredevelopment.Tofixanerror, onehastoidentifyitsprecisesource,andthisprocessisusuallydonegraduallyinseveralsteps.Someprogrammersbelieveyounevercan find all errors and bugs in a program.
+January  2022 Page |86
+
+===== PAGE 88 =====
+Great Wall of Beavaria
+InthefarlandofBeavaria,therelivedfourtribesconsistingofseveralvillages,asshowninthepicture:Binarians,Smatphonians,CheckboxiansandLaptoppi.Oneday,theyalldecidedto unify. However, inordernotto causechaosinthelandofBeavaria,itwasdecidedthatonlytwo tribescanbeunifyingat thesametime.Thetimeneededto unifytwotribesinmonthsis equalto thenumberofvillagesin thesetwo tribes.Afterthis,thetwo tribesbecomeonesingletribe,andtheunificationprocessis repeateduntilthere is onlyoneunified tribe remaining.
+Question:
+What is the minimal amount of months needed for the tribes to unify?
+A. 23 B. 24 C. 25 D. 26
+January  2022 Page |87
+
+===== PAGE 89 =====
+Answer:
+The correct answer is (B) 24.
+Explanation:
+Theoptimalstrategytominimizethetotalnumberofmonthsneededtounifyallthetribesistominimizethenumberoftimeseachvillageisincludedinunificationprocesses.Hence,we canseethat thelargest tribesshouldbeaddedlast, asthenthelargest amount ofvillageswillonlybeaddedtheleast amount oftimes.Inordertodothis,eachunificationstepshouldhappenwiththetwotribeshavingthefewest villages.Thisisillustratedinthetable below:
+1. Checkboxianshave the leastnumberofvillages,sotheywillbechosenfor unificationfirst. Sincethere are two tribesthat have 3villages, we can chooseto uniteeither one, for example,CheckboxiansandSmartphonians.AfterunificationtheycanbecalledCheckphonians.
+2. Now theoneshavingtheleast numberofvillagesareBinarians(4) and Laptoppitribe(3).Afterunificationwecan call them Bitopians.
+3.Lastly, 5Checkphonianand7 Bitopianvillagesunite into one largeBicheckphonian tribe.
+Thistakes5 monthsandresultsin3 Laptoppi, 4 Binarianand 5Checkphonian villages.
+This takes 7 months andresultsin 5 Checkphonianand 7 Bitopian villages.
+This takes 12 months.
+Therefore,theminimumnumberofmonthstounifyallfourtribesfromthelandofBeavariais 5+7+12=24, which is (B).
+It’s Computational Thinking:
+Thischallenge isanexampleofanoptimizationproblem,ataskwhosegoalistocomeupwithastrategythat maximizesorminimizesacertainquantity, subjecttosomeconstraints.Optimizationproblemsare ubiquitousinoureverydaylives:findingtheshortest routetoadestination,creatinga schedulethat accommodatesthemost numberofnon-overlappingactivities,andsoon.There are severalways toattackanoptimizationproblem,andtheseincludegreedyalgorithms.Greedyalgorithmsrest ontheassumptionthat makingthebestchoiceat eachstage(localoptimum)willresultinthebest finaloutcome(globaloptimum).In thisproblem,thisassumptionis satisfied:tribeshave to to minimize thenumberofmonthsfor eachunificationin orderto minimize thenumberofmonthsfortheentireunificationprocess.It must beemphasized,however, that thegreedyparadigmis notauniversalsolutionto alltypesofoptimizationproblems.Nevertheless,itusuallyprovidesadecent approximation within a reasonable time.
+January  2022 Page |88
+
+===== PAGE 90 =====
+acm India
+Association for
+Computing Machinery
+Advancing Computing as a Science & Profession
+Association for Computing Machinery (ACM)
+ 
+The ACM (www.acm.org) is the world’s largest not-for-profit scientific and computing 
+society.  ACM brings together computing educators, researchers, and professionals to 
+inspire dialogue, share resources, and address the field's challenges.  ACM has 
+endeavoured to tailor curriculum recommendations for undergraduate and school 
+computing curriculum. ACM India (india.acm.org) Education Council is involved in 
+recommending an undergraduate computer science curriculum, conducting faculty 
+development programs and CSpathshala – an initiative to teach computing in schools.
+Bebras (www.bebras.org) is an international student Computational Thinking Challenge 
+organised in over 60 countries and designed to get students all over the world excited 
+about computing. The challenge is a great way to learn about computational thinking 
+and problem solving skills.
+Bebras India Challenge (www.bebrasindia.org) is organized by ACM India’s Cspathshala 
+initiative (www.cspathshala.org).
+Bebras India
+Computational Thinking Challenge 2021

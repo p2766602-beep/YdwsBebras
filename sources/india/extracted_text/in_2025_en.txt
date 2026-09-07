@@ -1,0 +1,2923 @@
+
+===== PAGE 1 =====
+
+===== PAGE 2 =====
+ Introduction 
+ Bebras  (  www.bebras.org  )  is  an  internaƟonal  student  ComputaƟonal  Thinking  Challenge 
+ organised  in  over  80  countries  and  designed  to  get  students  from  all  over  the  world  excited 
+ about  compuƟng.  The  challenge  is  a  great  way  to  learn  about  computaƟonal  thinking  and 
+ problem solving skills. 
+ The  Bebras  challenges  are  made  of  a  set  of  short  problems  called  Bebras  tasks.  The  tasks  are 
+ fun,  engaging  and  based  on  problems  that  Computer  ScienƟsts  enjoy  solving.  The  tasks 
+ require  logical  thinking  and  can  be  solved  without  prior  knowledge  of  computa Ɵonal 
+ thinking.  The aim is to solve as many as you can in the alloƩed Ɵme. 
+ Bebras  India  Challenge  (  www.bebras.in  )  is  organized  by  ACM  India’s  CSpathshala  iniƟaƟve 
+ (  www.cspathshala.org  ).  ACM  India/CSpathshala’s  goal  is  to  make  it  possible  so  that  every 
+ child in India learns Computer Science. 
+ The  2025  Bebras  India  Challenge  was  held  from  3rd  to  25th  November  2025.  The  2025 
+ Bebras  India  ComputaƟonal  Thinking  Challenge  was  o ﬀered  for  age  groups  8-19  in  12 
+ languages:  English,  Marathi,  GujaraƟ,  Hindi,  Bangla,  Bodo,  Punjabi,  Kannada,  Odia,  Tamil, 
+ Telugu and Assamese and was conducted for free. 
+ The  2025  Bebras  India  Challenge  We  had  parƟcipaƟon  of  over  a  quarter  million  students 
+ from 26 states in 12 languages in age groups 8-18  . 
+ Challenge Site:  bebras.cspathshala.org 
+ Queries? Contact:  challenge@bebrasindia.org 
+ Editors: 
+ Vipul Shah 
+ Sonia Garcha 
+===== PAGE 3 =====
+ Bebras  India 
+We  would  like  to  thank  the  internaƟonal  Bebras  community  for  allowing  us  to  use  the  tasks 
+they have developed. Bebras is a collecƟve eﬀort of many countries. 
+We  would  like  to  thank  Tata  Consultancy  Services  for  their  support.  We  would  also  like to 
+thank  Eljakim  Schrijvers,  Eljakim  Informa Ɵon  Technology  bv  for  the  Bebras  challenge 
+plaƞorm. 
+We  would  like  to  thank  ACM  India’s  CSpathshala  iniƟaƟve  volunteers  for  localizing  and 
+reviewing  the  tasks  and  reaching  out  to  schools.  We  would  also  like  to  thank  the  teachers 
+who have put in the eﬀort for their students to parƟcipate in the challenge. 
+We  would  like  to  acknowledge  the  authors  and  reviewers  for  the  Bebras  tasks  used  in  the 
+challenge: 
+ Austria  FlorenƟna Voboril 
+ Australia  Angeni Bai, Chris Wetherell 
+ Azerbaijan  Zakiya Alizada 
+ Belgium  Pieter Vander Vennet, Kris Coolsaet 
+ Brazil  Leonardo Cavalcante, Emily CavalcanƟ 
+ Canada  ChrisƟne Vender, Sarah Chan,  J.P . Preƫ 
+ Finland  Linda Mannila 
+ Germany 
+ Stephan  Koch,  Jens  Hartmann,  Margareta  Schlüter,  Michael  Weigend, 
+ Wolfgang Pohl
+ Hungary  Zsuzsa Pluhár 
+ India 
+ Arun  Kadekodi,  Adi Ɵ  Karandikar,  Ashwini  Chandrashekhar,  Bharath 
+ Arunachalam,  Madhavan  Mukund,  Vipul  Shah,  Krithika  Santhosh  Kumar, 
+ Nikhil Karkare, Rajib Sarkar,Labdhi Shah 
+ Indonesia  Natalia, Husnul Hakim 
+ Iran  Mehdi Razaghiha, Hamed Mohebbi 
+ Ireland  Taina LehƟmaki 
+ Italy  Maƫa Monga 
+ Lithuania  Rokas Rimkus 
+ Malaysia  Muhammad Imran bin Suhaimi 
+ Mexico  Maria Cepeda 
+ Montenegro  Jelena Milojković, Goran Šuković, Petar Jauković 
+ Netherlands  Kyra Willekes 
+ Paraguay  Gabriela Gomez Pasquali 
+ Portugal  Pedro Ribeiro 
+January 2025  Page |  2 
+
+===== PAGE 4 =====
+ Bebras  India 
+ Singapore  Sophie Koh 
+ Slovakia  Lucia Budinská, Monika Tomcsányiová 
+ Slovenia  Blaž Kelvišar, Špela Cerar 
+ South Korea 
+ Joohyun  Kim,  Hong  Jin  Yeh,  Yong  Ju  Jeon,  Seulki  Kim,  Minjeong  Kim, 
+ Gunwoong Lim, Hyunseok Jeon, Doyong Kim, Jihye Kim 
+ Switzerland  Susanne Datzko, Patricia Heckendorn, Juraj Hromkovič,  Masiar Babazadeh, 
+ Taiwan  Yi-Hsiu Mei, Judith Lin, Chun-Cheng Chen 
+ Thailand  Praphan Pavarangkoon, Supawan Tasanaprasert 
+ United Kingdom  Andrew Csizmadia, Alex Parry, Harriet Page, Laura James, KaƟe Sparks, 
+ Vietnam  Vu Van Luan 
+January 2025  Page |  3 
+
+===== PAGE 5 =====
+ Bebras  India 
+Bebras challenge was conducted in six groups: 
+ Group Ages  Standards  Tasks 
+ Aryabhata 8-10 years  Std III-IV  12 
+ Brahmagupta 10-12 years  Std V-VI  15 
+ Bhaskara 12-14 years  Std VII-VIII  15 
+ Mahavira 14-16 years  Std IX-X  15 
+ Ramanujam 16-18 years  Std XI-XII  15 
+ Pingala 19 years  First Year  15 
+Each task  is  sorted  in  a  category  based  on  the  diﬃculty  levels:  A,  B  or  C.  Students  started 
+with some points and could gain or lose points as follows: 
+ Diﬃculty Correct Answer  Incorrect Answer  Unanswered 
+ A category quesƟons +6 points  0 points  0 points 
+ B category quesƟons +9 points  -2 points  0 points 
+ C category quesƟons +12 points  -4 points  0 points 
+On  the  following  pages  you  will  ﬁnd  the  tasks  used  in  2025  Bebras  India  Challenge.  AŌer 
+each  quesƟon  there  is  an  answer,  an  explanaƟon  of  how  the  answer  could  be  obtained  plus 
+a secƟon on how the tasks are related to ComputaƟonal Thinking. 
+Copyright © 2025 Bebras, Bebras India. 
+This  work  is  licensed  under  a  CreaƟve  Commons  AƩribuƟon-NonCommercial-ShareAlike  4.0 
+InternaƟonal License 
+January 2025  Page |  4 
+
+===== PAGE 6 =====
+ Bebras  India 
+Content 
+ The Queen’s favorite fruit  7  Beaver Book Exchange Club  74 
+ Robot Assembly  9  Sand Painting  77 
+ Pizza Machine  12  Inner Tubes  82 
+ Polite Beavers  16  Catch the acorn  85 
+ Diwali Decorations  20  Family Tree  89 
+ Snack Time  23  A message from outer space  92 
+ Alok’s Treasure  26  Lefty  94 
+ Roll-a-Monster  29  Exciting Water Slide  98 
+ Knitting  33  Flower Pots  103 
+ Coloring Squares  37  Brightness Map  106 
+ Mars Rover  39  Beaver Language  109 
+ A Wrong Step  44  Translation System  112 
+ Building Instructions  46  Flower Planting  115 
+January 2025  Page |  5 
+
+===== PAGE 7 =====
+ Bebras  India 
+ Cube  50  Bakery  115 
+ Persian Carpet  52  Beaver Jatin  119 
+ Chung Cake  55  Biocolors  122 
+ Island Research 
+ Expeditions 
+ 57  Flood Prevention  126 
+ Lights  60  Recursion  129 
+ Beaver Timbers  63  Beaver Island Bulletin  132 
+ Parking at the party  66  Public Transport  135 
+ T-Shirt Sorting  69 
+January 2025  Page |  6 
+
+===== PAGE 8 =====
+ Bebras  India 
+The Queen’s favorite fruit 
+Five  villagers  have  come to  oﬀer  the  Queen  baskets  of  fruit:  apples  (  ),  bananas  (  ) 
+and pears (  ). Each basket has 8 pieces of fruit  in total. 
+Apples  are  the  Queen’s  favourite  type  of  fruit.  She  will  see  the  villagers  in  order  from  the 
+villager  with  the  most  apples  to  the  villager  with  the  least  apples.  If  two  baskets  have  the 
+same number of apples, the Queen will see the villager with more bananas ﬁrst. 
+Question: 
+In which order will the Queen see the villagers? 
+A: 
+B: 
+C: 
+D: 
+January 2025  Page |  7 
+
+===== PAGE 9 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct order is as follows (opƟon A): 
+First  we  label  the  baskets  A  through  E,  from  leŌ  to  right.  Then  we  count  the  number  of 
+apples  in  each  basket.  Basket  A  has  3  apples,  basket  B  has  5  apples,  basket  C  has  2  apples, 
+basket  D  has  3  apples,  and  basket  E  has  1  apple.  Since  the  queen  will  see  these  in  order  from 
+most  to  least  apples,  she  will  see  the  villager  with  basket  B  ﬁrst.  Since  both  baskets  A  and  D 
+have  3  apples,  we  need  to  look  at  the  bananas  in  those  baskets.  Basket  A  has  2  bananas  and 
+basket  D  has  4  bananas,  so  the  queen  will  see  the  villager  with  basket  D  next,  followed  by 
+the  villager  with  basket  A.  Baskets  C  and  E  are  remaining.  The  queen  will  see  the  villager 
+with  basket  C  next,  followed  by  the  villager  with  basket  E.  So  the  queen  will  see  the  baskets 
+in the order B, D, A, C, E. 
+Computer Science 
+SorƟng  is  a  common  process  used  in  programming  to  order  lists  of  items.  This  quesƟon  also 
+deals  with  the  task  of  sorƟng  collecƟons.  When  sorƟng  numbers,  the  value  of  each  item  is 
+inherent.  However,  when  sorƟng  collecƟons,  the  value  of  each  collecƟon  must  be  deﬁned.  In 
+this  case,  the  value  of  each  basket  is  deﬁned  by  the  number  of  apples  within  (and  then 
+bananas in case of a Ɵe). 
+In  programming,  this  is  known  as  sorƟng  with  a  key.  The  sorƟng  key  deﬁnes  how  the  items 
+will  be  compared  to  one  another.  Here,  the  iniƟal  key  is  the  number  of  apples.  Another 
+example  of  sorƟng  with  several  keys  can  be  libraries:  they  have  isles  with  books  from  the 
+same  genre,  books  in  each  isle  are  sorted  in  the  alphabeƟcal  order  of  the  author’s  name.  So, 
+the librarian ﬁrst ﬁnds the isle and then ﬁnds relevant shelf to put book on. 
+ComputaƟonal Thinking 
+AbstracƟon  –  to  ﬁlter  the  informaƟon  that  is  relevant  to  compleƟng  the  sorƟng  task. 
+Students  must  realise  that  they  only  need  to  count  apples  in  the  ﬁrst,  and  ignore  the  other 
+fruits  in  the  baskets  unless  there  is  a  Ɵe.  Data  representaƟon  –  collect  data  on  the  number  of 
+apples in each basket and use that number to represent the iniƟal value of each basket. 
+Algorithmic thinking – engage a sorƟng algorithm to order the baskets. 
+January 2025  Page |  8 
+
+===== PAGE 10 =====
+ Bebras  India 
+Robot Assembly 
+Six  animals  work  on  a  robot  assembly  line  in  order  to  make  toy  robots.  Each  animal  has  a 
+diﬀerent job in the order shown: 
+At the end of the assembly line the toy robots are supposed to look like this: 
+However, the toy robots actually look like this: 
+January 2025  Page |  9 
+
+===== PAGE 11 =====
+ Bebras  India 
+Question: 
+Which animal is not doing their job correctly? 
+ A B  C  D 
+January 2025  Page |  10 
+
+===== PAGE 12 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The answer is OpƟon C 
+A  toy  robot  is  supposed  to  have  three  buƩons  across  its  body,  but  instead  it  has  three 
+buƩons down its leg. This means the buƩons have not been added correctly which is 's job. 
+Computer Science 
+In  this  task  the  assembly  line  did  not  produce  toys  as  expected.  This  is  similar  to  a  computer 
+program  that  produces  unexpected  output.  When  this  happens,  computer  programmers 
+need  to  look  back  at  all  the  steps  that  their  computer  program  is  following  in  order  to 
+idenƟfy where the mistake is occurring. This process is called debugging. 
+ComputaƟonal Thinking 
+When  something  doesn’t  work  the  way  it  should  —  like  this  robot  assembly  —  we  can  use 
+computaƟonal thinking to ﬁgure out what went wrong. 
+● Break down the problem: look at each part of the robot. 
+● Follow instrucƟons: check what each animal was supposed to do. 
+● Compare: see how the robot should look and how it actually looks. 
+● Find the mistake: ﬁgure out who did something wrong. 
+This way of thinking helps us solve problems like real programmers! 
+January 2025  Page |  11 
+
+===== PAGE 13 =====
+ Bebras  India 
+Pizza Machine 
+Falak has a pizza machine that makes pizzas. 
+The machine has programmable buƩons, and when you press one, it adds a topping. 
+BuƩons: 
+Rules: 
+● The machine always puts cheese and sauce on the pizza! 
+● If buƩon  is pressed, olives are added. 
+● If buƩon  is pressed, capsicum is added. 
+January 2025  Page |  12 
+
+===== PAGE 14 =====
+ Bebras  India 
+● If buƩon  is pressed, mushrooms are added. 
+● If buƩon  is pressed, onions is added. 
+● If buƩon  is pressed, tomato is added. 
+● If buƩon  is pressed, pineapple is added. 
+QuesƟon: 
+Falak presses buƩons: 
+What toppings will be on the pizza? 
+A) Cheese, sauce, capcisum, mushrooms, onions, pineapple 
+B) Cheese, sauce, tomato, capsicum 
+C) Cheese, sauce, mushrooms, olives, tomato 
+D) Cheese, sauce, mushrooms, olives, capsicum, tomato 
+E) None of the above 
+January 2025  Page |  13 
+
+===== PAGE 15 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The Correct Answer is D) Cheese, sauce, mushrooms, olives, capsicum, tomato 
+The  buƩons  ,  ,  and  and  mean  tomato,  mushrooms,  olives, 
+and  capsicum.  The  machine  always  adds  cheese  and  sauce.  So,  the  pizza  will  have  cheese, 
+sauce, tomato, mushrooms, olives, and capsicum. 
+Step by step: 
+● The  ﬁrst  rule  says  the  pizza  machine  always  puts  cheese  and  sauce  on  the  pizza,  so 
+we know all opƟons are valid. 
+●  = tomato. We ﬁnd all opƟons with tomato: B, C,  and D. 
+●  = mushrooms. We ﬁnd mushrooms in opƟons C and D,  so we eliminate B. 
+●  = olives. Both C and D have olives. 
+●  =  capsicum.  OpƟon  C  has  no  more  toppings,  so  we  eliminate  it.  OpƟon  D  has 
+capsicum, making it the correct answer. 
+Why the other answers are wrong: 
+A)  Cheese,  sauce,  capsicum,  mushrooms,  onions,  pineapple:  This  opƟon  includes  onions  and 
+pineapple, but those buƩons (  ) and (  ) were not  pressed. 
+B)  Cheese,  sauce,  tomato,  capsicum:  This  opƟon  is  missing  mushrooms  and  olives,  which 
+were part of the buƩons pressed. 
+January 2025  Page |  14 
+
+===== PAGE 16 =====
+ Bebras  India 
+C)  Cheese,  sauce,  mushrooms,  olives,  tomato:  This  opƟon  is  missing  capsicum,  which  was 
+part of the buƩons pressed. 
+E)  None  of  the  above:  This  opƟon  is  incorrect  because  one  of  the  other  opƟons  (D)  is 
+correct. 
+Computer Science 
+This  task  shows  how  a  machine  (like  a  computer) can  follow  rules  to  do  something  useful, 
+like  making  a  pizza.  The  buƩons  are  like  instrucƟons  that  tell  the  machine  what  toppings  to 
+add.  This  is  similar  to  programming,  where  you  give  a  computer  a  set  of  instrucƟons  to 
+perform  a  task.  By  understanding  how  the  pizza  machine  works,  you're  learning  about  how 
+computers  read  and  follow  commands,  which  is  a  big  part  of  informaƟcs.  It's  like  giving  the 
+machine a recipe to follow. 
+ComputaƟonal Thinking 
+This  task  engages  with  Algorithmic  Thinking,  as  it  involves  a  machine  that  follows  a  set  of 
+instrucƟons  to  produce  diﬀerent  pizzas,  with  these  instrucƟons  deﬁned  by  speciﬁc  rules.  It 
+also  relates  to  DecomposiƟon,  since  the  problem  can  be  solved  by  breaking  the  instrucƟons 
+down into smaller, manageable parts. 
+January 2025  Page |  15 
+
+===== PAGE 17 =====
+ Bebras  India 
+Polite Beavers 
+Cars  enter  the  main  street.  They  alternate  which  street  they  come  from:  comes  from 
+Heart  Lane  ,  then  a  car  comes  from  Sun  Street  ,  then  Heart  Lane,  then  Sun  Street, 
+and so on. 
+Question: 
+Which car will enter immediately aŌer  ? 
+A)  B)  C)  D)  E) 
+January 2025  Page |  16 
+
+===== PAGE 18 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+Correct answer: (A) 
+The cars will enter in the following order: 
+Computer Science 
+This is InformaƟcs 
+This  task  integrates  basic  algorithmic  principles  (alterna Ɵng  turns,  scheduling,  resource 
+sharing)  with  a  real-world  analogy  (traﬃc  management),  making  it  an  engaging  introducƟon 
+to informaƟcs concepts for young learners: 
+1. Alterna Ɵng  Turns  (Scheduling  Algorithm):  The  rule  of  alterna Ɵng  cars  from  two 
+streets  (Sun  Street  and  Heart  Street)  is  a  basic  example  of  a  scheduling  algorithm  or  resource 
+allocaƟon  problem,  where  two  en ƟƟes  (the  streets)  are  taking  turns  to  use  a  shared 
+resource (the highway). 
+2. Queues  and  Tra ﬃc  Flow:  The  traﬃc  at  the  intersecƟon  can  be  seen  as  two  queues 
+(one  for  each  street),  where  cars  from  one  queue  (street)  take  turns  entering  a  shared  area 
+(the  highway).  This  simulates  queue  management  which  is  a  fundamental  concept  in 
+computer  science,  especially  in  data  structures  like  queues  and  in  managing  processes  in 
+operaƟng systems. 
+3. Algorithmic  Thinking:  The  task  involves  logical  sequencing  (one  car  goes  from  one 
+street,  then  the  other  follows),  which  is  a  key  concept  in  algorithmic  thinking.  Understanding 
+and  applying  rules  to  make  decisions  based  on  certain  condiƟons  is  central  to  programming 
+and computaƟonal problem-solving. 
+4. Op ƟmizaƟon  and  Resource  Management:  The  beavers’  behavior  could  also  be  seen 
+as  an  opƟmizaƟon  problem.  The  goal  is  to  manage  traﬃc  in  an  eﬃcient  and  orderly  manner 
+(minimizing  delays),  which  Ɵes  into  concepts  like  op ƟmizaƟon  in  informa Ɵcs,  used  to 
+improve the eﬃciency of algorithms and systems. 
+There  are  numerous  real-life  examples  that  mirror  the  concept  similar  to  the  beaver  traﬃc 
+task like: 
+January 2025  Page |  17 
+
+===== PAGE 19 =====
+ Bebras  India 
+-  Playing  Turns  in  a  Game:  In  many  games,  players  take  turns  to  act.  For  example,  in  board 
+games  like  chess  or  checkers,  one  player  makes  a  move,  then  the  other  does,  alternaƟng 
+back and forth. This ensures fairness and order throughout the game. 
+-  Taking  Turns  on  Playground  Equipment:  If  mulƟple  children  want  to  use  the  same  swing  or 
+slide,  they  take  turns.  One  child  uses  it  for  a  short  period,  and  then  another  child  gets  their 
+turn. This helps avoid arguments and ensures everyone gets a chance. 
+-  Teachers  Managing  Classroom  AcƟviƟes:  If  there’s  a  shared  acƟvity  like  using  a  computer  or 
+a  set  of  materials,  the  teacher  may  implement  an  alternaƟng  turn  system.  For  example,  two 
+students might take turns using the computer, each for 10 minutes, ensuring equal access. 
+These  examples  all  revolve  around  the  principle  of  fair  turn-taking  or  resource  management, 
+just  like  the  alternaƟng  passage  rule  in  the  beaver  task.  They  help  illustrate  how  this  concept 
+is relevant and important in everyday life! 
+ComputaƟonal Thinking 
+The  task  encourages  children  to  think  logically  and  break  down  a  real-world  situaƟon  (traﬃc 
+management)  into  simpler,  manageable  steps—skills  directly  related  to  computa Ɵonal 
+problem-solving.  It  contains  several  computa Ɵonal  thinking  elements,  which  are  key 
+components of problem-solving in computer science: 
+1. PaƩern RecogniƟon: 
+The  task  involves  recognizing  a  repeated  paƩern:  cars  from  Sun  Street  and  Heart  Street 
+alternate  in  a  set  order.  This  paƩern  recogniƟon  is  foundaƟonal  in  computaƟonal  thinking 
+and is oŌen used when idenƟfying repeaƟng sequences or designing algorithms. 
+2. AbstracƟon (Simplifying the problem): 
+The  situaƟon  with  the  beavers  and  the  traﬃc  jam  is  abstracted  to  a  problem  of  alternaƟng 
+turns.  In  reality,  this  scenario  could  involve  many  other  factors  (such  as  traﬃc  lights,  road 
+condiƟons,  etc.),  but  these  complexiƟes  are  removed,  making  it  easier  for  children  to  focus 
+on the core problem: alternaƟng cars. 
+3. Algorithmic Thinking (CreaƟng a sequence of steps to solve the problem): 
+The  task  describes  an  algorithmic  process  of  how  cars  should  merge  onto  the  highway. 
+Students  need  to  follow  the  rule  of  alterna Ɵng  cars,  which  is  essen Ɵally  deﬁning  a 
+step-by-step  procedure  to  solve  a  problem.  This  is  a  key  aspect  of  computaƟonal  thinking 
+and computer science. 
+January 2025  Page |  18 
+
+===== PAGE 20 =====
+ Bebras  India 
+4. Logical Reasoning (Following a set of rules): 
+The  rule  "one  car  from  one  street  goes,  then  one  from  the  other"  requires  logical  reasoning 
+to  understand  the  sequence  and  predict  which  car  will  go  next.  This  mirrors  how  algorithms 
+in programming oŌen require logical steps to produce the correct outcome. 
+5.Sequencing: 
+The  task  involves  sequencing,  where  students  must  ﬁgure  out  the  correct  order  of  acƟons 
+(cars  merging  in  turn).  In  compuƟng,  sequencing  is  the  most  basic  and  crucial  element  for 
+wriƟng instrucƟons that computers can follow. 
+January 2025  Page |  19 
+
+===== PAGE 21 =====
+ Bebras  India 
+Diwali DecoraƟons 
+A new light is added to the decoraƟons in Bebras town every week before Diwali. 
+The lights are stored in diﬀerent boxes labeled as shown below: 
+ Box A  Box B  Box C  Box D 
+QuesƟon: 
+The decoraƟons look like this aŌer four weeks. In what order were the boxes opened? 
+A) A C B D 
+B) C B D A 
+C) C A D B 
+D) D A C B 
+January 2025  Page |  20 
+
+===== PAGE 22 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+Answer: CADB 
+The ﬁrst light to be added is the star. It is stored in box C. 
+The second light is the circle. It is stored in box A. 
+The third light is the pentagon. It is stored in box D. 
+Lastly, the cog is added. It is stored in box B. 
+All the other choices will place the lights in a wrong sequence. 
+1.ACBD – collecƟng the lights in this order, would give the following sequence: 
+2. CBDA – collecƟng the lights in this order, would give the following sequence: 
+4. DACB – collecƟng the lights in this order, would give the following sequence: 
+January 2025  Page |  21 
+
+===== PAGE 23 =====
+ Bebras  India 
+Computer Science 
+In  InformaƟcs,  sequence  refers  to  the  ordered  arrangement  of  instrucƟons  or  tasks  within  a 
+program  or  algorithm.  It  deﬁnes  the  speciﬁc  order  in  which  these  instrucƟons  are  executed, 
+one  a Ōer  another,  to  achieve  a  desired  outcome.  This  is  a  fundamental  concept  in 
+programming  and  algorithm  design.  In  this  sequence  shows  that  the  lights  must  be  collected 
+in the correct orders from the boxes they are stored in. 
+ComputaƟonal Thinking 
+AbstracƟon  allows  learners  to  focus  on  essenƟal  informaƟon,  ignoring  irrelevant  details  to 
+simplify the 
+puzzle.  EvaluaƟon  enables  students  to  ensure  that  the  lights  have  been  collected  in  the 
+correct order. 
+Logical  reasoning  is  essenƟal  in  predicƟng  outcomes  and  understanding  the  implicaƟons  of 
+following  a  parƟcular  path.  Lastly,  debugging  is  criƟcal  for  reviewing  and  correcƟng  any 
+mistakes in the approach taken to solve the puzzle. 
+January 2025  Page |  22 
+
+===== PAGE 24 =====
+ Bebras  India 
+Snack Time 
+Lala gets a snack every aŌernoon. Her mother always provides four snack types: 
+ apples (  ), pears (  ), mangoes (  ), and ladoo  (  ). 
+Lala can only choose one snack type each day, based on two rules: 
+1. She cannot eat mangoes two days in a row. 
+2. If she eats ladoo today, then tomorrow she must eat either apples or pears. 
+ OpƟons  Day 1  Day 2  Day 3  Day 4  Day 5 
+ A) 
+ B) 
+ C) 
+ D) 
+QuesƟon: 
+Lala  is  planning  the  snacks  that  she  will  choose  for  ﬁve  consecuƟve  days.  Which  of  her 
+choices are allowed by her mother’s rules? 
+January 2025  Page |  23 
+
+===== PAGE 25 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is C. 
+OpƟons  A  and  B  are  not  allowed  because  aŌer  eaƟng  laddoo,  Lala  should  eat  an  apple  or  a 
+pear the next day. 
+OpƟon  C  follows  all  of  Lala’s  mother’s  rules.  Lala  does  not  eat  mangoes  on  two  consecuƟve 
+days, and she eats an apple aŌer having had laddoo (Day 2-3). 
+OpƟon  D  is  not  allowed  because  Lala  eats  mangoes  on  Day  3  and  Day  4,  which  means  she 
+eats mangoes on two consecuƟve days. 
+Apple  and pear  are both correct. 
+Because  of  rule1  (She  cannot  eat  mangoes  two  days  in  a  row.)  the  snack  cannot  be  mango. 
+Rule  2  told:  “If  she  eats  laddoo  today,  then  tomorrow  she  must  eat  either  apples  or  pears.” 
+because  on  Day  2  she  eat  laddoo,  she  must  eat  either  apples  or  pears.  We  don’t  have 
+another rule, so she can chose between apple and pear. 
+Computer Science 
+This  task  is  connected  to  algorithms  and  Boolean  logic.  An  algorithm  can  be  seen  as 
+step-by-step  instrucƟons  that  help  us  solve  a  problem.  In  this  case,  the  problem  is  to  decide 
+which snacks Lala can eat, and we need to follow the rules when solving it. 
+Using if-statements, we can describe the rules for picking a snack like this: 
+- If you had mango yesterday, then today pick a snack that is not a mango 
+- If you had laddoo yesterday, then today pick apple or pear 
+We  use  the  same  kind  of  thinking  in  our  daily  life.  For  instance,  “if  it  rains,  then  take  the 
+umbrella”, “if you are Ɵred, then go to sleep”. 
+If-statements  use  condiƟons  to  decide what  to  do.  If  the  condi Ɵon  is  true,  then  the 
+“then”-part  is  carried  out.  If  the  condiƟon  is  false,  then  the  “then”-part  is  not  carried  out. 
+You  can  create  complex  condiƟons  by  combining  many  true/false  statements.  This  is  about 
+boolean  logic,  which  is  also  a  central  part  of  informaƟcs:  boolean  logic  is  based  only  on  two 
+values: true and false. 
+January 2025  Page |  24 
+
+===== PAGE 26 =====
+ Bebras  India 
+An  algorithm  and  its  instrucƟons  need  to  be  exact,  so  that  it  is  clear  what  needs  to  be  done. 
+For  instance,  the  rule  “You  may  someƟmes  have  laddoo  two  days  in  a  row”  cannot  be 
+wriƩen  as  an  instrucƟon,  because  there  is  no  way  of  knowing  when  it  is  okay  to  have  laddoo 
+two days in a row, and when it is not, it’s ambiguous. 
+ComputaƟonal Thinking 
+DecomposiƟon:  When  checking  whether  a  choice  meets  both  of  her  mother’s  requirements, 
+Lala can break down her selecƟon into snack plans for every two-day period. 
+January 2025  Page |  25 
+
+===== PAGE 27 =====
+ Bebras  India 
+Alok’s Treasure 
+Alok  the  explorer  has  found  an  old  treasure  map!  The  map  shows  a  grid  with  diﬀerent 
+symbols:  (Star Ɵng  point),  (Grass),  (Mountain),  (Water), 
+and  (Treasure). 
+Alok must reach the treasure from the starƟng point, but he must follow three rules: 
+1. He cannot step on water. 
+2. He must cross at least one mountain. 
+3. He  can  only  move  up  (↑),  down  (↓),  leŌ  (←),  or  right  (→)  —  but  not  diagonally  (  /  ,  \ 
+). 
+QuesƟon: 
+Four  paths  are  shown  below.  Which  path  leads  Alok  to  the  treasure  while  following  all  the 
+rules? 
+A.  B.  C.  D. 
+January 2025  Page |  26 
+
+===== PAGE 28 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+ The correct opƟon is B. 
+In  this  task,  Alok  must  reach  the  treasure,  but  he  must  follow  three  rules.  We  can  examine 
+each path and evaluate if it follows all the rules correctly. 
+Alok  cannot  step on the water (  ) (rule 1), so op Ɵon  A is wrong. 
+Alok must not move diagonally (rule 3), so opƟon C is wrong. 
+Alok  must  cross  at  least one  mountain  (  )  following  rule  2.  The  mountains  have  been 
+highlighted below. OpƟon D path does not cross a mountain, so it is not the answer. 
+January 2025  Page |  27 
+
+===== PAGE 29 =====
+ Bebras  India 
+By eliminaƟon, the correct opƟon is B. A quick check shows that all rules are saƟsﬁed. 
+Computer Science 
+In  computer  science,  many  problems  involve  doing  a  task  but  following  some  rules,  or 
+saƟsfying  some  condiƟons,  limitaƟons  or  constraints.  In  this  task,  we  need  to  ﬁnd  a  path 
+from  the  starƟng  point  to  the  treasure  so  that  it  follows  all  the  given  rules.  There  are  many 
+possible  paths  in  the  task  above  –  not  included  among  the  choices  –  and  you  were  asked  to 
+evaluate  if  any  of  the  opƟons  saƟsfy  the  constraint.  This  is  clearly  a  constraint  saƟsfacƟon 
+problem. 
+Solving  problems  by  sa Ɵsfying  certain  condiƟons  is  something  used  a  lot  in  areas  like 
+business,  ﬁnance  (money  maƩers),  governance  (leading  communiƟes),  etc.  For  example, 
+doctors  must  ﬁnd  a  way  to  assign work  to  a  few  nurses  who  have  to  take  care  of  many 
+paƟents  (goal)  but  sƟll  give  the  nurses  Ɵme  to  rest  (constraint).  Computer  programs  can  be 
+used  to  ﬁnd  possible  answers,  but  many  of  these  kinds  of  problems  are  really  diﬃcult  to 
+solve, especially when the best soluƟon is required. 
+This  problem  is  also  related  to  another  informaƟcs  problem:  path-ﬁnding,  i.e.  ﬁnding  a  path 
+that  saƟsﬁes  all  rules.  In  this  task,  there  are  numerous  soluƟons  and  you  are  simply  asked  to 
+evaluate  which  path  is  appropriate.  It  is,  for  instance,  important  for  a  pizza  delivery  man  to 
+ﬁnd  a  path  to  all  who  ordered  pizza  but  do  this  so  no  one  waits  too  long,  and  keeps  his 
+working Ɵme to a minimum. 
+ComputaƟonal Thinking 
+This  task  involves  Algorithmic  Thinking  (due  to  the  evaluaƟon  of  constraints),  which  covers 
+logically  evaluaƟng  which condiƟons (rules) are  met and which are not. 
+January 2025  Page |  28 
+
+===== PAGE 30 =====
+ Bebras  India 
+Roll-a-Monster 
+Some  friends  are  playing  a  drawing  game  called  “Roll-a-monster.”  They  have  5  dice  ,  each  in 
+a  diﬀerent  color:  red,  yellow,  green,  blue,  and  purple  .  Each  die  represents  a  property  of  the 
+monster to be drawn. 
+ Red die:  number of eyes 
+ Yellow die:  number of horns 
+ Green die:  number of arms 
+ Blue die:  mulƟply result by 2 to get the number  of teeth 
+ Purple die:  number of legs 
+Sum of the 2 lowest numbers  : Number of spots 
+They may draw the monsters as they like  as long as  they follow the rules above. 
+QuesƟon: 
+Below are the results from rolling the  5 dice  . 
+Each of  the  four  friends  drew  a  monster  based  on  these  results.  Which  drawing  follows  all 
+the rules  ? 
+January 2025  Page |  29 
+
+===== PAGE 31 =====
+ Bebras  India 
+A) 
+B) 
+C) 
+D) 
+January 2025  Page |  30 
+
+===== PAGE 32 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is Drawing B. 
+From the rolled dice we have that: 
+● Red die: 3 eyes 
+● Yellow die: 2 horns 
+● Green die: 6 arms 
+● Blue die: shows 3, so two Ɵmes 3 is 6 teeth showing 
+● Purple die: 4 legs 
+● The  two  lowest  dice  are  2  and  3,  meaning  the  monster  must  have  5  spots  on  the 
+body. 
+Eyes and horns: All opƟons have 3 eyes and 2 horns. 
+Arms: OpƟons A, B, and D have 6 arms; OpƟon C does not. 
+Teeth: OpƟons A, B, and C show 6 teeth; OpƟon D does not. 
+Legs: Only A and B have 4 legs. 
+Number  of  spots:  Both  OpƟon  B  and  OpƟon  D  have  5  spots,  OpƟon  A  has  6  spots  and  OpƟon 
+C doesn’t have any spots. 
+As  you  may  see  above,  only  leƩer  B  follows  all  of  the  rules.  Another  way  to  see  this  is  using  a 
+table like so: 
+ A  B  C  D 
+ 3 Eyes  x  x  x  x 
+ 2 horns  x  x  x  x 
+ 6 arms  x  x  x 
+ 6 teeth  x  x  x 
+ 4 legs  x  x 
+ 5 spots  x  x 
+Computer Science 
+In  computer  programs  we  oŌen  give  a  set  of  rules  telling  the  computer  what  to  do  in 
+diﬀerent  situaƟons.  For  example,  “if  you  see  the  number  5  (which  is  an  odd  number),  then 
+use  blobs”  is  just  like  telling  a  computer  “if  condiƟon  is  true,  do  this  acƟon.”  This  task  is 
+about  using  those  “if-then”  rules  to  ﬁgure  out  which  parts  go  on  the  monster,  and  in  what 
+colors.  In  informaƟcs,  we  call  these  rules  “condiƟons”  or  “statements,”  and  computers  use 
+them  to  decide  what  should  happen  next.  By  following  condiƟons  and  seeing  which  ones 
+apply,  you're  doing  the  same  kind  of  logical  thinking  that  helps  computers  understand  and 
+process informaƟon. 
+January 2025  Page |  31 
+
+===== PAGE 33 =====
+ Bebras  India 
+Also,  in  computer  science,  we  oŌen  sort  or  ﬁlter  images  based  on  speciﬁc  rules.  This  task 
+shows  how  condiƟons  can  be  used  to  classify  or  build  something  step  by  step.  Computers  do 
+the  same  when  they  search  for  images  that  match  certain  features  (like  color  or  number  or 
+legs) and ignore the rest. 
+ComputaƟonal Thinking 
+One  important  skill  used  here  is  paƩern  recogniƟon,  where  you  look  at  diﬀerent  parts  of  the 
+monster  and  match  them  with  the  rules,  you  need  to  recognize  the  paƩern  of  “eyes”,  “arms” 
+or  “teeth”  in  order  to  count  them.  You  also  use  algorithmic  thinking  by  deciding  how  to 
+apply  those  rules  in  order,  to  make  sure  you  are  not  missing  one.  Another  skill  is 
+decomposiƟon,  as  you  break  the  monster’s  features—like  eyes,  horns,  or  arms—into  smaller 
+steps you can check one by one. 
+January 2025  Page |  32 
+
+===== PAGE 34 =====
+ Bebras  India 
+Kniƫng 
+Beaver Juhi wants to make vests and scarves: 
+● 2 yarn balls are needed for 1 vest. 
+● 1 yarn ball is needed for 1 scarf. 
+Question: 
+Which  option  shows  a  combination  of  vests  and  scarves  that  Juhi  can  make  using  2 
+black yarn balls and 4 white yarn balls? 
+A. 
+B. 
+C. 
+D. 
+January 2025  Page |  33 
+
+===== PAGE 35 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+Correct answer is A) 
+Verify  whether  the  opƟons  can  be  created  based  on  the  number  of  yarn  balls  the  beaver 
+currently has and the number of yarn balls required to make vests and scarves. 
+A)  With  4  white  yarn  balls,  you  can  make  2  white  vests,  and  with  2  black  yarn  balls,  you  can 
+make 2 black scarves. 
+B)  You  can  make  4  white  scarves  with  4  white  yarn  balls,  but  you  can't  make  2  black vests 
+with 2 black yarn balls. 
+January 2025  Page |  34 
+
+===== PAGE 36 =====
+ Bebras  India 
+C)  You  can't  make  4  white  vests  with  4  white  yarn  balls,  but  you  can't  make  2  black  scarves 
+with 2 black yarn balls. 
+D)  You  can  make  2  white  vests  from  4  white  yarn  balls,  but  you  can’t  make  2  black  vests  from 
+2 black yarn balls. 
+January 2025  Page |  35 
+
+===== PAGE 37 =====
+ Bebras  India 
+Computer Science 
+This  problem  involves  ﬁnding  a  state  that  saƟsﬁes  mulƟple  constraints,  as  there  are  various 
+combinaƟons  of  vests  and  scarves  that  can  be  made  using  the  yarn  balls  provided  in  the 
+quesƟon.  This  topic  has  been  extensively  studied  in  arƟﬁcial  intelligence  and  various  other 
+ﬁelds in InformaƟcs. 
+To  solve  constraint  saƟsfacƟon  problems,  the  most  suitable  soluƟon  can  be  found  using 
+methods such as backtracking, heurisƟcs, and combinatorial opƟmizaƟon. 
+AddiƟonally,  the  resources  in  this  Task  (yarn  balls)  can  be  allocated  in  di ﬀerent  ways 
+resulƟng  in  diﬀerent  combinaƟons  of  scarves  and  vests.  Students  must  evaluate  each  answer 
+opƟon  based  on  the  rules  provided  in  the  Body  secƟon  to  idenƟfy  the  only  combinaƟon  of 
+vests  and  scarves  that  violates  the  constraints  and  therefore  cannot  be  produced  with  the 
+given resources. 
+ComputaƟonal Thinking 
+The series of steps to solve the problem can be expressed procedurally. 
+① Check the colors and number of yarn balls the beaver currently has. 
+② Check the number of yarn balls needed to make each winter item. 
+③  Calculate  the  number  of  yarn  balls  needed  to  make  the  items  in  set  A  presented  in  the 
+problem. 
+④ Calculate sets B, C, and D in the same way as ③. 
+IdenƟfy  the  winter  item  set  that  can  be  made  with  the  yarn  balls  in  the  beaver's  basket, 
+which is set A, and ulƟmately solve the problem. 
+As  shown  above,  students  go  through  four  main  problem-solving  processes,  through  which 
+they can procedurally express a series of commands, i.e., algorithms, like a computer. 
+January 2025  Page |  36 
+
+===== PAGE 38 =====
+ Bebras  India 
+Coloring Squares 
+Esha  and  Tarun  are  coloring  squares.  Esha  is  coloring  with  yellow  ,  Tarun  is  coloring 
+with  blue  .  If  they  both  color  the  same  square,  the  resul Ɵng  color  of  the  square  will 
+be green  . 
+It  doesn't  maƩer  whether  Esha  colored  the  square  ﬁrst  and  then  Tarun  colored  it,  or  Tarun 
+colored it ﬁrst and then colored it Esha 
+In the picture we can see what the resulƟng colors of the individual squares are. 
+QuesƟon: 
+How many squares did Esha color? 
+A. 5 
+B. 6 
+C. 7 
+D. 8 
+E. 9 
+January 2025  Page |  37 
+
+===== PAGE 39 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+Correct answer: 9 
+The 5 squares that are yellow were colored only by Esha. Esha also colored 4 green squares 
+because green means that both Esha and Tomáš colored these squares. 
+So Esha colored 9 squares in total. 
+Computer Science 
+Based on the color of each square, it is necessary to realize whether the square was colored 
+by only Esha,   only Tarun, or both Esha and Tarun. Coloring squares is also the basis of raster 
+graphics, in which images are represented as a grid of pixels with diﬀerent colors. This 
+concept is used in graphics programming, 3D modeling, and data visualizaƟon. 
+January 2025  Page |  38 
+
+===== PAGE 40 =====
+ Bebras  India 
+Mars Rover 
+Your  Mars  rover  must  reach  its  base  using  as  li Ʃle  energy  as  possible.  There 
+is also a lost alien  which you can pick up and bring  back to its ﬂying saucer  . 
+5 3  2  1 
+ 5  12 10  8  2 
+3  6  4 
+4  4  2 
+You must follow these rules: 
+● You  can  move  from  square  to  square  (only)  in  the  direcƟon  of  the  arrows  (see  picture 
+above). 
+● A  number  on  a  square  tells  you  how  much  energy  you  need  to  enter  that  square.  If 
+there is no number, you need no energy. 
+● You cannot move over the boulders 
+● You can enter the square with the UFO, but only if you've picked up the alien. 
+QuesƟon: 
+What is the minimum amount of energy the rover needs to reach the base? 
+A. 18 B.  20 C.  22 D. 24 
+January 2025  Page |  39 
+
+===== PAGE 41 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The  correct  answer  is  20.  The  picture  below  shows  a  route  that  has  an  energy  cost  exactly 
+equal to 20. 
+5  * 3  2  1 
+ 5  12 10  8  2 
+3  6  4 
+4  4  2 
+How can we be sure that we cannot reach the base using less energy? 
+Because  of  the  boulders,  we  know  that  the  rover  has  to  pass  the  square  marked  with  a  star 
+in  the  picture  above.  The  rover  can  either  pick  up  the  alien  along  the  way  (which  will  cost  10 
+units of energy), or leave the alien alone (without any energy cost). 
+In  the  ﬁrst  case,  to  ﬁnd  a  soluƟon  with  less  cost  than  our  proposed  soluƟon,  starƟng  from 
+the  square  with  a  star,  the  rover  is  allowed  to  spend  at  most  9  addiƟonal  points  of  energy  to 
+reach  the  base.  To  do  this,  the  rover  cannot  pass  the  squares  marked  10  and  12,  and  then  it 
+is easily seen that such a detour will take too much energy. 
+If  we  do  not  pick  up  the  alien,  then  it  is  necessary  to  at  least  use  the  squares  marked  in  the 
+picture below, as we cannot move onto the square with the ﬂying saucer: 
+5  * 3  2  1 
+January 2025  Page |  40 
+
+===== PAGE 42 =====
+ Bebras  India 
+ 5  12 10  8  2 
+3  6  4 
+4  4  2 
+To  improve  the  proposed  soluƟon  we  must  now  connect  the  two  'paths'  shown,  by  squares 
+whose total energy amounts to at most 19-4 = 15. 
+It  is  clear  that  we  should  not  use  the  square  marked  12,  because  the  only  way  to  then 
+proceed  would  be  to  the  square  marked  10,  and  that  would  already  cost  way  too  much. 
+Using  square  10  in  any  other  way,  is  also  not  an  opƟon,  because  to  move  towards  that 
+square  you  need  at  least  3  energy  units,  and moving  away  from  it  another  3,  for  a  total  of 
+3+10+3 = 16 > 15. 
+In  a  similar  way  using  the  square  marked  8  is  not  going  to  work.  You  already  need  5  extra 
+energy  units  to  reach  that  square,  which  only  leaves  15-5-8=2  points  to  move  from  that 
+square to the base, which is clearly not possible. 
+So the only remaining choice is to go 'the long way round', as in the picture below 
+5 3  2  1 
+ 5  12 10  8  2 
+3  6  4 
+January 2025  Page |  41 
+
+===== PAGE 43 =====
+ Bebras  India 
+4  4  2 
+But that route costs 22 energy units. 
+Computer Science 
+Computers  are  frequently  used  to  solve  problems  that  involve  minimizing  factors  like  energy, 
+Ɵme,  or  costs,  or  maximizing  outcomes  such  as  eﬃciency  or  proﬁt.  These  types  of  challenges 
+are known as opƟmizaƟon problems. 
+To  tackle  these  problems,  computer  scien Ɵsts  have  developed  and  extensively  studied 
+various  soluƟon  strategies.  While  some  methods  guarantee  the  best  possible  solu Ɵon, 
+others  prioriƟze  eﬃciency  -  oﬀering  results  that  may  not  be  op Ɵmal  but  are  easier  to 
+compute and sƟll suﬃciently eﬀecƟve. We give some examples. 
+A  ﬁrst  strategy  is  to  take  the  route  that  uses  the  least  number  of  squares  (see  picture  below). 
+Because  it  goes  through  the  ﬂying  saucer,  the  alien  needs  to  be  picked  up  ﬁrst.  This  route 
+costs 22 energy units - not bad, but not the best. 
+5 3  2  1 
+ 5  12 10  8  2 
+3  6  4 
+4  4  2 
+January 2025  Page |  42 
+
+===== PAGE 44 =====
+ Bebras  India 
+Another  approach  is  to  always  move  to  the  adjacent  square  with  the  lowest  cost  while 
+avoiding  the  square  you  just  came  from  -  similar  to  taking  a  walk  and  choosing  the  most 
+appealing street  at  each  intersecƟon.  This  method  produces  the  route  shown  at  the  end  of 
+the  Answer  ExplanaƟon  secƟon.  However,  with  a  total  cost  of  22  energy  units,  it  is  again  not 
+the opƟmal soluƟon. 
+That  approach  is  known  as  a  greedy  algorithm.  While  it  oŌen  yields  good  results,  it does  not 
+always guarantee the best soluƟon — or even a valid one. 
+In  real-world  scenarios  where  ﬁnding  the  most  e ﬃcient  route  is  essen Ɵal,  computer 
+programmers frequently use a more reliable method known as Dijkstra’s algorithm. 
+ComputaƟonal Thinking 
+The  most  directly  relevant  CT  concepts  at  play  here  are  decomposiƟon  -  disƟnguishing 
+between  cases  with  and  without  the  alien,  and  exploring  diﬀerent  paths  separately  (though 
+not necessarily independently) - and evaluaƟon, in the sense of idenƟfying the best soluƟon. 
+There  may  also  be  a  more  subtle  use  of  decomposiƟon:  the  path  can  be  broken  down  into  a 
+ﬁrst  segment  (up  to  the  starred  square),  a  second,  and  potenƟally  even  a  third  segment 
+(working backwards from the end). 
+AbstracƟon  plays  a  less  prominent  role  in  this  task:  the  map  itself  is  an  abstracƟon  that 
+pupils  must  be  able  to  interpret,  but  they  are  not  required  to  construct  abstrac Ɵons 
+themselves. 
+(And  of  course,  some  understanding  of  arithmeƟc  is  needed  -  but  this  falls  outside  the  scope 
+of CT.) 
+January 2025  Page |  43 
+
+===== PAGE 45 =====
+ Bebras  India 
+A Wrong Step 
+Aira  is  walking  from  her  house  to  her  friend  Bo's  house  for  the  ﬁrst  Ɵme. 
+The streets between their houses are shown. 
+Bo  gave  her  the  following  instrucƟons,  where  walking  1  block  means  walking  straight  unƟl 
+you reach the next street. 
+Step 1: Walk 2 blocks east (E). 
+Step 2: Walk 3 blocks south (S). 
+Step 3: Walk 3 blocks east (E). 
+Step 4: Walk 1 block north (N). 
+However,  Aira  made  a  mistake  with  one  of  the  steps  and  did  not  arrive  at  Bo's  house.  Her 
+route is shown. 
+QuesƟon: 
+Which step did Aira not follow correctly? 
+A. Step 1 
+B. Step 2 
+C. Step 3 
+D. Step 4 
+January 2025  Page |  44 
+
+===== PAGE 46 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is (B) Step 2. 
+Aira's  route  shows  that  she  ﬁrst  walked  2  blocks  east,  which  matches  Step  1.  She  then 
+walked  1  block  south,  but  this  does  not  match  Step  2  because  in  Step  2  Aira  was  supposed  to 
+walk  3  blocks  south.  She  then  walked  3  blocks  east,  which  matches  Step  3.  Finally  she  walked 
+1  block  north,  which matches  Step  4.  Thus,  the  only  step  that  Aira  did  not  follow  correctly  is 
+Step  2.  The  correct  route  using  Bo's  instrucƟons  is  shown.  We  can  verify  that  this  route  does 
+take Aira from her house to Bo's house. 
+Computer Science 
+This  task  outlines  an  algorithm  of  how  Aira  should  walk  to  Bo's  house.  An  algorithm  is  a 
+ﬁnite  sequence  of  instrucƟons  to  accomplish  some  task.  In  this  algorithm,  all  instrucƟons  are 
+to  move  a  given  number  of  blocks  in  a  given  direcƟon.  In  many  programming  languages, 
+there  are  instrucƟons  to  assign  values  to  variables,  to  compare  values,  to  repeat  instrucƟons, 
+or to condiƟonally perform instrucƟons if a given condiƟon is true. 
+In  order  to  determine  which  step  Aira  did  not  follow  correctly,  it  is  necessary  to  trace  her 
+route  on  the  map,  one  step  at  a  Ɵme,  and compare  it  with  the  given  algorithm  to  determine 
+whether  or  not  each  step  was  followed  correctly.  This  process  is  an  aspect  of  debugging  a 
+program.  Debugging  is  the  process  of  determining  which  instruc Ɵon(s)  in  a  computer 
+program  are  incorrect,  in  order  to  determine  why  the  output  or  ﬁnal  state  of  the  algorithm  is 
+incorrect. 
+ComputaƟonal Thinking 
+This  task  requires  algorithmic  thinking  as  students  must  trace  through  the  steps  one  by  one 
+in  order  to  determine  the  diﬀerence  between  the  steps  Bo  gave  to  Aira  and  Aira's  actual 
+route. 
+January 2025  Page |  45 
+
+===== PAGE 47 =====
+ Bebras  India 
+Building InstrucƟons 
+You have the following blocks: 
+ 6 cubes  1 bridge  2 pyramids  2 cuboids 
+Your friend gives you the following building instrucƟons. 
+1. Take 3 cubes. 
+2. Place them on top of each other to form a tower. 
+3. Form a separate tower with the 3 remaining cubes. 
+4. Place the 2 cuboids next to the cube towers. 
+5. Place the bridge on top of your structure. 
+6. Take the 2 pyramids and place them on top of your structure. 
+These instrucƟons allow you to build many diﬀerent structures. Here are two examples: 
+QuesƟon: 
+Which of the following structures  CANNOT  be built  by following the instructions? 
+ A  B  C  D 
+January 2025  Page |  46 
+
+===== PAGE 48 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+B) is the correct answer. 
+As  stated  in  the  task,  the  instrucƟons  are  not  precise,  which  means  they  allow  you  to  build 
+many  diﬀerent  structures.  However,  there  are  sƟll  some  constraints  that  must  be  followed. 
+Only  structure  B)  doesn’t  follow  these  constraints.  We  will  check  the  instrucƟons  step  by 
+step: 
+ Take 3 cubes 
+ Place  them  on  top  of  each  other  to  form  a 
+ tower 
+ Form a tower with the remaining 3 cubes 
+ Place the cuboids next to the cube towers 
+ Place the bridge on top of your structure 
+January 2025  Page |  47 
+
+===== PAGE 49 =====
+ Bebras  India 
+The  ﬁrst  4  instrucƟons  are  followed  accordingly.  It  is  not  possible  to  follow  instrucƟon  5 
+precisely  and  place  the  bridge  UNDER  the  structure.  The  instrucƟon  precisely  states  that  the 
+bridge  must  be  placed  ON  TOP  OF  the  structure.  At  least  one  of  the  cube  towers  or  the 
+cuboids  must  be  under  the  bridge  because  they  have  been  already  placed  in  instrucƟons 
+1-4. 
+The instrucƟons do not fully deﬁne ... 
+● …  the  verƟcal  order  of  the  blocks.  The  posiƟon  “next  to  the  tower”  does  not  specify 
+whether  the  cuboid  must  be  placed  to  the  leŌ  or  to  the  right  of  the  cube  tower.  Both 
+placements are possible and precise. 
+● … if the color of the blocks is relevant. 
+● …  whether  a  new  block  must  be  placed  on  all  previously  built  structures  or  only  on 
+some of them. 
+● … the orienta Ɵon of the blocks. 
+Not fully deﬁned instrucƟons lead to various correct structures or to unpredictable results. 
+Computer Science 
+This  task  illustrates  that  clear  instrucƟons  are  essenƟal  in  everyday  life  and  in  computer 
+programming.  They  are  like  recipes:  unclear  steps  can  lead  to  unpredictable  results.  Recipes 
+and  the  building  instruc Ɵons  in  this  task  are  algorithms:  Step-by-step  instruc Ɵons  for 
+compleƟng a task or solving a problem. 
+In  programming,  well-deﬁned  instrucƟons  are  crucial  because  computers  can't  interpret  or 
+guess.  They  need  precise  instrucƟons  to  perform  tasks  predictably.  Unclear  programming 
+instrucƟons can cause soŌware to malfuncƟon or produce unexpected results. 
+Before  wriƟng  a  program,  the  developer  must  think  about  what  constraints  need  to  be 
+deﬁned  to  get  a  predictable  result.  Constraints  in  this  task  include,  for  example,  the  verƟcal 
+and  horizontal  order  of  blocks,  the  orientaƟon  of  the  blocks  themselves,  and  the  shapes  that 
+must be connected when blocks are placed on top of each other. 
+January 2025  Page |  48 
+
+===== PAGE 50 =====
+ Bebras  India 
+ComputaƟonal Thinking 
+First  step  in  solving  this  task  is  to  execute  the  instrucƟons  precisely.  During  execuƟon  the 
+diﬀerences  in  the  resulƟng  structures  are  analyzed  and  reduced  to  the  essence  of  the 
+instrucƟons,  ﬁltering  out  the  possible  interpretaƟons  of  the  instrucƟons.  AbstracƟon  and 
+concentraƟon on the most important rules is necessary to idenƟfy the wrong example. 
+January 2025  Page |  49 
+
+===== PAGE 51 =====
+ Bebras  India 
+Cube 
+A  Bebras  cube  has  a  diﬀerent  shape  on  each  face.  The  six  shapes  on  a  Bebras  cube  are 
+shown below. 
+Eight idenƟcal Bebras cubes are stacked together in a large cube. 
+QuesƟon: 
+In a Bebras cube, what shape is on the face opposite the green circle? 
+ A  B  C  D 
+January 2025  Page |  50 
+
+===== PAGE 52 =====
+ Bebras  India 
+Answer Explanation: 
+The correct answer is (c) Purple diamond. 
+In  the  stack  of  eight  cubes,  we  see  the  following  shapes  next  to  the  green  circle:  an  orange 
+star  (top  leŌ),  a  red  ellipse  and  a  pink  triangle  (top  centre),  and  a  blue  diamond  (top  right). 
+None  of  these  can  be  opposite  the  green  circle.  The  only  shape  that  never  appears  next  to 
+the green circle is the purple diamond. 
+Computer Science 
+This  task  is  primarily  about  logical  reasoning.  There  are  ﬁve  possible  opƟons,  and  four  have 
+to  be  eliminated.  For  each  incorrect  opƟon,  there  is  evidence  in  the  picture  to  indicate  why 
+it  is  wrong.  IdenƟfying  the  evidence  requires  spaƟal  reasoning  to  recognise  which  faces  of 
+the eight cubes that are stacked together are adjacent to each other. 
+EliminaƟng  alternaƟves  to  arrive  at  a  correct  choice  is  a  fundamental  skill  in  compuƟng.  For 
+instance, this is used in debugging to arrive at the root cause of an error. 
+SpaƟal  reasoning  is  also  important  in  compu Ɵng.  This  is  necessary  for  rendering 
+three-dimensional objects accurately in computer graphics, for example. 
+Computational Thinking 
+Solving  this  problem  can  be  aided  by  decomposiƟon  :  each  of  the  shapes  can  be  eliminated  in 
+any  order.  AddiƟonally,  abstracƟon  is  necessary  because  we  are  only  interested  in  recording 
+shapes adjacent to circles, and can ignore all other faces of cubes. 
+January 2025  Page |  51 
+
+===== PAGE 53 =====
+ Bebras  India 
+Persian Carpet 
+Sarah  has  a  kniƫng  robot  that  makes  carpets  using  four  diﬀerent  paƩerns.  Each  paƩern  is 
+given to the robot using a two digit code: 
+00  11  01  10 
+Sarah  gives  this  kniƫng  program  to  the  robot.  Each  code  tells  the  robot  which  paƩern  to  knit 
+into each square of the carpet. The robot knits row by row, from leŌ to right, top to boƩom. 
+00-10-10-10-01-10-10-10-00 
+10-01-10-01-01-01-10-01-10 
+01-11-01-01-11-01-01-11-01 
+10-01-10-01-01-01-10-01-10 
+00-10-10-10-01-10-10-10-00 
+QuesƟon: 
+Which of the following carpets will the robot make based on Sarah’s program? 
+ A. B. 
+ C. D. 
+January 2025  Page |  52 
+
+===== PAGE 54 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+A) Correct answer 
+To  solve  this  task,  we  can  decode  the  enƟre  program  line  by  line  and  then  compare  it  with 
+the  opƟons  to  ﬁnd  the  correct  one;  however,  this  method  is  quite  cumbersome  and  will  take 
+a lot of Ɵme. 
+1. Read the program row by row, le Ō to right, top to boƩom. 
+2. Break the program into rows and decode each 2-digit code using the code table. 
+3. Build the full carpet design. 
+4. Compare  the  design  with  the  four  visual  opƟons  and  ﬁnd  a  square  where  the  designs 
+are diﬀerent. 
+A  more  eﬃcient  soluƟon  is  to  use  the  diﬀerences  between  the  opƟons  to  narrow  down  the 
+scope and quickly ﬁnd the answer. We can use the following steps to ﬁnd the answer: 
+1. Iden Ɵfy the posiƟons where there are diﬀerences between the opƟons. 
+2. Find  the  code  for  that  square  in  the  program  and  locate  the  correct  paƩern  in  the 
+code table. 
+3. Eliminate the op Ɵons where the paƩern in that square is incorrect. 
+Repeat steps 1-3 unƟl only one opƟon remains, which is the correct answer. 
+For  example,  opƟons  A  and  B  diﬀer  in  the  4th  and  6th  squares  of  the  second  and  fourth 
+rows.  The  code  for  the  4th  and  6th  squares  of  the  second  and  fourth  rows  is  01  (paƩern  C), 
+so we eliminate opƟon B. 
+OpƟons  C  and  D  diﬀer  in  the  4th  and  6th  squares  of  the  third  row.  The  code  for  the  4th  and 
+6th  squares  of  the  third  row  is  01  (paƩern  C),  so  we  eliminate  opƟon  C.  OpƟons  A  and  D 
+diﬀer  in  the  2nd  and  8th  squares  of  the  third  row.  The  code  for  the  2nd  and  8th  squares  of 
+the third row is 11 (paƩern B), so we eliminate opƟon D. 
+This is InformaƟcs 
+Computers  represent  colors  not  by  the  color's  name,  nor  by  a  word,  but  by  a  binary  code 
+made  up  of  zeros  and  ones.  This  task  is  similar:  it  uses  binary  codes  (just  two  digits,  0  or  1)  to 
+stand  for  diﬀerent  paƩerns.  Then,  a  series  of  these  codes  (like  a  kniƫng  program)  is  given  to 
+a robot to tell it how to make carpets. 
+In  our  daily  lives,  everything  on  computers,  from  your  documents  and  photos  to  music, 
+videos,  and  even  numbers,  is  turned  into  this  binary  code  (those  0s  and  1s)  to  be  shown, 
+saved, and sent around. 
+Computer Science 
+This  task  involves  data representa Ɵon  (binary  codes  represen Ɵng  pa Ʃerns),  pa Ʃern 
+recogniƟon, and algorithmic thinking (following a sequence of instrucƟons step by step). 
+Algorithms:  Students  simulate  how  a  robot  would  follow  a  sequence  of  instrucƟons  (an 
+algorithm)  to  produce  an  output  —  in  this  case,  a  visual  paƩern.  They  must  decode  the 
+January 2025  Page |  53 
+
+===== PAGE 55 =====
+ Bebras  India 
+binary  instrucƟons,  apply  a  mapping  rule,  and  recreate  the  output  step  by  step,  just  as  a 
+computer or machine would when execuƟng a program. 
+EDIT  HERE  (delete  this):  explain  which  computaƟonal  thinking  competencies  are  necessary 
+to  solve  this  task.  Use  about  3  to  8  sentences.  Do  not  explain  the  correct  answers  of  the  task, 
+also do not explain the computer science behind the task. 
+ComputaƟonal Thinking 
+Digital Technologies Hub – Data RepresentaƟon 
+Oﬀers  a  range  of  classroom  resources  focusing  on  data  representaƟon,  suitable  for  various 
+year  levels.  It  includes  acƟviƟes  and  lesson  ideas  to  help  students  understand  how  data  is 
+represented and manipulated. 
+hƩps://www.digitaltechnologieshub.edu.au/teach-and-assess/classroom-resources/topics/d 
+ata-representaƟon 
+CS Unplugged – Binary Numbers 
+An  engaging,  hands-on  acƟvity  that  introduces  binary  numbers  and  how  they  are  used  to 
+represent  data  in  computers.  This  resource  is  designed  to  be  accessible  for  younger 
+students. 
+hƩps://csunplugged.org/en/topics/binary-numbers/ 
+January 2025  Page |  54 
+
+===== PAGE 56 =====
+ Bebras  India 
+Chung Cake 
+In  Vietnam,  beavers  celebrate  the  Lunar  New  Year  by  eating  BanhChung,  but  the  rice  cakes  are 
+too sticky to cut with a knife, the beavers use strings instead: 
+Beavers  can  use  multiple  strings  to  cut  a  cake  but  they  may  get  tangled  if  not  used  in  the  correct 
+order.  For  example,  in  the  case  below,  the  beaver  can  cut  the  cake  by  using  the  white  string  first, 
+followed by the gray string. If done in reverse, the gray string will get caught on the white string. 
+Question: 
+In what order should the beaver use the four strings to cut the cake without tanglings? 
+A. A B D C 
+B. B C A D 
+C. C D B A 
+D. D A C B 
+January 2025  Page |  55 
+
+===== PAGE 57 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+Correct answer: D 
+The  order  of  using  the  strings  must  follow  the  principle  that  the  ﬁrst  put  on  the  cake  should 
+be  also  the  ﬁrst  to  be  used  to  cut:  in  fact  the  ﬁrst  string  is  the  only  one  touching  the  cake 
+surface  without  any  interference.  When  the  ﬁrst  is  gone,  one  can  use  the  second  one,  and  so 
+on, following the same order with which the string were put on the cake. 
+Therefore, when using the strings, the beaver should follow the order DACB. 
+Computer Science 
+The  strings  in  the  task  must  follow  the  so-called  FIFO  (First  In,  First  Out)  policy:  the  ﬁrst 
+element  added  is  the  ﬁrst  to  be  removed,  similar  to  a  queue  where  no  one  should  jump  the 
+line.  There  are  many  problems  in  informaƟcs  in  which  it  is  useful  to  enforce  a  FIFO  policy  to 
+process  data  in  such  a  way  that  the  oldest  entered,  the  "head"  of  the  queue,  is  processed 
+ﬁrst.  Another  common  policy  is  the  LIFO  (Last  In,  First  Out)  one:  it  operates  oppositely, 
+where the last element added is the ﬁrst to be removed, like in a stack of plates. 
+Computational Thinking 
+EDIT  HERE  (delete  this):  explain  which  computaƟonal  thinking  competencies  are  necessary 
+to  solve  this  task.  Use  about  3  to  8  sentences.  Do  not  explain  the  correct  answers  of  the  task, 
+also  do  not  explain  the  computer  science  behind  the  task.  You  may,  however,  relate  your 
+explanaƟon to the “Answer ExplanaƟon” secƟon and the “This is InformaƟcs” secƟon. 
+January 2025  Page |  56 
+
+===== PAGE 58 =====
+ Bebras  India 
+Island Research ExpediƟons 
+A  research  team  needs  to  investigate  all  islands.  They  may  use  a  helicopter  to  land  on  any 
+island.  There  are  also  ferries  traveling  between  the  islands,  but  only  in  the  directions  shown  on 
+the  map.  When  the  team  does  a  research  trip,  they  land  with  their  helicopter  on  any  island,  can 
+take any number of ferries, and then must return to the helicopter. 
+Question: 
+What is the minimum number of research trips needed to visit every island? 
+A. 3 
+B. 4 
+C. 5 
+D. 6 
+January 2025  Page |  57 
+
+===== PAGE 59 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The minimum number of research trips needed is 3. 
+Since  the  group  has  to  return  to  their  helicopter  aŌer  every  research  trip,  they  can  only  visit 
+islands  from  which  they  can  return  to  the  starƟng  island.  To  solve  this,  we  divide  the  islands 
+into groups where: 
+● From  any  island  in  a  group,  it  is  possible  to  travel  to  every other  island  in  the  group 
+by ferry. 
+● However, once the team leaves a group, they cannot return to it. 
+To  ﬁnd  such  a  group,  one  can  start  with  an  arbitrary  island  that  is  not  assigned  to  any  group 
+and  then  add  all  the  islands  that  one  can  travel  forth  and  back  to  the  start  island.  In  the 
+image,  the  islands  are  divided  into  three  groups,  marked  with  diﬀerent  colors.  Since  traveling 
+between  these  groups  is  only  possible  in  one  direcƟon,  each  group  requires  a  separate 
+research trip. 
+A  common  mistake  is  to  think  that  a  long  trip  like  D  →  C  →  A  →  B  →  D  →  F  →  E  →  G  would 
+work.  While  this  does  visit  every  island,  the  team  would  not  be  able  to  return  to  their 
+helicopter, making it an invalid soluƟon. 
+Thus, the team needs three separate research trips - one for each island group. 
+January 2025  Page |  58 
+
+===== PAGE 60 =====
+ Bebras  India 
+Computer Science 
+The  colored  island  groups  in  the  answer  explanaƟon  represent  sets  of  islands  where  every 
+island  in  the  group  can  be  reached  from  every  other  island.  In  computer  science,  this 
+concept  is  called  a  strongly  connected  component  (SCC).  Strongly  connected  components 
+may not only connect islands, but also many other things. For example: 
+● Web navigaƟon  : They can represent groups of websites  that all link to each other. 
+● Social media  : They can show clusters of users who  follow each other in a network. 
+● TransportaƟon  networks  :  They  can  indicate  regions  where  travel  is  possible  between 
+ciƟes in both direcƟons. 
+Understanding  SCCs  helps  in  many  ﬁelds,  including  network  analysis,  recommendaƟon 
+systems, and opƟmizaƟon problems  . 
+ComputaƟonal Thinking 
+To  solve  this  task,  the  students  have  to  recognize  that  this  task  is  about  ﬁnding  groups  of 
+islands such that one can move back and forth between the islands (abstracƟon). 
+Further,  they  have  to  come  up  with  a  systemaƟc  way  of  ﬁnding  such  groups  of  islands 
+(algorithmic thinking). 
+January 2025  Page |  59 
+
+===== PAGE 61 =====
+ Bebras  India 
+Lights 
+Sonia  has  ﬁŌeen  programmable  lights  of  three  types  (  ,  ,  and  ).  She 
+numbers them from 1 to 15 and connects them in a star shape as shown. 
+She programs the lights as follows: 
+● Each  light is controlled with a switch. 
+● Each  light  turns  on  if  the  two  lowest-numbered  lights  connected  to  it  are  both 
+on. 
+● Each  light  turns  on  if  exactly  one  of  the  two  lowest-numbered  lights  connected 
+to it is on. In other words, one of these lights is on but not the other. 
+QuesƟon: 
+All  the  lights  are  oﬀ  and  then  Sonia  turns  on  lights  1,  2,  and  4.  This  triggers  other  lights  to 
+turn on, following Sonia's programming. 
+When the lights stop changing, which of the lights 11 to 15 are on? 
+A. Lights 11, 12, 13, 14, and 15 
+B. Only lights 12, 13, and 15 
+C. Only lights 11, 12, 13, and 14 
+D. Only lights 11, 13, and 14 
+January 2025  Page |  60 
+
+===== PAGE 62 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is (D) Only lights 11, 13, and 14. 
+Of  the  lights,  only  1,  2,  and  4  are  turned  on.  We  then  work  towards  the 
+centre of the star to determine which of the remaining lights are on. 
+● Since  light  6  is  a  light,  and  both  lights  1  and  2  are  on,  it  follows  that  light  6 
+turns on. 
+● Since  light  7  is  a  light,  and  light  2  is  on  but  light  3  is  o ﬀ,  it  follows  that  light  7 
+turns on. 
+● Since  light  8  is  a  light,  and  light  4  is  on  but  light  3  is  o ﬀ,  it  follows  that  light  8 
+turns on. 
+● Since  light  9  is  a  light,  but  lights  4  and  5  are  not  both  on,  it  follows  that  light  9 
+remains oﬀ. 
+● Since  light  10  is  a  light,  and  light  1  is  on  but  light  5  is  oﬀ,  it  follows  that  light  10 
+turns on. 
+● Since  light  11  is  a  light,  and  both  lights  6  and  10  are  on,  it  follows  that  light  11 
+turns on. 
+● Since  light  12  is  a  light,  but  both  lights  6  and  7  are  on,  it  follows  that  light  12 
+remains oﬀ. 
+● Since  light  13  is  a  light,  and  both  lights  7  and  8  are  on,  it  follows  that  light  13 
+turns on. 
+● Since  light  14  is  a  light,  and  light  8  is  on  but  light  9  is  oﬀ,  it  follows  that  light  14 
+turns on. 
+January 2025  Page |  61 
+
+===== PAGE 63 =====
+ Bebras  India 
+● Since  light  15  is  a  light,  but  lights  9  and  10  are  not  both  on,  it  follows  that  light 
+15 remains oﬀ. 
+Thus, of the ﬁve lights closest to the centre, only lights 11, 13, and 14 turn on. 
+Computer Science 
+In  this  task,  each  light  can  either  be  ON  or  OFF,  which  computer  scienƟsts  would  indicate 
+with the binary digits 1 or 0, or alternaƟvely, by the boolean values "true" or "false". 
+Computer  circuits,  including  those  used  in  the  hardware  components  such  as  the  central 
+processing  unit  (CPU),  use  logical  gates  to  alter  boolean  values  in  order  to  do  computaƟon. 
+The  lights  used  in  this  task  are  examples  of  AND  gates:  so  long  as  both  input  values 
+are  true,  then  the  output  value  will  be  true;  otherwise,  the  output  will  be  false.  The 
+lights  used  in  this  task  are  examples  of  XOR  gates,  meaning  "exclusive-or".  If  exactly  one 
+input  value  to  an  XOR  gate  is  true,  then  the  output  will  be  true;  otherwise,  the  output  will  be 
+false. 
+CPU  uses  logical  gates  to  do  all  the  computa Ɵons  needed.  Everything  you  do  on  your 
+computer  that  needs  processing  goes  through  the  CPU  and,  in  turn,  through  potenƟally 
+billions of logical gates! 
+ComputaƟonal Thinking 
+This  task  requires  algorithmic  thinking  as  students  must  start  with  what  they  know  about  the 
+lights  and  work  towards  the  centre  of  the  star,  using  what  they  know  about  how  the 
+ and  lights  are  programmed  to  determine  which  of  the  remaining  lights  will  be 
+on. 
+This  task  also  requires  decomposi Ɵon  as  students need  to  look  at  only  the  two 
+lowest-numbered  lights  connected  to  each  light  in  order  to  determine  whether  or  not  the 
+light is on. 
+January 2025  Page |  62 
+
+===== PAGE 64 =====
+ Bebras  India 
+Beaver Timbers 
+Eashan  and  his  friends  love  to  hike.  During  their  hikes,  Eashan's  friends  collect  informaƟon 
+about trees that they see, and write it down in long tables. 
+ Saloni  collects  informaƟon  on  leaf  shapes  (  )  and  the 
+ corresponding tree species (  ). 
+ PriƟ  collects  informa Ɵon  about  the  fruit  (  ),  the 
+ corresponding  tree  species  (  ),  and  whether  they  are 
+ conifers (  ). 
+ Lara  collects  informaƟon  about  the  color  of  the  wood  ( 
+ ),  the  corresponding  tree  species  (  ),  and  whether  it  is 
+ good beaver Ɵmber to construct lodges (  ). 
+Eashan  has  found  a  leaf  in  the  forest  and  knows  its  shape.  He  wants  to  know  whether  the 
+wood of this tree species is good beaver Ɵmber. 
+Question: 
+Which of his friends does he have to ask, and in which order, to ﬁnd the right answer? 
+A) Lara only. 
+B) First Saloni, then PriƟ. 
+C) First Saloni, then Lara. 
+D) First PriƟ, then Saloni, then Lara. 
+January 2025  Page |  63 
+
+===== PAGE 65 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The right answer is C) First Saloni, then Lara. 
+The  informaƟon  about  the  beaver  Ɵmber  (  )  can  only  be  found  in Lara’s  table 
+(tableL).  But  if  Eashan  only  has  informaƟon  about  the  leaf,  he  won’t  be  able  to  select  a  row 
+from  tableL.  He  needs  to  get  informaƟon  about  the  tree  species  (  )  or  the  color  of  the 
+wood  (  ).  Pri Ɵ’s  table  (tableQ)  has  no  reference  to  a  leaf,  but  Saloni’s  table  (tableS) 
+does.  Knowing  the  shape  of  the  leaf,  Eashan  can  select  the  correct  row  of  tableS  and  get  the 
+missing  informaƟon  about  the  tree  species  (  ).  He  can  then  select  the  correct  row  of 
+tableL to get the missing informaƟon about the Ɵmber. 
+For  example,  if  the  leaf  is  an  oak  leaf,  then  Eashan  can  select  the  correct  row  in  tableL  and 
+ﬁnds out that oak is not a good beaver Ɵmber to build a lodge. 
+The  tables  are  connected  with  each  other  via  one  common  piece  of  informaƟon:  the  tree 
+species  (  ).  If  you  can  select  one  speciﬁc  piece  of  informaƟon  from  any  one  of  the  tables, 
+you have access to all the informaƟon in all of the tables. 
+Computer Science 
+January 2025  Page |  64 
+
+===== PAGE 66 =====
+ Bebras  India 
+This  task  illustrates  fundamental  concepts  of  relaƟonal  databases.  The  tables  created  by 
+Eashan's  friends  represent  tables  in  a  database,  where  each  column  is  an  aƩribute  and  each 
+row  is  a  record  or  tuple.  The  connecƟon  between  the  tables  through  the  common  tree 
+species  aƩribute  (  )  corresponds  to  the  concept  of  foreign  keys  in  relaƟonal  databases, 
+which  establish  relaƟonships  between  tables.  Eashan’s  search  for  informaƟon  about  good 
+Ɵmber  for  a  lodge  based  on  leaf  shape  reﬂects  a  typical  database  query.  This  query  requires 
+joining  mulƟple  tables  to  obtain  the  desired  informaƟon.  The  join  operaƟon  combines  rows 
+from  diﬀerent  tables  based  on  the  common  key,  allowing  data  spread  across  mulƟple  tables 
+to  be  retrieved  and  merged  into  a  single  result  set  (in  this  case,  tree  species  (  ),  leaf 
+shape (  ) and beaver Ɵmber (  ). 
+In  computer  science,  the  language  called  SQL  (Structured  Query  Language)  is  used  to 
+formulate database queries and to perform other operaƟons on a database. 
+ComputaƟonal Thinking 
+The  parƟcipant  needs  abstracƟon  to  solve  this  task.  Even  though  the  given  example  has  a 
+soluƟon  in  the  drawn  tables,  the  parƟcipant  has  to  analyze  the  given  data  and  think  of  a  way 
+to join them together. 
+January 2025  Page |  65 
+
+===== PAGE 67 =====
+ Bebras  India 
+Parking at the party 
+Anna  is  organizing  a  birthday  party  and  invited  all  of  her  friends.  Friends  are  coming  by  car. 
+At  Anna’s  driveway  there  is  space  for  9  cars,  but  they  need  to  park  in  three  columns  by 3  cars 
+one aŌer another. Each guest is asked to park in the ﬁrst available free space in any column. 
+ In  the  example,  car  A  arrived  ﬁrst,  car  D  second, 
+car C third, and car F must leave before car D can. 
+Guests arrive in this order: 
+ A  ni,  B  obby,  C  hitra,  D  ravid,  E  la,  F  alak,  G  iri, 
+H  ailey,  I  va 
+They will leave the party in the following order: 
+ G  iri,  D  ravid,  F  alak,  I  va,  H  ailey,  C  hitra,  B  obby, 
+A  ni,  E  la 
+QuesƟon: 
+Arrange  the  cars  in  columns  in  order  of  arrival  so  no  car  blocks  a  car  that  needs  to  leave 
+earlier. Choose the correct opƟon. 
+A B C D 
+January 2025  Page |  66 
+
+===== PAGE 68 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is A. 
+We can analyse the situaƟon for every pair of guests: 
+-  Ani  arrives  before  Chitra,  and  Chitra  leaves  before  Ani.  So  they  can  park  in  the  same 
+column. The same holds for Ani and Bobby, as well as for Bobby and Chitra. 
+-  Ani  and  Ela  arrive  in  the  same  order  in  which  they  leave,  so  they  cannot  park  in  the  same 
+column.  The  same  holds  for  Bobby  and  Ela;  Chitra  and  Ela;  Dravid  w.r.t.  Ela,  Falak,  Hailey,  and 
+Iva;  Falak  w.r.t.  Hailey  and  Iva;  Giri  w.r.t.  Hailey  and  Iva.  Chitra  arrives  before  Dravid  however 
+leaves aŌer Dravid. 
+AŌer  the  party,  friends  leave  in  this  order:  Giri,  Dravid,  Falak,  Iva,  Hailey,  Chitra,  Bobby,  Ani, 
+and Ela. Nobody gets blocked by someone else’s car, as: 
+1. At ﬁrst Dravid and Giri leave. 
+2. When Giri leaves, Falak’s car is unblocked. 
+3. Dravid unblocks Bobby’s car. 
+4. Falak unblocks Chitra’s car. 
+5. Iva unblocks Hailey’s car. 
+6. Hailey unblocks Ela’s car. 
+7. Chitra emp Ɵes line 2. 
+8. Bobby unblocks Ani’s car. 
+9. Ani and Ela can leave as their cars are the only ones in their columns. 
+Answer B  is incorrect because Dravid arrives before  Falak, so he cannot park behind him. 
+Answer  C  is  incorrect  because  Dravid  has  to  leave  before  Hailey,  but  Hailey  is  parked  behind 
+him. 
+Answer  D  is  incorrect  because,  although  the  guests  are  parked  by  order  of  arrival,  Giri’s  car 
+is blocked, and he needs to leave ﬁrst. 
+Computer Science 
+The  way  the  cars  are  parked  in  columns  in  Anna’s  driveway  is  according  to  what  in 
+informaƟcs  is  called  stacks  .  A  stack  is  a  data  structure  used  to  store  sequenƟal  collecƟons  of 
+data  or  objects.  Data  structures  are  important  in  informaƟcs  because  they  allow  us  to 
+organise data so that it can be processed, stored, and retrieved in eﬃcient ways. 
+January 2025  Page |  67 
+
+===== PAGE 69 =====
+ Bebras  India 
+A  stack  works  like  a  pile  of  dishes:  when  a  new  object  needs  to  be  stored,  it  is  placed  on  top 
+of  the  stack  (this  operaƟon  is  called  pushing).  You  can  always  only  look  at  (  peek  )  or  remove 
+(  pop  )  the  object  from  the  top  of  the  stack.  A  data  structure  with  this  kind  of  behaviour  is  also 
+called  LIFO  (Last-In  First-Out).  So,  when  using  a  stack,  only  the  last  element  added  to  the 
+stack can be accessed directly and removed, as with the cars in this task. 
+The  problem  of  arranging  many  cars  into  mulƟple  stacks,  so  that  they  don’t  block  each  other 
+when  they  have  to  leave,  and  similar  problems,  are  called  MulƟ-Stack  ParƟƟ oning 
+Problems  ,  and  the  algorithms  to  solve  them  ﬁnd  applicaƟon  in  allocaƟng  resources  to  jobs, 
+for example, in mulƟcore processor devices, where parallel processing can occur. 
+ComputaƟonal Thinking 
+Students  must  follow  the  order  of  the  cars  arriving  and  check  where  they  can  be  parked. 
+They  must  also  check  when  each  car  can  leave  its  parking  place.  Through  this  task,  they  are 
+developing algorithmic thinking and logical reasoning. 
+January 2025  Page |  68 
+
+===== PAGE 70 =====
+ Bebras  India 
+T-Shirt SorƟng 
+Baani Beaver works at a factory that makes t-shirts. Every t-shirt has 2 properƟes: 
+● Colour: Blue, Yellow, Pink 
+● PaƩern: Plain, DoƩed, Striped 
+Baani  has  a  machine  which  sorts  t-shirts  into 
+three  diﬀ erent  boxes  based  on  her 
+instrucƟons. 
+On  Monday,  she  gave  the  following 
+instrucƟon how to deal with each t-shirt: 
+If  the  paƩern  of  the  t-shirt  is  Plain 
+or Striped, put it in Box 2; 
+ else,  if  the  colour  of  the  t-shirt  is 
+Pink, put it in Box 3; 
+ else, put it in Box 1. 
+The machine put the t-shirts into boxes as shown: 
+QuesƟon: 
+On Tuesday, Baani wanted the t-shirts to be sorted like this: 
+January 2025  Page |  69 
+
+===== PAGE 71 =====
+ Bebras  India 
+Which of these instrucƟons would give Baani the desired result? 
+ A  If the colour of the t-shirt is Yellow, put it in Box 1; 
+ else, if the paƩern of the t-shirt is Plain, put it in Box 3; 
+ else, put the t-shirt in Box 2. 
+ B  If the paƩern of the t-shirt is Plain, put it in Box 3; 
+ else, if the colour of the t-shirt is Yellow, put it in Box 1; 
+ else, put the t-shirt in Box 2. 
+ C  If the colour of the t-shirt is Blue or is Pink, put it in Box 2; 
+ else, if the paƩern of the t-shirt is Plain, put it in Box 3; 
+ else, put the t-shirt in Box 1. 
+ D  If the paƩern of the t-shirt is  DoƩed or is Striped, put it in Box 2; 
+ else, if the colour of the t-shirt is Yellow, put it in Box 1; 
+ else, put the t-shirt in Box 3. 
+January 2025  Page |  70 
+
+===== PAGE 72 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is opƟon B. 
+OpƟon  A  is  incorrect  because  it  ﬁrst  puts  all  Yellow  t-shirts  into  Box  1  regardless  of  paƩern. 
+This  means  Yellow  t-shirts  with  a  Plain  paƩern  would  go  to  Box  1,  but  in  the  desired  output, 
+all  Plain  t-shirts  should  go  to  Box  3.  The  IF  statement  places  plain  t-shirts  with  the  colours 
+Blue,  Yellow,  and  Pink  into  Box  3.  The  Else  IF  statement  places  striped  and  doƩed  paƩern 
+t-shirts  with  the  colour  Yellow  into  Box  1.  The  Else  statement  places  striped  and  doƩed 
+paƩern  t-shirts  with  the  colours  Blue  and  Pink  into  Box  2.  The  image  below  shows  how  the 
+t-shirts are sorted according to the instrucƟons in opƟon A. 
+OpƟon  B  correctly  puts  the  t-shirts  according  to  the  desired  output.  First,  all  Plain  t-shirts 
+from  all  three  colours  (Blue,  Yellow,  and  Pink)  are  placed  in  Box  3.  Then,  any  remaining 
+Yellow  t-shirts  (which  would  be  DoƩed  and  Striped)  are  placed  in  Box  1.  Finally,  all  other 
+remaining  t-shirts  (Blue  and  Pink  with  either  DoƩed  or  Striped  paƩerns)  are  placed  in  Box  2. 
+This  matches  exactly  what  Baani  wanted  for  Tuesday's  sorƟng.  The  image  below  shows  how 
+the t-shirts are sorted according to the instrucƟons in opƟon B. 
+OpƟon  C  is  incorrect  because  it  ﬁrst  places  all  Blue  and  Pink  t-shirts  into  Box  2  regardless  of 
+their  paƩern.  This  means  Blue  and  Pink  t-shirts  with  Plain  paƩerns  would  go  to  Box  2,  but  in 
+the  desired  output,  all  Plain  t-shirts  should  go  to  Box  3.  The  image  below  shows  how  the 
+t-shirts are sorted according to the instrucƟons in opƟon C. 
+January 2025  Page |  71 
+
+===== PAGE 73 =====
+ Bebras  India 
+OpƟon  D  is  incorrect  because  aŌer  placing  all  DoƩed  and  Striped  t-shirts  in  Box  2,  it  places 
+the  remaining  Yellow  t-shirts  (which  would  be  Yellow  +  Plain)  in  Box  1.  However,  in  the 
+desired  output,  all  Plain  t-shirts  should  go  to  Box  3.  The  image  below  shows  how  the  t-shirts 
+are sorted according to the instrucƟons in opƟon D. 
+Computer Science 
+This  task  demonstrates  key  informaƟcs  concepts  that  are  fundamental  to  how  computers 
+process informaƟon: 
+1.  CondiƟonal  Logic:  The  core  of  this  challenge  is  understanding  how  IF-ELSE  statements 
+ control  the  ﬂow  of  decision-making.  Just  like  Baani's  machine  sorts  t-shirts  based  on 
+ speciﬁc  rules,  computers  use  condiƟonal  statements  to  determine  what  acƟons  to 
+ take  based  on  diﬀerent  inputs.  This  type  of  decision  structure  is  used  in  everything 
+ from simple mobile apps to complex systems. 
+2.  Rule-based  ClassiﬁcaƟon:  When  the  machine  separates  t-shirts  into  diﬀerent  boxes, 
+ it's  performing  classiﬁcaƟon  based  on  rules.  This  concept  is  used  in  many  compuƟng 
+ applicaƟons, such as: 
+ a)  Email ﬁlters that separate messages into inbox, spam, or other folders. 
+ b)  Content  recommendaƟon  systems  that  categorize  items  based  on  user 
+ preferences. 
+ c)  Data processing systems that route informaƟon to diﬀerent desƟnaƟons. 
+January 2025  Page |  72 
+
+===== PAGE 74 =====
+ Bebras  India 
+3.  ExecuƟon  Order:  The  sequence  in  which  condiƟons  are  checked  signiﬁcantly  aﬀects 
+ the  outcome.  This  reﬂects  how  computer  programs  execute  instrucƟons  in  a  speciﬁc 
+ order, and changing that order can completely change the program's behavior. 
+ComputaƟonal Thinking 
+This challenge involves two key computaƟonal thinking skills: 
+Algorithmic  Thinking:  To  solve  this  problem,  you  need  to  follow  a  series  of  logical  steps  in 
+order.  For  each  possible  answer,  you  must  trace  through  what  happens  with  each  t-shirt 
+type:  which  box  would  a  Blue  Plain  t-shirt  go  into?  What  about  a  Yellow  DoƩed  one?  By 
+mentally  following  the  steps  in  sequence,  you  can  determine  which  set  of  instrucƟons 
+produces the desired result. 
+DecomposiƟon:  This  task  requires  iden Ɵfying  the  key  factors  (paƩern  and  colour)  that 
+determine  how  t-shirts  should  be  sorted.  Rather  than  looking  at  all  t-shirt  combinaƟons  at 
+once,  you  need  to  focus  on  one  property  at  a  Ɵme  and  understand  how  each  sorƟng  rule 
+aﬀects  the  ﬁnal  arrangement.  This  approach  of  breaking  down  a  complex  problem  into 
+simpler parts is essenƟal for solving many compuƟng challenges. 
+January 2025  Page |  73 
+
+===== PAGE 75 =====
+ Bebras  India 
+Beaver Book Exchange Club 
+Six  beavers  Anita,  Babloo,  Chintu,  Deepa,  Esha,  and  Falak  give  and 
+receive  books  as  part  of  a  book  exchange  club.  Each  beaver  has 
+favorite  genres.  They  only  exchange  books  according  to  the  following 
+to maximize their enjoyment: 
+● Each  beaver  gives  exactly  one  book  of  their  favorite  genre  to  another  beaver  with 
+whom he shares a favorite genre. 
+● Each  beaver  receives  one  book  of  another  one  of  their  favorite  genres  from  another 
+beaver with whom he shares a favorite genre. 
+These are their favorite genres: 
+Beaver  Mystery  Adventure Science 
+ﬁcƟon 
+Fantasy  History Biography 
+Anita     
+Babloo   
+Chintu    
+Deepa    
+Esha     
+Falak   
+QuesƟon: 
+If Chintu gives his book to Esha. What type of book is given to Babloo, and from whom? 
+A) Fantasy, from Anita 
+B) Fantasy, from Falak 
+C) Science ﬁcƟon, from Deepa 
+D) Science ﬁcƟon, from Chintu 
+E) History, from Esha 
+F) History, from Chintu 
+January 2025  Page |  74 
+
+===== PAGE 76 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+Step 1, determine the book exchanged between Chintu and Esha: 
+It  is  given  that  Chintu  gives  a  book  to  Esha.  Chintu’s  favorite  genres  are  History  and 
+Biography.  Esha’s  favorite  genres  are  Mystery  and  History.  Therefore,  Chintu  can  only 
+give a History book to Esha so that she’ll accept it. 
+Step 2, trace the book exchange conƟnuing with Esha: 
+Esha  received  a  History  book.  Now,  she  needs  to  give  a  book  to  another  beaver  with 
+whom  she  shares  a  favorite  genre  (Mystery  or  History),  and  it  must  be  of  another 
+favorite  genre.  Since  she  has  already  received  a  History  from  Chintu,  she  must  give 
+away  a  Mystery  book.  Only  Anita  shares  that  favorite  genre  with  her,  so  Esha  must 
+give a Mystery book to Anita. 
+Step 3, conƟnue tracing the exchanges for remaining beavers: 
+The following graph shows these book exchanges: 
+Therefore, the correct answer is that Babloo receives a Science FicƟon book from Deepa. 
+Computer Science 
+Mapping  problems  to  graphs,  which  are  structures  of  nodes  (verƟces)  and  edges,  oŌen 
+makes  the  problem  easy  to  understand  and  solve.  In  this  case  it  is  a  directed  graph  as 
+indicated  by  the  arrows.  This  approach  also  allows  for  easier  visualizaƟon,  as  demonstrated 
+in game trees, navigaƟon systems, and constraint saƟsfacƟon problems (CSP). 
+Our  problem  can  be  classiﬁed  as  a  CSP .  In  CSPs,  a  set  of  variables  (beavers)  must  be  assigned 
+values  (book  genres)  while  saƟsfying  a  set  of  constraints  (exchange  rules).  CSPs  are  widely 
+used in scheduling, resource allocaƟon, and solving logic puzzles. 
+However,  not  every  problem  can  be  solved  using  a  CSP .  In  this  example  the  constraints  are 
+chosen  carefully  so  that  there  is  a  unique  soluƟon.  In  other  examples  there  could  be  several 
+possible soluƟons, or there could be no soluƟon at all. 
+January 2025  Page |  75 
+
+===== PAGE 77 =====
+ Bebras  India 
+Another  classic  example  for  a  CSP  is  the  Sudoku  puzzle,  where  numbers  must  be  placed  in  a 
+grid while saƟsfying row, column, and sub-grid constraints. 
+ComputaƟonal Thinking 
+This  problem  involves  several  key  computaƟonal  thinking  skills,  the  obvious  one  being 
+Algorithmic  Thinking:  A  step-by-step  process  must  be  followed  to  ensure  the  correct  book 
+exchange sequence. 
+However,  as  introduced  in  the  This  is  Informa Ɵcs  secƟon,  Abstrac Ɵon  is  also  a  key 
+competency:  once  one  has  realized  that  one  can  follow  a  path  along  the  imagined  arrows, 
+the  task  becomes  much  more  simple.  And  this  is  the  key  of  abstrac Ɵon:  the  relevant 
+informaƟon  is  drawn  from  the  total  informaƟon  given,  and  by  focussing  only  on  that  it 
+becomes much more simple to solve the original task. 
+January 2025  Page |  76 
+
+===== PAGE 78 =====
+ Bebras  India 
+Sand PainƟng 
+Sand  painƟng  is  an  acƟvity  where  you  pour  coloured  sand  onto  paper  and  add  glue  to  ﬁx  it. 
+Since the glue dries quickly, students must choose all their colours before starƟng. 
+Each  jar,  numbered  1  to  11,  contains  a  diﬀerent  colour  of  sand.  The  teacher  gives  each 
+student  a  jar.  The  numbered  jars  that  Aryan  (A),  Billu  (B),  Chinmay  (C),  and  Deena  (D) 
+currently hold and the other jars they want are shown below. 
+Each student  must  get  all  the  colours  they  want  before  they  start  painƟng.  AŌer  they  are 
+ﬁnished,  everyone  must  return  all  their  used  jars.  If  a  student  wants  to  use  a  jar  that  another 
+student has, they have to wait unƟl the jar has been returned. 
+QuesƟon: 
+Who is the last student to start colouring? 
+A. Aryan 
+B. Billu 
+C. Chinmay 
+D. Deena 
+January 2025  Page |  77 
+
+===== PAGE 79 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is D) Deena. 
+Aryan  wants  jars  1  and  9,  but  no  one  else  has  jars  1  and  9,  so  he  can  start  pain Ɵng 
+immediately. 
+Chinmay wants jar 2, but Aryan has jar 2, so Chinmay has to wait for Aryan to ﬁnish painƟng. 
+Billu wants jar 5, but Chinmay has jar 5, so Billu has to wait for Chinmay to ﬁnish painƟng. 
+Deena wants jar 8, but Billu has jar 8, so Deena has to wait for Billu to ﬁnish painƟng. 
+Aryan  starts  painƟng  immediately.  Once  he  ﬁnishes,  then  Chinmay  can  start.  Once  Chinmay 
+ﬁnishes, Billu can start. Once Billu ﬁnishes, Deena can start. 
+So  the  order  is  Aryan,  Chinmay,  Billu,  and  Deena.  Therefore,  the  last  student  to  start  painƟng 
+is Deena. 
+Computer Science 
+This  problem  is  an  example  of  a  deadlock  situa Ɵon.  A  deadlock  occurs  when  mul Ɵple 
+processes  compete  for  the  same  limited  resources,  such  as  ﬁles,  databases,  or  memory.  In  a 
+deadlock,  the  involved  processes  cannot  make  any  progress  when  they  are  blocked,  waiƟng 
+for  the  release  of  the  resources  that  are  unavailable.  Deadlocks  can  lead  to  system 
+instability, decreased performance, and even complete system failure. 
+In  this  problem,  a  deadlock  occurs  when  one  or  more  of  the  students  need  a  jar  held  by 
+another, causing a waiƟng state. 
+ComputaƟonal Thinking 
+Algorithms:  In  this  problem,  students  use  algorithmic  thinking  to  determine  the  order  in 
+which students can start painƟng. 
+DecomposiƟon:  This  problem  is  too  complex  to  solve  as  a  whole.  Instead,  it  has  to  be  broken 
+down  into  smaller  pieces,  which  can  be  solved  one  at  a  Ɵme.  For  instance,  the  students  can 
+consider  one  beaver  at  a  Ɵme:  which  paints  does  the  beaver  need  and  who  has  the  paint 
+now. 
+January 2025  Page |  78 
+
+===== PAGE 80 =====
+ Bebras  India 
+Inner Tubes 
+AŌer  being  used  on  a  water  slide,  inner  tubes  ﬂoat  downstream(→)  in  a  short  river.  At  the 
+end of the river, they gather in a line as shown. 
+When  an  inner  tube  is  pulled  out(→)  of  the  water  for  someone's  next  ride,  each  inner  tube 
+behind  it  ﬂoats  one  posiƟon(→)  downstream  to  ﬁll  the  gap.  In  our  example  above  the 
+number of Ɵmes an inner tube ﬂoats one posiƟon downstream is 8. 
+QuesƟon: 
+Eight  inner  tubes  gather  as  shown  below.  Then  ﬁve  inner  tubes  are  pulled  out  of  the  water  in 
+the  order  B,  G,  E,  D,  H.  In  total,  how  many  Ɵmes  does  an  inner  tube  ﬂoat  one  posiƟon 
+downstream? 
+A) 10 
+B) 11 
+C) 12 
+D) 13 
+January 2025  Page |  79 
+
+===== PAGE 81 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+Correct answer is B) 11. 
+To begin, from the end of the river, the line of inner tubes is A, B, C, D, E, F, G, H. 
+ Pulled Out Inner Tube  Inner  Tubes  that  ﬂoat 
+ downstream 
+ New  line  from  the  end  of  the 
+ river 
+ B  C, D, E, F, G and H (6 inner tubes)  A, C, D, E, F, G, H 
+ G  H (1 inner tube)  A, C, D, E, F, H 
+ E  F and H (2 inner tubes)  A, C, D, F, H 
+ D  F and H (2 inner tubes)  A, C, F, H 
+ H  - (No inner tubes ﬂoat)  A, C, F 
+A total of 6+1+2+2=11 inner tubes ﬂoat one posiƟon downstream. 
+Computer Science 
+It  is  common  for  data  or  informaƟon  to  naturally  occur  as  a  sequence.  In  everyday  life,  this 
+might  be  planes  waiƟng  to  take  oﬀ  on  a  runway,  a  list  of  edits  made  to  a  document  (in 
+order), or inner tubes in a river as in the story behind this problem. 
+When  we  use  a  computer  program  to  solve  problems  related  to  these  scenarios,  we  usually 
+need  to  store  this  data.  One  way  to  do  this  is  to  store  the  data  in  a  sequence  in  memory. 
+That  is,  the  diﬀerent  pieces  of  data  (e.g.  planes,  edits  or  inner  tubes)  might  be  stored  in 
+consecuƟve  memory  locaƟons.  One  advantage  of  doing  this  is  that  it  is  typically  easy  to  ﬁnd 
+an  element  in  the  sequence  given  its  posiƟon.  One  disadvantage  of  doing  this  is  that  when 
+we  remove  (or  insert)  an  element  from  the  sequence,  we  need  to  shuﬄe  elements  to  keep 
+them  stored  in  consecuƟve  memory  locaƟons.  This  is  analagous  to  the  inner  tubes  ﬂoaƟng 
+downstream  to  ﬁll  the  gap  leŌ  by  a  removed  inner  tube.  This  takes  Ɵme  and  when  done 
+oŌen enough can slow down a program considerably. 
+Note  that  even  if  "real  world"  data  is  not  a  sequence  (e.g.  a  populaƟon  of  people),  we  might 
+sƟll  choose  to  store  it  in  a  sequence  in  memory.  When  making  a  decision  to  do  this,  we  need 
+to  balance  the  advantages  and  disadvantages.  Doing  this  requires  an  understanding  of  how 
+data is stored in memory and how computer programs work/run. 
+January 2025  Page |  80 
+
+===== PAGE 82 =====
+ Bebras  India 
+ComputaƟonal Thinking 
+Solving  this  problem  requires  execuƟng  the  sequence  of  steps  involving  removing  inner 
+tubes  and  moving  inner  tubes  to  ﬁll  the  gap.  This  is  a  classic  case  of  algorithmic  thinking 
+whereby  an  iteraƟve  process  (where  order  maƩers)  needs  to  be  executed  while  a  value  is 
+accumulated.  GeneralizaƟon  is  also  required  to  implement  the  soluƟon  to  the  diﬀerent 
+shape of the river and diﬀerent number of pulled out tubes. 
+January 2025  Page |  81 
+
+===== PAGE 83 =====
+ Bebras  India 
+Catch the acorn 
+A  beaver  is  playing  ‘Catch  the  acorn’  with  the  squirrels.  There  are  nine  streams,  labeled  A,  B, 
+C,  D,  E,  F,  G,  H,  and  I,  all  meeƟng  at  the  beaver’s  dam  at  the  boƩom.  The  beaver  can  choose 
+any  number  of  streams  and  place  1  acorn  into  each  one.  He  wants  as  many  acorns  as 
+possible to arrive at the dam. 
+The squirrels guard the streams, either alone or in pairs. 
+ One squirrel alone: 
+ ●  They miss the ﬁrst acorn but catch the second one. 
+ ●  If  two  acorns  arrive  at  the  same  Ɵme,  they  only  catch  one  of 
+ them. 
+ Two squirrels in a pair: 
+ ●  They  catch  the  ﬁrst  acorn,  but  they  ﬁght  over  it,  so  they  miss 
+ the second one. 
+ ●  If  two  acorns  arrive  at  the  same  Ɵme,  they  only  catch  one  of 
+ them. 
+Each stream has 0 or 1 acorns and all acorns are released at the same Ɵme. 
+QuesƟon: 
+On which 3 streams should the beaver place acorns so that at least 1 acorn reaches the dam. 
+A. A C H 
+B. B D F 
+C. B G H
+D. C E G 
+E. E F I 
+January 2025  Page |  82 
+
+===== PAGE 84 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The  beaver  needs  to  send  3  acorns  to  get  1  acorn  to  the  dam.  The  diagram  shows  where  he 
+puts  them.  The  streams  are  marked  in  red  and  the  arrows  represent  where  the  squirrel 
+guards catch one of the acorns. 
+The squirrels work like logical operators. 
+ Individual  squirrels  are  like  the  so-called  OR  logical  gate.  Only  1 
+ acorn  is  needed  to  ensure  that  1  acorn  passes  the  guard  and 
+ conƟnues downstream. 
+ A  logical  OR  operaƟon  means  you  only  need  ONE  thing  or  the  OTHER 
+ for it to be true, you don’t necessarily need both. 
+ Pairs  of  squirrels  work  like  the  so-called  AND  logical  gate.  It  takes  2 
+ acorns  to  ensure  that  1  acorn  passes  the  guard  and  con Ɵnues 
+ downstream. 
+ A  logical  AND  operaƟon  means  you  always  need  BOTH  things  for  it 
+ to be true. Just one is not enough. 
+To ﬁnd the best soluƟon, it is useful to work upstream. 
+We represent the ﬂow system in a more readable form: 
+Replace  the  squirrels  with  the  corresponding  logical 
+gate (AND  and OR  ). 
+Replace  the  streams  with  lines. If  an  acorn  follows 
+this  stream,  the  line  is  ‘on’  (marked  in  red).  If  no 
+acorn follows the stream, the line is ‘oﬀ’. 
+January 2025  Page |  83 
+
+===== PAGE 85 =====
+ Bebras  India 
+At  the  end,  a  beaver  wants  to  get  an  acorn.  So  both  lines 
+before AND  must be ‘on’. 
+Following  the  line  at  the  boƩom  right,  we  come  to  OR  . 
+So  we  only  need  one  of  the  lines  above  that  to  be  ‘on’  (using 
+both also works, but would require more acorns). 
+The  stream  on  the  far  right  only  needs  one  acorn  at  the  top 
+because  there  are  no  other  gates,  so  we  are  ﬁnished  with 
+this branch of the diagram if we choose that stream. 
+Following  the  line  at  the  boƩom  leŌ,  we  also  come  to  OR 
+. 
+Following  the  right  line  from  there,  we  come  to  AND  , 
+meaning we can use 2 acorns at the top, as shown. 
+Following the leŌ line instead would require 3 acorns. 
+For all other soluƟons we would need more than 3 acorns. 
+Computer Science 
+This  task  addresses  two  areas  of  informaƟcs.  One  is  discrete  opƟmizaƟon,  where  we  try  to 
+opƟmize the gain under given constraints. The second is the analogy to logical circuits. 
+Logical  gates  are  the  unseen  building  blocks  of  our  digital  world.  These  simple  yet  powerful 
+tools  of  computer  logic  decide  in  fracƟons  of  a  second  which  informaƟon  to  pass  on  and 
+which not to. 
+However,  the  signiﬁcance  of  logical  gates  extends  far  beyond  our  current  technologies.  They 
+hold  the  key  to  developing  quantum  computers  that  could  solve  complex  problems  in  areas 
+like  climate  modeling  or  pharmaceuƟcal  research.  In  the  emerging  world  of  the  Internet  of 
+Things  (IoT),  advanced  logic  circuits  will  enable  millions  of  devices  to  communicate 
+seamlessly, making our daily lives more eﬃcient. 
+Mastering  these  fundamental  logical  operaƟons  opens  doors  to  fascinaƟng  careers  in  AI 
+development, cybersecurity, and even space exploraƟon. 
+ComputaƟonal Thinking 
+This  task  addresses  two  areas  of  informaƟcs.  One  is  discrete  opƟmizaƟon,  where  we  try  to 
+opƟmize the gain under given constraints. The second is the analogy to logical circuits. 
+January 2025  Page |  84 
+
+===== PAGE 86 =====
+ Bebras  India 
+Family Tree 
+ Beavers  Ankita  and  Dhruv  are  at  a  family 
+ gathering.  Someone  asks:  “How  exactly  are 
+ the  two  of  you  related?”  Ankita  grabs  a 
+ piece  of  paper  and  sketches  the  family  tree. 
+ In  her  sketch,  the  female  beavers  wear 
+ ribbons and the male beavers wear caps. 
+Ankita likes to describe the relaƟonship in the following way: 
+● father(X) means “father of beaver X” 
+● mother(X) means “mother of beaver X” 
+For  example,  Ankita’s  father  is  Badri,  whose  mother  is  Chitra.  This  can  be  described  as 
+follows: 
+● father(Ankita) = Badri 
+● mother(Badri) = Chitra 
+● mother(father(Ankita)) = Chitra 
+Ankita has to leave before she is ﬁnished. Can you help? 
+QuesƟon: 
+Describe the relaƟonship between Ankita and Dhruv by ﬁlling in the gaps: 
+father(mother(Ankita)) = ________(________(________(Dhruv))) 
+January 2025  Page |  85 
+
+===== PAGE 87 =====
+ Bebras  India 
+A. father (mother (Ankita)) = father (father (father (Dhruv))) 
+B. father (mother (Ankita)) = father (father (mother (Dhruv))) 
+C. father (mother (Ankita)) = father (mother (father (Dhruv))) 
+D. father (mother (Ankita)) = father (mother (mother (Dhruv))) 
+January 2025  Page |  86 
+
+===== PAGE 88 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct relaƟonship between Ankita and Dhruv is: 
+father(mother(Ankita)) = father(mother(mother(Dhruv))) 
+Firstly,  we  ﬁnd  out  that  the  expression  on  the  leŌ,  father(mother(Ankita))  ,  points  to  Anil.  He 
+is  Ankita’s  mother’s  father,  or  Ankita’s  maternal  grandfather.  To  ﬁll  in  the  gaps  in  the 
+expression on the right, we need to express how Dhruv is related to Anil. 
+For this, we start with Dhruv and move up one generaƟon at a Ɵme unƟl we reach Anil: 
+1. StarƟng with Dhruv, we move one genera Ɵon up to Dhruv’s mother, 
+mother(Dhruv)  ,  to be one step closer to Anil. 
+2. From  there,  we  move  one  genera Ɵon  up  to  mother(mother(Dhruv)).  This  is  the 
+mother of Dhruv's mother, or Dhruv's maternal grandmother. 
+3. Finally,  we  ﬁnd  father(mother(mother(Dhruv))),  the  father  of  that  grandmother,  to 
+get to Anil. 
+Computer Science 
+FuncƟon composiƟon and nesƟng: 
+This  Bebras  task  demonstrates  how  funcƟon  calls  can  be  composed,  or  nested,  to  calculate 
+complex relaƟonships. 
+FuncƟons  are  units  in  computer  programs  that  can  be  used  mulƟple  Ɵmes.  A  funcƟon  has  a 
+name  and  parameters.  FuncƟons  are  described  as  “f(p)”,  where  “f”  is  the  name  of  the 
+funcƟon  and  “p”  is  the  input  or  parameter.  For  example,  the  process  of  doubling  the  number 
+3  could  be  described  as  mulƟply_by_two(3),  where  “mulƟply_by_two”  is  the  name  of  the 
+funcƟon and the number “3” is the parameter. Parameters are someƟmes called arguments. 
+From  a  computaƟonal  perspecƟve,  “father()”  and  “mother()”  are  funcƟons  that  can  be 
+called to calculate and return a value, called the result. 
+In  a  nested  funcƟon  call,  the  results  of  inner  funcƟon  calls  serve  as  input  to  the  containing 
+call.  A  nested  func Ɵon  call  is  evaluated  from  the  inside  out.  For  example, 
+father(mother(mother(Dhruv)))  ﬁrst  ﬁnds  Dhruv’s  mother,  then  his  mother’s  mother,  and 
+ﬁnally  his  mother’s  mother’s  father.  The  mechanism  of  funcƟon  composiƟon  is  available  in 
+most  programming  languages,  but  is  par Ɵcularly  important  to  funcƟonal  programming 
+languages such as Scheme. 
+January 2025  Page |  87 
+
+===== PAGE 89 =====
+ Bebras  India 
+Hierarchical data structures: 
+The  family  tree  is  a  hierarchical  data  structure  in  which  each  person  is  organized  at  a  certain 
+level,  such  as  parents,  grandparents  and  great-grandparents.  The  task  shows  how  such 
+structures  can  be  used  to  analyze  and  determine  relaƟonships  between  elements.  This 
+concept  is  widely  used,  for  instance  in  databases  and  XML  structures  including  websites. 
+Websites,  in  parƟcular,  are  composed  of  hierarchical  elements.  Every  element  you  see  on  a 
+web  page,  such  as  buƩons,  text  blocks,  or  images,  is  part  of  a  tree-like  structure.  These 
+elements  have  parent  and  child  relaƟonships,  allowing  browsers  to  render  complex  layouts 
+in an organized and structured way. This structure is described in a language called HTML. 
+ComputaƟonal Thinking 
+Problem  decomposiƟon:  The  problem  of  the  relaƟonship  is  decomposed  into  several 
+individual  steps:  (1)  we  need  to  determine  which  person  the  expression  on  the  leŌ  points  to, 
+(2)  we  need  to  express  how  Daniel  is  related  to  that  person,  (3)  to  express  this  relaƟon,  we 
+make individual funcƟon calls for each generaƟon step backward. 
+AbstracƟon:  SimpliﬁcaƟon of complex family relaƟonships  through an abstract notaƟon. 
+January 2025  Page |  88 
+
+===== PAGE 90 =====
+ Bebras  India 
+A message from outer space 
+ Tikku  received  a  signal  from  outer  space! 
+ The  signal  contains  an  alien  alphabet  and  a 
+ message.  Unfortunately,  some  of  the  leƩers 
+ have  been  rendered  illegible  by  galac Ɵc 
+ radiaƟon. 
+ But  luckily  the  alphabet  seems  to  follow  a 
+ clear rule. 
+QuesƟon: 
+Can you read the message? 
+A. ONION 
+B. ORION 
+C. IONIC 
+D. RETRO 
+January 2025  Page |  89 
+
+===== PAGE 91 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The message is ORION: 
+In order to ﬁll the gaps in the alphabet, three central ﬁndings must be made: 
+Each  alien  character  consists  of  a  pentagon  with  a  line  and  a  dot.  The  posiƟon  of  the 
+line and the dot determine which LaƟn leƩer it is. 
+There are ﬁve leƩers in each line. These share the same line posiƟon. 
+There are ﬁve leƩers in each column. These share the same dot posiƟon. 
+By  combining  all  5x5  line  and  dot  posiƟons, 25  characters  of  the  LaƟn  alphabet  can  be 
+mapped.  Note  that  in  this  task  the  leƩers  V/W  have  been  combined  into  one  character  in  the 
+alien alphabet: 
+Finally,  the  symbols  can  be  read  directly  from  this  table.  To  do  this,  we  combine  the  line  and 
+dot posiƟons to ﬁnd the respecƟve leƩers and ﬁnally the target word ORION. 
+Computer Science 
+The  task  revolves  around  the  idea  of  informaƟon  representaƟon  (in  computer  science  this  is 
+called encoding).  Here,  leƩers  of  the  LaƟn  alphabet  are  represented  by  the  characters  of 
+January 2025  Page |  90 
+
+===== PAGE 92 =====
+ Bebras  India 
+another  alphabet.  Coding  surrounds  us  in  many  everyday  contexts,  from  decimal  number 
+representaƟon to ASCII/Unicode to more complex coding. 
+A  second  central  topic  is  the  use  of  a subsƟtuƟon  cipher to  convert  LaƟn  leƩers  to  the 
+foreign  alphabet  and  back.  Ciphers  are  a  classic  form  of  cryptography.  Each  leƩer  of  the 
+plaintext  alphabet  (here  the  LaƟn  alphabet)  is  replaced  by  a  unique  symbol  of  the  ciphertext 
+alphabet  (here  the  alien  alphabet).  This  type  of  encrypƟon  has  a  long  history  -  from  the 
+ciphers that are hundreds of years old to more modern encrypƟon techniques. 
+A  third  important  factor  that  can  be  discovered  in  this  task  is  paƩern  recogniƟon.  Only  by 
+analyzing  the  recurring  paƩern  in  the  encoding,  we  are  able  to  infer  what  symbol  the 
+missing leƩers correspond to. 
+ComputaƟonal Thinking 
+PaƩern  recogniƟon  plays  a  central  role  in  this  task.  We  must  idenƟfy  recurring  structures  in 
+the wriƟng and recognize similariƟes between rows and columns. 
+January 2025  Page |  91 
+
+===== PAGE 93 =====
+ Bebras  India 
+LeŌy 
+LeŌy the robot  navigates on a grid. 
+ LeŌy  can  make  only  the 
+ following moves: 
+go forward  turn leŌ and go forward 
+ LeŌy  cannot  make  the 
+ following moves: 
+Going  to  the  right  is  not 
+possible. 
+ If  there  is  a  wall,  Le Ōy 
+ cannot cross it 
+Below, there is a grid with a few walls. 
+QuesƟon: 
+What is the minimum number of grid cells LeŌy needs to visit on its way to the green goal? 
+A. 8 B. 12 C. 16 D. 18 
+January 2025  Page |  92 
+
+===== PAGE 94 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+Above,  on  the  leŌ,  you  see  (a)  how  LeŌy  reaches  the  goal  with  going  to  the  leŌ  only,  and  (b) 
+the  cells  that  need  to  be  selected  in  the  correct  answer.  Twice,  LeŌy  is  using  a  procedure  for 
+changing its  direcƟon  to  the  right,  as  shown  on  the  right.  The  posiƟon  of  the  walls  do  not 
+allow for any other way to reach the goal with a lower or equal number of visited grid cells. 
+Computer Science 
+LeŌy's  operaƟon  seems  to  be  strongly  limited.  If  the  robot  could  turn  right  and  perhaps  even 
+climb  over  walls,  his  life  on  the  grid  would  be  much  easier.  For  that,  he  would  need  a  more 
+complex  instrucƟon  set.  (A  robot's  basic  moves  are  controlled  by  corresponding  instrucƟons 
+in the robot's soŌware.) 
+But  is  this  really  required?  For  instance,  LeŌy  could  turn  right  by  making  three  leŌ  turns  in  a 
+row.  We  just  need  to  get  rid  of  the  rule  that  LeŌy  must  move  forward  aŌer  turning  once. 
+Then,  it  could  navigate  in  all  direcƟons.  And  instead  of  climbing  across  a  wall,  it  could  just  go 
+around  it  (if  possible).  That  is,  a  reduced  instruc Ɵon  set  may  be  ﬁne  as  well.  For 
+implemenƟng  more  complex  behavior  that  is  less  common,  programmers  can  invent 
+subrouƟnes  , which combine basic instrucƟons to a  more complex one. 
+In  informaƟcs,  exactly  these  two  ways  of  designing  the  instrucƟon  sets  of  processors  are 
+most  popular:  Some  processors  are  a  CISC  (complex  instrucƟon  set  computer),  others  are  a 
+RISC  (reduced  instrucƟon  set  computer)  –  like  that  of  LeŌy  in  this  Bebras  task.  A  CISC  usually 
+has  many  diﬀerent  instrucƟons  that  may  be  very  powerful  (like  climbing  over  a  wall).  In 
+contrast,  a  RISC  only  has  instrucƟons  that  are  really  and  frequently  used,  with  the  opƟon  to 
+make  use  of  subrouƟnes  for  less  common  operaƟons.  Both  kinds  of  architectures  have  their 
+advantages  and  disadvantages.  Processors  of  well-known  brands  are  either  CISC  or  RISC, 
+with RISC processors being somewhat more popular recently. 
+ComputaƟonal Thinking 
+The  task  involves  algorithmic  thinking,  as  you  have  to  construct  the  shortest  route  based  on 
+the two basic commands. 
+January 2025  Page |  93 
+
+===== PAGE 95 =====
+ Bebras  India 
+ExciƟng Water Slide 
+The  Beaver  Amusement  Park  has  an  exciƟng  dynamic  waterslide.  The  following  diagrams 
+show  how  it  works:  a  mechanism  controls  the  exit  direcƟon  of  each  fork;  whenever  a  beaver 
+passes through a fork, the exit direcƟon ﬂips. 
+As  the  following  picture  shows,  LiƩle  beaver  Dan  wants  to  try  the  waterslide.  Mommy 
+beaver  wants  to  know  where  Dan  will  exit  the  slide  so  that  she  can  take  good  pictures.  She 
+ﬁrst  sees  a  beaver  exit  from  slide  B,  and  then  another  from  slide  C.  LiƩle  beaver  Dan  is  the 
+one aŌer the next beaver. 
+QuesƟon: 
+From which slide will LiƩle beaver Dan exit? 
+A. Slide A 
+B. Slide B 
+C. Slide C 
+D. Slide D 
+January 2025  Page |  94 
+
+===== PAGE 96 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The answer is D. 
+Since  the  exit  direcƟon  ﬂips  every  Ɵme  a  beaver  slides  through  a  fork,  we  can  deduce  the 
+exit direcƟon of the forks aŌer the ﬁrst two beavers pass. 
+As  the  picture  below  shows,  the  ﬁrst  beaver  exits  from  slide  B;  we  can  infer  the  beaver  goes 
+leŌ  at  the  ﬁrst  fork  and  right  at  the  second.  AŌer  that,  the  exit  direcƟon  of  these  two  forks 
+ﬂips:  the  ﬁrst  fork  exit  through  the  right,  and  the  second  (boƩom  leŌ)  fork  exit  through  the 
+leŌ. At this point, we sƟll are not sure about the exit direcƟon of the boƩom right fork. 
+Similarly,  as  shown  in  the  picture  below,  the  next  beaver  exit  through  slide  C;  we  can  infer 
+the  exit  direcƟon  of  boƩom  right  fork  was  to  the  leŌ  before  the  beaver  passes,  and  then  ﬂips 
+to the right aŌer that. 
+At  this  point,  we  have  found  out  the  exit  direcƟon  of  all  the  forks,  so  we  can  trace  the  route 
+that  the  beaver  before  Dan  takes  and  the  exit  direcƟon  of  the  forks  aŌerwards,  shown  in  the 
+picture below. 
+January 2025  Page |  95 
+
+===== PAGE 97 =====
+ Bebras  India 
+Finally,  we  know  that  Dan  will  take  the  route  shown  in  the  picture  below  and  exit  through 
+slide D. 
+Computer Science 
+In  this  task,  the  exit  direcƟon  of  each  fork  determines  which  slide  a  beaver  will  exit  from. 
+This  is  similar  to  how  condiƟonal  statements  work  in  programming.  A  typical  condiƟonal 
+statement  follows  the  paƩern:  “If  a  condiƟon  is  true,  do  this;  otherwise,  do  something  else.” 
+In  this  task,  we  can  describe  the  fork  behavior  like  this:  “If  the  fork  is  poinƟng  leŌ,  the  beaver 
+turns  leŌ  and  the  fork  switches  to  right;  otherwise,  the  beaver  turns  right  and  the  fork 
+switches to leŌ.” 
+As  the  beaver  passes  through  each  fork,  the  same  process  repeats.  The  beaver  follows  the 
+current  direcƟon  of  the  fork,  and  the  fork  switches  to  the  opposite  direcƟon.  Each  fork  must 
+therefore  remember  its  current  direcƟon,  which  is  a  piece  of  informa Ɵon  that  can  be 
+represented  as  a  variable  in  programming.  For  example,  we  can  use  0  to  represent  "leŌ"  and 
+1  to  represent  "right."  As  the  beaver  moves  through  the  structure,  a  program  could  check 
+the  value  of  each  variable  (the  fork's  direcƟon),  decide  which  path  to  take,  and  update  the 
+variable to reﬂect the new state. 
+January 2025  Page |  96 
+
+===== PAGE 98 =====
+ Bebras  India 
+This  mechanism  is  also  similar  to  a  ﬂip-ﬂop  in  digital  circuits  — a  basic  unit  that  stores  1  bit 
+of  data  and  toggles  between  two  states.  Each  fork  behaves  like  a  ﬂip-ﬂop,  switching  its  state 
+every Ɵme it is used. 
+To  ﬁgure  out  where  the  beaver  will  end  up,  we  simulate  each  decision  step  by  step.  This  is 
+similar  to  code  tracing  in  programming,  where  the  logic  of  a  program  is  followed  line  by  line 
+to see what result it produces. 
+ComputaƟonal Thinking 
+Students  are  required  to  apply  logical  reasoning  to  track  changes  in  fork  direcƟons  and 
+accurately  predict  outcomes.  In  doing  so,  they  should  disregard  the  story  elements,  such  as 
+who  the  beaver  is  or  what  the  orchard  looks  like,  and  instead  concentrate  on  the  essenƟal 
+structure  of  the  task:  the  sequence  and  state  of  each  fork.  This  process  of  simplifying  by 
+focusing only on the relevant aspects is known as abstracƟon. 
+January 2025  Page |  97 
+
+===== PAGE 99 =====
+ Bebras  India 
+Flower Pots 
+A  beaver  arranges  a  row  of  ﬂower  pots  at  their  front  door.  Pots  are  empty  or  contain  one 
+ﬂower. 
+A key is hidden in one of the pots. The beaver tells their friend how to ﬁnd the key: 
+“At  ﬁrst,  look  at  all  pots.  If  the  total  number  of  ﬂowers  is  even,  the  key  is  hidden  in  the  leŌ 
+half  of  the  pots;  otherwise,  it  is  hidden  in  the  right  half  of  the  pots.  Now  consider  the  half  of 
+the  pots  where  the  key  is  hidden.  Repeat  these  steps  unƟl  you  look  at  only  one  pot.  That’s 
+where the key is hidden.” 
+For  example,  if  there  are  four  pots  as  shown  and  the  key  is  hidden  in  pot  B,  this  is  how  a 
+friend can ﬁnd the key: 
+ Look at pots A, B, C and D. 
+ See that there are 2 ﬂowers and noƟce that 2 is even. 
+ Determine that the key is hidden in the leŌ half: pots A and B. 
+ Look at pots A and B. 
+ See that there is 1 ﬂower and noƟce that 1 is odd: 
+ Determine that the key is hidden in the right half: pot B. 
+QuesƟon: 
+Eight pots are shown above. Which of the following arrangements will result in Key in pot C? 
+January 2025  Page |  98 
+
+===== PAGE 100 =====
+ Bebras  India 
+A. 
+B. 
+C. 
+D. 
+January 2025  Page |  99 
+
+===== PAGE 101 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+This is one correct answer: 
+This is another correct answer: 
+There are many more. We can ﬁnd them like this: 
+When  a  beaver  is  looking  for  the  key,  they  ﬁrst  counts  the  ﬂowers  in  all  pots.  In  order  to 
+make  the  beaver  ﬁnd  the  key  in  pot  C,  we  have  to  make  them  look  at  the  leŌ  half  (pots  A,  B, 
+C,  and  D).  For  that,  there  must  be  an  even  number  of  ﬂowers  in  all  pots  (condiƟon  1).  In  pots 
+A,  B,  C,  and  D,  there  must  be  an  odd  number  of  ﬂowers,  in  order  to  make  the  beaver  look  at 
+their  right  half  C  and  D  (condiƟon  2).  Finally,  there  must  be  an  even  number  of  ﬂowers  in 
+these  two  pots,  in  order  to  make  the  beaver  look  at  their  leŌ  half,  pot  C  (condiƟon  3).  Any 
+correct answer has to saƟsfy all three condiƟons. 
+ConstrucƟng  a  correct  answer  is  easier  when  done  the  other  way  round:  First,  we  make  sure 
+that  the  number  of  ﬂowers  in  pots  C  and  D  is  even  (condiƟon  3),  i.e.  both  pots  remain  empty 
+or  both  pots  get  a  ﬂower.  Second,  we  make  sure  that  the  number  of  ﬂowers  in  pots  A,  B,  C, 
+and  D  is  odd  (condiƟon  2).  Since  there  already  is  an  even  number  of  ﬂowers  in  C  and  D, 
+exactly  one  of  pots  A  and  B  gets  a  ﬂower.  Third,  we  make  sure  the  overall  number  of  ﬂowers 
+is  even  (condiƟon  1).  Since  there  already  is  an  odd  number  of  ﬂowers  in  the  leŌ  half,  we 
+must  plant  an  odd  number  of  ﬂowers  –  either  exactly  one  or  exactly  three  –  in  pots  E,  F,  G, 
+and H as well. 
+The  following  table  summarizes  all  correct  answers.  A  correct  answer  is  made  by  taking  one 
+opƟon  from  each  of  the  three  columns;  thus,  all  2  x  2  x  8  =  32  correct  answers  can  be 
+obtained. 
+January 2025  Page |  100 
+
+===== PAGE 102 =====
+ Bebras  India 
+Computer Science 
+January 2025  Page |  101 
+
+===== PAGE 103 =====
+ Bebras  India 
+The  beaver  uses  the  ﬂowers  to  mark  the  posiƟon  of  the  key.  More  speciﬁcally,  they  encodes 
+the  posiƟon  from  the  sequence.  This  code  is  only  useful  because  every  sequence  deﬁnes  a 
+single posiƟon – so their friends know exactly where to look for the key. 
+On  the  other  hand,  a  single  posiƟon  can  be  represented  by  many  diﬀerent  sequences  (as 
+you  could  see  in  the  answer  explanaƟon).  In  fact,  three  pots  are  enough  to  have  2^3  =  2  x  2  x 
+2  =  8  diﬀerent  sequences,  i.e.  to  disƟnguish  eight  diﬀerent  posiƟons.  The  beaver  just  wanted 
+to include all eight pots in their code. 
+In  informaƟcs,  codes  are  essenƟal  to  represent  data  in  a  format  that  can  be  handled  by 
+computer  hardware,  e.g.  to  send  a  message  via  the  internet.  Many  codes  use  longer 
+sequences  than  strictly  necessary,  because  redundant  parts  of  the  sequence  can  help  to 
+detect  or  even  correct  if  parts  of  the  sequence  were  accidentally  changed,  for  example  the 
+so called hamming codes. 
+ComputaƟonal Thinking 
+In  this  task,  you  ﬁrst  have  to  understand  how  the  beaver’s  friends  decode  the  posiƟon  of  the 
+key  when  they  see  a  paƩern  of  pots  with  and  without  ﬂowers.  But  to  help  the  beaver 
+encode  the  posiƟon  of  the  key  by  planƟng  ﬂowers,  it’s  helpful  to  think  backwards,  as 
+described  in  the  answer's  explanaƟon.  Reverse  thinking  can  oŌen  be  a  helpful  method  to 
+build  up  the  solu Ɵon  to  a  big  problem  in  small  steps,  which  is  why  it’s  also  called  a 
+boƩom-up  approach.  Its  opposite  is  a  top-down  approach,  where  you  start  from  a  rough 
+soluƟon to the whole problem, then work your way down into details. 
+January 2025  Page |  102 
+
+===== PAGE 104 =====
+ Bebras  India 
+Brightness Map 
+Sandhya  is  interested  in  the  structural  aspects  of  visual  art.  She  creates  brightness  maps  for 
+images,  which  are  surrounded  by  white  pixels.  In  the  brightness  map,  each  pixel  of  the 
+image is represented by a brightness number. 
+The brightness number of a pixel is determined as follows: 
+ 1 if the pixel is brighter than its right-hand neighbor. 
+ 0 if the pixel has the same brightness as its right-hand neighbor. 
+ -1 if the pixel is darker than its right-hand neighbor. 
+Example: 
+QuesƟon: 
+Images  may  have  idenƟcal  brightness  maps  even  if  they  appear  diﬀerent.  Which  of  the 
+following image has a map that diﬀers from the others? 
+ A  B  C  D 
+January 2025  Page |  103 
+
+===== PAGE 105 =====
+ Bebras  India 
+The correct answer is B. 
+Answer ExplanaƟon: 
+The image displays the requested image from the task along with its brightness map. 
+The three other images have a diﬀerent brightness map: 
+Since  the  images  are  bordered  by  white  pixels  and  all  internal  pixels  are darker  than  white, 
+the rightmost column in all brightness maps contains three -1 values. 
+To  ﬁnd  the  correct  soluƟon,  you  can  calculate  all  four  brightness  maps  and  compare  them. 
+However,  there  is  a  faster  way.  Simply  keep  in  mind  that  the  brightness  map  captures 
+changes  in  brightness  along  the  horizontal  direcƟon.  Three  of  the  images  have  pixels  with 
+the same brightness in each row, meaning they must share the same brightness map. 
+Computer Science 
+In  computer  vision  (CV),  images  can  be  represented  in  diﬀerent  ways  depending  on  the  color 
+model  used.  The  two  most  common  types  are  grayscale  images,  where  each  pixel  holds  a 
+January 2025  Page |  104 
+
+===== PAGE 106 =====
+ Bebras  India 
+single  brightness  value,  and  RGB  (Red,  Green,  Blue)  color  images,  where  each  pixel  is  a  tuple 
+of three values corresponding to the intensiƟes of red, green, and blue light. 
+ In  this  task,  we  are  working  with  color  images.  However,  when  analyzing  brightness  a 
+program  typically  converts  these  RGB  images  into  grayscale.  This  step  simpliﬁes  the  data  by 
+reducing each color pixel to a single brightness value. 
+The  creaƟon  of  the  brightness  map  is  similar  to  the  concept  of  convoluƟon.  ConvoluƟon 
+involves  sliding  a  small  matrix,  or  ﬁlter,  across  the  image  to  generate  a  feature  map. 
+ConvoluƟon  involves  applying  a  ﬁlter  to  an  image  to  generate  a  feature  map.  This  map 
+emphasizes  speciﬁc  structural  features  of  the  image,  such  as  edges,  corners,  or  areas  of 
+uniform color, making it easier for a computer to interpret visual informaƟon. 
+ConvoluƟonal  neural  networks  (CNNs)  build  upon  this  concept  of  convoluƟonal  ﬁltering. 
+They  learn  to  develop  their  own  more  complex  ﬁlters.  The  resulƟng,  detailed  feature  maps 
+can be used to detect objects in images, such as tumors in medical scans. 
+ComputaƟonal Thinking 
+EDIT  HERE  (delete  this):  explain  which  computaƟonal  thinking  competencies  are  necessary 
+to  solve  this  task.  Use  about  3  to  8  sentences.  Do  not  explain  the  correct  answers  of  the  task, 
+also  do  not  explain  the  computer  science  behind  the  task.  You  may,  however,  relate  your 
+explanaƟon to the “Answer ExplanaƟon” secƟon and the “This is InformaƟcs” secƟon. 
+January 2025  Page |  105 
+
+===== PAGE 107 =====
+ Bebras  India 
+Beaver Language 
+In Beaver language the names of these three shapes are: 
+ mer  ogg epp 
+A  second  shape  can  be  behind  or  below  a  ﬁrst  shape  and  are  deﬁned  using  endings  “x”  and 
+“z”  as  shown  in  the  ﬁrst  four  images  below,  .  A  third  shape  can  be  arranged  relaƟve  to  the 
+second shape using the same deﬁniƟon, as shown in the ﬁŌh and subsequent images. 
+QuesƟon: 
+Which of the following shape arrangements can be described by  epp eppz oggx merx? 
+ A)  B)  C) D) 
+January 2025  Page |  106 
+
+===== PAGE 108 =====
+ Bebras  India 
+The correct answer is D) . 
+Answer ExplanaƟon: 
+We are told three words in Beaver language: 
+mer  ogg  epp 
+ It  is  also  deﬁned  how  to  describe  all  possible  ways  two  shapes  can  be  behind  or  below  each 
+other.  We  can  see  from  the  images  that  the  various  arrangements  of  the  shapes  are  deﬁned 
+with  endings  x  and  z.  It  is  also  stated  that  a  third  image  can  be  arranged  relaƟve  to  the 
+second image using the same endings: 
+ogg merx 
+→  ending  -x 
+means 
+“behind” 
+“rectangle  is 
+behind  the 
+circle” 
+ ogg merz 
+ →  ending  -z 
+ means “below” 
+ “the  rectangle 
+ is  below  the 
+ circle” 
+ mer oggz eppz 
+ →  “the  circle  is 
+ below  the 
+ rectangle” 
+ →  the  triangle  is 
+ below the circle 
+epp merx oggx 
+→  “the  rectangle 
+is  behind  the 
+triangle” 
+→  the  circle  is 
+behind  the 
+rectangle 
+ epp oggx merz 
+ → ending -x 
+ “the  circle  is 
+ behind  the 
+ triangle.” 
+ → ending -z 
+ the  rectangle  is 
+ below the circle 
+January 2025  Page |  107 
+
+===== PAGE 109 =====
+ Bebras  India 
+A) 
+ epp merx eppz oggx 
+ not correct 
+ B) 
+ epp oggx eppz merx 
+ not correct 
+ C) 
+ epp oggx merx eppz 
+ not correct 
+ D) 
+ epp eppz oggx merx 
+ correct 
+Computer Science 
+In  computer  science,  formal  language  is  like  a  language  we  speci ﬁcally  design  so  that 
+computers  can  understand  exactly  what  we  mean,  without  any  confusion.  Syntax  is  like  the 
+grammar  of  the  formal  languages.  It  clearly  tells  us  which  symbols  we  can  use  (like  leƩers  or 
+numbers)  and  how  these  symbols  must  be  correctly  combined  to  become  meaningful 
+sentences  or  instrucƟons  that  computers  can  understand.  In  this  task,  "Beaver  Language"  is 
+a  very  simple  formal  language.  It  uses  "mer"  (for  a  rectangle),  "ogg"  (for  a  circle),  and  "epp" 
+(for  a  triangle).  Its  syntax  includes  the  rule  that  adding  the  endings  "x"  or  "z"  to  these  shape 
+names  clearly  shows  how  the  shapes  should  be  arranged  based  on  speciﬁc  rules  –  for 
+instance,  if  one  is  behind  or  under  another.  Things  like  programming  languages  (like  Python 
+or  Java),  data  formats  like  JSON,  the  structure  of  web  pages  using  HTML,  and  database  query 
+languages  like  SQL  are  all  formal  languages.  We  have  to  write  in  these  languages  following 
+their  speciﬁc  syntax  rules.  If  we  don't  get  the  order  or  the  symbols  exactly  right  according  to 
+the  syntax,  computers  won't  be  able  to  understand  or  work  with  the  informaƟon  correctly. 
+This  can  cause  programs  to  crash,  data  to  be  unreadable,  websites  to  look  broken,  and 
+database searches to not work. 
+ComputaƟonal Thinking 
+To  solve  this  task  you  use  logic  skills  and  paƩern  recogniƟon  to  ﬁnd  the  repeaƟng  endings 
+and  match  them  with  the  arrangements  of  the  shapes.  In  this  task,  it  means  matching  the 
+endings  in  the  words  with  the  arrangements  of  the  shapes.  Once  you  see  how  the 
+arrangements  and  those  diﬀerent  endings  connect,  you'll  be  able  to  use  that  same  logic  to 
+ﬁnd  the  right  answer.  You  also  need  deducƟve  reasoning,  where  you  use  rules  to  get  the 
+answers from the examples you see. 
+January 2025  Page |  108 
+
+===== PAGE 110 =====
+ Bebras  India 
+TranslaƟon System 
+The  beavers  built  a  translaƟon(  )  system  between  several  languages  A,  B,  C,  D,  E.  Each 
+translaƟon  has  an  accuracy  value  between  0.0  to  1.0  (bigger  numbers  represent  beƩer 
+accuracy), provided in the chart. 
+ 1.0  0.9  0.2  0.7  0.6 
+ 0.9  1.0  0.5  0.8  0.7 
+ 0.2  0.5  1.0  0.9  0.7 
+ 0.7  0.8  0.9  1.0  0.7 
+ 0.6  0.7  0.7  0.7  1.0 
+But  someƟmes,  an  indirect  translaƟon  gives  a  beƩer  result  than  a  direct  translaƟon,  where 
+the  accuracy  is  the  product  of  all  accuracies  through  which  transla Ɵon  was  done.  For 
+example,  the  direct  translaƟon  C  A  has  an  accuracy  of  0.2.  But  going  through  C 
+B  A  gives 0.5 × 0.9 = 0.45, which is beƩer than  0.2. 
+QuesƟon: 
+Select the case below where an indirect path improves the translation accuracy. 
+A. C  B  B.  B  A  C.  C  E  D.  D  B 
+January 2025  Page |  109 
+
+===== PAGE 111 =====
+ Bebras  India 
+Correct answers are A)  A  D  and C)  C  B  . 
+Answer ExplanaƟon: 
+Since  the  translaƟon  accuracy  is  in  the  range  of  0.0  to  1.0,  the  accuracy  tends  to  decrease  as 
+the  number  of  intermediate  steps  increases.  We  need  to  ﬁnd  a  way  to  improve  the 
+translaƟon  accuracy  while  minimizing  the  number  of  intermediate  translaƟons  to  other 
+languages. 
+A) A  D can be improved from 0.7 to 0.72 (0.9×0.8)  with A  B  D. 
+B)  B  A  is  0.9,  but  there  is  no  way  to  increase  the  accuracy,  as  in  the  table  there  is  no 
+value that is larger than 0.9, and all values are ≤ 1.0, so B) cannot be improved. 
+C) C  B can be improved from 0.5 to 0.72 (0.9×0.8)  with C  D  B. 
+D)  D  B  is  0.8,  but  there  is  no  way  to  improve  the  accuracy.  0.8  could  be  improved  by 
+0.9×0.9=0.81, but there is no way to make. 
+Computer Science 
+With  data  structure,  we  can  store  not  only  data  but  also  relaƟons  between  data.  One  of 
+ways  to  show  how  things  are  connected  is  called  graph.  It  is  made  up  of  dots  (called  nodes 
+or  verƟces)  and  lines  (called  edges)  that  connect  the  dots.  Graphs  are  used  in  computer 
+science to show relaƟonships, like maps, social networks, or how data moves in a network. 
+In  the  graph  of  this  task,  all  verƟces  are  connected  to  all  other  verƟces  by  a  single  edge.  A 
+graph  in  which  two  verƟces  are  connected  in  both  direcƟons  and  the  edges  are  weighted  is 
+called  a  weighted  undirected  graph.  Also,  it  is  complete  graph  in  which  every  pair  of  disƟnct 
+verƟces is connected by a unique edge/link. 
+With  a  graph  about  the  translaƟon  order  with  translaƟon  accuracy,  we  can  easily  ﬁnd  the 
+answers. 
+January 2025  Page |  110 
+
+===== PAGE 112 =====
+ Bebras  India 
+In  graphs,  algorithms  that  ﬁnd  the  opƟmal  path  (minimal  cost/maximum  beneﬁt)  from  a 
+certain  vertex  to  a  speciﬁc  vertex  are  oŌen  dealt  with.  This  task  can  be  said  to  be  an  opƟmal 
+path  search  problem  that  should  ﬁnd  the  “highest  accuracy”  that  can  be  translated  from  a 
+certain language to another language. 
+ComputaƟonal Thinking 
+To  solve  this  problem,  students  need  the  ability  to  represent  the  given  table  to  a  graph  form, 
+and  algorithmic  thinking  to  ﬁnd  ways  to  improve  accuracy  with  the  graph.  With  trial  and 
+error,  evaluaƟon  of  alternaƟves,  with  algorithmic  thinking  and  abstracƟon,  students  can 
+develop computaƟonal thinking. 
+January 2025  Page |  111 
+
+===== PAGE 113 =====
+ Bebras  India 
+Flower PlanƟng 
+A  garden  robot  plants  fully-grown  ﬂowers  in  a  line  in  a  ﬂower  bed  based  on  signs.  An  empty 
+spot has no sign or ﬂower. The robot uses these rules to plant ﬂowers: 
+0: Go to the spot marked with an X. 
+Repeat steps 1-5 unƟl there are not any spot with a sign 
+1: If there is a sign at your spot, plant the ﬂower shown on the sign in this spot. 
+2: Remember the ﬂower you have just planted. 
+3: Remove the sign. 
+4: Go right unƟl you reach an empty spot, then plant there the last ﬂower you remembered. 
+5: Go leŌ unƟl you are at a spot with a sign or unƟl you move out of the ﬂower beds. 
+ QuesƟon: 
+How will the ﬂower beds look aŌer planƟng? 
+A. 
+B. 
+C. 
+D. 
+January 2025  Page |  112 
+
+===== PAGE 114 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The  correct  answer  is  A.  Let’s  number  each  spot.  The  robot  starts  at  the  last  labeled  spot, 
+which  is  the  5  th  spot.  There  it  plants  a  violet  ,  remembers  it,  and  goes  right.  Right  next  to 
+it  is  an  empty  spot  (the  6  th  spot),  so  it  plants  the  ﬂower  it  last  remembered  (the  violet  ), 
+and  then  goes  leŌ  unƟl  it  ﬁnds  the  ﬁrst  empty  labeled  spot.  That  is  the  4  th  spot.  It  plants  a 
+rose  there and remembers it. 
+Then  the  robot  goes  right  to  the  ﬁrst  empty  spot,  which  is  7  th  spot,  and  plants  the 
+remembered  .  Next  it  goes  le Ō  unƟl  it  ﬁnd  a  spot  with  label  –  that  is  the  3  rd  spot.  The 
+robot  plants  a  violet  there,  remembers  it,  and  goes  le Ō  to  the  ﬁrst  empty  spot  (the  8  th 
+spot),  where  it  plants  another  .  In  the  2  nd  and  9  th  spot,  it  will  plant  tulips  ,  and  in  the 
+1  st  and 10  th  spot, it will plant more tulips  . 
+We  can  see  that  the  robot  plants  ﬂowers  in  the  empty  spots  in  reverse  order.  In  the  picture, 
+the red dot marks the robot’s posiƟon, and the arrows show how it moved. 
+January 2025  Page |  113 
+
+===== PAGE 115 =====
+ Bebras  India 
+Computer Science 
+In  this  task,  the  concept  of  the  Turing  machine  is  hidden  behind  the  instrucƟons  for  the 
+robot.  A  Turing  machine  is  concept  of  a  machine  which  performs  an  algorithm.  In  this  task, 
+the  Turing  Machine  has  one  head  (robot)  which  moves  along  the  tape  (the  line  in  the  ﬂower 
+bed)  with  cells  (spots)  and  can  read  (signs)  and  write  (remove  sign  and  plant  ﬂowers)  in 
+these  spots.  The  Turing  Machine’s  memory  is  a  tape  and  it  can  have  more  than  one  tape.  In 
+this  task,  the  robot  remembers  which  ﬂower  was  planted  last,  this  informaƟon  could  be 
+wriƩen onto another tape. 
+ComputaƟonal Thinking 
+In  this  task,  algorithmic  thinking  is  needed.  You  need  to  understand  and  follow  the 
+presented  algorithm  which  is  wriƩen  as  a  set  of  instrucƟons  and  you  need  to  perform  those 
+instrucƟons  on  speciﬁc  input.  In  this  task,  the  input  is  the  sequence  of  labels  and  the  result 
+(output) was the sequence of planted ﬂowers. 
+January 2025  Page |  114 
+
+===== PAGE 116 =====
+ Bebras  India 
+Bakery 
+Two  beavers  Albert  and  Mario  form a  legendary  ﬂour  transportaƟon  team.  Albert  carries  13 
+kg  of  ﬂour  per  trip,  taking  one  hour  to  go  from  the  bakery  to  the  mill  and  back.  Mario  carries 
+only  5  kg  but  completes  each  round  trip  in  30  minutes.  They  cannot  both  take  a  trip  because 
+at least one must stay at the bakery for customers. 
+AŌer  3  consecuƟve  trips  each  beaver  must  rest  for  at  least  30  minutes  before  taking  another 
+trip. During the rest they are able to take care of customers. 
+QuesƟon: 
+Which of the following statements is correct? 
+A. Albert must deliver the ﬁrst. 
+B. Mario must deliver the ﬁrst. 
+C. Mario must deliver the last. 
+D. Albert must not deliver the last. 
+E. Mario must deliver one Ɵme. 
+January 2025  Page |  115 
+
+===== PAGE 117 =====
+ Bebras  India 
+The correct answer is A. 
+Answer ExplanaƟon: 
+The key facts: 
+● Albert: 13 kg per trip, 1 hour per trip (13 kg/hour) 
+● Mario: 5 kg per trip, 30 minutes per trip (10 kg/hour) 
+● One beaver must be at the bakery 
+● Each beaver can carry up to 3 rounds consecuƟvely 
+● While one beaver is resƟng, the other conƟnues working 
+Since  Albert  can  deliver  13  kg/hour  compared  to  Mario's  10  kg/hour,  Albert  is  more  eﬃcient. 
+However, we must use Mario when Albert needs to rest. 
+If  Beaver  Albert(A)  transports  3  Ɵmes  and  Mario(M)  once,  we  get  the  maximum  amount  of 
+ﬂour in 3.5 hours: 
+January 2025  Page |  116 
+
+===== PAGE 118 =====
+ Bebras  India 
+Now,  Albert  is  rested  so  we  can  repeat  this  paƩern  (again  and  again)  unƟl  the  Ɵme  is  up: 
+If  Mario  starts  ﬁrst,  then  aŌer  two  cycles  of  (M,  A,  A,  A),  only  one  hour  remains.  Since  Albert 
+needs  to  rest  at  that  Ɵme,  Mario  has  to  take  the  ﬁnal  two  rounds.  This  leads  to  a  less 
+eﬃcient schedule compared to the previous one. 
+Albert  cannot  transport  8  Ɵmes  as  that  requires  8  hours  transporƟng  +  2  *  30  minutes  rest  = 
+9  hours  which  is  more  than  allowed  in  the  quesƟon.  So  the  soluƟon  with  Albert  transporƟng 
+7 Ɵmes + Mario 2 Ɵmes is opƟmal. 
+Computer Science 
+The beaver ﬂour-transporƟng problem is a scheduling and opƟmizaƟon problem because: 
+ •  We  need  to  schedule  trips  while  following  rest  and  occupancy  constraints. 
+ • We want to maximize the total amount of ﬂour delivered (an opƟmizaƟon goal). 
+ • We must allocate Ɵme eﬃciently between Albert and Mario. 
+Scheduling  and  opƟmiza Ɵon  problems  appear  in  many  levels  of  informa Ɵcs  including 
+instrucƟon  execuƟon  by  computer  processors  where  arithmeƟc  logic  units  can  only  execute 
+one  instrucƟon  at  a  Ɵme  (occupancy  constraints),  instrucƟons  reading  data  from  memory 
+January 2025  Page |  117 
+
+===== PAGE 119 =====
+ Bebras  India 
+have  to  wait  for  the  data  to  arrive  (similar  to  rest),  and  an  opƟmal  schedule  may  complete 
+the program much faster than a sub-opƟmal schedule. 
+ComputaƟonal Thinking 
+Solving  this  task  bene ﬁts  from  breaking  down  a  complex  problem  into  sub-problems 
+(decomposiƟon),  recognizing  that  soluƟons  to  the  sub-problem  can  be  repeated  (repeƟƟon 
+and  paƩern  recogniƟon),  ordering  the  sub-problem  soluƟons  to  ﬁnd  an  opƟmal  soluƟon, 
+and  abstracƟon  which  represents  the  opƟmal  kg/hour  that  can  be  transported.  It  also 
+requires  logical  thinking  to  remove  opƟons  that  do  not  saƟsfy  constraints  such  as  the  rest 
+periods and occupancy (at least one beaver at the bakery). 
+January 2025  Page |  118 
+
+===== PAGE 120 =====
+ Bebras  India 
+Beaver JaƟn 
+Beaver  JaƟn  is  in  the  perilous  pyramid.  The  pyramid  has  many  horrible  hallways.  At  the 
+end  of  each  hallway,  there  is  a  tremendous  treasure.  JaƟn  wants  to  reach  any  treasure  as 
+soon  as  possible.Every  hallway  is  secured  by  a  row  of  blocks.  IniƟally,  all  blocks  are  down.  As 
+soon  as  someone  arrives  at  a  hallway,  its  blocks  start  to  move  periodically.  A  block  with 
+period 2 goes up aŌer 2 minutes, smashes down again aŌer 2 more minutes, and so on. 
+ See  an  example  on  the  leŌ.  This  hallway  has  two  blocks,  labeled 
+ A  and  B,  with  periods  2  and  3,  respecƟvely.  The  image  shows  the 
+ situaƟon of the hallway in minutes 1 to 5 aŌer JaƟn has arrived. 
+ In  order  to  reach  the  treasure  as  soon  as  possible,  JaƟn  waits  for 
+ 2  minutes,  goes  to  block  A,  waits  1  more  minute,  and  then 
+ passes block B to reach the treasure aŌer 3 minutes overall. 
+ JaƟn acts as if following this sequence of instrucƟons: 
+ wait(3) 
+ goto_block(A) 
+ wait(2) 
+ goto_block(B) 
+ wait(3) 
+ goto_block(C) 
+ wait(4) 
+ goto_treasure 
+ JaƟn  could  have  reached  the  treasure  at  the  same  Ɵme,  but  with 
+ a shorter instrucƟon sequence. 
+ wait(9) 
+ goto_block(C) 
+ wait(3) 
+ goto_treasure 
+The next horrible hallway has four blocks with periods 3, 5, 8, and 4. 
+QuesƟon: 
+When is the earliest JaƟn can reach the treasure? 
+A. 8 minutes B. 12 minutes C. 15 minutes D. 16 minutes 
+January 2025  Page |  119 
+
+===== PAGE 121 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is 12 minutes. 
+See  the  image  for  how  JaƟn  may  move  through  this  horrible  hallway. 
+In  order  to  move  as  soon  as  he  can,  he  may  follow  this  instrucƟon 
+sequence and reach the treasure aŌer 12 minutes (orange line): 
+wait(3) 
+goto_block(A) 
+wait(2) 
+goto_block(B) 
+wait(3) 
+goto_block(C) 
+wait(4) 
+goto_treasure 
+He  can  follow  less  instrucƟons,  though,  and  reach  the  treasure  aŌer 
+12 minutes as well (green line): 
+wait(9) 
+goto_block(C) 
+wait(3) 
+goto_treasure 
+There  is  no  way  JaƟn  can  follow  less instrucƟons  without  losing  Ɵme.  He  could  follow  less 
+instrucƟons  only  if  he  rushed  through  the  hallway  in  one  pass.  The  only  chance  to  do  this 
+comes  aŌer  waiƟng  15  minutes.  Then,  he  can  reach  the  treasure  with  only  two  instrucƟons  – 
+but aŌer 15 minutes, which is not as soon as possible. 
+Computer Science 
+January 2025  Page |  120 
+
+===== PAGE 122 =====
+ Bebras  India 
+This task covers three important aspects of informaƟcs: 
+Algorithm 
+The  concept  of  an  algorithm  is  perhaps  the  most  central  noƟon  of  computer  science;  it 
+focuses  on  the  quesƟon  of  how  a  problem  can  be  solved  and,  subsequently,  how  the 
+soluƟon  can  be  unambiguously  described.  Finding  an  algorithm  requires  crea Ɵvity  in 
+contrast  to  the  execuƟon  of  an  algorithm:  Once  an  algorithm  is  precisely  deﬁned,  e.g.  as  a 
+sequence  of  instrucƟons  of  a  programming  language,  a  machine  can  follow  the  instrucƟons 
+and execute them without any understanding. 
+OpƟmizaƟon Problem 
+This  Bebras  task  involves  considering  diﬀerent  approaches  to  a  problem,  comparing  them 
+with  one  another,  and  choosing  the  best  approach  according  to  some  quality  measure.  In 
+computer  science,  problems  of  this  kind  are  called  opƟmizaƟon  problems,  because  the  goal 
+is  to  minimize  a  speciﬁc  factor  (in  this  case,  the  Ɵme  it  takes  for  Jones  to  reach  the  treasure 
+as  well  as  the  number  of  instrucƟons  he  follows).  One  method  that  can  be  used  to  solve 
+opƟmizaƟon  problems  is  dynamic  programming.  This  approach  involves  breaking  the 
+problem  down  into  parts  and  conƟnuously  solving  larger  parts  of  the  original  problem  using 
+stored  parƟal  soluƟons.  Here,  parƟal  problems  could  consist  of  reaching  only  the  ﬁrst, 
+second, third, or fourth block before ﬁnally determining the path to the treasure. 
+Programming 
+In  order  to  make  algorithms  executable  by  computers,  they  need  to  be  expressed  in  a 
+programming  language.  Such  a  language  provides  a  set  of  fundamental  opera Ɵons  (or 
+commands),  such  as  the  commands  'wait(n)'  or  'goto_block(b)'  in  this  case.  For  expressing 
+complex  algorithms  may  be  expressed  by  combining  fundamental  commands  with  language 
+constructs that allow for sequenƟal, repeated and condiƟonal execuƟon. 
+January 2025  Page |  121 
+
+===== PAGE 123 =====
+ Bebras  India 
+Biocolors 
+Using  bacteria  and  enzymes,  scien Ɵsts  have  produced  biological  dyes  with  a  special 
+property:  When  one  dye  is  added  to  a  dye  of  a  diﬀerent  color,  the  result  is  a  dye  of  a 
+completely diﬀerent color aŌer a ﬁxed amount of reacƟon Ɵme. 
+Each dye color is described by a sequence of 3 nucleoƟdes (a nucleoƟde can be A or C). 
+ black  CCC 
+ blue  CCA 
+ green  CAC 
+ cyan  CAA 
+ red  ACC 
+ purple  ACA 
+ yellow  AAC 
+ white  AAA 
+The  resulƟng  color  can  be  determined  by  looking  at  how  the  corresponding  nucleoƟdes  of 
+the geneƟc codes of each colored dye react with each other: 
+A+A = C 
+C+C = C 
+A+C = A 
+C+A = A 
+An example is given here: 
+January 2025  Page |  122 
+
+===== PAGE 124 =====
+ Bebras  India 
+QuesƟon: 
+You  have  three  immovable  large  tanks  1,2,3  with  green,  pink,  and  yellow  dyes.  You  can  take 
+a drop of dye from any one of the tanks and put it in other tanks. 
+Your  task  is  to  swap  the  colors  in  tank  1  and  tank  3,  that  is,  to  have  the  dye  in  tank  1  to 
+become  yellow  (AAC),  the  dye  in  tank  2  to  remain  purple  (ACA),  and  the  dye  in  tank  3  to 
+become green (CAC). 
+What is the smallest number of drops of dyes required to swap colors in tank 1 and tank 3? 
+A. 2 
+B. 3 
+C. 4 
+D. 5 
+January 2025  Page |  123 
+
+===== PAGE 125 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The  colors  can  be  swapped  with  just  three  mixing  operaƟons.  The  following  are  acceptable 
+answers: 3→1,1→3,3→1 or 1→3,3→1,1→3: 
+And 
+First  we  con ﬁrm  that  it  can  be  done  in  3  drops  by  illustra Ɵng  the  ﬁrst  answer 
+3→1,1→3,3→1. 
+If  some  yellow  (  AAC)  from  tank  3  is  mixed  with  the  green  (  CAC)  in  tank  1  (3→1),  the 
+resulƟng color in tank 1 is given by AAC+CAC=ACC (red). The colors of the tanks are now: 
+ . 
+If  some  red  (  ACC)  from  tank  1  is  mixed  with  the  yellow  (  AAC)  in  tank  3  (1→3),  the 
+resulƟng  color  in  tank  3  is  given  by  ACC+AAC=CAC  (green).  The  colors  of  the  tanks  are  now: 
+. 
+If  some  green  (  CAC)  from  tank  3  is  mixed  with  the  red  (  ACC)  in  tank  1  (3 →1),  the 
+January 2025  Page |  124 
+
+===== PAGE 126 =====
+ Bebras  India 
+resulƟng  color  in  tank  1  is  given  by  CAC+ACC=AAC  (yellow).  The  colors  of  the  tanks  are  now: 
+, the desired one with green and yellow swapped. 
+Now  we  show  that  3  drops  is  the  minimum.  One  drop  is  clearly  not  enough:  it  can  change 
+only one color, and we need to change two of them. 
+If  two  drops  are  enough,  the  ﬁrst  dye  drop  should  turn  tank  1  to  yellow  and  the  other  should 
+turn tank 3 to green (or vice versa). Let us consider turning tank 1 to yellow in the ﬁrst step: 
+(2 → 1) results in ACA+CAC=AAA (white). 
+(3 → 1) results in AAC+CAC=ACC (red). 
+Thus  it  is  not  possible  to  turn  tank  1  into  the  required  color  in  1  drop,  and  the  second  drop 
+cannot  change  the  color  of  two  tanks.  Let  us  consider  the  case  of  turning  tank  3  to  green  in 
+the ﬁrst step: 
+(1 → 3) results in CAC+AAC=ACC (white). 
+(2 → 3) results in ACA+AAC=CAA (cyan). 
+For  the  same  reasoning  above,  it  is  impossible  to  turn  both  tanks  into  the  required  colors  in 
+two drops. Thus 3 is the minimum number of drops required. 
+January 2025  Page |  125 
+
+===== PAGE 127 =====
+ Bebras  India 
+Flood PrevenƟon 
+Udaipur  has  7  ponds  in  the  hills  that  collect  rainwater.  During  heavy  rainfall,  these  ponds  ﬁll 
+rapidly  and  risk  overﬂowing,  which  could  cause  serious  ﬂooding  in  the  area.  To  prevent  this, 
+the  city  is  planning  to  build  a  new  pipe  system  to  connect  all  7  ponds  to  the  city’s  main 
+reservoir.  The  goal  is  to  ensure  that  water  from  every  pond  can  ﬂow  safely  to  the  reservoir 
+even during heavy rain. 
+Engineers  have  idenƟﬁed  possible  pipe  routes  between  pairs  of  ponds  (and  between  ponds 
+and  the  reservoir).  Each  proposed  pipe  has  a  certain  capacity  —  the  amount  of  water  it  can 
+carry per hour — and a cost, which is calculated as Rs. 1 Cr Ɵmes its capacity. 
+To minimize construcƟon costs, the city wants to build a system of pipes that: 
+● Connects all 7 ponds to the main reservoir, either directly or indirectly, 
+● Allows the system to handle the expected water ﬂow during heavy rain, and 
+● Minimizes the total construcƟon cost. 
+QuesƟon: 
+What  is  the  lowest  total  cost  to  build  a  pipe  system  that  ensures  all  ponds  can  safely  drain 
+their water to the reservoir during heavy rain? 
+A. 70 Cr 
+B. 74 Cr 
+C. 82 Cr 
+D. 91 Cr 
+January 2025  Page |  126 
+
+===== PAGE 128 =====
+ Bebras  India 
+Correct answer is 74 
+Answer ExplanaƟon: 
+Since  there  are  no  exisƟng  pipes,  we  must  build  a  new  pipe  system  from  scratch  that  ensures 
+all  7  ponds  can  drain  their  heavy  rainwater  into  the  reservoir  without  any  ﬂooding.  The 
+amount  of  water  each  pond  needs  to  drain  is  known,  and  every  proposed  pipe  has  a  limited 
+capacity  and  associated  cost  (cost  =  $1  million  ×  capacity).  This  is  essenƟally  a  network  ﬂow 
+problem. 
+First  observaƟon  is  that  nodes  2,  5  and  6  only  have  one  new  downhill  connecƟon  so  these 
+must be included at a cost of 11 + 9 + 20 = 40. 
+Second,  node  1  has  two  choices.  If  node  1  ﬂows  to  node  2,  this  will  prevent  node  4  from 
+going  to  node  5  (4+5+1+2  is  12  which  is  >  11  capacity  from  node  2  to  reservoir).  This  means 
+node  4  would  have  to  go  to  node  1,  giving  a  combined  cost  of  20  (1→2)  +  10  (4→1).  If  node 
+1  instead  ﬂows  to  the  reservoir  directly  it  allows  node  4  to  go  to  node  5.  The  combined  cost 
+for this is 8 (1→reservoir) + 4 (4→5) = 12 which is less than the other opƟon. 
+Finally,  node  9  and  3  can  each  go  directly  to  the  reservoir  at  a  cost  of  20  +  4  =  24.  They  could 
+also  go  node  9  →  node  3,  combine  the  ﬂow  to  12  and  go  through  node  6  as  12  +  6  is  less 
+than  the  20  capacity.  That  path  would  cost  10  +  12  =  22  which  is  less,  so  this  is  the  ideal 
+route. 
+Total cost is 40 + 12 + 22 = 74. 
+January 2025  Page |  127 
+
+===== PAGE 129 =====
+ Bebras  India 
+Computer Science 
+The  ponds  and  connecƟons  can  be  represented  as  a  graph  with  source  nodes  and  weighted 
+edges.  They  could  also  represent  network  bandwidth  and  informa Ɵon  ﬂow  within  a 
+distributed  compuƟng  environment  such  as  the  internet  or  mobile  phone  networks.  Finding 
+the  maximum  ﬂow  for  minimal  cost  is  a  tradiƟonal  constraint  opƟmizaƟon  problem  typically 
+solved  with  graph  traversal  algorithms.  To  avoid  brute  force  trying  all  possibiliƟes,  most  of 
+these  algorithms  start  with  a  less  computa Ɵonally  expensive,  sub-opƟmal  soluƟon  and 
+aƩempt  to  iteraƟvely  improve  it  towards  the  opƟmal  soluƟon.  In  the  soluƟon  a  minimum 
+spanning  tree  can  be  used  as  a  ﬁrst  step.  Spanning  trees  are  useful  to  simplify  many  graph 
+analysis problems dealing with connecƟvity between nodes. 
+ ComputaƟonal Thinking 
+AbstracƟon  is  required  to  reduce  the  problem  to  a  smaller  graph  representaƟon  ﬁrst  by 
+removing  the  old  connecƟons.  Recursion  or  iteraƟon  is  required  to  build  a  parƟal  soluƟon 
+that includes a few nodes and connecƟons and build towards the ﬁnal soluƟon. 
+Some  applica Ɵon  of  graph  traversal  algorithms  is  helpful,  par Ɵcularly  network  ﬂow 
+algorithms  where  we  start  at  the  “drain”  (i.e.  reservoir)  and  work  our  way  backwards 
+traversing the graph along the minimum capacity pipes. 
+OpƟmizaƟon  and  constraint  applicaƟon  requires  logical  thinking  around  what  assignments 
+to  the  variables  are  possible  so  as  to  not  violate  capacity  constraints  (by  sending  too  much 
+ﬂow  on  a  pipe)  and  to  compare  opƟons  of  mulƟple  variable  assignments  (like  pairing  the 
+choice of paths for node 1 and node 4). 
+January 2025  Page |  128 
+
+===== PAGE 130 =====
+ Bebras  India 
+Recursion 
+Sarah  is  playing  a  game.  She  has  a  sequence  of  squares  that  are  either  black  or  white  and 
+wants to represent them in a speciﬁc way according to the following rule: 
+- If all the squares of the current sequence are White, she just writes ‘W’ 
+- If all the squares of the current sequence are Black, she just writes ‘B’ 
+- Otherwise, she will write ‘X’, 
+- followed by the result of the same rule applied to the leŌ half of the current sequence, 
+- followed by the result of the same rule applied to the right half of the current sequence. 
+Here are some examples of how the rule works for a sequence of 8 squares: 
+ W 
+ XWB 
+ XXBWB 
+ XBXWXBW 
+QuesƟon: 
+How could Sarah represent the following sequence of squares? 
+(A) XXBWBXWXWB 
+(B) XXXBWBXWXWB 
+(C) XXXWBXWWXXBBXBW 
+(D) XWBWXBBW 
+(E) XXXWBWXBXBW 
+January 2025  Page |  129 
+
+===== PAGE 131 =====
+ Bebras  India 
+The correct answer is  (E)  XXXWBWXBXBW 
+Answer ExplanaƟon: 
+We can construct the correct answer character by character in the following way: 
+1.  X  - The 8 squares are not all of the same color,  so we start with an X 
+2.  XX  -  LeŌ half is not all of the same color, so we  need another X 
+3.  XXX  -  LeŌ half of the leŌ half is not of the same  color 
+4.  XXXW  -  1  st  square of the leŌ half of the leŌ half  is white 
+5.  XXXWB  -  2  nd  square of the leŌ half of the leŌ half  is black 
+6.  XXXWBW  - Right half of the leŌ half is white 
+7.  XXXWBWX  -  Right half is not all of the same color 
+8.  XXXWBWXB  -  LeŌ half of the right half is black 
+9.  XXXWBWXBX  -  Right half of the right half is not of  the same color 
+10.  XXXWBWXBXB  -  1  st  square of the right half of the  right half is black 
+11.  XXXWBWXBXBW  -  2  nd  square of the right half of the  right half is white 
+Another  way  to  visualize  this  is  given  by  the  following  image,  with  the  blue  arrows  indicaƟng 
+how we  “move”  and the red number indicaƟng in what  order we  “write”  the representaƟon: 
+How  to  build  the  tree  :  ﬁrst,  we  write  a  sequence  with  leƩers  for  each  square:  WBWWBBBW. 
+This  is  how  we  get  the  lower  level  of  the  tree,  the  leaves.  Then  we  step  to  the  higher  nodes. 
+If  both  their  children  are  the  same  (W  or  B  only),  we  combine  them  into  one  same  leƩer 
+deleƟng  both  children.  This  becomes  a  new  leaf  of  the  tree.  Otherwise,  we  write  X  in  the 
+node. 
+How  to  build  the  correct  sequence  from  the  tree  :  we  start  from  the  top  node.  We  traverse 
+the  tree  by  going  leŌ  at  each  intersecƟon  ﬁrst.  At  each  node  we  traverse,  we  write  the  leƩer 
+appearing  on  the  node  the  ﬁrst  Ɵme  we  visit  it.  When  we  reach  a  leaf,  we  go  back  to  the 
+previous  node  and  traverse  the  right  path.  If  both  path  are  visited,  we  go  back  to  the 
+previous node. 
+January 2025  Page |  130 
+
+===== PAGE 132 =====
+ Bebras  India 
+OpƟon  (B)  is  incorrect  because  it  gives  the  “complementary”  row  (black  when  the  square  is 
+white and vice-versa). 
+OpƟon  (C)  is  incorrect  because  it  has  secƟons  of  two  equal  squares  that  are  not  reduced  to  a 
+single character and are instead divided into two equal characters. 
+OpƟons  (A)  ,  (D)  and  (F)  are  incorrect,  among  other  things,  because  they  do  not  start  with 
+three X’s as needed to represent the ﬁrst squares. 
+Computer Science 
+The rule Sarah used to represent sequences of squares is a  recursive rule  . 
+Recursion  is a very powerful algorithmic technique  much used in Computer Science. 
+It  allows  to  describe  a  solu Ɵon  procedure  in  terms  of  itself:  when  you  have  a  simple 
+situaƟon,  you  directly  specify  the  soluƟon  for  it  (the  'W'  and  'B'  in  this  task);  when  you  don't, 
+you  divide  the  problem  into  similar  smaller  problems,  and  you  tackle  them  in  the  same  way, 
+then  composing  the  soluƟons  you  get  for  the  smaller  problems  into  the  soluƟon  for  the 
+problem  you  started  with  (in  this  task,  the  'X'  followed  by  the  leŌ  and  right  halves’ 
+soluƟons). 
+Recursion  is  applied  in  many  ﬁelds,  for  example,  Fibonacci  analysed  the  populaƟon  size  of 
+rabbits  and  found  his  famous  recurrent  formula.  Using  recursion,  you  can  calculate  number 
+of  rabbits  you  will  have  in  several  years.  Another  example  are  fractals  that  are  geometric 
+shapes constructed using recursion. 
+In  order  to  be  automaƟcally  processed,  informaƟon  has  to  be  represented  symbolically; 
+moreover,  it  is  important  to  ﬁnd  representaƟons  that  allow  eﬃcient  processing.  Therefore, 
+the  study  of  forms  of  representa Ɵons  and  data  structures  is  a  very  import  ﬁeld  of 
+informaƟcs.  The  process  of  converƟng  informaƟon  from  one  representaƟon  to  another  is 
+called  coding  .  If  you  know  the  exact  length  of  the  sequence  of  squares  in  this  task,  you  can 
+even  convert  the  code  back  to  the  sequence  of  squares.  Such  codes  are  called  inverƟble  .  If 
+the  length  is  ﬁxed,  this  speciﬁc  code  is  a  preﬁx  code.  It  means  that  no  code  is  a  preﬁx  of 
+another  code.  Such  codes  can  be  inverted  fast  and  do  not  require  a  lot  of  computaƟonal 
+resources. 
+ComputaƟonal Thinking 
+In  this  task  you  need  abstracƟon  to  understand  the  recursive  deﬁniƟon  given  in  the  text 
+body.  We  can  then  approach  the  problem  solving  it  step-by-step,  decomposing  it  into  smaller 
+problems and  simulaƟng  /  evaluaƟng  at each step to  obtain the original  data representaƟon  . 
+January 2025  Page |  131 
+
+===== PAGE 133 =====
+ Bebras  India 
+Beaver Island BulleƟn 
+There  are  18  villages  on  Beaver  Island,  as  shown  in  the  picture  below.  Each  village  has  many 
+postmen;  whenever  a  village  needs  to  send  a  message  or  receives  a  new  one,  its  postmen 
+will deliver the message to all connected neighboring villages on the next day. 
+For  example,  if  Village  A sends  a  message,  it  takes  1  day  for  the  message  to  reach  Villages  B, 
+C,  and  Q.  It  takes  2  days  to  reach  D,  E,  and  F;  and  so  on,  unƟl  all  villages  have  received  the 
+message. 
+QuesƟon: 
+If a new message starts from Village J, how many days does it take to reach all villages? 
+A. 2 
+B. 3 
+C. 4 
+D. 5 
+January 2025  Page |  132 
+
+===== PAGE 134 =====
+ Bebras  India 
+Answer ExplanaƟon: 
+The correct answer is C. 4 days. 
+StarƟng  from  Village  J,  we  can  track  the  number  of  days  it  takes  for  a  message  to  reach  each 
+village, and ﬁnd out the answer: 
+● Day 1: Village E, G, H, and M receive the message. 
+● Day 2: Village B, C, D, I, K, N, O, and L receive the message, speciﬁcally: 
+○ Village B and C receive it from E. 
+○ Village D and I receive it from G. 
+○ Village K and N receive it from H. 
+○ Village N, O, and L receive it from M. 
+● Day  3:  Likewise,  Village  A,  F,  P ,  and  R  receive  the  message.  At  this  point,  only  village  Q 
+has yet to receive the message. 
+● Day 4: Village Q receives the message from F and A. 
+January 2025  Page |  133 
+
+===== PAGE 135 =====
+ Bebras  India 
+Therefore,  it  will  take  a  total  of  four  days  to  ensure  all  villages  have  received  the  message 
+from Village J. 
+Computer Science 
+In  this  task,  the  message  propagaƟon  method  is  similar  to  performing  a  breadth-ﬁrst  search 
+(BFS)  algorithm  on  a  graph,  systemaƟcally  exploring  or  searching  through  the  nodes.  The  BFS 
+algorithm  starts  from  a  speciﬁc  node,  ﬁrst  visiƟng  its  neighboring  nodes,  and  then  conƟnues 
+to  visit  unvisited  adjacent  nodes  in  the  order  they  are  encountered.  The  core  concept  of  BFS 
+is  "expanding  layer  by  layer,"  ensuring  that  nodes  closer  to  the  start  are  explored  ﬁrst  before 
+expanding to more distant nodes. 
+PracƟcal  applicaƟons  of  BFS  include  search  engines  crawling  web  pages  layer  by  layer 
+through  links,  social  media  plaƞorms  analyzing  how  messages  spread  from  one  user  to 
+others,  and  public  health  authoriƟes  tracing  contacts  and  simulaƟng  the  spread  of  infecƟous 
+diseases. 
+A  related  concept  is  the  ﬂood-ﬁll  algorithm,  which  is  commonly  used  to  solve  problems 
+involving  the  expansion  or  exploraƟon  of  connected  areas.  For  example,  when  you  tap  an 
+area  in  a  coloring  app,  the  algorithm  ﬁlls  the  enƟre  secƟon  with  color.  Similarly,  it  is  applied 
+when  a  cleaning  robot  maps  and  cleans  all  connected  rooms  starƟng  from  its  iniƟal  locaƟon. 
+Internally,  ﬂood-ﬁll  typically  relies  on  Breadth-First  Search  (BFS)  or  Depth-First  Search  (DFS) 
+to systemaƟcally and thoroughly explore all adjacent connected points. 
+ComputaƟonal Thinking 
+To  solve  this  task,  students  must  ﬁrst  understand  and  apply  the  rule  for  how  messages  are 
+passed  from  village  to  village.  They  need  to  systemaƟcally  track  the  spread  of  the  message 
+day by day, which involves algorithmic thinking. 
+During  this  process,  students  are  also  engaging  in  simulaƟon,  as  they  mentally  or  visually 
+model  how  the  message  ﬂows  through  the  network  over  Ɵme.  They  must  abstract  away 
+unnecessary  details  and  focus  on  the  key  elements:  the  connecƟons  between  villages  and 
+the Ɵming of the message spread. 
+January 2025  Page |  134 
+
+===== PAGE 136 =====
+ Bebras  India 
+Public Transport 
+Madhav  wants  to  go  to  a  theater  from  his  home  by  metro.  There  are  4  one-way  metro  lines 
+operating  in  the  town.  Metro  stops  are  marked  with  black-bordered  circles.  The  metro  lines  are 
+marked with differently colored lines. Colored stops represent a line's starting point. 
+The  first  metro  trains  depart  on  each  of  the  lines  from  their  starting  stops  at  the  same  time.  Then 
+each  line  sends  a  metro  train  out  in  different  time  intervals.  Numbers  in  colored  backgrounds 
+represent  the  time  interval  between  train  departures  in  minutes.  For  example,  the  orange  line 
+sends a train out every 3 minutes – at minutes 0, 3, 6, 9 and so on. 
+The  numbers  near  line  segments  represent  how  many  minutes  it  takes  for  a  metro  train  to  cover 
+the  distance  between  two  stops.  Stopping  at  a  stop  and  loading  passengers  takes  no  time  (0 
+minutes). 
+Stops  with  two  or  more  metro  lines  intersecting  can  be  used  to  perform  a  metro  train  exchange.  If 
+Madhav  arrives  at  an  intersection  point,  he  can  switch  to  a  train  that  arrives  there  later  or  at  the 
+same time as him. 
+Question: 
+If  Madhav  departs  with  the  first  orange  line  metro  train,  what  is  the  shortest  possible  time  it  will 
+take him to ride to the theater? 
+A. 18 
+B. 20 
+C. 21 
+D. 25 
+E. 27 
+January 2025  Page |  135 
+
+===== PAGE 137 =====
+ Bebras  India 
+Correct answer is B. 
+Answer ExplanaƟon: 
+The correct answer is stops A, C, F, H, I and B. It takes 20 minutes to ride this route. 
+The  answer  can  be  found  by  choosing  a  stop  with  the  fastest  Ɵme  to  reach  it  already  known 
+(at  the  beginning,  this  is  only  stop  A).  Then  Ɵmes  of  the  stops  reached  from  there  can  be 
+calculated.  This  process  is  repeated  with  diﬀerent  stops  unƟl  the  quickest  Ɵme  to  the 
+desƟnaƟon is found. 
+Each  stop  can  have  mul Ɵple  possible  arrival  routes  with  diﬀerent  Ɵmes,  but  only  the 
+quickest  is  regarded.  Only  when  all  arrival  possibiliƟes  are  tried  and  the  quickest  Ɵme  found 
+the stop can be used to calculate the Ɵmes of the stops reached from that stop. 
+The applicaƟon of this method in this problem is described below. 
+January 2025  Page |  136 
+
+===== PAGE 138 =====
+ Bebras  India 
+The  correct  route  is  highlighted.  The  numbers  next  to  each  stop  tell  the  shortest  Ɵme  it  takes 
+to arrive at the stop from each direcƟon. 
+Stop C is simply reached in 1 minute by taking the ﬁrst orange bus. 
+The same way stop F is reached in 5 minutes and stop G in 8 minutes. 
+Stop  I  can  be  reached  from  stop  G  by  taking  the  third  pink  bus  (3  minute  wait),  in  a  total  of  8 
++ 3 + 5 = 16 minutes. 
+Stop  H  can  be  reached  from  stop  C  (aŌer  arriving  at  minute  1)  by  the  second  green  bus  aŌer 
+waiƟng for 1 minute and riding for 7 minutes, in 1 + 1 + 7 = 9 minutes from the start. 
+Stop  H  can  also  be  reached  from  stop  F  (aŌer  arriving  at  minute  5)  by  the  second  blue  bus  in 
+1  minute  aŌer  a  1  minute  wait,  a  total  of  5  +  1  +  1  =  7  minutes.  This  is  faster  than  9  minutes 
+calculated  before  and  this  new  number  is  used  for  further  calculaƟons.  The  faster  arrival  also 
+means  that  the  ﬁrst  green  bus  can  be  caught  and  used  to  reach  stop  I  in  a  total  of  7  +  3  =  10 
+minutes.  The  new  Ɵme  to  stop  I  is  faster  than  previously  calculated  16  minutes,  so  the  16 
+minute  Ɵme  is  discarded  and  not  further  used.  Since  it  is  the  fastest  route  to  I,  the  same  bus 
+can  be  used  to  reach  stop  J  in  a  total  of  10  +  2  =  12  minutes,  and  stop  K  in  a  total  of  12  +  1  = 
+13 minutes. 
+Stop  J  can  alternaƟvely  be  reached  from  stop  H  in  7  +  8  =  15  minutes.  This  is  slower  and  not 
+further used. 
+From  stop  I,  the  second  pink  bus  can  be  used  to  reach  stop  B  (the  desƟnaƟon)  aŌer  waiƟng 
+for  1  minute  in  total  of  10  +  1  +  9  =  20  minutes.  This  is  not  the  ﬁnal  answer  yet,  because  stop 
+B  can  be  reached  from  stop  J  as  well.  It  can  be  done  with  the  second  blue  bus  aŌer  waiƟng 
+for  3  minutes  and  riding  for  6  minutes  in  a  total  of  12  +  3  +  6  =  21  minutes.  This is  slower 
+than 20 minutes, so 20 minutes calculated earlier is in fact the correct soluƟon. 
+Computer Science 
+The  bus  route  map  consists  of  mulƟple  bus  stops  connected  by  one-way  bus  routes.  Bus 
+routes have individual segments between two stops that takes a certain Ɵme to cross. 
+This  type  of  setup  is  similar  to  a  weighted  directed  graph.  The  stops  are  regarded  to  as 
+verƟces  and  the  segments  of  routes  as  edges.  The  structure  of  verƟces  connected  by  edges 
+is  called  a  graph.  Since  the  routes  are  one-way,  the  connecƟons  between  verƟces  (edges)  are 
+one-direcƟonal,  which  makes  the  graph  directed.  And  because  each  route  segment  has  a 
+January 2025  Page |  137 
+
+===== PAGE 139 =====
+ Bebras  India 
+diﬀerent  Ɵme  to  cross  it  (or  an  edge's  weight),  the  graph  is  weighted.  The  only  diﬀerence  is 
+that  the  Ɵme  from  one  stop  to  another  not  only  depends  on  the  distance,  but  the  arrival 
+Ɵme  and  the  bus  cruising  Ɵmes.  A  weighted  graph  has  constant  edge  weights  not  depending 
+on the arrival Ɵme. 
+The  problem  is  to  ﬁnd  the  shortest  path  between  two  verƟces  of  the  graph.  This  task  is 
+commonly  found  across  diﬀerent  informaƟcs  problems  and  is  a  simpliﬁed  version  of  real 
+route-ﬁnding  algorithms.  There  are  mulƟple  ways  of  doing  it  on  such  a  graph,  but  the 
+described  method  in  the  answer  secƟon  is  really  similar  to  dynamic  programming,  which  is  a 
+way  of  solving  problems  by  ﬁrst  solving  smaller  parts  of  it  and  using  the  answers  to  solve 
+bigger  parts  up  unƟl  the  full  answer  is  built.  In  this  case,  we  start  by  calculaƟng  Ɵme  to  the 
+closest stops to the start and build up to the farthest stop – the desƟnaƟon. 
+ComputaƟonal Thinking 
+This  task  fosters  computaƟonal  thinking  by  emphasizing  data  interpretaƟon,  algorithmic 
+reasoning, and sequencing. 
+It  involves  analyzing  structured  data,  including  bus  departure  intervals,  travel  Ɵmes,  and 
+transfer  condi Ɵons.  Iden Ɵfying  pa Ʃerns  in  this  numerical  data,  tracking  mul Ɵple 
+synchronized  sequences,  and  determining  valid  transiƟons  based  on  predeﬁned  constraints 
+are  essenƟal  for  ﬁnding  a  correct  soluƟon.  EﬀecƟve  data  processing  ensures  accuracy  in 
+decision-making. 
+Algorithmic  thinking  is  fundamental,  as  solving  the  task  requires  construcƟng  a  structured 
+sequence  of  steps.  Recognizing  repeaƟng  paƩerns  in  bus  departures,  applying  condiƟonal 
+rules  for  valid  transfers,  and  systemaƟcally  evaluaƟng  possible  routes  reﬂect  core  algorithmic 
+principles.  This  approach  is  closely  related  to  real-world  applicaƟons  such  as  scheduling 
+systems and path-ﬁnding algorithms. 
+Sequencing  is  crucial,  as  the  correct  order  of  events  must  be  maintained.  Aligning  diﬀerent 
+Ɵme  intervals  and  travel  duraƟon  in  a  structured  manner  ensures  that  the  soluƟon  follows  a 
+logical  ﬂow.  By  integraƟng  data  interpretaƟon  with  algorithmic  reasoning,  the  task  reinforces 
+informaƟcs principles essenƟal for automaƟon, logisƟcs, and opƟmizaƟon problems. 
+January 2025  Page |  138 
+
+===== PAGE 140 =====
