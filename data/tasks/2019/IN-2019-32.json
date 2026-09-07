@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-32",
+  "title_en": "Scientist in Lab",
+  "title_zh": "科學家實驗室",
+  "source_country": "Hungary",
+  "source_country_flag": "🇭🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Hungary",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-32.png",
+    "path": "assets/images/india/2019/IN-2019-32.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Three scientists (Chemist Carly=C, Physicist Paula=P, Biologist Barry=B) start with 4 chemicals and try to make a new one. Each works 2 days, one scientist per day, one operation per day, combining two existing chemicals into a new one. Each scientist can only perform two specific types of operations.",
+    "question": "Which sequence of letters would NOT allow the scientists to create the target chemical?",
+    "options": [
+      {
+        "key": "A",
+        "text": "C P B P C B"
+      },
+      {
+        "key": "B",
+        "text": "P P C C B B"
+      },
+      {
+        "key": "C",
+        "text": "C P B C P B"
+      },
+      {
+        "key": "D",
+        "text": "P B P C C B"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Since Biologist Barry's second operation creates the final product, B must be last. To perform that, he needs certain prerequisite chemicals which require C to have gone after P, and P to have performed her first operation for B's first operation to be possible. In sequence C, the first P can only create one needed chemical for the next two operations, so one of them fails — this order does not successfully create the final product.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In computer science and programming, processes take inputs and produce outputs — a process cannot start if its required input (the output of an earlier process) is missing. Programmers must organize subtasks to ensure needed outputs from earlier steps are available before dependent steps run; this is essentially queuing/scheduling processes correctly, respecting dependencies."
+  },
+  "content_zh": {
+    "prompt": "三位科學家（化學家Carly=C、物理學家Paula=P、生物學家Barry=B）一開始只有4種化學物質，想合成出一種新化學物質。每位科學家工作兩天，每天只有一位科學家上工，每天只能做一個操作：把兩種現有的化學物質合成出一種新的。每位科學家只會兩種特定的操作。",
+    "question": "下面哪一串字母順序，「無法」讓科學家們成功合成出目標化學物質？",
+    "options": [
+      {
+        "key": "A",
+        "text": "C P B P C B"
+      },
+      {
+        "key": "B",
+        "text": "P P C C B B"
+      },
+      {
+        "key": "C",
+        "text": "C P B C P B"
+      },
+      {
+        "key": "D",
+        "text": "P B P C C B"
+      }
+    ],
+    "answer": "C",
+    "explanation": "因為最終產品是Barry(生物學家)第二次操作做出來的，所以B一定要排在最後。要完成這個操作，需要先有特定的前置化學物質，這又需要C排在P之後、而且P要先完成她的第一次操作，B的第一次操作才有辦法進行。在選項C的順序裡，第一個P只能製造出下兩個操作裡「其中一個」需要的化學物質，另一個一定會失敗——所以這個順序無法成功合成出最終產品。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在資訊科學跟程式設計裡，一個流程需要輸入才能產生輸出——如果需要的輸入（也就是前一個流程的輸出）還沒準備好，這個流程就無法開始。工程師必須妥善安排各個子任務的順序，確保後面的步驟執行前，前面步驟需要的輸出都已經準備好了——這本質上就是要正確地排出流程之間彼此依賴的順序。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2019-22",
+  "title_en": "Marble Track",
+  "title_zh": "彈珠翹翹板軌道",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-22.png",
+    "path": "assets/images/india/2019/IN-2019-22.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A marble track has four rockers, each leaning left (position 0) or right (position 1). Hitting a rocker flips its position; a marble rolling right falls to the bottom, rolling left hits the next rocker.",
+    "question": "All rockers are reset to 0. What will the rockers (bottom to top) read after ten marbles roll through?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0, 1, 0, and 1"
+      },
+      {
+        "key": "B",
+        "text": "1, 0, 1, and 0"
+      },
+      {
+        "key": "C",
+        "text": "0, 0, 1, and 0"
+      },
+      {
+        "key": "D",
+        "text": "1, 1, 0, and 1"
+      },
+      {
+        "key": "E",
+        "text": "1, 1, 0, and 0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The topmost rocker flips every marble, so after 10 (even) it's back to 0. The 2nd rocker flips only when the top was 1 (every other marble) — 5 times, ending at 1. The 3rd flips only every 4th marble (2 times in 10) ending at 0. The bottom flips only when all three above were 1 — once (at marble 8) — ending at 1. Final: 1,0,1,0.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The rockers represent electronic circuit elements that toggle between two states — a variant of a flip-flop. Connected as half adders (taking a stored state plus an impulse, producing a new state plus carry), the rockers together form a binary counter: their final states represent the binary number 10 (ten marbles → 1010 in binary)."
+  },
+  "content_zh": {
+    "prompt": "彈珠軌道上有四個翹翹板，每個都可能是靠左（狀態0）或靠右（狀態1）。彈珠撞到翹翹板時，翹翹板的狀態會翻轉；彈珠往右滾就會直接掉到底部，往左滾就會撞到下一個翹翹板。",
+    "question": "所有翹翹板都重設為0，如果讓10顆彈珠依序滾過軌道，最後（從下往上讀）翹翹板的狀態會是什麼？",
+    "options": [
+      {
+        "key": "A",
+        "text": "0、1、0、1"
+      },
+      {
+        "key": "B",
+        "text": "1、0、1、0"
+      },
+      {
+        "key": "C",
+        "text": "0、0、1、0"
+      },
+      {
+        "key": "D",
+        "text": "1、1、0、1"
+      },
+      {
+        "key": "E",
+        "text": "1、1、0、0"
+      }
+    ],
+    "answer": "B",
+    "explanation": "最上面的翹翹板每顆彈珠都會翻轉一次，10顆（偶數）之後會回到0。第二個翹翹板只有在上面那個是1的時候才會翻轉（每隔一次），10次裡翻轉5次，最後是1。第三個只有每第4顆彈珠才會翻轉，10次裡翻轉2次，最後是0。最底下的只有在上面三個都是1的時候才會翻轉，10次裡只發生1次（第8顆彈珠時），最後是1。所以最終狀態是1、0、1、0。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這些翹翹板其實代表的是「在兩個狀態之間切換」的電子電路元件——正是正反器(flip-flop)的一種變化型。這些翹翹板連接成「半加器」(接收目前儲存的狀態加上一個脈衝，輸出新狀態跟進位)，整組合起來就變成一個「二進位計數器」：最後的狀態剛好就是二進位的數字「10」（十顆彈珠→二進位1010）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

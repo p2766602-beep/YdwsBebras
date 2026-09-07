@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-04",
+  "title_en": "Meal Planning",
+  "title_zh": "打包便當",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-04.png",
+    "path": "assets/images/india/2019/IN-2019-04.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Raju takes 2 lunch boxes to school daily (snack + lunch) and has only 30 minutes to prepare both. Prep times: Rice 15min, Poha 20min, Sandwich 15min, Roti+Vegetable 20min, Paratha 20min, Fruit Bhel 10min.",
+    "question": "Which one of the following statements is false?",
+    "options": [
+      {
+        "key": "A",
+        "text": "If Raju packs Roti+Vegetable for lunch, he cannot pack a Sandwich for snack"
+      },
+      {
+        "key": "B",
+        "text": "If Raju packs Paratha for lunch, he can only pack Fruit Bhel for snack"
+      },
+      {
+        "key": "C",
+        "text": "If Raju packs Rice for lunch, he can pack Poha for snack"
+      },
+      {
+        "key": "D",
+        "text": "If Raju packs Rice for lunch, he can pack either Sandwich or Fruit Bhel for snack"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Rice (15min) + Poha (20min) = 35 minutes, which exceeds the 30-minute limit — so statement C is false. All other statement combinations take 30 minutes or less, so they're true.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Constraints reduce the flexibility of a situation or limit how a problem can be solved. In complex tasks constraints combine via conjunction (both must hold), disjunction (at least one holds) or negation (opposite of the condition). Here the constraint is a 30-minute total prep-time limit; to find the false statement, find the combination exceeding 30 minutes."
+  },
+  "content_zh": {
+    "prompt": "Raju每天要帶2個便當盒去學校（點心時間一個、午餐時間一個），只有30分鐘可以準備兩個便當。各餐點準備時間：飯15分鐘、Poha(印度炒扁米)20分鐘、三明治15分鐘、烤餅配蔬菜20分鐘、Paratha烤餅20分鐘、水果沙拉10分鐘。",
+    "question": "下面哪一句敘述是「錯的」？",
+    "options": [
+      {
+        "key": "A",
+        "text": "如果Raju午餐帶烤餅配蔬菜，點心就不能帶三明治"
+      },
+      {
+        "key": "B",
+        "text": "如果Raju午餐帶Paratha烤餅，點心就只能帶水果沙拉"
+      },
+      {
+        "key": "C",
+        "text": "如果Raju午餐帶飯，點心可以帶Poha"
+      },
+      {
+        "key": "D",
+        "text": "如果Raju午餐帶飯，點心可以帶三明治或水果沙拉"
+      }
+    ],
+    "answer": "C",
+    "explanation": "飯(15分鐘)+Poha(20分鐘)＝35分鐘，超過30分鐘的限制，所以C是錯的敘述。其他選項的組合都在30分鐘以內，所以都是對的。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "限制條件會降低一個情境的彈性，或是限縮問題的解法範圍。在比較複雜的任務裡，限制條件會用「且」（兩者都要成立）、「或」（至少一個成立）、「非」（條件的反面）組合起來。這一題的限制條件是「準備時間總共不超過30分鐘」；要找出錯的敘述，只要找出總時間超過30分鐘的組合就行了。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

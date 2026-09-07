@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-14",
+  "title_en": "Elder Beavers",
+  "title_zh": "老海狸的密碼表",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-14.png",
+    "path": "assets/images/india/2019/IN-2019-14.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Deepa finds an ancient cipher table carved into wood at the beaver dam: unknown characters are formed by combining a row-symbol and a column-symbol (e.g. letter 'H' is a specific combination). She finds a message carved elsewhere in the dam using this cipher.",
+    "question": "What does the message of the elder beavers mean?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SAVEWATER"
+      },
+      {
+        "key": "B",
+        "text": "CLEARDAYS"
+      },
+      {
+        "key": "C",
+        "text": "SAVEMYDAM"
+      },
+      {
+        "key": "D",
+        "text": "CAREFORME"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The first character decodes to row 3/column 1 = 'S', narrowing it to A or C. The 2nd-4th letters are the same in both (A, V, E). The 5th letter differs: decoding it gives 'W', matching answer A. (Shortcut: the last character alone decodes to 'R', and only answer A ends in R.)",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Cryptography — the science of encrypting information — is at least 3500 years old. In encryption, plaintext is turned into ciphertext using a key; reversing this without the key is called breaking a cipher. This task's cipher is a monoalphabetic substitution similar to the historical Pigpen cipher; Edgar Allan Poe showed in 1843 (\"The Gold-Bug\") that such ciphers are generally breakable via frequency analysis."
+  },
+  "content_zh": {
+    "prompt": "Deepa在海狸水壩底部發現一塊刻著神秘符號的古老木片。她研究後發現，這些符號是由「列符號」跟「欄符號」組合而成的密碼表（例如字母「H」對應某個特定組合）。她後來在水壩的另一處也發現了用這套密碼寫成的訊息。",
+    "question": "老海狸留下的這則訊息是什麼意思？",
+    "options": [
+      {
+        "key": "A",
+        "text": "SAVEWATER（節約用水）"
+      },
+      {
+        "key": "B",
+        "text": "CLEARDAYS（晴朗的日子）"
+      },
+      {
+        "key": "C",
+        "text": "SAVEMYDAM（救救我的水壩）"
+      },
+      {
+        "key": "D",
+        "text": "CAREFORME（照顧我）"
+      }
+    ],
+    "answer": "A",
+    "explanation": "第一個符號解碼是第3列第1欄＝字母S，這樣就能把範圍縮小到A或C。第2到第4個字母兩個答案都一樣(A、V、E)。第5個字母不一樣：解碼後是W，符合答案A。（捷徑解法：只看最後一個符號，解碼後是字母R，四個答案裡只有A是以R結尾的。）",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "密碼學（加密資訊的科學）至少有3500年歷史。加密是用一把「金鑰」把明文變成密文；沒有金鑰卻能還原明文，就叫做「破解」。這一題用的密碼是一種「單套字母替代式密碼」，類似歷史上真實存在的「豬圈密碼」(Pigpen cipher)；愛倫坡在1843年的小說《金甲蟲》裡就證明過，這類密碼通常可以透過「頻率分析」破解。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

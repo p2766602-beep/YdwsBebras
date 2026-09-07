@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-12",
+  "title_en": "Bottle Recycle",
+  "title_zh": "寶特瓶回收機",
+  "source_country": "Romania",
+  "source_country_flag": "🇷🇴",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Romania",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-12.png",
+    "path": "assets/images/india/2019/IN-2019-12.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Three machines recycle plastic bottles: Machine 1 makes a large white bottle if two white bottles go in (otherwise green); Machine 2 makes a large green bottle if two green bottles go in (otherwise white); Machine 3 turns green into white or white into green.",
+    "question": "What kind of bottles should A, B, C and D be to get one new white bottle out of the system?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A=white, B=white, C=green, D=white"
+      },
+      {
+        "key": "B",
+        "text": "A=green, B=green, C=green, D=white"
+      },
+      {
+        "key": "C",
+        "text": "A=white, B=green, C=green, D=white"
+      },
+      {
+        "key": "D",
+        "text": "A=green, B=green, C=white, D=green"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Drawing out each option's flow and tracking bottle colors, only option B produces a white bottle as output. (Note: there are actually three valid inputs producing white output; option B is the one listed among the choices.)",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "All computers contain circuits of logic gates like AND, OR, NOT — represented here with white glass=TRUE(1) and colored glass=FALSE(0). AND needs both inputs TRUE for a TRUE output; OR needs at least one TRUE input; NOT reverses the value. Logic gates like these perform arithmetic and logic operations in microprocessors."
+  },
+  "content_zh": {
+    "prompt": "三台機器可以回收塑膠瓶：機器1放入兩個白瓶會做出一個大白瓶（否則做出綠瓶）；機器2放入兩個綠瓶會做出一個大綠瓶（否則做出白瓶）；機器3會把綠瓶變白瓶、白瓶變綠瓶。",
+    "question": "A、B、C、D要放入什麼顏色的瓶子，最後系統才會產出一個新的白瓶？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A=白、B=白、C=綠、D=白"
+      },
+      {
+        "key": "B",
+        "text": "A=綠、B=綠、C=綠、D=白"
+      },
+      {
+        "key": "C",
+        "text": "A=白、B=綠、C=綠、D=白"
+      },
+      {
+        "key": "D",
+        "text": "A=綠、B=綠、C=白、D=綠"
+      }
+    ],
+    "answer": "B",
+    "explanation": "把每個選項的流程畫出來、追蹤瓶子顏色的變化，只有選項B最後會產出白瓶。（補充：其實有三種輸入組合都能產出白瓶，選項B是題目選項裡列出的那一個。）",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "所有電腦內部都有邏輯閘電路，像是AND、OR、NOT，這一題用白色玻璃代表TRUE(1)、彩色玻璃代表FALSE(0)：AND閘要兩個輸入都是TRUE才會輸出TRUE；OR閘只要有一個輸入是TRUE就會輸出TRUE；NOT閘會把值反過來。這些邏輯閘正是微處理器執行算術與邏輯運算的基礎元件。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

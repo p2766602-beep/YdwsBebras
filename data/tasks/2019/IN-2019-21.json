@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-21",
+  "title_en": "Wood Allergies",
+  "title_zh": "木頭過敏派對",
+  "source_country": "Slovenia",
+  "source_country_flag": "🇸🇮",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Slovenia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-21.png",
+    "path": "assets/images/india/2019/IN-2019-21.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Some beavers are allergic to certain wood types. Anita makes wood snacks (from 6 types: Ash/Maple/Oak/Birch/Poplar/Willow) for a party; each guest can eat certain woods safely, and beavers share snacks. Guest list: Anita(Willow,Oak,Ash,Maple), Beena(Willow,Oak,Poplar), Chaitanya(Oak), Dinesh(Ash,Birch), Esha(Willow,Maple,Birch), Firoz(Oak,Ash), Ganga(Poplar,Maple).",
+    "question": "What is the minimum number of dishes Anita can bring so everyone can eat without getting sick?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Anita must make Oak for Chaitanya, which also satisfies Anita, Beena, Firoz. No single dish covers the remaining three (Dinesh, Esha, Ganga), so at least 2 more dishes are needed — e.g. Ash+Maple, or Poplar+Birch, or Maple+Birch. Total: 3 dishes.",
+    "ct_skills": "Abstraction, Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is a classic bipartite graph / Set Cover problem: each dish is a set of beavers who can eat it, and the goal is to select the fewest sets whose union covers everyone. Set Cover is one of the hardest (NP-complete) problems in computer science — no efficient general algorithm exists, and brute-force becomes infeasible fast. This task was solvable because it was small and had limited options."
+  },
+  "content_zh": {
+    "prompt": "有些海狸對特定木頭種類過敏。Anita要準備木頭點心參加派對（共6種木頭：白蠟木、楓木、橡木、樺木、白楊木、柳木），每位賓客只能安全吃某幾種木頭，而且海狸們願意分享點心。賓客清單：Anita(柳木、橡木、白蠟木、楓木)、Beena(柳木、橡木、白楊木)、Chaitanya(橡木)、Dinesh(白蠟木、樺木)、Esha(柳木、楓木、樺木)、Firoz(橡木、白蠟木)、Ganga(白楊木、楓木)。",
+    "question": "Anita最少要準備幾道點心，才能讓所有賓客都吃得安心？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2道"
+      },
+      {
+        "key": "B",
+        "text": "3道"
+      },
+      {
+        "key": "C",
+        "text": "4道"
+      },
+      {
+        "key": "D",
+        "text": "5道"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Anita一定要做橡木口味給Chaitanya，這道也剛好滿足Anita、Beena、Firoz。剩下Dinesh、Esha、Ganga三人沒有共通的口味，所以至少還要再準備2道——例如白蠟木+楓木，或白楊木+樺木，或楓木+樺木。總共3道。",
+    "ct_skills": "抽象化（Abstraction）、演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是經典的「二分圖」／「集合覆蓋問題」：每道菜可以看成一個「能吃這道菜的海狸」集合，目標是選出最少數量的集合，讓所有海狸都被涵蓋到。集合覆蓋問題是資訊科學中數一數二困難的問題（屬於NP-complete），目前沒有已知的高效率通用演算法——組合數量一多，窮舉法就會變得不可行。這一題之所以能解出來，是因為規模小、選項有限。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

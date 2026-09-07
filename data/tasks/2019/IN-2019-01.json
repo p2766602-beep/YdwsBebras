@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-01",
+  "title_en": "Scratch Art Paper",
+  "title_zh": "刮畫紙",
+  "source_country": "South Korea",
+  "source_country_flag": "🇰🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：South Korea",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-01.png",
+    "path": "assets/images/india/2019/IN-2019-01.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "With scratch art paper you can easily draw colorful pictures. By using a wooden stick you remove the top coating and the colorful background becomes visible. At the beginning the paper is fully coated black; behind the black coating four colors are hidden.",
+    "question": "For which of the four pictures exactly three colors show up while drawing?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 圖案A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 圖案B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 圖案C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 圖案D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In C the colors red, yellow and green become visible; blue does not appear because the top right section is untouched. In A and D all four colors appear; in B only red and blue appear.",
+    "ct_skills": "Decomposition",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Removing the top coating makes that part transparent, letting the layer behind show through — similar to layers in image editing software. Imagining what's behind a layer is easier when you split the picture into smaller sections and consider each one separately; this process is called decomposition."
+  },
+  "content_zh": {
+    "prompt": "刮畫紙可以讓你輕鬆畫出彩色圖案：用木棒刮掉最上層的塗層，底下的彩色背景就會顯現出來。一開始整張紙都塗成黑色，黑色塗層底下藏著四種顏色。",
+    "question": "下面四張圖案裡，哪一張刮完之後恰好會出現三種顏色？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）圖案A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）圖案B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）圖案C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）圖案D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "圖案C刮完後會出現紅、黃、綠三種顏色；藍色不會出現，因為右上角那一塊沒有被刮到。圖案A和D刮完後四種顏色都會出現，圖案B刮完後只會出現紅色和藍色。",
+    "ct_skills": "拆解（Decomposition）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "刮掉最上層塗層，那個部分就變成透明的，可以透過這層看到底下的顏色——這跟影像編輯軟體裡的「圖層」概念很像。想像圖層底下長什麼樣子，最簡單的方法是把整張圖拆成幾個小區塊分別想像，這種方法就叫做「拆解」，在資訊科學裡很常用。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

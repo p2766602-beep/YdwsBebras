@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-29",
+  "title_en": "Trap Island",
+  "title_zh": "陷阱島",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-29.png",
+    "path": "assets/images/india/2019/IN-2019-29.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A robot boat travels from the south bank to the north bank around islands, using a fixed flowchart of instructions, only moving to squares not blocked by an island. Pirates install an artificial island to trap the boat.",
+    "question": "Which one of these islands could be a trap for the robot boat? (Note: North is up.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 島A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 島B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 島C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 島D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Island A traps the boat: approaching from the south, it can go neither North nor West (both blocked), so it halts. The other islands leave the southern square free, so the boat can always dodge West if North is blocked.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The boat's flowchart works fine for the normal round islands but the programmers didn't account for a shape that blocks both North and West — a weakness that could be exploited (a security breach). Real software must be tested against unexpected inputs, e.g. interactive websites carefully validating input to reject anything potentially dangerous."
+  },
+  "content_zh": {
+    "prompt": "一艘機器人小船要從南岸開往北岸，沿路要繞過河裡的島嶼。小船是依照一份固定的流程圖指令行動，只能移動到沒有被島嶼擋住的方格。海盜想安裝一座人工島來困住這艘船。",
+    "question": "下面哪一座島有可能困住這艘機器人船？（註：畫面上方是北方）",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）島A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）島B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）島C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）島D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "島A會困住船：船從南邊靠近時，北邊和西邊都被擋住，兩個方向都不能走，於是就卡住了。其他島嶼的南邊方格是空的，所以船北邊被擋住時，永遠可以往西邊閃避。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "小船的流程圖對一般圓形島嶼運作得很好，但工程師沒有考慮到「北邊跟西邊同時被擋住」這種情況——這就是一個可能被利用的弱點（安全漏洞）。真正的軟體也必須測試各種預期外的輸入，例如互動式網站要仔細檢查使用者輸入的內容，拒絕任何可能有害的資料。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

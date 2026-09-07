@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-10",
+  "title_en": "Which Tower?",
+  "title_zh": "哪一座塔",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-10.png",
+    "path": "assets/images/india/2019/IN-2019-10.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Kittu's little sister made rules for stacking building bricks, shown as arrows: start with any brick; always follow the arrows (choosing if several are available); an arrow back to the same brick means stacking another of the same kind; stop when no arrow leads away.",
+    "question": "Which of the four towers did she build based on the rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 塔A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 塔B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 塔C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 塔D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A wrongly jumps from two blue boxes to an orange cube (no such arrow). B wrongly stacks a green cylinder on another green cylinder (no such arrow). D wrongly jumps from green cylinder to orange cube (no such arrow). C correctly follows blue-blue-green-yellow pyramid, and correctly stops since no arrow leaves the pyramid.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The topmost brick represents the current state; the rules define transitions between states — this is a state diagram. Since any brick can start, all are start states; the pyramid is the only accepting (finishing) state. This describes a nondeterministic finite automaton, widely used in computer science to model software behavior, language structures, and hardware interactions."
+  },
+  "content_zh": {
+    "prompt": "Kittu的妹妹訂了一套堆積木的規則，用箭頭圖表示：可以從任何一塊積木開始；一定要照著箭頭走（如果有多個箭頭可以選一個）；如果箭頭指回同一塊積木，代表可以再疊一塊同款積木；如果沒有箭頭可以走了，就要停止堆疊。",
+    "question": "依照這套規則，妹妹疊出的是下面哪一座塔？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）塔A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）塔B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）塔C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）塔D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "塔A從兩塊藍色箱子直接跳到橘色方塊，但規則裡沒有這個箭頭。塔B在綠色圓柱上又疊了一個綠色圓柱，但規則裡沒有這個箭頭。塔D從綠色圓柱跳到橘色方塊，規則裡也沒有這個箭頭。塔C依序是藍-藍-綠-黃色金字塔，完全符合規則，而且金字塔沒有箭頭可以再往下走，所以正確停止。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "最上面那塊積木代表「目前的狀態」，規則定義了狀態之間如何轉換——這就是所謂的「狀態圖」。因為任何積木都能當起點，所以每一塊都是起始狀態；黃色金字塔則是唯一的「結束狀態」。這描述的是一種「非決定性有限自動機」，在資訊科學裡廣泛用來模擬軟體行為、語言結構、硬體元件間的互動。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

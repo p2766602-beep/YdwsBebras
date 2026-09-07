@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-28",
+  "title_en": "Ants in Swamp",
+  "title_zh": "沼澤裡的螞蟻",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-28.png",
+    "path": "assets/images/india/2019/IN-2019-28.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ten ants seek food on stone F, crossing a network of straws between stones. Only one ant can be on a straw at a time, and crossing takes 1 minute.",
+    "question": "How many ants can reach the food after 3 minutes?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tracking the ants' progress minute by minute through the network of straws, 7 ants reach stone F after 3 minutes.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The network of straws can be modeled as a flow network in graph theory — a directed graph where each edge has a capacity (max straws between stones) and carries a flow that cannot exceed that capacity. This relates to the classic Maximum Flow problem in computer science."
+  },
+  "content_zh": {
+    "prompt": "10隻螞蟻想到F石頭上取食物，牠們要通過石頭之間的麥稈網路。同一時間每根麥稈只能有一隻螞蟻通過，過一根麥稈要花1分鐘。",
+    "question": "3分鐘後，總共有幾隻螞蟻能到達食物那裡？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5隻"
+      },
+      {
+        "key": "B",
+        "text": "6隻"
+      },
+      {
+        "key": "C",
+        "text": "7隻"
+      },
+      {
+        "key": "D",
+        "text": "8隻"
+      }
+    ],
+    "answer": "C",
+    "explanation": "逐分鐘追蹤螞蟻在麥稈網路裡的移動情況，3分鐘後總共有7隻螞蟻抵達F石頭。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這個麥稈網路可以用圖論裡的「流量網路」來建模：一種有向圖，每條邊都有容量上限（石頭之間麥稈的數量），並承載一定的流量，流量不能超過容量上限。這正好對應到資訊科學裡經典的「最大流量問題」(Maximum Flow Problem)。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

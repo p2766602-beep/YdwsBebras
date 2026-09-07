@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-25",
+  "title_en": "Greener Flight Routes",
+  "title_zh": "更環保的飛行航線",
+  "source_country": "Belgium",
+  "source_country_flag": "🇧🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Belgium",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-25.png",
+    "path": "assets/images/india/2019/IN-2019-25.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Bebras International Airlines connects several cities with flight routes. To cut CO₂ emissions, the airline wants to cancel routes without preventing travel between any two cities (possibly via connections).",
+    "question": "For the flight routes shown, what is the maximum number of routes the airline can cancel?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "explanation": "With 8 cities and 15 routes, dropping 8 routes leaves 7 — exactly enough to keep everything connected (a tree needs n-1 edges for n nodes: 8-1=7). Dropping 9 or more would leave only 6 routes or fewer, which is provably insufficient to connect 8 cities without leaving someone isolated.",
+    "ct_skills": "Abstraction, Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Cities are nodes and routes are edges in a graph. Dropping the maximum number of routes while keeping all cities connected is the Minimum Spanning Tree (MST) problem — extracting a tree connecting every node. MST algorithms are used for telecommunications, transportation, and water supply network design."
+  },
+  "content_zh": {
+    "prompt": "Bebras國際航空用航線連接好幾座大城市。為了減少二氧化碳排放，航空公司想取消一些航線，但仍要讓乘客能（透過轉機）飛到任何一座城市。",
+    "question": "以圖中的航線來看，航空公司最多可以取消幾條航線？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6條"
+      },
+      {
+        "key": "B",
+        "text": "7條"
+      },
+      {
+        "key": "C",
+        "text": "8條"
+      },
+      {
+        "key": "D",
+        "text": "9條"
+      }
+    ],
+    "answer": "C",
+    "explanation": "共有8座城市、15條航線，取消8條後剩下7條——恰好足夠讓所有城市保持連通（n個節點的樹需要n-1條邊：8-1=7）。如果取消9條或更多，剩下的航線數量不足，一定會有城市無法連通到其他城市。",
+    "ct_skills": "抽象化（Abstraction）、演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "城市是圖裡的節點，航線是邊。在保持所有城市連通的前提下取消最多航線，這正是「最小生成樹」(Minimum Spanning Tree)問題——找出一棵連接所有節點的樹。最小生成樹演算法被廣泛用於電信網路、交通網路、自來水管線網路的規劃設計。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

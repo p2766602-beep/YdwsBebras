@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-24",
+  "title_en": "Saw Mill",
+  "title_zh": "鋸木廠篩選系統",
+  "source_country": "Belgium",
+  "source_country_flag": "🇧🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Belgium",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-24.png",
+    "path": "assets/images/india/2019/IN-2019-24.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Logs arrive at a sawmill; only logs 60-160cm are sent to the truck. Logs move on conveyor belts: Gate A removes logs shorter than 60cm; Gate B sends logs ≤160cm to the truck (others continue); a Saw cuts continuing logs into a 160cm piece + remainder, both continuing around; Gate C sends 160cm-long logs to the truck. Camera 1 and Camera 2 count logs sent to the truck (at Gate B and after the Saw respectively).",
+    "question": "Three logs (60cm, 140cm, 360cm) were sent to the sawmill. How many logs has each camera counted?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Camera A: 0 logs, Camera B: 4 logs"
+      },
+      {
+        "key": "B",
+        "text": "Camera A: 1 log, Camera B: 3 logs"
+      },
+      {
+        "key": "C",
+        "text": "Camera A: 2 logs, Camera B: 2 logs"
+      },
+      {
+        "key": "D",
+        "text": "Camera A: 3 logs, Camera B: 1 log"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The 60cm and 140cm logs both pass Gate A (not <60cm) and get sent to trucks at Gate B (≤160cm) — Camera A counts 2. The 360cm log passes Gate A, is too long for Gate B, gets cut at the saw into a 160cm piece (sent to truck, Camera B counts 1) plus a 200cm remainder, which loops back, is again too long for Gate B, gets cut again into another 160cm piece (Camera B counts 2) plus a 40cm remainder, which is finally removed by Gate A. Final: Camera A=2, Camera B=2.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Iterative Patterns and Processes",
+    "ct_explanation": "This models a reactive program: as data (log length) flows through the system over time, measurements (camera counts) update in response — similar to how spreadsheet formulas react to changes in other cells. Gate S merges data streams, Gates A/B filter, Gate C transforms, and the cameras observe the process."
+  },
+  "content_zh": {
+    "prompt": "原木送到鋸木廠，只有60~160公分長的木頭才需要送上卡車。木頭在多條輸送帶上移動：A閘門會把小於60公分的木頭送走；B閘門會把小於等於160公分的木頭送上卡車（其他繼續循環）；鋸子會把繼續循環的木頭鋸成一段160公分＋剩餘部分，兩段都繼續循環；C閘門會把恰好160公分的木頭送上卡車。攝影機1和攝影機2分別在B閘門和鋸子之後計算送上卡車的木頭數量。",
+    "question": "送進鋸木廠的三根木頭分別是60公分、140公分、360公分，兩台攝影機各自算到幾根木頭？",
+    "options": [
+      {
+        "key": "A",
+        "text": "攝影機A：0根，攝影機B：4根"
+      },
+      {
+        "key": "B",
+        "text": "攝影機A：1根，攝影機B：3根"
+      },
+      {
+        "key": "C",
+        "text": "攝影機A：2根，攝影機B：2根"
+      },
+      {
+        "key": "D",
+        "text": "攝影機A：3根，攝影機B：1根"
+      }
+    ],
+    "answer": "C",
+    "explanation": "60公分和140公分的木頭都通過A閘門（沒有小於60公分），並在B閘門被送上卡車（小於等於160公分）——攝影機A算到2根。360公分的木頭通過A閘門，在B閘門因為太長而繼續循環，被鋸子鋸成160公分（送上卡車，攝影機B算1根）加上剩下200公分，這200公分又太長無法通過B閘門，再被鋸一次變成160公分（攝影機B算第2根）加上剩下40公分，最後被A閘門送走。最終結果：攝影機A=2根，攝影機B=2根。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "重複樣式與流程",
+    "ct_explanation": "這模擬的是一種「反應式程式」：資料（木頭長度）隨著時間流過系統，測量結果（攝影機計數）也跟著即時更新——這跟試算表裡的公式會隨著其他儲存格數值變動而自動更新的原理很像。S閘門合併資料流，A、B閘門過濾資料流，C閘門轉換資料流，兩台攝影機則負責觀測整個過程。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

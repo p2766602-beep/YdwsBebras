@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-05",
+  "title_en": "Beavercoins",
+  "title_zh": "海狸幣",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-05.png",
+    "path": "assets/images/india/2019/IN-2019-05.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In the beaver country, coins have face values 16, 8, 4, 2, 1. Beavers pay with as few coins as possible.",
+    "question": "With how many coins would you pay 13 beavercoins if using as few coins as possible?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The optimal solution is 8+4+1=13, using three coins. A larger coin (16) would already exceed 13, so no fewer than three coins can work.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "The coin values here double each time (1,2,4,8,16...), forming the binary number system. In binary, a number like 13 has a unique representation based on which place values are used or not — similar to how an abacus, still used today, works on the same principle."
+  },
+  "content_zh": {
+    "prompt": "海狸國的貨幣「海狸幣」有16、8、4、2、1這幾種面額的硬幣。海狸們付錢時，都盡量用最少的硬幣數量。",
+    "question": "如果要用最少硬幣付13元海狸幣，需要用到幾個硬幣？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2個"
+      },
+      {
+        "key": "B",
+        "text": "3個"
+      },
+      {
+        "key": "C",
+        "text": "4個"
+      },
+      {
+        "key": "D",
+        "text": "5個"
+      }
+    ],
+    "answer": "B",
+    "explanation": "最佳解是8+4+1＝13，共用3個硬幣。比8更大的硬幣是16，已經超過13了，所以不可能用少於3個硬幣湊出13。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這裡的硬幣面額每次都剛好加倍（1、2、4、8、16...），正好構成二進位數字系統。在二進位裡，像13這樣的數字有唯一的表示方式，取決於哪些位權被用到、哪些沒用到——這跟算盤（至今仍在部分地區使用）的運作原理很類似。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-09",
+  "title_en": "Snowmen and Hats",
+  "title_zh": "雪人與帽子",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-09.png",
+    "path": "assets/images/india/2019/IN-2019-09.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Five snowmen stand in a line. From left to right each receives a hat according to its size. Hats are on a stack, distributed from top to bottom.",
+    "question": "Which stack of hats belongs to which line of snowmen?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 對應方案A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 對應方案B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 對應方案C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 對應方案D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For D, each line of snowmen matches its hat stack exactly by size order (whether descending, ascending, or a specific pairing). A, B, C fail because the smallest snowman in the first line would end up with a mismatched hat size.",
+    "ct_skills": "Patterns/Generalisation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Assigning each snowman its own hat without changing order is a structure-preserving map — comparing two tuples (ordered sequences) of sizes. Hats form a stack (pop/push, only top accessible); snowmen form a queue (dequeue/enqueue, only front accessible). One can remove an element from each and compare — if they don't match, the pairing is wrong."
+  },
+  "content_zh": {
+    "prompt": "五個雪人排成一列。從左到右，每個雪人會依照大小拿到屬於自己的帽子。帽子疊成一疊，從最上面開始依序發放。",
+    "question": "哪一疊帽子對應到哪一列雪人？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）對應方案A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）對應方案B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）對應方案C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）對應方案D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "方案D裡，每一列雪人都能跟該疊帽子依照大小順序完全對應（不論是遞減、遞增、或特定配對方式）。方案A、B、C都會出現第一列裡最小的雪人拿到不合尺寸帽子的情況。",
+    "ct_skills": "樣式辨識與一般化（Patterns/Generalisation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "在不改變順序的情況下，把每個雪人配上「屬於自己」的帽子，這叫做「結構保持映射」——本質上是比較兩組依大小排列的序列（tuple）。帽子是用「堆疊」(stack)的方式呈現（只能從最上面取用，pop/push）；雪人則是用「佇列」(queue)的方式呈現（只能從最前面取用，dequeue/enqueue）。從兩邊各取一個元素比對，只要對不上，這個配對方式就是錯的。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

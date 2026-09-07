@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-11",
+  "title_en": "Space Travel",
+  "title_zh": "太空旅行",
+  "source_country": "Slovenia",
+  "source_country_flag": "🇸🇮",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Slovenia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-11.png",
+    "path": "assets/images/india/2019/IN-2019-11.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Astronauts travel between planets by rocket or spaceship, following a fixed map where each planet has exactly one rocket-route and one spaceship-route out. Astronaut Shawna is on Neptune and wants to reach Earth; the Space Agency sends 4 route suggestions.",
+    "question": "Which of the suggestions does NOT bring Shawna back to Earth?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 建議A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 建議B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 建議C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 建議D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Suggestion B loops her back to Neptune (rocket to Jupiter, spaceship back to Neptune, rocket to Jupiter again, spaceship back to Neptune) instead of reaching Earth. A, C, D all correctly route her through various planets to Earth.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Since exactly two routes leave every planet (one rocket, one spaceship), this map is a deterministic finite state automaton: planets are states, routes are transitions based on input (rocket/spaceship), Neptune is the initial state, Earth the only final state. Such automatons are easy to program and widely used (coffee machines, vending machines, validating email addresses)."
+  },
+  "content_zh": {
+    "prompt": "太空人可以搭火箭或太空船在星球之間旅行，路線圖是固定的：每個星球都恰好有一條火箭航線跟一條太空船航線可以出發。太空人Shawna目前在海王星，想回到地球，太空總署給了她4個建議路線。",
+    "question": "哪一個建議「無法」讓Shawna回到地球？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）建議A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）建議B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）建議C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）建議D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "建議B會讓她繞回海王星（搭火箭到木星，搭太空船回海王星，再搭火箭到木星，再搭太空船回海王星），根本到不了地球。A、C、D都能正確地帶她經過幾個星球後抵達地球。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "因為每個星球都恰好有兩條航線可以出發（一條火箭、一條太空船），這張地圖其實就是一個「決定性有限狀態自動機」：星球是狀態，航線是根據輸入（火箭或太空船）產生的狀態轉換，海王星是起始狀態，地球是唯一的結束狀態。這種自動機很容易寫成程式，廣泛用在咖啡機、自動販賣機，甚至驗證電子郵件地址格式是否正確。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

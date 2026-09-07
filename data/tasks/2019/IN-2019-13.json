@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-13",
+  "title_en": "Rangoli",
+  "title_zh": "印度彩繪地紋",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-13.png",
+    "path": "assets/images/india/2019/IN-2019-13.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Rangoli is a traditional Indian floor art form, often symmetric. Priya has 8 green triangles, 4 pink squares, and 6 orange triangles to lay out one of three suggested Rangoli patterns (A, B, C).",
+    "question": "Which of the three suggested Rangoli can Priya lay with her tiles?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only suggestion A"
+      },
+      {
+        "key": "B",
+        "text": "Only suggestion B"
+      },
+      {
+        "key": "C",
+        "text": "Only suggestion C"
+      },
+      {
+        "key": "D",
+        "text": "All three suggestions"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Suggestion A needs at most as many tiles of each type as Priya has, so she can lay it. Suggestion B needs 12 green triangles (she only has 8). Suggestion C needs 8 pink squares (she only has 4). Since B and C both fail, D is also wrong.",
+    "ct_skills": "Decomposition, Pattern matching",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task requires breaking complex shapes into smaller basic shapes and comparing them — this is decomposition, typical in computer science. Comparing broken-down shapes is called pattern matching, important not just for graphics but also for text search, filenames, and even DNA sequence comparison in forensics."
+  },
+  "content_zh": {
+    "prompt": "Rangoli是印度的傳統地面彩繪藝術，圖案通常對稱。Priya有8個綠色三角形、4個粉紅色方形、6個橘色三角形，想從三個建議圖案(A、B、C)裡挑一個鋪出來。",
+    "question": "Priya用她手上的磁磚，可以鋪出下面哪一個/哪幾個建議圖案？",
+    "options": [
+      {
+        "key": "A",
+        "text": "只有建議A"
+      },
+      {
+        "key": "B",
+        "text": "只有建議B"
+      },
+      {
+        "key": "C",
+        "text": "只有建議C"
+      },
+      {
+        "key": "D",
+        "text": "三個建議都可以"
+      }
+    ],
+    "answer": "A",
+    "explanation": "建議A所需要的每種磁磚數量都不超過Priya手上有的數量，所以可以鋪成。建議B需要12個綠色三角形（她只有8個）。建議C需要8個粉紅色方形（她只有4個）。既然B和C都不行，D也就不對了。",
+    "ct_skills": "拆解（Decomposition）、樣式比對（Pattern matching）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題要把複雜的圖形拆解成基本形狀，再跟已知的基本形狀比對——這就是「拆解」，資訊科學裡常用的方法。比對拆解後的形狀則叫做「樣式比對」，不只用在圖形辨識，也用在文字搜尋、檔名比對，甚至鑑識科學裡比對DNA序列來找嫌疑犯。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

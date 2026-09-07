@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-03",
+  "title_en": "Fish Bowl",
+  "title_zh": "魚缸夥伴",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-03.png",
+    "path": "assets/images/india/2019/IN-2019-03.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Jayesh wants a fish bowl with Goldfish, Angelfish, Betta, Tetra and Guppy. Not all are friends: Angelfish is friends with Betta and Tetra; Guppy and Tetra are friends with Betta; Goldfish is friends with Betta and Guppy. If two fish of the same kind are kept, only two Angels/Goldfish/Guppies/Tetras can be together.",
+    "question": "Which fishbowl will Jayesh take home?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 選項A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 選項B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 選項C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 選項D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A is wrong: Angelfish and Goldfish aren't friends. B is wrong: Goldfish isn't friends with Betta. D is wrong: two Bettas can't be together, and Angel isn't friends with Guppy. C has two Tetras, one Guppy, one Betta — all friends with each other, and two Tetras together is allowed — satisfying every condition.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Computer scientists solve problems by checking which constraints are satisfied. Constraints can be combined by conjunction (A and B, both must hold), disjunction (A or B, at least one holds) or negation (not A). Here, every rule must hold (AND) while combining other logical operators within each rule."
+  },
+  "content_zh": {
+    "prompt": "Jayesh想買一個放金魚、神仙魚、鬥魚、日光燈魚、孔雀魚的魚缸，但這些魚不是全部都合得來：神仙魚跟鬥魚、日光燈魚是朋友；孔雀魚和日光燈魚跟鬥魚是朋友；金魚跟鬥魚、孔雀魚是朋友。如果缸裡有兩隻同種類的魚，就只有神仙魚、金魚、孔雀魚、日光燈魚這幾種可以兩隻一起養。",
+    "question": "Jayesh會買哪一缸魚回家？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）選項A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）選項B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）選項C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）選項D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "選項A錯：神仙魚跟金魚不是朋友。選項B錯：金魚跟鬥魚不是朋友。選項D錯：兩隻鬥魚不能養在一起，而且神仙魚跟孔雀魚不是朋友。選項C裡有兩隻日光燈魚、一隻孔雀魚、一隻鬥魚，彼此都是朋友，而且兩隻日光燈魚可以養在一起，完全符合所有條件。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "工程師解決問題時，需要檢查哪些限制條件有被滿足。限制條件可以用「且」（A和B都要成立）、「或」（A或B至少一個成立）、「非」（不是A）這些邏輯運算組合起來。這一題裡，每一條規則都必須成立（且），同時每條規則內部又要搭配其他邏輯運算來判斷。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

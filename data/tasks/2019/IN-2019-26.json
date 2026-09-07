@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-26",
+  "title_en": "Railway Yard",
+  "title_zh": "調車場排序",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-26.png",
+    "path": "assets/images/india/2019/IN-2019-26.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A goods train must sort wagons so the leftmost has number 1. The yard has a hump: wagons are pushed over from right to left and roll automatically into one of two sidings, then collected — this whole procedure is one \"operation\". Sorting 4 wagons takes 2 pushes over the hump; 1 push is never enough for 4 wagons.",
+    "question": "If the wagons are in order 2–8–3–1–5–7–6–4, what is the minimum number of times they must be pushed over the hump to sort them?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "A",
+    "explanation": "3 pushes suffice: 1st push splits odd/even numbered wagons into the two sidings (shunting even-siding first); 2nd push regroups by pairs (1,2,5,6 vs 3,4,7,8); 3rd push separates 1-4 from 5-8. Each push only reorders within groups already sorted relative to each other, so 3 pushes fully sort all 8 wagons — and fewer is provably impossible given the required relative orderings (e.g. 4 before 8, 6 before 8 but after 4, 7 between 6 and 8).",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This is a classic divide & conquer railroad shunting problem: each push divides sorting 8 wagons into sorting two groups of 4. The two sidings behave like the abstract data type stack, supporting only \"push\" and \"pull\" operations — a structure used extensively in computer science."
+  },
+  "content_zh": {
+    "prompt": "一列貨運火車必須把車廂排序，讓最左邊的車廂編號是1。調車場有一個「駝峰」：車廂會從右往左推過駝峰，自動滾進兩條側線的其中一條，之後再被機車頭收集起來——這整個過程算是「一次操作」。要排序4節車廂，推過駝峰2次就夠了；1次絕對不夠。",
+    "question": "如果車廂目前的順序是2–8–3–1–5–7–6–4，最少要推過駝峰幾次才能把它們排序好？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3次"
+      },
+      {
+        "key": "B",
+        "text": "4次"
+      },
+      {
+        "key": "C",
+        "text": "5次"
+      },
+      {
+        "key": "D",
+        "text": "6次"
+      }
+    ],
+    "answer": "A",
+    "explanation": "3次就夠了：第1次把奇數編號跟偶數編號的車廂分別滾進兩條側線（先讓偶數側線的車廂出來）；第2次依配對關係重新分組(1,2,5,6 vs 3,4,7,8)；第3次把1-4跟5-8分開。每一次推送只會在「彼此相對順序已經排好」的組內重新排列，所以3次就能把全部8節車廂排序完成——而且可以證明少於3次是不可能的（例如4必須在8前面、6必須在4後面但在8前面、7必須夾在6跟8中間）。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這是經典的「分治法」調車問題：每推一次，就把「排序8節車廂」這個問題拆成「排序兩組各4節車廂」的兩個子問題。兩條側線的運作方式就像資料結構裡的「堆疊」(stack)，只支援「推入」跟「取出」兩種操作——這是資訊科學裡非常常用的一種資料結構。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

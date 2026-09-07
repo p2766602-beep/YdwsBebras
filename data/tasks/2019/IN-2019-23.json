@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-23",
+  "title_en": "Friendship Bracelets",
+  "title_zh": "友誼手環規則",
+  "source_country": "Belgium",
+  "source_country_flag": "🇧🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Belgium",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-23.png",
+    "path": "assets/images/india/2019/IN-2019-23.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sheela makes bracelets using 6 rules, where each rule on the left is replaced by ONE of the rule-sets/bracelet-parts it points to, eventually producing a single bracelet.",
+    "question": "Sheela made three of the four bracelets shown using the same rules. Which bracelet did she NOT make?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 手環A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 手環B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 手環C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 手環D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Combining the 'links', 'swirled' and 'flowers' rules shows every valid bracelet consists of a repeated pattern (possibly 0 times) followed by a single flower bead. A, B, D follow this pattern; C has three light-blue 'swirly' links in the middle, which is not allowed by the rules.",
+    "ct_skills": "Pattern matching",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This rule set is what a computer could use to check whether a bracelet was validly made — similar to how computers check programming syntax or web form input for correctness. In computer science, such rule sets are called grammars, specifically context-free grammars."
+  },
+  "content_zh": {
+    "prompt": "Sheela用6條規則做手環，每條規則左邊的部分，都會被它指向的其中「一組」規則或手環零件取代，最後產生出一條手環。",
+    "question": "下面4條手環裡，Sheela用同一套規則做出了其中3條，哪一條「不是」她做的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）手環A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）手環B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）手環C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）手環D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "把「連結」「漩渦」「花朵」這三條規則組合起來可以發現：每一條合法手環，都是「某個重複樣式(可以出現0次)」後面接一顆花朵珠子。A、B、D都符合這個規律；C的中間卻有三個淺藍色的「漩渦」連結，這不符合規則允許的樣式。",
+    "ct_skills": "樣式比對（Pattern matching）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這套規則其實就是電腦用來檢查一條手環是不是照規則做出來的方法——類似電腦檢查程式語法是否正確，或是檢查網頁表單輸入的內容是否合法。在資訊科學裡，這類規則的集合叫做「文法」，更精確地說是「上下文無關文法」(context-free grammar)。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

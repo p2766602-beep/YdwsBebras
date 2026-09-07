@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-20",
+  "title_en": "Quipu",
+  "title_zh": "印加結繩記事",
+  "source_country": "Japan",
+  "source_country_flag": "🇯🇵",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Japan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-20.png",
+    "path": "assets/images/india/2019/IN-2019-20.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The Inca used knotted strings (Quipu) to send messages. A simplified version must transmit 1 of 30 messages: the main string always has the same number of substrings; substrings differ only by knot count (0-3 knots); substring order is fixed by a knot on the main string.",
+    "question": "What is the minimum number of substrings the simplified Quipu needs to fulfill these requirements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each substring stores 1 of 4 values (0-3). Two substrings give only 4×4=16 combinations (not enough for 30); three give 4×4×4=64 combinations, which is enough. So 3 is the minimum.",
+    "ct_skills": "Representation",
+    "cs_domain": "Systematic Listing Counting & Reasoning",
+    "ct_explanation": "Since substring order is fixed, the values (0-3) represent a base-4 positional numeral system — like computers use base-2 (binary). In a base-b system with n positions, exactly bⁿ values can be stored: a byte (8 bits, base 2) stores 2⁸=256 values; this task's Quipu stores 4³=64 values. The real Inca used a decimal (base-10) system with different knot types instead."
+  },
+  "content_zh": {
+    "prompt": "印加人用打結的繩子（Quipu，奇普）來傳遞訊息。假設要設計一套簡化版的奇普，用來傳送30種可能訊息之一，規則是：主繩上永遠連著相同數量的子繩；子繩之間只用「結的數量」來區分（0~3個結）；子繩的順序由主繩上的一個結來標示。",
+    "question": "這套簡化版奇普最少需要幾條子繩，才能滿足以上條件？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2條"
+      },
+      {
+        "key": "B",
+        "text": "3條"
+      },
+      {
+        "key": "C",
+        "text": "4條"
+      },
+      {
+        "key": "D",
+        "text": "5條"
+      }
+    ],
+    "answer": "B",
+    "explanation": "每條子繩可以儲存0~3其中一個值（4種可能）。2條子繩只有4×4=16種組合（不夠表示30種訊息）；3條子繩有4×4×4=64種組合，已經夠用了。所以最少需要3條。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "系統性列舉、計數與推理",
+    "ct_explanation": "因為子繩的順序是固定的，這些0~3的值其實構成了一套「4進位」的位值系統——就像電腦用的是「2進位」（二進位）一樣。在b進位、n個位數的系統裡，恰好可以儲存bⁿ種不同的值：一個位元組(8個位元，2進位)可以儲存2⁸＝256種值；這一題的簡化奇普則可以儲存4³＝64種值。真正的印加人其實是用10進位系統，只是用不同種類的結來表示。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

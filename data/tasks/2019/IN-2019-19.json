@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-19",
+  "title_en": "Drawing Triplets",
+  "title_zh": "三數畫線機器人",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-19.png",
+    "path": "assets/images/india/2019/IN-2019-19.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A robot on a grid draws lines while moving, controlled by three numbers, repeating: advance N1 steps, turn right a quarter turn, advance N2 steps, turn right, advance N3 steps, turn right. With 3,1,5 it draws a specific shape.",
+    "question": "The robot is controlled by the numbers 2, 2, and 3. How do the lines look?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 圖形A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 圖形B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 圖形C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 圖形D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "After 4 repetitions of (advance 2, turn, advance 2, turn, advance 3, turn), the robot returns to its starting position and direction, so it repeats the same lines forever — matching option A. The other three shapes require different number triplets (4,2,4 / 3,3,3 / 1,4,1).",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This robot understands only a very simple programming language: exactly three numbers as commands, repeated infinitely. Most real languages support sequences, loops, and conditional statements — with loops and conditionals, a language can compute anything computable (\"Turing complete\"). This robot is a classic teaching tool similar to turtle graphics used in tools like XLogoOnline or TigerJython."
+  },
+  "content_zh": {
+    "prompt": "一個機器人在方格紙上移動並畫線，由三個數字控制，不斷重複：前進第一個數字的步數、右轉90度、前進第二個數字的步數、右轉90度、前進第三個數字的步數、右轉90度。用3、1、5控制時，會畫出特定的圖形。",
+    "question": "如果用2、2、3這三個數字控制機器人，畫出來的線會是什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）圖形A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）圖形B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）圖形C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）圖形D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "重複「前進2、轉彎、前進2、轉彎、前進3、轉彎」這個動作4次之後，機器人會回到起點、面向原本的方向，之後就會不斷重複畫出同樣的線條——正好對應選項A。另外三個圖形需要用不同的數字組合才能畫出來（4,2,4／3,3,3／1,4,1）。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這個機器人只聽得懂非常簡單的程式語言：每個程式一定要剛好是三個數字的指令，而且會無限重複執行。大部分真正的程式語言都支援「循序」、「迴圈」、「條件判斷」——只要有迴圈跟條件判斷，這種語言就能計算任何可計算的東西（稱為「圖靈完備」）。這個機器人是經典的程式教學工具，類似XLogoOnline或TigerJython裡的「海龜繪圖」。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

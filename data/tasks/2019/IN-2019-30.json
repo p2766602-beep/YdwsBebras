@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-30",
+  "title_en": "Summer Job",
+  "title_zh": "暑期送貨打工",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-30.png",
+    "path": "assets/images/india/2019/IN-2019-30.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "You deliver packages starting at place A, delivering to all 7 other places, ending your job at the last place — never visiting the same place twice. Your employer pays for the total trip length; the map shows each path's length.",
+    "question": "What is the length of the trip with the largest total length that your employer will pay for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "22 km"
+      },
+      {
+        "key": "B",
+        "text": "23 km"
+      },
+      {
+        "key": "C",
+        "text": "24 km"
+      },
+      {
+        "key": "D",
+        "text": "25 km"
+      }
+    ],
+    "answer": "D",
+    "explanation": "There are only 4 valid trips (visiting each place exactly once), with lengths 22, 23, 24, and 25 km. The longest, at 25 km, is the correct answer.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This asks for a Hamiltonian path (visiting every node exactly once) with maximum total edge weight — a graph problem. Finding a Hamiltonian path (or even checking if one exists) is NP-complete; finding the maximum-weight one is even harder. A naive greedy approach (always pick the longest available edge first) actually fails here, since it can block the ability to visit every place exactly once."
+  },
+  "content_zh": {
+    "prompt": "你要從A地出發送包裹，送到其他7個地點各一個包裹，工作在最後一個地點結束——而且不能重複經過同一個地點。雇主會依照你走的總路程長度付你薪水，地圖上標出了每段路徑的長度。",
+    "question": "在雇主願意支付的所有走法裡，最長的總路程是多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "22公里"
+      },
+      {
+        "key": "B",
+        "text": "23公里"
+      },
+      {
+        "key": "C",
+        "text": "24公里"
+      },
+      {
+        "key": "D",
+        "text": "25公里"
+      }
+    ],
+    "answer": "D",
+    "explanation": "符合條件（每個地點恰好經過一次）的走法只有4種，總長度分別是22、23、24、25公里。其中最長的25公里就是正確答案。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題要找的是一條「總長度最大」的漢彌爾頓路徑（每個節點恰好經過一次的路徑）——是圖論裡的經典問題。要找出漢彌爾頓路徑（甚至只是判斷它存不存在）就已經是NP-complete等級的難題了，要再找出「總長度最大」的那條更是難上加難。如果單純用「每次都選最長的一段路」這種貪婪策略，反而會導致無法走遍所有地點。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

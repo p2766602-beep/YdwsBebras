@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-16",
+  "title_en": "Cloud Communication",
+  "title_zh": "雲朵通訊密碼",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-16.png",
+    "path": "assets/images/india/2019/IN-2019-16.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A weather beaver sends messages using sequences of small/large smoke clouds, one code each for thunderstorm, light rain, cloudy, sunny. One day, either one small cloud was mistaken for large, or one large mistaken for small.",
+    "question": "Which message was sent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thunderstorm"
+      },
+      {
+        "key": "B",
+        "text": "Light rain"
+      },
+      {
+        "key": "C",
+        "text": "Cloudy"
+      },
+      {
+        "key": "D",
+        "text": "Sunny"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Changing only the third cloud from large to small gives the code for \"cloudy\" — matching the one-error condition. Thunderstorm would need 2 changes, light rain would need 3, sunny would need 4.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Designing symbol sequences so a message can be reconstructed even if damaged uses redundancy — this is called an error-correcting code. Digital music transmission uses this so playback stays correct even with partial data corruption. Here, only 2 clouds would suffice to distinguish 4 meanings, but using 5 clouds means each valid code differs from every other by at least 3 positions, allowing errors to be detected and corrected."
+  },
+  "content_zh": {
+    "prompt": "一隻氣象海狸用一連串大小不同的煙霧雲朵向山谷裡的海狸傳送訊息，每種天氣（暴風雨、小雨、多雲、晴天）都有專屬的代碼。有一天，山谷裡的海狸看到的訊息裡，可能有一朵小雲被誤看成大雲，或是一朵大雲被誤看成小雲。",
+    "question": "海狸原本傳送的是哪一則訊息？",
+    "options": [
+      {
+        "key": "A",
+        "text": "暴風雨"
+      },
+      {
+        "key": "B",
+        "text": "小雨"
+      },
+      {
+        "key": "C",
+        "text": "多雲"
+      },
+      {
+        "key": "D",
+        "text": "晴天"
+      }
+    ],
+    "answer": "C",
+    "explanation": "只要把第三朵雲從大改成小，就會變成「多雲」的代碼——正好符合「只錯一朵雲」的條件。如果是暴風雨要改2朵才對得上，小雨要改3朵，晴天要改4朵。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "設計符號序列時，如果希望即使部分損毀也能還原原意，就需要加入「冗餘」資訊——這種設計叫做「錯誤更正碼」。數位音樂傳輸就是用這個原理，即使資料部分損壞，音樂仍然能正常播放。這一題原本只需要2朵雲就能區分4種天氣，但用5朵雲來編碼，可以讓每組代碼跟其他代碼至少相差3個位置，這樣才能偵測並更正錯誤。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

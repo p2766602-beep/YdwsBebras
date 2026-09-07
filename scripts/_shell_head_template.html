@@ -1,0 +1,229 @@
+<title>__YEAR__題庫校對</title>
+<meta name="description" content="Bebras__COUNTRY____YEAR__年度繁體中文翻譯與插圖校對頁">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700&family=Noto+Sans+TC:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#F7F5F1;
+  --surface:#FFFFFF;
+  --surface-2:#FBFAF7;
+  --ink:#1F2421;
+  --ink-soft:#5B6560;
+  --ink-faint:#8B948E;
+  --accent:#2B6E6B;
+  --accent-soft:#DCEAE8;
+  --accent-ink:#164E4B;
+  --flag:#B8722A;
+  --flag-soft:#F3E4D3;
+  --border:#E3DFD6;
+  --answer-bg:#E4F1E1;
+  --answer-ink:#2F6B34;
+  --shadow: 0 1px 2px rgba(31,36,33,.04), 0 6px 20px rgba(31,36,33,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141917;
+    --surface:#1D2523;
+    --surface-2:#212A27;
+    --ink:#ECEAE3;
+    --ink-soft:#A9B3AD;
+    --ink-faint:#6F7A74;
+    --accent:#63ACA7;
+    --accent-soft:#233432;
+    --accent-ink:#9AD4CF;
+    --flag:#E0A059;
+    --flag-soft:#2E271D;
+    --border:#2A332F;
+    --answer-bg:#1E3324;
+    --answer-ink:#8FCB93;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141917;
+  --surface:#1D2523;
+  --surface-2:#212A27;
+  --ink:#ECEAE3;
+  --ink-soft:#A9B3AD;
+  --ink-faint:#6F7A74;
+  --accent:#63ACA7;
+  --accent-soft:#233432;
+  --accent-ink:#9AD4CF;
+  --flag:#E0A059;
+  --flag-soft:#2E271D;
+  --border:#2A332F;
+  --answer-bg:#1E3324;
+  --answer-ink:#8FCB93;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Noto Sans TC","Noto Sans",system-ui,sans-serif;
+  line-height:1.7;
+}
+::selection{ background:var(--accent-soft); color:var(--accent-ink); }
+
+.masthead{
+  position:sticky; top:0; z-index:20;
+  background:var(--bg);
+  border-bottom:1px solid var(--border);
+  padding: 14px 20px 0;
+}
+.masthead-inner{ max-width:900px; margin:0 auto; }
+.masthead-title{
+  display:flex; align-items:baseline; gap:10px; flex-wrap:wrap;
+  margin-bottom:10px;
+}
+.masthead-title h1{
+  font-family:"Noto Serif TC", serif; font-weight:700;
+  font-size:22px; margin:0; letter-spacing:.02em;
+}
+.masthead-sub{ color:var(--ink-soft); font-size:13px; }
+.masthead-stats{
+  display:flex; gap:16px; font-family:"JetBrains Mono",monospace;
+  font-size:12px; color:var(--ink-soft); margin-bottom:12px; flex-wrap:wrap;
+}
+.masthead-stats b{ color:var(--accent-ink); font-weight:600; }
+.idx-strip{
+  display:flex; gap:6px; overflow-x:auto; padding-bottom:12px;
+  scrollbar-width:thin;
+}
+.idx-item{
+  flex:0 0 auto; display:flex; align-items:center; gap:5px;
+  padding:5px 10px; border-radius:7px; border:1px solid var(--border);
+  background:var(--surface); text-decoration:none; color:var(--ink);
+  font-size:12.5px; white-space:nowrap; transition:background .15s, border-color .15s;
+}
+.idx-item:hover{ border-color:var(--accent); background:var(--accent-soft); }
+.idx-num{ font-family:"JetBrains Mono",monospace; color:var(--ink-faint); font-size:11px; }
+.idx-noimg{ font-size:10px; color:var(--flag); border:1px solid var(--flag); border-radius:4px; padding:0 4px; }
+
+main{ max-width:900px; margin:0 auto; padding: 28px 20px 80px; }
+
+.lede{
+  background:var(--surface); border:1px solid var(--border); border-radius:12px;
+  padding:18px 20px; margin-bottom:28px; box-shadow:var(--shadow);
+}
+.lede h2{ font-family:"Noto Serif TC",serif; font-size:16px; margin:0 0 8px; }
+.lede p{ margin:0 0 8px; color:var(--ink-soft); font-size:14px; }
+.lede p:last-child{ margin-bottom:0; }
+.lede code{ font-family:"JetBrains Mono",monospace; background:var(--accent-soft); color:var(--accent-ink); padding:1px 5px; border-radius:4px; font-size:12.5px; }
+
+.task-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:14px;
+  padding:22px 24px 20px; margin-bottom:22px; box-shadow:var(--shadow);
+  scroll-margin-top:150px;
+}
+.task-head-top{
+  display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;
+}
+.task-uid{ font-family:"JetBrains Mono",monospace; font-size:12px; color:var(--ink-faint); letter-spacing:.03em; }
+.task-badges{ display:flex; gap:6px; }
+.badge{
+  font-size:11px; padding:2px 8px; border-radius:20px; font-family:"JetBrains Mono",monospace;
+}
+.badge-type{ background:var(--accent-soft); color:var(--accent-ink); }
+.badge-license{ background:var(--flag-soft); color:var(--flag); }
+.task-title{
+  font-family:"Noto Serif TC",serif; font-weight:700; font-size:21px; margin:0 0 6px;
+  display:flex; align-items:baseline; gap:8px; flex-wrap:wrap;
+}
+.flag{ font-size:20px; }
+.task-title-en{ font-family:"JetBrains Mono",monospace; font-weight:400; font-size:13px; color:var(--ink-faint); }
+.task-origin{ font-size:12.5px; color:var(--ink-faint); margin-bottom:14px; }
+
+.task-body{ display:flex; flex-direction:column; gap:16px; }
+.task-figure{ margin:0; border:1px solid var(--border); border-radius:10px; overflow:hidden; background:var(--surface-2); }
+.task-figure img{ display:block; width:100%; height:auto; }
+.task-figure figcaption{
+  font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--ink-faint);
+  padding:6px 10px; border-top:1px solid var(--border);
+}
+.no-image{
+  border:1px dashed var(--border); border-radius:10px; padding:16px;
+  text-align:center; color:var(--ink-faint); font-size:13px; background:var(--surface-2);
+}
+.no-image span{ font-family:"JetBrains Mono",monospace; font-size:11px; }
+
+.task-text .prompt{ margin:0 0 10px; }
+.task-text .question{ margin:0 0 10px; }
+.options{ list-style:none; margin:0 0 16px; padding:0; display:flex; flex-direction:column; gap:6px; }
+.opt{
+  display:flex; align-items:center; gap:10px; padding:8px 12px;
+  border:1px solid var(--border); border-radius:8px; font-size:14px;
+}
+.opt-key{
+  font-family:"JetBrains Mono",monospace; font-weight:600; color:var(--ink-soft);
+  width:20px; text-align:center; flex:0 0 auto;
+}
+.opt-text{ flex:1; }
+.opt-answer{ background:var(--answer-bg); border-color:var(--answer-ink); }
+.opt-answer .opt-key{ color:var(--answer-ink); }
+.opt-badge{
+  font-size:10.5px; font-family:"JetBrains Mono",monospace; color:var(--answer-ink);
+  border:1px solid var(--answer-ink); border-radius:20px; padding:1px 7px; flex:0 0 auto;
+}
+.explain{
+  background:var(--surface-2); border-radius:10px; padding:12px 14px; margin-bottom:12px;
+}
+.explain-label{
+  font-family:"JetBrains Mono",monospace; font-size:11px; color:var(--accent-ink);
+  text-transform:uppercase; letter-spacing:.08em;
+}
+.explain p{ margin:6px 0 0; font-size:14px; color:var(--ink-soft); }
+.ct-tags{ display:flex; gap:8px; flex-wrap:wrap; }
+.ct-tag{
+  font-size:11.5px; color:var(--ink-faint); border:1px solid var(--border);
+  border-radius:20px; padding:3px 10px;
+}
+
+.en-ref{ margin-top:16px; border-top:1px solid var(--border); padding-top:10px; }
+.en-ref summary{
+  cursor:pointer; font-family:"JetBrains Mono",monospace; font-size:12px;
+  color:var(--ink-faint); user-select:none;
+}
+.en-ref summary:hover{ color:var(--accent-ink); }
+.en-ref p{ font-size:13px; color:var(--ink-faint); margin:8px 0 0; font-family:"JetBrains Mono",monospace; line-height:1.6; }
+
+footer{ max-width:900px; margin:0 auto; padding:0 20px 60px; color:var(--ink-faint); font-size:12px; }
+footer a{ color:var(--accent-ink); }
+
+@media (max-width:600px){
+  .task-card{ padding:16px 16px 14px; }
+  .task-title{ font-size:18px; }
+}
+</style>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-title">
+      <h1>Bebras __COUNTRY__ __YEAR__ 題庫校對</h1>
+      <span class="masthead-sub">Bebras __COUNTRY__ Challenge __YEAR__ · 繁體中文翻譯與插圖校對</span>
+    </div>
+    <div class="masthead-stats">
+      <span>共 <b>__TOTAL__</b> 題</span>
+      <span><b>__NIMG__</b> 題附圖</span>
+      <span><b>__NNOIMG__</b> 題純文字</span>
+      <span>授權 <b>CC BY-NC-SA</b></span>
+    </div>
+    <nav class="idx-strip">
+INDEX_PLACEHOLDER
+    </nav>
+  </div>
+</div>
+
+<main>
+  <div class="lede">
+    <h2>校對重點</h2>
+    <p>每一題都附上中文翻譯、原始英文對照（點「英文原文對照」展開）、以及裁切出來的插圖。請特別檢查插圖裡有沒有夾雜英文字，以及翻譯用語是否需要調整。</p>
+    <p>圖片檔名對應 <code>assets/images/india/__YEAR__/&lt;題號&gt;.png</code>（此頁為壓縮預覽版，正式檔案解析度較高）。綠色選項是目前資料庫記錄的正確答案。</p>
+  </div>
+
+CARDS_PLACEHOLDER
+</main>
+
+<footer>
+  Bebras __COUNTRY__ Challenge __YEAR__ 原文授權 CC BY-NC-SA 4.0 · 繁體中文翻譯與此校對頁由 YdwsBebras 專案製作
+</footer>

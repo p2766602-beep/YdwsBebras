@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-07",
+  "title_en": "Push Away Parking",
+  "title_zh": "推車停車場",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-07.png",
+    "path": "assets/images/india/2019/IN-2019-07.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Cars can park in spaces or in front of them. To leave, cars blocking the way must move forward/backward. E.g. Car A is unblocked; Car L is blocked by Car M, which must move back first.",
+    "question": "Which car needs two other cars to be pushed away before it can leave its parking space?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Car F"
+      },
+      {
+        "key": "B",
+        "text": "Car G"
+      },
+      {
+        "key": "C",
+        "text": "Car H"
+      },
+      {
+        "key": "D",
+        "text": "Car I"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Car I is blocked by Car N, and there's no space to push N away directly — Car O must first move left, or Car M move right, to create space for N to move, before I can leave. No other car needs two pushes: A,D,E,J,Q leave immediately; B,C,F,G,H,K,L need only one of P/O/N/M pushed away.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This task involves an exhaustive (brute-force) search through all candidate cars to find the one requiring two pushes, and relates to real autonomous parking algorithms — an active research area in efficient automated vehicle parking."
+  },
+  "content_zh": {
+    "prompt": "車子可以停在車位上或車位前方。要開走時，擋在前面的車子必須往前或往後移動讓路。例如：A車沒有被擋住可以直接開走；L車被M車擋住，M車必須先往後移，L車才能開走。",
+    "question": "哪一輛車需要先讓「另外兩輛車」讓開，才能開走？",
+    "options": [
+      {
+        "key": "A",
+        "text": "F車"
+      },
+      {
+        "key": "B",
+        "text": "G車"
+      },
+      {
+        "key": "C",
+        "text": "H車"
+      },
+      {
+        "key": "D",
+        "text": "I車"
+      }
+    ],
+    "answer": "D",
+    "explanation": "I車被N車擋住，但沒有空間可以直接把N車推開——必須先讓O車往左移，或M車往右移，騰出空間讓N車移動，I車才能開走。沒有其他車需要讓兩輛車讓開：A、D、E、J、Q可以直接開走；B、C、F、G、H、K、L只要P、O、N、M其中一輛讓開就能開走。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這一題要用「窮舉法」（brute-force）逐一檢查每輛車，才能找出那輛需要兩次讓路的車。這也呼應現實中「自動停車演算法」的研究領域——如何讓自動駕駛車輛有效率地完成停車。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

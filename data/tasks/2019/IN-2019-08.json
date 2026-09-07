@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-08",
+  "title_en": "Special Towers",
+  "title_zh": "特殊高塔",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-08.png",
+    "path": "assets/images/india/2019/IN-2019-08.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A tower is called special if all towers to its left are smaller and all towers to its right are larger.",
+    "question": "How many towers in the picture are special?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Five towers satisfy the condition, as can be verified by checking each tower against all towers to its left and right.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task is central to Quicksort, a fast, common sorting algorithm. A tower where everything left is smaller and everything right is larger is called a pivot element — it divides the array into two smaller sub-arrays, which are sorted recursively (\"divide & conquer\"). This is why Quicksort is faster than many other sorting algorithms: roughly log₂(n) levels of partitioning are needed for n elements."
+  },
+  "content_zh": {
+    "prompt": "如果一座塔左邊所有的塔都比它矮、右邊所有的塔都比它高，這座塔就叫做「特殊塔」。",
+    "question": "圖中總共有幾座特殊塔？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4座"
+      },
+      {
+        "key": "B",
+        "text": "5座"
+      },
+      {
+        "key": "C",
+        "text": "6座"
+      },
+      {
+        "key": "D",
+        "text": "7座"
+      }
+    ],
+    "answer": "B",
+    "explanation": "共有5座塔符合條件，逐一檢查每座塔的左邊和右邊就可以確認。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題正好是「快速排序法」(Quicksort)的核心概念：左邊都比較小、右邊都比較大的元素叫做「基準元素」(pivot)，它可以把陣列切成兩個較小的子陣列，再遞迴地分別排序，這種方法叫做「分治法」(divide & conquer)。這正是快速排序比許多其他排序演算法更快的原因：n個元素大約只需要log₂(n)層切分。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

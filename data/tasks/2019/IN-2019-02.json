@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-02",
+  "title_en": "Let's Decorate",
+  "title_zh": "佈置餐桌",
+  "source_country": "Hungary",
+  "source_country_flag": "🇭🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Hungary",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-02.png",
+    "path": "assets/images/india/2019/IN-2019-02.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Deepa wants to decorate 5 tables in a row for her parents' anniversary, using light-blue and dark-red tablecloths and 3 flower variations. She wants: every kind of flower used, or only one kind used; and tablecloths of the same color must not be on two adjacent tables.",
+    "question": "Which one of the following plans should Deepa choose?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 方案A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 方案B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 方案C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 方案D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "In B the tablecloth color alternates every time, and every kind of flower is used. In A and D, two same-color tablecloths are adjacent. In C, only some flower kinds are used (4 yellow, 1 blue, 0 white) instead of all or just one kind.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "IT problems can usually be written down as a list of constraints, and the task is to find a solution that satisfies all of them. AND means both constraints must be true simultaneously; OR means at least one must be true. Combining and solving both logical operation types develops logical thinking and problem-solving skill."
+  },
+  "content_zh": {
+    "prompt": "Deepa想幫爸媽的結婚紀念日佈置一排5張餐桌，可以用淺藍色跟深紅色兩種桌布，還有3種花可以選。她希望：每種花都要用到，或者只用其中一種花；而且相鄰兩張桌子的桌布顏色不能一樣。",
+    "question": "Deepa應該選擇下面哪一個方案？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）方案A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）方案B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）方案C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）方案D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "方案B裡桌布顏色每次都不同，而且每種花都有用到。方案A和D裡都出現相鄰兩張桌子桌布同色的情況。方案C則是花只用了一部分（4朵黃花、1朵藍花、沒有白花），不符合「全部都用或只用一種」的規則。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "資訊科學的問題通常可以寫成一串限制條件，任務就是找出同時滿足所有條件的解答。「且」代表兩個條件必須同時成立，「或」代表只要有一個成立就好。把這兩種邏輯運算組合起來解題，正是在訓練邏輯思考跟解決問題的能力。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-17",
+  "title_en": "FIFO Socks",
+  "title_zh": "先進先出的襪子",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-17.png",
+    "path": "assets/images/india/2019/IN-2019-17.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Anil follows rules: socks are washed daily and added to the LEFT of the pile; socks worn are always taken from the RIGHT of the pile. On Wednesday this week, the pile is shown. Anil won't go out Sunday this week, or Tuesday/Thursday next week.",
+    "question": "What colour socks will Anil wear Saturday of next week?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 顏色A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 顏色B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 顏色C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 顏色D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tracking the pile day by day (skipping days he doesn't go out): this week Wed=Red, Thu=Yellow, Fri=Green, Sat=Teal; next week Wed=Pink, Fri=Purple, Sat=Red. So Saturday next week he wears Red.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This is a queue data structure — First In First Out (FIFO), just like a line for a school bus: whoever joined first boards first. Queues are widely used in computing: printer queues, keyboard buffers, CPU scheduling, etc."
+  },
+  "content_zh": {
+    "prompt": "Anil遵循以下規則：襪子每天洗好之後會加到那疊襪子的「左邊」；要穿的時候一定從那疊襪子的「右邊」拿。本週三這疊襪子的排列如圖所示。Anil這週日、還有下週二和下週四都不會出門。",
+    "question": "下週六Anil會穿什麼顏色的襪子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）顏色A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）顏色B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）顏色C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）顏色D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "依序追蹤每天拿的襪子（跳過不出門的日子）：本週三＝紅、週四＝黃、週五＝綠、週六＝藍綠；下週三＝粉紅、下週五＝紫、下週六＝紅。所以下週六Anil會穿紅色襪子。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這其實就是資料結構裡的「佇列」(queue)：先進先出（FIFO），就像排隊等校車一樣，先排隊的人先上車。佇列在資訊科學裡應用很廣，例如印表機的列印佇列、鍵盤緩衝區、CPU排程等等。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

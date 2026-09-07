@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2019-31",
+  "title_en": "Treasure Map",
+  "title_zh": "藏寶地圖",
+  "source_country": "Vietnam",
+  "source_country_flag": "🇻🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Vietnam",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-31.png",
+    "path": "assets/images/india/2019/IN-2019-31.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The beaver king rules 7 provinces and hid treasure in one. He drew a map showing provinces as circles, connecting two circles if and only if the provinces share a border; he also drew 4 false maps to fool robbers.",
+    "question": "Which one is the correct treasure map?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 地圖A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 地圖B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 地圖C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 地圖D"
+      },
+      {
+        "key": "E",
+        "text": "(圖) 地圖E"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A is wrong: three provinces should have exactly 2 border-neighbors each, but only one circle has 2 connecting lines. B is wrong: it only has 6 circles for 7 provinces. C is wrong: the treasure province needs 5 connecting lines but only has 4. E looks closest but is missing one of the treasure province's borders. D correctly matches all border relationships.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This task represents a map with a graph — an abstraction that discards irrelevant information (geographic position) while keeping relevant information (which provinces are neighbors). Graphs consist of nodes and edges; here edges only connect two nodes each, with no multi-edges even where geographically justified (provinces E and G share two borders but get just one edge). Graphs are widely used in computer science to abstract information, often reducing a problem to a well-studied graph problem."
+  },
+  "content_zh": {
+    "prompt": "海狸國王統治著7個省份，把寶藏藏在其中一省。他畫了一張地圖，用圓圈代表省份，只要兩個省份有共同邊界，對應的圓圈就會連一條線；為了防盜，他還另外畫了4張假地圖。",
+    "question": "下面哪一張才是真正的藏寶地圖？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）地圖A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）地圖B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）地圖C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）地圖D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）地圖E"
+      }
+    ],
+    "answer": "D",
+    "explanation": "地圖A錯：有三個省份應該各只跟2個省份相鄰，但地圖上只有一個圓圈連了2條線。地圖B錯：只有6個圓圈，但實際有7個省份。地圖C錯：藏寶的省份應該要連5條線，但圖上只連了4條。地圖E看起來最像，但少畫了藏寶省份的其中一條邊界線。只有地圖D完全符合所有省份的邊界關係。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題是用「圖」來表示一張地圖——這是一種抽象化，會捨棄不相關的資訊（例如各省份的地理位置），但保留相關的資訊（哪些省份相鄰）。圖是由節點和邊組成的，這裡每條邊只連接兩個節點，即使某兩省之間實際上有兩段共同邊界，也只用一條邊表示（省份E跟G）。圖在資訊科學裡被廣泛用來抽象化資訊，通常能把一個問題化簡成已經被充分研究過的圖論問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

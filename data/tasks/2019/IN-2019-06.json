@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-06",
+  "title_en": "Image Representation",
+  "title_zh": "圖像編碼",
+  "source_country": "Turkey",
+  "source_country_flag": "🇹🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Turkey",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2019-06.png",
+    "path": "assets/images/india/2019/IN-2019-06.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Computer images are grids of pixels; in black-and-white images each pixel is black or white. The letter 'a' example is encoded as 1,3,1 – 4,1 – 1,4 – 0,1,3,1 – 0,1,3,1 – 1,4, where each row starts with the count of white pixels, and '–' separates rows.",
+    "question": "Using the same encoding, which image is represented by 2,1,2 – 0,1,3,1 – 1,1,1,1,1 – 2,1,2 – 1,1,1,1,1 – 0,1,3,1?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 圖像A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 圖像B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 圖像C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 圖像D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Each number represents a run of same-colored pixels (starting from white) left to right per row. Decoding: row1=2W,1B,2W; row2=0W,1B,3W,1B; row3 alternates 1,1,1,1,1; row4=2W,1B,2W; row5 alternates; row6=0W,1B,3W,1B. Image B matches this pattern.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "A pixel (\"picture element\") is the smallest unit of a digital image; the pixel count determines resolution. This task demonstrates run-length encoding, a real image compression technique, omitting the color labels since only two alternating colors (black/white) are used."
+  },
+  "content_zh": {
+    "prompt": "電腦圖像是由一格一格的「像素」組成的網格；黑白圖片裡每個像素不是黑就是白。字母「a」的範例編碼是1,3,1 – 4,1 – 1,4 – 0,1,3,1 – 0,1,3,1 – 1,4，每一列的編碼都從「白色像素數量」開始算起，「–」代表換行。",
+    "question": "用同樣的編碼方式，2,1,2 – 0,1,3,1 – 1,1,1,1,1 – 2,1,2 – 1,1,1,1,1 – 0,1,3,1 代表的是哪張圖？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）圖像A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）圖像B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）圖像C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）圖像D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "每個數字代表從左到右、連續同色像素的數量（從白色開始算）。解碼結果：第1列=2白1黑2白；第2列=0白1黑3白1黑；第3列白黑交替各1個；第4列=2白1黑2白；第5列白黑交替；第6列=0白1黑3白1黑。符合這個規律的是圖像B。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "「像素」（picture element的縮寫）是數位影像的最小單位，像素數量決定了影像的解析度。這一題展示的是「行程長度編碼」(run-length encoding)，一種真實存在的影像壓縮技術：因為只有黑白兩種交替出現的顏色，所以連顏色標籤都省略了，只記錄連續長度。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

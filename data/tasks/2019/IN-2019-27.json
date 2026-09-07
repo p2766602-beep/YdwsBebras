@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2019-27",
+  "title_en": "Storehouses",
+  "title_zh": "倉庫雜湊分配",
+  "source_country": "Russia",
+  "source_country_flag": "🇷🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2019
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2019 Bebras, Bebras India. 原始出處國：Russia（旗幟為素面白藍紅三色，若後續核對有出入請修正）",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2019-27.png",
+    "path": "assets/images/india/2019/IN-2019-27.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "42 beavers store food in 5 storehouses cyclically (beaver 1→storehouse 1, ..., beaver 6→storehouse 1 again, etc). They build a 6th storehouse and redistribute cyclically with 6 storehouses instead.",
+    "question": "How many beavers did NOT need to move their food between storehouses?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "37"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Numbering beavers/storehouses from 0, beaver x doesn't move if x mod 5 = x mod 6, which only holds for x=0,1,2,3,4 and x=30,31,32,33,34 — 10 beavers total.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This models hashing, a strategy for distributed resource storage: each resource gets a hash key (here, computed via the mod function) for efficient retrieval. A good hash function that doesn't change keys when the underlying structure changes (e.g. number of storehouses) has the consistent hashing property — important in distributed systems."
+  },
+  "content_zh": {
+    "prompt": "42隻海狸把食物存進5座倉庫，依序循環分配（第1隻海狸存第1座，...第6隻海狸又回到第1座，以此類推）。後來牠們新蓋了第6座倉庫，改成用6座倉庫依序循環分配。",
+    "question": "有幾隻海狸「不需要」搬動食物到別的倉庫？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5隻"
+      },
+      {
+        "key": "B",
+        "text": "10隻"
+      },
+      {
+        "key": "C",
+        "text": "13隻"
+      },
+      {
+        "key": "D",
+        "text": "37隻"
+      }
+    ],
+    "answer": "B",
+    "explanation": "把海狸跟倉庫都從0開始編號，第x隻海狸不用搬動的條件是：x mod 5 = x mod 6，這個條件只有在x=0,1,2,3,4以及x=30,31,32,33,34時成立——總共10隻海狸。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這模擬的是「雜湊」(hashing)：一種分散式儲存資源的策略，每筆資源都會算出一把「雜湊鍵」（這裡是用取餘數運算算出來的），方便快速找回資源。一個好的雜湊函式，即使底層結構改變（例如倉庫數量變多），也應該盡量不改變原本的雜湊鍵，這種特性叫做「一致性雜湊」(consistent hashing)，在分散式系統裡非常重要。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}
