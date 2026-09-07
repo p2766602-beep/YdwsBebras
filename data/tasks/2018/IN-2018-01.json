@@ -1,0 +1,54 @@
+{
+  "task_uid": "IN-2018-01",
+  "title_en": "Flowerbed",
+  "title_zh": "花圃",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    { "country": "India", "year": 2018, "edition_url": "https://www.bebras.in/booklets" }
+  ],
+  "appeared_in_groups": [
+    { "group": "Aryabhata", "ages": "8-10", "difficulty": "A" },
+    { "group": "Brahmagupta", "ages": "10-12", "difficulty": "A" }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Slovakia（依題本標題旁國旗標示）",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-01.png",
+    "path": "assets/images/india/2018/IN-2018-01.png",
+    "status": "待使用者裁切提供",
+    "description": "花圃場景圖：木柵欄旁三排花（每排4朵，玫瑰/白花/藍花/鬱金香），需完整裁切含編號1/2/3三排標示"
+  },
+  "content_en": {
+    "prompt": "The gardener planted flowers in three rows. He planted 4 flowers in each row. He had been told that in each row the white flower should be closer to the fence than the blue flower.",
+    "question": "Which rows are planted according to the instructions?",
+    "options": [
+      { "key": "A", "text": "Only 1" },
+      { "key": "B", "text": "1 and 2" },
+      { "key": "C", "text": "1 and 3" },
+      { "key": "D", "text": "All" }
+    ],
+    "answer": "C",
+    "explanation": "When we examine each row then we can see that in rows 1 and 3 the white flower is actually located closer to the fence than the blue one. But, in row 2, the blue flower is closer to the fence than the white one.",
+    "ct_skills": "Algorithmic Thinking (AL), Evaluation (EV)",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task focuses on understanding rules and logical reasoning. When specifications of problems are given to computer scientists, an important part of the software design process is to gather the requirements for the program. For example, a client may ask that the output of the program be in a particular order, or that only certain pieces of data should be analysed. These requirements are all part of the specification of the problem, and computer scientists need to gather these requirements in order to be sure to write programs that do what the client wants.\nOnce these requirements are gathered, they can be thought of as 'rules' to follow, and logical reasoning can be used to carefully search through the 'input' (e.g. rows of flowers) to determine which rows satisfy the rules required."
+  },
+  "content_zh": {
+    "prompt": "園丁在花圃裡種了三排花，每排種4朵花。他被告知：每一排裡，白花都要比藍花更靠近柵欄。",
+    "question": "請問哪幾排是照著指示種的？",
+    "options": [
+      { "key": "A", "text": "只有第1排" },
+      { "key": "B", "text": "第1排和第2排" },
+      { "key": "C", "text": "第1排和第3排" },
+      { "key": "D", "text": "全部都是" }
+    ],
+    "answer": "C",
+    "explanation": "檢查每一排可以發現：第1排和第3排裡，白花確實比藍花更靠近柵欄；但第2排裡，反而是藍花比白花更靠近柵欄。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題的重點在於理解規則並進行邏輯推理。當客戶把問題的規格交給工程師時，軟體設計過程中很重要的一環，就是蒐集這個程式所需要滿足的「需求」。舉例來說，客戶可能會要求程式的輸出要按照特定順序排列，或是只需要分析某些特定的資料。這些需求都是問題規格的一部分，工程師必須先把這些需求蒐集清楚，才能確保寫出來的程式真的符合客戶想要的結果。\n一旦蒐集齊這些需求，就可以把它們當作要遵循的「規則」，並運用邏輯推理，仔細檢查「輸入資料」（例如這些排列的花），找出哪幾排符合規則要求。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

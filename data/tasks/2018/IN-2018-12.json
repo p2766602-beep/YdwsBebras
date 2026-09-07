@@ -1,0 +1,48 @@
+{
+  "task_uid": "IN-2018-12",
+  "title_en": "Magical Bridges",
+  "title_zh": "魔法橋",
+  "source_country": "Hungary",
+  "source_country_flag": "🇭🇺",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Hungary",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-12.png",
+    "path": "assets/images/india/2018/IN-2018-12.png",
+    "status": "待使用者裁切提供",
+    "description": "河流與三個瀑布(編號1/2/3)、多座魔法橋的示意圖，含物品(紅蘿蔔/魚/木頭)經過每座橋會變成什麼的範例圖"
+  },
+  "content_en": {
+    "prompt": "Mahi can drop either a carrot or a fish down one of three waterfalls (1, 2, 3). There are magical bridges on the stream, and items magically change when they pass under a bridge (e.g. a carrot passing under one bridge changes to a fish).",
+    "question": "Mahi wants to send Jai a piece of wood. Which item should Mahi drop and where?",
+    "options": [
+      { "key": "A", "text": "Drop a fish down waterfall 1" },
+      { "key": "B", "text": "Drop a carrot down waterfall 2" },
+      { "key": "C", "text": "Drop a fish down waterfall 2" },
+      { "key": "D", "text": "Drop a carrot down waterfall 3" }
+    ],
+    "answer": "C",
+    "explanation": "Tracing each case: a fish down waterfall 1 ends up as a carrot; a fish down waterfall 2 becomes wood, then carrot, then back to wood — so Jai receives wood; a carrot down waterfall 2 or 3 both end up as carrots. Working backwards also confirms: to get wood at the end, the item must be a carrot at the second-to-last bridge, which is only possible via the bridge shared by waterfalls 1 and 2 — and the only way to reach that state is to drop a fish down waterfall 2.",
+    "ct_skills": "Algorithmic Thinking (AL), Evaluation (EV)",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "A computer reads input and writes output, following instructions humans write beforehand. In functional programming, a program is built from many functions that take input and produce output — the bridges here are like little functions, and the full system is like a program written in a functional programming language."
+  },
+  "content_zh": {
+    "prompt": "Mahi可以把紅蘿蔔或魚丟進三個瀑布（1、2、3號）的其中一個。溪流上有好幾座魔法橋，物品經過橋下時會神奇地變成別的東西（例如紅蘿蔔經過某座橋會變成魚）。",
+    "question": "Mahi想送一塊木頭給Jai。她應該丟什麼東西、從哪個瀑布丟下去？",
+    "options": [
+      { "key": "A", "text": "從1號瀑布丟魚" },
+      { "key": "B", "text": "從2號瀑布丟紅蘿蔔" },
+      { "key": "C", "text": "從2號瀑布丟魚" },
+      { "key": "D", "text": "從3號瀑布丟紅蘿蔔" }
+    ],
+    "answer": "C",
+    "explanation": "逐一追蹤每種情況：從1號瀑布丟魚，最後會變成紅蘿蔔；從2號瀑布丟魚，會先變木頭、再變紅蘿蔔、最後又變回木頭——所以Jai會收到木頭；從2號或3號瀑布丟紅蘿蔔，最後都會變成紅蘿蔔。反過來推算也能驗證：要在最後得到木頭，倒數第二座橋通過時的物品必須是紅蘿蔔，而唯一能走到那個狀態的路徑，就是從2號瀑布丟魚下去。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "電腦其實就是一種讀取輸入、寫出輸出的裝置，它是靠人類事先寫好的指令來運作的。在函數式程式設計裡，一個程式是由許多「接收輸入、產生輸出」的函式組合而成——這一題裡的每座橋，就像是一個個小函式，整個系統就像是用函數式程式語言寫出來的一支程式。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

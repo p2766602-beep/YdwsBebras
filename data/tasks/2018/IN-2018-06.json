@@ -1,0 +1,48 @@
+{
+  "task_uid": "IN-2018-06",
+  "title_en": "Ring Toss",
+  "title_zh": "套圈圈遊戲",
+  "source_country": "Malaysia",
+  "source_country_flag": "🇲🇾",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Malaysia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-06.png",
+    "path": "assets/images/india/2018/IN-2018-06.png",
+    "status": "待使用者裁切提供",
+    "description": "Sonia丟五個圈圈套木樁的示意圖，需含五次丟擲的結果圖（套中/沒套中、顏色）"
+  },
+  "content_en": {
+    "prompt": "Sonia plays Ring Toss. She throws five rings around a pole. Every ring that lands around the pole scores points; rings that miss score no points. Points by throw order: 1st=5, 2nd=4, 3rd=3, 4th=2, 5th=1.",
+    "question": "Sonia threw her five rings as shown. How many points did she get?",
+    "options": [
+      { "key": "A", "text": "9" },
+      { "key": "B", "text": "6" },
+      { "key": "C", "text": "5" },
+      { "key": "D", "text": "7" }
+    ],
+    "answer": "B",
+    "explanation": "1st toss(yellow) missed=0, 2nd toss(blue) landed=4, 3rd toss(pink) missed=0, 4th toss(green) landed=2, 5th toss(black) missed=0. Total = 4+2 = 6 points.",
+    "ct_skills": "Algorithmic Thinking (AL), Evaluation (EV), Decomposition (DE)",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "The rings represent data packets managed in a data structure called a stack. This problem is a sequencing problem — a computer analyses data in sequence, and data needs to be organised so it can be processed to help determine solutions."
+  },
+  "content_zh": {
+    "prompt": "Sonia在玩套圈圈遊戲，她朝一根木樁丟了五個圈圈。只要圈圈成功套住木樁就會得分，沒套中就不得分。依丟擲順序的分數：第1次=5分、第2次=4分、第3次=3分、第4次=2分、第5次=1分。",
+    "question": "根據圖中Sonia五次丟擲的結果，她總共得幾分？",
+    "options": [
+      { "key": "A", "text": "9分" },
+      { "key": "B", "text": "6分" },
+      { "key": "C", "text": "5分" },
+      { "key": "D", "text": "7分" }
+    ],
+    "answer": "B",
+    "explanation": "第1次(黃色)沒套中=0分，第2次(藍色)套中=4分，第3次(粉紅色)沒套中=0分，第4次(綠色)套中=2分，第5次(黑色)沒套中=0分。總分＝4+2＝6分。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）、拆解（Decomposition）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這些圈圈可以想成是用「堆疊(stack)」這種資料結構管理的資料封包。這是一個排序性的問題——電腦是依照順序分析資料的，資料必須先妥善組織好，才能被處理並幫助我們找出答案。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

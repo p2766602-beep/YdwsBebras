@@ -1,0 +1,48 @@
+{
+  "task_uid": "IN-2018-11",
+  "title_en": "Village Words",
+  "title_zh": "村落文字",
+  "source_country": "South Korea",
+  "source_country_flag": "🇰🇷",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：South Korea",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-11.png",
+    "path": "assets/images/india/2018/IN-2018-11.png",
+    "status": "待使用者裁切提供",
+    "description": "村落文字使用的三種符號字元圖示，以及正確文字範例（回文）的圖示"
+  },
+  "content_en": {
+    "prompt": "Words used in a village have these characteristics: 1. They use only three different characters (symbols shown in figure). 2. A correct word reads the same backward as forward (a palindrome). The length of a word is the number of characters used.",
+    "question": "How many correct words can be made with length of 3?",
+    "options": [
+      { "key": "A", "text": "6" },
+      { "key": "B", "text": "9" },
+      { "key": "C", "text": "18" },
+      { "key": "D", "text": "27" }
+    ],
+    "answer": "B",
+    "explanation": "A palindrome of length 3 can be created from a palindrome of length 1 by adding the same character to both sides. There are 3 possible words of length 1 (one per character). From each, we can create a length-3 palindrome by adding the same character on both sides — but since there are 3 characters to choose from as the outer pair for each middle character, the total is 3 × 3 = 9.",
+    "ct_skills": "Algorithmic Thinking (AL), Patterns (PA)",
+    "cs_domain": "Systematic Listing Counting & Reasoning",
+    "ct_explanation": "A palindrome is a word, phrase, number, or sequence of characters which reads the same backward as forward, such as \"madam\" or \"racecar\". Finding and analysing symmetrical palindromes can be fun, but palindromes also appear in DNA sequences. In computer science, automata theory provides both a way to express the rules that generate palindromes, and the algorithms needed to find them in given data."
+  },
+  "content_zh": {
+    "prompt": "某個村落使用的文字有以下特徵：1.只用三種不同的符號字元（如圖所示）。2.正確的文字必須是回文——正著讀和反著讀都一樣。「文字的長度」指的是使用的字元數量。",
+    "question": "長度為3的正確文字，總共可以組出幾個？",
+    "options": [
+      { "key": "A", "text": "6個" },
+      { "key": "B", "text": "9個" },
+      { "key": "C", "text": "18個" },
+      { "key": "D", "text": "27個" }
+    ],
+    "answer": "B",
+    "explanation": "長度為3的回文，可以由長度為1的回文，在左右兩邊各加上相同的字元組成。長度為1的字（每種字元各一個）共有3種。而每一個長度為3的回文，中間字元有3種選擇，左右兩邊字元又要跟中間搭配組合，總共可以組出 3×3＝9 個。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、樣式辨識（Patterns）",
+    "cs_domain": "系統性列舉、計數與推理",
+    "ct_explanation": "回文是指正著讀和反著讀都一樣的字、詞、數字或符號序列，例如中文的「上海自來水來自海上」或英文的madam、racecar。尋找並分析文句、詩句、數字、文字甚至音樂裡的對稱回文，是一件很有趣的事，而回文其實也會出現在DNA序列裡。在資訊科學中，自動機理論不只提供了一套簡單的方式來表達「產生回文的規則」，也提供了在既有資料裡找出回文所需的演算法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

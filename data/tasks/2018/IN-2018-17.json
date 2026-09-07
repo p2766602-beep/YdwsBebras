@@ -1,0 +1,47 @@
+{
+  "task_uid": "IN-2018-17",
+  "title_en": "SBN",
+  "title_zh": "書碼檢查碼",
+  "source_country": "Vietnam",
+  "source_country_flag": "🇻🇳",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Vietnam；原文選項誤植為E/F/G/H，已依內容修正為A/B/C/D",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-17.png",
+    "path": "assets/images/india/2018/IN-2018-17.png",
+    "status": "此題以文字表格為主，可能不需要額外插圖，開檔確認"
+  },
+  "content_en": {
+    "prompt": "Every library book has a Standard Book Number (SBN) of 13 digits. The 13th (rightmost) 'check digit' is calculated: 1. A = sum of digits in odd positions (1st,3rd,5th,7th,9th,11th). 2. B = sum of digits in even positions (2nd,4th,6th,8th,10th,12th). 3. C = A + 3×B. 4. The check digit is the rightmost digit of C. A book's SBN is 978604803078?, with the check digit missing.",
+    "question": "What is the missing digit?",
+    "options": [
+      { "key": "A", "text": "0" },
+      { "key": "B", "text": "1" },
+      { "key": "C", "text": "2" },
+      { "key": "D", "text": "3" }
+    ],
+    "answer": "A",
+    "explanation": "Step 1: A = 9+8+0+8+3+7 = 35. Step 2: B = 7+6+4+0+0+8 = 25. Step 3: C = A+3×B = 35+75 = 110. Step 4: the rightmost digit of 110 is 0 — so the check digit is 0.",
+    "ct_skills": "Algorithmic Thinking (AL), Evaluation (EV), Abstraction (AB)",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "The International Standard Book Number (ISBN) is a unique commercial book identifier; an ISBN is assigned to each edition/variation of a book (e.g. e-book, paperback, hardcover each get a different ISBN). The 2005 edition of the International ISBN Agency's official manual describes how the 13-digit ISBN check digit is calculated, using modular arithmetic on the first 12 digits."
+  },
+  "content_zh": {
+    "prompt": "圖書館裡每本書封面都有一組13位數的標準書號(SBN)。第13位（最右邊）的「檢查碼」計算方式如下：1.A＝所有奇數位(第1、3、5、7、9、11位)數字的總和。2.B＝所有偶數位(第2、4、6、8、10、12位)數字的總和。3.C＝A + 3×B。4.取C的個位數作為檢查碼。有一本書的書號是978604803078?，其中檢查碼遺失了。",
+    "question": "遺失的檢查碼是多少？",
+    "options": [
+      { "key": "A", "text": "0" },
+      { "key": "B", "text": "1" },
+      { "key": "C", "text": "2" },
+      { "key": "D", "text": "3" }
+    ],
+    "answer": "A",
+    "explanation": "第1步：A＝9+8+0+8+3+7＝35。第2步：B＝7+6+4+0+0+8＝25。第3步：C＝A+3×B＝35+75＝110。第4步：110的個位數是0，所以檢查碼是0。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）、抽象化（Abstraction）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "國際標準書號(ISBN)是一種獨一無二的商業書籍識別碼，每一種版本或形式的書（例如電子書、平裝本、精裝本）都會有各自不同的ISBN。2005年版的國際ISBN機構官方手冊裡，詳細說明了13位數ISBN檢查碼的計算方式：利用模運算，根據ISBN前12位數字計算出最後一位檢查碼。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

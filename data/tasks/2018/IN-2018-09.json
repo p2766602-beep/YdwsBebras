@@ -1,0 +1,48 @@
+{
+  "task_uid": "IN-2018-09",
+  "title_en": "Infinite Ice-cream",
+  "title_zh": "無限冰淇淋",
+  "source_country": "Ireland",
+  "source_country_flag": "🇮🇪",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Ireland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2018-09.png",
+    "path": "assets/images/india/2018/IN-2018-09.png",
+    "status": "待使用者裁切提供",
+    "description": "四個冰淇淋甜筒的口味排列圖(A/B/C/D)，需一併裁切"
+  },
+  "content_en": {
+    "prompt": "An ice-cream seller uses these instructions to make ice-cream: 1. Start with an empty cone. 2. Pick a flavour at random, add two scoops of that flavour. 3. Add one scoop of a different flavour. 4. If the requested number of scoops is reached, stop; otherwise go to Step 2.",
+    "question": "You can only see the first few scoops of the ice-cream cones below. Which one is NOT made by the seller?",
+    "options": [
+      { "key": "A", "text": "(圖) 甜筒A" },
+      { "key": "B", "text": "(圖) 甜筒B" },
+      { "key": "C", "text": "(圖) 甜筒C" },
+      { "key": "D", "text": "(圖) 甜筒D" }
+    ],
+    "answer": "D",
+    "explanation": "Cone D starts off correctly (two scoops of same flavour, then one of a different flavour), but then adds two scoops of different flavours when it should have added two scoops of the same flavour — clearly breaking the instructions.",
+    "ct_skills": "Algorithmic Thinking (AL), Patterns/Generalisation (PA)",
+    "cs_domain": "Iterative Patterns and Processes",
+    "ct_explanation": "Patterns in ice-cream cones, words, or images can be created by short lists of instructions. Recognising patterns, and recognising where patterns break, are everyday jobs for computer scientists. This task's pattern is not simply repeating, making it slightly harder. Instructions may sometimes seem followed just by accident through random chance — but observation alone can never guarantee they were truly followed; here we know for certain only one cone breaks the rule."
+  },
+  "content_zh": {
+    "prompt": "冰淇淋小販依照以下規則做冰淇淋：1.從空的甜筒開始。2.隨機挑一個口味，加兩球該口味。3.再加一球不同口味的冰淇淋。4.如果已經達到要求的球數就停止，否則回到步驟2繼續。",
+    "question": "下面的甜筒圖只顯示了最前面幾球冰淇淋，哪一個甜筒「不是」按照上述規則做出來的？",
+    "options": [
+      { "key": "A", "text": "（如圖）甜筒A" },
+      { "key": "B", "text": "（如圖）甜筒B" },
+      { "key": "C", "text": "（如圖）甜筒C" },
+      { "key": "D", "text": "（如圖）甜筒D" }
+    ],
+    "answer": "D",
+    "explanation": "甜筒D一開始還算正確（先放兩球同口味，再放一球不同口味），但接下來卻放了兩球「不同口味」的冰淇淋——按規則這裡應該要放兩球「相同口味」才對，明顯違反了規則。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、樣式辨識與一般化（Patterns/Generalisation）",
+    "cs_domain": "重複樣式與流程（Iterative Patterns and Processes）",
+    "ct_explanation": "無論是冰淇淋甜筒、文字或圖片，都可以用簡短的一連串指令產生出特定的樣式。辨識樣式、以及找出樣式在哪裡被打破，是工程師每天都在做的事。這一題的樣式並不是單純重複的，所以會稍微難一點。有時候即使指令沒有被確實遵守，結果看起來也可能剛好「巧合地」符合規則——光靠觀察並不能百分之百確定規則真的被遵守了；但在這一題裡，我們可以確定只有一個甜筒違反了規則。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

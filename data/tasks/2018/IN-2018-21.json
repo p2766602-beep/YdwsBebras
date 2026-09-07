@@ -1,0 +1,48 @@
+{
+  "task_uid": "IN-2018-21",
+  "title_en": "Board Jump",
+  "title_zh": "跳格子棋盤",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-21.png",
+    "path": "assets/images/india/2018/IN-2018-21.png",
+    "status": "待使用者裁切提供",
+    "description": "8格棋盤，每格標示移動規則(如2L/3R/0)的示意圖，含規則說明圖例(左移/右移範例)"
+  },
+  "content_en": {
+    "prompt": "There are 8 boxes on a board (labelled 1-8), each with a movement rule: \"nL\" = move n boxes left, \"nR\" = move n boxes right, \"0\" = do not move.",
+    "question": "Consider the given board: which box should you start in so that, by following the rules, every box is visited?",
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "3" },
+      { "key": "C", "text": "5" },
+      { "key": "D", "text": "It is not possible to visit every box" }
+    ],
+    "answer": "B",
+    "explanation": "Working backwards: box 4 is reached from box 7, which is reached from box 6, from box 8, from box 5, from box 2, from box 1, from box 3. Drawing this as a graph (nodes=boxes, edges=movement rules) shows a single chain covering all 8 boxes, starting at box 3.",
+    "ct_skills": "Algorithmic Thinking (AL), Evaluation (EV)",
+    "cs_domain": "Discrete Modeling",
+    "ct_explanation": "This is a problem about following pointers: a move like \"3R\" from box 2 to box 5 is like following a pointer. Given a collection of such pointers (really a directed graph), we look for the \"head\" node. Following pointer sequences matters in memory management (garbage collection), and this game also models the \"goto\" statement in early programming: instead of executing the next instruction, jump to another part of the program."
+  },
+  "content_zh": {
+    "prompt": "棋盤上有8個格子（編號1-8），每格都標示著移動規則：「nL」代表向左移n格，「nR」代表向右移n格，「0」代表原地不動。",
+    "question": "根據圖中的棋盤，應該從哪一格開始，才能依照規則走遍所有格子？",
+    "options": [
+      { "key": "A", "text": "2號格" },
+      { "key": "B", "text": "3號格" },
+      { "key": "C", "text": "5號格" },
+      { "key": "D", "text": "不可能走遍所有格子" }
+    ],
+    "answer": "B",
+    "explanation": "反過來推算：4號格是從7號格走來的，7號格是從6號格走來的，6號格是從8號格走來的，8號格是從5號格走來的，5號格是從2號格走來的，2號格是從1號格走來的，1號格是從3號格走來的。把這串關係畫成圖（每格是一個節點，移動規則是連接的邊），會發現這是一條貫穿全部8格的鏈，起點就是3號格。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是一個「追蹤指標」的問題：像「從2號格3R移到5號格」這樣的移動，就像是在跟隨一個指標。給定一整組這樣的指標（其實就是一個有向圖），我們要找的是這條鏈的「起點」節點。追蹤一連串指標在記憶體管理（例如垃圾回收機制）裡非常重要，這個遊戲也可以拿來模擬早期程式語言裡的「goto」指令：不執行下一行指令，而是直接跳到程式的另一個地方繼續執行。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,48 @@
+{
+  "task_uid": "IN-2018-13",
+  "title_en": "Lemon Sherbet Party",
+  "title_zh": "檸檬雪酪派對",
+  "source_country": "USA",
+  "source_country_flag": "🇺🇸",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：USA",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-13.png",
+    "path": "assets/images/india/2018/IN-2018-13.png",
+    "status": "待使用者裁切提供",
+    "description": "1/2/4/8/16/32公升六種容量空瓶的圖示"
+  },
+  "content_en": {
+    "prompt": "Janvi made 37 litres of Lemon Sherbet and wants to take it to school. She has empty bottles in sizes 1, 2, 4, 8, 16, 32 litres (unlimited quantity of each), and wants to use the minimum number of bottles.",
+    "question": "What is the minimum number of bottles that Janvi needs?",
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "3" },
+      { "key": "C", "text": "4" },
+      { "key": "D", "text": "5" }
+    ],
+    "answer": "B",
+    "explanation": "The best solution is one 32L bottle, one 4L bottle, and one 1L bottle (32+4+1=37). This is a binary counting problem — it never makes sense to select multiple bottles of the same size, since e.g. two 8L bottles could always be replaced by one 16L bottle. So a minimum of three bottles is required.",
+    "ct_skills": "Algorithmic Thinking (AL), Evaluation (EV)",
+    "cs_domain": "Systematic Listing Counting & Reasoning",
+    "ct_explanation": "The binary number system is central to computation. The bottle volumes keep doubling, just like the place values of a binary number. Converting a base-10 number to binary uses a simple trick: repeatedly select the largest bit (power of two) that still fits in the remaining amount. To solve 37: largest that fits is 32 (5 left), largest that fits 5 is 4 (1 left), largest that fits 1 is 1. 32+4+1=37, done."
+  },
+  "content_zh": {
+    "prompt": "Janvi在家做了37公升的檸檬雪酪，想帶去學校辦派對。她有1、2、4、8、16、32公升六種容量的空瓶（每種數量不限），她想用最少數量的瓶子裝完。",
+    "question": "Janvi最少需要幾個瓶子？",
+    "options": [
+      { "key": "A", "text": "2個" },
+      { "key": "B", "text": "3個" },
+      { "key": "C", "text": "4個" },
+      { "key": "D", "text": "5個" }
+    ],
+    "answer": "B",
+    "explanation": "最佳解是用一個32公升瓶、一個4公升瓶、一個1公升瓶（32+4+1=37）。這其實是一個二進位計數問題——用同一種容量的瓶子裝兩個以上永遠不划算，例如兩個8公升瓶不如換成一個16公升瓶。所以最少需要三個瓶子。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "系統性列舉、計數與推理",
+    "ct_explanation": "二進位數字系統是運算的核心。這裡瓶子的容量不斷倍增，就跟二進位數字裡每一位的權重一樣。把十進位數字換算成二進位時，有個簡單的訣竅：每次都選「還放得進剩餘容量裡」的最大位。換算37：能放進37的最大瓶是32（剩5），能放進5的最大瓶是4（剩1），能放進1的最大瓶是1。32+4+1=37，換算完成。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

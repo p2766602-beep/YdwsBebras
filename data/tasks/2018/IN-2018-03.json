@@ -1,0 +1,48 @@
+{
+  "task_uid": "IN-2018-03",
+  "title_en": "Bird Colors",
+  "title_zh": "小鸚鵡的花色",
+  "source_country": "Australia",
+  "source_country_flag": "🇦🇺",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Australia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2018-03.png",
+    "path": "assets/images/india/2018/IN-2018-03.png",
+    "status": "待使用者裁切提供",
+    "description": "彩虹鸚鵡媽媽Mithoo的三隻小鸚鵡花色圖(頭/胸/身體/尾巴分別紅藍綠黃)＋一隻灰色剪影小鸚鵡(第四隻待推理)；下方另有A/B/C/D四個選項小鸚鵡圖需一併裁切"
+  },
+  "content_en": {
+    "prompt": "Mithoo, the Australian Rainbow Parrot, has had four chicks (baby parrots). Each chick has four colours: red, blue, green and yellow. Each colour in a chick must be located in a different part of the body to the other chicks.",
+    "question": "Based on the first three chicks, what colour patterns will the fourth have?",
+    "options": [
+      { "key": "A", "text": "(圖) 頭綠/胸藍/腹紅/身黃" },
+      { "key": "B", "text": "(圖) 頭藍/胸綠/腹紅/身黃" },
+      { "key": "C", "text": "(圖) 頭黃/胸紅/腹綠/身藍" },
+      { "key": "D", "text": "(圖) 頭紅/胸黃/腹藍/身綠" }
+    ],
+    "answer": "B",
+    "explanation": "Other combinations of colour patterns cannot be right as they do not follow the progressive colour pattern: red, blue, green and yellow. Each colour fills in only one body part of the chick: head, chest, wing, tail. The only right answer follows the colour and body part pattern established.",
+    "ct_skills": "Patterns/Generalisation (PA)",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Data, Data Structures and Representations: Data can take many forms, for example, pictures, text or numbers. When we look at data in this question, we are looking for a sequence of images that will assist in solving the problem. By identifying these images we can make predictions, create rules and solve more general problems.\nPattern Recognition: Pattern recognition involves finding pattern or repetition within complex problems or among smaller related problems."
+  },
+  "content_zh": {
+    "prompt": "澳洲彩虹鸚鵡媽媽Mithoo生了四隻小鸚鵡。每隻小鸚鵡身上都有紅、藍、綠、黃四種顏色，而且每一種顏色在每隻小鸚鵡身上，都長在跟其他小鸚鵡不一樣的部位。",
+    "question": "根據前三隻小鸚鵡的花色規律，第四隻小鸚鵡的花色會是什麼樣子？",
+    "options": [
+      { "key": "A", "text": "（如圖）頭綠、胸藍、腹紅、身體黃" },
+      { "key": "B", "text": "（如圖）頭藍、胸綠、腹紅、身體黃" },
+      { "key": "C", "text": "（如圖）頭黃、胸紅、腹綠、身體藍" },
+      { "key": "D", "text": "（如圖）頭紅、胸黃、腹藍、身體綠" }
+    ],
+    "answer": "B",
+    "explanation": "其他花色組合都不符合「紅→藍→綠→黃」這個依序輪替的規律。每種顏色在每隻小鸚鵡身上只會出現在一個部位：頭、胸、翅膀、尾巴。只有答案B完全依照顏色與部位的輪替規律排列。",
+    "ct_skills": "樣式辨識與一般化（Patterns/Generalisation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "資料、資料結構與表示法：資料可以有很多種形式，例如圖片、文字或數字。這一題要看的資料，就是一連串能幫助我們解題的圖片序列。透過辨識這些圖片，我們就能做出預測、歸納出規則，進而解決更一般化的問題。\n樣式辨識：樣式辨識指的是在複雜問題、或多個相關的小問題之間，找出重複出現的規律或樣式。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

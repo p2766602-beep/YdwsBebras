@@ -1,0 +1,47 @@
+{
+  "task_uid": "IN-2018-18",
+  "title_en": "Pass Code",
+  "title_zh": "金庫密碼",
+  "source_country": "Malaysia",
+  "source_country_flag": "🇲🇾",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Malaysia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-18.png",
+    "path": "assets/images/india/2018/IN-2018-18.png",
+    "status": "此題以文字為主，可能不需要額外插圖，開檔確認"
+  },
+  "content_en": {
+    "prompt": "Shyam received a chest of gold locked with a 9-digit electronic code. Hints: The only digits used are 2, 6, 7, 9. The highest-value digit is used the fewest times. The lowest-value digit is used the most times. The code reads the same in reverse (a palindrome). All consecutive digits are different. The last digit is odd.",
+    "question": "With the information given above, can you determine the pass code?",
+    "options": [
+      { "key": "A", "text": "9 6 2 6 7 6 2 6 9" },
+      { "key": "B", "text": "7 6 9 2 7 6 9 2 7" },
+      { "key": "C", "text": "7 2 6 2 9 2 6 2 7" },
+      { "key": "D", "text": "9 2 6 2 7 2 6 2 9" }
+    ],
+    "answer": "C",
+    "explanation": "Hints 1-3 tell us 9 appears once, 6 and 7 each appear twice, and 2 appears 4 times. Hint 4 (palindrome) means 9 must be in the middle. Hint 6 combined with hint 4 means 7 must be at the start and end (since it's odd and must match front/back for the palindrome). Hint 5 (consecutive digits different) means 2 must fill positions 2,4,6,8 — leaving 6 for the remaining positions.",
+    "ct_skills": "Decomposition (DE), Evaluation (EV)",
+    "cs_domain": "Systematic Listing Counting & Reasoning",
+    "ct_explanation": "This task appears not to give enough information at first, but taking small steps through the hints shows you don't need to try all combinations. Computational thinking is about analysing a problem and finding a clever way to a solution — a computer could brute-force try all combinations, but logical reasoning lets you reason your way to a single answer directly. This is known as knowledge-based reasoning: using existing knowledge plus reasoning skills to infer new facts and solve problems."
+  },
+  "content_zh": {
+    "prompt": "Shyam收到一箱用電子鎖鎖住的黃金，密碼是9位數。線索如下：密碼裡只會用到2、6、7、9這四個數字。數值最大的數字，出現次數最少。數值最小的數字，出現次數最多。密碼倒過來讀跟正著讀一樣（回文）。相鄰的數字一定不同。最後一位數字是奇數。",
+    "question": "根據以上線索，能不能推算出密碼是多少？",
+    "options": [
+      { "key": "A", "text": "9 6 2 6 7 6 2 6 9" },
+      { "key": "B", "text": "7 6 9 2 7 6 9 2 7" },
+      { "key": "C", "text": "7 2 6 2 9 2 6 2 7" },
+      { "key": "D", "text": "9 2 6 2 7 2 6 2 9" }
+    ],
+    "answer": "C",
+    "explanation": "線索1~3告訴我們：9出現1次，6和7各出現2次，2出現4次。線索4（回文）表示9一定在正中間。線索6配合線索4，表示7一定在頭尾兩端（因為7是奇數，回文的頭尾必須相同）。線索5（相鄰數字不同）表示2一定填在第2、4、6、8位，剩下的位置就是6。",
+    "ct_skills": "拆解（Decomposition）、評估（Evaluation）",
+    "cs_domain": "系統性列舉、計數與推理",
+    "ct_explanation": "這一題乍看之下資訊好像不夠，但只要照著線索一步一步推理，其實不需要真的把所有組合都試過一遍。運算思維的精神，就是分析問題、找出聰明的解法——電腦可以蠻力把所有組合都試一遍再檢查是否符合線索，但只要善用邏輯推理，就能直接推算出唯一解。這種推理方式叫做「基於知識的推理」：利用已知的知識加上推理能力，逐步推導出新的事實，進而解決問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,48 @@
+{
+  "task_uid": "IN-2018-08",
+  "title_en": "Robots",
+  "title_zh": "三個機器人",
+  "source_country": "Latvia",
+  "source_country_flag": "🇱🇻",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Latvia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-08.png",
+    "path": "assets/images/india/2018/IN-2018-08.png",
+    "status": "待使用者裁切提供",
+    "description": "三個機器人Teena、Meena、Leena的插圖"
+  },
+  "content_en": {
+    "prompt": "Here are five statements describing three robots (Teena, Meena, Leena): 1. Teena and Meena are smiling. 2. Teena, Meena and Leena each have two legs. 3. Meena has a round head and Leena has two legs. 4. All three robots have five fingers. 5. Leena or Teena have their hands raised.",
+    "question": "Which of these five statements are true?",
+    "options": [
+      { "key": "A", "text": "2 and 3" },
+      { "key": "B", "text": "1 and 3" },
+      { "key": "C", "text": "1 and 5" },
+      { "key": "D", "text": "None" }
+    ],
+    "answer": "C",
+    "explanation": "Evaluate all statements and decide true/false, taking into account the meaning of AND and OR. \"Teena and Meena are smiling\" is true since both are smiling — this statement does not depend on Leena at all. \"Leena or Teena have their hands raised\" is also true.",
+    "ct_skills": "Algorithmic Thinking (AL), Abstraction (AB), Evaluation (EV)",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "In computer science, the Boolean data type has two values (true/false), representing the truth values of logic and Boolean algebra. Many decisions in a program are based on boolean operators AND and OR. Being able to focus on the important information of a problem (ignoring irrelevant details) is a key computational thinking concept called abstraction."
+  },
+  "content_zh": {
+    "prompt": "以下是描述三個機器人（Teena、Meena、Leena）的五句敘述：1. Teena和Meena在微笑。2. Teena、Meena和Leena都各有兩隻腳。3. Meena有一個圓形的頭，而且Leena有兩隻腳。4. 三個機器人都有五根手指。5. Leena或Teena舉起了手。",
+    "question": "以下這五句敘述裡，哪幾句是真的？",
+    "options": [
+      { "key": "A", "text": "第2句和第3句" },
+      { "key": "B", "text": "第1句和第3句" },
+      { "key": "C", "text": "第1句和第5句" },
+      { "key": "D", "text": "都不是真的" }
+    ],
+    "answer": "C",
+    "explanation": "要判斷每句敘述的真假，必須先弄清楚「且」和「或」的意思。「Teena和Meena在微笑」是真的，因為兩個確實都在微笑——而且這句話完全不涉及Leena。「Leena或Teena舉起了手」也是真的，因為「或」只要有一個成立就算真。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、抽象化（Abstraction）、評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "在資訊科學裡，布林（Boolean）資料型別只有兩個值（真/假），用來表示邏輯與布林代數中的真值。程式裡許多判斷都是靠「且(AND)」跟「或(OR)」這兩種布林運算子做出來的。能夠專注在問題中真正重要的資訊、忽略不相關的細節，是運算思維裡一個很重要的概念，叫做「抽象化」。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

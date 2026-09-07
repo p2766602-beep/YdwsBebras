@@ -11,40 +11,40 @@
 
 難度欄位：A=易 B=中 C=難（Aryabhata~Ramanujam五組，見task_index.md難度表）
 
-| # | 題名 | 出處國 | PDF頁碼 | 預估圖片需求 |
+**已確認**：只裁「題目頁的乾淨場景圖」一張，答案頁的紅框/標註由平台UI自己疊加顯示，不用另外裁答案頁的圖。
+
+| # | 題名 | 出處國 | 題目所在PDF頁 | 圖片檔名(建議) |
 |---|---|---|---|---|
-| 1 | Flowerbed | 🇸🇰 Slovakia | 9-10 | 2（題目圖＋答案標註圖，同一場景） |
-| 2 | Simon Says | 🇨🇦 Canada | 11-12 | 2 |
-| 3 | Bird Colors | 🇦🇺 Australia | 13-14 | 2 |
-| 4 | Football | 🇰🇷 South Korea | 15-16 | 1 |
-| 5 | Flowers | 🇨🇭 Switzerland | 17-19 | 2 |
-| 6 | Ring Toss | 🇲🇾 Malaysia | 20-21 | 1 |
-| 7 | Rubbish Robots | 🇸🇰 Slovakia | 22-23 | 2 |
-| 8 | Robots | 🇱🇻 Latvia | 24-25 | 1 |
-| 9 | Infinite Ice-cream | 🇮🇪 Ireland | 26-27 | 2 |
-| 10 | What will Maya wear today? | 🇸🇮 Slovenia | 28-30 | 2-3 |
-| 11 | Village Words | 🇰🇷 South Korea | 31-33 | 2 |
-| 12 | Magical Bridges | 🇭🇺 Hungary | 34-36 | 1 |
-| 13 | Lemon Sherbet Party | 🇺🇸 USA | 37-39 | 1 |
-| 14 | Soundex | 🇵🇰 Pakistan | 40-41 | 1 |
-| 15 | Resort Binary | 🇸🇰 Slovakia | 42-43 | 2 |
-| 16 | A lie has no legs | 🇭🇷 Croatia | 44-46 | 1 |
-| 17 | SBN | 🇻🇳 Vietnam | 47-48 | 1 |
-| 18 | Pass Code | 🇲🇾 Malaysia | 49-50 | 1 |
-| 19 | Map Game | （無旗幟標示，疑似印度自製題） | 51-52 | 2 |
-| 20 | Jumping Competition | 🇨🇭 Switzerland | 53-54 | 1 |
-| 21 | Board Jump | 🇨🇦 Canada | 55-56 | 2 |
-| 22 | Optical Fibre | 🇪🇸 Spain | 57-59 | 2 |
-| 23 | Crypto-Beaver | 🇩🇪 Germany | 60-62 | 2 |
-| 24 | Planet Mangal | 🇩🇪 Germany | 63-64 | 2 |
-| 25 | Medical Lab | 🇨🇿 Czech Republic | 65-66 | 1 |
-| 26 | Beaver's birthday party | 🇷🇴 Romania | 67-70 | 2 |
+| 1 | Flowerbed | 🇸🇰 Slovakia | 9 | IN-2018-01.png |
+| 2 | Simon Says | 🇨🇦 Canada | 11 | IN-2018-02.png |
+| 3 | Bird Colors | 🇦🇺 Australia | 13 | IN-2018-03.png |
+| 4 | Football | 🇰🇷 South Korea | 15 | IN-2018-04.png |
+| 5 | Flowers | 🇨🇭 Switzerland | 17 | IN-2018-05.png |
+| 6 | Ring Toss | 🇲🇾 Malaysia | 20 | IN-2018-06.png |
+| 7 | Rubbish Robots | 🇸🇰 Slovakia | 22 | IN-2018-07.png |
+| 8 | Robots | 🇱🇻 Latvia | 24 | IN-2018-08.png |
+| 9 | Infinite Ice-cream | 🇮🇪 Ireland | 26 | IN-2018-09.png |
+| 10 | What will Maya wear today? | 🇸🇮 Slovenia | 28 | IN-2018-10.png |
+| 11 | Village Words | 🇰🇷 South Korea | 31 | IN-2018-11.png |
+| 12 | Magical Bridges | 🇭🇺 Hungary | 34 | IN-2018-12.png |
+| 13 | Lemon Sherbet Party | 🇺🇸 USA | 37 | IN-2018-13.png |
+| 14 | Soundex | 🇵🇰 Pakistan | 40 | IN-2018-14.png |
+| 15 | Resort Binary | 🇸🇰 Slovakia | 42 | IN-2018-15.png |
+| 16 | A lie has no legs | 🇭🇷 Croatia | 44 | IN-2018-16.png |
+| 17 | SBN | 🇻🇳 Vietnam | 47 | IN-2018-17.png |
+| 18 | Pass Code | 🇲🇾 Malaysia | 49 | IN-2018-18.png |
+| 19 | Map Game | （無旗幟，疑似印度自製題） | 51 | IN-2018-19.png |
+| 20 | Jumping Competition | 🇨🇭 Switzerland | 53 | IN-2018-20.png |
+| 21 | Board Jump | 🇨🇦 Canada | 55 | IN-2018-21.png |
+| 22 | Optical Fibre | 🇪🇸 Spain | 57 | IN-2018-22.png |
+| 23 | Crypto-Beaver | 🇩🇪 Germany | 60 | IN-2018-23.png |
+| 24 | Planet Mangal | 🇩🇪 Germany | 63 | IN-2018-24.png |
+| 25 | Medical Lab | 🇨🇿 Czech Republic | 65 | IN-2018-25.png |
+| 26 | Beaver's birthday party | 🇷🇴 Romania | 67 | IN-2018-26.png |
 
-**預估總圖片數：約40-45張**（遠少於PDF內嵌圖層物件的原始統計210+，因為多數題目的插圖是由10餘個小圖層拼成「一張完整場景圖」，使用者裁切時只要整張場景截一張圖，不用管內部有幾個圖層物件）
+**預估總圖片數：26張**（每題1張，存放於 `assets/images/india/2018/`）
 
-## 圖片處理方式確認（比照Flowerbed範例）
-
-實際打開Flowerbed(p9)驗證：插圖是「柵欄+花+池塘」的完整場景，答案頁(p10)是同一場景加上紅框標註正確答案。**建議只需裁切「題目頁的完整場景圖」一張**，答案頁的紅框標註可以由平台自己用UI疊加（例如答對/答錯後才顯示提示框），不需要额外裁一張「已標註版」——這樣可以把每題圖片需求從約2張降到約1張，工作量減半。**這點請你確認是否同意**，同意的話我就照這個原則重新出最終版清單。
+補充：「What will Maya wear today?」的原始插圖區塊較複雜（p28-30跨3頁都有圖層），實際裁切時麻煩你打開該題確認一下是1張完整場景圖還是真的分成2張獨立插圖，其餘25題以p28前的驗證(Flowerbed)為準應該都是單一場景圖。
 
 ## 附註：page 71 不是題目插圖
 

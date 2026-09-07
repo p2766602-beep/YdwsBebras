@@ -1,0 +1,47 @@
+{
+  "task_uid": "IN-2018-25",
+  "title_en": "Medical Lab",
+  "title_zh": "醫療實驗室搖晃機",
+  "source_country": "Czech Republic",
+  "source_country_flag": "🇨🇿",
+  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Czech Republic",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2018-25.png",
+    "path": "assets/images/india/2018/IN-2018-25.png",
+    "status": "此題以文字程式碼為主，可能不需要額外插圖，開檔確認"
+  },
+  "content_en": {
+    "prompt": "A diagnostic device shakes specimens according to a numbered-line program. It reads one line at a time and executes it immediately; \"go to X\" jumps to line X. The program can store a number A, add 1 to A, and compare A to another number.\nThe Program:\n1. set A to 0\n2. add 1 to A\n3. go to 6\n4. if A equals 60 go to 8\n5. set A to 0\n6. add 1 to A\n7. go to 2\n8. repeat A times to shake the specimens\n9. end",
+    "question": "How many times will the device shake the specimens when this program is run?",
+    "options": [
+      { "key": "A", "text": "The specimens will never be shaken" },
+      { "key": "B", "text": "The specimens will be shaken once" },
+      { "key": "C", "text": "The specimens will be shaken 60 times" },
+      { "key": "D", "text": "The program will not stop the specimens being shaken" }
+    ],
+    "answer": "A",
+    "explanation": "The program always jumps from line 3 to 6, and from line 7 to 2. Except at the very beginning, execution only ever visits lines 2, 3, 6, 7 — an infinite loop. The shake instruction on line 8 is never reached, so the specimens are never shaken (and line 9 is never executed either, so the program runs forever).",
+    "ct_skills": "Algorithmic Thinking (AL)",
+    "cs_domain": "Algorithms and Programming",
+    "ct_explanation": "Early programming languages of the 1940s-50s looked like this task, called assembly languages: numbered lines with \"go to\" instructions for jumping around. These were hard to read and debug but easy to write incorrectly — this error-proneness is why modern programming languages moved away from line-numbered goto instructions to structured constructs like loops, procedures, and conditionals."
+  },
+  "content_zh": {
+    "prompt": "醫療實驗室裡有一台診斷裝置，會依照一支用編號行寫成的程式來搖晃檢體。裝置每次讀取一行指令就立刻執行；「go to X」代表跳到第X行繼續執行。這支程式可以儲存一個數字A、把A加1、並比較A跟另一個數字的大小。\n程式內容：\n1. 把A設為0\n2. 把A加1\n3. 跳到第6行\n4. 如果A等於60，跳到第8行\n5. 把A設為0\n6. 把A加1\n7. 跳到第2行\n8. 重複搖晃檢體A次\n9. 結束",
+    "question": "執行這支程式後，裝置總共會搖晃檢體幾次？",
+    "options": [
+      { "key": "A", "text": "檢體永遠不會被搖晃" },
+      { "key": "B", "text": "檢體會被搖晃一次" },
+      { "key": "C", "text": "檢體會被搖晃60次" },
+      { "key": "D", "text": "程式永遠不會停止搖晃檢體" }
+    ],
+    "answer": "A",
+    "explanation": "這支程式永遠都是「第3行跳到第6行」、「第7行跳到第2行」。除了一開始之外，程式的執行只會不斷在第2、3、6、7行之間打轉，形成一個無窮迴圈。第8行「搖晃檢體」的指令永遠不會被執行到，所以檢體永遠不會被搖晃（第9行「結束」也永遠不會執行到，程式會永遠跑下去）。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "1940、50年代最早期的程式語言，長得就跟這一題很像，叫做「組合語言」：每一行都有編號，並用「go to」這類指令跳到別的行繼續執行。這種寫法很難閱讀跟除錯，卻很容易寫錯——正因為這種容易出錯的特性，1950年代起，現代程式語言才逐漸捨棄「按行號跳轉」的寫法，改用迴圈、副程式、條件判斷這類結構化的寫法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}
