@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2020-18",
+  "title_en": "Number Lock",
+  "title_zh": "數字轉盤鎖",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-18.png",
+    "path": "assets/images/india/2020/IN-2020-18.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A number lock has 4 digit wheels, each turnable forward or backward and wrapping circularly (9→0 forward, 0→9 backward). Current: 2719.",
+    "question": "What is the minimum number of turns to unlock the lock, from 2719 to the combination 4383?",
+    "options": [
+      {
+        "key": "A",
+        "text": "21"
+      },
+      {
+        "key": "B",
+        "text": "19"
+      },
+      {
+        "key": "C",
+        "text": "17"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      },
+      {
+        "key": "E",
+        "text": "12"
+      }
+    ],
+    "answer": "D",
+    "explanation": "For each digit, pick the shorter direction: 2→4 forward (2 turns), 7→3 backward (4 turns), 1→8 backward (3 turns), 9→3 forward (4 turns). Total: 2+4+3+4=13.",
+    "ct_skills": "Evaluation, Algorithmic Thinking",
+    "cs_domain": "Systematic Listing Counting & Reasoning",
+    "ct_explanation": "This is a minimization problem over independently-determined values: minimizing a sum of independent values equals the sum of each value's minimum. For each digit, forward-turns + backward-turns always sum to 10 (the circle's length), so picking the smaller of the two for each digit, then summing, gives the true minimum."
+  },
+  "content_zh": {
+    "prompt": "一個數字鎖有4個數字轉輪，每個都可以往前或往後轉，而且是循環的（往前轉會9→0，往後轉會0→9）。目前顯示：2719。",
+    "question": "要把鎖從2719轉到密碼4383，最少要轉幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "21次"
+      },
+      {
+        "key": "B",
+        "text": "19次"
+      },
+      {
+        "key": "C",
+        "text": "17次"
+      },
+      {
+        "key": "D",
+        "text": "13次"
+      },
+      {
+        "key": "E",
+        "text": "12次"
+      }
+    ],
+    "answer": "D",
+    "explanation": "每個數字都選轉動次數較少的方向：2→4往前轉(2次)，7→3往後轉(4次)，1→8往後轉(3次)，9→3往前轉(4次)。總共2+4+3+4＝13次。",
+    "ct_skills": "評估（Evaluation）、演算法思維（Algorithmic Thinking）",
+    "cs_domain": "系統性列舉、計數與推理",
+    "ct_explanation": "這是一個「各個獨立變數各自最小化」的最佳化問題：獨立變數總和的最小值，就等於各自最小值的總和。每個數字往前轉的次數加往後轉的次數，永遠等於10（因為轉盤一圈就是10格），所以每個數字都選比較少的那個方向，再把這些最小值加起來，就是真正的最小總次數。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

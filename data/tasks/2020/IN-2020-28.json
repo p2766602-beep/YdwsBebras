@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-28",
+  "title_en": "Dangerous Virus",
+  "title_zh": "危險病毒的醫療補給",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-28.png",
+    "path": "assets/images/india/2020/IN-2020-28.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A virus spreads on Kappa island, which needs medical supplies only produced on Alpha island. Transportation routes between the 6 islands (Alpha, Gamma, Beta, Delta, Eta, Kappa) each have a maximum daily weight capacity; each route can be used once per day.",
+    "question": "What is the maximum weight of supplies that can be obtained by Kappa island per day?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Routing supplies through the network (Alpha→Gamma→Delta, Alpha→Beta→Delta/Eta, then Delta/Eta→Kappa within capacity limits) yields a maximum of 18 kg reaching Kappa island.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is a maximum flow problem: a graph where cities are nodes and transportation routes are edges with capacities, representing network flow. Finding the maximum daily capacity between two nodes is a classic and well-studied algorithmic problem."
+  },
+  "content_zh": {
+    "prompt": "Kappa島爆發病毒疫情，需要只有Alpha島才能生產的醫療補給。六座島嶼(Alpha、Gamma、Beta、Delta、Eta、Kappa)之間的運輸路線，每條每天都有最大載重限制，每條路線一天只能用一次。",
+    "question": "Kappa島每天最多能收到多少公斤的醫療補給？",
+    "options": [
+      {
+        "key": "A",
+        "text": "20公斤"
+      },
+      {
+        "key": "B",
+        "text": "12公斤"
+      },
+      {
+        "key": "C",
+        "text": "15公斤"
+      },
+      {
+        "key": "D",
+        "text": "18公斤"
+      }
+    ],
+    "answer": "D",
+    "explanation": "透過網路規劃補給路線（Alpha→Gamma→Delta、Alpha→Beta→Delta/Eta，再從Delta/Eta送到Kappa，都在載重限制內），最多可以有18公斤送達Kappa島。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是一個「最大流量問題」：把城市當作圖裡的節點、運輸路線當作有載重上限的邊，用來表示網路流量。找出兩個節點之間每天最大的運輸容量，是經典且被充分研究過的演算法問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

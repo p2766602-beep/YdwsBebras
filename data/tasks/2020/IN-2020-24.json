@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-24",
+  "title_en": "Dinner Table",
+  "title_zh": "晚餐座位安排",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-24.png",
+    "path": "assets/images/india/2020/IN-2020-24.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Mat hosts a dinner for two beaver families plus friend Robert around a round table, with seating rules: (1) two females can't sit together, (2) a Mama and Papa of the same family can't sit together, (3) young beavers can't sit next to their parents.",
+    "question": "Which of the following is a correct seating arrangement according to Mat's rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 座位安排A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 座位安排B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 座位安排C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 座位安排D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A breaks rules 2 & 3 (Mama/Papa Gray adjacent; Daisy next to her father). C breaks rule 3 (Lily next to her father). D breaks rules 1 & 2 (Daisy next to Mama Jones; both parent pairs adjacent to their kids). Only B satisfies all constraints.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is a simpler version of a general constraint satisfaction problem: given constraints, a domain of values, find a solution satisfying all of them. Real solvers assign values to variables step by step, propagating effects, and backtracking on failure. Here, we're just given candidate answers and must verify which meets every constraint."
+  },
+  "content_zh": {
+    "prompt": "Mat要為兩個海狸家庭加上朋友Robert辦一場圓桌晚餐，訂了座位規則：(1)兩個女生不能坐在一起。(2)同一家的爸媽不能坐在一起。(3)小孩不能坐在自己爸媽旁邊。",
+    "question": "依照Mat的規則，下面哪一種座位安排是對的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）座位安排A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）座位安排B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）座位安排C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）座位安排D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "A違反規則2和3(Gray夫妻坐在一起；Daisy坐在她爸爸旁邊)。C違反規則3(Lily坐在她爸爸旁邊)。D違反規則1和2(Daisy坐在Jones媽媽旁邊；兩對父母都跟自己小孩相鄰)。只有B完全符合所有規則。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是「限制滿足問題」的簡化版：給定一組限制條件跟一組候選值，要找出同時滿足所有條件的解答。真正的求解器會逐步給變數指派值、把影響傳播出去，失敗就回溯重來。這一題比較簡單：我們已經拿到候選答案，只需要驗證哪一個符合全部限制條件。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

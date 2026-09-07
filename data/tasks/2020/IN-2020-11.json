@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-11",
+  "title_en": "Processing Objects",
+  "title_zh": "機械手臂加工",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-11.png",
+    "path": "assets/images/india/2020/IN-2020-11.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A robot arm cycles through conveyor belts A, B, C, moving one object from each (in that order, repeatedly) to the OUT belt. It waits if a belt has no object.",
+    "question": "Given the situation shown, and knowing no new objects will arrive, how many objects will be moved by the arm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The arm cycles A→B→C twice (6 objects), then starts a third cycle and can only move one more from A (7 total) before getting stuck waiting at B, which has no more objects.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This models scheduling — deciding how resources are assigned to jobs. It's also about executing an algorithm step-by-step from an initial state to predict a future result, an activity programmers constantly perform; finding where something goes wrong is called debugging."
+  },
+  "content_zh": {
+    "prompt": "一支機械手臂會依序從A、B、C三條輸送帶各拿一個物件送到OUT輸送帶（按A、B、C順序，不斷循環）。如果某條輸送帶暫時沒有物件，手臂就會等待。",
+    "question": "根據圖中的情況，而且之後不會再有新物件送上輸送帶，手臂總共會搬運幾個物件？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3個"
+      },
+      {
+        "key": "B",
+        "text": "5個"
+      },
+      {
+        "key": "C",
+        "text": "7個"
+      },
+      {
+        "key": "D",
+        "text": "9個"
+      }
+    ],
+    "answer": "C",
+    "explanation": "手臂依A→B→C的順序循環兩次（共6個），接著開始第三輪，只能再從A拿一個（共7個），然後卡在B（B已經沒有物件了），只能一直等待。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這模擬的是「排程」——決定資源要如何分配給要執行的工作。這也考驗「從初始狀態逐步執行演算法、預測未來結果」的能力，這是工程師經常要做的事；找出哪裡出錯的過程，就叫做「除錯」(debugging)。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

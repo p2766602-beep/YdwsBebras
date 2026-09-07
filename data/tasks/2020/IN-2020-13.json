@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-13",
+  "title_en": "Painting the houses",
+  "title_zh": "房屋上色規則",
+  "source_country": "Japan",
+  "source_country_flag": "🇯🇵",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Japan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-13.png",
+    "path": "assets/images/india/2020/IN-2020-13.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Houses on Be-Taro's street must be painted red, light green, or dark blue: adjacent houses must differ, and a house must differ from the one directly across the street. Some houses are already painted.",
+    "question": "Which colour can be used for Be-Taro's house?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only red can be used"
+      },
+      {
+        "key": "B",
+        "text": "Only blue can be used"
+      },
+      {
+        "key": "C",
+        "text": "Only green can be used"
+      },
+      {
+        "key": "D",
+        "text": "Be-Taro can choose either blue or green"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Working step by step: houses with only one remaining valid colour (due to neighbours) get painted first, cascading constraints until only blue remains valid for Be-Taro's house.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The houses form a graph: vertices are houses, edges are \"next to\" or \"across from\" relations. The task requires colouring vertices so no edge connects two same-coloured vertices — graph colouring. Determining the minimum colours needed for any planar graph is a famous problem (the answer is 4, proven with heavy computer assistance). Many computer science problems can be modeled as graphs, letting us reuse well-developed graph algorithms."
+  },
+  "content_zh": {
+    "prompt": "Be-Taro這條街上的房子要漆成紅色、淺綠色或深藍色：相鄰的房子顏色不能一樣，正對面的房子顏色也不能一樣。有些房子已經漆好了。",
+    "question": "Be-Taro的房子可以漆什麼顏色？",
+    "options": [
+      {
+        "key": "A",
+        "text": "只能用紅色"
+      },
+      {
+        "key": "B",
+        "text": "只能用藍色"
+      },
+      {
+        "key": "C",
+        "text": "只能用綠色"
+      },
+      {
+        "key": "D",
+        "text": "藍色或綠色都可以"
+      }
+    ],
+    "answer": "B",
+    "explanation": "依序推算：先把因為鄰居顏色而只剩一種顏色可選的房子漆好，這樣的限制條件會一路連鎖推導下去，最後發現Be-Taro的房子只剩藍色可以選。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這些房子構成一張圖：房子是頂點，「相鄰」或「正對面」是邊。這一題要求給頂點上色，讓每條邊連接的兩個頂點顏色都不一樣——這就是「圖著色問題」。判斷任意平面圖最少需要幾種顏色，是個著名的難題（答案是4種，而且是靠大量電腦運算才證明出來的）。資訊科學裡很多問題都可以用圖來建模，這樣就能重複利用已經發展成熟的圖論演算法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

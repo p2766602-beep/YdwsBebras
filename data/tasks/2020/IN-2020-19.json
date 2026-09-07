@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-19",
+  "title_en": "Jumping Kangaroo",
+  "title_zh": "跳跳袋鼠回家",
+  "source_country": "Portugal",
+  "source_country_flag": "🇵🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Portugal",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-19.png",
+    "path": "assets/images/india/2020/IN-2020-19.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A kangaroo jumps home along a path, only vertically or horizontally, and only if there are no more than two bricks in the way. She wants to be home as fast as possible.",
+    "question": "How many jumps does the kangaroo need to make?",
+    "options": [
+      {
+        "key": "A",
+        "text": "14"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The shown solution requires 14 jumps.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This can be solved by backtracking: search step by step, and if a dead end is hit (all paths blocked by too many bricks), go back and try a different path. Backtracking is a widely-used technique for puzzles, Sudoku, and combinatorial optimization. Interestingly, this task is easier solved working backward from the destination (home) than forward from the start."
+  },
+  "content_zh": {
+    "prompt": "一隻袋鼠要沿著路徑跳回家，只能垂直或水平跳，而且路上擋著的磚塊數量不能超過兩塊。牠想盡快跳回家。",
+    "question": "袋鼠總共需要跳幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "14次"
+      },
+      {
+        "key": "B",
+        "text": "16次"
+      },
+      {
+        "key": "C",
+        "text": "18次"
+      },
+      {
+        "key": "D",
+        "text": "20次"
+      }
+    ],
+    "answer": "A",
+    "explanation": "圖中展示的解法總共需要14次跳躍。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題可以用「回溯法」解決：一步一步往前搜尋，如果走到死路（所有路徑都被太多磚塊擋住），就退回去（可能要退好幾步）試試別條路。回溯法廣泛用於解謎題、數獨、組合最佳化問題。有趣的是，這一題反過來從終點（家）往回推導，會比從起點往前搜尋更容易解出來，但沒有事先探索問題之前，很難判斷該從哪一頭開始比較好。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-16",
+  "title_en": "Pancake",
+  "title_zh": "鬆餅堆疊",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-16.png",
+    "path": "assets/images/india/2020/IN-2020-16.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Shiny wants the apple pancake at the bottom of a stack of 3; pancakes are only taken from the top. After 1 is served, the cook adds 4 fresh ones (apple first, then 3 others) on top. A girl takes 2. The cook adds 4 more fresh ones on top (no apple this time).",
+    "question": "What is the smallest number of pancakes that have to be taken before Shiny can get an apple pancake?",
+    "options": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Tracking the stack step by step: after all additions/removals, apple pancakes end up 6th and 8th from the top of the final 8-pancake stack — so 5 pancakes must be served before reaching the nearer apple pancake (the 6th).",
+    "ct_skills": "Representation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The pile of pancakes represents a stack — a data structure where elements are added/removed Last-In-First-Out (LIFO), only from the top. Stacks are used in function calls (parameters pushed onto a stack) and local variable storage. Everyday examples: stacked plates/books, or the \"undo\" feature in software, which keeps changes on a stack."
+  },
+  "content_zh": {
+    "prompt": "Shiny想要吃疊了3個鬆餅裡最底下的蘋果鬆餅；鬆餅只能從最上面拿。第一個被別人吃掉後，廚師又加了4個新鬆餅上去（先加蘋果口味，再加3個其他口味）。接著有個女生拿走了2個。廚師又加了4個新鬆餅上去（這次沒有蘋果口味）。",
+    "question": "Shiny最少要拿走幾個鬆餅，才能吃到蘋果鬆餅？",
+    "options": [
+      {
+        "key": "A",
+        "text": "8個"
+      },
+      {
+        "key": "B",
+        "text": "5個"
+      },
+      {
+        "key": "C",
+        "text": "6個"
+      },
+      {
+        "key": "D",
+        "text": "7個"
+      }
+    ],
+    "answer": "B",
+    "explanation": "逐步追蹤鬆餅堆的變化：所有加入跟拿走都結束後，最終這疊8個鬆餅裡，蘋果口味分別在從上數來第6個和第8個位置——所以最少要拿走5個鬆餅，才能拿到比較靠上面的那個蘋果鬆餅（第6個）。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這疊鬆餅正是一個「堆疊」(stack)——一種只能從最上面加入或取出元素的資料結構，遵循「後進先出」(LIFO)原則。堆疊被用在函式呼叫（參數會被推入堆疊）跟區域變數的儲存上。生活中的例子有：疊在一起的盤子或書本，還有軟體裡的「復原」(undo)功能——它就是把每次的變更存進一個堆疊裡。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-17",
+  "title_en": "Exhibition Tour",
+  "title_zh": "展覽動線設計",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-17.png",
+    "path": "assets/images/india/2020/IN-2020-17.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Architect Rahul produced 4 museum layouts, each with 7 numbered rooms. He wants a layout allowing a one-way tour: visitors pass through every room exactly once, without reusing a door to enter and exit the same room.",
+    "question": "Which layout allows each visitor to enter, visit each room exactly once, and then exit?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 平面圖A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 平面圖B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 平面圖C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 平面圖D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Only layout C allows a one-way tour (sequence 2,1,3,4,7,6,5). In A, room 1 has only one entrance (dead end). In B, room 6 (reachable from rooms 5 and 7) forces a repeat visit to reach the exit. In D, room 6 has only one entrance.",
+    "ct_skills": "Abstraction, Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is modeled as a graph: circles are rooms (plus \"outside\" before/after), lines are doors. Finding the tour means finding a path visiting all vertices — a problem graph theory shows is inherently difficult (NP-hard in general) even though this small instance is solvable by hand."
+  },
+  "content_zh": {
+    "prompt": "建築師Rahul設計了4種博物館平面圖，每種都有7個編號房間。他想選一種能讓訪客走「單向動線」的設計：每個房間恰好經過一次，而且進出同一個房間不能用同一扇門。",
+    "question": "哪一種平面圖能讓訪客進場、把每個房間恰好逛一次、然後出場？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）平面圖A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）平面圖B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）平面圖C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）平面圖D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "只有平面圖C能走單向動線（順序是2、1、3、4、7、6、5）。平面圖A裡1號房只有一個出入口(死路)。平面圖B裡6號房(可以從5號或7號到達)會迫使某個房間被重複經過才能到出口。平面圖D裡6號房也只有一個出入口。",
+    "ct_skills": "抽象化（Abstraction）、演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這個問題可以用「圖」來建模：圓圈代表房間（加上進場前跟出場後的「外面」），線代表門。找出動線就是要找一條經過所有頂點的路徑——圖論告訴我們，這種問題本質上很困難（一般情況下是NP困難），儘管這一題規模小，靠人工就能解出來。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-08",
+  "title_en": "Log Classifier",
+  "title_zh": "原木分類機",
+  "source_country": "Pakistan",
+  "source_country_flag": "🇵🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Pakistan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-08.png",
+    "path": "assets/images/india/2020/IN-2020-08.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A log storage facility sorts logs by three properties (inner rings, bark lines, nodes) using a chain of beavers, each sending logs left or right based on one property. A log with 3 rings, 3 bark lines, 2 nodes ends in stack D.",
+    "question": "On which stack will a log with 2 inner rings, 3 bark lines, and 1 node be sent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "B"
+      },
+      {
+        "key": "C",
+        "text": "C"
+      },
+      {
+        "key": "D",
+        "text": "D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Stack C holds logs with (2 rings,3 bark lines,1 node) and (3 rings,3 bark lines,1 node) — matching the given log's properties exactly.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This relates to packet classification and forwarding in network routers/switches, which inspect packets and decide which port to forward them to based on rules. The picture is a decision tree — used to make decisions with one rule per level, something computers do constantly when choosing an appropriate path among alternatives."
+  },
+  "content_zh": {
+    "prompt": "海狸村的原木倉庫依照三個特徵（內圈環數、樹皮紋路數、節疤數）來分類原木，方法是讓原木依序通過一排海狸，每隻海狸依照一個特徵決定原木往左或往右送。一根有3圈、3條樹皮紋路、2個節疤的原木最後會被送到D堆。",
+    "question": "一根有2圈、3條樹皮紋路、1個節疤的原木，會被送到哪一堆？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A堆"
+      },
+      {
+        "key": "B",
+        "text": "B堆"
+      },
+      {
+        "key": "C",
+        "text": "C堆"
+      },
+      {
+        "key": "D",
+        "text": "D堆"
+      }
+    ],
+    "answer": "C",
+    "explanation": "C堆裡的原木特徵是(2圈,3紋路,1節疤)和(3圈,3紋路,1節疤)——正好符合題目給的原木特徵。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這對應到網路交換器/路由器裡的「封包分類與轉發」：這些裝置會依照規則檢查封包，決定要把它轉發到哪個埠口。圖中畫的其實是一棵「決策樹」——資訊科學裡用來做決策的另一個概念，每一層套用一條規則。電腦時時刻刻都在做這種決策，在多個選項之間評估並挑出適合的路徑。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-29",
+  "title_en": "DNA Sequence",
+  "title_zh": "DNA突變距離",
+  "source_country": "Poland",
+  "source_country_flag": "🇵🇱",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：待確認(旗幟疑似素色紅底，僅供參考)",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-29.png",
+    "path": "assets/images/india/2020/IN-2020-29.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "DNA sequences use 4 bases (A,G,C,T). Creature Vormi mutates via: Substitution (change one base), Deletion (remove one base), Duplication (repeat a base). Starting sequence: GTATCG.",
+    "question": "Which of these four sequences CANNOT be generated from the starting sequence within 3 gene mutations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GCAATG"
+      },
+      {
+        "key": "B",
+        "text": "ATTATCCG"
+      },
+      {
+        "key": "C",
+        "text": "GAATGC"
+      },
+      {
+        "key": "D",
+        "text": "GGTAAAC"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A, B, and C can each be reached in exactly 3 mutation steps (shown by explicit mutation sequences). D requires 4 steps (duplication, duplication, substitution, deletion) — it cannot be reached in only 3.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Systematic Listing Counting & Reasoning",
+    "ct_explanation": "This asks for the Levenshtein (edit) distance between two strings — the minimum number of single-character edits (here: substitution, deletion, duplication instead of the usual insertion) needed to transform one string into another. The sequence whose edit distance isn't exactly 3 is the answer."
+  },
+  "content_zh": {
+    "prompt": "DNA序列由4種鹼基(A、G、C、T)組成。生物Vormi會用三種方式突變：取代(換掉一個鹼基)、刪除(移除一個鹼基)、複製(重複某個鹼基)。原始序列是GTATCG。",
+    "question": "下面哪一個序列「無法」由原始序列經過3次基因突變產生？",
+    "options": [
+      {
+        "key": "A",
+        "text": "GCAATG"
+      },
+      {
+        "key": "B",
+        "text": "ATTATCCG"
+      },
+      {
+        "key": "C",
+        "text": "GAATGC"
+      },
+      {
+        "key": "D",
+        "text": "GGTAAAC"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A、B、C都可以剛好用3步突變達成（可以列出明確的突變步驟）。D需要4步才能達成（複製、複製、取代、刪除）——沒辦法只用3步完成。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "系統性列舉、計數與推理",
+    "ct_explanation": "這一題問的其實是兩個字串之間的「Levenshtein距離」（編輯距離）——把一個字串變成另一個字串所需要的最少「單字元編輯」次數（這裡用的是取代、刪除、複製，而不是一般常見的插入）。編輯距離不是剛好等於3的那個序列，就是答案。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

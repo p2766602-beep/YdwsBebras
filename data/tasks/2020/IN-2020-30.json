@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-30",
+  "title_en": "Robot Parking",
+  "title_zh": "蜘蛛車停車",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-30.png",
+    "path": "assets/images/india/2020/IN-2020-30.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Robot cars in a fenced area move one square forward/backward, or turn 90° left/right per move. Only the spider car may move outside the fence to the spider square.",
+    "question": "What is the minimum number of robot moves needed to get the spider car to the spider square?",
+    "options": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "answer": "B",
+    "explanation": "If alone, the spider car needs exactly 8 moves (2 forward, 3 right, 2 turns). Clearing a path through the first L-shaped barricade of other cars takes 1 extra move; clearing the second L-shaped barricade takes 2 more moves (cannot be done in 1 without blocking the exit). Total: 8+1+2=11.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Proving a solution is minimal often requires exhaustive search — checking all possibilities to confirm nothing better exists. This is fast for a computer but often infeasible by hand for larger problems; algorithms like branch-and-bound or greedy strategies help simplify the search when exhaustive search becomes too slow."
+  },
+  "content_zh": {
+    "prompt": "圍欄裡的機器人車，每次可以往前一格、往後一格、或原地左轉/右轉90度。只有蜘蛛車可以移動到圍欄外的蜘蛛格。",
+    "question": "蜘蛛車最少要移動幾次，才能到達蜘蛛格？",
+    "options": [
+      {
+        "key": "A",
+        "text": "9次"
+      },
+      {
+        "key": "B",
+        "text": "11次"
+      },
+      {
+        "key": "C",
+        "text": "13次"
+      },
+      {
+        "key": "D",
+        "text": "15次"
+      }
+    ],
+    "answer": "B",
+    "explanation": "如果只有蜘蛛車自己，恰好需要8次移動（前進2次、右轉3次、轉彎2次）。要清出通過第一個L型路障（其他車輛）的路，需要多1次移動；清出第二個L型路障則需要多2次（無法只用1次完成，否則會擋住出口）。總共8+1+2＝11次。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "要證明一個解是「最少的」，通常需要窮舉所有可能性，確認沒有更好的解——這對電腦來說很快，但對人工來說，問題一大就很難做到。當窮舉法變得太慢時，可以用分支界限法或貪婪策略等演算法來簡化搜尋過程。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

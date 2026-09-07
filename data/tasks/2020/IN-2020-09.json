@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-09",
+  "title_en": "Tile Laying",
+  "title_zh": "遞迴磁磚",
+  "source_country": "Japan",
+  "source_country_flag": "🇯🇵",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Japan",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-09.png",
+    "path": "assets/images/india/2020/IN-2020-09.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beaver Bittu lays 8 types of numbered tiles left to right: tile 1 is always type 1, tile 2 is always type 2. Each next tile's number = sum of the previous two; if the sum exceeds 7, a grey tile numbered -2 is used instead. E.g. position 3 = tile 3 (1+2).",
+    "question": "Which tile will Bittu lay down in the eighth position?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 選項A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 選項B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 選項C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 選項D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Following the rule from the 4th tile onward step by step gives a type-4 tile at position 8.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This rule (each value determined by previous values) is called recursive — similar to the Fibonacci sequence, which sums the two previous values to get the next. Unlike Fibonacci (which never stops growing), this task caps overflow with a special -2 tile. Recursion is a widely-used programming technique, useful whenever a problem can be decomposed into smaller versions of itself."
+  },
+  "content_zh": {
+    "prompt": "海狸Bittu要由左到右鋪8種編號磁磚：第1塊固定是1號磁磚，第2塊固定是2號磁磚。之後每一塊的編號＝前兩塊編號的和；如果超過7，就改用編號-2的灰色磁磚。例如第3個位置會是3號磁磚（1+2＝3）。",
+    "question": "Bittu在第8個位置會鋪哪一塊磁磚？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）選項A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）選項B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）選項C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）選項D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "從第4塊開始依照規則逐步推算，可以得出第8個位置是4號磁磚。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這種「用前面的值決定後面的值」的規則叫做「遞迴」——跟費波那契數列很像，都是把前兩個值加起來得到下一個值。不同的是費波那契數列會一直無限成長，這一題則用一塊特殊的-2灰色磁磚把超過7的情況「截斷」。遞迴是資訊科學裡廣泛使用的程式技巧，適合用在「問題可以拆解成跟原問題性質相同、但規模更小的子問題」的情況。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

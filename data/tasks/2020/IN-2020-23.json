@@ -1,0 +1,68 @@
+{
+  "task_uid": "IN-2020-23",
+  "title_en": "Electric cars",
+  "title_zh": "電動車最快抵達",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-23.png",
+    "path": "assets/images/india/2020/IN-2020-23.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Blue car: 4km range, 3min charge. Green car: 5km range, 4min charge. Red car: 6km range, 5min charge. Cars needn't stop at every station, but a stop always takes the full charge time. All start fully charged at A; a map shows roads and stations between A and B.",
+    "question": "Based on the map, which car can travel from A to B in the fastest time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Blue"
+      },
+      {
+        "key": "B",
+        "text": "Green"
+      },
+      {
+        "key": "C",
+        "text": "Red"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Green: route of 13km total, needing only 2 charging stops (8 min) → 21 min total. Blue: needs all 4 stops on its route (14km, 12 min charging) → 26 min. Red: same route as green (13km, but 5-min charges) → 23 min. Green is fastest.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Finding the shortest route between points is a classic informatics problem, central to fast digital communication. Dijkstra's algorithm, published by Dutch computer scientist Edsger Dijkstra, finds the shortest path from a source node to every other node in a network."
+  },
+  "content_zh": {
+    "prompt": "藍色車：續航4公里，充電3分鐘。綠色車：續航5公里，充電4分鐘。紅色車：續航6公里，充電5分鐘。車子不用每站都停，但只要停下充電，就一定要充滿整段時間。所有車子從A點出發時都是滿電，地圖顯示了A到B之間的道路跟充電站。",
+    "question": "根據地圖，哪一輛車能最快從A開到B？",
+    "options": [
+      {
+        "key": "A",
+        "text": "藍色車"
+      },
+      {
+        "key": "B",
+        "text": "綠色車"
+      },
+      {
+        "key": "C",
+        "text": "紅色車"
+      }
+    ],
+    "answer": "B",
+    "explanation": "綠色車：走一條總長13公里的路線，只需要停靠2次充電(共8分鐘)→總共21分鐘。藍色車：這條路線上4個充電站都得停(14公里，共12分鐘充電)→總共26分鐘。紅色車：走跟綠色車一樣的路線(13公里，但每次充電要5分鐘)→總共23分鐘。綠色車最快。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "找出兩點之間最短路徑，是資訊科學裡的經典問題，對於快速的數位通訊至關重要。荷蘭電腦科學家Edsger Dijkstra發表的「Dijkstra演算法」，可以找出從一個起點到網路中所有其他節點的最短路徑。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

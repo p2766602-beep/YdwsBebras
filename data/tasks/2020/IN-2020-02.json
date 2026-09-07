@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-02",
+  "title_en": "Where it can fly?",
+  "title_zh": "蜜蜂能飛到哪裡",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-02.png",
+    "path": "assets/images/india/2020/IN-2020-02.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Bees fly from one square to the next only horizontally or vertically. When a bee leaves the hive in the morning, it can fly up to a maximum of 3 squares from the hive's square.",
+    "question": "How many flowers can be reached by the bees?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "C",
+    "explanation": "All flowers within a rectilinear distance of 3 squares from the hive are reachable. Finding the farthest reachable squares in each direction, then including everything closer, gives 7 reachable flowers.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "The bee's flight is described by an algorithm; understanding an algorithm well enough to infer its properties (like maximum reach) is an important informatics skill. This grid-based distance (only horizontal/vertical moves, no diagonals) is called rectilinear, city-block, or Manhattan distance — distinct from ordinary (Euclidean) distance."
+  },
+  "content_zh": {
+    "prompt": "蜜蜂只能水平或垂直地從一格飛到下一格。每隻蜜蜂早上離開蜂巢時，最多只能飛到距離蜂巢3格遠的地方。",
+    "question": "蜜蜂總共可以飛到幾朵花那裡？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5朵"
+      },
+      {
+        "key": "B",
+        "text": "6朵"
+      },
+      {
+        "key": "C",
+        "text": "7朵"
+      },
+      {
+        "key": "D",
+        "text": "8朵"
+      }
+    ],
+    "answer": "C",
+    "explanation": "所有跟蜂巢方格距離在3格以內的花都能到達。先找出每個方向最遠能到的格子，再把比它近的格子全部算進去，總共可以到達7朵花。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "蜜蜂的飛行方式其實就是一種演算法；能理解一個演算法到足以推論出它的特性（例如最遠能飛多遠），是資訊科學裡很重要的能力。這種只能水平垂直移動（不能斜走）的方格距離，叫做「直角距離」或「曼哈頓距離」，跟一般兩點間的直線距離（歐幾里得距離）不一樣。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

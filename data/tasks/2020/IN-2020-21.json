@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-21",
+  "title_en": "Rahul's Drawings",
+  "title_zh": "一筆畫",
+  "source_country": "Portugal",
+  "source_country_flag": "🇵🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Portugal",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-21.png",
+    "path": "assets/images/india/2020/IN-2020-21.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Rahul can draw pictures without lifting his pen, drawing lines point to point, but never redrawing an already-drawn line.",
+    "question": "Which of the following pictures can Rahul also draw without lifting his pen?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 圖形A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 圖形B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 圖形C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 圖形D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Only C has at most two points with an odd number of connecting lines (a requirement for a one-stroke drawing). A has four such points (too many). B similarly fails. D's inner triangle isn't connected to the outer square at all, making it impossible to draw as one continuous path.",
+    "ct_skills": "Pattern matching",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Points and connecting lines form a graph — vertices and edges. A drawable-in-one-stroke graph must be connected, with zero or exactly two odd-degree vertices; such a path is called an Eulerian path, after Leonhard Euler, who first studied this via the famous Seven Bridges of Königsberg problem. Fleury's algorithm and Hierholzer's algorithm can find such paths systematically."
+  },
+  "content_zh": {
+    "prompt": "Rahul可以不提筆一次畫完一幅圖，畫線是從一點連到下一點，但同一條線不能重複畫兩次。",
+    "question": "下面哪一張圖，Rahul也能一筆畫完？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）圖形A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）圖形B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）圖形C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）圖形D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "只有C的圖裡「連接奇數條線的點」最多只有兩個（這是一筆畫成立的必要條件）。A有四個這樣的點（太多了）。B也有同樣的問題。D的內部三角形根本沒有跟外面的正方形連接，所以完全不可能用一條連續路徑畫完。",
+    "ct_skills": "樣式比對（Pattern matching）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "點跟連接的線構成一張「圖」——頂點和邊。能夠一筆畫完的圖，必須是連通的，而且「連接奇數條邊的頂點」數量要是0個或恰好2個；這樣的路徑叫做「歐拉路徑」，得名自尤拉(Leonhard Euler)，他是透過著名的「柯尼斯堡七橋問題」首次研究這個問題的。Fleury演算法和Hierholzer演算法都可以有系統地找出這種路徑。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

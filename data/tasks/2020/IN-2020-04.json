@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-04",
+  "title_en": "Teddy Bear Hunt",
+  "title_zh": "泰迪熊尋寶",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 標題旁無國旗標示，疑似印度自製題",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-04.png",
+    "path": "assets/images/india/2020/IN-2020-04.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The beaver family goes on a Teddy Bear hunt, starting and ending at home (named TEDDY BEAR), walking only along roads. They saw 4 Teddy Bears and photographed them, but forgot one.",
+    "question": "Which Teddy Bear did they forget?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 泰迪熊A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 泰迪熊B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 泰迪熊C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 泰迪熊D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The route shown in red is the only one that passes exactly 4 teddy bears — the forgotten one is C.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Finding a route is a common computer science problem. The map is a planar graph (nodes = houses, edges = roads); the task is a combinatorial problem of determining which node must lie on any 4-node route not including home — like planning a route from home to school to the pool to the shop and back."
+  },
+  "content_zh": {
+    "prompt": "海狸一家去尋找泰迪熊，從家裡（叫做TEDDY BEAR）出發，只能沿著道路走，最後回到家。牠們看到4隻泰迪熊並拍了照，但忘記其中一隻是在哪裡看到的。",
+    "question": "牠們忘記的是哪一隻泰迪熊？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）泰迪熊A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）泰迪熊B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）泰迪熊C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）泰迪熊D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "圖中紅色標示的路線，是唯一恰好會經過4隻泰迪熊的路線——忘記的那隻就是C。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "找路徑是資訊科學裡常見的問題。這張地圖其實是一個平面圖（節點是房子、邊是道路），這一題是個組合問題：要判斷「不包含家」的4節點路線裡，哪個節點是一定會經過的——就像規劃「從家裡到學校、到游泳池、到商店、再回家」的路線一樣。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

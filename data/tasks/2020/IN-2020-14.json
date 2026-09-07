@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-14",
+  "title_en": "Towns and Highways",
+  "title_zh": "城鎮與公路",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-14.png",
+    "path": "assets/images/india/2020/IN-2020-14.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A map shows 5 towns (black dots) and 4 highways (coloured lines). We want a diagram where towns are circles, connected by a line if they lie on the same highway.",
+    "question": "Which diagram represents the map correctly?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 圖A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 圖B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 圖C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 圖D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Studying the map: A-D share a highway; B-C-D share one; C-D-E share one; D connects to all others. Only diagram C matches all these relations exactly (A misses the C-E connection; B also misses C-E; D adds false connections A-B and A-E).",
+    "ct_skills": "Representation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Computer programs must represent reality with data; the same reality can often be represented multiple ways, and choosing the right one matters. A graph (vertices + edges) is a commonly used representation, central to the field of Graph Theory. This task shows the same reality can be drawn as different-looking (but functionally different!) graphs — care is needed to represent relationships correctly, not just visually similarly."
+  },
+  "content_zh": {
+    "prompt": "地圖上有5座城鎮（黑點）和4條公路（彩色線段）。我們想用「城鎮是圓圈、同一條公路上的城鎮之間連一條線」的方式畫成示意圖。",
+    "question": "下面哪張示意圖正確代表了這張地圖？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）圖A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）圖B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）圖C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）圖D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "仔細研究地圖後可以發現：A和D在同一條公路上；B、C、D在同一條公路上；C、D、E在同一條公路上；D跟其他所有城鎮都在同一條公路上。只有圖C完全符合這些關係（圖A漏了C-E的連線；圖B也漏了C-E；圖D多畫了A-B和A-E這兩條不存在的連線）。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "電腦程式必須用資料來表示現實世界；同一個現實情況常常可以用好幾種方式表示，選對表示方式很重要。「圖」（頂點+邊）是很常用的一種表示法，也是「圖論」這門學科的核心。這一題顯示：同樣的現實情況，可以畫成看起來不同（而且功能上真的不同！）的圖——表示關係時要特別小心，不能只看視覺上像不像。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

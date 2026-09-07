@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-32",
+  "title_en": "MathMachine",
+  "title_zh": "數學機器",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-32.png",
+    "path": "assets/images/india/2020/IN-2020-32.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A MathMachine chains identical components. Each takes 3 numbers: if the first is 1, return the third number; otherwise decrease the first by 1, increase the second by 2, add the new second to the third, and pass all three to the next component. The machine feeds an input as (input, 1, 1) to the first component.",
+    "question": "The MathMachine processes the input 4. Which number does it return as output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "64"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tracing through: (4,1,1)→(3,3,4)→(2,5,9)→(1,7,16)→returns 16.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This models recursion: dividing a problem into subproblems of the same type, where the solution depends on solutions to smaller instances. Recursion lets an infinite set of computations be described by a finite program with no explicit repetition — a core idea in computer science. Tail recursion (like here) is especially easy to implement efficiently."
+  },
+  "content_zh": {
+    "prompt": "數學機器是由完全相同的元件串接而成的。每個元件接收3個數字：如果第一個數字是1，就直接回傳第三個數字；否則就把第一個數字減1、第二個數字加2、把新的第二個數字加到第三個數字上，再把三個數字傳給下一個元件。機器會把輸入值當作(輸入值, 1, 1)送進第一個元件。",
+    "question": "數學機器處理輸入值4時，會回傳什麼數字？",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "64"
+      }
+    ],
+    "answer": "C",
+    "explanation": "依序推算：(4,1,1)→(3,3,4)→(2,5,9)→(1,7,16)→回傳16。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這模擬的是「遞迴」：把一個問題拆解成同類型但規模更小的子問題，解答依賴於這些較小問題的解答。遞迴讓「無窮多次計算」可以用一支沒有明確重複指令的有限程式描述出來——這是資訊科學裡的核心概念之一。像這一題這種「尾遞迴」特別容易被有效率地實作出來。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

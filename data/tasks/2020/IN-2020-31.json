@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2020-31",
+  "title_en": "WaterWorks",
+  "title_zh": "水桶溢流網路",
+  "source_country": "New Zealand",
+  "source_country_flag": "🇳🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：New Zealand",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-31.png",
+    "path": "assets/images/india/2020/IN-2020-31.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A system of buckets, arranged vertically and connected by overflow pipes, each labeled with a capacity. Once a bucket fills, remaining water splits evenly between its overflow pipes and continues down. The top bucket (S) holds no water. 200L is poured into S.",
+    "question": "How much water will accumulate in bucket A if 200L is poured into S?",
+    "options": [
+      {
+        "key": "A",
+        "text": "65.5 L"
+      },
+      {
+        "key": "B",
+        "text": "66.7 L"
+      },
+      {
+        "key": "C",
+        "text": "43 L"
+      },
+      {
+        "key": "D",
+        "text": "100 L"
+      },
+      {
+        "key": "E",
+        "text": "131 L"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Calculating the water flow bucket by bucket down the system (only 8 values on the relevant side need calculating), bucket A ends up with 43 L.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The buckets/pipes form a directed graph (a tree, actually) with unlimited-capacity edges (pipes) but capacity-limited nodes (buckets) that \"steal\" some water. This can be solved with a flood-fill algorithm: pour all water into the root, add it to a to-do list, and repeatedly split overflow from each bucket into the ones below until the to-do list is empty."
+  },
+  "content_zh": {
+    "prompt": "一套垂直排列、用溢流管連接的水桶系統，每個桶子都標示著容量。桶子裝滿後，多餘的水會平均分配到往下的溢流管，繼續往下流。最上面的桶子(S)本身不裝水，把200公升的水倒進S。",
+    "question": "如果把200公升的水倒進S，桶子A最後會累積多少水？",
+    "options": [
+      {
+        "key": "A",
+        "text": "65.5公升"
+      },
+      {
+        "key": "B",
+        "text": "66.7公升"
+      },
+      {
+        "key": "C",
+        "text": "43公升"
+      },
+      {
+        "key": "D",
+        "text": "100公升"
+      },
+      {
+        "key": "E",
+        "text": "131公升"
+      }
+    ],
+    "answer": "C",
+    "explanation": "沿著系統一桶一桶計算水流量（其實只需要計算相關那一側的8個數值），最後桶子A會累積43公升的水。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這些桶子跟水管構成一個有向圖（其實是一棵樹）：水管（邊）容量無限，但桶子（節點）本身有容量上限，會「截留」一部分水。這可以用「flood-fill」演算法解決：把所有水倒進根節點，加進一個「待處理清單」，然後不斷把每個桶子溢出的水分配給下面的桶子，直到清單清空為止。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

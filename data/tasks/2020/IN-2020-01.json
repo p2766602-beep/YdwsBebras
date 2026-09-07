@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-01",
+  "title_en": "Train Tracks",
+  "title_zh": "火車軌道",
+  "source_country": "Portugal",
+  "source_country_flag": "🇵🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Portugal",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-01.png",
+    "path": "assets/images/india/2020/IN-2020-01.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Can you help guiding the train to the station? Each box on the map has track pieces that make the train go straight, left, or right.",
+    "question": "Which choice of tracks for each position would make the train arrive safely to the station?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 軌道組合A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 軌道組合B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 軌道組合C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 軌道組合D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The other options lead to tracks that do not guide the train all the way to the station; only D forms a complete, correct path.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "A railway track guides a train much like a computer program guides a computer: both are made of many small instructions executed in sequence. To solve this task, one must anticipate the train's future movement before it happens — analysing the system and planning ahead, a core facet of computational thinking."
+  },
+  "content_zh": {
+    "prompt": "你能幫忙把火車引導到車站嗎？地圖上每一格都有軌道零件，可以讓火車直走、左轉或右轉。",
+    "question": "每個位置該放哪種軌道，才能讓火車安全抵達車站？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）軌道組合A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）軌道組合B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）軌道組合C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）軌道組合D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "其他選項的軌道都無法把火車一路引導到車站；只有D形成一條完整且正確的路徑。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "鐵軌引導火車前進，就像電腦程式引導電腦運作一樣：兩者都是由許多依序執行的小指令組成。要解開這一題，必須在火車真正通過之前，先在腦中預想它接下來會怎麼走——分析系統、預先規劃，這正是運算思維的核心能力之一。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

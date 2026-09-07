@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-25",
+  "title_en": "Snakes and Ladders",
+  "title_zh": "蛇梯棋最少骰幾次",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-25.png",
+    "path": "assets/images/india/2020/IN-2020-25.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Snakes and Ladders: roll a die (1-6), move that many cells; start at cell 1, win at cell 49. Landing on a snake's head slides you to its tail (e.g. cell 21→5); landing on a ladder's bottom climbs to its top (e.g. cell 23→36).",
+    "question": "If you are at cell 19, what is the minimum number of dice rolls to win?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Moving forward only takes a minimum of 4 rolls. But rolling backward-friendly: from 19, roll 2→cell 21→snake to cell 5; roll 5→cell 10→ladder to cell 44; roll 5→cell 49 (win). Total: 3 rolls — impossible in 2, since no single roll from any reachable cell after 1 roll can reach 49.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is a shortest path problem, representable as a graph: cells are nodes, with an edge if reachable in one dice roll (or via snake/ladder). Breadth-first search (BFS) explores all neighbors at the current depth before going deeper — exactly the systematic approach needed to guarantee finding the minimum number of rolls."
+  },
+  "content_zh": {
+    "prompt": "蛇梯棋規則：擲骰子(1~6)，依點數往前移動；從1號格出發，走到49號格獲勝。踩到蛇頭會滑到蛇尾（例如21號格→5號格）；踩到梯子底部會爬到梯子頂端（例如23號格→36號格）。",
+    "question": "如果你在19號格，最少要擲幾次骰子才能獲勝？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2次"
+      },
+      {
+        "key": "B",
+        "text": "3次"
+      },
+      {
+        "key": "C",
+        "text": "4次"
+      },
+      {
+        "key": "D",
+        "text": "5次"
+      }
+    ],
+    "answer": "B",
+    "explanation": "只往前走最少需要4次。但如果願意先往後繞：從19擲2→21號格→蛇滑到5號格；擲5→10號格→梯子爬到44號格；擲5→49號格(獲勝)。總共3次——2次是不可能的，因為擲一次骰子後能到達的任何格子，都不可能再一次到49號格。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是一個最短路徑問題，可以表示成圖：格子是節點，如果一次骰子(或搭配蛇/梯)可以到達，就連一條邊。「廣度優先搜尋」(BFS)會先探索目前深度的所有相鄰節點，再往更深的地方走——這正是能保證找到最少骰子次數的系統性方法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

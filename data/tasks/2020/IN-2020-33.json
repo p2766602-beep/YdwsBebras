@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2020-33",
+  "title_en": "Game of Whispers",
+  "title_zh": "傳話遊戲的錯誤數",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-33.png",
+    "path": "assets/images/india/2020/IN-2020-33.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "5 friends sit in sequence: Anjali, Bernard, Chandra, Damini, Eshwar. Each whispers a 10-letter word to the next with exactly one error (a letter replacement or a deletion). Anjali whispers A-D-V-E-N-T-U-R-E-S to Bernard.",
+    "question": "Which of these spellings could be whispered to Eshwar (after 3 total errors)? I. A-D-E-N-U-R  II. A-D-D-E-N-T-U-R-E-S  III. A-D-V-E-N-T-U-R-E  IV. A-V-E-N-G-E-R-S  V. D-E-N-T-U-R-E",
+    "options": [
+      {
+        "key": "A",
+        "text": "I & II"
+      },
+      {
+        "key": "B",
+        "text": "I & IV"
+      },
+      {
+        "key": "C",
+        "text": "II, III"
+      },
+      {
+        "key": "D",
+        "text": "II, III, V"
+      },
+      {
+        "key": "E",
+        "text": "II, III, IV"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Exactly 3 errors occur by the time it reaches Eshwar. I needs 4 deletions (impossible, max 3). II is reachable (replace, replace, replace-back). III is reachable (delete, replace, replace-back). IV needs more than 3 errors (2 deletions + 2 replacements). V is reachable (exactly 3 deletions). So correct: II, III, V.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This illustrates noise in information transfer — here, deletions and replacements. Since noise is limited to 3 letters, the final word must share at least 7 letters (in sequence) with the original. Real digital signals face similar noise (bit-flips, bit-drops); Claude Shannon, the \"father of information theory,\" pioneered how to transmit signals with near-zero error despite channel noise."
+  },
+  "content_zh": {
+    "prompt": "5個朋友依序坐著：Anjali、Bernard、Chandra、Damini、Eshwar。每個人傳話給下一個人時，都會剛好出現一個錯誤（換掉一個字母，或刪掉一個字母）。Anjali傳給Bernard的是A-D-V-E-N-T-U-R-E-S。",
+    "question": "傳到Eshwar手上時（總共經過3次錯誤），下面哪些拼法有可能出現？ I. A-D-E-N-U-R　II. A-D-D-E-N-T-U-R-E-S　III. A-D-V-E-N-T-U-R-E　IV. A-V-E-N-G-E-R-S　V. D-E-N-T-U-R-E",
+    "options": [
+      {
+        "key": "A",
+        "text": "I 和 II"
+      },
+      {
+        "key": "B",
+        "text": "I 和 IV"
+      },
+      {
+        "key": "C",
+        "text": "II、III"
+      },
+      {
+        "key": "D",
+        "text": "II、III、V"
+      },
+      {
+        "key": "E",
+        "text": "II、III、IV"
+      }
+    ],
+    "answer": "D",
+    "explanation": "傳到Eshwar手上時，恰好經過3次錯誤。I需要4次刪除才能達成(不可能，最多只有3次)。II可以達成(換、換、換回來)。III可以達成(刪、換、換回來)。IV需要超過3次錯誤(2次刪除+2次替換)。V可以達成(恰好3次刪除)。所以正確答案是II、III、V。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這一題示範的是「資訊傳輸中的雜訊」——這裡的雜訊是刪除和替換。因為雜訊次數限制在3個字母以內，所以最終傳到的字，一定至少有7個字母（依序）跟原字相同。真實的數位訊號也會遇到類似的雜訊（位元翻轉、位元遺失）；有「資訊理論之父」之稱的克勞德·夏農，就是在研究如何在有雜訊的通道裡，把訊號幾乎零誤差地傳送出去的先驅。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

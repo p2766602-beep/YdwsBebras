@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-35",
+  "title_en": "Towers of Blocks",
+  "title_zh": "積木塔調整高度",
+  "source_country": "Portugal",
+  "source_country_flag": "🇵🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Portugal",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-35.png",
+    "path": "assets/images/india/2020/IN-2020-35.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ram built 9 towers of blocks (same height per block, different widths per tower). Changing a tower's height (adding/removing blocks from the top) costs energy = width × number of blocks changed. Ram wants all towers the same height, minimizing total energy.",
+    "question": "What is the minimum total energy needed to make all towers the same height?",
+    "options": [
+      {
+        "key": "A",
+        "text": "39"
+      },
+      {
+        "key": "B",
+        "text": "40"
+      },
+      {
+        "key": "C",
+        "text": "46"
+      },
+      {
+        "key": "D",
+        "text": "51"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Setting all towers to height 3 (not the median height 4!) costs the least: 39 units total, because towers have different widths so the median height isn't necessarily optimal. Since the cost function is unimodal (single minimum), a ternary search can efficiently find height 3 as optimal without checking every height.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Each pile of blocks is a stack, supporting push/pop operations — useful in many algorithms beyond block-building, such as evaluating arithmetic expressions. Finding the minimum-cost solution among all possibilities is an optimization problem; since the cost here is unimodal, ternary search (a divide-and-conquer algorithm) efficiently narrows down the answer by repeatedly eliminating outer thirds of the search range."
+  },
+  "content_zh": {
+    "prompt": "Ram用積木蓋了9座塔（每塊積木高度相同，但每座塔的積木寬度不同）。改變一座塔的高度（從頂端加或拆積木）所需能量＝寬度×變動的積木數。Ram想讓所有塔都變成同樣高度，並且花費的總能量越少越好。",
+    "question": "把所有塔調整成同樣高度，最少需要花費多少總能量？",
+    "options": [
+      {
+        "key": "A",
+        "text": "39"
+      },
+      {
+        "key": "B",
+        "text": "40"
+      },
+      {
+        "key": "C",
+        "text": "46"
+      },
+      {
+        "key": "D",
+        "text": "51"
+      }
+    ],
+    "answer": "A",
+    "explanation": "把所有塔都調整成高度3（不是中位數高度4！）花費最少，總共39單位能量——因為每座塔寬度不同，中位數高度不見得是最省能量的答案。由於這個成本函數是「單峰」的（只有一個最低點），可以用三分搜尋法有效率地找到高度3就是最佳解，不用一個個高度都算過。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "每疊積木其實就是一個「堆疊」(stack)，支援「推入」跟「取出」操作——這種結構在很多演算法裡都很有用，不只是疊積木，例如計算算術運算式的值也會用到。在所有可能性裡找出成本最低的解，這叫做「最佳化問題」；因為這裡的成本函數是單峰的，可以用「三分搜尋法」（一種分治演算法）有效率地縮小搜尋範圍，每次都排除掉搜尋區間兩端各三分之一的部分。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

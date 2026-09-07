@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-03",
+  "title_en": "Footprint",
+  "title_zh": "誰的腳印",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-03.png",
+    "path": "assets/images/india/2020/IN-2020-03.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "There are four robot animals in a shop. One secretly walked around at night, leaving a trail of footprints.",
+    "question": "Whose footprint is this?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 動物A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 動物B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 動物C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 動物D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The matching footprint is D, the rabbit's — the only one made of one large triangle with a circle inside, plus three small circles.",
+    "ct_skills": "Abstraction, Pattern recognition",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Solving this requires identifying just the feet of each robot animal, ignoring all other body parts — a process called abstraction, a key computational thinking skill of selecting only the information necessary. Matching the footprint to a foot shape is pattern recognition, something humans do easily but which is genuinely hard for computers, requiring machine-learning techniques."
+  },
+  "content_zh": {
+    "prompt": "商店裡有四隻機器人動物。晚上有一隻偷偷在店裡走動，留下了一串腳印。",
+    "question": "這是誰的腳印？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）動物A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）動物B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）動物C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）動物D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "符合的腳印是D，兔子的腳印——是唯一由一個內含圓圈的大三角形、加上三個小圓圈組成的圖案。",
+    "ct_skills": "抽象化（Abstraction）、樣式辨識（Pattern recognition）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "解這一題需要只看每隻機器人動物的「腳」，忽略其他身體部位——這個過程叫做「抽象化」，是運算思維裡「只挑出必要資訊」的關鍵能力。把腳印跟腳型配對則是「樣式辨識」，人類做起來很輕鬆，但對電腦來說其實相當困難，需要靠機器學習技術才能做到。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

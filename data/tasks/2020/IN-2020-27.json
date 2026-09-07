@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2020-27",
+  "title_en": "Chairs",
+  "title_zh": "海狸搶椅子",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-27.png",
+    "path": "assets/images/india/2020/IN-2020-27.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "6 beavers sit on chairs numbered 1-6. A number 1-4 is chosen; with each clap, everyone moves that many seats right (wrapping to front), then the rightmost beaver is out and the last chair removed. E.g. drawing number 2 makes beaver 6 the winner.",
+    "question": "Who will be the winner if number 3 is drawn?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Simulating clap by clap with a shift of 3: beaver 3 is out, then 5, then 6, then 4, then 1 — leaving beaver 2 as the winner.",
+    "ct_skills": "Representation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This models a bitwise Circular Shift (rotate) operation: bits (or here, beavers) are rotated as if the ends of the row were joined, with whatever shifts out one end entering the other. This is useful whenever all existing values must be retained while shifting, and is frequently used in digital cryptography."
+  },
+  "content_zh": {
+    "prompt": "6隻海狸坐在編號1-6的椅子上。先抽出一個1~4的數字；每拍一次手，所有海狸就往右移動那麼多格（移到最後會繞回最前面），接著最右邊的那隻海狸出局，並移除最後一張椅子。例如抽到數字2，最後6號海狸會獲勝。",
+    "question": "如果抽到數字3，誰會是最後的贏家？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1號"
+      },
+      {
+        "key": "B",
+        "text": "2號"
+      },
+      {
+        "key": "C",
+        "text": "3號"
+      },
+      {
+        "key": "D",
+        "text": "4號"
+      },
+      {
+        "key": "E",
+        "text": "5號"
+      }
+    ],
+    "answer": "B",
+    "explanation": "依序模擬每次拍手、移動3格的過程：先是3號出局，接著5號、6號、4號、1號依序出局——最後留下的是2號，牠是贏家。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這模擬的是位元運算裡的「循環移位」(Circular Shift)操作：位元（這裡是海狸）像排成一個環一樣旋轉，從一端移出的值會從另一端補進來。這種操作在需要「保留所有原始資料同時進行移位」的場合很有用，在數位密碼學裡也經常用到。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

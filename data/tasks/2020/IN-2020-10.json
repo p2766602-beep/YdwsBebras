@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-10",
+  "title_en": "Theater Performance",
+  "title_zh": "話劇舞台紀錄",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-10.png",
+    "path": "assets/images/india/2020/IN-2020-10.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Actors in a fairy-tale play enter and leave the stage in an order shown in a picture (top to bottom), with two acts and a break between them.",
+    "question": "Which statement is NOT true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The prince and the princess were together on the stage"
+      },
+      {
+        "key": "B",
+        "text": "The king and the dragon were together on the stage"
+      },
+      {
+        "key": "C",
+        "text": "The prince came to the stage after the break"
+      },
+      {
+        "key": "D",
+        "text": "The prince and the dragon were together on the stage"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The king left the stage right before the dragon arrived, so they were never on stage together — making B false. A, C, D can all be confirmed true from the recorded entry/exit order.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "In informatics we often graphically depict a process — events happening over time in a given order. Visual representations help present information quickly and clearly by leveraging the human visual system's pattern-recognition ability. Reading such diagrams and drawing correct conclusions is an important computer science skill."
+  },
+  "content_zh": {
+    "prompt": "一齣童話劇裡，演員依照圖中所示的順序（由上到下）上下舞台，全劇分兩幕，中間有個中場休息。",
+    "question": "下面哪一句敘述「不是真的」？",
+    "options": [
+      {
+        "key": "A",
+        "text": "王子和公主曾經同時在舞台上"
+      },
+      {
+        "key": "B",
+        "text": "國王和龍曾經同時在舞台上"
+      },
+      {
+        "key": "C",
+        "text": "王子是在中場休息後才上台的"
+      },
+      {
+        "key": "D",
+        "text": "王子和龍曾經同時在舞台上"
+      }
+    ],
+    "answer": "B",
+    "explanation": "國王在龍上台之前就已經離開舞台了，所以他們兩個從來沒有同時在舞台上——B是錯的。A、C、D都可以從記錄的上下場順序裡確認是真的。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "在資訊科學裡，我們經常用圖示來記錄一個「隨時間發生的一連串事件」的過程。視覺化的呈現方式能善用人類視覺系統辨識樣式的能力，讓資訊更快、更清楚地被理解。看懂這類圖表並從中做出正確推論，是資訊科學裡很重要的能力。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

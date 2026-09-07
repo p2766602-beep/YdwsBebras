@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-05",
+  "title_en": "Picking Mushroom",
+  "title_zh": "採蘑菇評分",
+  "source_country": "South Korea",
+  "source_country_flag": "🇰🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：South Korea",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-05.png",
+    "path": "assets/images/india/2020/IN-2020-05.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beavers collect mushrooms for a museum, which only wants rare ones. Rarity score: multiple-layered=1pt, horned=2pt, dotted=3pt, striped=5pt; sum of 0-3 points = common, 4+ points = rare.",
+    "question": "Which mushroom should Arun NOT pick (i.e. is common, not rare)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 蘑菇A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 蘑菇B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 蘑菇C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 蘑菇D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Scoring each mushroom's features: A scores only 3 points total (common); B, C, D all score 4 or more points (rare). So A should not be picked.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This is a classification task: assigning a label to each object based on its features. Real-life examples include medical image diagnosis, document categorization, facial recognition, and spam detection. The scoring function here sums individual feature values and compares to a threshold — exactly how many spam filters work, assigning point values to keywords/sender reputation and flagging messages above a threshold."
+  },
+  "content_zh": {
+    "prompt": "海狸幫博物館收集蘑菇，博物館只想要稀有的蘑菇。稀有度評分：多層1分、有角2分、有斑點3分、有條紋5分；總分0~3分算普通，4分以上算稀有。",
+    "question": "Arun「不應該」採哪一朵蘑菇（也就是評分為普通的那朵）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）蘑菇A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）蘑菇B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）蘑菇C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）蘑菇D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "把每朵蘑菇的特徵評分加總：A總分只有3分（普通）；B、C、D總分都在4分以上（稀有）。所以不該採的是A。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這是一個「分類任務」：依照物件的特徵給它貼上標籤。現實生活中的例子包括醫學影像診斷、文件主題分類、人臉辨識、垃圾郵件偵測等。這一題的評分函式是把各項特徵值加總後跟門檻值比較——這正是許多垃圾郵件過濾器的運作原理：依關鍵字/寄件者信譽給分，總分超過門檻就標記為垃圾郵件。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

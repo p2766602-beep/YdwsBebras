@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-34",
+  "title_en": "Cheating",
+  "title_zh": "考卷傳紙條",
+  "source_country": "New Zealand",
+  "source_country_flag": "🇳🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：New Zealand",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-34.png",
+    "path": "assets/images/india/2020/IN-2020-34.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "7 classmates will each solve a problem after a known number of minutes (marked on their desks). A single paper passes between adjacent desks (not diagonal) at 1 table/minute, collecting each solution it passes after that desk has solved it. The paper can start anywhere but must reach your desk (marked X) after 16 minutes.",
+    "question": "Assuming optimal passing, how many solutions will you receive by the end of the 16-minute exam?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Collecting all 7 is provably impossible (the two slowest desks, 12 and 15 minutes, can't both be reached in time). Careful path analysis shows 6 is also impossible, but a specific route (collecting desks 2,1,6,3,8 then desk 15's neighbor) reaches the X desk in exactly 16 minutes with 5 solutions.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is an optimization problem on a graph: desks are nodes, adjacency is edges, and a valid path must reach each desk no earlier than its solve-time. The explanation uses proof-by-contradiction to rule out 6-7 solutions, then a constructive example for 5. Real-world problem solving often uses a constructive/branch-and-bound approach instead: try a path, backtrack on failure, and refine — a technique invented by Ailsa Land and Alison Doig in 1960, common for inherently complex problems."
+  },
+  "content_zh": {
+    "prompt": "7個同學各自會在已知的時間點（寫在他們桌上）解出一道題目。一張紙條可以在相鄰的桌子間（不能斜傳）傳遞，每張桌子傳遞要花1分鐘，而且紙條經過某張桌子時，如果那題已經解出來了，就會把答案一併帶走。紙條可以從任何一張桌子開始，但必須在考試開始後第16分鐘抵達你的座位（標示為X）。",
+    "question": "假設所有人都用最理想的方式傳紙條，你在16分鐘的考試結束前總共能收到幾個答案？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4個"
+      },
+      {
+        "key": "B",
+        "text": "5個"
+      },
+      {
+        "key": "C",
+        "text": "6個"
+      },
+      {
+        "key": "D",
+        "text": "7個"
+      }
+    ],
+    "answer": "B",
+    "explanation": "可以證明收集全部7個是不可能的（兩張最慢解出的桌子，12分鐘跟15分鐘那兩張，沒辦法同時來得及收集）。仔細分析後發現收集6個也不可能，但有一條特定路線（依序收集2、1、6、3、8號桌，再到15號桌旁邊）能在恰好16分鐘內抵達X座位，收集到5個答案。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是圖上的最佳化問題：桌子是節點，相鄰關係是邊，一條合法路徑經過每張桌子的時間不能早於那張桌子解出答案的時間。官方解釋用「反證法」排除了收集6、7個的可能性，再用一個具體例子證明5個可行。實務上解這類問題更常用「建構式／分支界限法」：先試著走一條路徑，卡住就回溯調整——這個方法是1960年由Ailsa Land和Alison Doig發明的，很適合處理這種本質上很複雜的問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

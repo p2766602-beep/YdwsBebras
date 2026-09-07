@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-12",
+  "title_en": "Secret Digits",
+  "title_zh": "海狸門牌密碼",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-12.png",
+    "path": "assets/images/india/2020/IN-2020-12.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beaver homes use symbols instead of house numbers, built by combining a row-symbol and column-symbol from a lookup table (e.g. digit 5 = its row symbol + column symbol combined).",
+    "question": "What number is this beaver's home?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1428"
+      },
+      {
+        "key": "B",
+        "text": "6973"
+      },
+      {
+        "key": "C",
+        "text": "6428"
+      },
+      {
+        "key": "D",
+        "text": "1973"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Decoding each symbol on the house by finding its row and column in the table gives the number 1973.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This task is about encoding — applying a code to data to represent it differently. Encoding is used in computer science both to hide messages (cryptography) and to shrink message size (data compression)."
+  },
+  "content_zh": {
+    "prompt": "海狸的家用符號代替門牌號碼，符號是用一張對照表裡的「列符號」跟「欄符號」組合而成的（例如數字5就是它所在列與欄的符號組合起來）。",
+    "question": "這隻海狸家的門牌號碼是多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1428"
+      },
+      {
+        "key": "B",
+        "text": "6973"
+      },
+      {
+        "key": "C",
+        "text": "6428"
+      },
+      {
+        "key": "D",
+        "text": "1973"
+      }
+    ],
+    "answer": "D",
+    "explanation": "把海狸家門上的每個符號，依照對照表找出對應的列跟欄，解碼出來的號碼是1973。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這一題探討的是「編碼」——把資料套用一套規則，用不同方式表示出來。編碼在資訊科學裡有兩大用途：一是隱藏訊息（密碼學），二是縮小訊息大小（資料壓縮）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-26",
+  "title_en": "Spreading the news",
+  "title_zh": "傳消息最快的柱子",
+  "source_country": "North Macedonia",
+  "source_country_flag": "🇲🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：North Macedonia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-26.png",
+    "path": "assets/images/india/2020/IN-2020-26.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "12 beavers each have a pole connected by ropes for sending messages. Whenever a beaver hears news, it immediately informs all beavers connected directly by rope.",
+    "question": "Which beaver should you inform if you want the story known to all beavers as soon as possible?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Informing beaver #2 spreads the news to everyone within 2 steps: first beavers 4, 1, 10 hear it, then they inform everyone else. No other beaver is within distance 2 (or even 1) of all others.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This finds the graph center (or Jordan center): the vertex whose greatest distance to any other vertex is minimal. Finding a graph's center is useful in facility-location problems, e.g. placing a hospital centrally to minimize the worst-case ambulance travel distance. Small graphs can be solved by trial and error; large ones use algorithms like Floyd-Warshall."
+  },
+  "content_zh": {
+    "prompt": "12隻海狸，每隻都有一根柱子，柱子之間用繩子連接來傳遞消息。只要有海狸聽到消息，就會立刻透過連接的繩子通知其他海狸。",
+    "question": "如果想讓消息盡快傳遍所有海狸，應該先告訴哪一隻海狸？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1號"
+      },
+      {
+        "key": "B",
+        "text": "2號"
+      },
+      {
+        "key": "C",
+        "text": "4號"
+      },
+      {
+        "key": "D",
+        "text": "10號"
+      }
+    ],
+    "answer": "B",
+    "explanation": "告訴2號海狸，消息會在2步之內傳遍所有海狸：先是4號、1號、10號聽到，接著牠們再通知其他所有海狸。沒有其他海狸能在2步（甚至1步）之內傳到所有海狸。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題要找的是圖的「中心」(或稱Jordan中心)：到其他所有頂點的最大距離最小的那個頂點。找圖的中心在「設施選址問題」裡很有用，例如把醫院蓋在城市中心，能縮短救護車最糟情況下要開的距離。小型圖可以用嘗試錯誤法解，大型圖則要用Floyd-Warshall這類演算法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

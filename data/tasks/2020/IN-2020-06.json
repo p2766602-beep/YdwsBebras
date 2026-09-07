@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2020-06",
+  "title_en": "Bear Selection",
+  "title_zh": "選一隻泰迪熊",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-06.png",
+    "path": "assets/images/india/2020/IN-2020-06.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ravi may bring one teddy bear to school for show and tell.",
+    "question": "Ravi chooses a bear that has a star on its foot, and is wearing a scarf or a bow, but not glasses. Which bear does Ravi choose?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 熊A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 熊B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 熊C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 熊D"
+      },
+      {
+        "key": "E",
+        "text": "(圖) 熊E"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A and C are excluded (glasses). B is excluded (no scarf or bow). E is excluded (no star on foot). D has a star on its foot, wears a scarf, and no glasses — matching all requirements.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This task uses boolean logic: each requirement (star on foot / scarf-or-bow / no glasses) is a boolean statement, combined with AND (all must hold), OR (at least one must hold), and NOT. Understanding how these operators combine — even when expressed colloquially with commas — is essential in computer science."
+  },
+  "content_zh": {
+    "prompt": "Ravi可以帶一隻泰迪熊去學校分享。",
+    "question": "Ravi選的熊：腳上有星星圖案，而且穿著圍巾或蝴蝶結，但沒有戴眼鏡。他選的是哪一隻？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）熊A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）熊B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）熊C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）熊D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）熊E"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A和C排除（戴眼鏡）。B排除（沒穿圍巾也沒戴蝴蝶結）。E排除（腳上沒有星星）。D的腳上有星星、穿著圍巾、又沒戴眼鏡——完全符合所有條件。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這一題用到布林邏輯：每個條件（腳上有星星／圍巾或蝴蝶結／沒戴眼鏡）都是一個布林敘述，用「且」（全部都要成立）、「或」（至少一個成立）、「非」組合起來。理解這些運算子怎麼組合——即使是用逗號口語化表達的——是資訊科學裡很基本的能力。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

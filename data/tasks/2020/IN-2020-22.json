@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-22",
+  "title_en": "Beaver at the Castle",
+  "title_zh": "城堡交換之旅",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-22.png",
+    "path": "assets/images/india/2020/IN-2020-22.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A beaver has a carrot and needs a fir tree. At the castle, each of 8 rooms (A-H) allows two possible item exchanges according to a table.",
+    "question": "What sequence of rooms must the beaver visit to eventually get a fir tree?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DGE"
+      },
+      {
+        "key": "B",
+        "text": "GGE"
+      },
+      {
+        "key": "C",
+        "text": "AGE"
+      },
+      {
+        "key": "D",
+        "text": "DBC"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Room D exchanges carrot→ice cream; Room G exchanges ice cream→ring; Room E exchanges ring→fir tree. Working backward from the goal (fir tree, obtainable only in E) to what's needed at each step is a more efficient strategy than exploring forward from the carrot, which risks endless cycles.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The exchange table can be represented as a directed graph: each node is an object, each edge a room where that exchange happens. Searching such a graph systematically (an algorithm) can use depth-first search, starting from the carrot and exploring as far as possible along each path — care must be taken to avoid endless cycles."
+  },
+  "content_zh": {
+    "prompt": "一隻聰明的海狸有一根紅蘿蔔，需要換到一棵冷杉樹。城堡裡有8個房間(A-H)，每個房間都能做兩種特定的物品交換（依表格所示）。",
+    "question": "海狸要依序走過哪些房間，才能最終換到冷杉樹？",
+    "options": [
+      {
+        "key": "A",
+        "text": "DGE"
+      },
+      {
+        "key": "B",
+        "text": "GGE"
+      },
+      {
+        "key": "C",
+        "text": "AGE"
+      },
+      {
+        "key": "D",
+        "text": "DBC"
+      }
+    ],
+    "answer": "A",
+    "explanation": "D房間：紅蘿蔔→冰淇淋。G房間：冰淇淋→戒指。E房間：戒指→冷杉樹。從目標（冷杉樹，只有E房間能換到）反過來往回推算每一步需要什麼，會比從紅蘿蔔往前一路探索更有效率，因為往前探索可能會陷入無窮迴圈。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這張交換表可以表示成一個有向圖：每個節點是一種物品，每條邊是能做這種交換的房間。要有系統地搜尋這種圖（也就是用演算法），可以用「深度優先搜尋」：從紅蘿蔔出發，沿著一條路徑盡量往前探索——但要小心避免陷入無窮迴圈。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

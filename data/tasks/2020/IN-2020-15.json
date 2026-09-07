@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2020-15",
+  "title_en": "Heaviest Mark",
+  "title_zh": "最重的箱子",
+  "source_country": "Japan",
+  "source_country_flag": "🇯🇵",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Japan",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2020-15.png",
+    "path": "assets/images/india/2020/IN-2020-15.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "There are five boxes, each with a different shape. Using a balance scale, you can compare two boxes' weights. Five comparisons were made.",
+    "question": "Which is the heaviest box?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 箱子A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 箱子B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 箱子C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 箱子D"
+      },
+      {
+        "key": "E",
+        "text": "(圖) 箱子E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The heaviest box must never be the lighter side in any comparison it's involved in. Checking all five comparisons, only the pentagon box (C) is never the lighter side — every other box is lighter than something at least once.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Finding the heaviest/best/largest item in a set may require comparing every object with every other — many comparisons if there are many objects. It would be much easier if the objects were already sorted. Computers frequently need to find specific data in huge sets, which is much easier when sorted — this is why sorting is central to informatics, and why sorting algorithms (each characterized by how many comparisons they need) are so important."
+  },
+  "content_zh": {
+    "prompt": "有五個箱子，每個都畫著不同的圖形。用天平可以比較兩個箱子的重量，總共做了五次比較。",
+    "question": "哪一個是最重的箱子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）箱子A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）箱子B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）箱子C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）箱子D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）箱子E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "最重的箱子在牠參與的每一次比較裡，都不可能是比較輕的那一邊。檢查全部五次比較後發現，只有五邊形箱子(C)從來沒有當過比較輕的那一邊——其他每個箱子都至少有一次比別的箱子輕。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "要在一堆東西裡找出最重/最好/最大的那一個，可能需要把每個物件都跟其他物件比較一遍——物件一多，比較次數就會暴增。如果東西已經排序好了，事情就會簡單很多。電腦經常需要在大量資料裡找出特定資訊，資料排序好之後會容易得多——這正是「排序」在資訊科學裡如此重要的原因，排序演算法（依照需要多少次比較來分類）也因此格外重要。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

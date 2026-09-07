@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-20",
+  "title_en": "Creating Numbers",
+  "title_zh": "積木湊出最小數字",
+  "source_country": "Portugal",
+  "source_country_flag": "🇵🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：Portugal",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-20.png",
+    "path": "assets/images/india/2020/IN-2020-20.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Olivia takes single-digit blocks one by one from the top of a tower, placing each to the left or right of the number being formed. She wants the smallest possible number from a new 6-block tower.",
+    "question": "What is the smallest number that can be formed from the tower of 6 blocks, following the rules?",
+    "options": [
+      {
+        "key": "A",
+        "text": "354765"
+      },
+      {
+        "key": "B",
+        "text": "347565"
+      },
+      {
+        "key": "C",
+        "text": "357465"
+      },
+      {
+        "key": "D",
+        "text": "374565"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The smallest number starts with the smallest digit (3); everything below 3 in the tower goes to the right (ending in 65). Applying the same logic to the sub-tower above 3 (which is 547) gives 475. Combined: 3, then 475, then 65 → 347565.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Finding the best solution among all possibilities is called optimization. Here a greedy strategy (fix the smallest digit as leftmost) combined with divide-and-conquer (solve the same smaller problem for the remaining blocks) efficiently narrows down the search."
+  },
+  "content_zh": {
+    "prompt": "Olivia從積木塔頂端一塊一塊往下拆，每拆下一塊，可以放到目前組成數字的左邊或右邊。她想用一座新的6塊積木塔，組出最小的數字。",
+    "question": "依照規則，這座6塊積木塔能組出的最小數字是多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "354765"
+      },
+      {
+        "key": "B",
+        "text": "347565"
+      },
+      {
+        "key": "C",
+        "text": "357465"
+      },
+      {
+        "key": "D",
+        "text": "374565"
+      }
+    ],
+    "answer": "B",
+    "explanation": "最小的數字要以塔裡最小的數字(3)開頭；塔裡比3更上面的部分要接到右邊（結尾是65）。用同樣的邏輯處理3上面的子塔(547)，可以組出475。合起來就是：3，接著475，最後65→347565。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在所有可能組合裡找出最佳解，這叫做「最佳化」。這一題結合了「貪婪策略」(把最小的數字固定放在最左邊)跟「分治法」(對剩下的積木解同樣性質但規模更小的問題)，有效率地縮小搜尋範圍。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

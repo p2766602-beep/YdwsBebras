@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2020-07",
+  "title_en": "Bowls",
+  "title_zh": "疊碗堆",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2020
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2020 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2020-07.png",
+    "path": "assets/images/india/2020/IN-2020-07.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Three siblings want to eat from three bowls of the same type, taken from a stack with many different types. Bowls can only be removed from the top of the stack.",
+    "question": "What is the smallest number of bowls that needs to be removed to get three of the same type?",
+    "options": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "answer": "A",
+    "explanation": "At least 13 bowls need to be removed to get three bowls of the same type (in this case, three orange bowls).",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "A stack is a fundamental computer science data structure: only the top item can be removed at a time. To get an item buried deep in the stack, everything above it must be removed first — needing somewhere to put those items. A computer with two stacks is equivalent to a Turing machine, the most-studied theoretical model of computation — this simple structure is surprisingly powerful."
+  },
+  "content_zh": {
+    "prompt": "三個兄弟姊妹想用同一種類型的碗吃早餐。碗堆裡有很多不同類型的碗疊在一起，只能從最上面拿碗。",
+    "question": "最少要拿掉幾個碗，才能湊到三個同款的碗？",
+    "options": [
+      {
+        "key": "A",
+        "text": "13個"
+      },
+      {
+        "key": "B",
+        "text": "14個"
+      },
+      {
+        "key": "C",
+        "text": "15個"
+      },
+      {
+        "key": "D",
+        "text": "16個"
+      }
+    ],
+    "answer": "A",
+    "explanation": "至少要拿掉13個碗，才能湊到三個同款的碗（這裡是三個橘色的碗）。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "堆疊（stack）是資訊科學裡很基本的資料結構：一次只能拿最上面那個。要拿到埋在底下的東西，就必須先把上面的東西都拿掉——這就需要地方放那些暫時拿出來的東西。一台有兩個堆疊的電腦，其運算能力等同於「圖靈機」——運算理論裡研究最透徹的理論電腦模型——這麼簡單的結構，威力其實非常強大。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}
