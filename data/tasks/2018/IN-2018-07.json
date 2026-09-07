@@ -4,24 +4,41 @@
   "title_zh": "垃圾清掃機器人",
   "source_country": "Slovakia",
   "source_country_flag": "🇸🇰",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Slovakia",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2018-07.png",
     "path": "assets/images/india/2018/IN-2018-07.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "花園方格地圖，每格標示巧克力包裝紙數量，含Anton與Boris兩台機器人的移動指令路線圖"
   },
   "content_en": {
     "prompt": "The picture shows a garden map divided into squares, each labelled with the number of chocolate wrappers left there. Two robots, Anton and Boris, collect all wrappers in every square they enter, following given movement instructions. Anton is sent first; once he finishes, Boris is sent.",
     "question": "How many chocolate wrappers will Boris collect?",
     "options": [
-      { "key": "A", "text": "3" },
-      { "key": "B", "text": "9" },
-      { "key": "C", "text": "11" },
-      { "key": "D", "text": "12" }
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
     ],
     "answer": "B",
     "explanation": "Anton goes first and collects 1+2+0=3 wrappers total. Then Boris collects 3+6+0=9 wrappers total. Note: the last square on Boris's path had 2 wrappers before either robot started, but Anton cleared that square first.",
@@ -33,10 +50,22 @@
     "prompt": "圖中是一座被劃分成方格的花園地圖，每格標示著遊客留下的巧克力包裝紙數量。花園有兩台機器人Anton和Boris，會依照給定的移動指令，收集牠們走過的每一格裡的所有包裝紙。Anton先出發，Anton走完之後，才輪到Boris出發。",
     "question": "Boris總共會收集到幾張巧克力包裝紙？",
     "options": [
-      { "key": "A", "text": "3張" },
-      { "key": "B", "text": "9張" },
-      { "key": "C", "text": "11張" },
-      { "key": "D", "text": "12張" }
+      {
+        "key": "A",
+        "text": "3張"
+      },
+      {
+        "key": "B",
+        "text": "9張"
+      },
+      {
+        "key": "C",
+        "text": "11張"
+      },
+      {
+        "key": "D",
+        "text": "12張"
+      }
     ],
     "answer": "B",
     "explanation": "Anton先出發，依指令收集了1+2+0=3張。接著Boris出發，依指令收集了3+6+0=9張。要注意：Boris路徑上最後一格原本有2張包裝紙，但Anton已經先經過並清掉了那一格。",

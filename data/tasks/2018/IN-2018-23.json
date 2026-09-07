@@ -4,24 +4,41 @@
   "title_zh": "海狸密碼環",
   "source_country": "Germany",
   "source_country_flag": "🇩🇪",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Germany",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2018-23.png",
     "path": "assets/images/india/2018/IN-2018-23.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "內外兩圈字母環的加密裝置示意圖，顯示初始對應位置"
   },
   "content_en": {
     "prompt": "Beavers developed an encryption system using two rings, each containing all letters of the alphabet. To encode a character, find it on the outer ring and replace it with the corresponding character on the inner ring; after each character, the inner ring turns clockwise by one character. E.g. a first letter 'H' is encoded as 'U'; a second 'H' as 'T'; a second 'N' as ' '; a third 'H' as 'S'; a third 'N' as 'Z'. Example: YES is encoded as OVG.",
     "question": "The message COME AT THREE is encoded by which one of these strings?",
     "options": [
-      { "key": "A", "text": "AFDUVSPTBGBFG" },
-      { "key": "B", "text": "ACYEMMCJZPUKJ" },
-      { "key": "C", "text": "AD RQBJQJUHRR" },
-      { "key": "D", "text": "NZYEQHMTO OMN" }
+      {
+        "key": "A",
+        "text": "AFDUVSPTBGBFG"
+      },
+      {
+        "key": "B",
+        "text": "ACYEMMCJZPUKJ"
+      },
+      {
+        "key": "C",
+        "text": "AD RQBJQJUHRR"
+      },
+      {
+        "key": "D",
+        "text": "NZYEQHMTO OMN"
+      }
     ],
     "answer": "B",
     "explanation": "The first character (C) encodes to A; the inner ring turns one click; the second character (O) encodes to C — at this point the correct answer can already be identified. (Answer A comes from turning the ring the wrong direction; C from not turning it at all; D from encoding in the reverse direction — inner-to-outer instead of outer-to-inner.)",
@@ -33,10 +50,22 @@
     "prompt": "海狸們為了安全傳輸資料，發明了一套加密系統，用兩個都印有全部字母的圓環運作。加密一個字元時，先在外圈找到這個字元，換成內圈對應位置的字元；每加密完一個字元，內圈就會順時針轉一格。例如：第一個'H'會被編碼成'U'；第二個'H'編碼成'T'；第二個'N'編碼成' '(空格)；第三個'H'編碼成'S'；第三個'N'編碼成'Z'。範例：YES會被編碼成OVG。",
     "question": "訊息「COME AT THREE」會被編碼成下面哪一串字？",
     "options": [
-      { "key": "A", "text": "AFDUVSPTBGBFG" },
-      { "key": "B", "text": "ACYEMMCJZPUKJ" },
-      { "key": "C", "text": "AD RQBJQJUHRR" },
-      { "key": "D", "text": "NZYEQHMTO OMN" }
+      {
+        "key": "A",
+        "text": "AFDUVSPTBGBFG"
+      },
+      {
+        "key": "B",
+        "text": "ACYEMMCJZPUKJ"
+      },
+      {
+        "key": "C",
+        "text": "AD RQBJQJUHRR"
+      },
+      {
+        "key": "D",
+        "text": "NZYEQHMTO OMN"
+      }
     ],
     "answer": "B",
     "explanation": "訊息的第一個字元(C)會被編碼成A；接著內圈轉一格；第二個字元(O)會被編碼成C——光看到這裡就已經能判斷出正確答案了。（選項A是內圈轉錯方向得到的結果；選項C是完全沒轉內圈得到的結果；選項D是把「內圈→外圈」的對應方向搞反了得到的結果。）",

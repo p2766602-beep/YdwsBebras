@@ -5,11 +5,23 @@
   "source_country": "Canada",
   "source_country_flag": "🇨🇦",
   "appeared_in": [
-    { "country": "India", "year": 2018, "edition_url": "https://www.bebras.in/booklets" }
+    {
+      "country": "India",
+      "year": 2018,
+      "edition_url": "https://www.bebras.in/booklets"
+    }
   ],
   "appeared_in_groups": [
-    { "group": "Aryabhata", "ages": "8-10", "difficulty": "A" },
-    { "group": "Brahmagupta", "ages": "10-12", "difficulty": "A" }
+    {
+      "group": "Aryabhata",
+      "ages": "8-10",
+      "difficulty": "A"
+    },
+    {
+      "group": "Brahmagupta",
+      "ages": "10-12",
+      "difficulty": "A"
+    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Canada（依題本標題旁國旗標示）",
@@ -17,7 +29,7 @@
   "asset": {
     "filename": "IN-2018-02.png",
     "path": "assets/images/india/2018/IN-2018-02.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "四色方塊轉盤示意圖：左邊「按一次前」的狀態(紅/綠/藍/黃四象限)＋箭頭＋右邊「按一次後」的狀態(藍/紅/黃/綠)，說明順時針旋轉規則；下方另有A)B)C)D)四個選項小圖需一併裁切（options_asset另存）"
   },
   "options_asset": {
@@ -30,10 +42,22 @@
     "prompt": "Here is a simple push square game. The colours rotate every time the centre button is pressed:",
     "question": "If we push the button one more time, where would you place the red, blue, green and yellow squares?",
     "options": [
-      { "key": "A", "text": "(圖) 綠/黃/紅/藍" },
-      { "key": "B", "text": "(圖) 黃/藍/綠/紅" },
-      { "key": "C", "text": "(圖) 黃/綠/藍/紅" },
-      { "key": "D", "text": "(圖) 綠/紅/黃/藍" }
+      {
+        "key": "A",
+        "text": "(圖) 綠/黃/紅/藍"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 黃/藍/綠/紅"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 黃/綠/藍/紅"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 綠/紅/黃/藍"
+      }
     ],
     "answer": "B",
     "explanation": "(答案為圖片：黃-藍-綠-紅的方塊排列，對應選項B)",
@@ -45,10 +69,22 @@
     "prompt": "這是一個簡單的推方塊遊戲。每按一次中間的按鈕，四個顏色方塊就會照順時針方向轉一格：",
     "question": "如果再多按一次按鈕，紅、藍、綠、黃四個方塊會分別轉到哪個位置？",
     "options": [
-      { "key": "A", "text": "（如圖）綠/黃/紅/藍排列" },
-      { "key": "B", "text": "（如圖）黃/藍/綠/紅排列" },
-      { "key": "C", "text": "（如圖）黃/綠/藍/紅排列" },
-      { "key": "D", "text": "（如圖）綠/紅/黃/藍排列" }
+      {
+        "key": "A",
+        "text": "（如圖）綠/黃/紅/藍排列"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）黃/藍/綠/紅排列"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）黃/綠/藍/紅排列"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）綠/紅/黃/藍排列"
+      }
     ],
     "answer": "B",
     "explanation": "正確答案是選項B（黃-藍-綠-紅的排列）：只要跟著旋轉規則再轉一格，就會得到這個結果。",

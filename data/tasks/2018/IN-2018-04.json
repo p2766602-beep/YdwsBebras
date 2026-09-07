@@ -4,25 +4,45 @@
   "title_zh": "踢足球",
   "source_country": "South Korea",
   "source_country_flag": "🇰🇷",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：South Korea",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2018-04.png",
     "path": "assets/images/india/2018/IN-2018-04.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "下週天氣預報表(週一~週五的天氣圖示)＋操場預約表兩張表格，需完整裁切"
   },
   "content_en": {
     "prompt": "The students want to play football during P.T. period. However: 1. They can only play football on a sunny day. 2. Outdoor activity is allowed only when wind speed is lower than 20 km/h. 3. The school ground can't be used if another class has already reserved it that day.\nWeather forecast: Mon/Tue/Wed/Thu/Fri wind speeds are 5/24/13/7/40 km/h respectively (with matching sunny/cloudy/rainy icons). Ground reservation: Class IX has reserved the ground on Monday only.",
     "question": "When can the students play football next week?",
     "options": [
-      { "key": "A", "text": "Monday" },
-      { "key": "B", "text": "Tuesday" },
-      { "key": "C", "text": "Wednesday" },
-      { "key": "D", "text": "Thursday" },
-      { "key": "E", "text": "Friday" }
+      {
+        "key": "A",
+        "text": "Monday"
+      },
+      {
+        "key": "B",
+        "text": "Tuesday"
+      },
+      {
+        "key": "C",
+        "text": "Wednesday"
+      },
+      {
+        "key": "D",
+        "text": "Thursday"
+      },
+      {
+        "key": "E",
+        "text": "Friday"
+      }
     ],
     "answer": "D",
     "explanation": "The three conditions can be summarized: only Thursday satisfies weather condition (sunny), wind speed (<20km/h), and ground availability all at once.",
@@ -34,11 +54,26 @@
     "prompt": "同學們想利用體育課時間踢足球，但有三個條件限制：1.只能在晴天踢足球。2.只有風速低於每小時20公里時才能進行戶外活動。3.如果操場當天已經被別班預約，就不能用。\n下週天氣預報：週一到週五風速分別是5/24/13/7/40公里/小時（並附有晴/陰/雨等天氣圖示）。操場預約表：只有九年級班在週一預約了操場。",
     "question": "同學們下週哪一天可以踢足球？",
     "options": [
-      { "key": "A", "text": "星期一" },
-      { "key": "B", "text": "星期二" },
-      { "key": "C", "text": "星期三" },
-      { "key": "D", "text": "星期四" },
-      { "key": "E", "text": "星期五" }
+      {
+        "key": "A",
+        "text": "星期一"
+      },
+      {
+        "key": "B",
+        "text": "星期二"
+      },
+      {
+        "key": "C",
+        "text": "星期三"
+      },
+      {
+        "key": "D",
+        "text": "星期四"
+      },
+      {
+        "key": "E",
+        "text": "星期五"
+      }
     ],
     "answer": "D",
     "explanation": "把三個條件整理成表格會發現：只有星期四同時符合「天氣晴朗」「風速低於20公里」「操場沒被預約」這三個條件。",

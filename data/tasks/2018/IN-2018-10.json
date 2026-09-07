@@ -4,24 +4,41 @@
   "title_zh": "Maya今天要穿什麼？",
   "source_country": "Slovenia",
   "source_country_flag": "🇸🇮",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Slovenia",
   "interaction_type": "image_choice",
   "asset": {
     "filename": "IN-2018-10.png",
     "path": "assets/images/india/2018/IN-2018-10.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "跨頁圖片(p28規則示意圖 + p29的A/B/C/D四種穿搭組合選項)，可能需要分兩張裁切，請開檔確認"
   },
   "content_en": {
     "prompt": "Every morning Maya decides what to wear using these rules: If she wears trousers, then she wears a T-shirt that is blank or has stars. If she wears a skirt, then she wears a T-shirt with a squirrel. If she wears a T-shirt that is blank or has stars, then she wears a jacket with a heart. If she wears a jacket with a heart, then she wears a cap with a drawing.",
     "question": "Which of the following combinations can Maya wear?",
     "options": [
-      { "key": "A", "text": "(圖) 穿搭組合A" },
-      { "key": "B", "text": "(圖) 穿搭組合B" },
-      { "key": "C", "text": "(圖) 穿搭組合C" },
-      { "key": "D", "text": "(圖) 穿搭組合D" }
+      {
+        "key": "A",
+        "text": "(圖) 穿搭組合A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 穿搭組合B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 穿搭組合C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 穿搭組合D"
+      }
     ],
     "answer": "B",
     "explanation": "When Maya decides whether to wear trousers or a skirt, it limits her other choices accordingly through the chain of rules — only one combination follows every rule consistently.",
@@ -33,10 +50,22 @@
     "prompt": "Maya每天早上都依照以下規則決定要穿什麼：如果穿長褲，就要搭配素色或印星星的上衣。如果穿裙子，就要搭配印松鼠圖案的上衣。如果穿的是素色或印星星的上衣，就要搭配印愛心的外套。如果穿印愛心的外套，就要搭配有圖案的帽子。",
     "question": "下面哪一套穿搭組合是Maya可能會穿的？",
     "options": [
-      { "key": "A", "text": "（如圖）穿搭組合A" },
-      { "key": "B", "text": "（如圖）穿搭組合B" },
-      { "key": "C", "text": "（如圖）穿搭組合C" },
-      { "key": "D", "text": "（如圖）穿搭組合D" }
+      {
+        "key": "A",
+        "text": "（如圖）穿搭組合A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）穿搭組合B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）穿搭組合C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）穿搭組合D"
+      }
     ],
     "answer": "B",
     "explanation": "Maya一旦決定要穿長褲還是裙子，後面一連串的規則就會跟著鎖定其他單品的選擇。只有一套組合完全符合所有規則環環相扣的邏輯。",

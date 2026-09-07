@@ -4,24 +4,41 @@
   "title_zh": "度假村門牌二分搜尋",
   "source_country": "Slovakia",
   "source_country_flag": "🇸🇰",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Slovakia",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2018-15.png",
     "path": "assets/images/india/2018/IN-2018-15.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "度假村小屋排列圖，中間標示已掛好的門牌號碼(50/24/34等)，以及ABCD四個待掛門牌的空位標示"
   },
   "content_en": {
     "prompt": "Madhuri hangs new numbers on cottage doors at a resort, starting at cottage 50: 1. If the new number is less than the number in front of her, go left. 2. If greater, go right. 3. If the cottage in front has no number, hang the new number there. Some cottages are already numbered (see figure).",
     "question": "Madhuri needs to hang the number 29. Following these rules, which cottage should have the number 29?",
     "options": [
-      { "key": "A", "text": "(圖) 位置A" },
-      { "key": "B", "text": "(圖) 位置B" },
-      { "key": "C", "text": "(圖) 位置C" },
-      { "key": "D", "text": "(圖) 位置D" }
+      {
+        "key": "A",
+        "text": "(圖) 位置A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 位置B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 位置C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 位置D"
+      }
     ],
     "answer": "B",
     "explanation": "Starting at cottage 50: 29<50 so go left. Next is 24: 29>24 so go right. Next is 34: 29<34 so go left. The next cottage has no number, so 29 is hung there — that position is B.",
@@ -33,10 +50,22 @@
     "prompt": "Madhuri要在度假村的小屋門上掛新門牌，從50號小屋開始，規則是：1.如果新號碼比眼前這間小屋的號碼小，就往左走。2.如果比較大，就往右走。3.如果眼前這間小屋還沒有門牌，就把新號碼掛在這裡。有些小屋已經掛好門牌了（如圖）。",
     "question": "Madhuri要掛29號門牌。依照這些規則，29號應該掛在哪一間小屋？",
     "options": [
-      { "key": "A", "text": "（如圖）位置A" },
-      { "key": "B", "text": "（如圖）位置B" },
-      { "key": "C", "text": "（如圖）位置C" },
-      { "key": "D", "text": "（如圖）位置D" }
+      {
+        "key": "A",
+        "text": "（如圖）位置A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）位置B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）位置C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）位置D"
+      }
     ],
     "answer": "B",
     "explanation": "從50號開始：29比50小，往左走。接著是24號：29比24大，往右走。接著是34號：29比34小，往左走。這時眼前的小屋還沒有門牌，於是29就掛在這裡——也就是位置B。",

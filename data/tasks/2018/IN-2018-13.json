@@ -4,24 +4,41 @@
   "title_zh": "檸檬雪酪派對",
   "source_country": "USA",
   "source_country_flag": "🇺🇸",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：USA",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2018-13.png",
     "path": "assets/images/india/2018/IN-2018-13.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "1/2/4/8/16/32公升六種容量空瓶的圖示"
   },
   "content_en": {
     "prompt": "Janvi made 37 litres of Lemon Sherbet and wants to take it to school. She has empty bottles in sizes 1, 2, 4, 8, 16, 32 litres (unlimited quantity of each), and wants to use the minimum number of bottles.",
     "question": "What is the minimum number of bottles that Janvi needs?",
     "options": [
-      { "key": "A", "text": "2" },
-      { "key": "B", "text": "3" },
-      { "key": "C", "text": "4" },
-      { "key": "D", "text": "5" }
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
     ],
     "answer": "B",
     "explanation": "The best solution is one 32L bottle, one 4L bottle, and one 1L bottle (32+4+1=37). This is a binary counting problem — it never makes sense to select multiple bottles of the same size, since e.g. two 8L bottles could always be replaced by one 16L bottle. So a minimum of three bottles is required.",
@@ -33,10 +50,22 @@
     "prompt": "Janvi在家做了37公升的檸檬雪酪，想帶去學校辦派對。她有1、2、4、8、16、32公升六種容量的空瓶（每種數量不限），她想用最少數量的瓶子裝完。",
     "question": "Janvi最少需要幾個瓶子？",
     "options": [
-      { "key": "A", "text": "2個" },
-      { "key": "B", "text": "3個" },
-      { "key": "C", "text": "4個" },
-      { "key": "D", "text": "5個" }
+      {
+        "key": "A",
+        "text": "2個"
+      },
+      {
+        "key": "B",
+        "text": "3個"
+      },
+      {
+        "key": "C",
+        "text": "4個"
+      },
+      {
+        "key": "D",
+        "text": "5個"
+      }
     ],
     "answer": "B",
     "explanation": "最佳解是用一個32公升瓶、一個4公升瓶、一個1公升瓶（32+4+1=37）。這其實是一個二進位計數問題——用同一種容量的瓶子裝兩個以上永遠不划算，例如兩個8公升瓶不如換成一個16公升瓶。所以最少需要三個瓶子。",

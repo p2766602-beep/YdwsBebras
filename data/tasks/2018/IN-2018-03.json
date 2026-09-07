@@ -4,24 +4,41 @@
   "title_zh": "小鸚鵡的花色",
   "source_country": "Australia",
   "source_country_flag": "🇦🇺",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Australia",
   "interaction_type": "image_choice",
   "asset": {
     "filename": "IN-2018-03.png",
     "path": "assets/images/india/2018/IN-2018-03.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "彩虹鸚鵡媽媽Mithoo的三隻小鸚鵡花色圖(頭/胸/身體/尾巴分別紅藍綠黃)＋一隻灰色剪影小鸚鵡(第四隻待推理)；下方另有A/B/C/D四個選項小鸚鵡圖需一併裁切"
   },
   "content_en": {
     "prompt": "Mithoo, the Australian Rainbow Parrot, has had four chicks (baby parrots). Each chick has four colours: red, blue, green and yellow. Each colour in a chick must be located in a different part of the body to the other chicks.",
     "question": "Based on the first three chicks, what colour patterns will the fourth have?",
     "options": [
-      { "key": "A", "text": "(圖) 頭綠/胸藍/腹紅/身黃" },
-      { "key": "B", "text": "(圖) 頭藍/胸綠/腹紅/身黃" },
-      { "key": "C", "text": "(圖) 頭黃/胸紅/腹綠/身藍" },
-      { "key": "D", "text": "(圖) 頭紅/胸黃/腹藍/身綠" }
+      {
+        "key": "A",
+        "text": "(圖) 頭綠/胸藍/腹紅/身黃"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 頭藍/胸綠/腹紅/身黃"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 頭黃/胸紅/腹綠/身藍"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 頭紅/胸黃/腹藍/身綠"
+      }
     ],
     "answer": "B",
     "explanation": "Other combinations of colour patterns cannot be right as they do not follow the progressive colour pattern: red, blue, green and yellow. Each colour fills in only one body part of the chick: head, chest, wing, tail. The only right answer follows the colour and body part pattern established.",
@@ -33,10 +50,22 @@
     "prompt": "澳洲彩虹鸚鵡媽媽Mithoo生了四隻小鸚鵡。每隻小鸚鵡身上都有紅、藍、綠、黃四種顏色，而且每一種顏色在每隻小鸚鵡身上，都長在跟其他小鸚鵡不一樣的部位。",
     "question": "根據前三隻小鸚鵡的花色規律，第四隻小鸚鵡的花色會是什麼樣子？",
     "options": [
-      { "key": "A", "text": "（如圖）頭綠、胸藍、腹紅、身體黃" },
-      { "key": "B", "text": "（如圖）頭藍、胸綠、腹紅、身體黃" },
-      { "key": "C", "text": "（如圖）頭黃、胸紅、腹綠、身體藍" },
-      { "key": "D", "text": "（如圖）頭紅、胸黃、腹藍、身體綠" }
+      {
+        "key": "A",
+        "text": "（如圖）頭綠、胸藍、腹紅、身體黃"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）頭藍、胸綠、腹紅、身體黃"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）頭黃、胸紅、腹綠、身體藍"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）頭紅、胸黃、腹藍、身體綠"
+      }
     ],
     "answer": "B",
     "explanation": "其他花色組合都不符合「紅→藍→綠→黃」這個依序輪替的規律。每種顏色在每隻小鸚鵡身上只會出現在一個部位：頭、胸、翅膀、尾巴。只有答案B完全依照顏色與部位的輪替規律排列。",

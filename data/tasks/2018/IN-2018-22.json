@@ -4,24 +4,41 @@
   "title_zh": "光纖網路佈線",
   "source_country": "Spain",
   "source_country_flag": "🇪🇸",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Spain",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2018-22.png",
     "path": "assets/images/india/2018/IN-2018-22.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "七座城市的連線圖，每條連線旁標示佈線成本數字"
   },
   "content_en": {
     "prompt": "An internet service provider wants to set up a network connecting seven cities so that every city can send/receive messages from any other city. The company must pay to set up each link; costs are shown on the connecting lines.",
     "question": "What links should be set up so that the total cost is minimal?",
     "options": [
-      { "key": "A", "text": "16" },
-      { "key": "B", "text": "36" },
-      { "key": "C", "text": "18" },
-      { "key": "D", "text": "14" }
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
     ],
     "answer": "A",
     "explanation": "The minimum total cost achievable while connecting all seven cities is 16, using the cheapest set of links that still forms a connected network (a minimum spanning tree).",
@@ -33,10 +50,22 @@
     "prompt": "一間網路服務公司想建置一個網路，把七座城市連接起來，讓每座城市都能互相收發訊息。公司必須付費才能在城市之間佈線，每條連線的成本都標示在線段旁。",
     "question": "應該架設哪些連線，才能讓總成本最低？",
     "options": [
-      { "key": "A", "text": "16" },
-      { "key": "B", "text": "36" },
-      { "key": "C", "text": "18" },
-      { "key": "D", "text": "14" }
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      }
     ],
     "answer": "A",
     "explanation": "能連接全部七座城市的最低總成本是16——選擇一組成本最低、又能讓所有城市保持連通的連線組合（也就是最小生成樹）。",

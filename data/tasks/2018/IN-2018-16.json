@@ -4,23 +4,38 @@
   "title_zh": "謊言沒有腳",
   "source_country": "Croatia",
   "source_country_flag": "🇭🇷",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Croatia",
   "interaction_type": "single_choice",
   "asset": {
-    "filename": "IN-2018-16.png",
-    "path": "assets/images/india/2018/IN-2018-16.png",
-    "status": "待使用者裁切提供（此題插圖較少，可能只有情境示意圖或無插圖，開檔確認）"
+    "status": "確認為純文字題，不需要圖片"
   },
   "content_en": {
     "prompt": "Manju, Dravid, Ila, and Manoj were playing football near teacher Anita's house; one of them broke her window. Anita knows three of them always tell the truth, but is unsure about the fourth. They said: Manoj: \"I haven't broken the window.\" Ila: \"Manoj or Dravid broke the window.\" Manju: \"Dravid broke the window.\" Dravid: \"No, Manju, you lie!\"",
     "question": "Who broke the window?",
     "options": [
-      { "key": "A", "text": "Manju" },
-      { "key": "B", "text": "Dravid" },
-      { "key": "C", "text": "Ila" },
-      { "key": "D", "text": "Manoj" }
+      {
+        "key": "A",
+        "text": "Manju"
+      },
+      {
+        "key": "B",
+        "text": "Dravid"
+      },
+      {
+        "key": "C",
+        "text": "Ila"
+      },
+      {
+        "key": "D",
+        "text": "Manoj"
+      }
     ],
     "answer": "B",
     "explanation": "Manju's and Dravid's statements directly contradict each other, so exactly one of them lies. If Manju lies, then Manoj, Ila and Dravid all tell the truth — but Ila's truthful statement then says Dravid broke the window, contradicting Dravid's own denial, so this is impossible. If Dravid lies, then Manoj, Ila and Manju all tell the truth — Manoj didn't do it, and both Ila and Manju point to Dravid, consistent with everything. So Dravid broke the window.",
@@ -32,10 +47,22 @@
     "prompt": "Manju、Dravid、Ila和Manoj在老師Anita家附近踢足球，結果有人打破了她家的窗戶。Anita知道他們四個人裡有三個一向誠實，但不確定第四個人是不是也一樣誠實。他們分別說：Manoj說：「不是我打破窗戶的。」Ila說：「是Manoj或Dravid打破的。」Manju說：「是Dravid打破的。」Dravid說：「不對，Manju你在說謊！」",
     "question": "到底是誰打破了窗戶？",
     "options": [
-      { "key": "A", "text": "Manju" },
-      { "key": "B", "text": "Dravid" },
-      { "key": "C", "text": "Ila" },
-      { "key": "D", "text": "Manoj" }
+      {
+        "key": "A",
+        "text": "Manju"
+      },
+      {
+        "key": "B",
+        "text": "Dravid"
+      },
+      {
+        "key": "C",
+        "text": "Ila"
+      },
+      {
+        "key": "D",
+        "text": "Manoj"
+      }
     ],
     "answer": "B",
     "explanation": "Manju和Dravid的說法直接互相矛盾，所以這兩人裡剛好有一個在說謊。假設Manju說謊：那Manoj、Ila、Dravid都說實話——但Ila說實話就代表「是Dravid打破的」，這又跟Dravid自己否認的說法矛盾，所以這個假設不成立。假設Dravid說謊：那Manoj、Ila、Manju都說實話——Manoj沒做，Ila和Manju都指向Dravid，完全前後一致。所以是Dravid打破了窗戶。",

@@ -4,24 +4,41 @@
   "title_zh": "花束",
   "source_country": "Switzerland",
   "source_country_flag": "🇨🇭",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Switzerland",
   "interaction_type": "image_choice",
   "asset": {
     "filename": "IN-2018-05.png",
     "path": "assets/images/india/2018/IN-2018-05.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "四種花的圖鑑(晚香玉/百合/鬱金香/玫瑰線稿圖+名稱)；下方另有A/B/C/D四個花束選項圖需一併裁切"
   },
   "content_en": {
     "prompt": "A flower shop sells four types of flowers: Tube Rose, Lily, Tulip, Rose — each available in white, yellow and blue. Chitra wants a bunch of six flowers: 1. There must be two of each colour (yellow, white, blue). 2. Flowers of the same type must not have the same colour. 3. Every type of flower should only appear, at most, twice.",
     "question": "Which of the following bunches will Chitra be happy with?",
     "options": [
-      { "key": "A", "text": "(圖) 白玫瑰／藍鬱金香／白百合花苞／黃百合x2／藍色小花" },
-      { "key": "B", "text": "(圖) 三朵玫瑰組合" },
-      { "key": "C", "text": "(圖) 白色系花朵組合" },
-      { "key": "D", "text": "(圖) 黃百合位置不同的變化組合" }
+      {
+        "key": "A",
+        "text": "(圖) 白玫瑰／藍鬱金香／白百合花苞／黃百合x2／藍色小花"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 三朵玫瑰組合"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 白色系花朵組合"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 黃百合位置不同的變化組合"
+      }
     ],
     "answer": "A",
     "explanation": "錯誤選項分別是：某束裡有三朵白花（違反規則1）；某束裡有三朵玫瑰（違反規則3：同種花最多兩朵）；某束裡有兩朵同種類又同顏色的花（違反規則2）。只有A完全符合三個條件。",
@@ -33,10 +50,22 @@
     "prompt": "一間花店賣四種花：晚香玉、百合、鬱金香、玫瑰，每種都有白、黃、藍三種顏色。Chitra想要一束6朵花的花束，並提出三個條件：1.黃、白、藍三種顏色各要有兩朵。2.同一種花不能有相同顏色。3.每種花最多只能出現兩朵。",
     "question": "下面哪一束花束會讓Chitra滿意？",
     "options": [
-      { "key": "A", "text": "（如圖）白玫瑰、藍鬱金香、白百合花苞、兩朵黃百合、一朵藍色小花" },
-      { "key": "B", "text": "（如圖）含三朵玫瑰的花束" },
-      { "key": "C", "text": "（如圖）偏白色系的花束" },
-      { "key": "D", "text": "（如圖）黃百合位置不同的變化花束" }
+      {
+        "key": "A",
+        "text": "（如圖）白玫瑰、藍鬱金香、白百合花苞、兩朵黃百合、一朵藍色小花"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）含三朵玫瑰的花束"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）偏白色系的花束"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）黃百合位置不同的變化花束"
+      }
     ],
     "answer": "A",
     "explanation": "錯誤的三個選項分別違反了不同規則：有一束裡有三朵白花（違反「顏色各兩朵」）；有一束裡有三朵玫瑰（違反「同種花最多兩朵」）；有一束裡出現兩朵同種類又同顏色的花（違反「同種花不能同色」）。只有選項A同時符合三個條件。",

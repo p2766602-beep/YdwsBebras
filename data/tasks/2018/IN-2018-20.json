@@ -4,24 +4,41 @@
   "title_zh": "跳石頭比賽",
   "source_country": "Switzerland",
   "source_country_flag": "🇨🇭",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Switzerland",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2018-20.png",
     "path": "assets/images/india/2018/IN-2018-20.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "5顆石頭(編號0-4)排成環狀、順時針跳躍方向箭頭示意圖"
   },
   "content_en": {
     "prompt": "Beavers took part in a jumping competition: jumping from rock to rock clockwise, starting from rock 0. If a beaver jumps 8 times, he ends up on rock 3 (0→1→2→3→4→0→1→2→3).",
     "question": "One beaver jumped an astonishing 129 times. On which rock did he end up?",
     "options": [
-      { "key": "A", "text": "1" },
-      { "key": "B", "text": "2" },
-      { "key": "C", "text": "3" },
-      { "key": "D", "text": "4" }
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
     ],
     "answer": "D",
     "explanation": "Every 5 jumps brings a beaver back to where he started (a \"lap\"). 129 = 25×5 + 4, so jumping 129 times ends up in the same place as jumping just 4 times — rock number 4.",
@@ -33,10 +50,22 @@
     "prompt": "海狸們參加了一年一度的跳石頭比賽：從0號石頭開始，依順時針方向逐一跳到下一顆石頭。如果一隻海狸跳了8次，牠會停在3號石頭（0→1→2→3→4→0→1→2→3）。",
     "question": "有一隻海狸誇張地跳了129次，牠最後停在哪一顆石頭上？",
     "options": [
-      { "key": "A", "text": "1號" },
-      { "key": "B", "text": "2號" },
-      { "key": "C", "text": "3號" },
-      { "key": "D", "text": "4號" }
+      {
+        "key": "A",
+        "text": "1號"
+      },
+      {
+        "key": "B",
+        "text": "2號"
+      },
+      {
+        "key": "C",
+        "text": "3號"
+      },
+      {
+        "key": "D",
+        "text": "4號"
+      }
     ],
     "answer": "D",
     "explanation": "每跳5次，海狸就會繞回原點（稱為一「圈」）。129＝25×5+4，所以跳129次跟只跳4次會停在同一顆石頭上——也就是4號石頭。",

@@ -5,11 +5,23 @@
   "source_country": "Slovakia",
   "source_country_flag": "🇸🇰",
   "appeared_in": [
-    { "country": "India", "year": 2018, "edition_url": "https://www.bebras.in/booklets" }
+    {
+      "country": "India",
+      "year": 2018,
+      "edition_url": "https://www.bebras.in/booklets"
+    }
   ],
   "appeared_in_groups": [
-    { "group": "Aryabhata", "ages": "8-10", "difficulty": "A" },
-    { "group": "Brahmagupta", "ages": "10-12", "difficulty": "A" }
+    {
+      "group": "Aryabhata",
+      "ages": "8-10",
+      "difficulty": "A"
+    },
+    {
+      "group": "Brahmagupta",
+      "ages": "10-12",
+      "difficulty": "A"
+    }
   ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Slovakia（依題本標題旁國旗標示）",
@@ -17,17 +29,29 @@
   "asset": {
     "filename": "IN-2018-01.png",
     "path": "assets/images/india/2018/IN-2018-01.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "花圃場景圖：木柵欄旁三排花（每排4朵，玫瑰/白花/藍花/鬱金香），需完整裁切含編號1/2/3三排標示"
   },
   "content_en": {
     "prompt": "The gardener planted flowers in three rows. He planted 4 flowers in each row. He had been told that in each row the white flower should be closer to the fence than the blue flower.",
     "question": "Which rows are planted according to the instructions?",
     "options": [
-      { "key": "A", "text": "Only 1" },
-      { "key": "B", "text": "1 and 2" },
-      { "key": "C", "text": "1 and 3" },
-      { "key": "D", "text": "All" }
+      {
+        "key": "A",
+        "text": "Only 1"
+      },
+      {
+        "key": "B",
+        "text": "1 and 2"
+      },
+      {
+        "key": "C",
+        "text": "1 and 3"
+      },
+      {
+        "key": "D",
+        "text": "All"
+      }
     ],
     "answer": "C",
     "explanation": "When we examine each row then we can see that in rows 1 and 3 the white flower is actually located closer to the fence than the blue one. But, in row 2, the blue flower is closer to the fence than the white one.",
@@ -39,10 +63,22 @@
     "prompt": "園丁在花圃裡種了三排花，每排種4朵花。他被告知：每一排裡，白花都要比藍花更靠近柵欄。",
     "question": "請問哪幾排是照著指示種的？",
     "options": [
-      { "key": "A", "text": "只有第1排" },
-      { "key": "B", "text": "第1排和第2排" },
-      { "key": "C", "text": "第1排和第3排" },
-      { "key": "D", "text": "全部都是" }
+      {
+        "key": "A",
+        "text": "只有第1排"
+      },
+      {
+        "key": "B",
+        "text": "第1排和第2排"
+      },
+      {
+        "key": "C",
+        "text": "第1排和第3排"
+      },
+      {
+        "key": "D",
+        "text": "全部都是"
+      }
     ],
     "answer": "C",
     "explanation": "檢查每一排可以發現：第1排和第3排裡，白花確實比藍花更靠近柵欄；但第2排裡，反而是藍花比白花更靠近柵欄。",

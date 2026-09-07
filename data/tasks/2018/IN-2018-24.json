@@ -4,24 +4,41 @@
   "title_zh": "火星星球城市",
   "source_country": "Germany",
   "source_country_flag": "🇩🇪",
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Germany",
   "interaction_type": "image_choice",
   "asset": {
     "filename": "IN-2018-24.png",
     "path": "assets/images/india/2018/IN-2018-24.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "三條替換規則圖示(房子/樹/積木的圖形替換規則)＋依序套用規則的範例演變圖；下方另有A/B/C/D四個城市圖形選項需一併裁切"
   },
   "content_en": {
     "prompt": "People on Planet Mangal develop cities using replacement rules, starting with one house. Three rules are shown, each replacing an object with a small group of objects. For example, applying rule 1, then rule 2, then rule 3 twice produces a specific city layout (none of the objects switch places).",
     "question": "Which of these cities is NOT on Planet Mangal (i.e. cannot be produced by these rules)?",
     "options": [
-      { "key": "A", "text": "(圖) 城市A" },
-      { "key": "B", "text": "(圖) 城市B" },
-      { "key": "C", "text": "(圖) 城市C" },
-      { "key": "D", "text": "(圖) 城市D" }
+      {
+        "key": "A",
+        "text": "(圖) 城市A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 城市B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 城市C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 城市D"
+      }
     ],
     "answer": "B",
     "explanation": "Rule 2 says every tree gets a block on its right — but in city B, the rightmost tree has no block on its right, and no rule can make blocks disappear once created. So city B cannot be produced. (City A: rules 1,2,3,3 in order. City C: rule 1 three times. City D: rule 1, then rule 2 on each house, then rule 3 on each block.)",
@@ -33,10 +50,22 @@
     "prompt": "火星星球上的居民用一套「替換規則」來發展城市：一開始只有一間房子，接著依序套用三條規則，每條規則會把某個物件替換成一小群物件（例如：先套用規則1，再套用規則2，接著套用規則3兩次，就會得到某個特定的城市樣貌；替換過程中所有物件的相對位置都不會改變）。",
     "question": "以下哪一座城市「不可能」是火星星球上、依照這些規則產生出來的城市？",
     "options": [
-      { "key": "A", "text": "（如圖）城市A" },
-      { "key": "B", "text": "（如圖）城市B" },
-      { "key": "C", "text": "（如圖）城市C" },
-      { "key": "D", "text": "（如圖）城市D" }
+      {
+        "key": "A",
+        "text": "（如圖）城市A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）城市B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）城市C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）城市D"
+      }
     ],
     "answer": "B",
     "explanation": "規則2規定：每一棵樹的右邊都要有一個積木——但城市B裡最右邊那棵樹右邊卻沒有積木，而且沒有任何規則能讓已經產生的積木消失，所以城市B不可能被產生出來。（城市A：依序套用規則1、2、3、3。城市C：套用規則1三次。城市D：套用規則1，接著對每間房子套用規則2，再對每個積木套用規則3。）",

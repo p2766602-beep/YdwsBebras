@@ -4,24 +4,41 @@
   "title_zh": "地圖遊戲",
   "source_country": null,
   "source_country_flag": null,
-  "appeared_in": [{ "country": "India", "year": 2018 }],
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2018
+    }
+  ],
   "license": "CC BY-NC-SA 4.0",
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 標題旁無國旗標示，疑似印度自製題，待之後跨國比對確認",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2018-19.png",
     "path": "assets/images/india/2018/IN-2018-19.png",
-    "status": "待使用者裁切提供",
+    "status": "已裁切完成",
     "description": "六個城市(A-F)的鄰接表格圖，用箭頭/勾號標示單向道路連通關係"
   },
   "content_en": {
     "prompt": "Ravi signed up to play a map game with a table instead of a map. There are six cities A-F. An arrow in the table means a one-way road from the row city to the column city; no arrow means no direct road (e.g. there's a one-way road from City B to City C but not from B to D).",
     "question": "Is it true that at least three one-way roads are needed to get from...",
     "options": [
-      { "key": "A", "text": "City C to City B" },
-      { "key": "B", "text": "City A to City D" },
-      { "key": "C", "text": "City A to City C" },
-      { "key": "D", "text": "City B to City E" }
+      {
+        "key": "A",
+        "text": "City C to City B"
+      },
+      {
+        "key": "B",
+        "text": "City A to City D"
+      },
+      {
+        "key": "C",
+        "text": "City A to City C"
+      },
+      {
+        "key": "D",
+        "text": "City B to City E"
+      }
     ],
     "answer": "B",
     "explanation": "C→A→B uses only 2 roads (statement A false). From A, you can only go to B then to C — needing at least one more road to reach D, so at least 3 roads total (statement B true). A→B→C uses only 2 roads (statement C false). B→C→E uses only 2 roads (statement D false).",
@@ -33,10 +50,22 @@
     "prompt": "Ravi報名玩一個地圖遊戲，玩家拿到的不是地圖，而是一張表格。表格裡有六個城市A-F，表格中的箭頭代表「從列所在城市到欄所在城市」有一條單向道路；沒有箭頭就代表這兩個城市之間沒有直達道路（例如：從B城到C城有單向道路，但B城到D城沒有）。",
     "question": "以下哪一段路程，最少需要三條單向道路才能到達？",
     "options": [
-      { "key": "A", "text": "從C城到B城" },
-      { "key": "B", "text": "從A城到D城" },
-      { "key": "C", "text": "從A城到C城" },
-      { "key": "D", "text": "從B城到E城" }
+      {
+        "key": "A",
+        "text": "從C城到B城"
+      },
+      {
+        "key": "B",
+        "text": "從A城到D城"
+      },
+      {
+        "key": "C",
+        "text": "從A城到C城"
+      },
+      {
+        "key": "D",
+        "text": "從B城到E城"
+      }
     ],
     "answer": "B",
     "explanation": "C→A→B只需要2條路（所以選項A錯）。從A城出發，只能先到B城、再到C城，還需要至少再走一條路才能到D城，所以至少需要3條路（選項B正確）。A→B→C只需要2條路（選項C錯）。B→C→E只需要2條路（選項D錯）。",
