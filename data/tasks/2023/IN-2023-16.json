@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-16",
+  "title_en": "Log Storage",
+  "title_zh": "鋸木倉儲道路",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-16.png",
+    "path": "assets/images/india/2023/IN-2023-16.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sawya cuts wood logs of various lengths and puts them down, one after another, along an 18-meter-long narrow road (logs cannot fit side by side). When placing a log, she puts it in the first available spot from the left where it fits; when a log is sold, it's simply removed from its spot. Having placed logs of lengths 2, 5, 3, 6, 1 (in that order), then sold the 6, 2, and 5 meter logs, then cut a new 4-meter log placed as far left as possible, the road now has three free spots: 3m (leftmost), 6m (middle), 1m (rightmost).",
+    "question": "Sawya has to cut logs of lengths 1, 2, 3 and 4 meters (in some order). Which order will allow her to store them all on the road, using the same rule?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct order is: first 3m, then 2m, then 4m, then 1m. This completely fills the leftmost 3m spot with the first log, then fills the middle 6m spot with the next two logs (2m+4m), and the last 1m log fits exactly in the rightmost spot — this works. Every other order leads to a log that cannot be placed: e.g. filling the leftmost spot with the first two logs (2m+1m) leaves the 3m log to go in the middle spot, shrinking it to 3m remaining, which cannot fit the last 4m log in either remaining spot.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Sawya's road can be seen as computer memory (RAM), and the logs being placed and later sold as processes requesting and later releasing a certain amount of memory. Even though there is theoretically enough total space, the order in which requests come and go can make it impossible to fit them all — this is known as memory fragmentation. Smarter allocation strategies, or memory models that allow chunks to be moved, help alleviate fragmentation; the same problem also affects disk space allocation for files of various sizes. To solve this task, one must evaluate the different proposed orders against the placement strategy and determine which succeed — inferring rules of thumb along the way (e.g. an order that creates several small fragments is likely to fail later)."
+  },
+  "content_zh": {
+    "prompt": "Sawya鋸下不同長度的木材，然後沿著一條18公尺長的狹窄道路，一根接著一根放下去（木材沒辦法並排放）。放木材時，她會從左邊開始，找到第一個放得下的空位放進去；賣掉一根木材時，就直接把它從原本的位置移走。她依序放了長度2、5、3、6、1公尺的木材之後，賣掉了6、2、5公尺這三根，接著又鋸了一根4公尺的新木材、盡量往左放，這時道路上剩下三個空位：最左邊3公尺、中間6公尺、最右邊1公尺。",
+    "question": "Sawya還要鋸長度1、2、3、4公尺的木材（順序不定）。依照同樣的規則，哪一種鋸的順序能讓她把這四根木材全部放上這條路？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）E"
+      }
+    ],
+    "answer": "C",
+    "explanation": "正確的順序是：先3公尺、再2公尺、再4公尺、最後1公尺。第一根3公尺的木材剛好完全填滿最左邊的3公尺空位；接下來兩根(2公尺+4公尺)剛好填滿中間6公尺的空位；最後1公尺的木材剛好放進最右邊的空位——完全成功。其他任何順序都會導致某一根木材放不下：例如先放2公尺、1公尺填滿最左邊空位，接著3公尺放進中間空位，中間空位就只剩3公尺，最後的4公尺木材不論放進剩下哪個空位都放不下。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "Sawya的道路可以看成是電腦裡的記憶體（RAM），放下和賣出的木材，就像是各個處理程序要求並之後釋放一定容量的記憶體。就算理論上總空間是夠的，要求進出的順序（跟策略）有時候還是會讓某些容量放不進去——這叫做「記憶體碎片化」（memory fragmentation）。比Sawya更聰明的分配策略，或是允許把已分配的區塊搬動的記憶體模型，都有助於緩解碎片化問題；同樣的問題也會發生在磁碟空間配置各種大小的檔案時。要解開這一題，必須依照放置策略逐一評估各種提議的順序，判斷哪些行得通——過程中還能歸納出一些經驗法則（例如某種開頭順序容易產生好幾個小碎片，之後就很可能出問題）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-13",
+  "title_en": "Karla's Dream House",
+  "title_zh": "卡拉的夢想小屋",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-13.png",
+    "path": "assets/images/india/2023/IN-2023-13.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Karla has three maps of exactly the same area: one shows forests, one shows rivers, one shows houses. Karla's dream house is in the forest and close to the riverbank.",
+    "question": "Which is Karla's dream house?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "To identify Karla's dream house, information from all three maps must be combined. The selected house must lie in a forest area and be close to a river, which is true only for the house on the top left — easy to verify by overlaying the three maps.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "If the vegetation, river, and building information were all shown on a single map, finding the house would be easy. A Geographic Information System (GIS) brings together many kinds of spatial data onto one map, letting it be visualised and analysed together — with a GIS, for example, disaster-control officers can compile information for evacuation plans. The principle of overlaying multiple layers of different image information is also familiar from graphics programs, where an important question is always which layer or objects are shown in front — here, the houses layer should sit on top so houses aren't hidden by forest areas. This task requires systematically and logically combining multiple map layers to find a specific place, including abstracting the three separate map representations into one coherent composite map."
+  },
+  "content_zh": {
+    "prompt": "卡拉有三張範圍完全相同的地圖：一張畫著森林、一張畫著河流、一張畫著房子。卡拉的夢想小屋要在森林裡，而且要靠近河岸。",
+    "question": "哪一棟是卡拉的夢想小屋？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "要找出卡拉的夢想小屋，必須把三張地圖的資訊結合起來看。符合條件的房子必須位於森林區域，而且要靠近河流，只有左上角那棟房子同時符合這兩個條件——把三張地圖疊在一起看，就能很容易驗證這一點。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "如果把植被、河流跟建築物的資訊全部畫在同一張地圖上，要找到目標房子就會容易得多。地理資訊系統（GIS）就是把各式各樣的空間資訊整合起來、顯示在同一張地圖上，讓資料可以被視覺化並一起分析——舉例來說，靠著GIS，救災人員可以彙整資訊來規劃疏散路線。「把多層不同的圖像資訊疊在一起」這個原理，在繪圖軟體裡也很常見，其中一個重要問題永遠是：哪一層（或哪些物件）要顯示在最前面——在這個例子裡，房子那一層應該疊在最上面，這樣房子才不會被森林區域擋住。這一題需要有系統、有邏輯地結合多層地圖資訊來找出特定地點，也牽涉到把三張各自獨立的地圖表示法，抽象化整合成一張前後一致、資訊完整的合成地圖。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

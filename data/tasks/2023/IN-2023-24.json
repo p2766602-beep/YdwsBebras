@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-24",
+  "title_en": "Open It",
+  "title_zh": "轉盤保險箱",
+  "source_country": "Hungary",
+  "source_country_flag": "🇭🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Hungary",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-24.png",
+    "path": "assets/images/india/2023/IN-2023-24.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A beaver must unlock a safe by lighting up exactly the numbers 7 and 8 on a circular dial of 8 numbers. On each move, the beaver rotates an arrow clockwise by either 3 or 4 steps; the arrow toggles the light of the number it lands on (off becomes on, on becomes off).",
+    "question": "What is the minimum number of moves the beaver needs to light up only 7 and 8 (and no other number) from the starting position shown?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 moves"
+      },
+      {
+        "key": "B",
+        "text": "4 moves"
+      },
+      {
+        "key": "C",
+        "text": "5 moves"
+      },
+      {
+        "key": "D",
+        "text": "6 moves"
+      },
+      {
+        "key": "E",
+        "text": "7 moves"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both 8 and 7 can each be reached in two moves from the start (8 via +4 then +3; 7 via +3 then +3), and from 8 it takes only two further moves to reach 7 (but not the reverse), suggesting a promising 4-move plan: reach 8 first, then 7. Moving +3 (lighting 4), then +4 (lighting 8), then +4 again (turning 4 back off), then +3 (lighting 7) leaves exactly 7 and 8 lit — 4 moves. Systematically checking all possible sequences of 1, 2, or 3 moves confirms none of them can light up exactly {7,8}, so 4 is indeed the minimum.",
+    "ct_skills": "Evaluation, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Here we're given rules that can be repeated any number of times, without knowing in advance how many repetitions reach the goal. One approach is to write a program generating every possible sequence of moves and checking each one's outcome — computer scientists call this a brute-force search, though it becomes impractical once the number of possibilities grows too large to check or remember. This particular approach is close to 'trial and error', repeatedly applying the rules to search for a solution — but note that the first solution found this way isn't always optimal, unless the search itself starts from the smallest number of moves and works upward, as done here. The dial's circular arrangement of numbers, like a clock, is itself a number system; computers use various number systems (binary, decimal, hexadecimal) to represent and process data, and understanding such systems is fundamental to how computers store, process, and transmit information efficiently."
+  },
+  "content_zh": {
+    "prompt": "一隻海狸要解鎖保險箱，做法是在一個有8個數字的圓形轉盤上，剛好只點亮7和8。海狸每次可以把箭頭順時針轉3步或4步；箭頭停下時，會切換所指數字的燈（原本熄滅的會點亮，原本點亮的會熄滅）。",
+    "question": "從圖中所示的起始狀態開始，海狸最少需要移動幾次，才能剛好只點亮7和8（其他數字都不亮）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3次"
+      },
+      {
+        "key": "B",
+        "text": "4次"
+      },
+      {
+        "key": "C",
+        "text": "5次"
+      },
+      {
+        "key": "D",
+        "text": "6次"
+      },
+      {
+        "key": "E",
+        "text": "7次"
+      }
+    ],
+    "answer": "B",
+    "explanation": "從起始狀態出發，8和7都可以各自用2步抵達（8是+4再+3；7是+3再+3），而且從8只要再2步就能到7（反過來則不行），這暗示一個有機會成功的4步計畫：先設法點亮8，再點亮7。依序移動+3（點亮4）、+4（點亮8）、再+4（把4重新熄滅）、再+3（點亮7），最後剛好只有7和8亮著——總共4步。有系統地檢查所有1步、2步、3步的可能組合，可以確認沒有任何一種能剛好只點亮{7,8}，所以4步確實是最少的次數。",
+    "ct_skills": "評估、演算法思維（Evaluation, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題給了我們可以重複任意次數的規則，但我們事先不知道要重複幾次才能達成目標。一種做法是寫一支程式，產生所有可能的移動序列，再逐一檢查結果——電腦科學家把這種做法叫做「窮舉法」（brute-force search），不過一旦可能性多到無法逐一檢查或記住，這個方法就會變得不切實際。這一題採用的做法比較接近「試誤法」，反覆套用規則來搜尋解答——但要注意，用這種方法找到的第一個解答，不見得就是最佳解，除非搜尋本身是照著「移動次數由少到多」的順序進行，就像這一題示範的做法一樣。轉盤上數字的環狀排列方式，就像時鐘一樣，其實本身就是一種數字系統；電腦會用各種不同的數字系統（二進位、十進位、十六進位）來表示和處理資料，理解這些數字系統，是電腦能有效率地儲存、處理、傳輸資訊的基礎。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

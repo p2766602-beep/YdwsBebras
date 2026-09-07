@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-21",
+  "title_en": "Counting",
+  "title_zh": "健行過夜路線數",
+  "source_country": "USA",
+  "source_country_flag": "🇺🇸",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：USA",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-21.png",
+    "path": "assets/images/india/2023/IN-2023-21.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Meena enjoys walking holidays where she stays somewhere different each night. A diagram shows her planned walk, with start, end, and every possible overnight stop; she can only walk one or two sections (marked by dashed lines) in a day. Two possible routes are shown: Route 1 has 3 overnight stops, Route 2 has 4.",
+    "question": "How many different routes (including the two shown) could Meena take on her walking holiday?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Using decomposition: Meena must stay overnight at both B and C, since the distance between them is the maximum she can walk in one day — this splits the route into two independent smaller problems. There are exactly two ways to get from the Start to B (as shown by Route 1 and Route 2), so also exactly two ways to reach C. From C to the End there are exactly three ways: C→D→E→End, C→E→End, and C→D→End. In total there are 2×3=6 possible routes.",
+    "ct_skills": "Decomposition, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task can be solved by humans through decomposing it into two smaller problems; for larger similar problems, a dynamic programming approach is used instead — an algorithm that breaks a problem into very small subproblems and reuses their solutions to build up the answer to the bigger problem. Numbering the locations Start, A, B, C, D, E, End, we can build a table of how many ways there are to reach each one: Start=1, A=1, B=1+1=2 (from Start or from A), C=2 (must come from B), D=2 (must come from C), E=2+2=4 (from B or from C), End=2+4=6 (from D or from E). This process — first abstracting the map into simple labelled points, then solving smaller problems progressively to build the answer for later points from already-known answers for earlier ones — is exactly what's called dynamic programming, a smart algorithmic strategy that also scales to much bigger problems that would be very time-consuming for a person to solve by hand."
+  },
+  "content_zh": {
+    "prompt": "Meena喜歡健行旅遊，每天晚上都住在不同的地方。一張圖顯示了她計劃的健行路線，標出起點、終點，以及所有可能過夜的地點；她一天最多只能走一或兩段路（圖上用虛線標示）。圖中顯示了兩條可能的路線：路線1會過夜3次，路線2會過夜4次。",
+    "question": "Meena的健行旅遊總共有幾種不同的路線可以走（包含圖中顯示的這兩條）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4種"
+      },
+      {
+        "key": "B",
+        "text": "5種"
+      },
+      {
+        "key": "C",
+        "text": "6種"
+      },
+      {
+        "key": "D",
+        "text": "7種"
+      },
+      {
+        "key": "E",
+        "text": "8種"
+      }
+    ],
+    "answer": "C",
+    "explanation": "用「分解」的方法來看：Meena一定得在B和C都過夜，因為這兩點之間的距離剛好是她一天能走的最大距離——這樣就能把整條路線拆成兩個彼此獨立的小問題。從起點到B剛好有兩種走法（就是路線1和路線2顯示的那兩種），所以到C也剛好有兩種走法。從C到終點則剛好有三種走法：C→D→E→終點、C→E→終點、C→D→終點。所以總共有2×3＝6種可能的路線。",
+    "ct_skills": "分解、演算法思維（Decomposition, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題人類可以透過拆成兩個較小的問題來解決；如果問題規模更大，則會改用「動態規劃」的做法——一種把問題拆成非常小的子問題、並重複利用這些子問題的解答，逐步組合出整體答案的演算法策略。把每個地點依序標記為起點、A、B、C、D、E、終點，我們可以做出一張表，記錄抵達每個地點各有幾種走法：起點=1，A=1，B=1+1=2（來自起點或A），C=2（一定要經過B），D=2（一定要經過C），E=2+2=4（來自B或C），終點=2+4=6（來自D或E）。這個過程——先把地圖抽象化成簡單標了記號的幾個點，再一步步利用「已經算出來的較早地點答案」，逐步解出「後面地點」的答案——正是所謂的「動態規劃」，一種聰明的演算法策略，就算問題規模大到人類手算會非常耗時，這個方法依然適用。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

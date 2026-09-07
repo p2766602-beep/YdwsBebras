@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-02",
+  "title_en": "Sort the Beavers",
+  "title_zh": "幫海狸依帽子高矮排隊",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-02.png",
+    "path": "assets/images/india/2023/IN-2023-02.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sort the beavers in ascending order according to their hats' heights. The beavers currently stand in order A, B, C, D, E.",
+    "question": "In what sequence will the beavers stand if they are arranged so that beavers to the right have taller hats than beavers to the left?",
+    "options": [
+      {
+        "key": "A",
+        "text": "C A D E B"
+      },
+      {
+        "key": "B",
+        "text": "B E D A C"
+      },
+      {
+        "key": "C",
+        "text": "C A E D B"
+      },
+      {
+        "key": "D",
+        "text": "E B D A C"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Analyzing the height of each beaver's hat (separating this from the beaver's own height) and rearranging by moving taller hats to the right step by step, the final ascending order is C A E D B.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In informatics, arranging items into an ordered sequence is called sorting. It's astonishing how many things are sorted in daily life — lockers, dictionary entries, phone books, search-engine results, sports rankings — in all these cases, sorted items are far easier to work with than unsorted ones, and the benefit grows with the number of items. Solving this task requires first analysing the problem (separating a beaver's own height from its hat's height), then repeatedly moving taller hats to the right (and shorter ones left) until all beavers are in order — this repeated-step idea is the seed of an algorithm."
+  },
+  "content_zh": {
+    "prompt": "請依照帽子的高矮，把海狸由矮到高排好隊。海狸目前依序站成A、B、C、D、E。",
+    "question": "如果要讓「站在右邊的海狸，帽子一定比左邊的海狸高」，海狸最後應該排成什麼順序？",
+    "options": [
+      {
+        "key": "A",
+        "text": "C A D E B"
+      },
+      {
+        "key": "B",
+        "text": "B E D A C"
+      },
+      {
+        "key": "C",
+        "text": "C A E D B"
+      },
+      {
+        "key": "D",
+        "text": "E B D A C"
+      }
+    ],
+    "answer": "C",
+    "explanation": "先分析每隻海狸帽子的高度（要把「海狸本身的高度」跟「帽子的高度」分開來看），再一步步把比較高的帽子往右移、比較矮的帽子往左移，最後由矮到高排好的順序就是C A E D B。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在資訊科學裡，把項目排成有順序的序列，叫做「排序」。日常生活中有多少東西其實都被排序過，實在令人驚訝——水上樂園的置物櫃、字典或電話簿的條目、搜尋引擎的搜尋結果、各種運動賽事的名次排行——在這些情況下，排好序的項目都比沒排序的項目容易處理得多，而且項目數量越多，這個好處就越明顯。要解開這一題，必須先分析問題（把「海狸本身的高度」跟「帽子高度」分開），再反覆把比較高的帽子往右移、比較矮的往左移，直到所有海狸都排好順序為止——這種「重複執行同一個步驟」的想法，正是演算法的雛形。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

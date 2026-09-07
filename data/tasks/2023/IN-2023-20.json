@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-20",
+  "title_en": "Model Railway",
+  "title_zh": "模型火車轉轍器",
+  "source_country": "Czechia",
+  "source_country_flag": "🇨🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Czechia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-20.png",
+    "path": "assets/images/india/2023/IN-2023-20.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ondra built a model railway with a Home station and 4 other stations (Apple, Banana, Cherry, Dates). The train executes a sequence of L/R instructions, turning at each switch according to a fixed rule table, and terminates at the nearest station once all instructions are used (one special switch ignores the next instruction and always continues in a fixed direction). From Home, instruction 'RL' leads to Banana station; so does instruction 'LR'.",
+    "question": "Which station will the train terminate at after executing instructions LLRR, starting from Home station facing the same direction as shown in the picture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Apple station"
+      },
+      {
+        "key": "B",
+        "text": "Banana station"
+      },
+      {
+        "key": "C",
+        "text": "Cherry station"
+      },
+      {
+        "key": "D",
+        "text": "Dates station"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Executing L, the train passes through Apple station. Executing the next L then R, it passes through Dates station; since one switch along the way ignores the next instruction, the train keeps moving and passes through Cherry station without using any instruction. Executing the final R, it reaches Banana station — with no instructions left, it stops there.",
+    "ct_skills": "Abstraction, Algorithmic Thinking",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "A program is a sequence of instructions; combined with certain conditions (here, the direction the train approaches a switch from), the instructions determine the path taken. Such instructions must be unambiguous and understandable to whatever agent executes them, to avoid errors — automatic railway control assumes conditions and instructions can be stored so a journey can be reconstructed later. This task requires understanding a graph model of a real system and how the train's movement is coded within it: abstraction is needed to grasp the essential structure, and algorithmic thinking is needed, since we have code describing a process and care about the final state after executing it."
+  },
+  "content_zh": {
+    "prompt": "Ondra蓋了一套模型鐵路，有一個「家」車站和另外4個車站（蘋果、香蕉、櫻桃、椰棗）。火車會執行一連串L/R指令，每次遇到轉轍器時依照固定的規則表轉向，等所有指令用完後，就在最近的車站停下（其中有一種特殊轉轍器，會忽略下一個指令，永遠固定往某個方向前進）。從「家」出發，指令「RL」會抵達香蕉站；指令「LR」同樣也會抵達香蕉站。",
+    "question": "如果火車從「家」出發，面朝圖中所示的方向，執行指令LLRR後會停在哪一站？",
+    "options": [
+      {
+        "key": "A",
+        "text": "蘋果站"
+      },
+      {
+        "key": "B",
+        "text": "香蕉站"
+      },
+      {
+        "key": "C",
+        "text": "櫻桃站"
+      },
+      {
+        "key": "D",
+        "text": "椰棗站"
+      }
+    ],
+    "answer": "B",
+    "explanation": "執行第一個L，火車經過蘋果站。接著執行L、R，火車經過椰棗站；因為途中有一個轉轍器會忽略下一個指令，火車會不消耗指令繼續前進，經過櫻桃站。執行最後一個R，抵達香蕉站——這時指令已經用完，火車就停在這裡。",
+    "ct_skills": "抽象化、演算法思維（Abstraction, Algorithmic Thinking）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "程式就是一連串指令；這些指令再搭配特定條件（這裡是火車抵達轉轍器時的方向），共同決定了火車實際走的路徑。這類指令必須清楚、明確，讓執行它的一方（不論是人還是機器）不會產生誤解，才能避免錯誤——自動化鐵路控制系統假設這些條件和指令都能被儲存下來，之後就能重建整趟旅程。這一題需要理解真實系統的圖論模型，以及火車的移動方式是怎麼被編碼進這個模型裡的：需要抽象化能力，才能掌握其中真正重要的結構；也需要演算法思維，因為我們手上有一段描述執行過程的程式碼，而我們關心的是執行完之後的最終狀態。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-19",
+  "title_en": "Closer or Further",
+  "title_zh": "尋寶訊號猜位置",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-19.png",
+    "path": "assets/images/india/2023/IN-2023-19.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Disha plays a game to find buried treasure on a grid of squares. Starting from square S, she can move one step at a time, horizontally or vertically, to a neighbouring square. After each step she receives a signal: 'C' if she is now closer to the treasure, or 'F' if further away (distance = minimum number of steps to reach the treasure). Given her path and signals on a 4x7 grid, she is told the treasure is under one of five numbered squares.",
+    "question": "Under which numbered square was the treasure buried?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Checking the accuracy of the 'C'/'F' signals by computing the distance to square 5 from each square on the path: the distance increases exactly where an 'F' was reported and decreases exactly where a 'C' was reported, matching the observed sequence perfectly. For the other candidate squares, at least one signal in the sequence would have to be wrong — e.g. if the treasure were under square 1, 2 or 4, the 'F' signal at a certain step should have been 'C' instead, since that step's square is actually closer to those locations than the previous square; if the treasure were under square 3, another step's signal should have been 'F' instead of the reported value.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task resembles reinforcement learning (RL), a machine learning technique concerning how an agent should act in an environment to maximise cumulative reward — key components are the agent, the environment, the policy for deciding actions, and the reward signal (here, 'C' is a positive reward and 'F' a negative one), with a value function estimating how good a given state is. The distance used here is the Manhattan (taxicab) distance, since movement is only horizontal or vertical. Autonomous driving is a real-world RL application, requiring path planning and motion prediction under an unpredictable environment. To tackle this task, a systematic strategy incorporating algorithm design helps — the divide-and-conquer idea of using each 'F' signal to eliminate squares ahead as candidates narrows the search space efficiently."
+  },
+  "content_zh": {
+    "prompt": "Disha在一個方格棋盤上玩尋寶遊戲。她從S格出發，每次只能往水平或垂直方向移動一步，走到相鄰的格子。每走一步，她就會收到一個訊號：如果現在離寶藏更近，收到「C」；如果更遠，收到「F」（距離定義為抵達寶藏所需的最少步數）。已知她在一個4×7棋盤上走過的路徑和收到的訊號，並被告知寶藏埋在編號1到5的其中一格底下。",
+    "question": "寶藏究竟埋在哪個編號的格子底下？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1號"
+      },
+      {
+        "key": "B",
+        "text": "2號"
+      },
+      {
+        "key": "C",
+        "text": "3號"
+      },
+      {
+        "key": "D",
+        "text": "4號"
+      },
+      {
+        "key": "E",
+        "text": "5號"
+      }
+    ],
+    "answer": "E",
+    "explanation": "檢驗「C」「F」訊號是否吻合的方法，是計算路徑上每一格「到5號格」的距離：只要在標示「F」的那一步距離確實增加、標示「C」的那一步距離確實減少，就跟實際觀察到的訊號序列完全吻合。至於其他候選格：如果寶藏在1、2或4號格底下，某一步標示的「F」其實應該是「C」，因為那一步走到的格子其實離這幾個位置更近；如果寶藏在3號格底下，則另一步的訊號應該是「F」而不是實際記錄的結果。因此寶藏埋在5號格底下。",
+    "ct_skills": "演算法思維、評估（Algorithmic Thinking, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題很像「強化學習」（reinforcement learning，RL）——一種機器學習技術，探討智慧代理人該如何在環境中採取行動，以最大化累積獎勵；關鍵元件包括代理人、環境、決定行動的策略，以及獎勵訊號（這裡「C」是正向獎勵、「F」是負向獎勵），還有評估某個狀態好壞程度的「價值函數」。這裡使用的距離是「曼哈頓距離」（計程車距離），因為移動只能沿水平或垂直方向進行。自駕車是強化學習在現實世界中的應用，需要在難以預測的環境裡做路徑規劃和動作預測。要解開這一題，運用結合演算法設計的系統性策略會很有幫助——利用每個「F」訊號來排除前方某些格子，正是「分治法」縮小搜尋範圍的概念。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-03",
+  "title_en": "Tile Land",
+  "title_zh": "拼接土地磚",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-03.png",
+    "path": "assets/images/india/2023/IN-2023-03.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Illa has a new game: Tile Land. Its tiles show areas of water and land. Using the tiles, Illa can form landscapes; neighbouring tiles must match — where tiles touch, land must touch land and water must touch water.",
+    "question": "Which tile will Illa be able to place in one of the gaps below?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      },
+      {
+        "key": "E",
+        "text": "(picture) E"
+      }
+    ],
+    "answer": "A",
+    "explanation": "We can immediately see that this answer is correct: each added tile matches its two neighbouring tiles. For each gap, checking all five tiles shows that only one tile can fill it while matching both neighbours, so this is the only correct answer.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Looking closer at Illa's tiles, we realise each tile can be divided into sections whose two outside borders both show either land or water — so there are only two section types, which we can label 'W' (water on the outside border) and 'L' (land). Two tiles match if their neighbouring section types are equal. For most sections of a gap we can already fill in the required type; for the two outer-corner sections we don't care, and mark them '*'. Each gap thus gets a section-type pattern, which only one tile fits. In summary, we discovered a special property of the tile images and replaced them with an arrangement of characters L and W — reducing the information in the images to just what was needed. Computer scientists call such character arrangements models of the images; modelling involves abstraction, and abstraction reduces information, while computers need to work on models of reality — care must be taken that important properties of reality are not lost in the process."
+  },
+  "content_zh": {
+    "prompt": "Illa在玩一款新遊戲「拼接土地磚」。磚塊上畫著水域和陸地；用這些磚塊可以拼出地景，相鄰的磚塊必須互相吻合——磚塊接觸的地方，陸地要接陸地、水域要接水域。",
+    "question": "下面哪一塊磚，可以填進地景裡的其中一個空缺？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      },
+      {
+        "key": "E",
+        "text": "（如圖）E"
+      }
+    ],
+    "answer": "A",
+    "explanation": "我們可以馬上看出這個答案是對的：加進去的磚塊跟兩側相鄰的磚塊都吻合。針對每一個空缺，檢查全部5塊磚就會發現，只有一塊磚能同時跟兩側相鄰磚塊吻合、填進那個空缺，所以這是唯一正確的答案。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "仔細觀察Illa的磚塊，我們會發現每塊磚都可以分成幾個區段，每個區段的兩個外側邊緣，要嘛都是陸地、要嘛都是水域——所以其實只有兩種區段類型，可以標記成「W」（外側邊緣是水域）和「L」（外側邊緣是陸地）。只要兩塊磚相鄰區段的類型相同，就能吻合。對空缺裡大部分的區段，我們已經可以直接填入需要的類型；只有空缺最外側兩個角落的區段不重要，標成「*」。這樣一來，每個空缺都會得到一個區段類型的樣式，而剛好只有一塊磚符合這個樣式。總結來說，我們發現了磚塊圖案的一個特殊性質，並用L和W這兩個字元的排列取代了原本的圖案——大幅簡化了圖片裡的資訊量，只留下解題真正需要的部分。電腦科學家會把這種字元排列稱為圖像的「模型」；建模的過程需要用到抽象化，而抽象化本身就是在簡化資訊——電腦本來就得靠處理「現實的模型」來運作，只是建立模型時，必須小心別把現實裡重要的性質給弄丟了。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

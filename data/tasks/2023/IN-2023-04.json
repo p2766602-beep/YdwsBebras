@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-04",
+  "title_en": "Umbrella",
+  "title_zh": "安妮塔的雨傘",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-04.png",
+    "path": "assets/images/india/2023/IN-2023-04.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "This is Anita's umbrella, showing a specific repeating sequence of ten patterns.",
+    "question": "One of the four images shows Anita's umbrella. Which one?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Every pattern is used only once on Anita's umbrella, so we can compare each image by picking its left-most pattern, finding that position on Anita's umbrella, and checking whether the following patterns keep matching. Each image only shows a sequence of five patterns, so it's not immediately obvious whether it matches the full ten-pattern sequence — but only image C's five-pattern sequence fully matches a stretch of Anita's umbrella; the others only partially match, so C is the only one that can be Anita's umbrella.",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In this task, we only get partial information about the umbrella patterns shown in each option, yet we can still determine which one is Anita's umbrella by finding the one sequence that also occurs within Anita's own pattern. The same principle applies to searching a text document: a computer looks for a given partial 'search sequence' among the letters in the document. The longer the search sequence, the fewer matches you'll find, and the higher your chance of finding exactly the spot you want — the shorter the sequence, the less accurate but faster the search. Search algorithms have long been designed (and are still being improved) to find the best results as quickly as possible, even in huge amounts of data like the internet. This problem can be solved through decomposition (breaking the search into the smaller steps described above) and is a very practical exercise in pattern recognition — recognising regularities, repetitions, or similarities in data — a skill that, in programming, later enables a modular approach where a recurring subtask is solved only once."
+  },
+  "content_zh": {
+    "prompt": "這是安妮塔的雨傘，上面有10種花樣，依照固定順序重複排列。",
+    "question": "下面四張圖裡，有一張畫的就是安妮塔的雨傘，是哪一張？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "安妮塔的雨傘上，每一種花樣都只出現一次，所以我們可以這樣比對每張圖：先找出圖裡最左邊的花樣，在安妮塔的雨傘上找到它的位置，再檢查接下來的花樣是不是也照樣對得上。每張圖都只顯示5種花樣的一段序列，所以沒辦法馬上判斷它是不是符合完整10種花樣的順序——但只有圖C這5種花樣的序列，完整對上了安妮塔雨傘裡的一段；其他圖都只是部分吻合，所以只有C可能是安妮塔的雨傘。",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題裡，每個選項提供的雨傘花樣資訊都只是局部的，但我們依然能判斷出哪一張才是安妮塔的雨傘——只要找出「唯一同時也出現在安妮塔雨傘裡」的那個序列就行了。這跟搜尋文字文件時用的原理是一樣的：電腦會拿一段給定的局部「搜尋序列」，去文件裡的文字中尋找相符的段落。搜尋序列越長，找到的相符結果就越少，也越有機會精準找到你要的那個地方；序列越短，準確度越低，但搜尋速度越快。搜尋演算法長久以來不斷被設計（也持續被改良），目的就是要在龐大的資料量裡（例如網際網路），盡可能快速地找到最合適的結果。這一題可以透過「分解」來解決（把搜尋拆成前面說的那幾個小步驟），也是一次很實際的樣式辨識練習——辨識資料中的規律、重複或相似之處，這項能力在程式設計裡，之後能讓我們用模組化的方式，把重複出現的子任務只解決一次就好。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

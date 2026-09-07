@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-07",
+  "title_en": "Flower Shop",
+  "title_zh": "花店組合花束",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-07.png",
+    "path": "assets/images/india/2023/IN-2023-07.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The flower shop sells bouquets composed in only three steps: (1) pick a flower from the first bucket; (2) if the flower is a daisy, pick another daisy; (3) pick at least one branch from the second bucket to complete the bouquet.",
+    "question": "Which of these bouquets have been bought at the flower shop?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Following the three instructions: step 1 gives either a daisy or a rose; step 2 either adds a second daisy (if the first was a daisy) or adds no flower (if a rose); step 3 adds enough branches to reach exactly 4 pieces total (three branches with the single rose, or two branches with the two daisies). Only the bouquet built this way — option C — is valid.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The instructions to compose a bouquet are clear enough to be executed by a machine — in informatics, this is called an algorithm, and it contains some very typical instruction types found in many computer programs: the first instruction is a random choice from a collection of objects; the second is an if-statement, executing 'pick another daisy' only when the condition 'the flower is a daisy' is true; the third looks simple but is really a repeat-until (or while) loop, repeating 'pick a branch' at least once until the bouquet reaches 4 pieces. Floristry is an art with its own traditions and rules for composing bouquets — a good example that professional knowledge can itself be expressed as algorithms. Solving this task requires understanding and executing an algorithm, and evaluation is also involved, since the final bouquet must have exactly 4 flowers and cannot be two roses or one daisy plus one rose."
+  },
+  "content_zh": {
+    "prompt": "花店只用三個步驟組合花束：1.從第一個桶子裡挑一朵花。2.如果挑到的是雛菊，就再挑一朵雛菊。3.從第二個桶子裡至少挑一根枝葉，把花束湊滿。",
+    "question": "下面哪一束花，是照著花店的規則買到的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "依照這三個步驟：步驟1會挑到雛菊或玫瑰其中一種；步驟2如果第一朵是雛菊，就再加一朵雛菊，如果是玫瑰則不加花；步驟3要加上足夠的枝葉，讓整束花剛好湊到4件（配單一朵玫瑰要加3根枝葉，配兩朵雛菊要加2根枝葉）。只有照這個方式組成的花束——選項C——才是有效的。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "組合花束的這些指示夠清楚，清楚到可以直接讓機器來執行——在資訊科學裡，這就叫做「演算法」，而且裡面包含了幾種在許多電腦程式裡很常見的典型指令：第一個指令是從一堆物件裡隨機挑一個；第二個指令是「if條件敘述」，只有當「挑到的花是雛菊」這個條件成立時，才會執行「再挑一朵雛菊」；第三個指令看起來簡單，但其實是一個「重複直到條件成立」（或稱while）迴圈——重複「挑一根枝葉」這個動作至少一次，直到花束湊滿4件為止。花藝是一門藝術，有自己的傳統和組合花束的規則——這是個很好的例子，說明專業知識本身也可以用演算法來表達。要解開這一題，必須理解並執行一套演算法；「評估」也牽涉在內，因為最後的花束必須剛好是4朵花，不能是兩朵玫瑰，也不能是一朵雛菊加一朵玫瑰。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-28",
+  "title_en": "Juice Carts",
+  "title_zh": "檸檬汁攤車選址",
+  "source_country": "Brazil",
+  "source_country_flag": "🇧🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Brazil",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-28.png",
+    "path": "assets/images/india/2023/IN-2023-28.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A map of Bebravia City shows street corners (where new lime juice carts could be kept), streets, and existing lime juice carts. Residents want every street corner to be within 2 streets' walk of some juice cart; a new cart will be placed at one of four numbered corners.",
+    "question": "Where should the new lime juice cart be positioned so that every corner in the city can reach a juice cart by walking at most two streets?",
+    "options": [
+      {
+        "key": "A",
+        "text": "corner 1"
+      },
+      {
+        "key": "B",
+        "text": "corner 2"
+      },
+      {
+        "key": "C",
+        "text": "corner 3"
+      },
+      {
+        "key": "D",
+        "text": "corner 4"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Eliminating all corners already within two streets of an existing cart leaves only four corners still unreachable — a much simpler problem. Placing the new cart at corner 1, 2, or 3 still leaves some corners unable to reach a cart within two streets; only placing it at corner 4 brings every remaining corner within two streets, which is what's required.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This task involves graphs, a common, powerful and versatile data structure for representing digital data — applicable to street maps, relationships between people, states in a closed system, or hierarchically organised words. Although visually simple, verifying certain properties of a graph can be quite challenging; here, the task concerns 'dominating sets'. This idea applies to real-world problems too, such as designing a public transportation network that reaches every citizen and location within, say, at most 2 trips."
+  },
+  "content_zh": {
+    "prompt": "Bebravia市的一張地圖，標示了街角（可以擺放新檸檬汁攤車的地點）、街道，以及現有的檸檬汁攤車。居民希望不論從哪個街角出發，走最多2條街，就能找到一台檸檬汁攤車；新攤車會設在四個編號街角其中之一。",
+    "question": "新的檸檬汁攤車該設在哪裡，才能讓城裡每個街角走最多2條街，就能到達一台檸檬汁攤車？",
+    "options": [
+      {
+        "key": "A",
+        "text": "1號街角"
+      },
+      {
+        "key": "B",
+        "text": "2號街角"
+      },
+      {
+        "key": "C",
+        "text": "3號街角"
+      },
+      {
+        "key": "D",
+        "text": "4號街角"
+      }
+    ],
+    "answer": "D",
+    "explanation": "先排除所有「已經在現有攤車2條街範圍內」的街角，剩下只有四個街角還構不到——問題一下子簡化很多。如果把新攤車設在1、2、3號街角，仍然會有一些街角沒辦法在2條街的範圍內找到攤車；只有把新攤車設在4號街角，才能讓剩下所有街角都在2條街範圍內——這正是我們要找的答案。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題牽涉到「圖」——一種常見、強大又多功能的數位資料結構，可以應用在地圖上的街道、人與人之間的關係、封閉系統裡的狀態，或是階層式組織的詞彙關係等各種情境。雖然圖看起來很簡單，但要驗證圖是否具備某些性質，其實可能相當有挑戰性；這一題探討的，是所謂的「支配集」（dominating set）概念。這個想法也能應用在現實世界的問題上，例如設計一套大眾運輸網路，讓所有市民和地點都能在（例如）最多轉乘2次的範圍內獲得服務。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

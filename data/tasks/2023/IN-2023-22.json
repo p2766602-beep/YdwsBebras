@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-22",
+  "title_en": "Ogham Code",
+  "title_zh": "歐甘文字密碼",
+  "source_country": "Ireland",
+  "source_country_flag": "🇮🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Ireland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-22.png",
+    "path": "assets/images/india/2023/IN-2023-22.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "At school, Ruchi and Aabha learned Ogham, an ancient Irish alphabet whose letters are formed by groups of lines, with larger spaces separating different letters. Aabha used Ogham to write four food items and told Ruchi they are bananas, berries, oranges, and lettuce.",
+    "question": "Below are the four foods written using Ogham. Which one of them is BERRIES?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "First, the reading direction must be figured out: it isn't left-to-right, since the words would then need exactly 4 letters each (they don't), so the words must be read bottom to top (deduced from the fact that three of the seven food-word letters share a common ending letter, which must sit at the top). Comparing the words: BANANAS is the only word with three repeated letters, matching the third picture — establishing that its repeated letter (a single long horizontal line) is 'A'. ORANGES is the only remaining word containing that letter, matching the second picture (the only one left with that single-line letter). Between LETTUCE and BERRIES, both ORANGES and BANANAS end in the same 'S' pattern (four horizontal lines on the right) — the fourth picture ends the same way, so it must be BERRIES, leaving LETTUCE as the first picture.",
+    "ct_skills": "Pattern recognition, Decomposition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "This task is a simple example of cryptanalysis — the study of how to 'crack' encryption in order to figure out the contents of encoded messages without the key normally needed, using knowledge of what words might plausibly be hidden inside. Pattern recognition is needed to spot repeated letters between the words and the pictures; decomposition lets the problem be solved piece by piece, figuring out one letter at a time and combining partial solutions to solve the whole; and representation is needed to understand how letters can be encoded using different symbols or pictures."
+  },
+  "content_zh": {
+    "prompt": "Ruchi和Aabha在學校學了歐甘文字（Ogham）——一種古老的愛爾蘭字母，每個字母是由一組線條組成，不同字母之間用較大的間距隔開。Aabha用歐甘文字寫下四種食物，告訴Ruchi它們分別是香蕉(bananas)、莓果(berries)、柳橙(oranges)和萵苣(lettuce)。",
+    "question": "下面用歐甘文字寫出的四種食物裡，哪一個是「莓果(BERRIES)」？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "首先要弄清楚閱讀方向：不是從左到右，因為這樣的話每個字都必須剛好是4個字母（但實際上不是），所以應該是從下往上讀（可以從「7個食物單字裡，有3個字結尾字母相同」這個線索推論出，這個共同的結尾字母一定位在最上方）。逐一比對這幾個詞：BANANAS是唯一有三個重複字母的單字，剛好對應第三張圖——由此可以確定，那個重複出現的字母（一條長水平線）就是「A」。ORANGES是剩下唯一含有這個字母的單字，對應第二張圖（剩下的圖裡，也只有它有這個單一線條的字母）。剩下LETTUCE和BERRIES要分辨：ORANGES和BANANAS都以同樣的「S」樣式結尾（右邊四條水平線），第四張圖剛好也是這樣結尾，所以它一定是BERRIES，剩下第一張圖就是LETTUCE。",
+    "ct_skills": "樣式辨識、分解（Pattern recognition, Decomposition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題是密碼分析（cryptanalysis）的一個簡單範例——研究如何在沒有正常解密所需金鑰的情況下，「破解」加密、推敲出加密訊息的內容，靠的是對「訊息裡可能藏著哪些單字」的知識。要在單字和圖片之間找出重複的樣式，需要用到樣式辨識；把問題拆成一次解決一個字母、再把各個局部解答組合起來解決整體問題，用到的是分解；而理解字母是如何用不同符號或圖案來編碼的，則需要用到表示法的概念。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

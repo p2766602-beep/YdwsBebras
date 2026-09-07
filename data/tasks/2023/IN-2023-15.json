@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-15",
+  "title_en": "Logic Treasure",
+  "title_zh": "海盜藏寶箱推理",
+  "source_country": "Uruguay",
+  "source_country_flag": "🇺🇾",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Uruguay",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-15.png",
+    "path": "assets/images/india/2023/IN-2023-15.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "An island has three treasure chests: one by the mountains, one under the palm tree, one by the sea. All three start the day empty. At some point a pirate fills one chest with gold. Three tourists photographed the chests: one took photos before the pirate filled a chest, the other two after. Anand: the chest by the sea was empty. Bindu: the chest by the sea was empty and the chest under the palm tree was empty. Chirag: the chest by the mountains was empty and the chest under the palm tree was empty.",
+    "question": "Luckily for the pirate, no tourist found the gold. Which treasure chest was the gold in?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The chest under the palm tree"
+      },
+      {
+        "key": "B",
+        "text": "The chest by the sea"
+      },
+      {
+        "key": "C",
+        "text": "The chest by the mountains"
+      },
+      {
+        "key": "D",
+        "text": "The chest cannot be determined"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Testing each possibility: if the gold were under the palm tree, both Bindu's and Chirag's photos would have to be from before the pirate's visit — but only one tourist took photos before, a contradiction. If the gold were by the sea, both Anand's and Bindu's photos would have to be from before — again a contradiction. If the gold were by the mountains, only Chirag's photos need to be from before the pirate's visit — this is consistent with the story. So the pirate filled the chest by the mountains.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task involves logical reasoning: given the photos and the three possible gold locations, we must reason about what must or must not be true. Contradictions are powerful in reasoning — if logical steps lead to two statements that cannot both be true, the initial assumption must be false. Logic plays a key role across computer science: databases, programming languages, artificial intelligence, and hardware/software design and verification. One way to solve this task is to explore each possible answer by assuming it's true and following its logical consequences to see if it's plausible or causes a conflict — a process called simulation and evaluation, involving modelling a situation and then assessing its outcomes."
+  },
+  "content_zh": {
+    "prompt": "一座島上有三個藏寶箱：一個在山邊、一個在棕櫚樹下、一個在海邊。一開始三個箱子都是空的。某個時間點，海盜把其中一個箱子裝滿了黃金。三位遊客各自拍了藏寶箱的照片：一位是在海盜裝金幣之前拍的，另外兩位是在那之後拍的。Anand說：海邊的箱子是空的。Bindu說：海邊的箱子是空的，棕櫚樹下的箱子也是空的。Chirag說：山邊的箱子是空的，棕櫚樹下的箱子也是空的。",
+    "question": "幸運的是（對海盜來說），沒有一位遊客發現黃金。黃金到底放在哪個藏寶箱裡？",
+    "options": [
+      {
+        "key": "A",
+        "text": "棕櫚樹下的箱子"
+      },
+      {
+        "key": "B",
+        "text": "海邊的箱子"
+      },
+      {
+        "key": "C",
+        "text": "山邊的箱子"
+      },
+      {
+        "key": "D",
+        "text": "無法判斷"
+      }
+    ],
+    "answer": "C",
+    "explanation": "逐一測試每種可能：如果黃金在棕櫚樹下，那Bindu和Chirag的照片就都必須是海盜裝金幣「之前」拍的——但故事說只有一位遊客是在那之前拍的，矛盾。如果黃金在海邊，那Anand和Bindu的照片就都必須是「之前」拍的——同樣矛盾。如果黃金在山邊，那就只需要Chirag的照片是「之前」拍的——這跟故事完全吻合。所以，海盜把黃金放進了山邊的箱子。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題牽涉到邏輯推理：根據這些照片，以及黃金可能存放的三個地點，我們必須推理出什麼必然為真、什麼必然為假。「矛盾」在推理裡是很強大的工具——如果依照邏輯推導出兩個不可能同時成立的敘述，我們就能確定最初的假設一定是錯的。邏輯在電腦科學的許多領域都扮演關鍵角色：資料庫、程式語言、人工智慧、硬體與軟體的設計與驗證等等。解開這一題的一種方法，是逐一假設每個答案為真，並依循邏輯推導出後續結果，看看這個假設是否合理，或是否會跟故事裡其他細節產生衝突——這個過程叫做「模擬與評估」，也就是先為情境建立模型，再評估這個模型會導出什麼結果。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

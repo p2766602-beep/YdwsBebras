@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-12",
+  "title_en": "Riccas",
+  "title_zh": "怪獸Ricca的特徵",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-12.png",
+    "path": "assets/images/india/2023/IN-2023-12.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Esha is trying to learn what a Ricca (a friendly monster) looks like, studying five photos and writing notes that accurately describe what she sees in them. She is then shown a sixth photo of a Ricca and realizes one of her notes is definitely wrong.",
+    "question": "Which one of Esha's notes about Riccas is definitely wrong?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Riccas always have teeth."
+      },
+      {
+        "key": "B",
+        "text": "Riccas sometimes have wings."
+      },
+      {
+        "key": "C",
+        "text": "Riccas have either horns or three eyes, but not both."
+      },
+      {
+        "key": "D",
+        "text": "If Riccas have exactly two arms then they also have exactly two legs."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The sixth photo shows a Ricca with two arms and five legs, directly contradicting note D — so D is definitely wrong. Note A may still be true (all six photos show teeth). Note B is definitely true (the second photo shows wings). Note C may still be true (photos 1, 2, 5, 6 show horns with two eyes; photos 3, 4 show three eyes with no horns — no photo shows both).",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Esha learns to identify a Ricca by studying photos and looking for shared characteristics — computers can be taught to do the same through a process broadly called comparison. In machine learning, a computer is given a collection of data and searches for patterns to draw conclusions; just like Esha, a computer can arrive at an incorrect conclusion, and by providing more, and more representative and inclusive, data it can correct its mistakes. Detecting recurring patterns in data — pattern recognition — is an important skill in informatics: it underlies modular programming (solving a recurring subtask once), efficient algorithm and software design, and is essential for machine learning and AI applications like image recognition and natural language processing. If care isn't taken in selecting training data, bias can be introduced into a system — for example, a speech-recognition system trained only on male native-English-speaker data would perform poorly for everyone else."
+  },
+  "content_zh": {
+    "prompt": "Esha想弄清楚Ricca（一種友善的怪獸）長什麼樣子，她研究了5張Ricca的照片，並寫下幾條能準確描述她所看到內容的筆記。接著她又看到第6張Ricca的照片，發現自己有一條筆記一定是錯的。",
+    "question": "Esha關於Ricca的哪一條筆記，一定是錯的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ricca永遠都有牙齒。"
+      },
+      {
+        "key": "B",
+        "text": "Ricca有時候會有翅膀。"
+      },
+      {
+        "key": "C",
+        "text": "Ricca要嘛有角、要嘛有三隻眼睛，但不會兩者都有。"
+      },
+      {
+        "key": "D",
+        "text": "如果Ricca剛好有兩隻手臂，那牠也一定剛好有兩條腿。"
+      }
+    ],
+    "answer": "D",
+    "explanation": "第6張照片裡的Ricca有兩隻手臂、五條腿，直接跟筆記D矛盾——所以D一定是錯的。筆記A有可能仍然成立（六張照片裡的Ricca都有牙齒）。筆記B一定是對的（第二張照片裡的Ricca有翅膀）。筆記C有可能仍然成立（第1、2、5、6張照片裡的Ricca有角、只有兩隻眼睛；第3、4張照片則有三隻眼睛、沒有角——沒有任何一張照片同時具備兩者）。",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "Esha透過研究照片、找出共通特徵，來學習辨認Ricca——電腦也可以被訓練做同樣的事，這個過程廣義上稱為「比對」。在機器學習裡，電腦會拿到一堆資料，並在其中搜尋樣式來得出結論；就像Esha一樣，電腦也可能得出錯誤的結論，透過提供更多、更具代表性、更全面的資料，電腦就能修正自己的錯誤。偵測資料裡反覆出現的樣式——也就是樣式辨識——在資訊科學裡是很重要的能力：它是模組化程式設計（把重複出現的子任務只解決一次）、有效率的演算法與軟體設計的基礎，對機器學習與人工智慧的應用（例如影像辨識、自然語言處理）也不可或缺。如果在挑選訓練資料時不夠謹慎，系統就可能帶有偏見——舉例來說，如果一套語音辨識系統只用母語為英語的男性語音資料訓練，對其他所有人的辨識效果就會很差。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-31",
+  "title_en": "Bridge Building",
+  "title_zh": "建橋通往新學校",
+  "source_country": "New Zealand",
+  "source_country_flag": "🇳🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：New Zealand",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-31.png",
+    "path": "assets/images/india/2023/IN-2023-31.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Bansi, a bridge builder who cannot swim, must build bridges so students can reach the new school. He can only pick up 3 logs to start, in his own village, but can travel over land connected by bridges he's already built to pick up more logs elsewhere. A map shows how many logs each water crossing needs and how many logs are available on each island; each log can be used only once, but not all available logs need be used.",
+    "question": "What is the smallest number of logs Bansi needs so that students can travel from the village to the school over land and bridges?",
+    "options": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      },
+      {
+        "key": "E",
+        "text": "17"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A feasible path uses 14 logs — checked by tracking cumulative logs picked up versus used at every step and confirming picked-up always stays ahead of used. To prove 14 is minimal: every path must cross the big central island, splitting the problem into a left half (needing at least 6 logs) and a right half (needing at least 5). Systematically enumerating feasible left-side paths using at most 9 logs, and right-side paths using at most 6 logs, and combining them, only one combination reaches exactly 14 total logs used while remaining feasible (picked-up logs never falling behind used logs) — confirming 14 is both achievable and minimal.",
+    "ct_skills": "Abstraction, Decomposition, Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Landmasses and potential bridges can be represented as nodes and edges of a graph, with logs picked up or required assigned to nodes and edges respectively; Bansi's travelled path becomes a list of edges in the order they're built. This is a pathing problem under resource constraints — an exhaustive search of all valid paths works but takes exponential time as the graph grows; alternatively, the problem can be tackled with a guided divide-and-conquer search using constraint-optimisation techniques like path consistency and branch-and-bound, the same techniques underlying solutions to many hard real-world resource-allocation problems and puzzles like Sudoku. Abstraction lets us ignore landmass size and physical layout, since a graph representation is sufficient; decomposition splits the problem into left and right subproblems of similar nature; and algorithmic thinking about complexity shows that a naive exhaustive search of all possible trees would be impractically slow, while a suitably modified pathing algorithm can run in polynomial time."
+  },
+  "content_zh": {
+    "prompt": "Bansi是一位造橋工人，但他不會游泳；他的下一項工作，是蓋橋讓村裡的學生能走到新學校。一開始他只能在自己村裡撿最多3根原木，但只要有橋連通到的陸地，他就可以移動過去撿更多原木。地圖上標示了每處水域要蓋橋各需要幾根原木，以及每座島上能撿到幾根原木；每根原木只能用一次，但也不是所有能撿到的原木都一定要用掉。",
+    "question": "Bansi最少需要多少根原木，才能讓學生從村莊經由陸地和橋樑走到學校？",
+    "options": [
+      {
+        "key": "A",
+        "text": "11根"
+      },
+      {
+        "key": "B",
+        "text": "12根"
+      },
+      {
+        "key": "C",
+        "text": "13根"
+      },
+      {
+        "key": "D",
+        "text": "14根"
+      },
+      {
+        "key": "E",
+        "text": "17根"
+      }
+    ],
+    "answer": "D",
+    "explanation": "有一條可行的路線只用了14根原木——只要逐步追蹤「已撿起的原木數」是否隨時都不少於「已用掉的原木數」，就能驗證這條路線確實可行。要證明14根就是最少的，可以這樣推理：所有路線都必須經過中間那座大島，因此可以把問題拆成左半邊（至少需要6根）和右半邊（至少需要5根）兩部分。有系統地列出左半邊所有用不超過9根原木就可行的路線，以及右半邊用不超過6根就可行的路線，再逐一組合，會發現只有一種組合恰好用掉14根原木、而且全程都保持可行（撿起的原木數量從沒少於用掉的數量）——這就證實了14根既是可以達成的數量，也是最少需要的數量。",
+    "ct_skills": "抽象化、分解、演算法思維（Abstraction, Decomposition, Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "陸地和可能的橋樑，可以表示成一張圖裡的節點和邊，每座島能撿到的原木數量、每座橋所需的原木數量，分別對應到節點和邊上的數值；Bansi實際走過的路線，就對應到一份依照建造順序排列的邊清單。這是一個帶有資源限制的路徑規劃問題——窮舉所有合法路徑雖然可行，但隨著圖變大，所需時間會呈指數成長；另一種做法，是像範例解答那樣，採用有引導的分治搜尋，運用路徑一致性、分支界限法這類限制最佳化技巧——這些技巧正是許多現實世界高難度資源分配問題，以及數獨這類益智遊戲解法的基礎。抽象化讓我們可以忽略陸地的大小和實際的地形佈局，因為用圖來表示就已經足夠；分解把問題拆成性質相似的左右兩個子問題；而關於複雜度的演算法思維則顯示，單純窮舉所有可能路徑樹的做法會慢到不切實際，但經過適當調整的路徑演算法，則可以在多項式時間內完成運算。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-05",
+  "title_en": "Coded Age",
+  "title_zh": "卡片密碼年齡",
+  "source_country": "Ireland",
+  "source_country_flag": "🇮🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Ireland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-05.png",
+    "path": "assets/images/india/2023/IN-2023-05.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Jisha shows Shailesh how to use cards to tell their ages. Jisha is 6, so she uses the cards (4 + 2 = 6). Shailesh is 7, so he uses the cards (4 + 2 + 1 = 7).",
+    "question": "Big sister Kali is 9. What cards will she use to show her age?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The correct answer is option A (8 + 1 = 9). Option B is incorrect because it represents age 10 (8 + 2 = 10). Option C is incorrect because it represents age 11 (8 + 2 + 1 = 11). Option D is incorrect because it represents age 13 (8 + 4 + 1 = 13).",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Different representations for numbers are common in computer science — even within a single computer, integers, real numbers (fractions), and dates all follow different representation rules. Understanding the number representation here is a stepping stone to understanding positional notation (decimal or binary), which makes calculations very efficient both on paper and in a computer. Inspired by the binary number system, the numbers on the cards here are carefully chosen as powers of 2, so only one card of each colour is needed to represent any number from 0 to 15; unlike positional notation, this scheme is flexible in that the order of the cards doesn't matter. But it has two disadvantages that make it impractical: humans and computers would struggle to distinguish many different card colours for very large numbers, and for efficient calculation the colours would still need to be converted into another representation. Representation, decomposition (finding, from the largest down, which powers of two are present in a number), evaluation (checking answer options by addition), and algorithmic thinking (encoding and decoding numbers using this card system) are all computational thinking competencies used in this task."
+  },
+  "content_zh": {
+    "prompt": "Jisha示範給Shailesh看，怎麼用卡片來表示各自的年齡。Jisha 6歲，所以她用卡片(4+2=6)表示；Shailesh 7歲，所以他用卡片(4+2+1=7)表示。",
+    "question": "大姊Kali 9歲，她該用哪些卡片來表示自己的年齡？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "正確答案是選項A(8+1=9)。選項B不對，因為它代表的是10歲(8+2=10)。選項C不對，因為它代表的是11歲(8+2+1=11)。選項D不對，因為它代表的是13歲(8+4+1=13)。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "數字有多種不同的表示方式，這在電腦科學裡很常見——即使在同一台電腦裡，整數、實數（小數）、日期都各自遵循不同的表示規則。理解這一題的數字表示法，是理解「位值記數法」（例如十進位或二進位）的第一步，而位值記數法能讓不論是紙筆還是電腦上的運算都變得非常有效率。受二進位數系的啟發，這裡卡片上的數字被刻意設計成2的次方，所以每種顏色的卡片只需要一張，就能表示0到15之間的任何數字；跟位值記數法不同的是，這套系統的卡片順序並不重要，比較有彈性。但它有兩個缺點，讓它不太實用：如果要表示很大的數字，人和電腦都很難分辨這麼多不同的顏色；而且為了有效率地計算，還是得先把顏色轉換成另一種表示法。這一題運用到的運算思維能力包括：表示法（用有顏色的卡片把數字編碼）、分解（從最大的開始，依序判斷一個數字裡包含哪些2的次方）、評估（用加法檢查各選項是否正確），以及演算法思維（用這套卡片系統對十進位數字進行編碼和解碼，本身就需要一套演算法）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

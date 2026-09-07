@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-35",
+  "title_en": "Shoes",
+  "title_zh": "鞋店二維二分搜尋",
+  "source_country": "South Korea",
+  "source_country_flag": "🇰🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：South Korea",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-35.png",
+    "path": "assets/images/india/2023/IN-2023-35.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Bina goes to a shoe store where shoes are displayed sorted by both increasing size and increasing width, smallest and narrowest in the bottom-left and biggest and widest at the top-right; all shoes have different sizes and widths. She forgets her exact size and width and must try shoes until she finds the right fit (correct size AND width), using a method that guarantees the fewest tries.",
+    "question": "How many tries did she need?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bina could get lucky on the first try, but her method guarantees success within 2 tries. Starting with the shoe in the very centre of the display, its size/width mismatch (too small/big, too narrow/wide) narrows the remaining candidates to one of several roughly equal-sized zones. Trying the centre shoe of that zone next either fits directly, or uniquely determines the correct shoe from just two remaining candidates in that zone — so at most 2 tries are ever needed, and starting anywhere other than the centre would require more.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In this problem, the shoes on display are sorted in increasing order along two dimensions at once (size and width) — such an arrangement is called sorting. Binary search algorithms exploit sorted data to find an item very quickly, halving the remaining search space with each comparison to reach the answer in as few attempts as possible — the same idea used when playing a number-guessing game between 1 and 100. This task is essentially about binary search extended to find a desired value across two dimensions at once."
+  },
+  "content_zh": {
+    "prompt": "Bina到鞋店買鞋，店裡展示的鞋子同時依照尺寸和寬度由小到大排列，最小最窄的放在左下角，最大最寬的放在右上角；每雙鞋的尺寸和寬度都各不相同。她忘記自己確切的鞋子尺寸和寬度，必須不斷試穿，直到找到剛好合腳（尺寸和寬度都對）的那一雙，而且她用的方法保證能用最少的試穿次數找到。",
+    "question": "她總共需要試穿幾次？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2次"
+      },
+      {
+        "key": "B",
+        "text": "3次"
+      },
+      {
+        "key": "C",
+        "text": "4次"
+      },
+      {
+        "key": "D",
+        "text": "5次"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Bina有可能第一次就運氣好試中，但她用的方法保證最多試2次就能成功。從展示區正中央的那雙鞋開始試穿，依照「太小/太大、太窄/太寬」的結果，就能把剩下的候選鞋，縮小到其中一個大小差不多的區域。接著試穿那個區域正中央的鞋子，要嘛剛好合腳，要嘛就能從該區域剩下的兩個候選鞋裡，唯一確定出正確答案——所以最多只需要試穿2次；如果一開始沒有從正中央開始試，就會需要更多次。",
+    "ct_skills": "演算法思維、評估（Algorithmic Thinking, Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在這個問題裡，展示的鞋子同時依照兩個維度（尺寸和寬度）由小到大排列——這樣的排列方式叫做「排序」。二分搜尋演算法能利用已排序的資料快速找到目標項目，每比較一次就把剩下要搜尋的範圍砍半，用最少的嘗試次數得到答案——這跟玩「猜1到100之間的數字」遊戲時用的原理是一樣的。這一題本質上就是二分搜尋的延伸應用，用來在兩個維度上同時找出目標值。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

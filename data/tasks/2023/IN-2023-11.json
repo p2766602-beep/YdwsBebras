@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-11",
+  "title_en": "Magic Tree",
+  "title_zh": "魔法蘋果樹",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-11.png",
+    "path": "assets/images/india/2023/IN-2023-11.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Babloo has a magical tree: whenever a bird lands on it, the tree sprouts 2 apples; whenever a squirrel climbs it, the tree drops 1 apple (if it has any); whenever a snake visits, all apples instantly disappear. One morning the tree has 25 apples, and Babloo spends the day drawing every animal that visits, in order.",
+    "question": "How many apples are on the tree at the end of the day?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "17"
+      },
+      {
+        "key": "D",
+        "text": "31"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Since all apples disappear the instant a snake visits, everything before the last snake in the recorded sequence can be ignored. After the last snake, four birds land (sprouting 4×2=8 apples), then one squirrel climbs (dropping 1 apple), leaving 8−1=7 apples.",
+    "ct_skills": "Abstraction, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task introduces two fundamental programming concepts. First, a variable: a stored value a program needs, which can change as the program runs — here, the number of apples on the tree is a variable that can increase, decrease, or reset. Second, selection: to decide how to change a variable, a program needs to make decisions using conditional statements of the form 'if this, then that' — e.g. 'if a bird lands on the tree, then increase the apple count by 2.' Solving this task requires abstraction — distinguishing between the different cases and focusing only on the data needed (just the events after the last snake) — and algorithmic thinking, since the solution depends on choosing what to do based on which case applies, just like an if-statement."
+  },
+  "content_zh": {
+    "prompt": "Babloo家附近有一棵魔法樹：每次有小鳥停在樹上，樹就會長出2顆蘋果；每次有松鼠爬上樹，樹就會掉落1顆蘋果（如果樹上還有的話）；每次有蛇來拜訪，樹上所有的蘋果都會瞬間消失！某天早上，樹上有25顆蘋果，Babloo花了一整天，依序畫下每一隻造訪這棵樹的動物。",
+    "question": "一天結束時，樹上有幾顆蘋果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "3顆"
+      },
+      {
+        "key": "B",
+        "text": "7顆"
+      },
+      {
+        "key": "C",
+        "text": "17顆"
+      },
+      {
+        "key": "D",
+        "text": "31顆"
+      }
+    ],
+    "answer": "B",
+    "explanation": "因為蛇一出現，樹上所有蘋果就會瞬間消失，所以記錄裡「最後一次蛇出現」之前發生的事，全部都可以忽略不看。最後一次蛇出現之後，有4隻小鳥停上樹（長出4×2＝8顆蘋果），接著1隻松鼠爬上樹（掉落1顆蘋果），最後剩下8－1＝7顆。",
+    "ct_skills": "抽象化、演算法思維（Abstraction, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題帶出了兩個程式設計裡的基礎概念。第一是「變數」：用來儲存程式需要的資訊，它的值可以隨著程式執行過程改變——這裡樹上的蘋果數量就是一個變數，可以增加、減少，或被重設歸零。第二是「選擇」：程式要決定該怎麼改變一個變數的值，需要靠「條件敘述」來做判斷，形式通常是「如果...就...」——例如「如果小鳥停在樹上，就把蘋果數量加2」。要解開這一題，需要用到抽象化——區分不同的情況，只專注在真正需要的資訊上（也就是只看最後一次蛇出現之後發生的事）——也需要演算法思維，因為解法要依照當下是哪一種情況來決定該做什麼，就跟if條件敘述的運作方式一樣。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-10",
+  "title_en": "Beads Stringing",
+  "title_zh": "姊妹一起串珠鍊",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-10.png",
+    "path": "assets/images/india/2023/IN-2023-10.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Esha and Ovi want to make a beaded necklace for their mom together, as quickly as possible, both stringing beads at the same time — Esha from the left, Ovi from the right — each from her own vertical support holding the beads in order. Esha is younger and strings beads more slowly: in the time she strings one bead, Ovi strings two.",
+    "question": "How must the beads be organised on Esha's support so that the necklace is ready as soon as possible?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Option A is wrong: since Esha strings more slowly, if she strung six beads, Ovi would have strung twelve in the same time — 18 beads total, but the necklace only has 12. Options B and D have the correct bead counts but the wrong order — stringing beads in the order shown on their supports produces a necklace that doesn't match the target pattern. Only option C, when strung in order from both supports at Esha's and Ovi's relative speeds, produces the correct 12-bead necklace.",
+    "ct_skills": "Data representation",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "One concept in this task is the double-ended queue (deque for short) — a data structure representing a sequence where elements can be added and removed from both ends; here, the necklace is a deque, a sequence of beads, and only the addition of beads is used. Another data structure involved is the stack, which also represents a sequence but only allows adding and removing from one end (the top); each sister's support, from which beads are taken one after another from the top, is a stack. This task is also about data structure manipulation — beads are transferred from one data structure (the support, a stack) to another (the necklace, a deque)."
+  },
+  "content_zh": {
+    "prompt": "Esha和Ovi想一起幫媽媽做一條串珠項鍊，希望盡快完成——兩人同時開始串珠，Esha從左邊串、Ovi從右邊串，各自的珠子依序放在自己的垂直支架上。Esha年紀比較小，串珠速度比較慢：她串1顆珠子的時間，Ovi可以串2顆。",
+    "question": "Esha的支架上，珠子該怎麼排列，才能讓項鍊盡快完成？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "選項A不對：因為Esha串得比較慢，如果她串了6顆珠子，同一段時間裡Ovi會串了12顆——總共18顆，但這條項鍊只有12顆珠子。選項B和D的珠子數量雖然對，但順序不對——照著支架上的順序串下去，會串出跟目標圖案不一樣的項鍊。只有選項C，依照Esha和Ovi各自的速度、照順序從兩邊支架串下去，才能串出正確的12顆珠項鍊。",
+    "ct_skills": "資料表示法（Data representation）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題牽涉到的一個概念是「雙向佇列」（deque）——一種可以從兩端加入或移除元素的序列資料結構；這裡的項鍊就是一個雙向佇列，是一串珠子，而這一題裡只用到「加入」珠子這個操作。另一個牽涉到的資料結構是「堆疊」（stack）——同樣代表一段序列，但只能從一端（頂端）加入或移除元素；每位姊妹的支架，珠子是一顆接一顆從頂端被拿走，正是一個堆疊。這一題也牽涉到「資料結構之間的資料搬移」——珠子從一種資料結構（支架，堆疊）被搬到另一種資料結構（項鍊，雙向佇列）裡。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

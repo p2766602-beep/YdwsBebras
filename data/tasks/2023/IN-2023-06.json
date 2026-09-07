@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-06",
+  "title_en": "A Day at the Zoo",
+  "title_zh": "動物園的一天",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-06.png",
+    "path": "assets/images/india/2023/IN-2023-06.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Anjali spends a day at the zoo. There are many different activities, each with a start and end time; visitors cannot leave in the middle of an activity. Anjali wants to attend as many activities as possible, but can only attend one at a time, and some activities overlap.",
+    "question": "What is the maximum number of activities Anjali can attend during a single day?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Anjali can attend a maximum of 5 activities. Trying every possible combination of non-overlapping activities (an exhaustive search) works but is difficult since there are too many possibilities. Instead, we can simplify: if two activities overlap, only one can be part of an optimal schedule, and if one activity happens completely during another, it's always better to keep the shorter one (e.g. the bird show happens entirely during, and is shorter than, the aquarium light show, so we can drop the aquarium light show). Applying this repeatedly lets us exclude the aquarium light show, koala feeding, kangaroo feeding, and elephant showering. The remaining activities split into independent groups; solving each group's optimal schedule and combining them gives a final schedule of 5 activities — Anjali will not be able to attend the elephant showering.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "When designing an algorithm, the easiest one to think of is often an exhaustive search — conceptually simple and guaranteed correct, but it can take far too much time. To make an algorithm more efficient, we often make observations that let us simplify the problem: a task that maximises or minimises some quantity is called an optimisation problem, and simplifying it means figuring out which choices we can safely rule out without losing the optimal answer. Another way to speed things up is decomposition — breaking the problem into independent subproblems that can each be solved separately, since computers are very good at repeating the same kind of computation on different inputs. In general, choosing the maximum number of non-overlapping activities within a time period is called the activity selection or interval scheduling problem — with thousands or millions of activities (e.g. scheduling processes in a factory or programs on a computer), far more sophisticated algorithms than exhaustive search are used."
+  },
+  "content_zh": {
+    "prompt": "Anjali要在動物園待一整天，園裡有很多不同的活動，每個活動都有開始和結束時間，遊客不能中途離開一項活動。Anjali想盡量參加越多活動越好，但同一時間只能參加一項，而有些活動的時間會互相重疊。",
+    "question": "Anjali一整天最多能參加幾項活動？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4項"
+      },
+      {
+        "key": "B",
+        "text": "5項"
+      },
+      {
+        "key": "C",
+        "text": "6項"
+      },
+      {
+        "key": "D",
+        "text": "7項"
+      },
+      {
+        "key": "E",
+        "text": "8項"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Anjali最多能參加5項活動。嘗試所有不重疊活動的組合（窮舉法）確實可行，但可能性太多，不太好處理。我們可以先簡化問題：如果兩項活動時間重疊，最佳排程裡最多只能留下其中一項；如果某項活動完全發生在另一項活動的時間範圍內，留下比較短的那項一定比較好（例如鳥類表演完全發生在水族館燈光秀期間、而且比較短，所以可以直接排除水族館燈光秀）。反覆運用這個原則，可以排除水族館燈光秀、無尾熊餵食、袋鼠餵食，以及大象淋浴。剩下的活動可以拆成幾組彼此獨立的活動，分別找出每組的最佳排程再合併起來，最後得到一份包含5項活動的排程——Anjali沒辦法參加「大象淋浴」。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "設計演算法時，最容易想到的做法通常是窮舉法——概念簡單、保證能找到正確答案，但可能會花費太多時間。要讓演算法更有效率，我們常常需要找出一些觀察，藉此簡化問題：像這種要找出某個數量的最大值或最小值的任務，叫做「最佳化問題」，簡化它的關鍵在於找出哪些選擇可以放心排除，而不會因此漏掉最佳解。另一種加速的方法是「分解」——把問題拆成幾個彼此獨立的子問題，分別解決，因為電腦非常擅長對不同輸入重複執行同一種運算。一般來說，「在一段時間內選出最多不重疊活動」這類問題，叫做活動選擇問題（或區間排程問題）——當活動數量高達成千上萬（例如工廠裡的製程排程，或電腦上同時執行的程式），就會用到比窮舉法複雜得多的演算法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

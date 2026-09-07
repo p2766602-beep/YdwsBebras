@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-14",
+  "title_en": "Autonomous Cars",
+  "title_zh": "自駕車轉彎路線",
+  "source_country": "USA",
+  "source_country_flag": "🇺🇸",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：USA",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-14.png",
+    "path": "assets/images/india/2023/IN-2023-14.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Tushar is traveling with his autonomous car. A recent software bug causes it to make the same turn every time it reaches the same type of intersection: it always turns left at every circle, always turns right at every T-intersection, and always goes straight through every +-intersection.",
+    "question": "Which letter will be reached during Tushar's journey?",
+    "options": [
+      {
+        "key": "A",
+        "text": "C"
+      },
+      {
+        "key": "B",
+        "text": "D"
+      },
+      {
+        "key": "C",
+        "text": "E"
+      },
+      {
+        "key": "D",
+        "text": "F"
+      },
+      {
+        "key": "E",
+        "text": "I"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Following the rules: at the first circle the car turns left (going up); at the next T-intersection it turns right; it goes straight through the +-intersection; it turns right at the next T-intersection at the top of the map; and finally it goes straight through the last +-intersection and stops at F.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "It's a typical situation in computer science to observe a dynamic system controlled by an algorithm following certain fixed rules — future behaviour can only be predicted by carefully analysing the algorithm and determining exactly which rules it follows. The system under study could be a real-life system or a software system, for example one being debugged. Solving this task requires good pattern recognition as well as algorithmic thinking."
+  },
+  "content_zh": {
+    "prompt": "Tushar坐著他的自駕車出門，車子最近的軟體更新出現了一個嚴重的bug：每次遇到同一種路口，它都會做出同樣的轉彎——每個圓環路口一律左轉，每個丁字路口一律右轉，每個十字路口一律直走。",
+    "question": "Tushar的旅程中，會抵達哪一個字母標示的地點？",
+    "options": [
+      {
+        "key": "A",
+        "text": "C"
+      },
+      {
+        "key": "B",
+        "text": "D"
+      },
+      {
+        "key": "C",
+        "text": "E"
+      },
+      {
+        "key": "D",
+        "text": "F"
+      },
+      {
+        "key": "E",
+        "text": "I"
+      }
+    ],
+    "answer": "D",
+    "explanation": "依照這些規則推算：在第一個圓環路口車子左轉（往上走）；接著在下一個丁字路口右轉；直直穿過十字路口；在地圖最上方的下一個丁字路口又右轉；最後直直穿過最後一個十字路口，停在F。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在電腦科學裡，觀察一個由演算法依照固定規則控制的動態系統，是很典型的情境——只有仔細分析這套演算法、確認它到底遵循哪些規則，才能預測系統未來的行為。被研究的系統可能是真實世界的系統，也可能是軟體系統，例如正在除錯的程式。要解開這一題，需要良好的樣式辨識能力，也需要演算法思維。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-33",
+  "title_en": "Domino",
+  "title_zh": "骨牌歐拉路徑",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-33.png",
+    "path": "assets/images/india/2023/IN-2023-33.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Domino tiles each have two halves, each with 1 to 6 dots. Given eight specific tiles, they must be arranged in a row using all eight, where adjacent halves of neighbouring tiles always match in dot count. A valid solution exists (in several orderings), and certain tiles cannot be placed at either end (edge) of the row.",
+    "question": "Which of the following tiles can be used at the edges?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Counting how often each dot-count (1 through 6) appears across all 16 tile-halves shows that faces with 3, 4, 5, and 6 dots occur an even number of times, while faces with 1 and 2 dots occur an odd number of times. Since adjacent faces must always match and so occur in matched pairs along the sequence, the odd-frequency faces (1 and 2) are the ones that must be 'left over' at the two ends of the row, since they can't all be paired up in the interior. Among the eight tiles, exactly five contain a 1 or a 2 on one or both halves, making them eligible edge tiles: (1,2), (1,4), (1,5), (2,5), (2,6).",
+    "ct_skills": "Data representation, Pattern recognition",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "To get a better overview of all possible solutions, we can represent the problem as a graph: squares (nodes) represent the six possible dot-counts, and lines (edges) represent the eight given domino tiles, each edge connecting the two dot-counts on that tile's two halves. A valid arrangement using all eight tiles corresponds to a path through this graph that uses every edge exactly once — since after placing the first tile, the number the next tile must start with is fixed by the match rule, exactly matching how edges must share a node to be placed next to each other. A path visiting every edge of a graph exactly once is called an Eulerian path, named after Leonhard Euler, the Swiss mathematician who founded graph theory; Euler proved that in a connected graph, an Eulerian path exists if and only if there are at most two nodes with an odd number of edges — which is exactly why, in this task, only tiles touching those odd-degree nodes (dot-counts 1 and 2) can sit at the two ends of the row."
+  },
+  "content_zh": {
+    "prompt": "骨牌每片各有兩半，每一半有1到6個點。給定8片特定的骨牌，要把它們全部排成一列，相鄰兩片骨牌接觸的那一半，點數必須相同。已知存在合法的排法（可能不只一種順序），而且有些骨牌不能放在整列的兩端（邊緣）。",
+    "question": "下面哪一片骨牌可以放在邊緣位置？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "統計這16個骨牌半邊裡，每種點數（1到6）出現的次數，會發現點數3、4、5、6出現的次數都是偶數，而點數1、2出現的次數是奇數。因為相鄰的兩半永遠必須點數相同，也就是在整個序列裡會成雙成對出現，所以出現次數是奇數的點數（1和2）必然會有「配不成對」的那一個，只能落在整列的兩端。在這8片骨牌裡，剛好有5片其中一半或兩半含有1或2，因此可以放在邊緣位置：(1,2)、(1,4)、(1,5)、(2,5)、(2,6)。",
+    "ct_skills": "資料表示法、樣式辨識（Data representation, Pattern recognition）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "為了更完整地看清楚所有可能的解法，我們可以把這個問題用一張圖來表示：方格（節點）代表骨牌上6種可能的點數，線（邊）代表這8片給定的骨牌，每條邊連接著該骨牌兩半各自的點數。用全部8片骨牌排出一種合法排列，就對應到在這張圖裡走一條「用到每條邊恰好一次」的路徑——因為放好第一片骨牌之後，下一片必須以哪個數字開頭，已經完全由「點數相同」這條規則決定了，這正好對應到「兩條邊必須共用一個節點，才能相鄰放置」。像這樣走過一張圖裡每條邊恰好一次的路徑，叫做「歐拉路徑」（Eulerian path），這個名字來自瑞士數學家李昂哈德・歐拉，他創立了圖論這個領域；歐拉證明了，在一個連通圖裡，歐拉路徑存在的充要條件是「最多只能有兩個節點的邊數是奇數」——這正是為什麼在這一題裡，只有連接到那些「邊數為奇數的節點」（也就是點數1和2）的骨牌，才能被放在整列的兩端。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

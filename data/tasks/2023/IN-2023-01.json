@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-01",
+  "title_en": "Sliced Apples",
+  "title_zh": "切蘋果配對",
+  "source_country": "Czechia",
+  "source_country_flag": "🇨🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Czechia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-01.png",
+    "path": "assets/images/india/2023/IN-2023-01.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Jigar loves to cut apples in half to make stars from the seed beds that appear in the cut. He cut 4 apples and put the halves on the table. Some of the seeds remained in one half of the apple and others in the other half. However, the halves of apples got mixed up.",
+    "question": "Which half of the apple below matches (2) above?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The number of all seeds in one apple must be 5, but counting them alone is not enough — two apples with the same number of seeds in one half can be distinguished by the pattern of full and empty seed-bed placement. The halves on the right in the picture have all full seed beds placed together, without an empty bed between them; the halves on the left have one full seed bed isolated, with empty beds on both sides.",
+    "ct_skills": "Pattern recognition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Some objects in real life must fit together, for example pairs of A-T and C-G nucleobases in DNA, or locks and keys. In computer science, for each password-protected file (lock) there is a password to open it (key); in programming, some functions require a set number of input parameters, and it's the compiler's job to check that the provided arguments match the function definition. To solve this task, it is necessary to find how the halves of one apple fit together — finding a complement and recognising a topological pattern are the main skills needed. We can build a graph for each half, where a node means a full seed bed and an edge means two full seed beds are neighbours; doing the same for the empty beds of the other half, matching halves produce the same graph."
+  },
+  "content_zh": {
+    "prompt": "Jigar喜歡把蘋果切成兩半，利用切面上露出的種子床拼出星形圖案。他切了4顆蘋果，把果肉的兩半都放在桌上。每半邊蘋果裡各留著一部分種子，但這些切半的蘋果全部混在一起了。",
+    "question": "下面哪一半蘋果，可以跟上面的(2)配對？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "每顆蘋果裡的種子總數必須是5顆，但光數種子數量還不夠——兩顆蘋果如果半邊種子數量相同，還可以靠「有種子」跟「空的」種子床排列樣式來區分。圖片右邊那幾半，所有有種子的種子床都連在一起、中間沒有空的種子床隔開；左邊那幾半則有一個獨立的種子床，兩側都是空的。",
+    "ct_skills": "樣式辨識（Pattern recognition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "現實生活中有些物件必須互相拼合，例如DNA裡A-T、C-G這樣成對的鹼基，或是鎖跟鑰匙。在電腦科學裡，每個有密碼保護的檔案（鎖）都對應一組能打開它的密碼（鑰匙）；在程式設計裡，某些函式需要固定數量的輸入參數，而編譯器的工作就是檢查呼叫函式時提供的參數是否跟函式定義相符。要解開這一題，必須找出同一顆蘋果的兩半是怎麼互相拼合的——找出互補關係、辨識拓樸樣式，是這裡最主要需要的能力。我們可以幫每一半蘋果畫一張圖：一個節點代表一個有種子的種子床，一條邊代表兩個相鄰的有種子種子床；對另一半空的種子床做同樣的事，能互相拼合的兩半會產生一模一樣的圖。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

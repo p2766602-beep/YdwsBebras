@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-27",
+  "title_en": "Dhooma's Tasks",
+  "title_zh": "村莊跑腿最短路徑",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-27.png",
+    "path": "assets/images/india/2023/IN-2023-27.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A map shows Dhooma's village, with numbers giving walking times (minutes) between places. Dhooma must get a knife from the blacksmith, medicine from the clinic, and salt from the grocery (in any order), starting and ending at home, spending 1 minute per task. One route (house→grocery→baker→blacksmith→park→clinic→school→house) takes 41 minutes (38 walking + 3 for tasks).",
+    "question": "What is the shortest time in which Dhooma can perform all her tasks (and return home again)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "37 minutes"
+      },
+      {
+        "key": "B",
+        "text": "38 minutes"
+      },
+      {
+        "key": "C",
+        "text": "39 minutes"
+      },
+      {
+        "key": "D",
+        "text": "40 minutes"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A route taking only 39 minutes is: house→school→clinic→school→temple→baker→blacksmith→baker→market→house (36 minutes walking + 3 minutes for tasks). To show no shorter route exists, simplify the map into a graph, ignore edges that are always dominated by a faster route through an intermediate node, and disregard the 'park' node (Dhooma has no task there and any route through it has a faster alternative). The blacksmith and clinic must both be visited via the node just below each, costing 3 minutes there and 3 back each time (12 minutes total) — after accounting for this, the remaining problem reduces to visiting three specific nodes starting and ending at a fixed point, whose shortest route (skipping one grey edge) takes 4+6+4+4+6=24 minutes. Adding the 12 minutes and the 3 minutes for tasks gives a total of 39 minutes.",
+    "ct_skills": "Abstraction, Decomposition",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The simplified picture used to find the shortest route is called a graph; many computer science problems reduce to finding properties of such graphs — here, finding the shortest circuit through some given nodes. Computers solve much larger 'shortest circuit' problems in transport and distribution, e.g. computing the shortest route for a garbage truck, postal worker, or delivery driver's rounds. Using a graph to model the problem is a form of abstraction: we forget the names of places and the exact shapes of the paths between them, focusing only on which places connect to which and the distance (in minutes) between them — this abstraction is what makes the problem solvable. The map itself is already an abstraction of the village, and knowing how to interpret such an abstraction is itself part of computational thinking."
+  },
+  "content_zh": {
+    "prompt": "一張地圖顯示了Dhooma的村莊，數字標示著各地點之間步行所需的分鐘數。Dhooma必須去鐵匠那拿一把刀、去診所拿藥、去雜貨店買鹽（順序不拘），從家出發、最後也要回到家，每項任務要花1分鐘完成。其中一條路線（家→雜貨店→麵包店→鐵匠→公園→診所→學校→家）要花41分鐘（走路38分鐘+3分鐘做事）。",
+    "question": "Dhooma完成所有任務並回到家，最少需要多少時間？",
+    "options": [
+      {
+        "key": "A",
+        "text": "37分鐘"
+      },
+      {
+        "key": "B",
+        "text": "38分鐘"
+      },
+      {
+        "key": "C",
+        "text": "39分鐘"
+      },
+      {
+        "key": "D",
+        "text": "40分鐘"
+      }
+    ],
+    "answer": "C",
+    "explanation": "有一條只需要39分鐘的路線：家→學校→診所→學校→神廟→麵包店→鐵匠→麵包店→市場→家（走路36分鐘+3分鐘做事）。要證明沒有更短的路線，可以把地圖簡化成一張圖，忽略那些永遠可以被「經過中繼點的更快路線」取代的邊，並且不考慮「公園」這個節點（Dhooma在那裡沒有任務要做，而且任何經過公園的路線都有更快的替代方案）。鐵匠和診所都必須經由它們正下方的節點才能抵達，每次來回各要花3分鐘（總共12分鐘）——扣除這部分之後，剩下的問題就簡化成「從一個固定點出發、拜訪三個特定節點、再回到原點」，這條最短路線（跳過一條灰色的邊）要花4+6+4+4+6＝24分鐘。加上前面的12分鐘，再加上做事花的3分鐘，總共是39分鐘。",
+    "ct_skills": "抽象化、分解（Abstraction, Decomposition）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "用來找出最短路線的這張簡化圖，就叫做「圖」；電腦科學裡許多問題，最後都可以歸結成尋找這種圖的某些性質——這裡要找的，就是經過幾個指定節點的最短迴路。電腦在運輸和物流領域，會解決規模大得多的「最短迴路」問題，例如計算垃圾車、郵差或送貨員巡迴路線的最短路徑。用圖來為問題建模，本身就是一種抽象化：我們忘掉地點的名字、忘掉路徑實際的形狀，只專注在「哪些地點彼此相連」以及「它們之間的距離（用分鐘表示）」——正是這種抽象化，才讓問題變得可以求解。這張地圖本身，其實就已經是村莊的一種抽象表示，而懂得如何解讀這種抽象表示，本身也是運算思維的一部分。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

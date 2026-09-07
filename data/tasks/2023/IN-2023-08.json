@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-08",
+  "title_en": "Photo",
+  "title_zh": "海狸的照片",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-08.png",
+    "path": "assets/images/india/2023/IN-2023-08.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "The beaver just took a photo of several logs arranged in a circle. It is one of the four images below.",
+    "question": "Which one did the beaver take?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "To determine how the logs appear in the photo, it's important to analyze which logs are left or right of each other. The log with the pointed 'pencil' end is between the two brown logs, ruling out options A and C. Also, the beaver, when taking the photo, sees the 'pencil' log to the left of the big brown log without leaves — which is only the case in option D.",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "In this task, the goal was to examine the order of the logs rather than their specific positions in the images, by considering special links between them: for each log, it is linked to the log on its right and to the log on its left. In computers, it can be useful to store data this way too — each data item (like a number or letter) linked to two neighbours, a structure informatics calls a 'doubly linked list.' It is very flexible: it can hold as much data as needed, and data can be added or removed easily. This task requires abstraction (identifying that only the circular arrangement of logs matters) and spatial reasoning (relationships between objects are preserved when their representation is transformed)."
+  },
+  "content_zh": {
+    "prompt": "海狸剛拍了一張照片，照片裡是圍成一圈排列的幾根木頭。這張照片就是下面四張圖裡的其中一張。",
+    "question": "牠拍的是哪一張？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "要判斷照片裡木頭的排列方式，重點是分析每根木頭左右兩邊各是誰。那根尖端像鉛筆的木頭，夾在兩根棕色木頭中間，這樣就排除了選項A和C。此外，海狸拍照時看到的畫面裡，那根「鉛筆」木頭是在沒有葉子的那根大棕色木頭的左邊——只有選項D符合這個條件。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "這一題的重點是檢視木頭之間的「順序」，而不是它們在圖片裡的具體位置——做法是考慮木頭之間的特殊連結：每根木頭都跟它右邊的木頭、以及左邊的木頭有連結。在電腦裡，用這種方式儲存資料也很實用——每筆資料（例如一個數字或一個字母）都連結著兩個相鄰的項目，這種結構在資訊科學裡叫做「雙向鏈結串列」（doubly linked list）。它非常有彈性：可以容納任意多的資料，而且能輕鬆地加入或移除資料。這一題需要用到抽象化（只在意木頭排成一圈的相對順序，而非其他細節）以及空間推理能力（改變表示方式時，物件之間的關係要保持不變）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

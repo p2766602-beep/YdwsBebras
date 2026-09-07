@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-18",
+  "title_en": "Planting Carrots",
+  "title_zh": "機器兔種蘿蔔",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-18.png",
+    "path": "assets/images/india/2023/IN-2023-18.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A robotic rabbit seeds carrots on four mounds, knowing two commands: jump left/right to the next mound, and place a carrot seed on the current mound. Given a sequence of commands, we don't know which mound the rabbit started on, but we know that after executing it, three carrot seeds ended up on three different mounds.",
+    "question": "Which picture shows the carrot seeds as planted by the rabbit according to the sequence of commands?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rabbit must start on the third mound from the left — otherwise it couldn't execute the given jump sequence (once right, then three times left) while staying on the four mounds. Tracing the commands step by step (placing a seed on the far-right mound, then after further jumps placing a second, then jumping twice left and placing the last) produces the seed pattern shown in answer D.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Computers are programmed similarly to how the robotic rabbit is controlled, just with more instructions — here, the command sequence is given using picture blocks that must be understood and interpreted, and the order of instructions determines the outcome (where the seeds land). To find the rabbit's starting location, it's necessary to trace the instruction sequence while checking it against the given condition (each seed lands on a different mound). Debugging is an important part of programming: this process isn't only for finding bugs, but can also be used to work backwards and find the inputs that produce a desired output — closely related to algorithmic thinking, i.e. thinking in terms of sequences and rules."
+  },
+  "content_zh": {
+    "prompt": "一隻機器兔在四個土堆上播種蘿蔔，牠只認得兩個指令：跳到左邊/右邊的下一個土堆，以及在目前所在的土堆上種下一顆蘿蔔種子。給定一串指令，我們不知道機器兔一開始在哪個土堆，但知道執行完之後，三顆蘿蔔種子分別落在三個不同的土堆上。",
+    "question": "依照這串指令，哪張圖顯示的才是機器兔實際種下蘿蔔種子的結果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "機器兔必須從左邊數來第三個土堆出發——否則沒辦法在只有四個土堆的範圍內，完成給定的跳躍順序（先右跳一次，再左跳三次）。依序追蹤每個指令（先在最右邊的土堆種下一顆種子，經過幾次跳躍後種下第二顆，再左跳兩次種下最後一顆），得到的種子排列方式就是選項D。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "電腦的程式設計方式，跟操控這隻機器兔很類似，只是用到更多指令——這裡的指令序列是用圖示積木表示的，必須先理解並解讀這套表示法，而且指令的順序會決定最終結果（種子會落在哪裡）。要找出機器兔的起點，必須一邊追蹤整串指令，一邊對照給定的條件（每顆種子都落在不同的土堆上）。除錯是程式設計裡很重要的一環：這個過程不只是用來抓程式裡的bug，也可以反過來用來找出「能產生特定輸出結果」的輸入——這跟演算法思維息息相關，也就是用序列和規則來思考問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

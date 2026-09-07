@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-34",
+  "title_en": "Robot",
+  "title_zh": "機器人變色移動",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-34.png",
+    "path": "assets/images/india/2023/IN-2023-34.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Milu built a robot that reads a coloured square, changes its colour, then moves one square left or right, following rules like 'if you see a red square, change it to green and move right'. Starting on the leftmost square, it detects the colour, applies the matching rule, and repeats on its new square; if no rule matches or it moves off the strip, it stops. The robot is given a starting sequence of squares and four such rules.",
+    "question": "What do the squares look like when the robot stops?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) A"
+      },
+      {
+        "key": "B",
+        "text": "(picture) B"
+      },
+      {
+        "key": "C",
+        "text": "(picture) C"
+      },
+      {
+        "key": "D",
+        "text": "(picture) D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Tracing the robot's execution step by step, applying the matching rule at each square and moving accordingly, the robot eventually moves off the edge of the strip and stops — the final arrangement of square colours at that point matches option A.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "In computer science, it's important to define a model of computation to work with — a set of rules and structures to comply with; for instance, when programming software, the model of computation is the programming language itself. This task's rules define a model very similar to a Turing machine, a very useful model of computation for computer scientists because, despite being extremely simple, it is equivalent in power to most programming languages — meaning any software program can in principle be turned into an equivalent Turing machine, and vice versa."
+  },
+  "content_zh": {
+    "prompt": "Milu做了一個機器人，它會讀取一個有顏色的方格、改變它的顏色，然後往左或往右移動一格，運作規則像是「如果看到紅色方格，就把它變成綠色，並往右移動」。機器人從最左邊的方格開始，偵測顏色、套用符合的規則，然後在新的方格上重複同樣的動作；如果找不到符合的規則，或是移出了方格範圍，機器人就會停止。機器人拿到一串起始的方格顏色，以及四條這樣的規則。",
+    "question": "機器人停下來的時候，這些方格會變成什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "一步步追蹤機器人的執行過程，在每個方格套用符合的規則並依規則移動，機器人最後會移出方格範圍的邊界並停止——這時方格顏色的最終排列方式，正好對應選項A。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "在電腦科學裡，定義一套要遵循的「計算模型」非常重要——也就是一組規則和結構；舉例來說，當我們寫程式時，所使用的計算模型就是程式語言本身。這一題的規則，定義了一個跟「圖靈機」非常相似的模型。圖靈機對電腦科學家來說是非常實用的計算模型，因為儘管它極度簡單，它的運算能力卻等同於大多數的程式語言——也就是說，理論上任何軟體程式都可以轉換成等價的圖靈機，反過來也一樣成立。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-29",
+  "title_en": "Bumping Robots",
+  "title_zh": "碰碰機器人接力",
+  "source_country": "Czechia",
+  "source_country_flag": "🇨🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Czechia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-29.png",
+    "path": "assets/images/india/2023/IN-2023-29.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In Bumping Robots, you give a robot instructions to move to a star on a board. Brown squares and other robots are both obstacles. A robot can only move up/down/left/right, and once started it doesn't stop until it hits an obstacle or the board edge; while one robot moves, the others wait.",
+    "question": "Given the situation on this board, what is the minimum number of moves required for robot 1 to stop on the star?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Using only robot 1 alone (heading left from the start) takes 7 moves. Letting robot 4 act as an obstacle for robot 1 after one movement reduces this to 6 moves. Using more robots in collaboration — moving robot 3 first so it becomes an obstacle for robot 2, which after moving becomes an obstacle for robot 1 — lets robot 1 reach the star in just 2 more moves, for 4 moves total, which is optimal (a systematic check confirms no 1-, 2-, or 3-move solution exists, since no other robot can be moved into either needed blocking square in fewer moves).",
+    "ct_skills": "Evaluation, Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Collaboration is an essential aspect of informatics, playing a vital role in the effective functioning of robots and information systems — without proper coordination, robots risk damaging themselves or others, so when programming multiple robots it's crucial they are finely tuned to work together. Searching the joint working space of multiple robots for the best combined solution can lead to a combinatorial explosion, so engineers sometimes apply stochastic optimisation (introducing controlled randomness) to find a high-quality, if not perfectly optimal, solution within a reasonable time. Solving this task well requires evaluating the whole situation, decomposing it to consider every robot and obstacle, and coordinating a sequence of moves where each step contributes toward the shared goal."
+  },
+  "content_zh": {
+    "prompt": "在「碰碰機器人」遊戲裡，你要下指令，讓機器人移動到棋盤上的星星位置。棕色方格和其他機器人都算是障礙物。機器人只能往上下左右四個方向移動，一旦開始移動就不會停下，直到撞上障礙物或棋盤邊緣為止；當某個機器人移動時，其他機器人都會停在原地等待。",
+    "question": "在這個棋盤局面下，機器人1最少要移動幾次，才能停在星星位置？",
+    "options": [
+      {
+        "key": "A",
+        "text": "4次"
+      },
+      {
+        "key": "B",
+        "text": "5次"
+      },
+      {
+        "key": "C",
+        "text": "6次"
+      },
+      {
+        "key": "D",
+        "text": "7次"
+      }
+    ],
+    "answer": "A",
+    "explanation": "如果只靠機器人1單獨行動（從起點往左走），要花7次移動。如果讓機器人4先移動一次、變成機器人1的障礙物，就能縮短到6次移動。如果讓更多機器人互相配合——先移動機器人3，讓它變成機器人2的障礙物，機器人2移動之後又變成機器人1的障礙物——機器人1只要再移動2次就能抵達星星，總共只要4次移動，這就是最佳解（有系統地逐一檢查後，可以確認1次、2次、3次都做不到，因為沒有任何機器人能在更少的移動次數內，卡到那兩個必要的擋路位置）。",
+    "ct_skills": "評估、演算法思維（Evaluation, Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "協作是資訊科學裡不可或缺的一環，對機器人和資訊系統能否有效運作扮演著關鍵角色——如果缺乏適當的協調，機器人可能會損壞自己或傷害到別人，所以在為多台機器人寫程式時，讓它們能緊密配合、順暢合作非常重要。在多台機器人共同的工作空間裡搜尋最佳的整體解法，很容易發生「組合爆炸」，所以工程師有時候會採用隨機最佳化演算法（刻意在演算法裡加入隨機性），在合理的時間內找出品質很高、即使不是絕對最佳的解答。要把這一題解好，需要評估整體局面、把問題分解成考量每一台機器人和每個障礙物，並協調一整套移動順序，讓每一步都為共同的目標做出貢獻。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

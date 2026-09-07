@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-09",
+  "title_en": "Applique",
+  "title_zh": "拼布貼花",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-09.png",
+    "path": "assets/images/india/2023/IN-2023-09.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Applique is an art form where shapes like animals, birds and flowers are attached to fabric. An artist uses two shapes — an elephant (needs a 5x5 = 25-square area) and a flower (needs a 3x3 = 9-square area) — on two pieces of fabric. Shapes may face any direction and go on any colour fabric, and may not overlap. On each piece of fabric, elephants must be attached first; the artist wants as many elephants as possible, then fills the remaining area with flowers.",
+    "question": "What is the maximum total number of shapes that can be attached to the two pieces of fabric?",
+    "options": [
+      {
+        "key": "A",
+        "text": "8 (3 elephants and 5 flowers)"
+      },
+      {
+        "key": "B",
+        "text": "10 (4 elephants and 6 flowers)"
+      },
+      {
+        "key": "C",
+        "text": "9 (3 elephants and 6 flowers)"
+      },
+      {
+        "key": "D",
+        "text": "10 (3 elephants and 7 flowers)"
+      }
+    ],
+    "answer": "D",
+    "explanation": "One possible placement of elephants and flowers on the yellow and pink fabric reaches a total of 10 shapes (3 elephants and 7 flowers); other optimal placements achieve the same total. (Without the requirement to maximise elephants first, the pink fabric alone has another solution with the same total of 6 shapes, but only 1 elephant and 5 flowers.)",
+    "ct_skills": "Abstraction, Decomposition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Memory management is an important task performed by an operating system — several algorithms exist to allocate memory while maximising useful space: 'best fit' allocates the smallest free chunk adequate for the requirement, 'first fit' allocates the first sufficiently large chunk found, and 'worst fit' allocates from the largest chunk available, each with its own speed-versus-utilisation trade-offs. In this task, we optimise the number of shapes attached by placing the largest shapes (elephants) first — an example of the first-fit approach. Abstraction is needed to treat elephants and flowers as simple grid squares; algorithmic thinking is needed to apply the rule of attaching elephants first, then flowers; and decomposition splits the question into two distinct problems: first placing the maximum number of elephants, then fitting flowers into the remaining space."
+  },
+  "content_zh": {
+    "prompt": "貼布繡是一種工藝，把動物、鳥類、花朵這類形狀貼縫到布上。一位藝術家用兩種形狀——大象（需要5×5＝25格的面積）和花朵（需要3×3＝9格的面積）——貼在兩塊布上。形狀可以朝任何方向擺放、貼在任何顏色的布上，但不能互相重疊。每塊布上都必須先貼大象；藝術家想盡量貼越多大象越好，剩下的空間再用花朵填滿。",
+    "question": "這兩塊布上總共最多能貼幾個形狀？",
+    "options": [
+      {
+        "key": "A",
+        "text": "8個（3隻大象、5朵花）"
+      },
+      {
+        "key": "B",
+        "text": "10個（4隻大象、6朵花）"
+      },
+      {
+        "key": "C",
+        "text": "9個（3隻大象、6朵花）"
+      },
+      {
+        "key": "D",
+        "text": "10個（3隻大象、7朵花）"
+      }
+    ],
+    "answer": "D",
+    "explanation": "黃色布和粉紅色布上，有一種可能的大象與花朵擺放方式，總共能貼到10個形狀（3隻大象、7朵花）；其他同樣達到最佳結果的擺法，總數也是一樣的。（如果不要求優先貼最多大象，粉紅色布單獨還有另一種解法，總數同樣是6個形狀，但只有1隻大象、5朵花。）",
+    "ct_skills": "抽象化、分解（Abstraction, Decomposition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "記憶體管理是作業系統執行的一項重要工作——有好幾種演算法用來分配記憶體、盡量提高空間利用率：「最適配」（best fit）會分配剛好夠用、且大小最接近需求的空閒區塊；「首次配」（first fit）會分配第一個找到、大小足夠的區塊；「最劣配」（worst fit）則會從目前最大的空閒區塊分配——每種做法在速度跟空間利用率之間各有取捨。這一題裡，我們透過優先放置最大的形狀（大象），來讓貼上去的形狀總數最多——這正是「首次配」概念的一個例子。這裡需要用到抽象化（把大象和花朵都簡化成純粹的格子方塊）、演算法思維（依照「先貼大象、再貼花朵」的規則執行），以及分解（把問題拆成兩個獨立的子問題：先放最多的大象，再把花朵填進剩下的空間）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

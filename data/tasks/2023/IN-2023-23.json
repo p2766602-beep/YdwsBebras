@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-23",
+  "title_en": "Job Assignment",
+  "title_zh": "工廠職缺媒合",
+  "source_country": "Iran",
+  "source_country_flag": "🇮🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Iran",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-23.png",
+    "path": "assets/images/india/2023/IN-2023-23.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Rani, Meera, Ehan, Omkar, Yash, Bahar and Ninad have applied for open positions in a factory's accounting, warehouse, call center, and packing departments. Each person is only qualified for the jobs shown in a figure; one person must be hired per position, and each person can hold at most one job.",
+    "question": "Which of the following is definitely true?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nahid will be hired for packing."
+      },
+      {
+        "key": "B",
+        "text": "Yash will be hired for the warehouse."
+      },
+      {
+        "key": "C",
+        "text": "Omkar will be hired for packing."
+      },
+      {
+        "key": "D",
+        "text": "If Meera is hired for packing, Bahar will be hired for accounting."
+      }
+    ],
+    "answer": "B",
+    "explanation": "If a job has only one applicant, that applicant must be hired there even if qualified for other jobs too — Omkar is the only applicant for the call center, so he must be hired there (making option C false). Removing Omkar and the call center from consideration, the same logic now applies to the warehouse: Yash is the only remaining qualified applicant, so Yash must be hired for the warehouse — option B is true. Removing Yash and the warehouse, the remaining assignments are no longer forced: e.g. Meera and Rani could be hired for packing and accounting respectively, which violates options A and D — so those options are not definitely true.",
+    "ct_skills": "Decomposition, Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "We used a bipartite graph to represent the data structure of jobs and applicants — an interesting way of representing a graph using two categories of vertices, which allows a polynomial-time algorithm to solve the underlying vertex-matching problem. This is a constraint satisfaction problem, common in many real-world resource allocation problems and puzzles (like Sudoku): assigning a value to one variable eliminates options for others. We used decomposition by considering each job on its own, independent of the others, and logic by repeatedly applying the rule 'if a job has only one applicant, that applicant must be hired there' — finding an algorithm to solve the task step by step, which is itself an exercise in computational thinking."
+  },
+  "content_zh": {
+    "prompt": "Rani、Meera、Ehan、Omkar、Yash、Bahar和Ninad應徵了一間工廠的職缺，包括會計、倉儲、客服中心和包裝部門。每個人只符合圖中所示的特定職缺資格；每個職位都必須有一個人被錄取，而且每個人最多只能擔任一個職位。",
+    "question": "下面哪一項敘述一定是真的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nahid會被錄取到包裝部門。"
+      },
+      {
+        "key": "B",
+        "text": "Yash會被錄取到倉儲部門。"
+      },
+      {
+        "key": "C",
+        "text": "Omkar會被錄取到包裝部門。"
+      },
+      {
+        "key": "D",
+        "text": "如果Meera被錄取到包裝部門，Bahar就會被錄取到會計部門。"
+      }
+    ],
+    "answer": "B",
+    "explanation": "如果某個職位只有一位應徵者符合資格，那麼即使這個人也符合其他職缺的資格，這個職位也一定會錄取他——Omkar是唯一符合客服中心資格的應徵者，所以他一定會被錄取到客服中心（因此選項C是錯的）。把Omkar和客服中心從考量中移除後，同樣的邏輯這時適用在倉儲部門：Yash是剩下唯一符合倉儲資格的應徵者，所以Yash一定會被錄取到倉儲部門——選項B成立。再把Yash和倉儲部門移除後，剩下的職缺分配就不再是唯一確定的了：例如Meera和Rani有可能分別被錄取到包裝和會計部門，這樣就違反了選項A和D——所以這兩個選項不一定成立。",
+    "ct_skills": "分解、演算法思維（Decomposition, Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "我們用一張「二分圖」來表示職缺和應徵者之間的資料結構——這是一種有趣的圖表示法，用兩類不同的頂點來表示資料，讓「頂點配對問題」能用多項式時間的演算法解決。這是一個「限制滿足問題」，在許多現實世界的資源分配問題和益智遊戲（例如數獨）裡都很常見：替一個變數指定一個值，就會排除掉其他變數的某些選項。我們運用了分解——把每個職缺獨立分開來考慮，不受其他職缺影響；也運用了邏輯——反覆套用「如果某職缺只有一位符合資格的應徵者，這個人就一定會被錄取」這條規則，一步步找出解題的演算法，這本身就是一次運算思維的練習。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

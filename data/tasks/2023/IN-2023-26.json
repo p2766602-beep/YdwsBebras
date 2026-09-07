@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-26",
+  "title_en": "Reverse Polish Notation",
+  "title_zh": "逆波蘭記號樹",
+  "source_country": "Romania",
+  "source_country_flag": "🇷🇴",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Romania",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2023-26.png",
+    "path": "assets/images/india/2023/IN-2023-26.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Little Beaver and a friend encode mathematical operations (+, -, *, /) as a graphic tree representation and then a coding rule (for variables/constants A, B, C): A+B is coded as 'AB+'; (A+1)*(B+C) is coded as 'A1+BC+*'.",
+    "question": "For the coding rule 'A1+B2+*25C/+', choose the correct tree representation from images a, b, c, d.",
+    "options": [
+      {
+        "key": "A",
+        "text": "(picture) a"
+      },
+      {
+        "key": "B",
+        "text": "(picture) b"
+      },
+      {
+        "key": "C",
+        "text": "(picture) c"
+      },
+      {
+        "key": "D",
+        "text": "(picture) d"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Building the expression piece by piece: 'A1+' is represented by a small subtree combining A and 1 with '+'; 'B2+' similarly combines B and 2; 'A1+B2+*' combines those two subtrees with '*'; '25C/' combines 2, 5 and C appropriately with '/'; the whole expression 'A1+B2+*25C/+' finally combines the '*' subtree and the '/' subtree with a top-level '+' — this matches image c. Image a corresponds to a different coding (A1B22 5C/++*+); image b incorrectly contains a minus operation not present in the given expression; image d corresponds to 'A1+B2+25C/+*' instead, with the operators grouped differently.",
+    "ct_skills": "Decomposition",
+    "cs_domain": "Data, data structures and representations",
+    "ct_explanation": "Reverse Polish notation (RPN) is a format used by compilers — translators that convert human-readable programming languages into machine code — to evaluate expressions appearing in a program. It transforms 'operand1 operator operand2' into 'operand1 operand2 operator' (e.g. A+B becomes AB+). In computer science, a tree is a commonly used abstract data type representing a hierarchical structure of interconnected nodes: each node may have multiple children but exactly one parent (except the root, which has none) — ensuring no cycles, so each child can be treated as the root of its own subtree. Every expression can be associated with a binary tree (each node connecting to at most two others on the next level); this problem is solved by decomposing the expression into smaller sub-expressions and using worked examples as models for building the tree."
+  },
+  "content_zh": {
+    "prompt": "小海狸和朋友，把數學運算(+、-、*、/)編碼成一種樹狀圖表示法，並訂出一套編碼規則（A、B、C代表變數或常數）：A+B會被編碼成「AB+」；(A+1)*(B+C)會被編碼成「A1+BC+*」。",
+    "question": "編碼規則「A1+B2+*25C/+」對應的是圖a、b、c、d裡的哪一種正確表示法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）a"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）b"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）c"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）d"
+      }
+    ],
+    "answer": "C",
+    "explanation": "一步步組合這個運算式：「A1+」由A和1用「+」組成一個小子樹；「B2+」同樣由B和2組成；「A1+B2+*」把這兩個子樹再用「*」組合起來；「25C/」由2、5、C恰當地用「/」組成；最後整個運算式「A1+B2+*25C/+」，是把「*」那個子樹跟「/」那個子樹，用最上層的「+」組合起來——這正好對應圖c。圖a對應的是另一種編碼(A1B22 5C/++*+)；圖b裡出現了給定運算式裡根本沒有的減法運算，是錯的；圖d對應的則是「A1+B2+25C/+*」，運算子的分組方式不一樣。",
+    "ct_skills": "分解（Decomposition）",
+    "cs_domain": "資料、資料結構與表示法",
+    "ct_explanation": "逆波蘭記號（Reverse Polish Notation，RPN）是編譯器使用的一種格式——編譯器是把人類看得懂的程式語言，轉換成電腦看得懂的機器碼的一種翻譯程式——用來計算程式裡出現的運算式。它把「運算元1 運算子 運算元2」的形式，轉換成「運算元1 運算元2 運算子」（例如A+B變成AB+）。在電腦科學裡，「樹」是一種常用的抽象資料型別，用來表示由彼此相連的節點組成的階層式結構：每個節點可以有多個子節點，但只能有一個父節點（樹根除外，它沒有父節點）——這確保了結構裡不會有循環，每個子節點都可以被當成自己這棵子樹的樹根。每個運算式都可以對應到一棵二元樹（每個節點最多連到下一層的兩個節點）；這個問題可以透過把運算式拆解成更小的子運算式來解決，並用範例當作建構這棵樹的模型。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

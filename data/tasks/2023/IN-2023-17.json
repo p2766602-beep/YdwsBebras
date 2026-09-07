@@ -1,0 +1,84 @@
+{
+  "task_uid": "IN-2023-17",
+  "title_en": "Unloading",
+  "title_zh": "環狀鐵軌卸貨",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-17.png",
+    "path": "assets/images/india/2023/IN-2023-17.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A freight train has wagons, each with a numbered box; a single fixed-position crane unloads boxes that must be positioned directly below it. Boxes must be unloaded in order starting from 1. The train can only move forward, on a circular track, so it can go around and return for more unloading. In a 4-box example (order 1,2,3,4), the train skips box 4, unloads 1, skips box 3, unloads 2 in round one; skips box 4, unloads 3 in round two; and unloads box 4 in a third round.",
+    "question": "How many rounds will be needed to unload all the boxes from a 10-box train, needing unloading in order 1 through 10?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      },
+      {
+        "key": "E",
+        "text": "10"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Following the procedure, boxes 1 and 2 unload together in round one, then 3 and 4, then 5 alone, then 6 alone, then 7 and 8 together, then 9 alone, then 10 — a total of 7 rounds. Alternatively: for each consecutive pair in the required sequence, if the next number sits to the left of the current one on the train, an extra round is needed (an 'inversion'). Here the out-of-order pairs are (2,3), (4,5), (5,6), (6,7), (8,9), (9,10) — 6 inversions, so 6 extra rounds beyond the first, for 7 total.",
+    "ct_skills": "Algorithmic Thinking, Decomposition",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "For any box, if the next-largest number sits to its left on the train, we call this an 'inversion'; each inversion needs an extra round, so counting inversions gives the answer directly. Counting inversions relative to a desired order has many applications: for sorting algorithms like bubble sort, the number of inversions tells us how many swaps are needed to sort a sequence; if two customers rank the same items in order of preference, the number of inversions between their rankings tells us how aligned their tastes are — used by online shops to find 'similar' customers for recommendations. This task can be solved with algorithmic thinking (carefully following the unloading procedure step by step) or with decomposition combined with logic (recognising that counting out-of-order pairs directly determines the number of rounds needed)."
+  },
+  "content_zh": {
+    "prompt": "一列貨運火車，每節車廂都載著一個編號箱子，只有一台位置固定的吊車負責卸貨，箱子必須正好停在吊車正下方才能卸下。箱子必須依照1開始的順序卸下。火車只能往前開，而且是環狀軌道，所以可以繞一圈回來繼續卸貨。以4個箱子為例（順序1,2,3,4）：第一輪火車跳過4號、卸下1號、跳過3號、卸下2號；第二輪跳過4號、卸下3號；第三輪才卸下4號。",
+    "question": "如果有10節車廂，箱子需要依照1到10的順序卸下，總共需要幾輪才能卸完所有箱子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5輪"
+      },
+      {
+        "key": "B",
+        "text": "7輪"
+      },
+      {
+        "key": "C",
+        "text": "8輪"
+      },
+      {
+        "key": "D",
+        "text": "9輪"
+      },
+      {
+        "key": "E",
+        "text": "10輪"
+      }
+    ],
+    "answer": "B",
+    "explanation": "依照這個程序推算：第一輪同時卸下1號和2號，接著3號和4號，然後5號單獨一輪，6號單獨一輪，7號和8號一起卸下，9號單獨一輪，最後10號——總共7輪。另一種算法：對照要求的順序，只要「下一個數字」在火車上的位置排在「目前這個數字」的左邊，就會多需要一輪（這叫做一個「逆序對」）。這裡順序顛倒的配對是(2,3)、(4,5)、(5,6)、(6,7)、(8,9)、(9,10)，共6個逆序對，也就是除了第一輪之外還要多6輪，總共7輪。",
+    "ct_skills": "演算法思維、分解（Algorithmic Thinking, Decomposition）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "對任何一個箱子來說，如果「比它大的下一個數字」在火車上排在它左邊，我們就稱這是一個「逆序對」（inversion）；每個逆序對都需要多一輪，所以只要數逆序對的數量，就能直接得到答案。相對於目標順序去計算逆序對數量，有很多實際應用：對像氣泡排序這類排序演算法來說，逆序對的數量就代表要排好一個序列需要交換幾次；如果兩位顧客對同一批商品的偏好排序，逆序對的數量就能告訴我們這兩人的品味有多相近——線上商店會用這個方法找出「相似」的顧客，做商品推薦。這一題可以用演算法思維解決（仔細一步步照著卸貨程序推算），也可以用分解搭配邏輯來解（理解到：只要計算順序顛倒的配對數量，就能直接算出需要幾輪）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

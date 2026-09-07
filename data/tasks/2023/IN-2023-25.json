@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2023-25",
+  "title_en": "Rooms",
+  "title_zh": "城堡房間找捷徑",
+  "source_country": "Japan",
+  "source_country_flag": "🇯🇵",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2023
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2023 Bebras, Bebras India. 原始出處國：Japan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2023-25.png",
+    "path": "assets/images/india/2023/IN-2023-25.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A castle has 8 rooms and 6 types of doors. Going through a door moves you to a room with a door of the same type as the one you entered. For example, room A has a blue door, so you can move to either room D or room E, which also have a blue door.",
+    "question": "Move from room A to room C in such a way as to pass through the least number of rooms. How many doors will you open?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Drawing a graph with rooms as vertices and same-coloured doors as edges: opening one door from A reaches D, E, or H; opening a second reaches B (blue door in E), F (blue door in E or black door in H), or G (orange door in D); opening the red door in B or the brown door in G reaches C. So room C is reached from room A through 3 doors.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This task asks for the shortest path from one room to another — solved in the explanation using a graph, a representation also used for maps (cities as nodes, roads as edges), train route searches, internet transmission protocols, and social network analysis. Algorithms exist to find the shortest route between two nodes on a graph, such as Dijkstra's algorithm (used in common GPS systems) or the Bellman-Ford / Floyd-Warshall family of algorithms (used e.g. by Google Maps); for maps and routes, these compute the shortest path given the current state of the network (traffic, incidents, tolls, and so on)."
+  },
+  "content_zh": {
+    "prompt": "一座城堡裡有8個房間、6種門。走過一扇門，你會移動到一個「入口門類型跟你剛才走過的門相同」的房間。舉例來說，房間A有一扇藍色門，所以你可以移動到房間D或房間E，因為它們也各自有一扇藍色門。",
+    "question": "要從房間A走到房間C，並且經過的房間數量最少，最少需要開幾扇門？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2扇"
+      },
+      {
+        "key": "B",
+        "text": "3扇"
+      },
+      {
+        "key": "C",
+        "text": "4扇"
+      },
+      {
+        "key": "D",
+        "text": "5扇"
+      }
+    ],
+    "answer": "B",
+    "explanation": "畫一張圖，把房間當作頂點，同顏色的門當作邊：從A開一扇門，可以到D、E或H；再開第二扇門，可以到B（經由E的藍色門）、F（經由E的藍色門或H的黑色門）或G（經由D的橘色門）；再開B的紅色門或G的棕色門，就能到達C。所以從房間A到房間C，總共要經過3扇門。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題要找的是從一個房間到另一個房間的最短路徑——解答裡用「圖」來表示，這種表示法也常用在地圖上（城市是節點、道路是邊）、火車路線搜尋、網際網路傳輸協定，以及社群網路分析。圖論裡有一些演算法可以找出兩個節點之間的最短路徑，例如戴克斯特拉演算法（Dijkstra's algorithm，常見GPS系統會用到）、或是Google Maps使用的Bellman-Ford／Floyd-Warshall這類演算法；在地圖跟路線規劃裡，這些演算法會依照路網目前的狀態（車流、事故、過路費等等）來計算最短路徑。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}
