@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-02",
+  "title_en": "Dancing dress",
+  "title_zh": "跳舞禮服材料袋",
+  "source_country": "Ireland",
+  "source_country_flag": "🇮🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Ireland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-02.png",
+    "path": "assets/images/india/2021/IN-2021-02.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Shruti needs to make a dress for a school dancing competition. A shop sells craft bags, each with a selection of items.",
+    "question": "Shruti needs pink fabric, scissors, and gold stars to make the dress. Which craft bag should she buy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 材料袋A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 材料袋B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 材料袋C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 材料袋D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A lacks gold stars; B lacks scissors; C lacks pink fabric. D contains all three required items (it also has extra unneeded items, which doesn't matter).",
+    "ct_skills": "Abstraction",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This task involves conditional statements: a program does different things depending on whether a condition is true or false. Here, three conditions must ALL be true for a bag to work. It also teaches abstraction — ignoring irrelevant \"distractor\" items and focusing only on whether each bag satisfies the required properties."
+  },
+  "content_zh": {
+    "prompt": "Shruti要為學校的舞蹈比賽做一件禮服。商店賣好幾種材料袋，每袋裝著不同的物品。",
+    "question": "Shruti做禮服需要粉紅色布料、剪刀、金色星星。她應該買哪一袋？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）材料袋A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）材料袋B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）材料袋C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）材料袋D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "A沒有金色星星；B沒有剪刀；C沒有粉紅色布料。D三樣需要的東西都有（雖然還多了一些用不到的東西，但不影響答案）。",
+    "ct_skills": "抽象化（Abstraction）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題用到條件判斷：程式會依照條件是真是假，執行不同的動作。這裡有三個條件，必須「全部」成立，這袋材料才合用。這也教會我們「抽象化」——忽略不相關的干擾物品，只專注在每袋是否符合所需的條件上。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

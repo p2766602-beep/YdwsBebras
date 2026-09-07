@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-16",
+  "title_en": "Cuckoo Birds",
+  "title_zh": "布穀鳥佔巢",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-16.png",
+    "path": "assets/images/india/2021/IN-2021-16.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Spotted cuckoo birds move into empty nests: starting at the bottom of a tree, going up until finding a nest; if empty, moves in; if occupied, compares spots with the occupying bird — if that bird has more spots, continue left; if same or fewer, continue right. There are 5 empty nests and 5 birds, entering left to right, starting with the 4-spot bird.",
+    "question": "Which bird will move into the highest nest?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 鳥A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 鳥B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 鳥C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 鳥D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The 4-spot bird takes the lowest nest. The 2-spot bird (fewer than 4) goes left to the next empty nest. The 3-spot bird goes left of the 4-spot nest (since 4>3), reaches the 2-spot bird's nest, and since 2<3 continues right into the next empty nest — the highest one. So the 3-spot bird (D) ends up highest.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This structured way of organising data is a binary search tree: comparing the target to the current item and going left or right accordingly makes finding items efficient by repeatedly halving the search space — widely used when fast data retrieval is needed."
+  },
+  "content_zh": {
+    "prompt": "斑點布穀鳥不築巢，而是搬進空巢裡：從樹底部開始往上飛，遇到鳥巢就檢查；如果是空的就搬進去；如果已經有鳥住了，就比較身上的斑點數——如果對方斑點比較多，就繼續往左；如果對方斑點一樣多或更少，就繼續往右。樹上有5個空巢，有5隻鳥依序從左到右搬進去，第一隻是4個斑點的鳥。",
+    "question": "哪隻鳥會搬進最高的那個巢？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）鳥A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）鳥B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）鳥C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）鳥D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "4斑點的鳥搬進最低的巢。2斑點的鳥（比4少）往左飛到下一個空巢。3斑點的鳥因為4>3所以往左飛，遇到2斑點鳥的巢，因為2<3所以繼續往右飛，進入下一個空巢——也就是最高的那個。所以3斑點的鳥(D)最後住進最高的巢。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這種有結構的資料組織方式，就是「二元搜尋樹」：把目標跟目前的項目比較、決定往左或往右，能透過不斷把搜尋範圍減半，讓尋找變得非常有效率——這在需要快速取得資料的場合被廣泛使用。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

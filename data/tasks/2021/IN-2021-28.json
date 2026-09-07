@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-28",
+  "title_en": "Shop Counters",
+  "title_zh": "收銀櫃台動態擴增",
+  "source_country": "Pakistan",
+  "source_country_flag": "🇵🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Pakistan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-28.png",
+    "path": "assets/images/india/2021/IN-2021-28.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A shop has counters (max queue of 4 each), serving 1 customer every 2 minutes; only counter 1 starts open. Customers join the first counter with space. If all open counters are full, a new counter opens, taking 3 minutes to serve its first customer (then 2 minutes each after).",
+    "question": "12 customers arrive, 2 per minute starting immediately. How long does it take to serve them all?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12 minutes"
+      },
+      {
+        "key": "B",
+        "text": "11 minutes"
+      },
+      {
+        "key": "C",
+        "text": "13 minutes"
+      },
+      {
+        "key": "D",
+        "text": "8 minutes"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tracking each customer's arrival and departure time across counters as they open on demand, the last customer (in the second-opened counter's queue) finishes at 13 minutes.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This illustrates dynamic scaling, as used by cloud services (Google Cloud, AWS, Azure): computing resources (here, counters) are opened on demand as usage grows, keeping costs low when demand is low. In practice, dynamic scaling also involves scaling back down when demand decreases."
+  },
+  "content_zh": {
+    "prompt": "一間商店的收銀櫃台每台最多排4人，每2分鐘服務完1位顧客；一開始只開1號櫃台。顧客會加入第一個還有空位的隊伍。如果目前開的櫃台都滿了，就會新開一個櫃台，新櫃台服務第一位顧客要花3分鐘(之後每位都是2分鐘)。",
+    "question": "12位顧客陸續抵達，從一開始每分鐘來2位。服務完所有人總共要花多少時間？",
+    "options": [
+      {
+        "key": "A",
+        "text": "12分鐘"
+      },
+      {
+        "key": "B",
+        "text": "11分鐘"
+      },
+      {
+        "key": "C",
+        "text": "13分鐘"
+      },
+      {
+        "key": "D",
+        "text": "8分鐘"
+      }
+    ],
+    "answer": "C",
+    "explanation": "追蹤每位顧客抵達跟離開的時間，並依需求新開櫃台，最後一位顧客（在第二個新開櫃台的隊伍裡）在第13分鐘完成服務。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這示範的是「動態擴容」(dynamic scaling)，就像Google Cloud、AWS、Azure這類雲端服務的做法：運算資源（這裡是收銀櫃台）會依照使用量需求動態開啟，需求低的時候就能省成本。實務上，動態擴容也包含需求降低時把資源縮減回去。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

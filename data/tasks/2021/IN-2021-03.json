@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-03",
+  "title_en": "Dancing Dolls",
+  "title_zh": "娃娃的四種材質禮服",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-03.png",
+    "path": "assets/images/india/2021/IN-2021-03.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A dress-maker made dresses for four dolls; each dress should be made from four different materials.",
+    "question": "Which of the dolls is wearing a dress that is NOT made of four different materials?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 娃娃A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 娃娃B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 娃娃C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 娃娃D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Dolls A, B and D each use all four different materials; doll C's dress does not meet this rule.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "Data structures mean storing and manipulating data in a computer's memory so it can be checked against rules. Here the four required materials are stored, and each dress's pattern is validated against them — patterns can be interpreted as colours and either seen physically or calculated mathematically."
+  },
+  "content_zh": {
+    "prompt": "一位裁縫師幫四個娃娃各做了一件禮服；每件禮服都應該用四種不同的材質做成。",
+    "question": "哪一個娃娃的禮服「不是」用四種不同材質做的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）娃娃A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）娃娃B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）娃娃C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）娃娃D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "娃娃A、B、D的禮服都用了四種不同材質；只有娃娃C的禮服不符合這個規則。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "資料結構指的是把資料儲存在電腦記憶體裡，並依規則去操作、驗證它。這一題把「需要的四種材質」存起來，再逐一比對每件禮服的花紋是否符合——花紋也可以解讀成顏色，可以用肉眼觀察，也可以用數學方式計算。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

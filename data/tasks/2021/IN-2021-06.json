@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-06",
+  "title_en": "April Fool",
+  "title_zh": "愚人節整人排序",
+  "source_country": "Switzerland",
+  "source_country_flag": "🇨🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Switzerland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-06.png",
+    "path": "assets/images/india/2021/IN-2021-06.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beaver Tina asks Lina to sort photos into 12 albums by month, in the usual (calendar) order. But since it's April Fools' Day, Lina sorts the month names alphabetically instead.",
+    "question": "In which album will Tina find the pictures from June?",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Sorting all 12 month names alphabetically (April, August, December, February, January, July, June, March, May, November, October, September), June lands in position 7.",
+    "ct_skills": "Representation",
+    "cs_domain": "Systematic Listing Counting & Reasoning",
+    "ct_explanation": "We often want to sort things, and computer science helps do this quickly. But before sorting, it's important to decide WHICH order is wanted — a computer doesn't inherently know; you must explicitly tell it the sorting criterion (chronological vs. alphabetical, in this case)."
+  },
+  "content_zh": {
+    "prompt": "海狸Tina請Lina把照片依照月份分類，放進12本相簿，原本預期是照日曆順序排列。但因為是愚人節，Lina惡作劇改成依照月份英文名稱的字母順序來排。",
+    "question": "Tina會在第幾本相簿裡找到6月的照片？",
+    "options": [
+      {
+        "key": "A",
+        "text": "第4本"
+      },
+      {
+        "key": "B",
+        "text": "第5本"
+      },
+      {
+        "key": "C",
+        "text": "第6本"
+      },
+      {
+        "key": "D",
+        "text": "第7本"
+      }
+    ],
+    "answer": "D",
+    "explanation": "把12個月份的英文名稱依字母順序排列(April、August、December、February、January、July、June、March、May、November、October、September)，June(六月)排在第7個位置。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "系統性列舉、計數與推理",
+    "ct_explanation": "我們經常需要把東西排序，資訊科學可以幫我們快速完成這件事。但排序之前，一定要先決定「要用哪種順序」——電腦本身並不會知道你要的是哪一種，你必須明確告訴它排序的依據（這裡是「時間順序」還是「字母順序」的差別）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

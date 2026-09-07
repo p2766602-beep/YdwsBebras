@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-19",
+  "title_en": "Kayles pins",
+  "title_zh": "保齡球瓶必勝策略",
+  "source_country": "Italy",
+  "source_country_flag": "🇮🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Italy",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-19.png",
+    "path": "assets/images/india/2021/IN-2021-19.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ann and Bob put 4 bowling pins in a row. On their turn, a player drops either 1 pin or 2 adjacent pins; whoever drops the last pin wins. Ann plays first.",
+    "question": "Which pin(s) should Ann drop first to guarantee her victory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 選項A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 選項B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 選項C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 選項D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Dropping the middle pair (2nd and 3rd pins) leaves two separated single pins; whatever Bob does to one, Ann mirrors on the other, guaranteeing she drops the last pin. All other first moves let Bob win.",
+    "ct_skills": "Algorithmic Thinking, Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is an impartial combinatorial game called Kayles. The winning strategy: leave the opponent two equal, separated groups of pins, then mirror whatever they do to one group on the other. Representing a game as a tree and traversing it with search algorithms (the minimax/negamax procedure) is a fundamental and widely-used concept in informatics and AI, applicable to games like tic-tac-toe and chess."
+  },
+  "content_zh": {
+    "prompt": "Ann和Bob把4根保齡球瓶排成一排。輪到誰時，可以放倒1根瓶子，或相鄰的2根瓶子；誰放倒最後一根瓶子就贏。Ann先手。",
+    "question": "Ann第一步應該放倒哪根(或哪兩根)瓶子，才能確保自己獲勝？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）選項A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）選項B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）選項C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）選項D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "放倒中間那一對（第2根和第3根），會留下兩根分開的單獨瓶子；不管Bob對其中一根做什麼，Ann都在另一根上「照樣模仿」，就能保證自己放倒最後一根瓶子。其他任何第一步都會讓Bob獲勝。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是一種公平的組合遊戲，叫做「Kayles」。獲勝策略是：留給對手兩組數量相等、彼此分開的瓶子群，然後不管對手對其中一組做什麼，都在另一組上「照樣模仿」。把遊戲表示成一棵樹、再用搜尋演算法(minimax/negamax程序)遍歷它，是資訊科學和人工智慧裡非常基礎又廣泛使用的概念，也適用於井字遊戲、西洋棋這類遊戲。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

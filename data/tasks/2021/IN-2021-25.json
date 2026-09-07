@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-25",
+  "title_en": "Hercules and Hydra",
+  "title_zh": "剪樹枝最短時間",
+  "source_country": "Uzbekistan",
+  "source_country_flag": "🇺🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Uzbekistan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-25.png",
+    "path": "assets/images/india/2021/IN-2021-25.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A diseased tree's branches (with dead leaves) must all be cut. Numbers show time needed to cut each branch; cutting a larger branch removes all smaller branches attached to it, saving time cutting those individually.",
+    "question": "What is the shortest time needed to cut off all branches with dead leaves?",
+    "options": [
+      {
+        "key": "A",
+        "text": "19"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "22"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Working from leaves toward the root, at each junction choosing the minimum of (cutting individual smaller branches) vs (cutting the single larger branch above), the optimal total is 8+7+5=20.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The tree is a data structure (also a special case of a graph). This task asks for the minimum-weight set of edges separating all leaves from the root — a standard graph theory problem called minimum cut, solvable by general algorithms (e.g. Ford-Fulkerson) or, for trees specifically, a simpler leaves-to-root approach."
+  },
+  "content_zh": {
+    "prompt": "一棵生病的樹，所有帶著枯葉的樹枝都要剪掉。數字標示剪每根樹枝所需的時間；剪掉比較粗的樹枝，會連帶把接在它上面的所有較細樹枝一起移除，不用再一根一根剪。",
+    "question": "剪掉所有帶枯葉樹枝，最少需要多少時間？",
+    "options": [
+      {
+        "key": "A",
+        "text": "19"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "22"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      }
+    ],
+    "answer": "B",
+    "explanation": "從樹葉端往樹根方向推算，在每個分岔點都選「剪各自較細樹枝」跟「剪上面那根較粗樹枝」兩者中比較省時間的做法，最佳總時間是8+7+5＝20。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這棵樹其實是一種資料結構（也是「圖」的一種特殊情況）。這一題要找的，是把所有樹葉跟樹根分開所需「權重總和最小」的一組邊——這是圖論裡的標準問題，叫做「最小割」，可以用通用演算法解決(例如Ford-Fulkerson演算法)，如果只針對樹狀結構，也有更簡單的「從葉到根」解法。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

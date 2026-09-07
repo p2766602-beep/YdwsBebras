@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-15",
+  "title_en": "Bank Lock",
+  "title_zh": "銀行密碼輪換",
+  "source_country": "Taiwan",
+  "source_country_flag": "🇹🇼",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Taiwan",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-15.png",
+    "path": "assets/images/india/2021/IN-2021-15.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A bank passcode is 3 symbols chosen from 8. It changes daily: each symbol is replaced by the one to its right (cyclically). Last Sunday's passcode is given; the manager wrote down the passcodes for the following days, but made one mistake.",
+    "question": "Which of the passcodes is WRONG?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Wednesday"
+      },
+      {
+        "key": "B",
+        "text": "Thursday"
+      },
+      {
+        "key": "C",
+        "text": "Friday"
+      },
+      {
+        "key": "D",
+        "text": "Saturday"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Shifting each symbol correctly day by day from Sunday gives Wednesday, Thursday, and Friday all correct, but Saturday's written passcode doesn't match the correctly-shifted value.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This system resembles the Caesar cipher — substituting symbols by a fixed shift — historically easy to crack once a few codes are observed. Modern encryption differs fundamentally: its methods are publicly known, but rely on mathematical properties making them provably very hard to break, even with full knowledge of how they work."
+  },
+  "content_zh": {
+    "prompt": "銀行金庫密碼是從8個符號裡選3個組成，而且每天都會自動更換：每個符號會被它右邊那個符號取代（循環）。已知上週日的密碼，經理寫下了接下來幾天的密碼，但其中犯了一個錯誤。",
+    "question": "哪一天寫的密碼是「錯的」？",
+    "options": [
+      {
+        "key": "A",
+        "text": "星期三"
+      },
+      {
+        "key": "B",
+        "text": "星期四"
+      },
+      {
+        "key": "C",
+        "text": "星期五"
+      },
+      {
+        "key": "D",
+        "text": "星期六"
+      }
+    ],
+    "answer": "D",
+    "explanation": "從週日開始，每天都正確地把每個符號往右移一格，可以驗證出週三、週四、週五都對，但週六寫下的密碼跟正確推算出來的值對不上。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這套系統很像「凱撒密碼」——用固定位移量替換符號——歷史上只要觀察到幾組密碼，就很容易被破解。現代加密方法本質上完全不同：加密方法本身是公開已知的，但它建立在數學特性上，即使完全知道運作原理，也能被證明極難破解。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-10",
+  "title_en": "Necklaces",
+  "title_zh": "摩斯密碼項鍊",
+  "source_country": "Slovakia",
+  "source_country_flag": "🇸🇰",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Slovakia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-10.png",
+    "path": "assets/images/india/2021/IN-2021-10.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beavers ANNA, BELLA and LENA thread necklaces to spell their names: two bead shapes represent Morse-code-like dot/dash, and a separator bead divides letters. ANNA's and BELLA's necklaces are shown as examples.",
+    "question": "Which necklace did LENA make?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 項鍊A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 項鍊B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 項鍊C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 項鍊D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Decoding L, E, N, A from Bella's and Anna's necklaces and combining them with separators gives the sequence in answer A. Decoding the other options gives BENA (B), NENA (C), and LEAN (D) — all wrong words.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "We commonly encode information to make communication easier, more economical, or secret. Here the encoding is based on Morse code (dot/dash replaced by two bead shapes). Without knowing the encoding scheme, one cannot create necklaces for other letters — encoding schemes must be agreed upon in advance, whether for text, images, sounds, or video."
+  },
+  "content_zh": {
+    "prompt": "海狸ANNA、BELLA、LENA用串珠項鍊拼出自己的名字：兩種珠子形狀代表類似摩斯密碼的點跟橫，另一種珠子當作字母之間的分隔符號。ANNA和BELLA的項鍊已經當作範例展示出來。",
+    "question": "LENA做的是哪一條項鍊？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）項鍊A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）項鍊B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）項鍊C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）項鍊D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "從Bella和Anna的項鍊解碼出L、E、N、A，再加上分隔珠組合起來，正好對應選項A的排列。把其他選項解碼出來會得到BENA(B)、NENA(C)、LEAN(D)——都是錯誤的字。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "我們常常會為了方便溝通、節省空間、或保密而把資訊編碼。這裡的編碼方式是仿造摩斯密碼（用兩種珠子形狀代表點和橫）。如果不知道編碼規則，就沒辦法幫其他字母做出項鍊——不管是文字、圖片、聲音還是影片，編碼方式都必須事先約定好才行。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

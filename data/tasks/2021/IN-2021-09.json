@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-09",
+  "title_en": "Find a mistake",
+  "title_zh": "找出程式錯誤",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-09.png",
+    "path": "assets/images/india/2021/IN-2021-09.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Sunita wrote a 5-command program to guide a beaver home: 2→, 2↑, 5→, 4↑, 1→. The first command is correct, but one of the next four commands has a mistake.",
+    "question": "Which one of the commands has a mistake?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2↑"
+      },
+      {
+        "key": "B",
+        "text": "5→"
+      },
+      {
+        "key": "C",
+        "text": "4↑"
+      },
+      {
+        "key": "D",
+        "text": "1→"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The command \"5→\" should be \"6→\" for the beaver to reach home exactly; with 5→ the beaver hits an island instead.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "A program is a sequence of commands representing operations to reach a correct solution. Tracing the beaver's movement command by command until it goes wrong, and realising the previous command should have gone one step further, is exactly debugging — an important skill for programmers."
+  },
+  "content_zh": {
+    "prompt": "Sunita寫了一支5個指令的程式，要引導海狸回家：2→、2↑、5→、4↑、1→。第一個指令是對的，但接下來4個指令裡有一個是錯的。",
+    "question": "哪一個指令有錯？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2↑"
+      },
+      {
+        "key": "B",
+        "text": "5→"
+      },
+      {
+        "key": "C",
+        "text": "4↑"
+      },
+      {
+        "key": "D",
+        "text": "1→"
+      }
+    ],
+    "answer": "B",
+    "explanation": "「5→」這個指令應該要改成「6→」，海狸才能剛好走到家；用原本的5→，海狸會撞上一座小島。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "程式是一連串代表操作的指令，要引導系統從起點走到正確的解答。一步一步追蹤海狸的移動，直到發現哪裡出錯、意識到前一個指令應該要多走一步——這正是「除錯」，是工程師很重要的一項能力。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

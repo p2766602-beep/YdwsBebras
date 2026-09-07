@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-24",
+  "title_en": "Find animal",
+  "title_zh": "字母格找動物",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-24.png",
+    "path": "assets/images/india/2021/IN-2021-24.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "An animal name can be found in a letter table using a shape/position schema (e.g. finding PANDA is shown as an example).",
+    "question": "Find the name of the animal represented by a given schema in the table.",
+    "options": [
+      {
+        "key": "A",
+        "text": "ELEPHANT"
+      },
+      {
+        "key": "B",
+        "text": "SQUIRREL"
+      },
+      {
+        "key": "C",
+        "text": "TORTOISE"
+      },
+      {
+        "key": "D",
+        "text": "ANTELOPE"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Checking every position where the schema (3 cells tall, 4 cells wide) could fit in the table, starting from the bottom line and moving through possible placements, SQUIRREL is the word found.",
+    "ct_skills": "Pattern matching",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This is about searching a two-dimensional array (grid of letters) for a continuous sequence of positions matching a pattern. Using such search patterns is very common when writing programs."
+  },
+  "content_zh": {
+    "prompt": "可以用一個「形狀/位置」的樣板，在字母表格裡找出一個動物名稱（範例示範了如何找出PANDA這個字）。",
+    "question": "用給定的樣板，在表格裡找出對應的動物名稱。",
+    "options": [
+      {
+        "key": "A",
+        "text": "ELEPHANT（大象）"
+      },
+      {
+        "key": "B",
+        "text": "SQUIRREL（松鼠）"
+      },
+      {
+        "key": "C",
+        "text": "TORTOISE（陸龜）"
+      },
+      {
+        "key": "D",
+        "text": "ANTELOPE（羚羊）"
+      }
+    ],
+    "answer": "B",
+    "explanation": "檢查表格裡樣板（高3格、寬4格）所有可能放置的位置，從最下面那一行開始逐一嘗試，找到的字就是SQUIRREL。",
+    "ct_skills": "樣式比對（Pattern matching）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題探討的是在二維陣列（字母表格）裡，搜尋一連串符合某個樣式的連續位置。這種搜尋樣式在寫程式時非常常見。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

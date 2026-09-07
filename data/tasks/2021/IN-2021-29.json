@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-29",
+  "title_en": "Jumping jack",
+  "title_zh": "猴子跳樹連通群",
+  "source_country": "Slovenia",
+  "source_country_flag": "🇸🇮",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Slovenia",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-29.png",
+    "path": "assets/images/india/2021/IN-2021-29.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Jack the monkey can jump from one tree to another if it's up to 2 cells away horizontally/vertically, or 1 cell away diagonally. He plays a game jumping to as many different trees as possible without touching the ground, starting anywhere.",
+    "question": "What is the largest number of different trees he can visit in a day?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Grouping trees by which ones are mutually reachable (colouring connected trees the same colour) reveals the largest connected group has 8 trees.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This manipulates a graph: trees are vertices, and an edge connects two trees Jack can jump between. Trees reachable from each other via such edges form a connected component. The colouring procedure used to find these components resembles well-known graph search algorithms: breadth-first and depth-first search."
+  },
+  "content_zh": {
+    "prompt": "猴子Jack可以在樹之間跳躍，只要水平或垂直距離不超過2格，或斜對角距離是1格。牠玩一個遊戲：不能碰到地面，盡量跳到越多不同的樹越好，可以從任何一棵樹開始。",
+    "question": "牠一天最多能拜訪幾棵不同的樹？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5棵"
+      },
+      {
+        "key": "B",
+        "text": "7棵"
+      },
+      {
+        "key": "C",
+        "text": "8棵"
+      },
+      {
+        "key": "D",
+        "text": "9棵"
+      }
+    ],
+    "answer": "C",
+    "explanation": "把「彼此互相可以到達」的樹分成一組（用同一個顏色標記互相連通的樹），可以發現最大的一組連通樹群有8棵。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這一題操作的是一張圖：樹是頂點，Jack能跳躍的兩棵樹之間連一條邊。透過這些邊彼此能互相到達的樹，構成一個「連通分量」。用來找出這些連通分量的著色程序，跟知名的圖搜尋演算法很像：廣度優先搜尋跟深度優先搜尋。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

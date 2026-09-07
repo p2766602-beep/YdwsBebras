@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-20",
+  "title_en": "Raster",
+  "title_zh": "點陣圖壓縮解碼",
+  "source_country": "Saudi Arabia",
+  "source_country_flag": "🇸🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Saudi Arabia",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-20.png",
+    "path": "assets/images/india/2021/IN-2021-20.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Raster images are made of pixels; a compression method encodes each row starting with the count of white pixels at the start of the row (0 if the row starts black).",
+    "question": "What picture is saved with the given long numeric code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 圖片A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 圖片B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 圖片C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 圖片D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Checking a few key rows against the code (row 2 must start with white since the code doesn't start with 0, ruling out C; row 5 and row 6's segment counts and specific black-pixel positions rule out D and A respectively) — only image B matches the code fully.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This is run-length encoding, used to reduce stored image size. Lossy compression (common in JPG, a popular raster format) discards imperceptible high-frequency information; vector images (like SVG) instead store mathematical descriptions of paths rather than individual pixels."
+  },
+  "content_zh": {
+    "prompt": "點陣圖是由像素組成的；一種壓縮方式會把每一列編碼成「列開頭的白色像素數量」開始（如果那一列一開頭就是黑色，就從0開始）。",
+    "question": "下面這一長串數字代碼，存的是哪張圖？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）圖片A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）圖片B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）圖片C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）圖片D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "只要比對幾個關鍵列就能判斷：第2列的代碼不是從0開始，代表這列開頭必須是白色，排除C；第5、6列的段數跟黑色像素的確切位置分別排除了D跟A——只有圖片B完全符合這串代碼。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這正是「行程長度編碼」(run-length encoding)，用來縮小圖片儲存空間。有損壓縮（常見於JPG這種熱門點陣格式）會捨棄人眼難以察覺的高頻資訊；向量圖（例如SVG）則不儲存個別像素，而是儲存路徑的數學描述。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

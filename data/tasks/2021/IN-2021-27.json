@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-27",
+  "title_en": "Do they meet",
+  "title_zh": "睡蓮池能否相遇",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-27.png",
+    "path": "assets/images/india/2021/IN-2021-27.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "On a lake, beavers move between lily pads only in directions shown by arrows. Bob starts on pad A1; Nora starts on pad H3.",
+    "question": "Is it possible that the beavers meet each other? If yes, where may they meet?",
+    "options": [
+      {
+        "key": "A",
+        "text": "No, they cannot meet"
+      },
+      {
+        "key": "B",
+        "text": "Yes, they may meet on pad C2"
+      },
+      {
+        "key": "C",
+        "text": "Yes, they may meet on pad F4"
+      },
+      {
+        "key": "D",
+        "text": "Yes, they may meet on pad C5"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Tracing all possible paths each beaver could take (avoiding dead ends and loops), the sets of pads reachable by Bob and by Nora overlap only at pad C5 — that's the only possible meeting point.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "Following arrows, retracing to the most recent fork upon hitting a dead end or loop, and trying alternatives, is a classic algorithmic approach called backtracking — a name that describes exactly how it works, widely used by computer scientists solving difficult search problems."
+  },
+  "content_zh": {
+    "prompt": "湖面上，海狸只能依照箭頭指示的方向，從一片睡蓮葉移動到另一片。Bob從A1葉出發，Nora從H3葉出發。",
+    "question": "這兩隻海狸有可能相遇嗎？如果可能，牠們會在哪裡相遇？",
+    "options": [
+      {
+        "key": "A",
+        "text": "不可能相遇"
+      },
+      {
+        "key": "B",
+        "text": "可能在C2相遇"
+      },
+      {
+        "key": "C",
+        "text": "可能在F4相遇"
+      },
+      {
+        "key": "D",
+        "text": "可能在C5相遇"
+      }
+    ],
+    "answer": "D",
+    "explanation": "追蹤兩隻海狸各自所有可能的路徑（避開死路跟迴圈），Bob能到達的葉片集合跟Nora能到達的葉片集合，只在C5這一片重疊——這是唯一可能相遇的地方。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "沿著箭頭走，遇到死路或迴圈就退回最近的一個岔路口，改試別的路——這是一種經典的演算法策略，叫做「回溯法」（名字正好說明了它的運作方式），廣泛被工程師用來解決困難的搜尋問題。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

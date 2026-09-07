@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-31",
+  "title_en": "Truchet tiles",
+  "title_zh": "特魯謝拼貼磚",
+  "source_country": "Austria",
+  "source_country_flag": "🇦🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Austria",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-31.png",
+    "path": "assets/images/india/2021/IN-2021-31.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Certain patterns can be created with just one repeated tile; the tiles that create smooth patterns share an important property involving their sides.",
+    "question": "Which of the following tiles is lacking that property?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tile 1"
+      },
+      {
+        "key": "B",
+        "text": "Tile 2"
+      },
+      {
+        "key": "C",
+        "text": "Tile 3"
+      },
+      {
+        "key": "D",
+        "text": "Tile 4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Tiles 1, 2, and 4 all have matching sides (top matches bottom, left matches right); tile 3's top/bottom fit but left/right don't, so the resulting pattern isn't smooth when tiles are placed in random orientations.",
+    "ct_skills": "Pattern matching",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "These tiles are named after Sébastien Truchet, who studied such tiling variants. That complex patterns can emerge from very simple building blocks has long fascinated people; Truchet tiles are studied in mathematics and computer science and used in computer games to generate mazes or decorations."
+  },
+  "content_zh": {
+    "prompt": "有些圖案只用一種磚就能拼出來；能拼出平滑圖案的磚，彼此邊緣都有一個共通的重要特性。",
+    "question": "下面哪一塊磚缺少了這個特性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "磚1"
+      },
+      {
+        "key": "B",
+        "text": "磚2"
+      },
+      {
+        "key": "C",
+        "text": "磚3"
+      },
+      {
+        "key": "D",
+        "text": "磚4"
+      }
+    ],
+    "answer": "C",
+    "explanation": "磚1、2、4的邊緣都能互相對應（上跟下對應、左跟右對應）；磚3的上下邊能對上，但左右邊對不上，所以磚3以隨機方向拼接時，拼出來的圖案不會平滑。",
+    "ct_skills": "樣式比對（Pattern matching）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這些磚以研究這類拼磚變化型的Sébastien Truchet命名。用非常簡單的建構元素創造出複雜的圖案，長久以來一直讓人著迷；Truchet磚在數學和資訊科學裡都有被研究，也被用在電腦遊戲裡自動生成迷宮或裝飾圖案。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

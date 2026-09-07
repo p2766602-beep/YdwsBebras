@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-12",
+  "title_en": "Turtle Path",
+  "title_zh": "烏龜覓食路徑",
+  "source_country": "Germany",
+  "source_country_flag": "🇩🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Germany",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-12.png",
+    "path": "assets/images/india/2021/IN-2021-12.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Turtles live in gardens divided into grass and stone squares; they can't cross stones, only move between adjacent grass squares. Each turtle needs a feeding path visiting every grass square exactly once. One turtle's garden has no such path.",
+    "question": "Which turtle cannot take a feeding path in its garden?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 花園A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 花園B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 花園C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 花園D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Gardens A, B, D each have a valid feeding path shown. Garden C has no such path: starting from either end of the required fixed segment and trying to visit the remaining 6 squares exactly once always fails to end at the correct square.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is the famous Hamiltonian path problem: each grass square is a node, each possible move an edge, and the turtle seeks a path visiting every node exactly once. There is no known algorithm that can efficiently decide, for arbitrary graphs, whether such a path exists."
+  },
+  "content_zh": {
+    "prompt": "烏龜住在被劃分成草地和石頭的花園裡；牠們不能跨過石頭，只能在相鄰的草地方格之間移動。每隻烏龜都要走一條「覓食路徑」，把每塊草地恰好經過一次。其中一隻烏龜的花園裡沒有這樣的路徑。",
+    "question": "哪一隻烏龜的花園裡，沒有辦法走出覓食路徑？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）花園A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）花園B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）花園C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）花園D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "花園A、B、D都能找到有效的覓食路徑（如圖所示）。花園C沒有這樣的路徑：不管從那段必經路線的哪一端開始，嘗試把剩下6塊草地恰好各走一次，都無法走到正確的終點方格。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這正是著名的「漢彌爾頓路徑問題」：每塊草地是一個節點，每種可能的移動是一條邊，烏龜要找的是一條經過每個節點恰好一次的路徑。目前沒有已知的演算法，能對任意的圖有效率地判斷這種路徑是否存在。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-32",
+  "title_en": "Vaccination Centres",
+  "title_zh": "疫苗接種中心選址",
+  "source_country": "Belgium",
+  "source_country_flag": "🇧🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Belgium",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-32.png",
+    "path": "assets/images/india/2021/IN-2021-32.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A region has 6 cities; only two can have a hospital. Travel times between cities are shown on a map (sometimes passing through other cities). Hospitals should be placed to minimise the worst-case travel time to reach one.",
+    "question": "One hospital is at city F. Where must the second hospital be placed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "City A"
+      },
+      {
+        "key": "B",
+        "text": "City B"
+      },
+      {
+        "key": "C",
+        "text": "City C"
+      },
+      {
+        "key": "D",
+        "text": "City D"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Checking the worst-case (maximum) travel time to the nearest hospital for each possible second-hospital placement, placing it at city B gives a maximum of only 2 hours — the best of all options.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "This is the vertex k-center problem: given a graph (nodes and weighted edges), choose k nodes (here k=2) minimising the maximum distance from any node to its nearest chosen node. This is common when siting facilities like fire stations, schools, or police stations."
+  },
+  "content_zh": {
+    "prompt": "某地區有6座城市，只能有兩座設醫院。城市之間的交通時間如地圖所示（有時要經過其他城市）。醫院的位置要讓「到最近醫院所需的最長時間」盡量短。",
+    "question": "已知一間醫院設在F城，第二間醫院應該設在哪裡？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A城"
+      },
+      {
+        "key": "B",
+        "text": "B城"
+      },
+      {
+        "key": "C",
+        "text": "C城"
+      },
+      {
+        "key": "D",
+        "text": "D城"
+      }
+    ],
+    "answer": "B",
+    "explanation": "檢查每種第二間醫院位置下，「到最近醫院的最長交通時間」，選B城時最長只要2小時——是所有選項裡最好的。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這是「k中心問題」：給定一張圖（節點跟有權重的邊），選出k個節點（這裡k=2），讓「任何節點到最近所選節點的距離」的最大值盡量小。這在決定消防局、學校、警察局這類設施要蓋在哪裡時很常見。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

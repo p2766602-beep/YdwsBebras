@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-18",
+  "title_en": "The gift",
+  "title_zh": "抽屜密室尋鑰",
+  "source_country": "Iceland",
+  "source_country_flag": "🇮🇸",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Iceland",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-18.png",
+    "path": "assets/images/india/2021/IN-2021-18.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Bela's mom locked a present in a safe and gave Bela a blue ball. To open a drawer, Bela must insert an object of the correct shape into its keyhole; the drawer then pops open, revealing a new object shown on its front.",
+    "question": "Which drawers, opened in the right order, will help get the key?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 順序A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 順序B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 順序C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 順序D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Drawing the objects and arrows as a directed graph (which object opens which drawer, giving which new object), and backtracking from the moon-shaped keyhole (holding the key) back to the starting circle (ball), traces the correct sequence — option C.",
+    "ct_skills": "Abstraction, Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The objects and drawers describe a directed graph: each object is a vertex connected by edges representing what each drawer gives in exchange for another object. Representing information as a graph helps reveal a task's structure, and backtracking (searching from the goal backward) can help find the solution."
+  },
+  "content_zh": {
+    "prompt": "Bela的媽媽買了一個禮物鎖進保險箱，給了Bela一顆藍色的球。要打開一個抽屜，Bela必須把形狀正確的物品放進抽屜的鑰匙孔，抽屜就會彈開，讓她拿到抽屜正面顯示的新物品。",
+    "question": "依照正確順序打開哪些抽屜，才能拿到鑰匙？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）順序A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）順序B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）順序C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）順序D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "把所有物品跟箭頭畫成一個有向圖（哪個物品能打開哪個抽屜、換到什麼新物品），再從「裝著鑰匙、月亮形狀的鑰匙孔」反過來回溯到起點的圓形（球），可以推算出正確的順序——就是選項C。",
+    "ct_skills": "抽象化（Abstraction）、演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這些物品跟抽屜構成一個有向圖：每個物品是一個頂點，用邊連接表示「哪個抽屜能用什麼東西換到什麼新東西」。用圖來表示資訊，有助於看清楚任務的結構；而「從目標往回推」的回溯法，也能幫助我們找到解答。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

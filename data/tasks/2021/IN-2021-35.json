@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-35",
+  "title_en": "Great Wall of Beavaria",
+  "title_zh": "部落統一最少月數",
+  "source_country": "Philippines",
+  "source_country_flag": "🇵🇭",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Philippines",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-35.png",
+    "path": "assets/images/india/2021/IN-2021-35.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Four tribes with several villages each want to unify; only two tribes can unify at a time, taking a number of months equal to the total villages in those two tribes. This repeats until one unified tribe remains.",
+    "question": "What is the minimal amount of months needed for the tribes to unify?",
+    "options": [
+      {
+        "key": "A",
+        "text": "23"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "26"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The optimal strategy always unifies the two currently-smallest tribes first, so the largest tribes get counted the fewest times. Following this order step by step: 3+2=5 months, then 4+3=7 months, then 5+7=12 months, totaling 5+7+12=24 months.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This is an optimization problem: finding a strategy that minimizes (or maximizes) a quantity subject to constraints. Greedy algorithms rest on the assumption that the best local choice at each step leads to the best overall outcome — true here, but greedy is not a universal solution to all optimization problems, though it usually gives a decent approximation quickly."
+  },
+  "content_zh": {
+    "prompt": "四個部落，各自有好幾個村莊，想要統一起來；一次只能有兩個部落統一，需要的月數等於這兩個部落的村莊總數加起來。這個過程重複進行，直到只剩一個統一的部落為止。",
+    "question": "所有部落統一完成，最少需要多少個月？",
+    "options": [
+      {
+        "key": "A",
+        "text": "23"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "26"
+      }
+    ],
+    "answer": "B",
+    "explanation": "最佳策略永遠是先統一「目前最小」的兩個部落，這樣最大的部落被重複計算的次數就最少。依序推算：3+2=5個月，接著4+3=7個月，最後5+7=12個月，總共5+7+12＝24個月。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這是一個最佳化問題：在限制條件下，找出能讓某個數量最小(或最大)的策略。貪婪演算法的假設是「每一步都做局部最好的選擇，最後就能得到整體最好的結果」——這一題確實成立，但貪婪法並不是所有最佳化問題的通用解法，不過它通常能快速給出還不錯的近似解。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-26",
+  "title_en": "Spider Quilts",
+  "title_zh": "蜘蛛網棉被圖案",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-26.png",
+    "path": "assets/images/india/2021/IN-2021-26.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Veena designs a quilt from a spider web: web anchor points are numbered 1 to N; for every silk thread joining anchors X and Y, she places a dotted square at [row X, col Y] AND [row Y, col X] in an N×N grid; the rest are solid squares.",
+    "question": "What might her quilt look like for a given new web?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 圖案A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 圖案B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 圖案C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 圖案D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Checking each anchor's connections against the grid (e.g. anchor 1 connects to 3,5,6 → row 1 has dots at columns 3,5,6, etc.), only option A matches every row and column correctly; B, C, D each have specific placement errors.",
+    "ct_skills": "Representation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "The spider web is a graph: vertices (anchor points) connected by edges (silk threads). The quilt demonstrates an alternative graph representation called an adjacency matrix — useful because it efficiently answers structural questions like \"does this edge exist?\" or \"how many edges touch this vertex?\""
+  },
+  "content_zh": {
+    "prompt": "Veena想根據一張蜘蛛網設計棉被圖案：蜘蛛網的錨點依序編號1到N；每一條連接錨點X和Y的蜘蛛絲，她就在N×N的格子裡的[第X列第Y欄]和[第Y列第X欄]兩個位置都放上點點布塊；其餘位置放素色布塊。",
+    "question": "根據給定的新蜘蛛網，她的棉被圖案可能長什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）圖案A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）圖案B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）圖案C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）圖案D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "逐一核對每個錨點的連接關係跟格子（例如錨點1連接到3、5、6→第1列在第3、5、6欄要有點點布塊，以此類推），只有選項A每一列每一欄都完全正確；B、C、D各自都有特定位置放錯的問題。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "這張蜘蛛網其實就是一個「圖」：頂點（錨點）用邊（蜘蛛絲）連接起來。這條棉被示範了另一種表示圖的方式，叫做「鄰接矩陣」——它之所以好用，是因為能有效率地回答關於圖結構的問題，例如「這條邊存在嗎？」或「這個頂點連了幾條邊？」"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

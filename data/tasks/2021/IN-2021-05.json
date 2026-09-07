@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-05",
+  "title_en": "Funny Filter",
+  "title_zh": "有趣的美顏濾鏡",
+  "source_country": "Taiwan",
+  "source_country_flag": "🇹🇼",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Taiwan",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-05.png",
+    "path": "assets/images/india/2021/IN-2021-05.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A photo app has four funny filters, each with a distinct effect. Little Beaver applied two filters, \"apply blush\" and \"reshape face\", producing a shown result photo.",
+    "question": "What might the original photo look like?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 原始照片A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 原始照片B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 原始照片C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 原始照片D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Since \"enlarge teeth\" wasn't applied, the original must already have large teeth (ruling out A, C). Since no \"add whiskers\" filter was applied but the result has whiskers, the original must already have whiskers (ruling out A, B). Only D satisfies both, confirmed by reversing the two applied filters.",
+    "ct_skills": "Representation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "This describes a face using a set of properties (attributes): teeth (short/long), whiskers (present/absent), head shape (round/thin), cheeks (bare/blush) — each filter changes one property's value. Computers commonly represent real-world objects as lists of properties, enabling searches based on specific property values (e.g. database queries)."
+  },
+  "content_zh": {
+    "prompt": "一款拍照App有四種有趣的濾鏡，各有不同效果。小海狸套用了兩個濾鏡「加腮紅」和「改臉型」，得到了一張結果照片。",
+    "question": "原始照片可能長什麼樣子？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）原始照片A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）原始照片B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）原始照片C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）原始照片D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "因為沒有套用「放大牙齒」濾鏡，所以原始照片本來就要有大牙齒（排除A、C）。因為沒套用「加鬍鬚」濾鏡，但結果照片有鬍鬚，所以原始照片本來就要有鬍鬚（排除A、B）。只有D同時符合這兩點，把兩個套用過的濾鏡效果反推回去也能驗證這一點。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "這一題用一組特徵（屬性）來描述一張臉：牙齒(短/長)、鬍鬚(有/無)、頭型(圓/瘦)、臉頰(素顏/腮紅)——每個濾鏡都會改變其中一項屬性的值。電腦經常用這種「屬性清單」來表示現實世界的物件，這樣就能依照特定屬性的值來搜尋（例如資料庫查詢）。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

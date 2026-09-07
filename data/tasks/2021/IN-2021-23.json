@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-23",
+  "title_en": "Meeting race",
+  "title_zh": "兩人相遇最短時間",
+  "source_country": "Lithuania",
+  "source_country_flag": "🇱🇹",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Lithuania",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-23.png",
+    "path": "assets/images/india/2021/IN-2021-23.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Two friends need to meet urgently. Walking between adjacent squares takes 1 minute; a bike covers 2 squares/minute, a car 5 squares/minute; they can't travel over water.",
+    "question": "What is the minimum number of minutes they need to end up on the same square?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "answer": "C",
+    "explanation": "A route exists achieving a meeting in 4 minutes. 3 minutes is provably insufficient: reaching a car leaves no time to drive it anywhere useful, and walking alone can't close the distance in time — both friends need a bike, but finding one costs a minute, leaving too little time.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "A systematic approach uses breadth-first search (BFS): mark all squares reachable in 1 minute, then all squares reachable in 1 more minute from those, and so on, until the two expanding regions overlap. This systematic search often finds non-obvious solutions — similar to how navigation software finds fastest routes, sometimes via unexpected detours."
+  },
+  "content_zh": {
+    "prompt": "兩個朋友需要緊急碰面。在相鄰方格間走路要花1分鐘；騎腳踏車每分鐘可以走2格，開車每分鐘可以走5格；不能穿越水域。",
+    "question": "他們最少需要幾分鐘，才能在同一格碰面？",
+    "options": [
+      {
+        "key": "A",
+        "text": "6分鐘"
+      },
+      {
+        "key": "B",
+        "text": "5分鐘"
+      },
+      {
+        "key": "C",
+        "text": "4分鐘"
+      },
+      {
+        "key": "D",
+        "text": "3分鐘"
+      }
+    ],
+    "answer": "C",
+    "explanation": "存在一條能在4分鐘內碰面的路線。可以證明3分鐘不夠：就算到得了車子那裡，也沒時間再開去別的地方；光靠走路也來不及縮短距離——兩人都需要腳踏車，但找到腳踏車就要花1分鐘，剩下的時間根本不夠用。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "有系統的做法是用「廣度優先搜尋」(BFS)：先標出1分鐘內能到達的所有格子，再從那些格子出發標出「再1分鐘」能到達的格子，依此類推，直到兩邊擴散出來的範圍重疊為止。這種有系統的搜尋方式，經常能找到不是那麼顯而易見的解——就像導航軟體找最快路線時，有時候繞點路反而更快一樣。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

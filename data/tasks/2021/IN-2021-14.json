@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-14",
+  "title_en": "Farmer Beaver",
+  "title_zh": "農夫海狸的灌溉閘門",
+  "source_country": "Turkey",
+  "source_country_flag": "🇹🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Turkey",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-14.png",
+    "path": "assets/images/india/2021/IN-2021-14.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Farmer Beaver Mahesh grows wheat in some fields (yellow), while weeds grow in nearby fields (brown). He wants to irrigate only the wheat fields, and can block some irrigation channels at spots A through J.",
+    "question": "At which spots must Mahesh block the channels so that all wheat fields are irrigated but none of the others?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A C D I"
+      },
+      {
+        "key": "B",
+        "text": "B F E J"
+      },
+      {
+        "key": "C",
+        "text": "B H I J"
+      },
+      {
+        "key": "D",
+        "text": "B F H J"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Checking each gate's necessity against every field's irrigation requirement: B must be closed (to protect field 2, without blocking field 3 which gets water another way via C); F must be closed (to protect field 5); H must be closed (even though F is also closed, water could still flow via D and E); J must be closed (to protect fields 9 and 10). All other gates must stay open, giving B, F, H, J.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Water flows to a field based on compound conditions: e.g., field 7 gets water only if BOTH D and E are open (AND); field 3 gets water if G is open AND EITHER C is open OR both A and B are open (OR). Such compound conditions built from boolean AND/OR are ubiquitous in programming, especially in \"if\" statements found in virtually every programming language."
+  },
+  "content_zh": {
+    "prompt": "農夫海狸Mahesh在幾塊田(黃色)裡種小麥，附近的田(棕色)則長雜草。他只想灌溉小麥田，可以在A到J這幾個地方關閉灌溉水道。",
+    "question": "Mahesh應該關閉哪些地方的水道，才能讓所有小麥田都澆到水，同時其他田都澆不到？",
+    "options": [
+      {
+        "key": "A",
+        "text": "A C D I"
+      },
+      {
+        "key": "B",
+        "text": "B F E J"
+      },
+      {
+        "key": "C",
+        "text": "B H I J"
+      },
+      {
+        "key": "D",
+        "text": "B F H J"
+      }
+    ],
+    "answer": "D",
+    "explanation": "逐一檢查每個閘門對各塊田灌溉需求的影響：B要關（保護第2塊田，不影響第3塊田，因為第3塊田還能透過C澆到水）；F要關（保護第5塊田）；H要關（即使F也關了，水還是能透過D和E流過去）；J要關（保護第9、10塊田）。其他閘門都要保持開啟，所以答案是B、F、H、J。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "水能不能流到某塊田，取決於複合條件：例如第7塊田要D「且」E都開才會澆到水；第3塊田要G開、「且」(C開「或」A和B都開)才會澆到水。這種用布林「且」「或」組成的複合條件，在程式設計裡無所不在，尤其是幾乎每種程式語言都有的「if」判斷式。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

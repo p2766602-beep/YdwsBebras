@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-01",
+  "title_en": "Butterflies",
+  "title_zh": "拍蝴蝶",
+  "source_country": "Canada",
+  "source_country_flag": "🇨🇦",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Canada",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-01.png",
+    "path": "assets/images/india/2021/IN-2021-01.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A beaver is photographing butterflies, but after each photo, half the butterflies fly away. The first photo has 64 butterflies; the last photo has just 2.",
+    "question": "How many photos did the beaver take?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Halving repeatedly: 64→32→16→8→4→2. That's 6 photos (the photo with 2 butterflies is the 6th).",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Information Processing",
+    "ct_explanation": "The number of photos is one more than the number of halvings. Repeatedly halving a quantity moves from a very large number to a very small one in relatively few steps — this idea is used to design very efficient algorithms, most famously binary search."
+  },
+  "content_zh": {
+    "prompt": "一隻海狸在幫蝴蝶拍照，但每拍一張照片，就會有一半的蝴蝶飛走。第一張照片裡有64隻蝴蝶，最後一張只剩2隻。",
+    "question": "海狸總共拍了幾張照片？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5張"
+      },
+      {
+        "key": "B",
+        "text": "7張"
+      },
+      {
+        "key": "C",
+        "text": "3張"
+      },
+      {
+        "key": "D",
+        "text": "6張"
+      }
+    ],
+    "answer": "D",
+    "explanation": "不斷減半：64→32→16→8→4→2。共6張照片（剩2隻蝴蝶的是第6張）。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "資訊處理",
+    "ct_explanation": "照片張數剛好是「減半次數」加1。不斷把一個數量減半，可以用相對很少的步驟，從一個很大的數字變成很小的數字——這個概念被用來設計非常有效率的演算法，最有名的例子就是「二分搜尋法」。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

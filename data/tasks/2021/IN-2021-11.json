@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-11",
+  "title_en": "Maze",
+  "title_zh": "女巫尋寶迷宮",
+  "source_country": "China",
+  "source_country_flag": "🇨🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：China",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-11.png",
+    "path": "assets/images/india/2021/IN-2021-11.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Witch Luna must pass through a maze with 5 treasures, following rules: prioritise going down; if no way down, go right; if no way down or right, go left; never turn back or go up.",
+    "question": "Which treasure will Luna get?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Applying the three rules at each fork in sequence (down first, then right, then left) traces a unique route through the maze, ending at treasure 5.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Conditional statements execute different actions based on rules: IF there's a way down, go down; ELSE IF there's a way right, go right; ELSE go left. Following this fixed priority order at every junction, Luna never needs to fly up."
+  },
+  "content_zh": {
+    "prompt": "女巫Luna要通過一座迷宮，裡面有5個寶藏，她的規則是：優先往下走；沒有路往下就往右走；沒有路往下或往右就往左走；絕對不回頭、也不往上飛。",
+    "question": "Luna最後會拿到哪個寶藏？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2號"
+      },
+      {
+        "key": "B",
+        "text": "3號"
+      },
+      {
+        "key": "C",
+        "text": "4號"
+      },
+      {
+        "key": "D",
+        "text": "5號"
+      }
+    ],
+    "answer": "D",
+    "explanation": "在每個岔路口依序套用這三條規則（優先下、再右、再左），可以推算出一條唯一的路線，最後走到5號寶藏。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "條件判斷會依照規則執行不同的動作：「如果」有路往下，就往下走；「否則如果」有路往右，就往右走；「否則」就往左走。在每個岔路口都照這個固定的優先順序判斷，Luna就完全不需要往上飛。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

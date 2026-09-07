@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-33",
+  "title_en": "Symbol reading",
+  "title_zh": "符號解謎機器人",
+  "source_country": "Czech Republic",
+  "source_country_flag": "🇨🇿",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Czech Republic",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-33.png",
+    "path": "assets/images/india/2021/IN-2021-33.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "A robot moves along lines; at each intersection, one of three unknown symbols tells it to turn left, turn right, or go straight (the meaning is consistent regardless of direction of travel). The robot must avoid a forbidden spot and reach the goal.",
+    "question": "Help the robot reach the goal by assigning correct meanings to the symbols.",
+    "options": [
+      {
+        "key": "A",
+        "text": "symbol1=turn right, symbol2=go straight, symbol3=turn left"
+      },
+      {
+        "key": "B",
+        "text": "symbol1=turn left, symbol2=go straight, symbol3=turn right"
+      },
+      {
+        "key": "C",
+        "text": "symbol1=turn right, symbol2=turn left, symbol3=go straight"
+      },
+      {
+        "key": "D",
+        "text": "symbol1=go straight, symbol2=turn right, symbol3=turn left"
+      }
+    ],
+    "answer": "D",
+    "explanation": "There are only 6 possible ways to interpret the 3 symbols; systematically testing each (or backtracking from a guess when it leads to the forbidden spot or a loop) shows only one assignment lets the robot reach the goal — option D.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "The first strategy (checking every possibility) is called brute force. The second, more efficient strategy is backtracking: incrementally build a candidate solution, and abandon it as soon as it's clear it cannot be completed validly — retracing only to the last choice point rather than starting over. Backtracking scales much better for larger problems, e.g. solving Sudoku."
+  },
+  "content_zh": {
+    "prompt": "一個機器人沿著線移動；每個路口都有三種未知符號的其中一個，指示要左轉、右轉、還是直走（不論機器人從哪個方向過來，同一個符號的意思都一樣）。機器人必須避開一個禁區，並抵達目標。",
+    "question": "請幫機器人正確解讀符號的意思，讓牠能抵達目標。",
+    "options": [
+      {
+        "key": "A",
+        "text": "符號1=右轉，符號2=直走，符號3=左轉"
+      },
+      {
+        "key": "B",
+        "text": "符號1=左轉，符號2=直走，符號3=右轉"
+      },
+      {
+        "key": "C",
+        "text": "符號1=右轉，符號2=左轉，符號3=直走"
+      },
+      {
+        "key": "D",
+        "text": "符號1=直走，符號2=右轉，符號3=左轉"
+      }
+    ],
+    "answer": "D",
+    "explanation": "3個符號總共只有6種可能的解讀方式；有系統地逐一測試（或是猜一種解讀方式，走到禁區或陷入迴圈就退回去改猜）可以發現，只有一種解讀方式能讓機器人抵達目標——就是選項D。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "第一種策略（檢查每一種可能性）叫做「窮舉法」。第二種比較有效率的策略是「回溯法」：一步步建立候選解，一旦確定某個候選解不可能走得通，就立刻放棄——只退回上一個做決定的地方，而不是整個重新開始。回溯法在處理更大規模的問題時效果好得多，例如解數獨。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-22",
+  "title_en": "Necklace Instruction",
+  "title_zh": "串珠壓縮描述法",
+  "source_country": "Belgium",
+  "source_country_flag": "🇧🇪",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Belgium",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-22.png",
+    "path": "assets/images/india/2021/IN-2021-22.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Necklace beads (S=star, T=triangle, R=rectangle, L=line) can be compactly described: identical consecutive beads → count+letter; a repeating sequence → repetition count + sequence in parentheses; otherwise just the letter. E.g. one necklace can be described as S3(TR)3SL (length 9, 9 symbols).",
+    "question": "How many symbols are in the shortest representation for a given necklace (a symbol is a digit, letter, or parenthesis)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Several valid representations exist depending on how the repeated pattern is chosen (e.g. star-triangle vs triangle-star); the shortest ones use 13 symbols (e.g. S2RT3S3(ST)4L).",
+    "ct_skills": "Representation",
+    "cs_domain": "Systematic Listing Counting & Reasoning",
+    "ct_explanation": "This relates to data compression: designing techniques to store data using the least memory while being able to recover the original exactly. All such techniques identify redundancy and represent it more compactly — exactly what happens here when repeated beads are shortened instead of written out explicitly."
+  },
+  "content_zh": {
+    "prompt": "項鍊珠子（S=星形、T=三角形、R=長方形、L=線形）可以用精簡方式描述：連續相同的珠子→數量+字母；重複出現的序列→重複次數+用括號括起來的序列；其他情況就直接寫字母。例如某條項鍊可以描述成S3(TR)3SL(長度9，共9個符號)。",
+    "question": "某條項鍊最精簡的描述方式，總共需要幾個符號（符號指數字、字母或括號）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "12個"
+      },
+      {
+        "key": "B",
+        "text": "13個"
+      },
+      {
+        "key": "C",
+        "text": "14個"
+      },
+      {
+        "key": "D",
+        "text": "15個"
+      }
+    ],
+    "answer": "B",
+    "explanation": "依照重複樣式的選法不同（例如星-三角 vs 三角-星），有好幾種有效的表示法；最精簡的用13個符號就能表示（例如S2RT3S3(ST)4L）。",
+    "ct_skills": "資料表示法（Representation）",
+    "cs_domain": "系統性列舉、計數與推理",
+    "ct_explanation": "這跟資訊科學裡的「資料壓縮」有關：設計技術用最少的記憶體儲存資料，同時還能完整還原原始資料。所有這類技術的共通點，就是找出資料裡的重複性、用更精簡的方式表示它——這正是這一題把重複的珠子縮寫，而不是逐一列出時發生的事。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

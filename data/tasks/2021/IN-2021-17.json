@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-17",
+  "title_en": "Arranging Shapes",
+  "title_zh": "圖形交換棋盤",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-17.png",
+    "path": "assets/images/india/2021/IN-2021-17.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Rinki placed shapes on a board divided into squares, then swapped pairs of shapes (exchanging their positions) 4 times in a given order.",
+    "question": "What will be the position of a given shape after the last swap?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 位置A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 位置B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 位置C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 位置D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Only 5 shapes are involved in the swaps; tracking just those through all 4 swaps in order shows the shape ends up at position C.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This focuses on the swapping function: in programming, a variable is a memory allocation holding information, and swapping exchanges the values of two variables. This basic operation underlies many sorting algorithms that arrange data in ascending or descending order."
+  },
+  "content_zh": {
+    "prompt": "Rinki在一個被劃分成方格的棋盤上擺放圖形，然後依照給定的順序做了4次「交換」（讓兩個圖形互換位置）。",
+    "question": "最後一次交換後，指定的那個圖形會在哪個位置？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）位置A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）位置B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）位置C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）位置D"
+      }
+    ],
+    "answer": "C",
+    "explanation": "只有5個圖形有涉及交換；只追蹤這5個圖形，依序走完全部4次交換，可以看出這個圖形最後會在位置C。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題著重在「交換」這個操作：在程式設計裡，變數是儲存資訊的記憶體位置，「交換」就是把兩個變數的值互換。這個基本操作是許多排序演算法（把資料依遞增或遞減順序排列）的基礎。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-34",
+  "title_en": "Error detection",
+  "title_zh": "電網最少檢查幾條線",
+  "source_country": "Hungary",
+  "source_country_flag": "🇭🇺",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Hungary",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-34.png",
+    "path": "assets/images/india/2021/IN-2021-34.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "In Beaver City, windmills carry electricity to houses through a network; two houses (lights off) have no power, all others do. Electricity flows in any direction along a working link.",
+    "question": "At least how many links between houses do they need to check to know that all other links are working?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The links directly to the two dark houses are definitely faulty (5 links, already known without checking). Links that are the sole source of power to a lit house must be working (deducible without checking). What remains is a 4-house cycle (A-B-G-D-A) where any ONE link could be the faulty one while the others still deliver power — so exactly 4 links in that cycle need checking.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Discrete Modelling",
+    "ct_explanation": "In computer networks, just like power networks, links can be faulty (slow, overloaded, broken). Redundancy in a network's structure ensures continued availability despite some faults. Computer scientists use graphs to represent network structures and have developed many algorithms to identify faulty links as efficiently as possible."
+  },
+  "content_zh": {
+    "prompt": "海狸城裡，風車透過電網把電力送到各戶人家；有兩戶（燈是暗的）沒有電，其他都有電。電力可以沿著正常運作的線路，往任何方向傳輸。",
+    "question": "最少要檢查幾條連接線，才能確認其他所有連接線都是正常的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "2條"
+      },
+      {
+        "key": "B",
+        "text": "3條"
+      },
+      {
+        "key": "C",
+        "text": "4條"
+      },
+      {
+        "key": "D",
+        "text": "5條"
+      }
+    ],
+    "answer": "C",
+    "explanation": "直接連到那兩戶暗燈房子的連接線，一定是故障的（共5條，不用檢查就能確定）。如果某條線是某戶亮燈房子「唯一」的供電來源，那條線一定是正常的（不用檢查也能推論出來）。剩下的是一個4戶的環形迴路(A-B-G-D-A)，這個迴路裡任何一條線都有可能是故障的，其他線仍然能供電——所以這個迴路裡的4條線，都需要實際檢查。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "離散建模",
+    "ct_explanation": "在電腦網路裡，就像電力網路一樣，連接線可能會故障（速度變慢、超載、或完全斷線）。網路結構裡的備援設計，能確保就算有故障也不會整個停擺（前提是同時故障的數量不要太多）。工程師用圖來表示網路結構，並發展出許多演算法，盡可能有效率地找出故障的連接線。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-08",
+  "title_en": "Moving the ball",
+  "title_zh": "圓柱移球遊戲",
+  "source_country": "South Korea",
+  "source_country_flag": "🇰🇷",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：South Korea",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-08.png",
+    "path": "assets/images/india/2021/IN-2021-08.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Beavers move balls between cylinders to group same-colour balls together. Rule 1: a ball may move to an empty cylinder. Rule 2: if a cylinder has space, a ball may only be moved onto a same-colour ball in another cylinder. Rule 3: only the top ball of a cylinder may move.",
+    "question": "To win the game from the given starting layout, what is the minimum number of steps needed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 steps"
+      },
+      {
+        "key": "B",
+        "text": "6 steps"
+      },
+      {
+        "key": "C",
+        "text": "7 steps"
+      },
+      {
+        "key": "D",
+        "text": "8 steps"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Following the rules, the balls can be sorted in 6 steps (though the exact order may vary).",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This models a stack: a data structure where you can only access and remove the most recently added item. The cylinders behave like stacks — you can only add or remove a ball from the top; the other balls cannot be accessed directly."
+  },
+  "content_zh": {
+    "prompt": "海狸們要把球在圓柱間搬動，把同顏色的球歸類到同一個圓柱。規則1：球可以移到空的圓柱。規則2：如果圓柱有空位，球只能疊在另一個圓柱裡同顏色的球上面。規則3：一次只能移動圓柱最上面那顆球。",
+    "question": "從圖中給定的初始排列開始，最少要移動幾步才能過關？",
+    "options": [
+      {
+        "key": "A",
+        "text": "5步"
+      },
+      {
+        "key": "B",
+        "text": "6步"
+      },
+      {
+        "key": "C",
+        "text": "7步"
+      },
+      {
+        "key": "D",
+        "text": "8步"
+      }
+    ],
+    "answer": "B",
+    "explanation": "依照規則，6步就能把球分類完成（雖然實際的移動順序可能不只一種）。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這模擬的是「堆疊」(stack)：一種只能存取、移除「最後加入」的資料的結構。這些圓柱的運作方式就像堆疊——只能從最上面加入或移除球，其他的球沒辦法直接取用。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

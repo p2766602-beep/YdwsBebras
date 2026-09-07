@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-13",
+  "title_en": "Robot",
+  "title_zh": "撿網球機器人",
+  "source_country": "India",
+  "source_country_flag": "🇮🇳",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：India",
+  "interaction_type": "single_choice",
+  "asset": {
+    "filename": "IN-2021-13.png",
+    "path": "assets/images/india/2021/IN-2021-13.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Ram programmed a robot to pick up scattered tennis balls and put them in a basket, following a flowchart. Ram throws a ball to test it; after some actions, the robot stops in the middle of the court holding the ball, not moving.",
+    "question": "What is the first step that the robot failed to perform?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\"Wait for a ball on the floor!\""
+      },
+      {
+        "key": "B",
+        "text": "\"Go to the ball!\""
+      },
+      {
+        "key": "C",
+        "text": "\"Pick up the ball!\""
+      },
+      {
+        "key": "D",
+        "text": "\"Go to the basket!\""
+      }
+    ],
+    "answer": "D",
+    "explanation": "Since the robot is holding the ball in the middle of the court, it successfully waited, went to the ball, and picked it up — but failed at the next step: going to the basket.",
+    "ct_skills": "Evaluation",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "This focuses on logical reasoning and debugging — the process of fixing a bug after a program fails to execute properly. A programmer must identify the specific part of the code needing improvement, then apply and validate the fix."
+  },
+  "content_zh": {
+    "prompt": "Ram寫了一支程式，讓機器人去撿散落在網球場上的球，放進場邊的籃子裡，程式是用流程圖表示的。Ram丟了一顆球來測試，結果機器人做了幾個動作後，卡在球場中間，手上抱著球，卻不再移動。",
+    "question": "機器人第一個沒有成功執行的步驟是哪一個？",
+    "options": [
+      {
+        "key": "A",
+        "text": "「等地上出現球！」"
+      },
+      {
+        "key": "B",
+        "text": "「走到球那裡！」"
+      },
+      {
+        "key": "C",
+        "text": "「撿起球！」"
+      },
+      {
+        "key": "D",
+        "text": "「走到籃子那裡！」"
+      }
+    ],
+    "answer": "D",
+    "explanation": "因為機器人卡在球場中間、手上還抱著球，代表牠成功等到了球、成功走到球那裡、也成功撿起了球——但接下來「走到籃子那裡」這一步失敗了。",
+    "ct_skills": "評估（Evaluation）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "這一題著重在邏輯推理跟除錯——也就是程式執行失敗後，找出並修正錯誤的過程。工程師必須先找出程式碼裡真正需要修改的部分，才能套用修正並驗證程式是否正常運作。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}

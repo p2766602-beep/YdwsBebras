@@ -1,0 +1,76 @@
+{
+  "task_uid": "IN-2021-07",
+  "title_en": "Between Dots",
+  "title_zh": "點與點之間的機器人",
+  "source_country": "Iceland",
+  "source_country_flag": "🇮🇸",
+  "appeared_in": [
+    {
+      "country": "India",
+      "year": 2021
+    }
+  ],
+  "license": "CC BY-NC-SA 4.0",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：Iceland",
+  "interaction_type": "image_choice",
+  "asset": {
+    "filename": "IN-2021-07.png",
+    "path": "assets/images/india/2021/IN-2021-07.png",
+    "status": "已裁切完成"
+  },
+  "content_en": {
+    "prompt": "Seema plays with a robot that draws lines between dots on a grid, moving to the next dot when arrow buttons are pushed. The robot starts on the dot circled.",
+    "question": "When Seema pushed the buttons in the given sequence, what did the robot draw in this grid?",
+    "options": [
+      {
+        "key": "A",
+        "text": "(圖) 圖形A"
+      },
+      {
+        "key": "B",
+        "text": "(圖) 圖形B"
+      },
+      {
+        "key": "C",
+        "text": "(圖) 圖形C"
+      },
+      {
+        "key": "D",
+        "text": "(圖) 圖形D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Starting from the circled dot and following the arrow sequence step by step traces out the pattern shown in option D.",
+    "ct_skills": "Algorithmic Thinking",
+    "cs_domain": "Algorithms and programming",
+    "ct_explanation": "Computer programs are sequences of commands executed in a specific order — students learn that a robot only responds to the exact commands given, and commands must be precise. Working through instructions step by step to see what happens is the basis of debugging: tracing where an error might occur."
+  },
+  "content_zh": {
+    "prompt": "Seema在玩一個機器人畫線遊戲：機器人在方格紙的點之間畫線，按方向鍵就會移動到下一個點。機器人從圈起來的那個點出發。",
+    "question": "照著給定的按鍵順序，機器人在這張方格紙上畫出的是什麼圖形？",
+    "options": [
+      {
+        "key": "A",
+        "text": "（如圖）圖形A"
+      },
+      {
+        "key": "B",
+        "text": "（如圖）圖形B"
+      },
+      {
+        "key": "C",
+        "text": "（如圖）圖形C"
+      },
+      {
+        "key": "D",
+        "text": "（如圖）圖形D"
+      }
+    ],
+    "answer": "D",
+    "explanation": "從圈起來的點出發，依序照著箭頭指令一步一步走，畫出來的正是選項D的圖形。",
+    "ct_skills": "演算法思維（Algorithmic Thinking）",
+    "cs_domain": "演算法與程式設計",
+    "ct_explanation": "電腦程式是一連串依照特定順序執行的指令——學生從這裡學到：機器人只會回應「明確給出」的指令，指令必須精確。一步一步跟著指令走、觀察發生什麼事，正是「除錯」(debugging)的基礎：追蹤錯誤可能發生在哪裡。"
+  },
+  "translation_status": "draft_by_claude_pending_review"
+}
