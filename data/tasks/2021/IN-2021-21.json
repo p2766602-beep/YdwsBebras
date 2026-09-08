@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "Shruti finds a book instantly using a system: take the first letters of each title word, convert to numbers via a table, then repeatedly (multiply by 2, add next letter's number) for all 4 letters. Look up the book at [row = second-to-last digit, column = last digit] of the result (ignoring all but the last two digits if over 99).",
+    "prompt": "Shruti finds a book instantly using a system: take the first letter of every word in the title (in order) and convert each to a number via an a=1...z=26 table. Starting from the first letter's number, go through the remaining letters one by one: each time, multiply the current result by 2 and add the next letter's number. (For example, for \"Constructing Dams for Beginners\" — C, D, f, B → 3, 4, 6, 2 — the steps are 3×2+4=10, 10×2+6=26, 26×2+2=54.) Then look up the book at [row = second-to-last digit, column = last digit] of the final result (ignoring all but the last two digits if it's over 99).",
     "question": "In which bay can you find the book \"How to Avoid Falling Trees\"?",
     "options": [
       {
@@ -40,13 +40,13 @@
       }
     ],
     "answer": "C",
-    "explanation": "Following the calculation steps exactly as described (converting H-T-A-F-T's relevant letters, then the multiply-by-2-and-add sequence) gives a result whose last two digits point to row 2, column 4.",
+    "explanation": "The title \"How to Avoid Falling Trees\" has 5 words, with first letters H, t, A, F, T → values 8, 20, 1, 6, 20. Starting from 8: 8×2+20=36, 36×2+1=73, 73×2+6=152, 152×2+20=324. The last two digits are 24, giving row 2, column 4.",
     "ct_skills": "Algorithmic Thinking",
     "cs_domain": "Information Processing",
     "ct_explanation": "This is the concept of hashing: a hash value is calculated from an item's properties (here, a title) to determine its storage location, avoiding a slow linear search through every item. Real systems (libraries, pharmacies) use hashing for even distribution, with collision-handling strategies when two items hash to the same location."
   },
   "content_zh": {
-    "prompt": "Shruti有一套系統可以立刻找到書：取書名每個單字的第一個字母，用對照表換成數字，然後依序做「乘以2再加上下一個字母的數字」，總共套用4個字母。用結果數字的[列＝倒數第二位、欄＝最後一位]去查書架位置（如果結果超過99，只看最後兩位數字）。",
+    "prompt": "Shruti有一套系統可以立刻找到書：依序取出書名裡每個單字的第一個字母，用a=1、b=2...z=26的對照表換成數字。以第一個字母的數字為起點，接著依序處理其餘每個字母：每次把目前的結果乘以2、再加上下一個字母的數字。（例如《Constructing Dams for Beginners》，取C、D、f、B四個字首→3、4、6、2，計算為3×2+4=10、10×2+6=26、26×2+2=54。）最後用結果數字的[列＝倒數第二位、欄＝最後一位]去查書架位置（如果結果超過99，只看最後兩位數字）。",
     "question": "《How to Avoid Falling Trees》這本書放在哪個書格？",
     "options": [
       {
@@ -67,7 +67,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "完全依照說明的計算步驟（把H-T-A-F-T相關字母換算，再依序「乘2加下一個字母數字」）算出來的結果，最後兩位數字對應到第2列第4欄。",
+    "explanation": "書名《How to Avoid Falling Trees》共有5個單字，字首依序是H、t、A、F、T，換算成數字是8、20、1、6、20。從8開始：8×2+20=36，36×2+1=73，73×2+6=152，152×2+20=324。最後兩位數字是24，對應第2列第4欄。",
     "ct_skills": "演算法思維（Algorithmic Thinking）",
     "cs_domain": "資訊處理",
     "ct_explanation": "這正是「雜湊」(hashing)的概念：從一項物品的屬性（這裡是書名）計算出一個雜湊值，決定它的儲存位置，避免要逐一線性搜尋所有物品。現實系統（圖書館、藥局）用雜湊來讓資料平均分布，並在兩項物品雜湊到同一位置時，用特定策略處理這種「碰撞」。"

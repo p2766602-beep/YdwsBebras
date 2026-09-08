@@ -19,8 +19,8 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "Kittu's little sister made rules for stacking building bricks, shown as arrows: start with any brick; always follow the arrows (choosing if several are available); an arrow back to the same brick means stacking another of the same kind; stop when no arrow leads away.",
-    "question": "Which of the four towers did she build based on the rules?",
+    "prompt": "Kittu's little sister made rules for stacking building bricks, shown as arrows: start with any brick; always follow the arrows (choosing if several are available); an arrow back to the same brick means stacking another of the same kind; stop when no arrow leads away. Kittu stacks four different towers for her little sister.",
+    "question": "Which of the four towers did Kittu build, following the rules made up by her little sister?",
     "options": [
       {
         "key": "A",
@@ -46,8 +46,8 @@
     "ct_explanation": "The topmost brick represents the current state; the rules define transitions between states — this is a state diagram. Since any brick can start, all are start states; the pyramid is the only accepting (finishing) state. This describes a nondeterministic finite automaton, widely used in computer science to model software behavior, language structures, and hardware interactions."
   },
   "content_zh": {
-    "prompt": "Kittu的妹妹訂了一套堆積木的規則，用箭頭圖表示：可以從任何一塊積木開始；一定要照著箭頭走（如果有多個箭頭可以選一個）；如果箭頭指回同一塊積木，代表可以再疊一塊同款積木；如果沒有箭頭可以走了，就要停止堆疊。",
-    "question": "依照這套規則，妹妹疊出的是下面哪一座塔？",
+    "prompt": "Kittu的妹妹訂了一套堆積木的規則，用箭頭圖表示：可以從任何一塊積木開始；一定要照著箭頭走（如果有多個箭頭可以選一個）；如果箭頭指回同一塊積木，代表可以再疊一塊同款積木；如果沒有箭頭可以走了，就要停止堆疊。Kittu疊了四座不同的塔要送給妹妹。",
+    "question": "依照妹妹訂的這套規則，下面哪一座塔才是Kittu疊出來的？",
     "options": [
       {
         "key": "A",

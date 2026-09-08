@@ -40,7 +40,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Following the composition pattern from the example, the first and last creatures are correctly composed, but two creatures have their belly drawings swapped — exactly 2 images are wrong.",
+    "explanation": "Following the composition pattern from the example, the first and last creatures are correctly composed, but the second and third creatures have their belly drawings swapped with each other — so exactly 2 body parts are in the wrong places.",
     "ct_skills": "Pattern matching",
     "cs_domain": "Information Processing",
     "ct_explanation": "This relates to machine learning, classification, and pattern matching: an algorithm assigns scores to output categories (correct/incorrect image), giving high scores to correct images and low scores to incorrect ones. This can be seen as a simplified supervised learning approach: training on examples, then classifying new data based on that training."
@@ -67,7 +67,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "依照範例的組合規律檢查，第一個和最後一個小怪獸組合正確，但有兩個小怪獸的肚子花紋被對調了——恰好有2張圖是錯的。",
+    "explanation": "依照範例的組合規律檢查，第一隻和最後一隻小怪獸組合正確，但第二隻和第三隻小怪獸的肚子花紋彼此互換了——因此至少有2個部位放錯位置。",
     "ct_skills": "樣式比對（Pattern matching）",
     "cs_domain": "資訊處理",
     "ct_explanation": "這跟機器學習、分類、樣式比對有關：演算法會給每種可能的輸出結果（正確／錯誤的圖）打分數，正確的圖給高分，錯誤的給低分。這可以看成一種簡化版的監督式學習：先用範例訓練，再依照訓練結果對新資料做分類。"

@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "Five snowmen stand in a line. From left to right each receives a hat according to its size. Hats are on a stack, distributed from top to bottom.",
+    "prompt": "Five snowmen stand in a line. From left to right each receives its own hat according to its size. Hats are on a stack, distributed from top to bottom.",
     "question": "Which stack of hats belongs to which line of snowmen?",
     "options": [
       {

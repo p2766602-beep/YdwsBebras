@@ -16,7 +16,7 @@
   "asset": {
     "filename": "IN-2020-03.png",
     "path": "assets/images/india/2020/IN-2020-03.png",
-    "status": "已裁切完成"
+    "status": "待重新裁切：原PDF題目頁的選項D本身就是空白（印刷缺失，非裁切遺漏），需從題目上方情境圖裡的兔子插圖重建D選項圖片，並保留「原PDF選項D缺圖，數位版依答案頁文字說明補圖」的編輯註"
   },
   "content_en": {
     "prompt": "There are four robot animals in a shop. One secretly walked around at night, leaving a trail of footprints.",

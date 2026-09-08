@@ -40,7 +40,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "In B the tablecloth color alternates every time, and every kind of flower is used. In A and D, two same-color tablecloths are adjacent. In C, only some flower kinds are used (4 yellow, 1 blue, 0 white) instead of all or just one kind.",
+    "explanation": "In B the tablecloth color alternates every time, and every kind of flower is used. In A and D, the tablecloth-color rule is broken: A has 2 blue squares in a row, and D has 3 red squares in a row. In C, only some flower kinds are used (4 yellow, 1 blue, 0 white) instead of all or just one kind.",
     "ct_skills": "Algorithmic Thinking, Evaluation",
     "cs_domain": "Algorithms and programming",
     "ct_explanation": "IT problems can usually be written down as a list of constraints, and the task is to find a solution that satisfies all of them. AND means both constraints must be true simultaneously; OR means at least one must be true. Combining and solving both logical operation types develops logical thinking and problem-solving skill."
@@ -67,7 +67,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "方案B裡桌布顏色每次都不同，而且每種花都有用到。方案A和D裡都出現相鄰兩張桌子桌布同色的情況。方案C則是花只用了一部分（4朵黃花、1朵藍花、沒有白花），不符合「全部都用或只用一種」的規則。",
+    "explanation": "方案B裡桌布顏色每次都不同，而且每種花都有用到。方案A和D都違反了桌布顏色的規則：A有連續2張藍色桌布相鄰，D有連續3張紅色桌布相鄰。方案C則是花只用了一部分（4朵黃花、1朵藍花、沒有白花），不符合「全部都用或只用一種」的規則。",
     "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
     "cs_domain": "演算法與程式設計",
     "ct_explanation": "資訊科學的問題通常可以寫成一串限制條件，任務就是找出同時滿足所有條件的解答。「且」代表兩個條件必須同時成立，「或」代表只要有一個成立就好。把這兩種邏輯運算組合起來解題，正是在訓練邏輯思考跟解決問題的能力。"

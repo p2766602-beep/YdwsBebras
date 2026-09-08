@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "A robot boat travels from the south bank to the north bank around islands, using a fixed flowchart of instructions, only moving to squares not blocked by an island. Pirates install an artificial island to trap the boat.",
+    "prompt": "A robot boat travels from the south bank to the north bank around islands, using a fixed flowchart of instructions, only moving to squares not blocked by an island. The flowchart's fixed priority is: if the boat has not yet reached the north bank, it first checks whether the square to its North is free — if so, it moves North one square; otherwise it checks whether the square to its West is free — if so, it moves West one square; if neither North nor West is free, the boat halts where it is. Pirates install an artificial island to trap the boat.",
     "question": "Which one of these islands could be a trap for the robot boat? (Note: North is up.)",
     "options": [
       {
@@ -46,7 +46,7 @@
     "ct_explanation": "The boat's flowchart works fine for the normal round islands but the programmers didn't account for a shape that blocks both North and West — a weakness that could be exploited (a security breach). Real software must be tested against unexpected inputs, e.g. interactive websites carefully validating input to reject anything potentially dangerous."
   },
   "content_zh": {
-    "prompt": "一艘機器人小船要從南岸開往北岸，沿路要繞過河裡的島嶼。小船是依照一份固定的流程圖指令行動，只能移動到沒有被島嶼擋住的方格。海盜想安裝一座人工島來困住這艘船。",
+    "prompt": "一艘機器人小船要從南岸開往北岸，沿路要繞過河裡的島嶼。小船是依照一份固定的流程圖指令行動，只能移動到沒有被島嶼擋住的方格。流程圖的判斷順序固定為：如果還沒到達北岸，就先檢查正北方那一格是否空著——如果空著就往北移動一格；如果北方被擋住，才檢查正西方那一格是否空著——如果空著就往西移動一格；如果北方和西方都被擋住，小船就停在原地不動。海盜想安裝一座人工島來困住這艘船。",
     "question": "下面哪一座島有可能困住這艘機器人船？（註：畫面上方是北方）",
     "options": [
       {

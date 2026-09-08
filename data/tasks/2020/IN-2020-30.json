@@ -40,7 +40,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "If alone, the spider car needs exactly 8 moves (2 forward, 3 right, 2 turns). Clearing a path through the first L-shaped barricade of other cars takes 1 extra move; clearing the second L-shaped barricade takes 2 more moves (cannot be done in 1 without blocking the exit). Total: 8+1+2=11.",
+    "explanation": "If alone, the spider car needs 2 forward moves, 3 rightward moves and 2 turns inside the fence (7 moves), plus 1 final forward move to actually exit the fence onto the spider square — 8 moves in total. Clearing a path through the first L-shaped barricade of other cars takes 1 extra move; clearing the second L-shaped barricade takes 2 more moves (cannot be done in 1 without blocking the exit). Total: 8+1+2=11.",
     "ct_skills": "Algorithmic Thinking, Evaluation",
     "cs_domain": "Algorithms and programming",
     "ct_explanation": "Proving a solution is minimal often requires exhaustive search — checking all possibilities to confirm nothing better exists. This is fast for a computer but often infeasible by hand for larger problems; algorithms like branch-and-bound or greedy strategies help simplify the search when exhaustive search becomes too slow."
@@ -67,7 +67,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "如果只有蜘蛛車自己，恰好需要8次移動（前進2次、右轉3次、轉彎2次）。要清出通過第一個L型路障（其他車輛）的路，需要多1次移動；清出第二個L型路障則需要多2次（無法只用1次完成，否則會擋住出口）。總共8+1+2＝11次。",
+    "explanation": "如果只有蜘蛛車自己，在圍欄裡需要前進2次、向右移動3次、轉彎2次，共7次；再加上最後1次前進，才能真正駛出圍欄到蜘蛛格，合計8次。要清出通過第一個L型路障（其他車輛）的路，需要多1次移動；清出第二個L型路障則需要多2次（無法只用1次完成，否則會擋住出口）。總共8+1+2＝11次。",
     "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
     "cs_domain": "演算法與程式設計",
     "ct_explanation": "要證明一個解是「最少的」，通常需要窮舉所有可能性，確認沒有更好的解——這對電腦來說很快，但對人工來說，問題一大就很難做到。當窮舉法變得太慢時，可以用分支界限法或貪婪策略等演算法來簡化搜尋過程。"

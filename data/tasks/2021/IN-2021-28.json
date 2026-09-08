@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "A shop has counters (max queue of 4 each), serving 1 customer every 2 minutes; only counter 1 starts open. Customers join the first counter with space. If all open counters are full, a new counter opens, taking 3 minutes to serve its first customer (then 2 minutes each after).",
+    "prompt": "A shop has counters (max queue of 4 each), serving 1 customer every 2 minutes; only counter 1 starts open. Customers join the first counter with space. If all open counters are full, a new counter opens, taking 3 minutes to serve its first customer (then 2 minutes each after). If, at a given moment, some customers finish being served (and leave) at the same time new customers arrive wanting to join a queue, the served customers are assumed to leave first, freeing up queue spaces that the new customers can then join.",
     "question": "12 customers arrive, 2 per minute starting immediately. How long does it take to serve them all?",
     "options": [
       {
@@ -46,7 +46,7 @@
     "ct_explanation": "This illustrates dynamic scaling, as used by cloud services (Google Cloud, AWS, Azure): computing resources (here, counters) are opened on demand as usage grows, keeping costs low when demand is low. In practice, dynamic scaling also involves scaling back down when demand decreases."
   },
   "content_zh": {
-    "prompt": "一間商店的收銀櫃台每台最多排4人，每2分鐘服務完1位顧客；一開始只開1號櫃台。顧客會加入第一個還有空位的隊伍。如果目前開的櫃台都滿了，就會新開一個櫃台，新櫃台服務第一位顧客要花3分鐘(之後每位都是2分鐘)。",
+    "prompt": "一間商店的收銀櫃台每台最多排4人，每2分鐘服務完1位顧客；一開始只開1號櫃台。顧客會加入第一個還有空位的隊伍。如果目前開的櫃台都滿了，就會新開一個櫃台，新櫃台服務第一位顧客要花3分鐘(之後每位都是2分鐘)。如果同一時間剛好有顧客服務完畢離開、也有新顧客想加入隊伍，就假設已服務完的顧客會先離開、空出隊伍位置，新顧客才接著加入。",
     "question": "12位顧客陸續抵達，從一開始每分鐘來2位。服務完所有人總共要花多少時間？",
     "options": [
       {

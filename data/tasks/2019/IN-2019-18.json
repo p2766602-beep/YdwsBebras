@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "At Bebrasland airport, two aircraft landing within 15 minutes of each other cannot share the same corridor. Flights: 9W2400 7:00, 9W1321 7:21, AI561 7:20, AI620 7:18, EK427 7:03, SG147 7:12.",
+    "prompt": "When an aircraft lands at an airport, it is assigned a corridor — a designated airspace that separates it from other planes, to avoid accidents. At Bebrasland airport, two aircraft landing within 15 minutes of each other cannot share the same corridor. For example, if Flight #1 lands at 6:10, Flight #2 at 6:25, and Flight #3 at 6:26, then Flight #1 and #2 cannot share a corridor (exactly 15 minutes apart still counts as \"within\"), but Flight #3 can share a corridor with Flight #1 (16 minutes apart) though not with Flight #2 (1 minute apart). As Air Traffic Controller, assign corridors for today's flights: 9W2400 7:00, 9W1321 7:21, AI561 7:20, AI620 7:18, EK427 7:03, SG147 7:12.",
     "question": "What is the minimum number of corridors needed to ensure all flights land according to the rules?",
     "options": [
       {
@@ -46,7 +46,7 @@
     "ct_explanation": "This is a graph coloring problem: flights are nodes, conflicts (landing within 15 min) are edges, and corridors are colors — find the minimum colors so no connected nodes share one. Graph coloring applies to scheduling, radio bandwidth allocation, exam timetabling, and even Sudoku. A greedy algorithm (sorting by landing time, assigning the first available non-conflicting corridor) solves this efficiently, though greedy methods don't always give optimal results in general."
   },
   "content_zh": {
-    "prompt": "在Bebrasland機場，如果兩架飛機降落時間相差在15分鐘以內，就不能用同一條航道。班機時刻：9W2400於7:00、9W1321於7:21、AI561於7:20、AI620於7:18、EK427於7:03、SG147於7:12。",
+    "prompt": "飛機降落機場時會被分配一條「航道」——這是一塊指定的空域，用來讓飛機彼此保持間隔、避免發生意外。在Bebrasland機場，如果兩架飛機降落時間相差在15分鐘以內，就不能用同一條航道。舉例來說，如果1號班機6:10降落、2號班機6:25降落、3號班機6:26降落，那麼1號和2號不能用同一條航道（因為剛好相差15分鐘也算「在15分鐘以內」），但3號可以跟1號共用航道（相差16分鐘），卻不能跟2號共用（只相差1分鐘）。身為今天的航管員，請為以下班機時刻分配航道：9W2400於7:00、9W1321於7:21、AI561於7:20、AI620於7:18、EK427於7:03、SG147於7:12。",
     "question": "要讓所有班機都符合規則降落，最少需要幾條航道？",
     "options": [
       {

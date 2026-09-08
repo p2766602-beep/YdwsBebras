@@ -359,7 +359,7 @@ footer a{ color:var(--accent-ink); }
             </li></ul>
           <div class="explain">
             <span class="explain-label">解析</span>
-            <p>方案B裡桌布顏色每次都不同，而且每種花都有用到。方案A和D裡都出現相鄰兩張桌子桌布同色的情況。方案C則是花只用了一部分（4朵黃花、1朵藍花、沒有白花），不符合「全部都用或只用一種」的規則。</p>
+            <p>方案B裡桌布顏色每次都不同，而且每種花都有用到。方案A和D都違反了桌布顏色的規則：A有連續2張藍色桌布相鄰，D有連續3張紅色桌布相鄰。方案C則是花只用了一部分（4朵黃花、1朵藍花、沒有白花），不符合「全部都用或只用一種」的規則。</p>
           </div>
           <div class="ct-tags">
             <span class="ct-tag">CT技能：演算法思維（Algorithmic Thinking）、評估（Evaluation）</span>
@@ -804,7 +804,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Five snowmen stand in a line. From left to right each receives a hat according to its size. Hats are on a stack, distributed from top to bottom.</p>
+        <p class="prompt-en">Five snowmen stand in a line. From left to right each receives its own hat according to its size. Hats are on a stack, distributed from top to bottom.</p>
         <p class="question-en"><strong>Q.</strong> Which stack of hats belongs to which line of snowmen?</p>
         <p class="options-en">A) (圖) 對應方案A、B) (圖) 對應方案B、C) (圖) 對應方案C、D) (圖) 對應方案D</p>
         <p class="answer-en"><strong>Answer:</strong> D</p>
@@ -834,8 +834,8 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">Kittu的妹妹訂了一套堆積木的規則，用箭頭圖表示：可以從任何一塊積木開始；一定要照著箭頭走（如果有多個箭頭可以選一個）；如果箭頭指回同一塊積木，代表可以再疊一塊同款積木；如果沒有箭頭可以走了，就要停止堆疊。</p>
-          <p class="question"><strong>Q.</strong> 依照這套規則，妹妹疊出的是下面哪一座塔？</p>
+          <p class="prompt">Kittu的妹妹訂了一套堆積木的規則，用箭頭圖表示：可以從任何一塊積木開始；一定要照著箭頭走（如果有多個箭頭可以選一個）；如果箭頭指回同一塊積木，代表可以再疊一塊同款積木；如果沒有箭頭可以走了，就要停止堆疊。Kittu疊了四座不同的塔要送給妹妹。</p>
+          <p class="question"><strong>Q.</strong> 依照妹妹訂的這套規則，下面哪一座塔才是Kittu疊出來的？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
               <span class="opt-text">（如圖）塔A</span>
@@ -866,8 +866,8 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Kittu's little sister made rules for stacking building bricks, shown as arrows: start with any brick; always follow the arrows (choosing if several are available); an arrow back to the same brick means stacking another of the same kind; stop when no arrow leads away.</p>
-        <p class="question-en"><strong>Q.</strong> Which of the four towers did she build based on the rules?</p>
+        <p class="prompt-en">Kittu's little sister made rules for stacking building bricks, shown as arrows: start with any brick; always follow the arrows (choosing if several are available); an arrow back to the same brick means stacking another of the same kind; stop when no arrow leads away. Kittu stacks four different towers for her little sister.</p>
+        <p class="question-en"><strong>Q.</strong> Which of the four towers did Kittu build, following the rules made up by her little sister?</p>
         <p class="options-en">A) (圖) 塔A、B) (圖) 塔B、C) (圖) 塔C、D) (圖) 塔D</p>
         <p class="answer-en"><strong>Answer:</strong> C</p>
       </details>
@@ -896,7 +896,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">太空人可以搭火箭或太空船在星球之間旅行，路線圖是固定的：每個星球都恰好有一條火箭航線跟一條太空船航線可以出發。太空人Shawna目前在海王星，想回到地球，太空總署給了她4個建議路線。</p>
+          <p class="prompt">太空人可以搭火箭或太空船在星球之間旅行，路線圖是固定的：每個星球都恰好有一條火箭航線跟一條太空船航線可以出發。舉例來說，從金星飛往土星的太空人，可以先搭火箭或太空船到木星，再搭太空船到海王星，最後搭太空船到土星；如果先搭火箭、再搭兩次太空船，這段路線就會畫成「火箭圖示→太空船圖示→太空船圖示」這樣的圖示序列。太空人Shawna Pandya目前在海王星，想回到地球，太空總署給了她4個建議路線。</p>
           <p class="question"><strong>Q.</strong> 哪一個建議「無法」讓Shawna回到地球？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
@@ -928,7 +928,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Astronauts travel between planets by rocket or spaceship, following a fixed map where each planet has exactly one rocket-route and one spaceship-route out. Astronaut Shawna is on Neptune and wants to reach Earth; the Space Agency sends 4 route suggestions.</p>
+        <p class="prompt-en">Astronauts travel between planets by rocket or spaceship, following a fixed map where each planet has exactly one rocket-route and one spaceship-route out. For example, an astronaut flying from Venus to Saturn could travel by rocket or spaceship to Jupiter, then by spaceship to Neptune, then by spaceship to Saturn; using a rocket first and then a spaceship twice, this route is written as a rocket-spaceship-spaceship sequence of icons. Astronaut Shawna Pandya is on Neptune and wants to reach Earth; the Space Agency sends her 4 route suggestions.</p>
         <p class="question-en"><strong>Q.</strong> Which of the suggestions does NOT bring Shawna back to Earth?</p>
         <p class="options-en">A) (圖) 建議A、B) (圖) 建議B、C) (圖) 建議C、D) (圖) 建議D</p>
         <p class="answer-en"><strong>Answer:</strong> B</p>
@@ -1020,7 +1020,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">Rangoli是印度的傳統地面彩繪藝術，圖案通常對稱。Priya有8個綠色三角形、4個粉紅色方形、6個橘色三角形，想從三個建議圖案(A、B、C)裡挑一個鋪出來。</p>
+          <p class="prompt">Rangoli是印度的傳統地面彩繪藝術，圖案通常對稱。Priya有8個綠色三角形、4個粉紅色方形、6個橘色三角形，想從三個建議圖案(A、B、C)裡挑一個鋪出來；圖案裡的白色區域代表空白，不需要放磁磚。</p>
           <p class="question"><strong>Q.</strong> Priya用她手上的磁磚，可以鋪出下面哪一個/哪幾個建議圖案？</p>
           <ul class="options"><li class="opt opt-answer">
               <span class="opt-key">A</span>
@@ -1052,7 +1052,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Rangoli is a traditional Indian floor art form, often symmetric. Priya has 8 green triangles, 4 pink squares, and 6 orange triangles to lay out one of three suggested Rangoli patterns (A, B, C).</p>
+        <p class="prompt-en">Rangoli is a traditional Indian floor art form, often symmetric. Priya has 8 green triangles, 4 pink squares, and 6 orange triangles to lay out one of three suggested Rangoli patterns (A, B, C); in the pattern pictures, the white areas are empty (no tile there).</p>
         <p class="question-en"><strong>Q.</strong> Which of the three suggested Rangoli can Priya lay with her tiles?</p>
         <p class="options-en">A) Only suggestion A、B) Only suggestion B、C) Only suggestion C、D) All three suggestions</p>
         <p class="answer-en"><strong>Answer:</strong> A</p>
@@ -1206,7 +1206,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">一隻氣象海狸用一連串大小不同的煙霧雲朵向山谷裡的海狸傳送訊息，每種天氣（暴風雨、小雨、多雲、晴天）都有專屬的代碼。有一天，山谷裡的海狸看到的訊息裡，可能有一朵小雲被誤看成大雲，或是一朵大雲被誤看成小雲。</p>
+          <p class="prompt">一隻氣象海狸站在山頂，用一連串大小不同的煙霧雲朵向山谷裡的海狸傳送訊息，每種天氣（暴風雨、小雨、多雲、晴天）都有專屬的代碼。有一天，山谷裡的海狸「以為」自己看到了某個訊息——但傳送過程出了狀況：可能有一朵小雲被誤看成大雲，或是一朵大雲被誤看成小雲。</p>
           <p class="question"><strong>Q.</strong> 海狸原本傳送的是哪一則訊息？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
@@ -1238,7 +1238,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">A weather beaver sends messages using sequences of small/large smoke clouds, one code each for thunderstorm, light rain, cloudy, sunny. One day, either one small cloud was mistaken for large, or one large mistaken for small.</p>
+        <p class="prompt-en">A weather beaver sends messages from the top of a mountain to beavers in the valley below, using sequences of small/large smoke clouds, one code each for thunderstorm, light rain, cloudy, sunny. One day, the beavers in the valley think they saw a particular sequence — but something went wrong: either one small cloud was mistaken for large, or one large cloud was mistaken for small.</p>
         <p class="question-en"><strong>Q.</strong> Which message was sent?</p>
         <p class="options-en">A) Thunderstorm、B) Light rain、C) Cloudy、D) Sunny</p>
         <p class="answer-en"><strong>Answer:</strong> C</p>
@@ -1330,7 +1330,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">在Bebrasland機場，如果兩架飛機降落時間相差在15分鐘以內，就不能用同一條航道。班機時刻：9W2400於7:00、9W1321於7:21、AI561於7:20、AI620於7:18、EK427於7:03、SG147於7:12。</p>
+          <p class="prompt">飛機降落機場時會被分配一條「航道」——這是一塊指定的空域，用來讓飛機彼此保持間隔、避免發生意外。在Bebrasland機場，如果兩架飛機降落時間相差在15分鐘以內，就不能用同一條航道。舉例來說，如果1號班機6:10降落、2號班機6:25降落、3號班機6:26降落，那麼1號和2號不能用同一條航道（因為剛好相差15分鐘也算「在15分鐘以內」），但3號可以跟1號共用航道（相差16分鐘），卻不能跟2號共用（只相差1分鐘）。身為今天的航管員，請為以下班機時刻分配航道：9W2400於7:00、9W1321於7:21、AI561於7:20、AI620於7:18、EK427於7:03、SG147於7:12。</p>
           <p class="question"><strong>Q.</strong> 要讓所有班機都符合規則降落，最少需要幾條航道？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
@@ -1362,7 +1362,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">At Bebrasland airport, two aircraft landing within 15 minutes of each other cannot share the same corridor. Flights: 9W2400 7:00, 9W1321 7:21, AI561 7:20, AI620 7:18, EK427 7:03, SG147 7:12.</p>
+        <p class="prompt-en">When an aircraft lands at an airport, it is assigned a corridor — a designated airspace that separates it from other planes, to avoid accidents. At Bebrasland airport, two aircraft landing within 15 minutes of each other cannot share the same corridor. For example, if Flight #1 lands at 6:10, Flight #2 at 6:25, and Flight #3 at 6:26, then Flight #1 and #2 cannot share a corridor (exactly 15 minutes apart still counts as "within"), but Flight #3 can share a corridor with Flight #1 (16 minutes apart) though not with Flight #2 (1 minute apart). As Air Traffic Controller, assign corridors for today's flights: 9W2400 7:00, 9W1321 7:21, AI561 7:20, AI620 7:18, EK427 7:03, SG147 7:12.</p>
         <p class="question-en"><strong>Q.</strong> What is the minimum number of corridors needed to ensure all flights land according to the rules?</p>
         <p class="options-en">A) 3、B) 4、C) 5、D) 6</p>
         <p class="answer-en"><strong>Answer:</strong> B</p>
@@ -1706,7 +1706,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">原木送到鋸木廠，只有60~160公分長的木頭才需要送上卡車。木頭在多條輸送帶上移動：A閘門會把小於60公分的木頭送走；B閘門會把小於等於160公分的木頭送上卡車（其他繼續循環）；鋸子會把繼續循環的木頭鋸成一段160公分＋剩餘部分，兩段都繼續循環；C閘門會把恰好160公分的木頭送上卡車。攝影機1和攝影機2分別在B閘門和鋸子之後計算送上卡車的木頭數量。</p>
+          <p class="prompt">原木送到鋸木廠，只有60~160公分長的木頭才需要送上卡車。木頭在多條輸送帶上移動：A閘門會把小於60公分的木頭送走；B閘門會把小於等於160公分的木頭送上卡車（其他繼續循環）；鋸子會把繼續循環的木頭鋸成一段160公分＋剩餘部分，兩段都繼續循環；C閘門會把恰好160公分的木頭送上卡車。有兩台攝影機負責計算送上卡車的木頭數量：圖中攝影機1裝在C閘門的路線旁（負責監看經過鋸子加工的木頭），攝影機2裝在B閘門的路線旁（負責監看沒有經過鋸子、直接送上卡車的木頭）。〔編註：原始PDF本身的攝影機命名並不一致——示意圖與說明文字用「攝影機1／2」，但題目問句與選項卻用「攝影機A／B」。對照圖中位置，攝影機2（在B閘門旁）對應選項裡的「攝影機A」，攝影機1（在鋸子之後）對應選項裡的「攝影機B」。〕</p>
           <p class="question"><strong>Q.</strong> 送進鋸木廠的三根木頭分別是60公分、140公分、360公分，兩台攝影機各自算到幾根木頭？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
@@ -1738,7 +1738,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Logs arrive at a sawmill; only logs 60-160cm are sent to the truck. Logs move on conveyor belts: Gate A removes logs shorter than 60cm; Gate B sends logs ≤160cm to the truck (others continue); a Saw cuts continuing logs into a 160cm piece + remainder, both continuing around; Gate C sends 160cm-long logs to the truck. Camera 1 and Camera 2 count logs sent to the truck (at Gate B and after the Saw respectively).</p>
+        <p class="prompt-en">Logs arrive at a sawmill; only logs 60-160cm are sent to the truck. Logs move on conveyor belts: Gate A removes logs shorter than 60cm; Gate B sends logs ≤160cm to the truck (others continue); a Saw cuts continuing logs into a 160cm piece + remainder, both continuing around; Gate C sends 160cm-long logs to the truck. Two cameras count logs sent to the truck: in the diagram, camera 1 sits by Gate C's route (watching logs that went through the Saw), and camera 2 sits by Gate B's route (watching logs sent directly without being cut). [Editorial note: the original PDF itself names these two cameras inconsistently — "Camera 1"/"Camera 2" in the diagram and notes, but "Camera A"/"Camera B" in the question and answer options. Matching the diagram positions, camera 2 (at Gate B) corresponds to "Camera A" in the options, and camera 1 (after the Saw) corresponds to "Camera B".]</p>
         <p class="question-en"><strong>Q.</strong> Three logs (60cm, 140cm, 360cm) were sent to the sawmill. How many logs has each camera counted?</p>
         <p class="options-en">A) Camera A: 0 logs, Camera B: 4 logs、B) Camera A: 1 log, Camera B: 3 logs、C) Camera A: 2 logs, Camera B: 2 logs、D) Camera A: 3 logs, Camera B: 1 log</p>
         <p class="answer-en"><strong>Answer:</strong> C</p>
@@ -2016,7 +2016,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">一艘機器人小船要從南岸開往北岸，沿路要繞過河裡的島嶼。小船是依照一份固定的流程圖指令行動，只能移動到沒有被島嶼擋住的方格。海盜想安裝一座人工島來困住這艘船。</p>
+          <p class="prompt">一艘機器人小船要從南岸開往北岸，沿路要繞過河裡的島嶼。小船是依照一份固定的流程圖指令行動，只能移動到沒有被島嶼擋住的方格。流程圖的判斷順序固定為：如果還沒到達北岸，就先檢查正北方那一格是否空著——如果空著就往北移動一格；如果北方被擋住，才檢查正西方那一格是否空著——如果空著就往西移動一格；如果北方和西方都被擋住，小船就停在原地不動。海盜想安裝一座人工島來困住這艘船。</p>
           <p class="question"><strong>Q.</strong> 下面哪一座島有可能困住這艘機器人船？（註：畫面上方是北方）</p>
           <ul class="options"><li class="opt opt-answer">
               <span class="opt-key">A</span>
@@ -2048,7 +2048,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">A robot boat travels from the south bank to the north bank around islands, using a fixed flowchart of instructions, only moving to squares not blocked by an island. Pirates install an artificial island to trap the boat.</p>
+        <p class="prompt-en">A robot boat travels from the south bank to the north bank around islands, using a fixed flowchart of instructions, only moving to squares not blocked by an island. The flowchart's fixed priority is: if the boat has not yet reached the north bank, it first checks whether the square to its North is free — if so, it moves North one square; otherwise it checks whether the square to its West is free — if so, it moves West one square; if neither North nor West is free, the boat halts where it is. Pirates install an artificial island to trap the boat.</p>
         <p class="question-en"><strong>Q.</strong> Which one of these islands could be a trap for the robot boat? (Note: North is up.)</p>
         <p class="options-en">A) (圖) 島A、B) (圖) 島B、C) (圖) 島C、D) (圖) 島D</p>
         <p class="answer-en"><strong>Answer:</strong> A</p>

@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "Astronauts travel between planets by rocket or spaceship, following a fixed map where each planet has exactly one rocket-route and one spaceship-route out. Astronaut Shawna is on Neptune and wants to reach Earth; the Space Agency sends 4 route suggestions.",
+    "prompt": "Astronauts travel between planets by rocket or spaceship, following a fixed map where each planet has exactly one rocket-route and one spaceship-route out. For example, an astronaut flying from Venus to Saturn could travel by rocket or spaceship to Jupiter, then by spaceship to Neptune, then by spaceship to Saturn; using a rocket first and then a spaceship twice, this route is written as a rocket-spaceship-spaceship sequence of icons. Astronaut Shawna Pandya is on Neptune and wants to reach Earth; the Space Agency sends her 4 route suggestions.",
     "question": "Which of the suggestions does NOT bring Shawna back to Earth?",
     "options": [
       {
@@ -46,7 +46,7 @@
     "ct_explanation": "Since exactly two routes leave every planet (one rocket, one spaceship), this map is a deterministic finite state automaton: planets are states, routes are transitions based on input (rocket/spaceship), Neptune is the initial state, Earth the only final state. Such automatons are easy to program and widely used (coffee machines, vending machines, validating email addresses)."
   },
   "content_zh": {
-    "prompt": "太空人可以搭火箭或太空船在星球之間旅行，路線圖是固定的：每個星球都恰好有一條火箭航線跟一條太空船航線可以出發。太空人Shawna目前在海王星，想回到地球，太空總署給了她4個建議路線。",
+    "prompt": "太空人可以搭火箭或太空船在星球之間旅行，路線圖是固定的：每個星球都恰好有一條火箭航線跟一條太空船航線可以出發。舉例來說，從金星飛往土星的太空人，可以先搭火箭或太空船到木星，再搭太空船到海王星，最後搭太空船到土星；如果先搭火箭、再搭兩次太空船，這段路線就會畫成「火箭圖示→太空船圖示→太空船圖示」這樣的圖示序列。太空人Shawna Pandya目前在海王星，想回到地球，太空總署給了她4個建議路線。",
     "question": "哪一個建議「無法」讓Shawna回到地球？",
     "options": [
       {

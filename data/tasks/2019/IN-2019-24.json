@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "Logs arrive at a sawmill; only logs 60-160cm are sent to the truck. Logs move on conveyor belts: Gate A removes logs shorter than 60cm; Gate B sends logs ≤160cm to the truck (others continue); a Saw cuts continuing logs into a 160cm piece + remainder, both continuing around; Gate C sends 160cm-long logs to the truck. Camera 1 and Camera 2 count logs sent to the truck (at Gate B and after the Saw respectively).",
+    "prompt": "Logs arrive at a sawmill; only logs 60-160cm are sent to the truck. Logs move on conveyor belts: Gate A removes logs shorter than 60cm; Gate B sends logs ≤160cm to the truck (others continue); a Saw cuts continuing logs into a 160cm piece + remainder, both continuing around; Gate C sends 160cm-long logs to the truck. Two cameras count logs sent to the truck: in the diagram, camera 1 sits by Gate C's route (watching logs that went through the Saw), and camera 2 sits by Gate B's route (watching logs sent directly without being cut). [Editorial note: the original PDF itself names these two cameras inconsistently — \"Camera 1\"/\"Camera 2\" in the diagram and notes, but \"Camera A\"/\"Camera B\" in the question and answer options. Matching the diagram positions, camera 2 (at Gate B) corresponds to \"Camera A\" in the options, and camera 1 (after the Saw) corresponds to \"Camera B\".]",
     "question": "Three logs (60cm, 140cm, 360cm) were sent to the sawmill. How many logs has each camera counted?",
     "options": [
       {
@@ -46,7 +46,7 @@
     "ct_explanation": "This models a reactive program: as data (log length) flows through the system over time, measurements (camera counts) update in response — similar to how spreadsheet formulas react to changes in other cells. Gate S merges data streams, Gates A/B filter, Gate C transforms, and the cameras observe the process."
   },
   "content_zh": {
-    "prompt": "原木送到鋸木廠，只有60~160公分長的木頭才需要送上卡車。木頭在多條輸送帶上移動：A閘門會把小於60公分的木頭送走；B閘門會把小於等於160公分的木頭送上卡車（其他繼續循環）；鋸子會把繼續循環的木頭鋸成一段160公分＋剩餘部分，兩段都繼續循環；C閘門會把恰好160公分的木頭送上卡車。攝影機1和攝影機2分別在B閘門和鋸子之後計算送上卡車的木頭數量。",
+    "prompt": "原木送到鋸木廠，只有60~160公分長的木頭才需要送上卡車。木頭在多條輸送帶上移動：A閘門會把小於60公分的木頭送走；B閘門會把小於等於160公分的木頭送上卡車（其他繼續循環）；鋸子會把繼續循環的木頭鋸成一段160公分＋剩餘部分，兩段都繼續循環；C閘門會把恰好160公分的木頭送上卡車。有兩台攝影機負責計算送上卡車的木頭數量：圖中攝影機1裝在C閘門的路線旁（負責監看經過鋸子加工的木頭），攝影機2裝在B閘門的路線旁（負責監看沒有經過鋸子、直接送上卡車的木頭）。〔編註：原始PDF本身的攝影機命名並不一致——示意圖與說明文字用「攝影機1／2」，但題目問句與選項卻用「攝影機A／B」。對照圖中位置，攝影機2（在B閘門旁）對應選項裡的「攝影機A」，攝影機1（在鋸子之後）對應選項裡的「攝影機B」。〕",
     "question": "送進鋸木廠的三根木頭分別是60公分、140公分、360公分，兩台攝影機各自算到幾根木頭？",
     "options": [
       {

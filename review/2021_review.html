@@ -486,7 +486,7 @@ footer a{ color:var(--accent-ink); }
             </li></ul>
           <div class="explain">
             <span class="explain-label">解析</span>
-            <p>依照範例的組合規律檢查，第一個和最後一個小怪獸組合正確，但有兩個小怪獸的肚子花紋被對調了——恰好有2張圖是錯的。</p>
+            <p>依照範例的組合規律檢查，第一隻和最後一隻小怪獸組合正確，但第二隻和第三隻小怪獸的肚子花紋彼此互換了——因此至少有2個部位放錯位置。</p>
           </div>
           <div class="ct-tags">
             <span class="ct-tag">CT技能：樣式比對（Pattern matching）</span>
@@ -1209,7 +1209,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">斑點布穀鳥不築巢，而是搬進空巢裡：從樹底部開始往上飛，遇到鳥巢就檢查；如果是空的就搬進去；如果已經有鳥住了，就比較身上的斑點數——如果對方斑點比較多，就繼續往左；如果對方斑點一樣多或更少，就繼續往右。樹上有5個空巢，有5隻鳥依序從左到右搬進去，第一隻是4個斑點的鳥。</p>
+          <p class="prompt">斑點布穀鳥不築巢，而是搬進空巢裡：從樹底部開始往上飛，遇到鳥巢就檢查；如果是空的就搬進去；如果已經有鳥住了，就比較身上的斑點數——如果對方斑點比較多，就繼續往左；如果對方斑點一樣多或更少，就繼續往右。樹上有5個空巢。下方共有5隻鳥，會依照圖中由左至右的順序，一隻接著一隻從樹底開始尋找空巢；第一隻進場的是有4個斑點的鳥。</p>
           <p class="question"><strong>Q.</strong> 哪隻鳥會搬進最高的那個巢？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
@@ -1241,7 +1241,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Spotted cuckoo birds move into empty nests: starting at the bottom of a tree, going up until finding a nest; if empty, moves in; if occupied, compares spots with the occupying bird — if that bird has more spots, continue left; if same or fewer, continue right. There are 5 empty nests and 5 birds, entering left to right, starting with the 4-spot bird.</p>
+        <p class="prompt-en">Spotted cuckoo birds move into empty nests: starting at the bottom of a tree, going up until finding a nest; if empty, moves in; if occupied, compares spots with the occupying bird — if that bird has more spots, continue left; if same or fewer, continue right. There is a tree with 5 empty nests. Below are 5 birds, shown left to right; they enter the tree one at a time in that left-to-right order, starting from the bottom, with the 4-spot bird going first.</p>
         <p class="question-en"><strong>Q.</strong> Which bird will move into the highest nest?</p>
         <p class="options-en">A) (圖) 鳥A、B) (圖) 鳥B、C) (圖) 鳥C、D) (圖) 鳥D</p>
         <p class="answer-en"><strong>Answer:</strong> D</p>
@@ -1519,7 +1519,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">Shruti有一套系統可以立刻找到書：取書名每個單字的第一個字母，用對照表換成數字，然後依序做「乘以2再加上下一個字母的數字」，總共套用4個字母。用結果數字的[列＝倒數第二位、欄＝最後一位]去查書架位置（如果結果超過99，只看最後兩位數字）。</p>
+          <p class="prompt">Shruti有一套系統可以立刻找到書：依序取出書名裡每個單字的第一個字母，用a=1、b=2...z=26的對照表換成數字。以第一個字母的數字為起點，接著依序處理其餘每個字母：每次把目前的結果乘以2、再加上下一個字母的數字。（例如《Constructing Dams for Beginners》，取C、D、f、B四個字首→3、4、6、2，計算為3×2+4=10、10×2+6=26、26×2+2=54。）最後用結果數字的[列＝倒數第二位、欄＝最後一位]去查書架位置（如果結果超過99，只看最後兩位數字）。</p>
           <p class="question"><strong>Q.</strong> 《How to Avoid Falling Trees》這本書放在哪個書格？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
@@ -1540,7 +1540,7 @@ footer a{ color:var(--accent-ink); }
             </li></ul>
           <div class="explain">
             <span class="explain-label">解析</span>
-            <p>完全依照說明的計算步驟（把H-T-A-F-T相關字母換算，再依序「乘2加下一個字母數字」）算出來的結果，最後兩位數字對應到第2列第4欄。</p>
+            <p>書名《How to Avoid Falling Trees》共有5個單字，字首依序是H、t、A、F、T，換算成數字是8、20、1、6、20。從8開始：8×2+20=36，36×2+1=73，73×2+6=152，152×2+20=324。最後兩位數字是24，對應第2列第4欄。</p>
           </div>
           <div class="ct-tags">
             <span class="ct-tag">CT技能：演算法思維（Algorithmic Thinking）</span>
@@ -1551,7 +1551,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Shruti finds a book instantly using a system: take the first letters of each title word, convert to numbers via a table, then repeatedly (multiply by 2, add next letter's number) for all 4 letters. Look up the book at [row = second-to-last digit, column = last digit] of the result (ignoring all but the last two digits if over 99).</p>
+        <p class="prompt-en">Shruti finds a book instantly using a system: take the first letter of every word in the title (in order) and convert each to a number via an a=1...z=26 table. Starting from the first letter's number, go through the remaining letters one by one: each time, multiply the current result by 2 and add the next letter's number. (For example, for "Constructing Dams for Beginners" — C, D, f, B → 3, 4, 6, 2 — the steps are 3×2+4=10, 10×2+6=26, 26×2+2=54.) Then look up the book at [row = second-to-last digit, column = last digit] of the final result (ignoring all but the last two digits if it's over 99).</p>
         <p class="question-en"><strong>Q.</strong> In which bay can you find the book "How to Avoid Falling Trees"?</p>
         <p class="options-en">A) [row 3, column 2]、B) [row 3, column 4]、C) [row 2, column 4]、D) [row 2, column 6]</p>
         <p class="answer-en"><strong>Answer:</strong> C</p>
@@ -1953,7 +1953,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">一間商店的收銀櫃台每台最多排4人，每2分鐘服務完1位顧客；一開始只開1號櫃台。顧客會加入第一個還有空位的隊伍。如果目前開的櫃台都滿了，就會新開一個櫃台，新櫃台服務第一位顧客要花3分鐘(之後每位都是2分鐘)。</p>
+          <p class="prompt">一間商店的收銀櫃台每台最多排4人，每2分鐘服務完1位顧客；一開始只開1號櫃台。顧客會加入第一個還有空位的隊伍。如果目前開的櫃台都滿了，就會新開一個櫃台，新櫃台服務第一位顧客要花3分鐘(之後每位都是2分鐘)。如果同一時間剛好有顧客服務完畢離開、也有新顧客想加入隊伍，就假設已服務完的顧客會先離開、空出隊伍位置，新顧客才接著加入。</p>
           <p class="question"><strong>Q.</strong> 12位顧客陸續抵達，從一開始每分鐘來2位。服務完所有人總共要花多少時間？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
@@ -1985,7 +1985,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">A shop has counters (max queue of 4 each), serving 1 customer every 2 minutes; only counter 1 starts open. Customers join the first counter with space. If all open counters are full, a new counter opens, taking 3 minutes to serve its first customer (then 2 minutes each after).</p>
+        <p class="prompt-en">A shop has counters (max queue of 4 each), serving 1 customer every 2 minutes; only counter 1 starts open. Customers join the first counter with space. If all open counters are full, a new counter opens, taking 3 minutes to serve its first customer (then 2 minutes each after). If, at a given moment, some customers finish being served (and leave) at the same time new customers arrive wanting to join a queue, the served customers are assumed to leave first, freeing up queue spaces that the new customers can then join.</p>
         <p class="question-en"><strong>Q.</strong> 12 customers arrive, 2 per minute starting immediately. How long does it take to serve them all?</p>
         <p class="options-en">A) 12 minutes、B) 11 minutes、C) 13 minutes、D) 8 minutes</p>
         <p class="answer-en"><strong>Answer:</strong> C</p>
@@ -2067,7 +2067,7 @@ footer a{ color:var(--accent-ink); }
           <span class="flag">🇬🇧</span>資源升級再造獲利
           <span class="task-title-en">Upcycling</span>
         </h2>
-        <div class="task-origin">原始出處：United Kingdom · Copyright © 2021 Bebras, Bebras India. 原始出處國：United Kingdom</div>
+        <div class="task-origin">原始出處：United Kingdom · Copyright © 2021 Bebras, Bebras India. 原始出處國：United Kingdom。原PDF解析的材料帳有誤（誤寫兩台腳踏車只需2輪胎+4鐵條、手推車還剩2根鐵條未用），數位版已依實際配方修正為4輪胎+6鐵條(腳踏車)、2輪胎+2木片(手推車)，恰好用完全部材料。</div>
       </header>
 
       <div class="task-body">
@@ -2098,7 +2098,7 @@ footer a{ color:var(--accent-ink); }
             </li></ul>
           <div class="explain">
             <span class="explain-label">解析</span>
-            <p>如果貪心地先做最貴的三輪車（要用掉相當於3個輪子的材料），最後只能賺2600盧比。但如果改成做2台腳踏車(2輪胎+4鐵條)加上2台手推車(2輪胎+2鐵條+2木片)，正好用完所有材料，賺到2000+1000=3000盧比——這才是真正的最大值。</p>
+            <p>如果貪心地先做最貴的三輪車（要用掉相當於3個輪子的材料），最後只能賺2600盧比。但如果改成做2台腳踏車（每台需要2個輪子＋1根鐵條，也就是2個輪胎＋3根鐵條，兩台共需4個輪胎、6根鐵條）加上2台手推車（每台需要1個輪胎＋1片木片，兩台共需2個輪胎、2片木片），正好用完手上的6個輪胎、6根鐵條、2片木片，賺到2000+1000=3000盧比——這才是真正的最大值。</p>
           </div>
           <div class="ct-tags">
             <span class="ct-tag">CT技能：評估（Evaluation）</span>

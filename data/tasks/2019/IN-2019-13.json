@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "Rangoli is a traditional Indian floor art form, often symmetric. Priya has 8 green triangles, 4 pink squares, and 6 orange triangles to lay out one of three suggested Rangoli patterns (A, B, C).",
+    "prompt": "Rangoli is a traditional Indian floor art form, often symmetric. Priya has 8 green triangles, 4 pink squares, and 6 orange triangles to lay out one of three suggested Rangoli patterns (A, B, C); in the pattern pictures, the white areas are empty (no tile there).",
     "question": "Which of the three suggested Rangoli can Priya lay with her tiles?",
     "options": [
       {
@@ -46,7 +46,7 @@
     "ct_explanation": "This task requires breaking complex shapes into smaller basic shapes and comparing them — this is decomposition, typical in computer science. Comparing broken-down shapes is called pattern matching, important not just for graphics but also for text search, filenames, and even DNA sequence comparison in forensics."
   },
   "content_zh": {
-    "prompt": "Rangoli是印度的傳統地面彩繪藝術，圖案通常對稱。Priya有8個綠色三角形、4個粉紅色方形、6個橘色三角形，想從三個建議圖案(A、B、C)裡挑一個鋪出來。",
+    "prompt": "Rangoli是印度的傳統地面彩繪藝術，圖案通常對稱。Priya有8個綠色三角形、4個粉紅色方形、6個橘色三角形，想從三個建議圖案(A、B、C)裡挑一個鋪出來；圖案裡的白色區域代表空白，不需要放磁磚。",
     "question": "Priya用她手上的磁磚，可以鋪出下面哪一個/哪幾個建議圖案？",
     "options": [
       {

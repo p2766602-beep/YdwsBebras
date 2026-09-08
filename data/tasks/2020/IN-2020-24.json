@@ -40,7 +40,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "A breaks rules 2 & 3 (Mama/Papa Gray adjacent; Daisy next to her father). C breaks rule 3 (Lily next to her father). D breaks rules 1 & 2 (Daisy next to Mama Jones; both parent pairs adjacent to their kids). Only B satisfies all constraints.",
+    "explanation": "A breaks rules 2 & 3 (Mama/Papa Gray adjacent; Daisy next to her father). C breaks rule 3 (Lily next to her father). D breaks rules 1 & 3 (Daisy next to Mama Jones; Rose next to her father Papa Jones, and Daisy next to her father Papa Gray). Only B satisfies all constraints. [Editorial note: the original PDF's own explanation mislabels D's parent-child adjacency violation as \"rule #2\" — it is actually rule #3 (rule #2 is about spouses sitting together); corrected here.]",
     "ct_skills": "Evaluation",
     "cs_domain": "Discrete Modelling",
     "ct_explanation": "This is a simpler version of a general constraint satisfaction problem: given constraints, a domain of values, find a solution satisfying all of them. Real solvers assign values to variables step by step, propagating effects, and backtracking on failure. Here, we're just given candidate answers and must verify which meets every constraint."
@@ -67,7 +67,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "A違反規則2和3(Gray夫妻坐在一起；Daisy坐在她爸爸旁邊)。C違反規則3(Lily坐在她爸爸旁邊)。D違反規則1和2(Daisy坐在Jones媽媽旁邊；兩對父母都跟自己小孩相鄰)。只有B完全符合所有規則。",
+    "explanation": "A違反規則2和3(Gray夫妻坐在一起；Daisy坐在她爸爸旁邊)。C違反規則3(Lily坐在她爸爸旁邊)。D違反規則1和3(Daisy坐在Jones媽媽旁邊；Rose坐在她爸爸Papa Jones旁邊，Daisy也坐在她爸爸Papa Gray旁邊)。只有B完全符合所有規則。〔編註：原始PDF解析把D這種親子相鄰的違規誤稱為「規則2」，實際上應為規則3（規則2指的是夫妻相鄰），此處已修正。〕",
     "ct_skills": "評估（Evaluation）",
     "cs_domain": "離散建模",
     "ct_explanation": "這是「限制滿足問題」的簡化版：給定一組限制條件跟一組候選值，要找出同時滿足所有條件的解答。真正的求解器會逐步給變數指派值、把影響傳播出去，失敗就回溯重來。這一題比較簡單：我們已經拿到候選答案，只需要驗證哪一個符合全部限制條件。"

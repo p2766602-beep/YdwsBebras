@@ -40,7 +40,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "Moving forward only takes a minimum of 4 rolls. But rolling backward-friendly: from 19, roll 2→cell 21→snake to cell 5; roll 5→cell 10→ladder to cell 44; roll 5→cell 49 (win). Total: 3 rolls — impossible in 2, since no single roll from any reachable cell after 1 roll can reach 49.",
+    "explanation": "Moving forward only takes a minimum of 4 rolls. But the path can be shortened using a snake and ladder: from cell 19, roll a 2 to land on cell 21, where the snake slides you back to cell 5; roll a 5 to land on cell 10, where the ladder takes you up to cell 44; finally roll a 5 to reach cell 49 and win. That's 3 rolls total — 2 rolls is impossible, since no cell reachable after a single roll can reach 49 in one more roll.",
     "ct_skills": "Algorithmic Thinking",
     "cs_domain": "Discrete Modelling",
     "ct_explanation": "This is a shortest path problem, representable as a graph: cells are nodes, with an edge if reachable in one dice roll (or via snake/ladder). Breadth-first search (BFS) explores all neighbors at the current depth before going deeper — exactly the systematic approach needed to guarantee finding the minimum number of rolls."
@@ -67,7 +67,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "只往前走最少需要4次。但如果願意先往後繞：從19擲2→21號格→蛇滑到5號格；擲5→10號格→梯子爬到44號格；擲5→49號格(獲勝)。總共3次——2次是不可能的，因為擲一次骰子後能到達的任何格子，都不可能再一次到49號格。",
+    "explanation": "只單純往前走最少需要4次。但可以利用蛇跟梯子縮短路徑：從19擲出2，走到21號格，被蛇滑回5號格；再擲出5，走到10號格，被梯子帶到44號格；最後擲出5，走到49號格(獲勝)。總共只需要3次——2次是不可能的，因為擲一次骰子後能到達的任何格子，都不可能再一次到49號格。",
     "ct_skills": "演算法思維（Algorithmic Thinking）",
     "cs_domain": "離散建模",
     "ct_explanation": "這是一個最短路徑問題，可以表示成圖：格子是節點，如果一次骰子(或搭配蛇/梯)可以到達，就連一條邊。「廣度優先搜尋」(BFS)會先探索目前深度的所有相鄰節點，再往更深的地方走——這正是能保證找到最少骰子次數的系統性方法。"

@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "A weather beaver sends messages using sequences of small/large smoke clouds, one code each for thunderstorm, light rain, cloudy, sunny. One day, either one small cloud was mistaken for large, or one large mistaken for small.",
+    "prompt": "A weather beaver sends messages from the top of a mountain to beavers in the valley below, using sequences of small/large smoke clouds, one code each for thunderstorm, light rain, cloudy, sunny. One day, the beavers in the valley think they saw a particular sequence — but something went wrong: either one small cloud was mistaken for large, or one large cloud was mistaken for small.",
     "question": "Which message was sent?",
     "options": [
       {
@@ -46,7 +46,7 @@
     "ct_explanation": "Designing symbol sequences so a message can be reconstructed even if damaged uses redundancy — this is called an error-correcting code. Digital music transmission uses this so playback stays correct even with partial data corruption. Here, only 2 clouds would suffice to distinguish 4 meanings, but using 5 clouds means each valid code differs from every other by at least 3 positions, allowing errors to be detected and corrected."
   },
   "content_zh": {
-    "prompt": "一隻氣象海狸用一連串大小不同的煙霧雲朵向山谷裡的海狸傳送訊息，每種天氣（暴風雨、小雨、多雲、晴天）都有專屬的代碼。有一天，山谷裡的海狸看到的訊息裡，可能有一朵小雲被誤看成大雲，或是一朵大雲被誤看成小雲。",
+    "prompt": "一隻氣象海狸站在山頂，用一連串大小不同的煙霧雲朵向山谷裡的海狸傳送訊息，每種天氣（暴風雨、小雨、多雲、晴天）都有專屬的代碼。有一天，山谷裡的海狸「以為」自己看到了某個訊息——但傳送過程出了狀況：可能有一朵小雲被誤看成大雲，或是一朵大雲被誤看成小雲。",
     "question": "海狸原本傳送的是哪一則訊息？",
     "options": [
       {

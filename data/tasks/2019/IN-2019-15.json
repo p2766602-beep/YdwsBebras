@@ -43,7 +43,7 @@
     "explanation": "Bunty moves the leftmost small plate to the right end, fills the gap with the leftmost regular plate, then puts the new large plate in that gap — touching only two existing plates. This is minimal because the new large plate must displace either a large plate or the leftmost regular plate, and whichever is displaced must in turn displace at least one more plate.",
     "ct_skills": "Algorithmic Thinking, Evaluation",
     "cs_domain": "Algorithms and programming",
-    "ct_explanation": "This task is about inserting a new element into an already-sorted array — a common computing operation worth optimizing. This comparison-based sort is called Insertion Sort: simple but not the most efficient. Related sorts are Bubble Sort and Selection Sort, while Quicksort (using divide & conquer) is much faster for large arrays."
+    "ct_explanation": "This task is about inserting a new element into an already-sorted array — a common computing operation worth optimizing. Here, moving a single plate is costly, but recognizing a plate's type is quick, and many plates of the same type sit in the rack — so it's worth finding this special-case solution that moves only two plates. A computer, however, usually just finds the right spot for the new element in the sorted array and shifts every following element over by one place. This comparison-based sort is called Insertion Sort: simple but not the most efficient. Related sorts are Bubble Sort and Selection Sort, while Quicksort (using divide & conquer) is much faster for large arrays."
   },
   "content_zh": {
     "prompt": "Bunty把盤子排進廚房架子上：大盤子在左邊、一般盤子在中間、小盤子在右邊，盤子之間沒有空隙。晚餐後他想再放一個大盤子進去，並保持原本的排列順序，同時希望盡量少移動架上原有的盤子。",
@@ -70,7 +70,7 @@
     "explanation": "Bunty把最左邊的小盤子移到最右邊，騰出來的空位用最左邊的一般盤子填補，再把新的大盤子放進那個空位——這樣只移動了2個原有的盤子。這已經是最少的移動次數了，因為新的大盤子一定要取代一個大盤子或最左邊的一般盤子的位置，而被取代的那個盤子也一定要再往下移動至少一個盤子的位置。",
     "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
     "cs_domain": "演算法與程式設計",
-    "ct_explanation": "這一題探討的是把一個新元素插入「已經排序好的陣列」裡——這在電腦運算中很常見，值得思考怎麼做才有效率。這種排序方式叫做「插入排序法」(Insertion Sort)：簡單但不是最有效率的排序法。類似的還有「氣泡排序法」(Bubble Sort)、「選擇排序法」(Selection Sort)；而使用「分治法」的「快速排序法」(Quicksort)在處理大量資料時快得多。"
+    "ct_explanation": "這一題探討的是把一個新元素插入「已經排序好的陣列」裡——這在電腦運算中很常見，值得思考怎麼做才有效率。這裡移動一個盤子的「成本」很高，但辨認盤子種類卻很快，而且架上同一種類的盤子有很多個，所以才值得為這種特殊情況找出「只需移動兩個元素」的解法。電腦處理這類問題時，通常則是直接在排序好的陣列裡找到新元素該插入的位置，再把後面所有元素依序往後移一格。這種排序方式叫做「插入排序法」(Insertion Sort)：簡單但不是最有效率的排序法。類似的還有「氣泡排序法」(Bubble Sort)、「選擇排序法」(Selection Sort)；而使用「分治法」的「快速排序法」(Quicksort)在處理大量資料時快得多。"
   },
   "translation_status": "draft_by_claude_pending_review"
 }

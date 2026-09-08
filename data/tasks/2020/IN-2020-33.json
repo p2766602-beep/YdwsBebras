@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "5 friends sit in sequence: Anjali, Bernard, Chandra, Damini, Eshwar. Each whispers a 10-letter word to the next with exactly one error (a letter replacement or a deletion). Anjali whispers A-D-V-E-N-T-U-R-E-S to Bernard.",
+    "prompt": "5 friends sit in sequence: Anjali, Bernard, Chandra, Damini, Eshwar. Anjali whispers the correct spelling of a 10-letter word to Bernard: A-D-V-E-N-T-U-R-E-S. Then Bernard whispers it to Chandra, Chandra to Damini, and Damini to Eshwar — each of these three whispers introduces exactly one error (a letter replacement or a deletion), no more and no less. The same letter or the same position may end up involved in more than one of these errors.",
     "question": "Which of these spellings could be whispered to Eshwar (after 3 total errors)? I. A-D-E-N-U-R  II. A-D-D-E-N-T-U-R-E-S  III. A-D-V-E-N-T-U-R-E  IV. A-V-E-N-G-E-R-S  V. D-E-N-T-U-R-E",
     "options": [
       {
@@ -50,7 +50,7 @@
     "ct_explanation": "This illustrates noise in information transfer — here, deletions and replacements. Since noise is limited to 3 letters, the final word must share at least 7 letters (in sequence) with the original. Real digital signals face similar noise (bit-flips, bit-drops); Claude Shannon, the \"father of information theory,\" pioneered how to transmit signals with near-zero error despite channel noise."
   },
   "content_zh": {
-    "prompt": "5個朋友依序坐著：Anjali、Bernard、Chandra、Damini、Eshwar。每個人傳話給下一個人時，都會剛好出現一個錯誤（換掉一個字母，或刪掉一個字母）。Anjali傳給Bernard的是A-D-V-E-N-T-U-R-E-S。",
+    "prompt": "5個朋友依序坐著：Anjali、Bernard、Chandra、Damini、Eshwar。Anjali把一個10個字母的單字正確地告訴Bernard：A-D-V-E-N-T-U-R-E-S。接著Bernard傳給Chandra、Chandra傳給Damini、Damini傳給Eshwar，這三次傳話每一次都剛好會出現一個錯誤（換掉一個字母，或刪掉一個字母），不多也不少。同一個字母或同一個位置，可能在不同次傳話中重複發生錯誤。",
     "question": "傳到Eshwar手上時（總共經過3次錯誤），下面哪些拼法有可能出現？ I. A-D-E-N-U-R　II. A-D-D-E-N-T-U-R-E-S　III. A-D-V-E-N-T-U-R-E　IV. A-V-E-N-G-E-R-S　V. D-E-N-T-U-R-E",
     "options": [
       {

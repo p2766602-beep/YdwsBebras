@@ -11,7 +11,7 @@
     }
   ],
   "license": "CC BY-NC-SA 4.0",
-  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：United Kingdom",
+  "license_source_note": "Copyright © 2021 Bebras, Bebras India. 原始出處國：United Kingdom。原PDF解析的材料帳有誤（誤寫兩台腳踏車只需2輪胎+4鐵條、手推車還剩2根鐵條未用），數位版已依實際配方修正為4輪胎+6鐵條(腳踏車)、2輪胎+2木片(手推車)，恰好用完全部材料。",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2021-30.png",
@@ -40,7 +40,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "Greedily building the highest-value tricycle first (using 3 wheels' worth of materials) yields only Rs.2600. Instead, building 2 bicycles (2 tyres, 4 iron bars) plus 2 barrows (2 tyres, 2 iron bars, 2 wood pieces) uses all materials and yields 2000+1000=Rs.3000 — the true maximum.",
+    "explanation": "Greedily building the highest-value tricycle first (using 3 wheels' worth of materials) yields only Rs.2600. Instead, building 2 bicycles (each needs 2 wheels + 1 iron bar, so 2 tyres + 3 iron bars per bicycle — 4 tyres and 6 iron bars total) plus 2 barrows (each needs 1 tyre + 1 wood piece — 2 tyres and 2 wood pieces total) uses up all 6 tyres, 6 iron bars, and 2 wood pieces exactly, yielding 2000+1000=Rs.3000 — the true maximum.",
     "ct_skills": "Evaluation",
     "cs_domain": "Algorithms and programming",
     "ct_explanation": "Efficient use of resources is a common optimisation problem computer scientists write programs for. Durga's first strategy (build highest-value item first) is a Greedy Algorithm — it works in some cases but can limit what else you can build, failing to reach the true maximum, exactly as seen here."
@@ -67,7 +67,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "如果貪心地先做最貴的三輪車（要用掉相當於3個輪子的材料），最後只能賺2600盧比。但如果改成做2台腳踏車(2輪胎+4鐵條)加上2台手推車(2輪胎+2鐵條+2木片)，正好用完所有材料，賺到2000+1000=3000盧比——這才是真正的最大值。",
+    "explanation": "如果貪心地先做最貴的三輪車（要用掉相當於3個輪子的材料），最後只能賺2600盧比。但如果改成做2台腳踏車（每台需要2個輪子＋1根鐵條，也就是2個輪胎＋3根鐵條，兩台共需4個輪胎、6根鐵條）加上2台手推車（每台需要1個輪胎＋1片木片，兩台共需2個輪胎、2片木片），正好用完手上的6個輪胎、6根鐵條、2片木片，賺到2000+1000=3000盧比——這才是真正的最大值。",
     "ct_skills": "評估（Evaluation）",
     "cs_domain": "演算法與程式設計",
     "ct_explanation": "有效運用資源是資訊科學裡常見的最佳化問題，工程師經常要為此寫程式解決。Durga一開始「先做最貴的東西」的策略叫做「貪婪演算法」——這種做法有時候有用，但可能會限制之後還能做出什麼，導致沒辦法達到真正的最大值，這一題正好就是這種情況。"

@@ -19,8 +19,8 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "The beaver family goes on a Teddy Bear hunt, starting and ending at home (named TEDDY BEAR), walking only along roads. They saw 4 Teddy Bears and photographed them, but forgot one.",
-    "question": "Which Teddy Bear did they forget?",
+    "prompt": "The beaver family goes on a Teddy Bear hunt, starting and ending at home (named TEDDY BEAR), walking only along roads. Along the way they saw 4 Teddy Bears and took pictures of them, but the pictures below are missing one!",
+    "question": "Which Teddy Bear's picture did they forget to take?",
     "options": [
       {
         "key": "A",
@@ -46,8 +46,8 @@
     "ct_explanation": "Finding a route is a common computer science problem. The map is a planar graph (nodes = houses, edges = roads); the task is a combinatorial problem of determining which node must lie on any 4-node route not including home — like planning a route from home to school to the pool to the shop and back."
   },
   "content_zh": {
-    "prompt": "海狸一家去尋找泰迪熊，從家裡（叫做TEDDY BEAR）出發，只能沿著道路走，最後回到家。牠們看到4隻泰迪熊並拍了照，但忘記其中一隻是在哪裡看到的。",
-    "question": "牠們忘記的是哪一隻泰迪熊？",
+    "prompt": "海狸一家去尋找泰迪熊，從家裡（叫做TEDDY BEAR）出發，只能沿著道路走，最後回到家。沿路他們看到了4隻泰迪熊並拍下照片，但下面的照片漏拍了其中一隻！",
+    "question": "牠們漏拍的是哪一隻泰迪熊？",
     "options": [
       {
         "key": "A",
