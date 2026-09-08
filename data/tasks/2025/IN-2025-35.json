@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "Beavers Albert and Mario run flour deliveries between a bakery and a mill: Albert carries 13 kg per round trip, taking 1 hour; Mario carries 5 kg per round trip, taking 30 minutes. Only one can be travelling at a time (the other must stay at the bakery for customers), and after 3 consecutive trips each must rest at least 30 minutes (during which they can serve customers).",
+    "prompt": "Beavers Albert and Mario run flour deliveries between a bakery and a mill: Albert carries 13 kg per round trip, taking 1 hour; Mario carries 5 kg per round trip, taking 30 minutes. Only one can be travelling at a time (the other must stay at the bakery for customers), and after 3 consecutive trips each must rest at least 30 minutes (during which they can serve customers). [Editorial note: the source PDF's question page omits two conditions that its own answer explanation relies on — they are restored here: the bakery is open for 8 hours total, and the goal is to maximize the total amount of flour delivered in that time.] Within an 8-hour working day, they want to deliver as much flour as possible.",
     "question": "Which of the following statements is correct?",
     "options": [
       {
@@ -50,7 +50,7 @@
     "ct_explanation": "This flour-transporting problem is a scheduling and optimisation problem: trips must be scheduled under rest and occupancy constraints, while maximising total flour delivered and allocating time efficiently between the two beavers. Scheduling and optimisation problems like this appear throughout informatics — e.g. a computer processor's arithmetic logic unit can only execute one instruction at a time (an occupancy constraint), and instructions reading memory may have to wait for data to arrive (similar to resting) — where a well-optimised schedule can finish a program's work far faster than a sub-optimal one. Solving this task benefits from decomposition (breaking the problem into repeatable sub-schedules), pattern recognition (spotting that a good sub-schedule can simply be repeated), abstraction (representing the situation as an optimal kg/hour rate), and logical thinking to rule out options that violate the rest and occupancy constraints."
   },
   "content_zh": {
-    "prompt": "海狸Albert和Mario負責在麵包店和磨坊之間運送麵粉：Albert每趟能載13公斤，來回要花1小時；Mario每趟能載5公斤，來回只要30分鐘。同一時間只能有一位在路上（另一位必須留在麵包店照顧客人），而且每連續跑3趟之後，就必須休息至少30分鐘（休息時可以照顧客人）。",
+    "prompt": "海狸Albert和Mario負責在麵包店和磨坊之間運送麵粉：Albert每趟能載13公斤，來回要花1小時；Mario每趟能載5公斤，來回只要30分鐘。同一時間只能有一位在路上（另一位必須留在麵包店照顧客人），而且每連續跑3趟之後，就必須休息至少30分鐘（休息時可以照顧客人）。〔編註：原始PDF題目頁漏掉了答案頁解析實際依賴的兩個條件，這裡補回：麵包店總共營業8小時；目標是在這8小時內盡量運送最多的麵粉。〕在這8小時的營業時間內，他們想盡量運送最多的麵粉。",
     "question": "下面哪一句敘述是正確的？",
     "options": [
       {

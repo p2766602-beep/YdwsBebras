@@ -11,7 +11,7 @@
     }
   ],
   "license": "CC BY-NC-SA 4.0",
-  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。〔編註：原題本身題目頁與答案頁的選項不一致——題目頁列出C選項為「C→E」，答案頁卻解說「C→B」；數位版選項與解析已依答案頁的邏輯自洽版本呈現(A/B/C/D對應A→D/B→A/C→B/D→B)，答案為複選A和C。〕",
   "interaction_type": "single_choice",
   "asset": {
     "filename": "IN-2025-33.png",

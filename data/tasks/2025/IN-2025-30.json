@@ -11,7 +11,7 @@
     }
   ],
   "license": "CC BY-NC-SA 4.0",
-  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。",
+  "license_source_note": "Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。〔編註：原題本身有缺陷——題目頁列出的A~D四種排列，經規則逐步檢查都不會定位到C盆，但答案頁卻又舉出另外兩個不在A~D選項裡的例子，並宣稱共有32種正確答案。由於無法確認出題單位的正式勘誤版本，數位版選擇不採用原本有缺陷的A~D四選一結構，改為列出完整判定條件與全部32種正確排列的推導方法，讓學生理解「怎麼構造正確答案」而非猜測選項。〕",
   "interaction_type": "image_choice",
   "asset": {
     "filename": "IN-2025-30.png",

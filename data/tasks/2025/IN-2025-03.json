@@ -19,7 +19,7 @@
     "status": "已裁切完成"
   },
   "content_en": {
-    "prompt": "Falak has a pizza machine with programmable buttons; pressing one adds a topping. The machine always adds cheese and sauce. Six buttons each add one topping: olives, capsicum, mushrooms, onions, tomato, or pineapple. Falak presses four specific buttons: tomato, mushrooms, olives, and capsicum.",
+    "prompt": "Falak has a pizza machine with programmable buttons; pressing one adds a topping. The machine always adds cheese and sauce. There are six buttons, A through F: button A adds olives, B adds capsicum, C adds mushrooms, D adds onions, E adds tomato, and F adds pineapple. Falak presses these buttons, in this order: E, C, A, B.",
     "question": "What toppings will be on the pizza?",
     "options": [
       {
@@ -44,13 +44,13 @@
       }
     ],
     "answer": "D",
-    "explanation": "The machine always adds cheese and sauce, plus whatever the pressed buttons specify: tomato, mushrooms, olives, and capsicum. Checking each option: A is wrong because it includes onions and pineapple, whose buttons weren't pressed. B is wrong because it's missing mushrooms and olives. C is wrong because it's missing capsicum. D correctly lists cheese, sauce, tomato, mushrooms, olives, and capsicum — matching exactly what was pressed. E is wrong since D is correct.",
+    "explanation": "Decoding the pressed buttons first: E→tomato, C→mushrooms, A→olives, B→capsicum. So the machine adds cheese, sauce, tomato, mushrooms, olives, and capsicum. Checking each option: A is wrong because it includes onions and pineapple, whose buttons weren't pressed. B is wrong because it's missing mushrooms and olives. C is wrong because it's missing capsicum. D correctly lists cheese, sauce, tomato, mushrooms, olives, and capsicum — matching exactly what was pressed. E is wrong since D is correct.",
     "ct_skills": "Algorithmic Thinking, Decomposition",
     "cs_domain": "Algorithms and programming",
     "ct_explanation": "This task shows how a machine (like a computer) follows rules to do something useful — the buttons are like instructions telling the machine what toppings to add, similar to how a computer reads and follows commands (programming). This task involves algorithmic thinking, since a machine follows a set of instructions defined by specific rules to produce different pizzas, and decomposition, since the problem can be solved by breaking the instructions down into smaller, manageable parts — checking one button's effect at a time."
   },
   "content_zh": {
-    "prompt": "Falak有一台可以按按鈕的披薩機，按下按鈕就會加上一種配料。這台機器永遠都會加上起司和醬料。另外有六顆按鈕，各自對應一種配料：橄欖、甜椒、蘑菇、洋蔥、番茄，或鳳梨。Falak按下了四顆特定按鈕：番茄、蘑菇、橄欖，和甜椒。",
+    "prompt": "Falak有一台可以按按鈕的披薩機，按下按鈕就會加上一種配料。這台機器永遠都會加上起司和醬料。機器有A到F共六顆按鈕：按鈕A會加橄欖、B會加甜椒、C會加蘑菇、D會加洋蔥、E會加番茄、F會加鳳梨。Falak依序按下了這些按鈕：E、C、A、B。",
     "question": "這個披薩上會有哪些配料？",
     "options": [
       {
@@ -75,7 +75,7 @@
       }
     ],
     "answer": "D",
-    "explanation": "機器永遠會加上起司和醬料，再加上被按下的按鈕所對應的配料：番茄、蘑菇、橄欖和甜椒。逐一檢查各選項：A錯誤，因為它包含了根本沒被按下的洋蔥和鳳梨。B錯誤，因為少了蘑菇和橄欖。C錯誤，因為少了甜椒。D正確列出了起司、醬料、番茄、蘑菇、橄欖和甜椒——剛好完全對應被按下的按鈕。E錯誤，因為D才是正確答案。",
+    "explanation": "先把按下的按鈕解碼：E→番茄、C→蘑菇、A→橄欖、B→甜椒。所以機器會加上起司、醬料、番茄、蘑菇、橄欖和甜椒。逐一檢查各選項：A錯誤，因為它包含了根本沒被按下的洋蔥和鳳梨。B錯誤，因為少了蘑菇和橄欖。C錯誤，因為少了甜椒。D正確列出了起司、醬料、番茄、蘑菇、橄欖和甜椒——剛好完全對應被按下的按鈕。E錯誤，因為D才是正確答案。",
     "ct_skills": "演算法思維、分解（Algorithmic Thinking, Decomposition）",
     "cs_domain": "演算法與程式設計",
     "ct_explanation": "這一題示範了一台機器（就像電腦一樣）如何依照規則完成一件實用的工作——按鈕就像是指令，告訴機器該加上哪些配料，這跟電腦讀取並執行指令（程式設計）的原理很類似。這一題運用了演算法思維，因為機器是依照特定規則定義的一組指令來做出不同的披薩；也運用了分解，因為可以把問題拆解成更小、更容易處理的部分——一次檢查一顆按鈕的效果。"

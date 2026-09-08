@@ -409,7 +409,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">Falak有一台可以按按鈕的披薩機，按下按鈕就會加上一種配料。這台機器永遠都會加上起司和醬料。另外有六顆按鈕，各自對應一種配料：橄欖、甜椒、蘑菇、洋蔥、番茄，或鳳梨。Falak按下了四顆特定按鈕：番茄、蘑菇、橄欖，和甜椒。</p>
+          <p class="prompt">Falak有一台可以按按鈕的披薩機，按下按鈕就會加上一種配料。這台機器永遠都會加上起司和醬料。機器有A到F共六顆按鈕：按鈕A會加橄欖、B會加甜椒、C會加蘑菇、D會加洋蔥、E會加番茄、F會加鳳梨。Falak依序按下了這些按鈕：E、C、A、B。</p>
           <p class="question"><strong>Q.</strong> 這個披薩上會有哪些配料？</p>
           <ul class="options"><li class="opt">
               <span class="opt-key">A</span>
@@ -434,7 +434,7 @@ footer a{ color:var(--accent-ink); }
             </li></ul>
           <div class="explain">
             <span class="explain-label">解析</span>
-            <p>機器永遠會加上起司和醬料，再加上被按下的按鈕所對應的配料：番茄、蘑菇、橄欖和甜椒。逐一檢查各選項：A錯誤，因為它包含了根本沒被按下的洋蔥和鳳梨。B錯誤，因為少了蘑菇和橄欖。C錯誤，因為少了甜椒。D正確列出了起司、醬料、番茄、蘑菇、橄欖和甜椒——剛好完全對應被按下的按鈕。E錯誤，因為D才是正確答案。</p>
+            <p>先把按下的按鈕解碼：E→番茄、C→蘑菇、A→橄欖、B→甜椒。所以機器會加上起司、醬料、番茄、蘑菇、橄欖和甜椒。逐一檢查各選項：A錯誤，因為它包含了根本沒被按下的洋蔥和鳳梨。B錯誤，因為少了蘑菇和橄欖。C錯誤，因為少了甜椒。D正確列出了起司、醬料、番茄、蘑菇、橄欖和甜椒——剛好完全對應被按下的按鈕。E錯誤，因為D才是正確答案。</p>
           </div>
           <div class="ct-tags">
             <span class="ct-tag">CT技能：演算法思維、分解（Algorithmic Thinking, Decomposition）</span>
@@ -445,7 +445,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Falak has a pizza machine with programmable buttons; pressing one adds a topping. The machine always adds cheese and sauce. Six buttons each add one topping: olives, capsicum, mushrooms, onions, tomato, or pineapple. Falak presses four specific buttons: tomato, mushrooms, olives, and capsicum.</p>
+        <p class="prompt-en">Falak has a pizza machine with programmable buttons; pressing one adds a topping. The machine always adds cheese and sauce. There are six buttons, A through F: button A adds olives, B adds capsicum, C adds mushrooms, D adds onions, E adds tomato, and F adds pineapple. Falak presses these buttons, in this order: E, C, A, B.</p>
         <p class="question-en"><strong>Q.</strong> What toppings will be on the pizza?</p>
         <p class="options-en">A) Cheese, sauce, capsicum, mushrooms, onions, pineapple、B) Cheese, sauce, tomato, capsicum、C) Cheese, sauce, mushrooms, olives, tomato、D) Cheese, sauce, mushrooms, olives, capsicum, tomato、E) None of the above</p>
         <p class="answer-en"><strong>Answer:</strong> D</p>
@@ -2097,7 +2097,7 @@ footer a{ color:var(--accent-ink); }
           <span class="flag">🏳️</span>二分搜尋種花藏鑰匙
           <span class="task-title-en">Flower Pots</span>
         </h2>
-        <div class="task-origin">原始出處：未標示出處國 · Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。</div>
+        <div class="task-origin">原始出處：未標示出處國 · Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。〔編註：原題本身有缺陷——題目頁列出的A~D四種排列，經規則逐步檢查都不會定位到C盆，但答案頁卻又舉出另外兩個不在A~D選項裡的例子，並宣稱共有32種正確答案。由於無法確認出題單位的正式勘誤版本，數位版選擇不採用原本有缺陷的A~D四選一結構，改為列出完整判定條件與全部32種正確排列的推導方法，讓學生理解「怎麼構造正確答案」而非猜測選項。〕</div>
       </header>
 
       <div class="task-body">
@@ -2283,7 +2283,7 @@ footer a{ color:var(--accent-ink); }
           <span class="flag">🏳️</span>翻譯精準度加權圖
           <span class="task-title-en">Translation System</span>
         </h2>
-        <div class="task-origin">原始出處：未標示出處國 · Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。</div>
+        <div class="task-origin">原始出處：未標示出處國 · Copyright © 2025 Bebras, Bebras India. 2025年度題本未標示各題原始出處國旗，無法標註source_country。〔編註：原題本身題目頁與答案頁的選項不一致——題目頁列出C選項為「C→E」，答案頁卻解說「C→B」；數位版選項與解析已依答案頁的邏輯自洽版本呈現(A/B/C/D對應A→D/B→A/C→B/D→B)，答案為複選A和C。〕</div>
       </header>
 
       <div class="task-body">
@@ -2417,7 +2417,7 @@ footer a{ color:var(--accent-ink); }
             </figure>
 
         <div class="task-text">
-          <p class="prompt">海狸Albert和Mario負責在麵包店和磨坊之間運送麵粉：Albert每趟能載13公斤，來回要花1小時；Mario每趟能載5公斤，來回只要30分鐘。同一時間只能有一位在路上（另一位必須留在麵包店照顧客人），而且每連續跑3趟之後，就必須休息至少30分鐘（休息時可以照顧客人）。</p>
+          <p class="prompt">海狸Albert和Mario負責在麵包店和磨坊之間運送麵粉：Albert每趟能載13公斤，來回要花1小時；Mario每趟能載5公斤，來回只要30分鐘。同一時間只能有一位在路上（另一位必須留在麵包店照顧客人），而且每連續跑3趟之後，就必須休息至少30分鐘（休息時可以照顧客人）。〔編註：原始PDF題目頁漏掉了答案頁解析實際依賴的兩個條件，這裡補回：麵包店總共營業8小時；目標是在這8小時內盡量運送最多的麵粉。〕在這8小時的營業時間內，他們想盡量運送最多的麵粉。</p>
           <p class="question"><strong>Q.</strong> 下面哪一句敘述是正確的？</p>
           <ul class="options"><li class="opt opt-answer">
               <span class="opt-key">A</span>
@@ -2453,7 +2453,7 @@ footer a{ color:var(--accent-ink); }
 
       <details class="en-ref">
         <summary>英文原文對照（校對用）</summary>
-        <p class="prompt-en">Beavers Albert and Mario run flour deliveries between a bakery and a mill: Albert carries 13 kg per round trip, taking 1 hour; Mario carries 5 kg per round trip, taking 30 minutes. Only one can be travelling at a time (the other must stay at the bakery for customers), and after 3 consecutive trips each must rest at least 30 minutes (during which they can serve customers).</p>
+        <p class="prompt-en">Beavers Albert and Mario run flour deliveries between a bakery and a mill: Albert carries 13 kg per round trip, taking 1 hour; Mario carries 5 kg per round trip, taking 30 minutes. Only one can be travelling at a time (the other must stay at the bakery for customers), and after 3 consecutive trips each must rest at least 30 minutes (during which they can serve customers). [Editorial note: the source PDF's question page omits two conditions that its own answer explanation relies on — they are restored here: the bakery is open for 8 hours total, and the goal is to maximize the total amount of flour delivered in that time.] Within an 8-hour working day, they want to deliver as much flour as possible.</p>
         <p class="question-en"><strong>Q.</strong> Which of the following statements is correct?</p>
         <p class="options-en">A) Albert must deliver first.、B) Mario must deliver first.、C) Mario must deliver last.、D) Albert must not deliver last.、E) Mario must deliver one time.</p>
         <p class="answer-en"><strong>Answer:</strong> A</p>
