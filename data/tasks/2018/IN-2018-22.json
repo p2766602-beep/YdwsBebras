@@ -21,7 +21,7 @@
   },
   "content_en": {
     "prompt": "An internet service provider wants to set up a network connecting seven cities so that every city can send/receive messages from any other city. The company must pay to set up each link; costs are shown on the connecting lines.",
-    "question": "What links should be set up so that the total cost is minimal?",
+    "question": "What is the lowest total cost to connect all seven cities together?",
     "options": [
       {
         "key": "A",
@@ -41,14 +41,14 @@
       }
     ],
     "answer": "A",
-    "explanation": "The minimum total cost achievable while connecting all seven cities is 16, using the cheapest set of links that still forms a connected network (a minimum spanning tree).",
+    "explanation": "The minimum total cost achievable while connecting all seven cities is 16, using the cheapest set of links that still forms a connected network (a minimum spanning tree), with individual costs 1, 1, 2, 3, 4, 5, summing to 1+1+2+3+4+5=16.",
     "ct_skills": "Algorithmic Thinking (AL), Abstraction (AB)",
     "cs_domain": "Discrete Modelling",
-    "ct_explanation": "This is finding a minimum spanning tree: given a graph where cities are vertices and possible links are edges (with costs/weights), find the subset of edges forming a tree connecting every vertex with the least total cost. Prim's algorithm is a well-known greedy algorithm for this, developed in 1930 by Vojtěch Jarník and rediscovered by Robert C. Prim (1957) and Edsger Dijkstra (1959) — hence also called the Prim-Jarník or DJP algorithm. It works by growing the tree one edge at a time, always adding the cheapest edge connecting the tree to a new vertex."
+    "ct_explanation": "This is finding a minimum spanning tree: given a graph where cities are vertices and possible links are edges (with costs/weights), find the subset of edges forming a tree connecting every vertex with the least total cost. Prim's algorithm is a well-known greedy algorithm for this, developed in 1930 by Vojtěch Jarník and rediscovered by Robert C. Prim (1957) and Edsger Dijkstra (1959) — hence also called the Prim-Jarník or DJP algorithm. It works by starting from any vertex and growing the tree one edge at a time, always adding the cheapest edge connecting the tree to a new vertex, until the tree contains every vertex."
   },
   "content_zh": {
     "prompt": "一間網路服務公司想建置一個網路，把七座城市連接起來，讓每座城市都能互相收發訊息。公司必須付費才能在城市之間佈線，每條連線的成本都標示在線段旁。",
-    "question": "應該架設哪些連線，才能讓總成本最低？",
+    "question": "要讓七座城市彼此都能連通，最低的總成本是多少？",
     "options": [
       {
         "key": "A",
@@ -68,10 +68,10 @@
       }
     ],
     "answer": "A",
-    "explanation": "能連接全部七座城市的最低總成本是16——選擇一組成本最低、又能讓所有城市保持連通的連線組合（也就是最小生成樹）。",
+    "explanation": "能連接全部七座城市的最低總成本是16——選擇一組成本最低、又能讓所有城市保持連通的連線組合（也就是最小生成樹），成本分別為1、1、2、3、4、5，總和1+1+2+3+4+5＝16。",
     "ct_skills": "演算法思維（Algorithmic Thinking）、抽象化（Abstraction）",
     "cs_domain": "離散建模",
-    "ct_explanation": "這其實是在找「最小生成樹」：把城市當作圖裡的頂點、可能的連線當作邊（每條邊都有成本/權重），要找出一組邊構成一棵樹，連接所有頂點，且總成本最低。實現這個目標的知名演算法叫做Prim演算法，它是一種貪婪演算法，1930年由捷克數學家Vojtěch Jarník提出，後來又分別被Robert C. Prim(1957)和Edsger Dijkstra(1959)重新發現，所以也被稱為Prim-Jarník演算法或DJP演算法。它的做法是每次只新增一條「連接樹與樹外某個頂點、且成本最低」的邊，逐步把整棵樹長出來。"
+    "ct_explanation": "這其實是在找「最小生成樹」：把城市當作圖裡的頂點、可能的連線當作邊（每條邊都有成本/權重），要找出一組邊構成一棵樹，連接所有頂點，且總成本最低。實現這個目標的知名演算法叫做Prim演算法，它是一種貪婪演算法，1930年由捷克數學家Vojtěch Jarník提出，後來又分別被Robert C. Prim(1957)和Edsger Dijkstra(1959)重新發現，所以也被稱為Prim-Jarník演算法或DJP演算法。做法是任選一個起始頂點，每次只新增一條「連接樹與樹外某個頂點、且成本最低」的邊，逐步把整棵樹長出來，直到樹裡包含全部頂點為止。"
   },
   "translation_status": "draft_by_claude_pending_review"
 }

@@ -47,7 +47,7 @@
     "ct_explanation": "In computer science and robotics, it is often important to know in which order instructions in a program are processed. We need to think about how the actions of our program or robot affect the environment — in this task, how many wrappers remain in each square after Anton and Boris follow their instructions. Another goal might be creating an efficient program, e.g. not sending a robot to collect wrappers where there are none."
   },
   "content_zh": {
-    "prompt": "圖中是一座被劃分成方格的花園地圖，每格標示著遊客留下的巧克力包裝紙數量。花園有兩台機器人Anton和Boris，會依照給定的移動指令，收集牠們走過的每一格裡的所有包裝紙。Anton先出發，Anton走完之後，才輪到Boris出發。",
+    "prompt": "圖中是一座被劃分成方格的花園地圖，每格標示著遊客留下的巧克力包裝紙數量。花園有兩台機器人Anton和Boris，會依照給定的移動指令，收集牠們走過的每一格裡的所有包裝紙。牠們的移動指令依序是：向上移一格、向上移一格、向左移一格。Anton先出發，Anton走完之後，才輪到Boris出發。",
     "question": "Boris總共會收集到幾張巧克力包裝紙？",
     "options": [
       {

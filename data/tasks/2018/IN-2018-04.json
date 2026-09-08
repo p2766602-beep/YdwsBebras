@@ -20,7 +20,7 @@
     "description": "下週天氣預報表(週一~週五的天氣圖示)＋操場預約表兩張表格，需完整裁切"
   },
   "content_en": {
-    "prompt": "The students want to play football during P.T. period. However: 1. They can only play football on a sunny day. 2. Outdoor activity is allowed only when wind speed is lower than 20 km/h. 3. The school ground can't be used if another class has already reserved it that day.\nWeather forecast: Mon/Tue/Wed/Thu/Fri wind speeds are 5/24/13/7/40 km/h respectively (with matching sunny/cloudy/rainy icons). Ground reservation: Class IX has reserved the ground on Monday only.",
+    "prompt": "The students want to play football during P.T. period. However: 1. They can only play football on a sunny day. 2. Outdoor activity is allowed only when wind speed is lower than 20 km/h. 3. The school ground can't be used if another class has already reserved it that day.\nWeather forecast: Monday is sunny, Tuesday is rainy, Thursday and Friday are sunny (Wednesday's weather icon is blank/missing in the original source — see note below). Wind speeds for Mon/Tue/Wed/Thu/Fri are 5/24/13/7/40 km/h respectively. Ground reservation: Class IX has reserved the ground on Monday only. [Editorial note: the original PDF's weather table leaves Wednesday's icon blank; the official answer key is only consistent if Wednesday does not count as sunny, so that has been assumed here, though whether it was meant to be cloudy or rainy specifically cannot be determined from the source.]",
     "question": "When can the students play football next week?",
     "options": [
       {
@@ -51,7 +51,7 @@
     "ct_explanation": "In databases, Data Retrieval is the process of identifying and extracting data from a database based on a set of criteria. Data retrieval typically requires writing and executing queries on a database; based on the query provided, the database looks for and retrieves the data requested."
   },
   "content_zh": {
-    "prompt": "同學們想利用體育課時間踢足球，但有三個條件限制：1.只能在晴天踢足球。2.只有風速低於每小時20公里時才能進行戶外活動。3.如果操場當天已經被別班預約，就不能用。\n下週天氣預報：週一到週五風速分別是5/24/13/7/40公里/小時（並附有晴/陰/雨等天氣圖示）。操場預約表：只有九年級班在週一預約了操場。",
+    "prompt": "同學們想利用體育課時間踢足球，但有三個條件限制：1.只能在晴天踢足球。2.只有風速低於每小時20公里時才能進行戶外活動。3.如果操場當天已經被別班預約，就不能用。\n下週天氣預報：週一是晴天、週二是雨天、週四和週五是晴天（週三的天氣圖示在原始題本裡是空白的，見下方編註）。週一到週五風速分別是5/24/13/7/40公里/小時。操場預約表：只有九年級班在週一預約了操場。〔編註：原始PDF的天氣表格裡，週三那一格的圖示是空白的；只有在「週三不算晴天」的前提下，官方公布的答案才會成立，因此這裡採用這個假設，但無法從題本判斷週三具體是陰天還是雨天。〕",
     "question": "同學們下週哪一天可以踢足球？",
     "options": [
       {

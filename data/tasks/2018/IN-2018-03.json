@@ -25,23 +25,23 @@
     "options": [
       {
         "key": "A",
-        "text": "(圖) 頭綠/胸藍/腹紅/身黃"
+        "text": "(圖) head green / chest blue / belly red / tail(back & wing) yellow"
       },
       {
         "key": "B",
-        "text": "(圖) 頭藍/胸綠/腹紅/身黃"
+        "text": "(圖) head blue / chest green / belly red / tail(back & wing) yellow"
       },
       {
         "key": "C",
-        "text": "(圖) 頭黃/胸紅/腹綠/身藍"
+        "text": "(圖) head yellow / chest red / belly green / tail(back & wing) blue"
       },
       {
         "key": "D",
-        "text": "(圖) 頭紅/胸黃/腹藍/身綠"
+        "text": "(圖) head red / chest yellow / belly blue / tail(back & wing) green"
       }
     ],
     "answer": "B",
-    "explanation": "Other combinations of colour patterns cannot be right as they do not follow the progressive colour pattern: red, blue, green and yellow. Each colour fills in only one body part of the chick: head, chest, wing, tail. The only right answer follows the colour and body part pattern established.",
+    "explanation": "Each of the four body parts (head, chest, belly, tail/back-and-wing) cycles through red, blue, green and yellow across the three known chicks, with each colour visiting each body part exactly once by the fourth chick. Tracking the head: red, yellow, green → blue is the one still missing, so chick 4's head is blue. Tracking the chest: blue, red, yellow → green is missing. Tracking the belly: yellow, green, blue → red is missing. Tracking the tail: green, blue, red → yellow is missing. This gives head blue / chest green / belly red / tail yellow, which is option B.",
     "ct_skills": "Patterns/Generalisation (PA)",
     "cs_domain": "Information Processing",
     "ct_explanation": "Data, Data Structures and Representations: Data can take many forms, for example, pictures, text or numbers. When we look at data in this question, we are looking for a sequence of images that will assist in solving the problem. By identifying these images we can make predictions, create rules and solve more general problems.\nPattern Recognition: Pattern recognition involves finding pattern or repetition within complex problems or among smaller related problems."
@@ -52,23 +52,23 @@
     "options": [
       {
         "key": "A",
-        "text": "（如圖）頭綠、胸藍、腹紅、身體黃"
+        "text": "（如圖）頭部綠、胸部藍、腹部紅、尾部（背與翅膀）黃"
       },
       {
         "key": "B",
-        "text": "（如圖）頭藍、胸綠、腹紅、身體黃"
+        "text": "（如圖）頭部藍、胸部綠、腹部紅、尾部（背與翅膀）黃"
       },
       {
         "key": "C",
-        "text": "（如圖）頭黃、胸紅、腹綠、身體藍"
+        "text": "（如圖）頭部黃、胸部紅、腹部綠、尾部（背與翅膀）藍"
       },
       {
         "key": "D",
-        "text": "（如圖）頭紅、胸黃、腹藍、身體綠"
+        "text": "（如圖）頭部紅、胸部黃、腹部藍、尾部（背與翅膀）綠"
       }
     ],
     "answer": "B",
-    "explanation": "其他花色組合都不符合「紅→藍→綠→黃」這個依序輪替的規律。每種顏色在每隻小鸚鵡身上只會出現在一個部位：頭、胸、翅膀、尾巴。只有答案B完全依照顏色與部位的輪替規律排列。",
+    "explanation": "四個部位（頭部、胸部、腹部、尾部〔含背部與翅膀〕）各自在前三隻小鸚鵡身上輪流出現紅、藍、綠、黃四種顏色，到第四隻小鸚鵡時，每個部位都會補上唯一還沒出現過的顏色。看頭部：紅、黃、綠→還缺藍色，所以第四隻頭部是藍色。看胸部：藍、紅、黃→還缺綠色。看腹部：黃、綠、藍→還缺紅色。看尾部：綠、藍、紅→還缺黃色。所以答案是頭部藍、胸部綠、腹部紅、尾部黃，對應選項B。",
     "ct_skills": "樣式辨識與一般化（Patterns/Generalisation）",
     "cs_domain": "資訊處理",
     "ct_explanation": "資料、資料結構與表示法：資料可以有很多種形式，例如圖片、文字或數字。這一題要看的資料，就是一連串能幫助我們解題的圖片序列。透過辨識這些圖片，我們就能做出預測、歸納出規則，進而解決更一般化的問題。\n樣式辨識：樣式辨識指的是在複雜問題、或多個相關的小問題之間，找出重複出現的規律或樣式。"

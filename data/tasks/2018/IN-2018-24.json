@@ -20,7 +20,7 @@
     "description": "三條替換規則圖示(房子/樹/積木的圖形替換規則)＋依序套用規則的範例演變圖；下方另有A/B/C/D四個城市圖形選項需一併裁切"
   },
   "content_en": {
-    "prompt": "People on Planet Mangal develop cities using replacement rules, starting with one house. Three rules are shown, each replacing an object with a small group of objects. For example, applying rule 1, then rule 2, then rule 3 twice produces a specific city layout (none of the objects switch places).",
+    "prompt": "People on Planet Mangal develop cities using replacement rules, starting with one house. Three rules are shown, each replacing one object with a small group of objects; at each step, any object that matches a rule's input may be replaced (the rules don't have to be applied in rule-number order, and can be reused any number of times). For example, applying rule 1, then rule 2, then rule 3 twice produces a specific city layout (none of the objects switch places).",
     "question": "Which of these cities is NOT on Planet Mangal (i.e. cannot be produced by these rules)?",
     "options": [
       {
@@ -41,13 +41,13 @@
       }
     ],
     "answer": "B",
-    "explanation": "Rule 2 says every tree gets a block on its right — but in city B, the rightmost tree has no block on its right, and no rule can make blocks disappear once created. So city B cannot be produced. (City A: rules 1,2,3,3 in order. City C: rule 1 three times. City D: rule 1, then rule 2 on each house, then rule 3 on each block.)",
+    "explanation": "Rule 2 says every tree gets a block on its right — but in city B, the rightmost tree has no block on its right, and no rule can make blocks disappear once created. So city B cannot be produced. (City A: rules 1, 2, 3, 3 in order, giving one house plus one tree with a 3-block stack. City C: rule 1 once, then rule 2 on each of the two houses, then rule 3 on each resulting block, giving two trees each with its own block stack. City D: rule 1 applied three times, giving four houses and nothing else.) [Editorial note: the original PDF's answer explanation swaps which description it attaches to 'City C' and 'City D' relative to the pictures actually labelled C and D on the question page — the mapping above has been corrected to match the images.]",
     "ct_skills": "Algorithmic Thinking (AL), Patterns (PA)",
     "cs_domain": "Algorithms and Programming",
     "ct_explanation": "This task is about rules that replace certain items with other items — in informatics, such rules are used in grammars that define the syntax of programming languages. Syntax (correct sentence construction) is different from meaning: \"The moon sleeps bubble gum\" is syntactically correct but meaningless. A programming language is just a set of strings satisfying such grammar rules — e.g. print(\"Hello\") is valid Python, but print \"Hello\") is not and produces a syntax error."
   },
   "content_zh": {
-    "prompt": "火星星球上的居民用一套「替換規則」來發展城市：一開始只有一間房子，接著依序套用三條規則，每條規則會把某個物件替換成一小群物件（例如：先套用規則1，再套用規則2，接著套用規則3兩次，就會得到某個特定的城市樣貌；替換過程中所有物件的相對位置都不會改變）。",
+    "prompt": "火星星球上的居民用一套「替換規則」來發展城市：一開始只有一間房子，接著可以任意次數、任意順序套用下面三條規則——每條規則會把「符合規則輸入的某一個物件」替換成一小群物件（不必依照規則1、2、3的編號順序套用，同一條規則也可以重複使用）。舉例來說：先套用規則1，再套用規則2，接著套用規則3兩次，就會得到某個特定的城市樣貌；替換過程中所有物件的相對位置都不會改變。",
     "question": "以下哪一座城市「不可能」是火星星球上、依照這些規則產生出來的城市？",
     "options": [
       {
@@ -68,7 +68,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "規則2規定：每一棵樹的右邊都要有一個積木——但城市B裡最右邊那棵樹右邊卻沒有積木，而且沒有任何規則能讓已經產生的積木消失，所以城市B不可能被產生出來。（城市A：依序套用規則1、2、3、3。城市C：套用規則1三次。城市D：套用規則1，接著對每間房子套用規則2，再對每個積木套用規則3。）",
+    "explanation": "規則2規定：每一棵樹的右邊都要有一個積木——但城市B裡最右邊那棵樹右邊卻沒有積木，而且沒有任何規則能讓已經產生的積木消失，所以城市B不可能被產生出來。（城市A：依序套用規則1、2、3、3，得到一間房子，加上一棵樹和一疊3個積木。城市C：套用規則1一次得到兩間房子，再對這兩間房子各套用一次規則2，接著對產生的每個積木各套用規則3，得到兩棵樹、各自帶著一疊積木。城市D：連續套用規則1三次，只會不斷產生房子，最後得到四間房子，沒有樹也沒有積木。）〔編註：原始PDF的解析文字裡，「城市C」與「城市D」對應的描述，跟題目頁實際標示C、D的圖片是對調的；以上說明已依照實際圖片修正對應關係。〕",
     "ct_skills": "演算法思維（Algorithmic Thinking）、樣式辨識（Patterns）",
     "cs_domain": "演算法與程式設計",
     "ct_explanation": "這一題探討的是「用某些規則把物件替換成其他物件」——在資訊科學裡，這種規則被用在「文法」中，用來定義程式語言的語法規則。「語法」（句子的正確構造方式）跟「語意」（意思）是兩回事：例如「月亮睡著了泡泡糖」這句話語法正確，但沒有意義。程式語言其實就是一組符合特定文法規則的字串集合——例如 print(\"Hello\") 是合法的Python程式，但 print \"Hello\") 就不合法，執行時會產生語法錯誤。"

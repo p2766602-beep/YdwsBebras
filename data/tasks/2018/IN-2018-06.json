@@ -71,7 +71,7 @@
     "explanation": "第1次(黃色)沒套中=0分，第2次(藍色)套中=4分，第3次(粉紅色)沒套中=0分，第4次(綠色)套中=2分，第5次(黑色)沒套中=0分。總分＝4+2＝6分。",
     "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）、拆解（Decomposition）",
     "cs_domain": "資訊處理",
-    "ct_explanation": "這些圈圈可以想成是用「堆疊(stack)」這種資料結構管理的資料封包。這是一個排序性的問題——電腦是依照順序分析資料的，資料必須先妥善組織好，才能被處理並幫助我們找出答案。"
+    "ct_explanation": "這些圈圈可以想成是用「堆疊(stack)」這種資料結構管理的資料封包。這其實是一個判讀先後順序的問題——電腦是依照順序分析資料的，資料必須先妥善組織好，才能被處理並幫助我們找出答案。"
   },
   "translation_status": "draft_by_claude_pending_review"
 }

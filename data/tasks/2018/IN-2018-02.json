@@ -30,13 +30,7 @@
     "filename": "IN-2018-02.png",
     "path": "assets/images/india/2018/IN-2018-02.png",
     "status": "已裁切完成",
-    "description": "四色方塊轉盤示意圖：左邊「按一次前」的狀態(紅/綠/藍/黃四象限)＋箭頭＋右邊「按一次後」的狀態(藍/紅/黃/綠)，說明順時針旋轉規則；下方另有A)B)C)D)四個選項小圖需一併裁切（options_asset另存）"
-  },
-  "options_asset": {
-    "filename": "IN-2018-02-options.png",
-    "path": "assets/images/india/2018/IN-2018-02-options.png",
-    "status": "待使用者裁切提供",
-    "description": "四個選項小圖(A/B/C/D)，皆為2x2四色方塊排列，顏色位置不同"
+    "description": "四色方塊轉盤示意圖：左邊「按一次前」的狀態(紅/綠/藍/黃四象限)＋箭頭＋右邊「按一次後」的狀態(藍/紅/黃/綠)，說明順時針旋轉規則；下方已包含A)B)C)D)四個選項小圖"
   },
   "content_en": {
     "prompt": "Here is a simple push square game. The colours rotate every time the centre button is pressed:",
@@ -44,23 +38,23 @@
     "options": [
       {
         "key": "A",
-        "text": "(圖) 綠/黃/紅/藍"
+        "text": "(圖) top-left/top-right/bottom-left/bottom-right = green/yellow/red/blue"
       },
       {
         "key": "B",
-        "text": "(圖) 黃/藍/綠/紅"
+        "text": "(圖) top-left/top-right/bottom-left/bottom-right = yellow/blue/green/red"
       },
       {
         "key": "C",
-        "text": "(圖) 黃/綠/藍/紅"
+        "text": "(圖) top-left/top-right/bottom-left/bottom-right = yellow/green/blue/red"
       },
       {
         "key": "D",
-        "text": "(圖) 綠/紅/黃/藍"
+        "text": "(圖) top-left/top-right/bottom-left/bottom-right = green/red/yellow/blue"
       }
     ],
     "answer": "B",
-    "explanation": "(答案為圖片：黃-藍-綠-紅的方塊排列，對應選項B)",
+    "explanation": "Each press rotates every square one position clockwise (top-left→top-right→bottom-right→bottom-left→top-left). Starting from the 'after 1 press' state (top-left=blue, top-right=red, bottom-left=yellow, bottom-right=green) and rotating once more: top-left becomes the old bottom-left (yellow), top-right becomes the old top-left (blue), bottom-right becomes the old top-right (red), and bottom-left becomes the old bottom-right (green) — giving top-left/top-right/bottom-left/bottom-right = yellow/blue/green/red, which is option B.",
     "ct_skills": "Algorithmic Thinking (AL), Patterns/Generalisation (PA)",
     "cs_domain": "Algorithms and programming",
     "ct_explanation": "This problem involves following a series of steps and keeping track of:\n- the current state\n- whether that state is what the current orientation looks like\n- or what is in the top-left corner (which can be used to determine the position of the other three colours)."
@@ -71,23 +65,23 @@
     "options": [
       {
         "key": "A",
-        "text": "（如圖）綠/黃/紅/藍排列"
+        "text": "（如圖）左上/右上/左下/右下＝綠／黃／紅／藍"
       },
       {
         "key": "B",
-        "text": "（如圖）黃/藍/綠/紅排列"
+        "text": "（如圖）左上/右上/左下/右下＝黃／藍／綠／紅"
       },
       {
         "key": "C",
-        "text": "（如圖）黃/綠/藍/紅排列"
+        "text": "（如圖）左上/右上/左下/右下＝黃／綠／藍／紅"
       },
       {
         "key": "D",
-        "text": "（如圖）綠/紅/黃/藍排列"
+        "text": "（如圖）左上/右上/左下/右下＝綠／紅／黃／藍"
       }
     ],
     "answer": "B",
-    "explanation": "正確答案是選項B（黃-藍-綠-紅的排列）：只要跟著旋轉規則再轉一格，就會得到這個結果。",
+    "explanation": "每按一次按鈕，每個方塊都會順時針移動一個位置（左上→右上→右下→左下→左上）。從「按一次之後」的狀態（左上＝藍、右上＝紅、左下＝黃、右下＝綠）出發，再轉一次：左上會變成原本左下的顏色（黃），右上會變成原本左上的顏色（藍），右下會變成原本右上的顏色（紅），左下會變成原本右下的顏色（綠）——也就是左上/右上/左下/右下＝黃／藍／綠／紅，正好對應選項B。",
     "ct_skills": "演算法思維（Algorithmic Thinking）、樣式辨識與一般化（Patterns/Generalisation）",
     "cs_domain": "演算法與程式設計",
     "ct_explanation": "這一題的重點是持續追蹤一連串步驟的狀態，包括：\n・目前的狀態是什麼\n・目前這個狀態跟原始方向相比是什麼樣子\n・或者只要記住左上角是什麼顏色，就能推算出其他三個顏色的位置。"

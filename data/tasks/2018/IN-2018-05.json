@@ -25,23 +25,23 @@
     "options": [
       {
         "key": "A",
-        "text": "(圖) 白玫瑰／藍鬱金香／白百合花苞／黃百合x2／藍色小花"
+        "text": "(圖) 花束 A"
       },
       {
         "key": "B",
-        "text": "(圖) 三朵玫瑰組合"
+        "text": "(圖) 花束 B"
       },
       {
         "key": "C",
-        "text": "(圖) 白色系花朵組合"
+        "text": "(圖) 花束 C"
       },
       {
         "key": "D",
-        "text": "(圖) 黃百合位置不同的變化組合"
+        "text": "(圖) 花束 D"
       }
     ],
-    "answer": "A",
-    "explanation": "錯誤選項分別是：某束裡有三朵白花（違反規則1）；某束裡有三朵玫瑰（違反規則3：同種花最多兩朵）；某束裡有兩朵同種類又同顏色的花（違反規則2）。只有A完全符合三個條件。",
+    "answer": "D",
+    "explanation": "A has three white flowers, breaking rule 1 (there must be exactly two of each colour). B has three roses, breaking rule 3 (every type of flower should appear at most twice). C has two flowers of the same type in the same colour, breaking rule 2 (flowers of the same type must not share a colour). Only D has two flowers of each colour, no flower type appearing more than twice, and no two same-type flowers sharing a colour — satisfying all three rules.",
     "ct_skills": "Algorithmic Thinking (AL), Evaluation (EV)",
     "cs_domain": "Algorithms and programming",
     "ct_explanation": "Computer science often involves solving problems specified by a set of constraints. The task is to find a solution that satisfies all these constraints or as many as possible. More complex tasks combine constraints with logical operators like conjunction (A and B means both must be satisfied, like the three rules here) or disjunction (A or B means satisfying just one is enough)."
@@ -52,23 +52,23 @@
     "options": [
       {
         "key": "A",
-        "text": "（如圖）白玫瑰、藍鬱金香、白百合花苞、兩朵黃百合、一朵藍色小花"
+        "text": "（如圖）花束A"
       },
       {
         "key": "B",
-        "text": "（如圖）含三朵玫瑰的花束"
+        "text": "（如圖）花束B"
       },
       {
         "key": "C",
-        "text": "（如圖）偏白色系的花束"
+        "text": "（如圖）花束C"
       },
       {
         "key": "D",
-        "text": "（如圖）黃百合位置不同的變化花束"
+        "text": "（如圖）花束D"
       }
     ],
-    "answer": "A",
-    "explanation": "錯誤的三個選項分別違反了不同規則：有一束裡有三朵白花（違反「顏色各兩朵」）；有一束裡有三朵玫瑰（違反「同種花最多兩朵」）；有一束裡出現兩朵同種類又同顏色的花（違反「同種花不能同色」）。只有選項A同時符合三個條件。",
+    "answer": "D",
+    "explanation": "花束A裡有三朵白花，違反規則1（每種顏色必須剛好兩朵）。花束B裡有三朵玫瑰，違反規則3（每種花最多只能出現兩次）。花束C裡有兩朵同種類又同顏色的花，違反規則2（同一種花不能有相同顏色）。只有花束D同時符合三個條件：每種顏色各兩朵、每種花最多兩朵、而且沒有同種花同色的情形。",
     "ct_skills": "演算法思維（Algorithmic Thinking）、評估（Evaluation）",
     "cs_domain": "演算法與程式設計",
     "ct_explanation": "資訊科學裡經常要解決「由一組限制條件所定義」的問題，任務就是找出一個能滿足所有（或盡量多）限制條件的解答。更複雜的任務會用邏輯運算子把限制條件組合起來，例如「且」（A且B表示兩個條件都要滿足，就像這題的三條規則）或「或」（A或B表示只要滿足其中一個就夠了）。"

@@ -17,7 +17,7 @@
     "status": "確認為純文字題，不需要圖片"
   },
   "content_en": {
-    "prompt": "Shyam received a chest of gold locked with a 9-digit electronic code. Hints: The only digits used are 2, 6, 7, 9. The highest-value digit is used the fewest times. The lowest-value digit is used the most times. The code reads the same in reverse (a palindrome). All consecutive digits are different. The last digit is odd.",
+    "prompt": "Shyam received a chest of gold locked with a 9-digit electronic code. Hints: The code is made up of the digits 2, 6, 7, 9 — all four appear, and no other digit is used. The highest-value digit is used the fewest times. The lowest-value digit is used the most times. The code reads the same in reverse (a palindrome). All consecutive digits are different. The last digit is odd.",
     "question": "With the information given above, can you determine the pass code?",
     "options": [
       {
@@ -44,7 +44,7 @@
     "ct_explanation": "This task appears not to give enough information at first, but taking small steps through the hints shows you don't need to try all combinations. Computational thinking is about analysing a problem and finding a clever way to a solution — a computer could brute-force try all combinations, but logical reasoning lets you reason your way to a single answer directly. This is known as knowledge-based reasoning: using existing knowledge plus reasoning skills to infer new facts and solve problems."
   },
   "content_zh": {
-    "prompt": "Shyam收到一箱用電子鎖鎖住的黃金，密碼是9位數。線索如下：密碼裡只會用到2、6、7、9這四個數字。數值最大的數字，出現次數最少。數值最小的數字，出現次數最多。密碼倒過來讀跟正著讀一樣（回文）。相鄰的數字一定不同。最後一位數字是奇數。",
+    "prompt": "Shyam收到一箱用電子鎖鎖住的黃金，密碼是9位數。線索如下：密碼由2、6、7、9這四個數字組成，四種都會出現、不會有其他數字。數值最大的數字，出現次數最少。數值最小的數字，出現次數最多。密碼倒過來讀跟正著讀一樣（回文）。相鄰的數字一定不同。最後一位數字是奇數。",
     "question": "根據以上線索，能不能推算出密碼是多少？",
     "options": [
       {

@@ -17,7 +17,7 @@
     "filename": "IN-2018-26.png",
     "path": "assets/images/india/2018/IN-2018-26.png",
     "status": "已裁切完成",
-    "description": "兩張桌子(Table1: 4人座, Table2: 5人座)的示意圖，以及動物角色插圖"
+    "description": "兩張桌子(Table1: 4人座, Table2: 5人座)的示意圖，以及動物角色插圖；已在原有英文名稱下方加註中文名稱（含區分鹿／馴鹿）"
   },
   "content_en": {
     "prompt": "Mr. Beaver is friends with all the forest animals, but some of them are not friends with others: 1. The Rabbit is not a friend of the Fox, but is a friend of the Bear. 2. The Squirrel is not a friend of the Bear, but is a friend of the Fox. 3. The Owl is a friend of the Reindeer, but quarrels with the Raccoon. 4. The Reindeer quarrels with the Deer and the Hedgehog; the Raccoon is a friend of the Rabbit, but quarrels with the Fox. Mr. Beaver arranges two tables (Table 1: 4 seats, Table 2: 5 seats) so animals at each table don't quarrel, and friends sit together.",
@@ -41,7 +41,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "The Reindeer quarrels with both Deer and Hedgehog; since Deer and Hedgehog don't quarrel with each other, seat Reindeer at Table 1 and Deer+Hedgehog at Table 2. The Owl is a friend of Reindeer, so they sit together at Table 1. The Owl quarrels with the Raccoon, so Raccoon goes to Table 2. The Raccoon quarrels with the Fox, so Fox must sit at Table 1 — giving Table 1: Fox, Owl, Reindeer, Squirrel (continuing to place remaining friends consistently).",
+    "explanation": "The Reindeer quarrels with both Deer and Hedgehog; since Deer and Hedgehog don't quarrel with each other, seat Reindeer at Table 1 and Deer+Hedgehog at Table 2. The Owl is a friend of Reindeer, so they sit together at Table 1. The Owl quarrels with the Raccoon, so Raccoon goes to Table 2. The Raccoon quarrels with the Fox, so Fox must sit at Table 1. The Squirrel is a friend of the Fox, so it joins Table 1 too — giving Table 1: Fox, Owl, Reindeer, Squirrel. The remaining five animals (Bear, Rabbit, Raccoon, Deer, Hedgehog) sit at Table 2, which also satisfies the friend/quarrel constraints.",
     "ct_skills": "Evaluation (EV), Abstraction (AB)",
     "cs_domain": "Discrete modelling",
     "ct_explanation": "This is a common real-life problem: grouping elements of a set into subsets given pairwise constraints (here, animals that quarrel). Such problems are normally solved by looking at their \"graph\" — vertices connected by edges — and asking whether the graph is bipartite, i.e. whether its vertices can be split into two disjoint independent sets such that every edge connects one set to the other."
@@ -68,7 +68,7 @@
       }
     ],
     "answer": "C",
-    "explanation": "馴鹿跟鹿、刺蝟都處不好；而鹿和刺蝟彼此不吵架，所以可以把馴鹿安排在1號桌、鹿和刺蝟安排在2號桌。貓頭鷹是馴鹿的朋友，所以要跟馴鹿同坐1號桌。貓頭鷹跟浣熊處不好，所以浣熊要坐2號桌。浣熊又跟狐狸處不好，所以狐狸必須坐1號桌——這樣就推出1號桌是：狐狸、貓頭鷹、馴鹿、松鼠（其餘動物再依朋友關係依序安排，邏輯一致）。",
+    "explanation": "馴鹿跟鹿、刺蝟都處不好；而鹿和刺蝟彼此不吵架，所以可以把馴鹿安排在1號桌、鹿和刺蝟安排在2號桌。貓頭鷹是馴鹿的朋友，所以要跟馴鹿同坐1號桌。貓頭鷹跟浣熊處不好，所以浣熊要坐2號桌。浣熊又跟狐狸處不好，所以狐狸必須坐1號桌。松鼠是狐狸的朋友，所以也坐1號桌——這樣就推出1號桌是：狐狸、貓頭鷹、馴鹿、松鼠。剩下的熊、兔子、浣熊、鹿、刺蝟共5隻動物則安排在2號桌，同樣符合朋友同桌、不吵架的條件。",
     "ct_skills": "評估（Evaluation）、抽象化（Abstraction）",
     "cs_domain": "離散建模",
     "ct_explanation": "這是生活中很常見的問題：把一群物件依照「兩兩之間的限制關係」（這裡是「彼此處不好的動物」）分成好幾個子集合。這類問題通常會畫成「圖」來解——頂點之間用邊連接，再判斷這個圖是不是「二分圖」，也就是能不能把所有頂點分成兩個互不相交的獨立集合，讓每一條邊都是連接兩個不同集合的頂點。"

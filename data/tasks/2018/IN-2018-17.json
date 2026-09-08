@@ -17,7 +17,7 @@
     "status": "確認為純文字題，不需要圖片"
   },
   "content_en": {
-    "prompt": "Every library book has a Standard Book Number (SBN) of 13 digits. The 13th (rightmost) 'check digit' is calculated: 1. A = sum of digits in odd positions (1st,3rd,5th,7th,9th,11th). 2. B = sum of digits in even positions (2nd,4th,6th,8th,10th,12th). 3. C = A + 3×B. 4. The check digit is the rightmost digit of C. A book's SBN is 978604803078?, with the check digit missing.",
+    "prompt": "Every library book has a Standard Book Number (SBN) of 13 digits, numbered left to right. The 13th (rightmost) 'check digit' is calculated: 1. A = sum of digits in odd positions (1st,3rd,5th,7th,9th,11th). 2. B = sum of digits in even positions (2nd,4th,6th,8th,10th,12th). 3. C = A + 3×B. 4. The check digit is the rightmost digit of C. A book's SBN is 978604803078?, with the check digit missing.",
     "question": "What is the missing digit?",
     "options": [
       {
@@ -44,7 +44,7 @@
     "ct_explanation": "The International Standard Book Number (ISBN) is a unique commercial book identifier; an ISBN is assigned to each edition/variation of a book (e.g. e-book, paperback, hardcover each get a different ISBN). The 2005 edition of the International ISBN Agency's official manual describes how the 13-digit ISBN check digit is calculated, using modular arithmetic on the first 12 digits."
   },
   "content_zh": {
-    "prompt": "圖書館裡每本書封面都有一組13位數的標準書號(SBN)。第13位（最右邊）的「檢查碼」計算方式如下：1.A＝所有奇數位(第1、3、5、7、9、11位)數字的總和。2.B＝所有偶數位(第2、4、6、8、10、12位)數字的總和。3.C＝A + 3×B。4.取C的個位數作為檢查碼。有一本書的書號是978604803078?，其中檢查碼遺失了。",
+    "prompt": "圖書館裡每本書封面都有一組13位數的標準書號(SBN)。位數由左至右計算，第13位（最右邊）的「檢查碼」計算方式如下：1.A＝所有奇數位(第1、3、5、7、9、11位)數字的總和。2.B＝所有偶數位(第2、4、6、8、10、12位)數字的總和。3.C＝A + 3×B。4.取C的個位數作為檢查碼。有一本書的書號是978604803078?，其中檢查碼遺失了。",
     "question": "遺失的檢查碼是多少？",
     "options": [
       {

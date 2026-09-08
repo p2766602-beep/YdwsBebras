@@ -14,7 +14,7 @@
   "license_source_note": "Copyright © 2018 Bebras, Bebras India. 原始出處國：Croatia",
   "interaction_type": "single_choice",
   "asset": {
-    "status": "確認為純文字題，不需要圖片"
+    "status": "原題有情境插圖（踢足球的人物），非作答必要，數位版省略"
   },
   "content_en": {
     "prompt": "Manju, Dravid, Ila, and Manoj were playing football near teacher Anita's house; one of them broke her window. Anita knows three of them always tell the truth, but is unsure about the fourth. They said: Manoj: \"I haven't broken the window.\" Ila: \"Manoj or Dravid broke the window.\" Manju: \"Dravid broke the window.\" Dravid: \"No, Manju, you lie!\"",

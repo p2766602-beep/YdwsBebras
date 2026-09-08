@@ -47,7 +47,7 @@
     "ct_explanation": "The map is a directed graph (digraph): vertices (cities) connected by directed edges (one-way roads). A directed graph can also be represented as an adjacency matrix, like the table in this task. Representing data in multiple ways is very common in computer science — pictures are visual and nice for humans to read, while matrix/table forms can be easier for computers to manipulate."
   },
   "content_zh": {
-    "prompt": "Ravi報名玩一個地圖遊戲，玩家拿到的不是地圖，而是一張表格。表格裡有六個城市A-F，表格中的箭頭代表「從列所在城市到欄所在城市」有一條單向道路；沒有箭頭就代表這兩個城市之間沒有直達道路（例如：從B城到C城有單向道路，但B城到D城沒有）。",
+    "prompt": "Ravi報名玩一個地圖遊戲，玩家拿到的不是地圖，而是一張表格。表格裡有六個城市A-F，表格中的箭頭代表「從列所在城市到欄所在城市」有一條單向道路；若某格沒有箭頭，表示沒有從該列城市直達該欄城市的單向道路（例如：從B城到C城有單向道路，但B城到D城沒有；這並不代表反方向、也就是D城到B城，也一定沒有路）。",
     "question": "以下哪一段路程，最少需要三條單向道路才能到達？",
     "options": [
       {
@@ -68,7 +68,7 @@
       }
     ],
     "answer": "B",
-    "explanation": "C→A→B只需要2條路（所以選項A錯）。從A城出發，只能先到B城、再到C城，還需要至少再走一條路才能到D城，所以至少需要3條路（選項B正確）。A→B→C只需要2條路（選項C錯）。B→C→E只需要2條路（選項D錯）。",
+    "explanation": "C→A→B只需要2條路（所以選項A錯）。從A城出發，只能先到B城、再到C城，還需要至少再走一條路才能到D城（完整路徑為A→B→C→D，共3條路），所以至少需要3條路（選項B正確）。A→B→C只需要2條路（選項C錯）。B→C→E只需要2條路（選項D錯）。",
     "ct_skills": "拆解（Decomposition）、抽象化（Abstraction）、演算法思維（Algorithmic Thinking）",
     "cs_domain": "離散建模",
     "ct_explanation": "這張地圖其實就是一個「有向圖」：城市是頂點，單向道路是連接頂點的有向邊。有向圖也可以用「鄰接矩陣」這種表格形式來表示，就像這一題給的表格一樣。用多種方式表示同一份資料，在資訊科學裡非常常見——圖像對人類來說直觀好讀，而表格/矩陣形式則往往更方便電腦處理運算。"

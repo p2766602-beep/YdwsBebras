@@ -20,7 +20,7 @@
     "description": "河流與三個瀑布(編號1/2/3)、多座魔法橋的示意圖，含物品(紅蘿蔔/魚/木頭)經過每座橋會變成什麼的範例圖"
   },
   "content_en": {
-    "prompt": "Mahi can drop either a carrot or a fish down one of three waterfalls (1, 2, 3). There are magical bridges on the stream, and items magically change when they pass under a bridge (e.g. a carrot passing under one bridge changes to a fish).",
+    "prompt": "Mahi (upstream) can drop either a carrot or a fish down one of three waterfalls (1, 2, 3), and the item flows downstream to Jai. There are magical bridges on the stream, each showing a picture of one item turning into another (e.g. a carrot turning into a fish); an item only changes when it matches the picture shown on the bridge it passes under — otherwise it passes through unchanged.",
     "question": "Mahi wants to send Jai a piece of wood. Which item should Mahi drop and where?",
     "options": [
       {
@@ -47,7 +47,7 @@
     "ct_explanation": "A computer reads input and writes output, following instructions humans write beforehand. In functional programming, a program is built from many functions that take input and produce output — the bridges here are like little functions, and the full system is like a program written in a functional programming language."
   },
   "content_zh": {
-    "prompt": "Mahi可以把紅蘿蔔或魚丟進三個瀑布（1、2、3號）的其中一個。溪流上有好幾座魔法橋，物品經過橋下時會神奇地變成別的東西（例如紅蘿蔔經過某座橋會變成魚）。",
+    "prompt": "住在上游的Mahi，可以把紅蘿蔔或魚丟進三個瀑布（1、2、3號）的其中一個，物品會順流而下，最後送到住在下游的Jai手上。溪流上有好幾座魔法橋，每座橋上都畫著「某物品變成另一物品」的圖示（例如紅蘿蔔變成魚）；物品只有在符合橋上圖示左邊那個東西時，經過橋下才會變成圖示右邊的東西，否則會維持原樣通過。",
     "question": "Mahi想送一塊木頭給Jai。她應該丟什麼東西、從哪個瀑布丟下去？",
     "options": [
       {

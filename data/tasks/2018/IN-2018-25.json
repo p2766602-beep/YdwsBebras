@@ -18,7 +18,7 @@
   },
   "content_en": {
     "prompt": "A diagnostic device shakes specimens according to a numbered-line program. It reads one line at a time and executes it immediately; \"go to X\" jumps to line X. The program can store a number A, add 1 to A, and compare A to another number.\nThe Program:\n1. set A to 0\n2. add 1 to A\n3. go to 6\n4. if A equals 60 go to 8\n5. set A to 0\n6. add 1 to A\n7. go to 2\n8. repeat A times to shake the specimens\n9. end",
-    "question": "How many times will the device shake the specimens when this program is run?",
+    "question": "As this program runs, how many times will the device shake the specimens?",
     "options": [
       {
         "key": "A",
@@ -45,7 +45,7 @@
   },
   "content_zh": {
     "prompt": "醫療實驗室裡有一台診斷裝置，會依照一支用編號行寫成的程式來搖晃檢體。裝置每次讀取一行指令就立刻執行；「go to X」代表跳到第X行繼續執行。這支程式可以儲存一個數字A、把A加1、並比較A跟另一個數字的大小。\n程式內容：\n1. 把A設為0\n2. 把A加1\n3. 跳到第6行\n4. 如果A等於60，跳到第8行\n5. 把A設為0\n6. 把A加1\n7. 跳到第2行\n8. 重複搖晃檢體A次\n9. 結束",
-    "question": "執行這支程式後，裝置總共會搖晃檢體幾次？",
+    "question": "這支程式執行時，裝置總共會搖晃檢體幾次？",
     "options": [
       {
         "key": "A",

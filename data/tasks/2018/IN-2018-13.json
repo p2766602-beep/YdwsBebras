@@ -20,7 +20,7 @@
     "description": "1/2/4/8/16/32公升六種容量空瓶的圖示"
   },
   "content_en": {
-    "prompt": "Janvi made 37 litres of Lemon Sherbet and wants to take it to school. She has empty bottles in sizes 1, 2, 4, 8, 16, 32 litres (unlimited quantity of each), and wants to use the minimum number of bottles.",
+    "prompt": "Janvi made 37 litres of Lemon Sherbet and wants to take it to school. She has empty bottles in sizes 1, 2, 4, 8, 16, 32 litres (as shown in the picture), and wants to use the minimum number of bottles. [Editorial clarification, not stated explicitly in the original: each bottle she chooses to use must be filled completely, and the bottles used must add up to exactly 37 litres with nothing left over.]",
     "question": "What is the minimum number of bottles that Janvi needs?",
     "options": [
       {
@@ -47,7 +47,7 @@
     "ct_explanation": "The binary number system is central to computation. The bottle volumes keep doubling, just like the place values of a binary number. Converting a base-10 number to binary uses a simple trick: repeatedly select the largest bit (power of two) that still fits in the remaining amount. To solve 37: largest that fits is 32 (5 left), largest that fits 5 is 4 (1 left), largest that fits 1 is 1. 32+4+1=37, done."
   },
   "content_zh": {
-    "prompt": "Janvi在家做了37公升的檸檬雪酪，想帶去學校辦派對。她有1、2、4、8、16、32公升六種容量的空瓶（每種數量不限），她想用最少數量的瓶子裝完。",
+    "prompt": "Janvi在家做了37公升的檸檬雪酪，想帶去學校辦派對。她有1、2、4、8、16、32公升六種容量的空瓶（如圖所示），她想用最少數量的瓶子裝完。〔編註：原題沒有明講的條件——她選用的每一個瓶子都必須裝滿，而且用來裝雪酪的瓶子容量加起來必須剛好等於37公升，不能有剩餘。〕",
     "question": "Janvi最少需要幾個瓶子？",
     "options": [
       {
